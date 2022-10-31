@@ -31,7 +31,7 @@ File URL origin: **\.php\?(.*=){3}.+$**
 
 **Microsoft Sentinel KQL / Defender Threat Hunting blade**
 
-```
+```kusto
 let url=dynamic(["setman.es","tavernelentrepot.be","termowood.net","textfabrik.de","sfl.hu","seyhanaluminyum.com","theodoraross.com","theairtrekstory.com","tavernelentrepot.be","serphero.com","shisharealty.com","sheffieldcoronarysociety.org.uk","thomadaneau.com","theodoraross.com","theairtrekstory.com","secora.cl"]);
 let regx1=@"\((\d{5})\)\.zip";
 let regx2=@"\.php\?(.*=){3}.+$";
