@@ -21,9 +21,8 @@ Run the following threat hunting search on files and URLs that might be download
 
 #### Non-KQL SIEM, search on the following regex-pattern on Files and File download origin
 
-File: `\((\d{4,6})\)\.zip`
-
-File URL origin: `\.php\?(.*=){3}.+$`
+- File: `\((\d{4,6})\)\.zip`
+- File URL origin: `\.php\?(.*=){3}.+$`
 
 #### Microsoft Sentinel KQL / Defender Threat Hunting blade
 
