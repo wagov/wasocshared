@@ -1,7 +1,7 @@
-# WA SOC TLP:WHITE Resources
+# WA Security Operations Centre (WA SOC)
 
-This content site is used to publish TLP:GREEN content for the WA SOC.
+This content site is used to publish TLP:WHITE content for the WA SOC.
 
-## Advisories
+## TLP:WHITE Resources
 
-- 2022/10/28 - [SEO poisoning targeting public sector (Gootloader) Advisory - 20221028001](advisories/20221028001-seopoisoning-gootloader-advisory.md)
+- [Advisories](advisories.md)
