@@ -60,7 +60,7 @@ Please be advised of the following observed IOCs for detection in your environme
 
 Note the below domains have not been defanged, please exercise caution when utilising.
 
-```bash
+```text
 https://www.setman.es/content.php
 tavernelentrepot.be/xml.php
 termowood.net/xml.php
