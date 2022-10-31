@@ -25,7 +25,7 @@ Run the following threat hunting search on files and URLs that might be download
 
 **Non-KQL SIEM, search on the following regex-pattern on Files and File download origin:**
 
-File: **\((\d{5})\)\.zip**
+File: **\((\d{4,6})\)\.zip**
 
 File URL origin: **\.php\?(.*=){3}.+$**
 
@@ -33,7 +33,7 @@ File URL origin: **\.php\?(.*=){3}.+$**
 
 ```kusto
 let url=dynamic(["setman.es","tavernelentrepot.be","termowood.net","textfabrik.de","sfl.hu","seyhanaluminyum.com","theodoraross.com","theairtrekstory.com","tavernelentrepot.be","serphero.com","shisharealty.com","sheffieldcoronarysociety.org.uk","thomadaneau.com","theodoraross.com","theairtrekstory.com","secora.cl"]);
-let regx1=@"\((\d{5})\)\.zip";
+let regx1=@"\((\d{4,6})\)\.zip";
 let regx2=@"\.php\?(.*=){3}.+$";
 union withsource=tablename_ DeviceNetworkEvents,DeviceFileEvents
 | where RemoteUrl has_any (url) or FileOriginUrl has_any (url) or (FileName matches regex regx1 and FileOriginUrl matches regex regx2)
