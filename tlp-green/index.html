@@ -28,7 +28,7 @@
         // This fixes tokens in urls so blob content etc works.
         var patchLinking = function (hook, vm) {
             hook.beforeEach(function (markdown) {
-                // workaround for stripping .md of links
+                // workaround for stripping .md from internal urls, see https://github.com/docsifyjs/docsify/blob/v4.13.0/src/core/router/history/base.js#L74
                 markdown = markdown.replace("\.md)", "\.md.md)");
                 return markdown;
             });
@@ -40,9 +40,12 @@
             auto2top: true,
             subMaxLevel: 3,
             relativePath: true,
-            ext: "", // workaround for stripping .md of links, see patchLinking
-            plugins: [patchLinking] // add the plugin to the docsify configuration
-            alias: { '/([^?]*)': '/$1' + window.location.search } // preserve token in url
+            ext: "", // workaround for adding .md to all links
+            plugins: [patchLinking], // add plugin to docsify configuration
+            alias: { // use alias to preserve token in url
+                '/': '/README.md',
+                '/([^?]*)': '/$1' + window.location.search
+            }
         };
     </script>
 
