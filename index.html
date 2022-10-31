@@ -3,49 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>WA SOC Shared Markdown</title>
+    <title>WA SOC Shared Resources</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- Theme: Simple (light + dark) -->
     <link rel="stylesheet" media="(prefers-color-scheme: light)"
-        href="https://unpkg.com/docsify-themeable@0/dist/css/theme-simple.css">
+        href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css">
     <link rel="stylesheet" media="(prefers-color-scheme: dark)"
-        href="https://unpkg.com/docsify-themeable@0/dist/css/theme-simple-dark.css">
+        href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css">
     <style>
         :root {
-            --theme-hue: 325;
+            --theme-color: #cc5733;
         }
     </style>
 </head>
 
 <body>
     <div id="app"></div>
+
     <script>
-        const sastoken = window.location.search;
+        // Docsify Configuration
         window.$docsify = {
-            relativePath: true,
-            auto2top: false,
-            routes: {
-                '/(.*)': function (route, matched, next) {
-                    if (route == "/") {
-                        route = "/README.md";
-                    } else if (!route.endsWith(".md")) {
-                        route = route + ".md";
-                    }
-                    fetch(window.location.pathname + route + sastoken).then(function (response) {
-                        return response.text();
-                    }).then(function (text) {
-                        next(text);
-                    });
-                }
-            }
-        }
+            name: "WA SOC Shared Resources",
+            loadSidebar: "sidebar.md",
+            loadNavbar: "navbar.md",
+            auto2top: true,
+            subMaxLevel: 3,
+            ext: '' // Disable extension appending to preserve SAS tokens
+        };
     </script>
+
+    <!-- docsify + docsify-themeable -->
     <script src="https://unpkg.com/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://unpkg.com/docsify-themeable@0"></script>
+
+    <!-- Docsify Plugins -->
     <script src="https://unpkg.com/docsify-copy-code@2"></script>
-    <script src="https://unpkg.com/prismjs@1/components/prism-kusto.js"></script>
+    <script src="https://unpkg.com/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+    <script src="https://unpkg.com/docsify@4/lib/plugins/zoom-image.min.js"></script>
 </body>
 
 </html>
