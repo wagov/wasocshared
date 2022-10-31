@@ -62,8 +62,6 @@ Please be advised of the following observed IOCs for detection in your environme
 | File (Hash) | Water corporation enterprise agreement 2018 wa (49326).zip                                                                            | Gootkit Malicious file - Downloaded |
 | File (Hash) | Queensland rail network enterprise agreement (39681)                                                                                  | Gootkit Malicious file - Downloaded |
 
-**Sample of malicious file names**
-
 **Notes**: *The file names do not indicate/ related to affected agencies. The file names are tailored to potential SEO keywords that unknowing users might be interested to search in Google*
 
 **Domain Name**
