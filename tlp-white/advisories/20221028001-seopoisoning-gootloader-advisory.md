@@ -54,28 +54,28 @@ Please be advised of the following observed IOCs for detection in your environme
 | File (Hash) | Water corporation enterprise agreement 2018 wa (49326).zip                                                                            | Gootkit Malicious file - Downloaded |
 | File (Hash) | Queensland rail network enterprise agreement (39681)                                                                                  | Gootkit Malicious file - Downloaded |
 
-**Notes**: *The file names do not indicate/ related to affected agencies. The file names are tailored to potential SEO keywords that unknowing users might be interested to search in Google*
+**Note**: *The file names do not indicate/ related to affected agencies. The file names are tailored to potential SEO keywords that unknowing users might be interested to search in Google*
 
 ### Domain Names
 
-| Domain                                 |
-| ----------------------------------------------- |
-| hxxps://www.setman.es/content.php               |
-| tavernelentrepot\[.\]be/xml.php                 |
-| termowood\[.\]net/xml.php                       |
-| textfabrik\[.\]de/xml.php                       |
-| hxxps://www.sfl\[.\]hu                          |
-| hxxps://www.seyhanaluminyum\[.\]com             |
-| hxxps://theodoraross\[.\]com                    |
-| hxxps://theairtrekstory\[.\]com                 |
-| hxxps://tavernelentrepot\[.\]be                 |
-| hxxps://www.serphero\[.\]com                    |
-| hxxps://www.shisharealty\[.\]com                |
-| hxxps://www.sheffieldcoronarysociety\[.\]org.uk |
-| thomadaneau\[.\]com/xml.php                     |
-| theodoraross\[.\]com/xml.php                    |
-| theairtrekstory\[.\]com/xml.php                 |
-| hxxps://www.secora\[.\]cl                       |
+```bash
+hxxps://www.setman.es/content.php
+tavernelentrepot\[.\]be/xml.php
+termowood\[.\]net/xml.php
+textfabrik\[.\]de/xml.php
+hxxps://www.sfl\[.\]hu
+hxxps://www.seyhanaluminyum\[.\]com
+hxxps://theodoraross\[.\]com
+hxxps://theairtrekstory\[.\]com
+hxxps://tavernelentrepot\[.\]be
+hxxps://www.serphero\[.\]com
+hxxps://www.shisharealty\[.\]com
+hxxps://www.sheffieldcoronarysociety\[.\]org.uk
+thomadaneau\[.\]com/xml.php
+theodoraross\[.\]com/xml.php
+theairtrekstory\[.\]com/xml.php
+hxxps://www.secora\[.\]cl
+```
 
 **Source**: [GootLoaderSites (twitter)](https://twitter.com/GootLoaderSites)
 
