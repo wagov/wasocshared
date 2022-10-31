@@ -42,6 +42,7 @@
             relativePath: true,
             ext: "", // workaround for stripping .md of links, see patchLinking
             plugins: [patchLinking] // add the plugin to the docsify configuration
+            alias: { '/([^?]*)': '/$1' + window.location.search } // preserve token in url
         };
     </script>
 
