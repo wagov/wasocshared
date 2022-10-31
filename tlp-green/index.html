@@ -35,8 +35,8 @@
         };
         // Docsify Configuration
         window.$docsify = {
-            loadSidebar: "sidebar.md",
-            loadNavbar: "navbar.md",
+            loadSidebar: "_sidebar.md",
+            loadNavbar: "_navbar.md",
             auto2top: true,
             subMaxLevel: 3,
             relativePath: true,
@@ -51,6 +51,13 @@
 
     <!-- docsify + docsify-themeable -->
     <script src="https://unpkg.com/docsify@4/lib/docsify.min.js"></script>
+
+    <!-- prism syntax highlighting -->
+    <script src="https://unpkg.com/prismjs@1/components/prism-python.js"></script>
+    <script src="https://unpkg.com/prismjs@1/components/prism-bash.js"></script>
+    <script src="https://unpkg.com/prismjs@1/components/prism-powershell.js"></script>
+    <script src="https://unpkg.com/prismjs@1/components/prism-kusto.js"></script>
+
     <script src="https://unpkg.com/docsify-themeable@0"></script>
 
     <!-- Docsify Plugins -->
