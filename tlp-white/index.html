@@ -25,13 +25,26 @@
     <div id="app"></div>
 
     <script>
+        // This fixes tokens in urls so blob content etc works.
+        var patchLinking = function (hook, vm) {
+            hook.beforeEach(function (markdown) {
+                // workaround for stripping .md from internal urls, see https://github.com/docsifyjs/docsify/blob/v4.13.0/src/core/router/history/base.js#L74
+                return markdown.replace(/\.md\)/gi, ".md.md)");;
+            });
+        };
         // Docsify Configuration
         window.$docsify = {
             loadSidebar: "_sidebar.md",
             loadNavbar: "_navbar.md",
             auto2top: true,
             subMaxLevel: 3,
-            relativePath: true
+            relativePath: true,
+            ext: "", // workaround for adding .md to all links
+            plugins: [patchLinking], // add plugin to docsify configuration
+            alias: { // use alias to preserve token in url
+                '/': '/README.md',
+                '/([^?]*)': '/$1' + window.location.search
+            }
         };
     </script>
 
@@ -50,8 +63,6 @@
     <script src="https://unpkg.com/docsify-copy-code@2"></script>
     <script src="https://unpkg.com/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
     <script src="https://unpkg.com/docsify@4/lib/plugins/zoom-image.min.js"></script>
-
-
 </body>
 
 </html>

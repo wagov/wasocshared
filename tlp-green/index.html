@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>WA SOC TLP:GREEN</title>
+    <title>WA SOC Resources</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description">
     <meta name="viewport"
@@ -29,8 +29,7 @@
         var patchLinking = function (hook, vm) {
             hook.beforeEach(function (markdown) {
                 // workaround for stripping .md from internal urls, see https://github.com/docsifyjs/docsify/blob/v4.13.0/src/core/router/history/base.js#L74
-                markdown = markdown.replace("\.md)", "\.md.md)");
-                return markdown;
+                return markdown.replace(/(\([\w/][^):]*\.md)\)/gm, "$1.md)");
             });
         };
         // Docsify Configuration
