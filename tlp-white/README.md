@@ -1,4 +1,4 @@
-# WA SOC TLP:GREEN Resources
+# WA SOC TLP:WHITE Resources
 
 This content site is used to publish TLP:GREEN content for the WA SOC.
 
