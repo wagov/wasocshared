@@ -16,6 +16,7 @@
     <style>
         :root {
             --theme-color: #cc5733;
+            --content-max-width: 80em;
         }
     </style>
 </head>
@@ -24,7 +25,14 @@
     <div id="app"></div>
 
     <script>
-        const search = window.location.search;
+        // This fixes tokens in urls so blob content etc works.
+        var patchLinking = function (hook, vm) {
+            hook.beforeEach(function (markdown) {
+                // workaround for stripping .md of links
+                markdown = markdown.replace("\.md)", "\.md.md)");
+                return markdown;
+            });
+        };
         // Docsify Configuration
         window.$docsify = {
             loadSidebar: "sidebar.md",
@@ -32,9 +40,8 @@
             auto2top: true,
             subMaxLevel: 3,
             relativePath: true,
-            alias: {
-                '/([^?]*)': '/$1' + search // preserve query string
-            }
+            ext: "", // workaround for stripping .md of links, see patchLinking
+            plugins: [patchLinking] // add the plugin to the docsify configuration
         };
     </script>
 

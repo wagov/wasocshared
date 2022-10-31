@@ -1,5 +1,3 @@
-
-- **WA SOC TLP:WHITE**
 - [Home](/)
 - [Advisories](/advisories)
 - **Links**
