@@ -58,23 +58,25 @@ Please be advised of the following observed IOCs for detection in your environme
 
 ### Domain Names
 
+Note the below domains have not been defanged, please exercise caution when utilising.
+
 ```bash
-hxxps://www.setman.es/content.php
-tavernelentrepot\[.\]be/xml.php
-termowood\[.\]net/xml.php
-textfabrik\[.\]de/xml.php
-hxxps://www.sfl\[.\]hu
-hxxps://www.seyhanaluminyum\[.\]com
-hxxps://theodoraross\[.\]com
-hxxps://theairtrekstory\[.\]com
-hxxps://tavernelentrepot\[.\]be
-hxxps://www.serphero\[.\]com
-hxxps://www.shisharealty\[.\]com
-hxxps://www.sheffieldcoronarysociety\[.\]org.uk
-thomadaneau\[.\]com/xml.php
-theodoraross\[.\]com/xml.php
-theairtrekstory\[.\]com/xml.php
-hxxps://www.secora\[.\]cl
+https://www.setman.es/content.php
+tavernelentrepot.be/xml.php
+termowood.net/xml.php
+textfabrik.de/xml.php
+https://www.sfl.hu
+https://www.seyhanaluminyum.com
+https://theodoraross.com
+https://theairtrekstory.com
+https://tavernelentrepot.be
+https://www.serphero.com
+https://www.shisharealty.com
+https://www.sheffieldcoronarysociety.org.uk
+thomadaneau.com/xml.php
+theodoraross.com/xml.php
+theairtrekstory.com/xml.php
+https://www.secora.cl
 ```
 
 **Source**: [GootLoaderSites (twitter)](https://twitter.com/GootLoaderSites)
