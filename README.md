@@ -8,7 +8,7 @@ Minor enhancements include a custom content router to preserve SAS container url
 var patchLinking = function (hook, vm) {
     hook.beforeEach(function (markdown) {
         // workaround for stripping .md from internal urls, see https://github.com/docsifyjs/docsify/blob/v4.13.0/src/core/router/history/base.js#L74
-        return markdown.replace(/\.md\)/gi, ".md.md)");
+        return markdown.replace(/(\([\w/][^):]*\.md)\)/gm, "$1.md)");
     });
 };
 // Docsify Configuration

@@ -1,0 +1,18 @@
+
+- **WA SOC Resources**
+- [Home](/)
+- [Sentinel Connector Guidance](/onboarding/sentinel-guidance)
+- [SOC Onboarding](/onboarding)
+- [Baseline for Event Ingestion](/onboarding/baseline-event-ingestion)
+- [Advisory Detail](/advisories)
+- [IRP User Guide (Jira)](/docs/incident-reporting)
+- [SOC Analyst Induction](/docs/analyst-induction)
+  - [Azure Basics](/docs/azure-basics)
+- [Collecting Evidence](/docs/collecting-evidence)
+- [WA SOC Playbooks](/docs/playbooks)
+- **Links**
+- [Office of Digital Government](https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government)
+- [Cyber Security Policy](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy)
+- [Dynamics IRP (legacy)](https://www.wa.gov.au/service/security/information-security/western-australian-government-cyber-security-incident-reporting-portal)
+- [Vulnerability Management](https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/vulnerability-scanning-service-description)
+- [Github](https://github.com/wagov)
