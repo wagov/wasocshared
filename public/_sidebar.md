@@ -1,5 +1,5 @@
 
-- **WA SOC Resources**
+- **WA Cyber Security Unit (DGov)**
 - [Home](/)
 - [Sentinel Connector Guidance](/onboarding/sentinel-guidance)
 - [SOC Onboarding](/onboarding)
@@ -9,7 +9,7 @@
 - [SOC Analyst Induction](/docs/analyst-induction)
   - [Azure Basics](/docs/azure-basics)
 - [Collecting Evidence](/docs/collecting-evidence)
-- [WA SOC Playbooks](/docs/playbooks)
+- [Cyber Security Playbooks](/docs/playbooks)
 - **Links**
 - [Office of Digital Government](https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government)
 - [Cyber Security Policy](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy)

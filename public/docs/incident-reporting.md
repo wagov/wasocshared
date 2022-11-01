@@ -1,4 +1,4 @@
-# WA SOC Incident Reporting Portal (IRP) - Pilot
+# WA SOC Incident Reporting Portal (IRP)
 
 ## 1. Overview
 
