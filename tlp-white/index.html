@@ -39,8 +39,11 @@
       ext: "", // workaround for adding .md to all links
       plugins: [patchLinking], // add plugin to docsify configuration
       alias: {
-        // use alias to preserve token in url
+        // clean index
         "/": "/README.md",
+        // link preservation
+        "/advisories/20221028001-seopoisoning-gootloader-advisory": "/advisories/20221028001-seopoisoning-gootloader-advisory.md",
+        // use alias to preserve token in url
         "/([^?]*)": "/$1" + window.location.search,
       },
     };
