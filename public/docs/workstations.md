@@ -2,7 +2,7 @@
 
 Recommended software for use for general activities. The majority of the below software should be cross-platform (Linux, macOS, Windows) unless otherwise noted.
 
-## Base Utilities
+## 1. Base Utilities
 
 - [Adobe Acrobat Reader DC](https://www.adobe.com/au/acrobat/pdf-reader.html) - View, sign, collaborate on and annotate PDF files
 - [draw.io Diagrams](https://www.diagrams.net/) - Security-first diagramming for teams
@@ -11,14 +11,14 @@ Recommended software for use for general activities. The majority of the below s
 - [(Windows) Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) - Bundling of the Sysinternals Troubleshooting Utilities
 - [(Windows) PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/) - Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity.
 
-## Development
+## 2. Development
 
 - [Visual Studio Code](https://code.visualstudio.com) - a code editor redefined and optimized for building and debugging modern web and cloud applications.
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) - the fastest way to containerize applications.
 - [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop) - web-based interactive development environment for notebooks, code, and data.
 - [Git](https://git-scm.com/) - a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
 
-## Virtual Machines
+## 3. Virtual Machines
 
 - [Oracle VirtualBox](https://www.virtualbox.org/) - a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
 - [(Windows) Windows Sandbox](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview) - a lightweight desktop environment to safely run applications in isolation. Software installed inside the Windows Sandbox environment remains "sandboxed" and runs separately from the host machine.
@@ -27,11 +27,11 @@ Recommended software for use for general activities. The majority of the below s
 - [Kali linux](https://www.kali.org/docs/wsl/win-kex/#install-win-kex) - an open-source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering
 - [SIFT Workstation](https://www.sans.org/tools/sift-workstation/) - a computer forensics distribution that installs all necessary tools on Ubuntu to perform a detailed digital forensic and incident response examination. It is compatible with expert witness format (E01), advanced forensic format (AFF), raw (dd), and memory analysis evidence formats.
 
-## GIS & Mapping
+## 4. GIS & Mapping
 
 - [QGIS](https://www.qgis.org/en/site/) - Create, edit, visualise, analyse and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices
 
-## Windows Quick Start
+## 5. Windows Quick Start
 
 Quick install steps using [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/) for the majority of the above on Windows.
 
@@ -54,7 +54,7 @@ winget install vmware.workstationplayer
 winget install OSGeo.QGIS
 ```
 
-## WSL2 setup
+## 6. WSL2 setup
 
 To fix DNS (gets blocked out of the box by windows firewall) and get azure cli, docker & jupyterlab working quickly in WSL2, run the below in the [Ubuntu 22.04](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW) WSL2 env
 
