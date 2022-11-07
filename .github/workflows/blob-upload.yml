@@ -19,7 +19,7 @@ concurrency:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  tlpgreen:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     environment: production
@@ -29,15 +29,35 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Upload markdown files to blob storage
+      # Upload markdown files to blob storage (tlp-green folder only)
       # make sure AZURE_STORAGE_ACCOUNT and AZURE_STORAGE_SAS_TOKEN are set 
       - name: Azure CLI Action
         uses: Azure/cli@v1
         env:
           AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
           AZURE_STORAGE_SAS_TOKEN: ${{ secrets.AZURE_STORAGE_SAS_TOKEN }}
-          KQL_PATH: notebooks/kql
         with:
           inlineScript: |
             az config set extension.use_dynamic_install=yes_without_prompt
             az storage blob sync -c tlp-green -s ./tlp-green
+  datalake:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    environment: datalake
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Upload markdown files to blob storage (datalake full mirror)
+      # make sure AZURE_STORAGE_ACCOUNT and AZURE_STORAGE_SAS_TOKEN are set 
+      - name: Azure CLI Action
+        uses: Azure/cli@v1
+        env:
+          AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
+          AZURE_STORAGE_SAS_TOKEN: ${{ secrets.AZURE_STORAGE_SAS_TOKEN }}
+        with:
+          inlineScript: |
+            az config set extension.use_dynamic_install=yes_without_prompt
+            az storage blob sync -c datalake -s . -d wasocshared
