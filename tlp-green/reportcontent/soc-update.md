@@ -1,7 +1,5 @@
 ## A word from the SOC
 
-The Cyber Security Policy is intended to apply to the WA Public Sector (as defined in the Public Sector Management Act 1994). Other WA Government organisations are also encouraged to comply with the provisions of this Policy.
+Recently the SOC has been investing into improving detection quality and threat intelligence. We have recently published documentation including a [check list to self-assess your SIEM's ingestion quality](https://wagov.github.io/wasocshared/#/onboarding/baseline-event-ingestion). In addition the SOC's Automated Indicator Sharing service (AIS) is available for any agency with tooling that can ingest STIX bundles using a TAXII endpoint, e.g. [Connect Microsoft Sentinel to a TAXII feed](https://learn.microsoft.com/en-us/azure/sentinel/connect-threat-intelligence-taxii). If you would like more information about this Preview service, please contact [Joshua Hitchen](mailto:joshua.hitchen@dpc.wa.gov.au)
 
-Agencies whose cyber security teams have enrolled in the DGov Incident Reporting Portal (IRP) should raise an incident within the portal.
-
-In addition, DGov is offering the opportunity to subscribe to these and other IOC’s via Structured Threat Information eXpression (STIX) / Trusted Automated eXchange of Indicator Information (TAXII). If you have any queries regarding the new beta threat intelligence sharing, please do not hesitate to reach out directly to Mr Joshua Hitchen – Joshua.hitchen@dpc.wa.gov.au
+For general security advice and incident reporting, it's best to coordinate via the [WA SOC Service Desk](https://wagov.github.io/wasocshared/#/docs/incident-reporting.md) if you have access. Please note that emails to cybersecurity@dpc.wa.gov.au are still monitored.
