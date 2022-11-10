@@ -2,9 +2,12 @@
 
 ### TLP:WHITE
 
-- 2022/10/28 - [SEO poisoning targeting public sector (Gootloader) Advisory - 20221028001](advisories/20221028001-seopoisoning-gootloader-advisory.md)
-- 2022/10/31 - [VMware Cloud Foundation Unauthenticated Remote Code Execution - 20221031002](advisories/20221031002-vmware-cloudfoundation-vulnerability.md)
+- 2022/11/10 - [Microsoft Windows: Multiple known exploited vulnerabilities - 202211100002](advisories/20221110002-Microsoft-multiple-advisories.md)
+- 2022/11/10 - [Citrix Security Bulletin (Gateway and ADC) - 202211100001](advisories/20221110001-citrix-gateway-security-bulletin.md)
 - 2022/11/03 - [OpenSSL 3.0.x affected by two high severity vulnerabilities - 20221103001](advisories/20221103001-openSSL-vulnerability.md)
+- 2022/10/31 - [VMware Cloud Foundation Unauthenticated Remote Code Execution - 20221031002](advisories/20221031002-vmware-cloudfoundation-vulnerability.md)
+- 2022/10/28 - [SEO poisoning targeting public sector (Gootloader) Advisory - 20221028001](advisories/20221028001-seopoisoning-gootloader-advisory.md)
+
 
 ### Key Sources
 
