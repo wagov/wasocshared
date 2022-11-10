@@ -4,6 +4,7 @@
 The WA SOC has observed 4 new vulnerabilities affecting Microsoft Windows applications and services, notably **CVE-2022-41128** has a CVSSv3 of **8.8**.
 
 ## What is the vulnerability ?
+
 | CVE | Vendor | Product | Vulnerability Name | Security Update Released | Threat Description | Action |
 | --- | --- | --- | --- | --- | --- | --- |
 | [CVE-2022-41091](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41091) | Microsoft | Windows | Microsoft Windows *Mark of the Web (MOTW)* Security Feature Bypass Vulnerability | 2022-11-08 | Microsoft Windows Mark of the Web (MOTW) contains a security feature bypass vulnerability resulting in a limited loss of integrity and availability of security features. | Apply updates per vendor instructions. |
@@ -14,13 +15,13 @@ The WA SOC has observed 4 new vulnerabilities affecting Microsoft Windows applic
 
 ## What has been observed ?
 No active exploitation has been reported in the WA sector, however there are reports of exploitation as reported by Microsoft.
+
 | CVE | Exploited | Publicly Disclosed |
 | --- | --- | --- |
 | CVE-2022-41091 | Yes | Yes |
 | CVE-2022-41073 | Yes | No |
 | CVE-2022-41125 | Yes | No |
 | CVE-2022-41128 | Yes | No |
-
 
 ## Recommendation
 Affected customers of Microsoft Windows are recommended to install the relevant updated versions of their environment as soon as possible. Refer to each relevant reference URL below for the appropriate **Security Update** Download link.
