@@ -2,6 +2,7 @@
 
 ### TLP:WHITE
 
+- 2022/11/17 - [F5 BIG-IP and iControl REST Vulnerabilities and Exposures - 20221117001](advisories/20221117001-F5-BIG-IP-Vulnerabilities.md)
 - 2022/11/10 - [Microsoft Windows: Multiple known exploited vulnerabilities - 202211100002](advisories/20221110002-Microsoft-multiple-advisories.md)
 - 2022/11/10 - [Citrix Security Bulletin (Gateway and ADC) - 202211100001](advisories/20221110001-citrix-gateway-security-bulletin.md)
 - 2022/11/03 - [OpenSSL 3.0.x affected by two high severity vulnerabilities - 20221103001](advisories/20221103001-openSSL-vulnerability.md)
