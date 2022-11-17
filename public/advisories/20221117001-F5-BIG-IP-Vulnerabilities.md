@@ -19,7 +19,7 @@ The affected products are detailed in the vendor advisories below:
 -   ID1144057 - SELinux bypass via command injection in an update script ([CWE-78](https://cwe.mitre.org/data/definitions/78.html))
 
 ## What has been observed ?
-There is no evidence of exploitation affecting Western Australian government networks at the time of publishing.
+There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
 The WA SOC recommends organisations with affected products to follow the applicable **Recommended Actions** in the following F5 Knowledgbase Article as soon as possible: [K05403841: BIG-IP and BIG-IQ improvements disclosed by Rapid7.](https://support.f5.com/csp/article/K05403841)
