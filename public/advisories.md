@@ -2,6 +2,9 @@
 
 ### TLP:WHITE
 
+- 2022/11/23 - [Cisco Security Updates - 20221123002](advisories/20221123002-Cisco-Security-Updates.md)
+- 2022/11/23 - [Samba Security Update - 20221123001](advisories/20221123001-Samba-Security-Update.md)
+- 2022/11/22 - [Mozilla Releases Security Updates for Multiple Products - 20221122001](advisories/20221122001-Mozilla-Security-Updates.md)
 - 2022/11/17 - [F5 BIG-IP and iControl REST Vulnerabilities and Exposures - 20221117001](advisories/20221117001-F5-BIG-IP-Vulnerabilities.md)
 - 2022/11/10 - [Microsoft Windows: Multiple known exploited vulnerabilities - 202211100002](advisories/20221110002-Microsoft-multiple-advisories.md)
 - 2022/11/10 - [Citrix Security Bulletin (Gateway and ADC) - 202211100001](advisories/20221110001-citrix-gateway-security-bulletin.md)
