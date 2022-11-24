@@ -2,6 +2,7 @@
 
 ### TLP:WHITE
 
+- 2022/11/24 - [NSA Software Memory Safety - 20221124001](advisories/20221124001-NSA-Software-Memory-Safety.md)
 - 2022/11/23 - [Cisco Security Updates - 20221123002](advisories/20221123002-Cisco-Security-Updates.md)
 - 2022/11/23 - [Samba Security Update - 20221123001](advisories/20221123001-Samba-Security-Update.md)
 - 2022/11/22 - [Mozilla Releases Security Updates for Multiple Products - 20221122001](advisories/20221122001-Mozilla-Security-Updates.md)
