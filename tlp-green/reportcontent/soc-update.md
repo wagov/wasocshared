@@ -4,6 +4,7 @@ The WA Security Operations Centre (WA SOC) has recently been investing into repo
 
 For general (non-urgent) security advice and incident collaboration, it's most efficient to coordinate via the [WA SOC Service Desk](https://wagov.github.io/wasocshared/#/docs/incident-reporting.md). Please note that emails to cybersecurity@dpc.wa.gov.au are still monitored. For any urgent matters please call **1800 922 923 (1800 WA CYBER)**.
 
-### Cyber Security Advisories
+### Advisories and Updates
 
-Recent [TLP:WHITE Advisories](https://wagov.github.io/wasocshared/#/advisories.md) are available online for your convenience.
+- [TLP:WHITE Advisories](https://wagov.github.io/wasocshared/#/advisories.md) are available online for your convenience.
+- [Recent Threat Activity](https://wagov.github.io/wasocshared/#/threat-activity.md) covers cyber events the WA SOC has seen in the past few months of note.
