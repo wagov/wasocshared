@@ -1,4 +1,4 @@
-# ASD Essential Eight Update - Assest Discovery - 20221129001
+# ASD Essential Eight Update - Asset Discovery - 20221129001
 
 ASD has recently issued an update to the Essential Eight guidance which defines **automated asset discovery** as a requirement for some controls. The automated detection of assets at least fortnightly to inform vulnerability management is now a requirement for **Maturity Level 1** under **Patch Applications** and **Patch Operating Systems**.
 
