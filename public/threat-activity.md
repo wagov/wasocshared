@@ -1,6 +1,6 @@
 # WA SOC - Recent Threat Activity (December 2022)
 
-**Phishing activity remains high** across all organisations with multiple incidents detected weekly. Please refer to the below guides are effective controls to ensure all external and internal signins are appropriately monitored.
+**Phishing activity remains high** across all organisations with multiple incidents detected weekly. Please refer to the below guides to ensure all external and internal signins are appropriately monitored.
 
 - [Tips for preventing against new modern identity attacks (AiTM, MFA Fatigue, PRT, OAuth)](https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/)
 - [How to implement Defender for Identity and configure all prerequisites](https://jeffreyappel.nl/how-to-implement-defender-for-identity-and-configure-all-prerequisites/)
