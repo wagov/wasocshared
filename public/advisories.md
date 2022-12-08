@@ -2,6 +2,7 @@
 
 ### TLP:WHITE
 
+- 2022/12/08 - [UPDATED ADVISORY - SEO poisoning targeting public sector (Gootloader)](advisories/20221208003-UPDATED-ADVISORY-SEO-poisoning-targeting-public-sector-Gootloader.md)
 - 2022/12/08 - [Chromium V8 Type Confusion Vulnerability - 20221208001](advisories/20221208001-Chromium-V8-Type-Confusion-Vulnerability.md)
 - 2022/12/02 - [ACSC December 2022 ISM and E8 Updates - 20221202001](advisories/20221202001-December-2022-E8-Updates.md)
 - 2022/11/29 - [Google Chrome Vulnerability - 20221129003](advisories/20221129003-Google-Chrome-Vulnerability.md)
