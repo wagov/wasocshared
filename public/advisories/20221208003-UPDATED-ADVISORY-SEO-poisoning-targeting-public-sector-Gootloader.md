@@ -29,6 +29,19 @@ Run the following threat hunting search on files and URLs that might be download
 **Note** - The KQL below will need to be updated to reflect current IoCs if not connected to the DGov STIX / TAXII
 
 ```kusto
+// ******************************************************************************************************************
+// Date   : 28-Oct-2022
+// Version: 1.0
+// Author : DGov
+//
+// Description: 
+// - Detect Gootloader file downloads and outbound network events to identified Gootloader C2 infra.
+// - Agency need to maintain lists of C2 domain URL manually below
+// - The Regex 1 detect file naming pattern, and 
+// - The Regex 2 detect download link URL name pattern
+//
+// ******************************************************************************************************************
+//
 let url=dynamic(["setman.es","tavernelentrepot.be","termowood.net","textfabrik.de","sfl.hu","seyhanaluminyum.com","theodoraross.com","theairtrekstory.com","tavernelentrepot.be","serphero.com","shisharealty.com","sheffieldcoronarysociety.org.uk","thomadaneau.com","theodoraross.com","theairtrekstory.com","secora.cl"]);
 let regx1=@"\((\d{4,6})\)\.zip";
 let regx2=@"\.php\?(.*=){3}.+$";
@@ -38,12 +51,28 @@ union withsource=tablename_ DeviceNetworkEvents,DeviceFileEvents
 #### **NEW SENTINEL KQL** - Utilising Threat Intelligence Feed from DGov STIX / TAXII
 
 ```kusto
-let tiObservables = ThreatIntelligenceIndicator //Search in specified threat intelligence workspace 
+// ******************************************************************************************************************
+// Date   : 09-Dec-2022
+// Version: 2.0
+// Author : DGov
+//
+// Description: 
+// - Detect Gootloader file downloads and outbound network events to identified Gootloader C2 infra.
+// - Leverage Sentinel STIX/ TAXII Threat Intelligence platform for domain name update
+// - The Regex 1 detect file naming pattern, and 
+// - The Regex 2 detect download link URL name pattern
+//
+// ******************************************************************************************************************
+//
+let tiObservables = ThreatIntelligenceIndicator                                 //Search in specified threat intelligence workspace 
 | where TimeGenerated < now() and ExpirationDateTime > now() and Active == true //Only active TI
+//
 // Select only the most recently ingested copy of an indicator
+//
 | summarize arg_max(TimeGenerated, *) by IndicatorId
 | extend IndicatorType = iif(isnotempty(EmailSourceIpAddress) or isnotempty(NetworkDestinationIP) or isnotempty(NetworkIP) or isnotempty(NetworkSourceIP) or isnotempty(NetworkCidrBlock), "IP", iff(isnotempty(Url), "URL", iff(isnotempty(EmailRecipient) or isnotempty(EmailSenderAddress), "Email", iff(isnotempty(FileHashValue), "File", iff(isnotempty(DomainName) or isnotempty(EmailSourceDomain), "Domain", "Other")))))
-| where IndicatorType == "Domain" and ThreatType has "gootloader" //Specific search for Gootloader Domain Names
+| where IndicatorType in ("URL","Domain") and ThreatType has "gootloader"     //Specific search for Gootloader Domain Names
+| where isnotempty(DomainName)                                                //Remove any empty values
 | summarize DomainName=make_set(DomainName);
 let regx1=@"\((\d{4,6})\)\.zip";
 let regx2=@"\.php\?(.*=){3}.+$";

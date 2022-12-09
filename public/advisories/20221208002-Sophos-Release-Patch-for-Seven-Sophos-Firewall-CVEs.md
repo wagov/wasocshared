@@ -14,22 +14,19 @@ Describe the threat to organisation's application/ environment/ security/ operat
 
 [CVE-2022-3709:](https://nvd.nist.gov/vuln/detail/CVE-2022-3709) **CVSS 8.4** - A stored XSS vulnerability allows an administrator to super-administrator privilege escalation in the Webadmin import group wizard of Sophos Firewall.
 
-[**CVE-2022-3696:**](https://nvd.nist.gov/vuln/detail/CVE-2022-3696) CVSS 7.2 - A post-authentication code injection vulnerability that allows administrators to execute code in Webadmin of Sophos Firewall.
+[**CVE-2022-3696:**](https://nvd.nist.gov/vuln/detail/CVE-2022-3696) **CVSS 7.2** - A post-authentication code injection vulnerability that allows administrators to execute code in Webadmin of Sophos Firewall.
 
-[**CVE-2022-3226:**](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fnvd.nist.gov%2Fvuln%2Fdetail%2FCVE-2022-3226&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7C48c8a0a205ae4fd7602e08dad8be68c7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638060609568583660%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=59nyC7DXv5c7swYbHcpFgpky4odkZOqDcgRJtchZDs0%3D&reserved=0) CVSS 7.2 - An OS command injection vulnerability allows admins to execute code via SSL VPN configuration uploads in Sophos Firewall.
+[**CVE-2022-3226:**](https://nvd.nist.gov/vuln/detail/CVE-2022-3226) **CVSS 7.2** - An OS command injection vulnerability allows admins to execute code via SSL VPN configuration uploads in Sophos Firewall.
 
-[**CVE-2022-3711:**](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fnvd.nist.gov%2Fvuln%2Fdetail%2FCVE-2022-3711&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7C48c8a0a205ae4fd7602e08dad8be68c7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638060609568583660%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Rafw9phHwYPaenFgydKk7hbcr1N1yRfr4IeHKX0RQEc%3D&reserved=0) CVSS 4.3 - A post-auth read-only SQL injection vulnerability allows users to read non-sensitive configuration database contents in the User Portal of Sophos Firewall.
+[**CVE-2022-3711:**](https://nvd.nist.gov/vuln/detail/CVE-2022-3711) **CVSS 4.3** - A post-auth read-only SQL injection vulnerability allows users to read non-sensitive configuration database contents in the User Portal of Sophos Firewall.
 
 ## What is vulnerable ? 
--   [Name of vulnerable application/ platform/ tools] - [Version]
-- Log4j 2.17.1
-- VMware Foundation ver. 3.11
+-  All versions of Sophos Firewall **prior to v19.5 GA** are considered vulnerable.
 
 ## What has been observed ?
-Describe what has been observed in state of WA sector.
+There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
-Patch Sophos Firewall immediately to avoid exploitation
-
-### Reference:
-* reference and URL link
+-   Review the [Sophos Advisory](https://www.sophos.com/en-us/security-advisories/sophos-sa-20221201-sfos-19-5-0).
+-   Ascertain if your version of Sophos Firewall is vulnerable.
+-   If vulnerable, patch immediately to avoid exploitation.
