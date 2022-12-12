@@ -52,11 +52,12 @@ union withsource=tablename_ DeviceNetworkEvents,DeviceFileEvents
 
 ```kusto
 // ******************************************************************************************************************
-// Date   : 09-Dec-2022
-// Version: 2.0
+// Date   : 12-Dec-2022
+// Version: 2.1
 // Author : DGov
 //
 // Description: 
+// - 2.1 - Removed the IndicatorType parsing due to TI Platform compatibility issue
 // - Detect Gootloader file downloads and outbound network events to identified Gootloader C2 infra.
 // - Leverage Sentinel STIX/ TAXII Threat Intelligence platform for domain name update
 // - The Regex 1 detect file naming pattern, and 
@@ -70,9 +71,8 @@ let tiObservables = ThreatIntelligenceIndicator                                 
 // Select only the most recently ingested copy of an indicator
 //
 | summarize arg_max(TimeGenerated, *) by IndicatorId
-| extend IndicatorType = iif(isnotempty(EmailSourceIpAddress) or isnotempty(NetworkDestinationIP) or isnotempty(NetworkIP) or isnotempty(NetworkSourceIP) or isnotempty(NetworkCidrBlock), "IP", iff(isnotempty(Url), "URL", iff(isnotempty(EmailRecipient) or isnotempty(EmailSenderAddress), "Email", iff(isnotempty(FileHashValue), "File", iff(isnotempty(DomainName) or isnotempty(EmailSourceDomain), "Domain", "Other")))))
-| where IndicatorType in ("URL","Domain") and ThreatType has "gootloader"     //Specific search for Gootloader Domain Names
-| where isnotempty(DomainName)                                                //Remove any empty values
+| where ThreatType has "gootloader"     //Specific search for Gootloader threat
+| where isnotempty(DomainName)          //Remove any empty values
 | summarize DomainName=make_set(DomainName);
 let regx1=@"\((\d{4,6})\)\.zip";
 let regx2=@"\.php\?(.*=){3}.+$";
