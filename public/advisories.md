@@ -2,7 +2,7 @@
 
 ### TLP:WHITE
 
-- 2022/12/12 - [Cisco Releases Security Advisory for IP Phone 7800 and 8800 Series](advisories/20221212001-IP-Phone-7800-and-8800-Series-vulnerability.md)
+- 2022/12/12 - [Cisco Releases Security Advisory for IP Phone 7800 and 8800 Series - 20221212001](advisories/20221212001-IP-Phone-7800-and-8800-Series-vulnerability.md)
 - 2022/12/08 - [UPDATED ADVISORY - SEO poisoning targeting public sector (Gootloader) - 20221208003](advisories/20221208003-UPDATED-ADVISORY-SEO-poisoning-targeting-public-sector-Gootloader.md)
 - 2022/12/08 - [Sophos Release Patch for Seven "Sophos Firewall" CVE's - 20221208002](advisories/20221208002-Sophos-Release-Patch-for-Seven-Sophos-Firewall-CVEs.md)
 - 2022/12/08 - [Chromium V8 Type Confusion Vulnerability - 20221208001](advisories/20221208001-Chromium-V8-Type-Confusion-Vulnerability.md)
