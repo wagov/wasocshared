@@ -2,6 +2,7 @@
 
 ### TLP:WHITE
 
+- 2022/12/13 - [Fortinet Vulnerabilities for FortiOS / FortiProxy / FortiSwitchManager - 20221213001](advisories/20221213001-Fortinet-Vulnerabilities-for-FortiOS-FortiProxy-FortiSwitchManager.md)
 - 2022/12/12 - [Cisco Releases Security Advisory for IP Phone 7800 and 8800 Series - 20221212001](advisories/20221212001-IP-Phone-7800-and-8800-Series-vulnerability.md)
 - 2022/12/08 - [UPDATED ADVISORY - SEO poisoning targeting public sector (Gootloader) - 20221208003](advisories/20221208003-UPDATED-ADVISORY-SEO-poisoning-targeting-public-sector-Gootloader.md)
 - 2022/12/08 - [Sophos Release Patch for Seven "Sophos Firewall" CVE's - 20221208002](advisories/20221208002-Sophos-Release-Patch-for-Seven-Sophos-Firewall-CVEs.md)
