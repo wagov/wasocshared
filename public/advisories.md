@@ -2,6 +2,8 @@
 
 ### TLP:WHITE
 
+- 2022/12/14 - [Mozilla Security Updates for Thunderbird and Firefox - 20221214002](advisories/20221214002-Mozilla-Security-Updates.md)
+- 2022/12/14 - [VMWare Critical Security Updates - 202211214001](advisories/20221214001-VMWare-Critical-Updates.md)
 - 2022/12/13 - [Fortinet Vulnerabilities for FortiOS / FortiProxy / FortiSwitchManager - 20221213001](advisories/20221213001-Fortinet-Vulnerabilities-for-FortiOS-FortiProxy-FortiSwitchManager.md)
 - 2022/12/12 - [Cisco Releases Security Advisory for IP Phone 7800 and 8800 Series - 20221212001](advisories/20221212001-IP-Phone-7800-and-8800-Series-vulnerability.md)
 - 2022/12/08 - [UPDATED ADVISORY - SEO poisoning targeting public sector (Gootloader) - 20221208003](advisories/20221208003-UPDATED-ADVISORY-SEO-poisoning-targeting-public-sector-Gootloader.md)
