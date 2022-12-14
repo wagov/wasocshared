@@ -21,9 +21,9 @@ set vdom "root"\
 set password ENC [...]\
 next`
 
-**CVE-2022-42475** - FortiOS heap-based buffer overflow in SSl-VPN
+**[CVE-2022-42475](https://www.fortiguard.com/psirt/FG-IR-22-398)** - FortiOS heap-based buffer overflow in SSl-VPN
 
-[CVE-2022-42475](https://tenable.com/cve/CVE-2022-42475) is a heap-based buffer overflow in several versions of ForiOS that received a CVSSv3 score of 9.3. A remote, unauthenticated attacker could exploit this vulnerability with a specially crafted request and gain code execution. The blog from Olympe Cyberdefense goes further, stating attackers could gain "full control."
+CVE-2022-42475 is a heap-based buffer overflow in several versions of ForiOS that received a CVSSv3 score of 9.3. A remote, unauthenticated attacker could exploit this vulnerability with a specially crafted request and gain code execution. The blog from Olympe Cyberdefense goes further, stating attackers could gain "full control."
 
 Threat actors have been leveraging vulnerabilities in Fortinet SSL VPN attacks for several years to the extent that the Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA) issued a [dedicated advisory](https://www.ic3.gov/Media/News/2021/210402.pdf) to these flaws and their exploitation in 2021. 
 
@@ -58,6 +58,7 @@ Australian organisations that are unable to update should disable the HTTP/HTTPS
 Read the following Fortinet advisories and apply the remediations:
 
 - FortiOS / FortiProxy / FortiSwitchManager - Authentication bypass on administrative interface [https://www.fortiguard.com/psirt/FG-IR-22-377](https://www.fortiguard.com/psirt/FG-IR-22-377)
+- FortiOS heap-based buffer overflow in SS1-VPN [https://www.fortiguard.com/psirt/FG-IR-22-398](https://www.fortiguard.com/psirt/FG-IR-22-398)
 
 ### Reference:
 * Proof of Concept (PoC) - Fortinet FortiOS / FortiProxy / FortiSwitchManager Authentication Bypass [https://packetstormsecurity.com/files/169431/Fortinet-FortiOS-FortiProxy-FortiSwitchManager-Authentication-Bypass.html](https://packetstormsecurity.com/files/169431/Fortinet-FortiOS-FortiProxy-FortiSwitchManager-Authentication-Bypass.html)
