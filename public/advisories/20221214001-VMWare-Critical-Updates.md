@@ -1,7 +1,7 @@
 # VMWare Critical Security Updates - 20221214001
 
 ## Overview
-VVMware has released security updates to address multiple vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.
+VMware has released security updates to address multiple vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.
 
 ## What is the threat?
 VMWare have confirmed forms of compromise include:
