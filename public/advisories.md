@@ -2,6 +2,7 @@
 
 ### TLP:WHITE
 
+- 2022/12/15 - [Critical-Citrix-Vulnerabilities-Gateway-ADC - 20221215001](advisories/20221215001-Critical-Citrix-Vulnerabilities-Gateway-ADC.md)
 - 2022/12/14 - [Mozilla Security Updates for Thunderbird and Firefox - 20221214002](advisories/20221214002-Mozilla-Security-Updates.md)
 - 2022/12/14 - [VMWare Critical Security Updates - 202211214001](advisories/20221214001-VMWare-Critical-Updates.md)
 - 2022/12/13 - [Fortinet Vulnerabilities for FortiOS / FortiProxy / FortiSwitchManager - 20221213001](advisories/20221213001-Fortinet-Vulnerabilities-for-FortiOS-FortiProxy-FortiSwitchManager.md)
