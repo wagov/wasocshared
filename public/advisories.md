@@ -3,6 +3,7 @@
 ### TLP:WHITE
 
 #### 2022 December
+- 2022/12/19 - [Samba Security Release Updates - 20221219001](advisories/20221219001-Samba-Security-Release-Updates.md)
 - 2022/12/16 - [Apple iOS Type Confusion vulnerability - 20221216004](advisories/20221216004-Apple-iOS-Vulnerability.md)
 - 2022/12/16 - [Veeam Backup & Replication security updates - 20221216003](advisories/20221216003-Veeam-Backup-Vulnerability.md)
 - 2022/12/16 - [Microsoft Defender SmartScreen Security Feature Bypass Vulnerability - 20221216002](advisories/20221216002-Microsoft-SmartScreen-Bypass.md)
