@@ -3,6 +3,7 @@
 ### TLP:WHITE
 
 #### 2022 December
+- 2022/12/23 - [Apple critical security updates - 20221223003](advisories/20221223003-Apple-Critical-Updates.md)
 - 2022/12/23 - [Bypassing ProxyNotShell - 20221223002](advisories/20221223002-Bypassing-ProxyNotShell.md)
 - 2022/12/23 - [Lastpass breach update (ACTION NEEDED: customer details and vaults accessed in August 2022) - 20221223001](advisories/20221223001-Lastpass-breach-update.md)
 - 2022/12/19 - [Samba Security Release Updates - 20221219001](advisories/20221219001-Samba-Security-Release-Updates.md)
