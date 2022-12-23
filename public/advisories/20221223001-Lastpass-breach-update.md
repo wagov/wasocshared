@@ -1,7 +1,7 @@
 # Lastpass breach update (ACTION NEEDED: customer details and vaults accessed in August 2022) - 20221223001
 
 ## Overview
-Lastpass has publicly disclosed that threat actors have accessed personal information and related metadata, including company names, end-user names, billing addresses, email addresses, telephone numbers, and IP addresses customers used to access LastPass services. The threat actors also copied a backup of customer vault data that included unencrypted data such as website URLs and encrypted data fields such as website usernames and passwords, secure notes, and form-filled data.
+[Lastpass has publicly disclosed](https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/) that threat actors have accessed personal information and related metadata, including company names, end-user names, billing addresses, email addresses, telephone numbers, and IP addresses customers used to access LastPass services. The threat actors also copied a backup of customer vault data that included unencrypted data such as website URLs and encrypted data fields such as website usernames and passwords, secure notes, and form-filled data.
 
 ## What is the threat?
 Any organisation or individual using Lastpass could be exposed as **platform metadata and vault backups (including credentials)** were **accessed by threat actors in August 2022**. Given the highly privileged access credentials saved in cloud password managers such as Lastpass contain, threat actors will likely expend significant effort attempting to defeat the master password protection on vaults, including cross-referencing identities with other breaches and brute-forcing identities known to have accessed privileged website URLs.
