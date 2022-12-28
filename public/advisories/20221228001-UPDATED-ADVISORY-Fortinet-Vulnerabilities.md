@@ -1,7 +1,7 @@
 # UPDATED ADVISORY - Fortinet Vulnerabilities for FortiOS / FortiProxy / FortiSwitchManager - 20221228001
 
 ## Overview
-Since initial advice on the 13th of December 2022 ([*Ref: 20221213001*](https://wagov.github.io/wasocshared/#/advisories/20221213001-Fortinet-Vulnerabilities-for-FortiOS-FortiProxy-FortiSwitchManager.md)), FortiGuard Labs has updated their advisory ([https://www.fortiguard.com/psirt/FG-IR-22-398](https://www.fortiguard.com/psirt/FG-IR-22-398)) with additional indicators of compromise (IOCs) for FortiOS administrators to utilize in reviewing the integrity of current vulnerable systems in their advisory  
+Since initial advice on the 13th of December 2022 ([*Ref: 20221213001*](https://wagov.github.io/wasocshared/#/advisories/20221213001-Fortinet-Vulnerabilities-for-FortiOS-FortiProxy-FortiSwitchManager.md)), FortiGuard Labs has updated their advisory ([https://www.fortiguard.com/psirt/FG-IR-22-398](https://www.fortiguard.com/psirt/FG-IR-22-398)) with **additional indicators of compromise** (IOCs) for FortiOS administrators to utilize in reviewing the integrity of current vulnerable systems in their advisory.  
 
 ## What is the threat?
 A heap-based buffer overflow vulnerability ([CWE-122](https://cwe.mitre.org/data/definitions/122.html)) in FortiOS SSL-VPN may allow a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests.
