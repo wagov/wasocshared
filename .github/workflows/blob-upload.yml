@@ -41,7 +41,7 @@ jobs:
           inlineScript: |
             az config set extension.use_dynamic_install=yes_without_prompt
             expiry=$(date -u -d "45 days" '+%Y-%m-%d')
-            sas=$(az storage container generate-sas --connection-string $connstring --permissions lr --expiry $expiry --name tlp-green -o tsv)
+            sas=$(az storage container generate-sas --connection-string $AZURE_STORAGE_CONNSTRING --permissions lr --expiry $expiry --name tlp-green -o tsv)
             echo "tlp-green expiring link: https://wasocshared.blob.core.windows.net/tlp-green/index.html?$sas"
             sed -i s/{{SAS_TOKEN}}/$sas/g tlp-green/reportcontent/soc-update.md
             az storage blob sync -c tlp-green -s .
