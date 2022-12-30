@@ -30,16 +30,21 @@ jobs:
       - uses: actions/checkout@v3
 
       # Upload markdown files to blob storage (tlp-green folder only)
-      # make sure AZURE_STORAGE_ACCOUNT and AZURE_STORAGE_SAS_TOKEN are set 
+      # make sure AZURE_STORAGE_ACCOUNT, AZURE_STORAGE_CONNSTRING and AZURE_STORAGE_SAS_TOKEN are set 
       - name: Azure CLI Action
         uses: Azure/cli@v1
         env:
           AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
           AZURE_STORAGE_SAS_TOKEN: ${{ secrets.AZURE_STORAGE_SAS_TOKEN }}
+          AZURE_STORAGE_CONNSTRING: ${{ secrets.AZURE_STORAGE_CONNSTRING }}
         with:
           inlineScript: |
             az config set extension.use_dynamic_install=yes_without_prompt
-            az storage blob sync -c . -s ./tlp-green
+            expiry=$(date -u -d "45 days" '+%Y-%m-%d')
+            sas=$(az storage container generate-sas --connection-string $connstring --permissions lr --expiry $expiry --name tlp-green -o tsv)
+            echo "tlp-green expiring link: https://wasocshared.blob.core.windows.net/tlp-green/index.html?$sas"
+            sed -i s/{{SAS_TOKEN}}/$sas/g tlp-green/reportcontent/soc-update.md
+            az storage blob sync -c tlp-green -s .
   datalake:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
