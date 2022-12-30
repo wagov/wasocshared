@@ -38,4 +38,4 @@ jobs:
           AZURE_STORAGE_SAS_TOKEN: ${{ secrets.AZURE_STORAGE_SAS_TOKEN }}
           AZURE_STORAGE_CONNSTRING: ${{ secrets.AZURE_STORAGE_CONNSTRING }}
         with:
-          inlineScript: ./github/scripts/blob-upload.py
+          inlineScript: .github/scripts/blob-upload.py
