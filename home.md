@@ -11,7 +11,11 @@ This site contains technical information to support WA Government Cyber Security
 - [Incident Reporting User Guide (Jira)](docs/incident-reporting.md)
   - [Dynamics Incident Reporting Portal](https://www.wa.gov.au/service/security/information-security/western-australian-government-cyber-security-incident-reporting-portal)
 
-[Cyber Security Advisories](advisories.md ':include')
+## Cyber Security Advisories
+
+[tlp-green](tlp-green/advisories.md ':include')
+
+[tlp-clear](advisories.md ':include')
 
 ## Technical Documentation
 

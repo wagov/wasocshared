@@ -1,3 +1,3 @@
-# Advisories
+### [TLP:GREEN](https://www.first.org/tlp/)
 
-- [Test Advisory](advisories/test-advisory.md)
+- [Test Advisory](/tlp-green/advisories/test-advisory.md)
