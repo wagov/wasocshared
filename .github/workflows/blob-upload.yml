@@ -39,7 +39,7 @@ jobs:
         with:
           inlineScript: |
             az config set extension.use_dynamic_install=yes_without_prompt
-            az storage blob sync -c tlp-green -s ./tlp-green
+            az storage blob sync -c . -s ./tlp-green
   datalake:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
