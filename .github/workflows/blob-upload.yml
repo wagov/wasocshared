@@ -43,7 +43,7 @@ jobs:
             expiry=$(python -c 'from datetime import datetime, timedelta; print((datetime.utcnow() + timedelta(days=45)).isoformat().split("T")[0])')
             sas=$(az storage container generate-sas --connection-string $AZURE_STORAGE_CONNSTRING --permissions lr --expiry $expiry --name tlp-green -o tsv)
             echo "tlp-green expiring link: https://wasocshared.blob.core.windows.net/tlp-green/index.html?$sas" >> sas_link.txt
-            sed -i s/{{SAS_TOKEN}}/$sas/g tlp-green/reportcontent/soc-update.md
+            python -c "print(open('tlp-green/reportcontent/soc-update.md').read().replace('{{SAS_TOKEN}}', '$sas'))" > tlp-green/reportcontent/soc-update.md
             az storage blob sync -c tlp-green -s .
   datalake:
     # The type of runner that the job will run on
