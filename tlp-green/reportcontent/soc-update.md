@@ -6,5 +6,5 @@ For general (non-urgent) security advice and incident collaboration, it's most e
 
 ### Advisories and Updates
 
-- [TLP:GREEN](https://wasocshared.blob.core.windows.net/tlp-green/index.html?{{SAS_TOKEN}}#/tlp-green/advisories.md) and [TLP:CLEAR Advisories](https://wagov.github.io/wasocshared/#/advisories.md) are available online for your convenience.
+- [TLP:GREEN](https://wasocshared.blob.core.windows.net/tlp-green/index.html?{sas}#/tlp-green/advisories.md) and [TLP:CLEAR Advisories](https://wagov.github.io/wasocshared/#/advisories.md) are available online for your convenience.
 - [Recent Threat Activity](https://wagov.github.io/wasocshared/#/threat-activity.md) covers cyber events the WA SOC has seen in the past few months of note.
