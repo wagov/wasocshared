@@ -31,11 +31,20 @@
         return markdown.replace(/(\([\w/][^):]*\.md)\)/gm, "$1.md)");
       });
     };
+
+    // This preserves query string parameters in XHR requests
+    const oldXHROpen = XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open = function() {
+      if (window.location.search && arguments[1].indexOf(window.location.search) < 0) {
+          arguments[1] += window.location.search;
+      }  
+      return oldXHROpen.apply(this, arguments);
+    };
+
     // Docsify Configuration
     window.$docsify = {
       loadSidebar: "_sidebar.md",
       loadNavbar: "_navbar.md",
-      basePath: window.location.pathname.replace("/index.html", ""),
       auto2top: true,
       subMaxLevel: 3,
       relativePath: true,
@@ -45,8 +54,6 @@
         // clean index
         "/": "/home.md",
         "/([^.]*)": "/$1.md", // fallback to add .md where no extension provided
-        // use alias to preserve token in url
-        "/([^?]*)": "/$1" + window.location.search,
       },
       noCompileLinks: [
         ".*\.pdf" // allow pdf downloads (use path relative to index.html)
