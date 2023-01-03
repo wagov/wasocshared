@@ -50,6 +50,11 @@
           document.querySelectorAll('img').forEach((img) => {
             img.src += search;
           });
+          document.querySelectorAll('a').forEach((atag) => {
+            if (atag.href.indexOf(window.location.host) > 0 && atag.href.indexOf(window.location.search) < 0) {
+              atag.href += window.location.search;
+            }
+          });
         }
       });
     };
