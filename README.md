@@ -4,7 +4,7 @@ Blob content for wasocshared site, built with [docsify](https://docsify.js.org).
 
 Minor enhancements include a custom content router to preserve SAS container url so that a container level SAS_TOKEN can be used to easily share any content within that container.
 
-Note that attachments that are directly downloadable have to be in the noCompileLinks section, and paths for them should all be relative to the index.html file (not the markdown document the links are in).
+Note that attachments that are directly downloadable have to be in the noCompileLinks section, and paths for them should all be relative to the index.html file (not the markdown document the links are in). Recommended to only provide zips or pdfs for downloads.
 
 ```javascript
 // This fixes tokens in urls so blob content etc works.
