@@ -3,6 +3,7 @@
 **Phishing activity remains high** across all organisations with multiple incidents detected weekly. Please refer to the below guides to ensure all external and internal signins are appropriately monitored.
 
 - [Tips for preventing against new modern identity attacks (AiTM, MFA Fatigue, PRT, OAuth)](https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/)
+    - [Enabling MFA number matching to mitigate MFA fatigue attacks (AAD)](https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-number-match#enable-number-matching-in-the-portal)
 - [How to implement Defender for Identity and configure all prerequisites](https://jeffreyappel.nl/how-to-implement-defender-for-identity-and-configure-all-prerequisites/)
 
 **Agent Tesla (spyware Trojan)** has been detected across several organisations. It is used to steal sensitive information from a victim's device such as user credentials, keystrokes, clipboard data, sessions and credentials from browsers, and other information. The malware was deployed from various websites and blocked by EDR across the incidents the SOC was aware of.
