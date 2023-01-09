@@ -69,7 +69,7 @@ Install on all domain controllers and ADFS servers
 
 Collect events from [Defender for Office 365](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/defender-for-office-365?view=o365-worldwide#getting-started) and Defender for Endpoint
 
-- Enable collection of events from all Advanced Hunting tables (Defender, Office 365, Identity, Cloud Apps & Alerts)
+- Enable collection of events from all Advanced Hunting tables ([Defender](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDE#connect-events), [Office 365](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDO#connect-events), [Identity](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDI#connect-events), [Cloud Apps](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDCA#connect-events) & [Alerts](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDA#connect-events))
 
 ### 2.3. [Connect Azure Activity log](https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log#send-to-log-analytics-workspace)
 
