@@ -2,6 +2,7 @@
 
 #### 2023 January
 
+- 2023/01/09 - [Centos Remote Code Execution Vulnerability - 20230109003](advisories/20230109003-Centos-RCE-Vulnerability.md)
 - 2023/01/05 - [FortiADC Command Injection Vulnerability - 20230105001](advisories/20230105001-FortiADC-Command-Injection-Vulnerability.md)
 - 2023/01/04 - [TIBCO JasperReports Server Vulnerability - 20230104002](advisories/20230104002-TIBCO-JasperReports-Server-Vulnerability.md)
 - 2023/01/04 - [TIBCO JasperReports Library Vulnerability - 20230104001](advisories/20230104001-TIBCO-JasperReports-Library-Vulnerability.md)
