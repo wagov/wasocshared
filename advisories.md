@@ -4,7 +4,7 @@
 
 - 2023/01/09 - [Centos Remote Code Execution Vulnerability - 20230109003](advisories/20230109003-Centos-RCE-Vulnerability.md)
 - 2023/01/09 - [ManageEngine SQL Injection Vulnerability - 20230109002](advisories/20230109002-ManageEngine-SQL-Injection-Vulnerability.md)
-- 2023/01/09 - [Synology-SA-22:25 SRM Vunerability - 20230109001](advisories/20230109001-Synology-SA-22:25-Vulnerability-SRM.md)
+- 2023/01/09 - [Synology-SA-2225 SRM Vunerability - 20230109001](advisories/20230109001-Synology-SA-2225-Vulnerability-SRM.md)
 - 2023/01/05 - [FortiADC Command Injection Vulnerability - 20230105001](advisories/20230105001-FortiADC-Command-Injection-Vulnerability.md)
 - 2023/01/04 - [TIBCO JasperReports Server Vulnerability - 20230104002](advisories/20230104002-TIBCO-JasperReports-Server-Vulnerability.md)
 - 2023/01/04 - [TIBCO JasperReports Library Vulnerability - 20230104001](advisories/20230104001-TIBCO-JasperReports-Library-Vulnerability.md)
