@@ -4,7 +4,7 @@ Over time the WA SOC is establishing a set of playbooks, primarily focused on in
 
 ## 1. Triage & Investigation
 
-Under Review
+Under Review, see [Sentinel Triage AssistanT (STAT)](https://github.com/briandelmsft/SentinelAutomationModules/blob/main/Docs/howitworks.md) as an approach to standardise and automate common triage actions.
 
 ## 2. Incident Response
 
@@ -18,7 +18,7 @@ In the absence of an internal procedure the CERT Societe Generale [IRM-2022 (Inc
 - [IRM-3-UnixLinuxIntrusionDetection.pdf](https://github.com/wagov/IRM/raw/main/EN/IRM-3-UnixLinuxIntrusionDetection.pdf)
 - [IRM-4-DDOS.pdf](https://github.com/wagov/IRM/raw/main/EN/IRM-4-DDOS.pdf)
 - [IRM-5-MaliciousNetworkBehaviour.pdf](https://github.com/wagov/IRM/raw/main/EN/IRM-5-MaliciousNetworkBehaviour.pdf)
-- [IRM-6-Website-Defacement.pdf](https://github.com/wagov/IRM/raw/main/EN/IRM-6-Website-Defacement.pdf)
+- [IRM-6-Website-Defacement.pdf](https://github.com/wagov/IRM/raw/main/EN/IRM-6-Website-Defacement.pdf)``
 - [IRM-7-WindowsMalwareDetection.pdf](https://github.com/wagov/IRM/raw/main/EN/IRM-7-WindowsMalwareDetection.pdf)
 - [IRM-8-Blackmail.pdf](https://github.com/wagov/IRM/raw/main/EN/IRM-8-Blackmail.pdf)
 - [IRM-9-SmartphoneMalware.pdf](https://github.com/wagov/IRM/raw/main/EN/IRM-9-SmartphoneMalware.pdf)
@@ -36,10 +36,12 @@ In the absence of an internal procedure the CERT Societe Generale [IRM-2022 (Inc
 
 ![Vulnerability Response](../images/vulnerabilityresponse.png)
 
+Under Review, refer to [Technical Example: Patch Operating Systems](https://www.cyber.gov.au/acsc/view-all-content/publications/technical-example-patch-operating-systems) and [Technical Example: Patch Applications](https://www.cyber.gov.au/acsc/view-all-content/publications/technical-example-patch-applications) for good approaches to automating baseline vulnerability management.
+
 ## 4. Threat Hunting
 
-Under Review
+Under Review, [Jupyter Notebooks](https://github.com/github/codespaces-jupyter) are effective, and easily query datalake type repositories, see [Use a Jupyter Notebook and kqlmagic extension to analyze data in Azure Data Explorer](https://learn.microsoft.com/en-us/azure/data-explorer/kqlmagic).
 
 ## 5. Digital Forensics
 
-Under Review, see [Collecting Evidence](collecting-evidence.md)
+Under Review, see [Collecting Evidence](collecting-evidence.md) and [Dissect (modern forensics tooling)](https://docs.dissect.tools/en/latest/index.html) to augment SIEM activities with in depth captures as needed.
