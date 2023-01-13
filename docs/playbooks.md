@@ -4,7 +4,7 @@ Over time the WA SOC is establishing a set of playbooks, primarily focused on in
 
 ## 1. Triage & Investigation
 
-Under Review, see [Sentinel Triage AssistanT (STAT)](https://github.com/briandelmsft/SentinelAutomationModules/blob/main/Docs/howitworks.md) as an approach to standardise and automate common triage actions.
+Under Review, see [Sentinel Triage AssistanT (STAT)](https://github.com/briandelmsft/SentinelAutomationModules/blob/main/Docs/readme.md) as an approach to standardise and automate common triage actions.
 
 ## 2. Incident Response
 
