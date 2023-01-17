@@ -2,6 +2,10 @@
 
 #### 2023 January
 
+- 2023/01/17 - [Zoom Rooms Local Privilege Escalation Vulnerability - 20230117004](advisories/20230117004-Zoom-Rooms-Privilege-Escalation.md)
+- 2023/01/17 - [FortiOS Heap-Based Buffer Overflow in SSL-VPN - 20230117003](advisories/20230117003-FortiOS-SSLVPN-Vulnerability.md)
+- 2023/01/17 - [CISCO Prime DCNM File Information Disclosure Vulnerability - 20230117002](advisories/20230117002-CISCO-DCNM-Vulnerability.md)
+- 2023/01/17 - [CISCO VPN Router Web-Based Interface Vulnerability - 20230117001](advisories/20230117001-CISCO-VPN-Router-Vulnerability.md)
 - 2023/01/13 - [Juniper Networks Releases Security Updates for Multiple Products - 20230113002](advisories/20230113002-Juniper-Networks-Releases-Security-Updates-for-Multiple-Products.md)
 - 2023/01/13 - [Drupal Private Taxonomy Vulnerability Security Update - 20230113001](advisories/20230113001-Drupal-Private-Taxonomy-Vulnerability-Security-Update.md)
 - 2023/01/11 - [Microsoft Exhchange Server and Windows Vulnerabilities - 20230111003](advisories/20230111003-Microsoft-Exchange-Server-and-Windows-Vulnerabilities.md)
