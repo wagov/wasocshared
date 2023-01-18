@@ -18,6 +18,7 @@ The primary delivery method is via email containing a URL.
 ### Recommended Remediation Steps
 1.  Run a full Antivirus scan on the compromised device
 2.  Reset the affected user's passwords
+3.  Implement MFA if required
 
 ## Indicators of Compromise (IOCs)
 
