@@ -2,6 +2,7 @@
 
 #### 2023 January
 
+- 2023/01/19 - [Resurgence of SEO Poisoning - 20230119001](advisories/20230119001-SEO-Poisoning-Resurgence.md)
 - 2023/01/18 - [Increased Events from Threat Activity Group DEV-0867 - 20230118001](advisories/20230118001-DEV-0867-Increased-Events-IOCs.md)
 - 2023/01/17 - [Zoom Rooms Local Privilege Escalation Vulnerability - 20230117004](advisories/20230117004-Zoom-Rooms-Privilege-Escalation.md)
 - 2023/01/17 - [FortiOS Heap-Based Buffer Overflow in SSL-VPN - 20230117003](advisories/20230117003-FortiOS-SSLVPN-Vulnerability.md)
