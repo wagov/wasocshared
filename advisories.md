@@ -11,7 +11,7 @@
 - 2023/01/17 - [CISCO VPN Router Web-Based Interface Vulnerability - 20230117001](advisories/20230117001-CISCO-VPN-Router-Vulnerability.md)
 - 2023/01/13 - [Juniper Networks Releases Security Updates for Multiple Products - 20230113002](advisories/20230113002-Juniper-Networks-Releases-Security-Updates-for-Multiple-Products.md)
 - 2023/01/13 - [Drupal Private Taxonomy Vulnerability Security Update - 20230113001](advisories/20230113001-Drupal-Private-Taxonomy-Vulnerability-Security-Update.md)
-- 2023/01/11 - [Microsoft Exhchange Server and Windows Vulnerabilities - 20230111003](advisories/20230111003-Microsoft-Exchange-Server-and-Windows-Vulnerabilities.md)
+- 2023/01/11 - [Microsoft Exchange Server and Windows Vulnerabilities - 20230111003](advisories/20230111003-Microsoft-Exchange-Server-and-Windows-Vulnerabilities.md)
 - 2023/01/11 - [Adobe Security Updates for Multiple Products - 20230111002](advisories/20230111002-Adobe-Security-Updates-for-Multiple-Products.md)
 - 2023/01/11 - [Microsoft January 2023 Security Updates - 20230111001](advisories/20230111001-Microsoft-January-2023-Security-Updates.md)
 - 2023/01/09 - [Centos Remote Code Execution Vulnerability - 20230109003](advisories/20230109003-Centos-RCE-Vulnerability.md)
