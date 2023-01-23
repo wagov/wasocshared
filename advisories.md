@@ -2,6 +2,7 @@
 
 #### 2023 January
 
+- 2023/01/23 - [Drupal Address Multiple Vulnerabilities - 20230123001](advisories/20230123001-Drupal-Multiple-Vulnerabilities.md)
 - 2023/01/20 - [UPDATE: Sophos Firewall Critical Vulnerability - 20230120001](advisories/20230120001-UPDATE-Sophos-Firewall-Vulnerability.md)
 - 2023/01/19 - [Resurgence of SEO Poisoning - 20230119001](advisories/20230119001-SEO-Poisoning-Resurgence.md)
 - 2023/01/18 - [Increased Events from Threat Activity Group DEV-0867 - 20230118001](advisories/20230118001-DEV-0867-Increased-Events-IOCs.md)
