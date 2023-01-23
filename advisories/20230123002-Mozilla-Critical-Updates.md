@@ -1,4 +1,4 @@
-# Mozilla Realeases Critical Security Updates - 20230123002
+# Mozilla Releases Critical Security Updates - 20230123002
 
 ## Overview
 Mozilla has released critical security updates to address vulnerabilities in Firefox ESR and Firefox. An attacker could exploit some of these vulnerabilities to take control of an affected system.
