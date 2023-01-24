@@ -2,6 +2,7 @@
 
 #### 2023 January
 
+- 2023/01/24 - [ManageEngine RCE Vulnerability Known Exploitation - 20230124001](advisories/20230124001-ManageEngine-RCE-Vulnerabilities.md)
 - 2023/01/23 - [Mozilla Releases Critical Security Updates - 20230123002](advisories/20230123002-Mozilla-Critical-Updates.md)
 - 2023/01/23 - [Drupal Address Multiple Vulnerabilities - 20230123001](advisories/20230123001-Drupal-Multiple-Vulnerabilities.md)
 - 2023/01/20 - [UPDATE: Sophos Firewall Critical Vulnerability - 20230120001](advisories/20230120001-UPDATE-Sophos-Firewall-Vulnerability.md)
