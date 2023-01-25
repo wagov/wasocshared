@@ -2,6 +2,8 @@
 
 #### 2023 January
 
+- 2023/01/25 - [CISA Releases Two Industrial Control Systems Advisories - 20230125002](advisories/20230125002-CISA-New-ICS-Advisories.md)
+- 2023/01/25 - [Apple Releases Security Updates for Multiple Products - 20230125001](advisories/20230125001-Apple-Security-Updates.md)
 - 2023/01/24 - [ManageEngine RCE Vulnerability Known Exploitation - 20230124001](advisories/20230124001-ManageEngine-RCE-Vulnerabilities.md)
 - 2023/01/23 - [Mozilla Releases Critical Security Updates - 20230123002](advisories/20230123002-Mozilla-Critical-Updates.md)
 - 2023/01/23 - [Drupal Address Multiple Vulnerabilities - 20230123001](advisories/20230123001-Drupal-Multiple-Vulnerabilities.md)
