@@ -2,6 +2,7 @@
 
 #### 2023 January
 
+- 2023/01/27 - [Telerik UI for ASP.NET AJAX Known Vulnerability - 20230127002](advisories/20230127002-Telerik-RadControls-Known-Vulnerability.md)
 - 2023/01/25 - [CISA Releases Two Industrial Control Systems Advisories - 20230125002](advisories/20230125002-CISA-New-ICS-Advisories.md)
 - 2023/01/25 - [Apple Releases Security Updates for Multiple Products - 20230125001](advisories/20230125001-Apple-Security-Updates.md)
 - 2023/01/24 - [ManageEngine RCE Vulnerability Known Exploitation - 20230124001](advisories/20230124001-ManageEngine-RCE-Vulnerabilities.md)
