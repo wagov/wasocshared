@@ -7,6 +7,11 @@
 
 #### 2023 January
 
+
+- 2023/02/03 - [CISA Releases Oracle E-Business Suite & SugarCRM Known Vulnerabilities Updates - 20230203003](advisories/20230203003-CISA-Oracle-E-Business-Suite-and-SugarCRM-Known-Vulnerabilities.md)
+- 2023/02/03 - [Drupal Apigee Edge Security Vulnerability Update - 20230203002](advisories/20230203002-Drupal-Apigee-Edge-Security-Vulnerability-Update.md)
+- 2023/02/03 - [VMware vRealize Operations (vROps) CSRF Bypass Vulnerability - 20230203001](advisories/20230203001-VMware-vRealize-Operations-CSRF-Bypass-Vulnerability.md)
+- 2023/02/01 - [Multiple Internet Systems Consortium (ISC) BIND 9 Security Advisories - 20230201001](advisories/20230201001-Multiple-Internet-Systems-Consortium-ISC-BIND-9-Security-Advisories.md)
 - 2023/01/27 - [Telerik UI for ASP.NET AJAX Known Vulnerability - 20230127002](advisories/20230127002-Telerik-RadControls-Known-Vulnerability.md)
 - 2023/01/27 - [CISA Releases Eight Industrial Control Systems Advisories - 20230127001](advisories/20230127001-CISA-New-ICS-Advisories.md)
 - 2023/01/25 - [CISA Releases Two Industrial Control Systems Advisories - 20230125002](advisories/20230125002-CISA-New-ICS-Advisories.md)
