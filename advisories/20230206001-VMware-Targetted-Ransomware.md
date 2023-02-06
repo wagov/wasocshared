@@ -1,7 +1,7 @@
 # VMware ESXi servers targetted by ESXiArgs ransomware - 20230206001
 
 ## Overview
-An article published by BleepingComputer is noting an increasing amount of reports of attackers actively targetting unpatched VMware ESXi servers containing a Remote Code Execution (RCE) vulnerability to deploy a new "ESXiArgs" ransomware.
+An article published by BleepingComputer is noting an increasing amount of reports of attackers actively targeting unpatched VMware ESXi servers containing a Remote Code Execution (RCE) vulnerability to deploy a new "ESXiArgs" ransomware.
 
 VMWare released an official advisory for the CVE on **23rd Februrary 2021**: [https://www.vmware.com/security/advisories/VMSA-2021-0002.html](https://www.vmware.com/security/advisories/VMSA-2021-0002.html)
 
@@ -13,9 +13,6 @@ The vulnerability exists in the following products:
 - ESXi versions 7.x prior to ESXi70U1c-17325551
 - ESXi versions 6.7.x prior to ESXi670-202102401-SG
 - ESXi versions 6.5.x prior to ESXi650-202102101-SG
-
-## What has been observed?
-CISA has listed this vulnerabilty in their [Known Exploited Vulnerabilties](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog.
 
 ## Recommendation
 Due to the report of active exploitation, it is strongly recommended to patch this vulnerability within 2 weeks across all affected platforms as per vendor instructions: [https://www.vmware.com/security/advisories/VMSA-2021-0002.html](https://www.vmware.com/security/advisories/VMSA-2021-0002.html)
