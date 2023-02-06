@@ -2,9 +2,7 @@
 
 #### 2023 February
 
-- 2023/02/03 - [SugarCRM Multiple Products Remote Code Execution (RCE) Vulnerability - 20230203005](advisories/20230203005-SugarCRM-RCE-Vulnerability.md)
-- 2023/02/03 - [UPDATE: Oracle CVE added to CISA Known Exploited Vulnerability Catalog - 20230203004](advisories/20230203004-UPDATE-Oracle-Known-Exploited.md)
-- 2023/02/03 - [CISA Releases Oracle E-Business Suite & SugarCRM Known Vulnerabilities Updates - 20230203003](advisories/20230203003-CISA-Oracle-E-Business-Suite-and-SugarCRM-Known-Vulnerabilities.md)
+- 2023/02/03 - [CISA Releases Oracle E-Business Suite & SugarCRM Known Vulnerabilities Updates - 20230203003](advisories/20230203003-CISA-Releases-Oracle-E-Business-Suite-and-SugarCRM-Known-Vulnerabilities.md)
 - 2023/02/03 - [Drupal Apigee Edge Security Vulnerability Update - 20230203002](advisories/20230203002-Drupal-Apigee-Edge-Security-Vulnerability-Update.md)
 - 2023/02/03 - [VMware vRealize Operations (vROps) CSRF Bypass Vulnerability - 20230203001](advisories/20230203001-VMware-vRealize-Operations-CSRF-Bypass-Vulnerability.md)
 
