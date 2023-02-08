@@ -2,6 +2,7 @@
 
 #### 2023 February
 
+- 2023/02/08 - [VMware ESXiArgs Ransomware Recovery Script Release - 20230208001](advisories/20230208001-VMware-ESXiArgs-Ransomware-Recovery-Script-Release.md)
 - 2023/02/03 - [CISA Releases Oracle E-Business Suite & SugarCRM Known Vulnerabilities Updates - 20230203003](advisories/20230203003-CISA-Releases-Oracle-E-Business-Suite-and-SugarCRM-Known-Vulnerabilities.md)
 - 2023/02/03 - [Drupal Apigee Edge Security Vulnerability Update - 20230203002](advisories/20230203002-Drupal-Apigee-Edge-Security-Vulnerability-Update.md)
 - 2023/02/03 - [VMware vRealize Operations (vROps) CSRF Bypass Vulnerability - 20230203001](advisories/20230203001-VMware-vRealize-Operations-CSRF-Bypass-Vulnerability.md)
