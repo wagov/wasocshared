@@ -2,7 +2,7 @@
 
 #### 2023 February
 
-
+- 2023/02/09 - [Security Patch Update for Secret Server 11.3.000003 - 20230209001](advisories/20230209001-Security-Patch-Update-for-Secret-Server.md)
 - 2023/02/08 - [VMware ESXiArgs Ransomware Recovery Script Release - 20230208001](advisories/20230208001-VMware-ESXiArgs-Ransomware-Recovery-Script-Release.md)
 - 2023/02/06 - [VMware ESXi Servers Targeted by ESXiArgs Ransomware - 20230206001](advisories/20230206001-VMware-Targetted-Ransomware.md)
 - 2023/02/03 - [CISA Releases Oracle E-Business Suite & SugarCRM Known Vulnerabilities Updates - 20230203003](advisories/20230203003-CISA-Releases-Oracle-E-Business-Suite-and-SugarCRM-Known-Vulnerabilities.md)
