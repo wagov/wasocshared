@@ -7,7 +7,7 @@ The WA SOC has been notified of an unauthorised access vulnerability found for P
 This issue is rated **High** with an ***8.5*** Common Vulnerability Scoring System (CVSS v3.1) score with vector [AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N&version=3.1).
 
 ### ***NOTE from Vendor's Article:*** 
-* The vulnerability is not publicly known and was responsibly disclosed through internal communication channels. There have been no detectedexploitation attempts against Secret Server Cloud or On-Premises, [prior to the publication of this article](https://docs.delinea.com/bulletins/current/2023/11.3.000003.md).
+* The vulnerability is not publicly known and was responsibly disclosed through internal communication channels. There have been no detected exploitation attempts against Secret Server Cloud or On-Premises, [prior to the publication of this article](https://docs.delinea.com/bulletins/current/2023/11.3.000003.md).
 
 ## What is vulnerable? 
 The vulnerability *affects all versions* ***prior*** to the February 2023 Security Patch for Secret Server Cloud and Secret Server On-Premises.
