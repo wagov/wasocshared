@@ -26,6 +26,7 @@ EmailUrlInfo
 
 Known bad links from above query (warning: these have not been defanged)
 ```
+# Source: EmailUrlInfo
 https://work-link-14v8l.pagemaker.link/
 https://rodgersinstruments.com/cronjob/mailcampaigns/link/nzq4ng==/mtg0/?link=https://notice25673993040240404notice477488-pk2lp.pagemaker.link/notice-25673993040240404
 accesswire.com/social_visits.ashx?articleid=662178&networkid=ins&link=https://notice5673993040240404notice477488-jqnre.pagemaker.link/notice-5673993040240404-notice-477488
@@ -38,6 +39,21 @@ https://accesswire.com/social_visits.ashx?articleid=662178&amp;networkid=Ins&amp
 https://buyamerican.com/landing/count.php?link=https://notice5673993040240404notice477488-ev2rr.pagemaker.link/notice-5673993040240404-notice-477488
 https://ultrawidesnowboards.com/url?link=https://84260notice93751notice632418notice-pk64p.pagemaker.link/84260-notice-93751-notice-632418-notice
 http://aquamarintour.ru/out.php?link=https://654321notice897654notice321490notice-lg4l4.pagemaker.link/654321-notice-897654-notice-321490-notice
+
+# Source: urlscan.io
+anotice5673993040240404notice477488-dxvze.pagemaker.link
+notice2673993040240205notice477488-ev2rr-lg45r.pagemaker.link
+0192-bsh299-lo19-notice-01892-865-7152-y-001-nz890-jq86l.pagemaker.link
+3264354897000notice3264354897000-44qjx.pagemaker.link
+notice5673993040240404notice477488-kner8.pagemaker.link
+notice5673993040240404notice477488-jqnre.pagemaker.link
+3245344533notice32456645455783-x5zj2.pagemaker.link
+notice1122673993040240404notice477488-mx2r9.pagemaker.link
+notice5673993040240404notice477488-ev2rr.pagemaker.link
+01623-480107notice01623-480107-dxj44.pagemaker.link
+notice25673993040240404notice477488-pk2lp.pagemaker.link
+07970-179-439-notice-07970-179-439-7n5q2.pagemaker.link
+notice5673993040240404notice477488-dxvze.pagemaker.link
 ```
 
 ## Recommendation
