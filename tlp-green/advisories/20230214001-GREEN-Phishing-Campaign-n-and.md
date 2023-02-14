@@ -1,24 +1,27 @@
 # Phishing campaign with confirmed account compromises - 20230214001
 
 ## Overview
-The WA SOC has observed a growing phishing campaign across multiple agencies aiming to harvest credentials. Accounts have been confirmed compromised and signins have been seen from threat actor infrastructure. The threat actor has been using similar techniques with varying redirection strategies since 20th January 2023. The current activities by the threat actor appear to be limited to further spreading phishing emails.
+The WA SOC has observed 2 phishing campaigns across multiple agencies aiming to harvest credentials. Accounts have been confirmed compromised and signins have been seen from threat actor infrastructure. One threat actor has been using similar techniques with varying redirection strategies since 20th January 2023. The current activities by the threat actors appear to be limited to further spreading phishing emails.
 
-## IOCs below
+## Campain A IOCs
+
+- Sender: milly.brashaw@aiwaac.org.au
+- Subject: Aboriginal Interpreting WA - Audio Files
+- IPv4 Address: 5.161.180.3 (related to Domain: `microsoftlogin-secured[.]ucalfp[.]org`)
+- Stage 1 URL: `hxxps[://]assiaz-my[.]sharepoint[.]com/:f:/p/jameso/EtQSYFafx35JkNL4WSR-APEBWMWOu7wzCdNPI1YEfoEmbQ?e=2YmPaA`
+- Domain: `microsoftlogin-secured[.]ucalfp[.]org`
+
+## Campaign B IOCs
 
 - Senders:
     - alessandro.mutti@n-andgroup.com
     - Andrew.pitt@n-andgroup.com
     - andrea.stradella@n-anditalia.com
     - andrea.stroppa@n-anditalia.com
-    - milly.brashaw@aiwaac.org.au
-- Subjects:
-    - Attention Required
-    - Aboriginal Interpreting WA - Audio Files
-- IPv4 Address (AiTM proxy): 5.161.180.3 (related to Domain: `microsoftlogin-secured[.]ucalfp[.]org`)
-- IPv4 Address (Signin attempts): 20.163.76.195
+- Subjects Attention Required
+- IPv4 Address: 20.163.76.195
 - Domains:
     - `*.pagemaker.link`
-    - `microsoftlogin-secured[.]ucalfp[.]org`
     - `sydneyhairdressers.com/*`
 
 Users clicking the link will be taken to a page on the site pagemaker.link which is a legitimate site that is being used by malicious actors.
