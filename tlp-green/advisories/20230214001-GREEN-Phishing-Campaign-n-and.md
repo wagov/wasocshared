@@ -18,7 +18,7 @@ The WA SOC has observed 2 phishing campaigns across multiple agencies aiming to 
     - Andrew.pitt@n-andgroup.com
     - andrea.stradella@n-anditalia.com
     - andrea.stroppa@n-anditalia.com
-- Subjects Attention Required
+- Subject: Attention Required
 - IPv4 Address: 20.163.76.195
 - Domains:
     - `*.pagemaker.link`
