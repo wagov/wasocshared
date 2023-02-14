@@ -10,12 +10,14 @@ The WA SOC has observed a growing phishing campaign across multiple agencies see
     - Andrew.pitt@n-andgroup.com
     - andrea.stradella@n-anditalia.com
     - andrea.stroppa@n-anditalia.com
+    - milly.brashaw@aiwaac.org.au
 - Subject: Attention Required
 - IPv4 Address (AiTM proxy): 5.161.180.3 (related to Domain: `microsoftlogin-secured[.]ucalfp[.]org`)
 - IPv4 Address (Signin attempts): 20.163.76.195
-- Domain: `*.pagemaker.link`
-- Domain: `microsoftlogin-secured[.]ucalfp[.]org`
-- Domain: `sydneyhairdressers.com`
+- Domains:
+    - `*.pagemaker.link`
+    - `microsoftlogin-secured[.]ucalfp[.]org`
+    - `sydneyhairdressers.com`
 
 Users clicking the link will be taken to a page on the site pagemaker.link which is a legitimate site that is being used by malicious actors.
 
@@ -62,6 +64,12 @@ notice5673993040240404notice477488-dxvze.pagemaker.link
 The WA SOC recommends administrators apply the advice provided by the ACSC [Phishing - scam emails | Cyber.gov.au](https://www.cyber.gov.au/acsc/view-all-content/threats/phishing).
 
 Additionally:
-- Search for and delete associated phishing emails
-- Reset password for the users that have clicked the URLs.
-- Add IOC to block list.
+- Search for and delete associated phishing emails, see [Remedoate malicious email delivered in Office 365](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/remediate-malicious-email-delivered-office-365?view=o365-worldwide) or undertake the below manually:
+    - Block network IOCs discovered via the attachment / URL analysis on DNS, firewalls, or proxies.
+    - Block the phishing campaign based on senders, subjects, or other email artifacts via email gateway.
+    - Try to delete phishing emails from inbox.
+    - Apply DNS Sinkhole on the suspicious URL (optional depending on DNS architecture).
+- Reset passwords for the users that have clicked the URLs.
+- Load STIX indicators from [WA SOC Threat Feed](https://forms.office.com/r/09QP6JM4Me) (e.g. [Connect Microsoft Sentinel to STIX/TAXII threat intelligence feeds](https://learn.microsoft.com/en-us/azure/sentinel/connect-threat-intelligence-taxii)) or manually add the IOCs above to your block lists.
+- Implement [Tips for preventing against new modern identity attacks (AiTM, MFA Fatigue, PRT, OAuth)](https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/)
+    - [Enable MFA number matching to mitigate MFA fatigue attacks (AAD)](https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-number-match#enable-number-matching-in-the-portal)
