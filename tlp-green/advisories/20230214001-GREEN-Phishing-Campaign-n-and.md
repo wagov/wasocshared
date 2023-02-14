@@ -1,7 +1,7 @@
 # Phishing campaign with confirmed account compromises - 20230214001
 
 ## Overview
-The WA SOC has observed a growing phishing campaign across multiple agencies aiming to harvest credentials. Accounts have been confirmed compromised and signins have been seen from threat actor infrastructure. The threat actor has been using similar techniques with varying redirection strategies since 20th January 2023 (source: [JCSC #manual_ioc - Daniel McNamara](https://jcscau.slack.com/archives/C9DHS8AJE)). The current activities by the threat actor appear to be limited to further spreading phishing emails.
+The WA SOC has observed a growing phishing campaign across multiple agencies aiming to harvest credentials. Accounts have been confirmed compromised and signins have been seen from threat actor infrastructure. The threat actor has been using similar techniques with varying redirection strategies since 20th January 2023. The current activities by the threat actor appear to be limited to further spreading phishing emails.
 
 ## IOCs below
 
@@ -11,13 +11,15 @@ The WA SOC has observed a growing phishing campaign across multiple agencies aim
     - andrea.stradella@n-anditalia.com
     - andrea.stroppa@n-anditalia.com
     - milly.brashaw@aiwaac.org.au
-- Subject: Attention Required
+- Subjects:
+    - Attention Required
+    - Aboriginal Interpreting WA - Audio Files
 - IPv4 Address (AiTM proxy): 5.161.180.3 (related to Domain: `microsoftlogin-secured[.]ucalfp[.]org`)
 - IPv4 Address (Signin attempts): 20.163.76.195
 - Domains:
     - `*.pagemaker.link`
     - `microsoftlogin-secured[.]ucalfp[.]org`
-    - `sydneyhairdressers.com`
+    - `sydneyhairdressers.com/*`
 
 Users clicking the link will be taken to a page on the site pagemaker.link which is a legitimate site that is being used by malicious actors.
 
@@ -63,7 +65,7 @@ notice5673993040240404notice477488-dxvze.pagemaker.link
 ## Recommendation
 The WA SOC recommends administrators follow the below steps to respond and remediate the active threat.
 
-- Search for and delete associated phishing emails, see [Remedoate malicious email delivered in Office 365](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/remediate-malicious-email-delivered-office-365?view=o365-worldwide) or undertake the below manually:
+- Search for and delete associated phishing emails, see [Remediate malicious email delivered in Office 365](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/remediate-malicious-email-delivered-office-365?view=o365-worldwide) or undertake the below manually:
     - Block network IOCs discovered via the attachment / URL analysis on DNS, firewalls, or proxies.
     - Block the phishing campaign based on senders, subjects, or other email artifacts via email gateway.
     - Try to delete phishing emails from inbox.
