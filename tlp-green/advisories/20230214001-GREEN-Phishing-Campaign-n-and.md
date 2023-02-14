@@ -1,7 +1,7 @@
 # Phishing campaign with confirmed account compromises - 20230214001
 
 ## Overview
-The WA SOC has observed a growing phishing campaign across multiple agencies seeking credential data. Accounts have been confirmed compromised and signins have been seen from threat actor infrastructure.
+The WA SOC has observed a growing phishing campaign across multiple agencies aiming to harvest credentials. Accounts have been confirmed compromised and signins have been seen from threat actor infrastructure. The threat actor has been using similar techniques with varying redirection strategies since 20th January (source: [JCSC #manual_ioc](https://jcscau.slack.com/archives/C9DHS8AJE) - Daniel McNamara). The current activities by the threat actor appear to be limited to further spreading phishing emails.
 
 ## IOCs below
 
@@ -61,9 +61,8 @@ notice5673993040240404notice477488-dxvze.pagemaker.link
 ```
 
 ## Recommendation
-The WA SOC recommends administrators apply the advice provided by the ACSC [Phishing - scam emails | Cyber.gov.au](https://www.cyber.gov.au/acsc/view-all-content/threats/phishing).
+The WA SOC recommends administrators follow the below steps to respond and remediate the active threat.
 
-Additionally:
 - Search for and delete associated phishing emails, see [Remedoate malicious email delivered in Office 365](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/remediate-malicious-email-delivered-office-365?view=o365-worldwide) or undertake the below manually:
     - Block network IOCs discovered via the attachment / URL analysis on DNS, firewalls, or proxies.
     - Block the phishing campaign based on senders, subjects, or other email artifacts via email gateway.
@@ -73,3 +72,5 @@ Additionally:
 - Load STIX indicators from [WA SOC Threat Feed](https://forms.office.com/r/09QP6JM4Me) (e.g. [Connect Microsoft Sentinel to STIX/TAXII threat intelligence feeds](https://learn.microsoft.com/en-us/azure/sentinel/connect-threat-intelligence-taxii)) or manually add the IOCs above to your block lists.
 - Implement [Tips for preventing against new modern identity attacks (AiTM, MFA Fatigue, PRT, OAuth)](https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/)
     - [Enable MFA number matching to mitigate MFA fatigue attacks (AAD)](https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-number-match#enable-number-matching-in-the-portal)
+
+In addition encourage staff to apply the advice provided by the ACSC [Phishing - scam emails | Cyber.gov.au](https://www.cyber.gov.au/acsc/view-all-content/threats/phishing).
