@@ -1,7 +1,7 @@
 # Phishing campaign with confirmed account compromises - 20230214001
 
 ## Overview
-The WA SOC has observed a growing phishing campaign across multiple agencies aiming to harvest credentials. Accounts have been confirmed compromised and signins have been seen from threat actor infrastructure. The threat actor has been using similar techniques with varying redirection strategies since 20th January (source: [JCSC #manual_ioc](https://jcscau.slack.com/archives/C9DHS8AJE) - Daniel McNamara). The current activities by the threat actor appear to be limited to further spreading phishing emails.
+The WA SOC has observed a growing phishing campaign across multiple agencies aiming to harvest credentials. Accounts have been confirmed compromised and signins have been seen from threat actor infrastructure. The threat actor has been using similar techniques with varying redirection strategies since 20th January 2023 (source: [JCSC #manual_ioc - Daniel McNamara](https://jcscau.slack.com/archives/C9DHS8AJE)). The current activities by the threat actor appear to be limited to further spreading phishing emails.
 
 ## IOCs below
 
