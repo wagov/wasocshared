@@ -1,4 +1,4 @@
-# Phishing campaign - 20230214001
+# Phishing campaign with confirmed account compromises - 20230214001
 
 ## Overview
 The WA SOC has observed a growing phishing campaign across multiple agencies seeking credential data. Accounts have been confirmed compromised and signins have been seen from threat actor infrastructure.
