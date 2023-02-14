@@ -19,7 +19,7 @@ If you have Log Analytics setup in another region, it is recommended to [move it
 
 ## 2. High value / low-cost connections
 
-These connectors are largely built into the cost of the services they protect, and provide a high value in terms of assets protected. Some additional context is provided on how to best configure and onboard devices and services, however only **the emphasised steps** need to be completed to establish a baseline SIEM environment.
+These connectors are largely built into the cost of the services they protect, and provide a high value in terms of assets protected. The [WA SOC Baseline for Event Ingestion](../onboarding/baseline-event-ingestion.md) can be used to self-assess and correlate how effective SIEM event collection is in contrast to the STIX 2.1 standard, and the below guidance is intended to make reaching a baseline cost effective on the Sentinel platform.
 
 ### 2.1. [Connect Azure Active Directory (Azure AD)](https://docs.microsoft.com/en-us/azure/sentinel/connect-azure-active-directory)
 
