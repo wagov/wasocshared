@@ -11,10 +11,11 @@ The WA SOC has observed a growing phishing campaign across multiple agencies see
     - andrea.stradella@n-anditalia.com
     - andrea.stroppa@n-anditalia.com
 - Subject: Attention Required
-- IPv4 Address (AiTM proxy): 5.161.180.3
+- IPv4 Address (AiTM proxy): 5.161.180.3 (related to Domain: `microsoftlogin-secured[.]ucalfp[.]org`)
 - IPv4 Address (Signin attempts): 20.163.76.195
 - Domain: `*.pagemaker.link`
 - Domain: `microsoftlogin-secured[.]ucalfp[.]org`
+- Domain: `sydneyhairdressers.com`
 
 Users clicking the link will be taken to a page on the site pagemaker.link which is a legitimate site that is being used by malicious actors.
 
