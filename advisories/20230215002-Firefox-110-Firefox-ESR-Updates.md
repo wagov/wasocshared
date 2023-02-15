@@ -1,4 +1,4 @@
-# Mozilla Releases Security Updates for Firefox 110 and Firefox ESR - 20230215001
+# Mozilla Releases Security Updates for Firefox 110 and Firefox ESR - 20230215002
 
 ## Overview
 Mozilla has released security updates to address vulnerabilities in Firefox and Firefox ESR. An attacker could exploit these vulnerabilities to take control of an affected system.
