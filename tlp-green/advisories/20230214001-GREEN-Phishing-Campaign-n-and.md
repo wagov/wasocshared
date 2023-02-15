@@ -8,6 +8,7 @@ The WA SOC has observed 2 phishing campaigns across multiple agencies aiming to 
 - Sender: milly.brashaw@aiwaac.org.au
 - Subject: Aboriginal Interpreting WA - Audio Files
 - IPv4 Address: 5.161.180.3 (related to Domain: `microsoftlogin-secured[.]ucalfp[.]org`)
+- IPv4 Address: 20.163.76.195
 - Stage 1 URL: `hxxps[://]assiaz-my[.]sharepoint[.]com/:f:/p/jameso/EtQSYFafx35JkNL4WSR-APEBWMWOu7wzCdNPI1YEfoEmbQ?e=2YmPaA`
 - Domain: `microsoftlogin-secured[.]ucalfp[.]org`
 
@@ -34,7 +35,6 @@ OfficeActivity
     - andrea.stradella@n-anditalia.com
     - andrea.stroppa@n-anditalia.com
 - Subject: Attention Required
-- IPv4 Address: 20.163.76.195
 - Domains:
     - `*.pagemaker.link`
     - `sydneyhairdressers.com/*`
