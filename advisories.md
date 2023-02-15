@@ -1,7 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 February
-
+- 2023/02/15 - [Apple Releases Security Updates for Multiple Products - 20230215001](advisories/20230215001-Apple-Security-Update-Multiple-Products.md)
 - 2023/02/14 - [Microsoft February 2023 Security Updates - 20230215003](advisories/20230215003-Microsoft-February-2023-Security-Updates.md)
 - 2023/02/09 - [Security Patch Update for Secret Server 11.3.000003 - 20230209001](advisories/20230209001-Security-Patch-Update-for-Secret-Server.md)
 - 2023/02/08 - [VMware ESXiArgs Ransomware Recovery Script Release - 20230208001](advisories/20230208001-VMware-ESXiArgs-Ransomware-Recovery-Script-Release.md)
