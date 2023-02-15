@@ -2,6 +2,7 @@
 
 #### 2023 February
 
+- 2023/02/15 - [Citrix Security Updates for Workspace Apps, Virtual Apps and Desktops](advisories/20230215005-Citrix-Security-Updates-for-Workspace-Apps-Virtual-Apps-and-Desktops.md)
 - 2023/02/15 - [Adobe Releases Security Updates for Multiple Products - 20230215004](advisories/20230215004-Adobe-Releases-Security-Updates-for-Multiple-Products.md)
 - 2023/02/15 - [Microsoft February 2023 Security Updates - 20230215003](advisories/20230215003-Microsoft-February-2023-Security-Updates.md)
 - 2023/02/15 - [Mozilla Releases Security Updates for Firefox 110 and Firefox ESR - 20230215002](advisories/20230215002-Firefox-110-Firefox-ESR-Updates.md)
