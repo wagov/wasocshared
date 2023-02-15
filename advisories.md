@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 February
+- 2023/02/15 - [Adobe Releases Security Updates for Multiple Products - 20230214004](advisories/20230215004-Adobe-Releases-Security-Updates-for-Multiple-Products.md)
 - 2023/02/15 - [Apple Releases Security Updates for Multiple Products - 20230215001](advisories/20230215001-Apple-Security-Update-Multiple-Products.md)
 - 2023/02/14 - [Microsoft February 2023 Security Updates - 20230215003](advisories/20230215003-Microsoft-February-2023-Security-Updates.md)
 - 2023/02/09 - [Security Patch Update for Secret Server 11.3.000003 - 20230209001](advisories/20230209001-Security-Patch-Update-for-Secret-Server.md)
