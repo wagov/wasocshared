@@ -11,6 +11,21 @@ The WA SOC has observed 2 phishing campaigns across multiple agencies aiming to 
 - Stage 1 URL: `hxxps[://]assiaz-my[.]sharepoint[.]com/:f:/p/jameso/EtQSYFafx35JkNL4WSR-APEBWMWOu7wzCdNPI1YEfoEmbQ?e=2YmPaA`
 - Domain: `microsoftlogin-secured[.]ucalfp[.]org`
 
+Kusto query for users with suspicious inbox rule creations indicating high confidence of compromised credentials. This depends on [Defender for Office 365](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/defender-for-office-365?view=o365-worldwide) being ingested into [Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDO)
+
+```kusto
+// Use Filter 1 or 2 as needed
+OfficeActivity
+| where Operation == 'New-InboxRule'
+// Filter1: use narow to particular from address domain
+| where parse_json(Parameters)[4].Value == "aiwaac.org.au"
+| extend Value_ = tostring(parse_json(Parameters)[3].Value)
+| extend MoveToFolder_ = tostring(parse_json(Parameters)[2].Value)
+// Filter2: use to filter to common parameters set in BEC attacks
+//| where strlen(MoveToFolder_) < 4 or strlen(Value_) < 3
+| project-reorder TimeGenerated, UserId, MoveToFolder_, Value_, Operation
+```
+
 ## Campaign B IOCs
 
 - Senders:
