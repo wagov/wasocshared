@@ -75,3 +75,11 @@ Agent based network protection is relatively straightforward to ingest from appl
 ## 5. Detection Analytics
 
 Once the above checklist is validated, an organisation should schedule regular security exercises to detect for suspicious behaviour based on indicators collected from threat intelligence soruces and to detect for deviations against known behaviour baselines. A simple example would be to determine a subset of users that are allowed to use legacy authentication protocols (NTLM, LDAP, HTTP Basic Auth), and alerting security analysts whenever a user outside of that list attempts to sign in with a legacy authentication protocol.
+
+### 5.1 Microsoft Sentinel Detection Pack
+
+You can rapidly deploy over 90 rules into a sentinel environment using the WA SOC's detection pack (last updated Feb 2023):
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fwagov.github.io%2Fwasocshared%2Fonboarding%2Fwasoc-sentinel-rules-deployment.json)
+
+Note the above deployment doesn't require any connectors or incur any additional charges, however detections will only begin to trigger where ingestion has been configured. This deployment also configures and makes use of the [Advanced Security Information Model (ASIM) parsers](https://learn.microsoft.com/EN-US/AZURE/sentinel/normalization-parsers-overview) for some analytics rules to enhance coverage across third party ingestion sources.
