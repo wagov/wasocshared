@@ -78,8 +78,10 @@ Once the above checklist is validated, an organisation should schedule regular s
 
 ### 5.1 Microsoft Sentinel Detection Pack
 
-You can rapidly deploy over 90 rules into a sentinel environment using the WA SOC's detection pack (last updated Feb 2023):
+The WA SOC has curated a pack of over 80 [analytics rules](https://learn.microsoft.com/en-us/azure/sentinel/detect-threats-built-in) from [the unified Microsoft Sentinel and Microsoft 365 Defender repository](https://github.com/Azure/Azure-Sentinel) for rapid deployment (last updated Feb 2023):
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fwagov.github.io%2Fwasocshared%2Fonboarding%2Fwasoc-sentinel-rules-deployment.json)
 
-Note the above deployment doesn't require any connectors or incur any additional charges, however detections will only begin to trigger where ingestion has been configured. This deployment also configures and makes use of the [Advanced Security Information Model (ASIM) parsers](https://learn.microsoft.com/EN-US/AZURE/sentinel/normalization-parsers-overview) for some analytics rules to enhance coverage across third party ingestion sources.
+![Mitre Mapping](../images/wasoc-analytics-mitre.png)
+
+Deploying the above resources doesn't require any connectors or incur any additional charges. Detections will be dependent on appropriate ingestion having been configured. This deployment also configures and makes use of the [Advanced Security Information Model (ASIM) parsers](https://learn.microsoft.com/EN-US/AZURE/sentinel/normalization-parsers-overview) for some analytics rules to enhance coverage across third party ingestion sources.
