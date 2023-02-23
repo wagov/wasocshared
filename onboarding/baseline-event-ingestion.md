@@ -78,9 +78,11 @@ Once the above checklist is validated, an organisation should schedule regular s
 
 ### 5.1 Microsoft Sentinel Detection Pack
 
-The WA SOC has curated a pack of over 80 [analytics rules](https://learn.microsoft.com/en-us/azure/sentinel/detect-threats-built-in) from [the unified Microsoft Sentinel and Microsoft 365 Defender repository](https://github.com/Azure/Azure-Sentinel) for rapid deployment (last updated Feb 2023):
+The WA SOC has curated a pack of over 100 [analytics rules](https://learn.microsoft.com/en-us/azure/sentinel/detect-threats-built-in) from [the unified Microsoft Sentinel and Microsoft 365 Defender repository](https://github.com/Azure/Azure-Sentinel) for rapid deployment (last updated Feb 2023):
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fwagov.github.io%2Fwasocshared%2Fonboarding%2Fwasoc-sentinel-rules-deployment.json)
+
+*The ARM template can be deployed multiple times to install new and update existing rules. Rules deployed from this template will be updated in place, however there may be duplicate rules over time (it's worth scanning the names of analytics rules within a workspace, and removing the least recently modified ones after a deployment with the same name). Best practice is also to ensure any locally customised rules within your workspace have a prefix (to simplify distinguishing from externally sourced content).*
 
 ![Mitre Mapping](../images/wasoc-analytics-mitre.png)
 
