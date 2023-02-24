@@ -5,14 +5,14 @@
     "Workspace": {
       "type": "string",
       "metadata": {
-        "description": "The Microsoft Sentinel workspace into which the function will be deployed. Has to be in the selected Resource Group."
+        "description": "The Microsoft Sentinel workspace into which the ASIM functions and Analytics Rules will be deployed. Has to be in the selected Resource Group."
       }
     },
     "WorkspaceRegion": {
       "type": "string",
       "defaultValue": "[resourceGroup().location]",
       "metadata": {
-        "description": "The region of the selected workspace. The default value will use the Region selection above."
+        "description": "The region of the selected workspace. The default value will use the Region selection above (this shouldn't need to be changed)."
       }
     }
   },
@@ -4581,7 +4581,7 @@
                     "reopenClosedIncident": false
                   }
                 },
-                "query": "// Get details of current Azure Ranges (note this URL updates regularly so will need to be manually updated over time)\n// You may find the name of the new JSON here: https://www.microsoft.com/download/details.aspx?id=56519\n// On the downloads page, click the 'details' button, and then replace just the filename in the URL below\nlet azure_ranges = externaldata(changeNumber: string, cloud: string, values: dynamic)\n[\"https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20221205.json\"]\nwith(format='multijson')\n| mv-expand values\n| mv-expand values.properties.addressPrefixes\n| mv-expand values_properties_addressPrefixes\n| summarize by tostring(values_properties_addressPrefixes);\nSigninLogs\n// Limiting to Azure Portal really reduces false positives and helps focus on potential admin activity\n| where AppDisplayName =~ \"Azure Portal\"\n// Only get logons where the IP address is in an Azure range\n| evaluate ipv4_lookup(azure_ranges, IPAddress, values_properties_addressPrefixes)\n// Limit to where the user is external to the tenant\n| where HomeTenantId != ResourceTenantId\n// Further limit it to just access to the current tenant (you can drop this if you wanted to look elsewhere as well but it helps reduce FPs)\n| where ResourceTenantId == AADTenantId\n| summarize FirstSeen = min(TimeGenerated), LastSeen = max(TimeGenerated), make_set(ResourceDisplayName) by UserPrincipalName, IPAddress, UserAgent, Location, HomeTenantId, ResourceTenantId\n| extend AccountCustomEntity = UserPrincipalName, IPCustomEntity = IPAddress\n",
+                "query": "// Get details of current Azure Ranges (note this URL updates regularly so will need to be manually updated over time)\n// You may find the name of the new JSON here: https://www.microsoft.com/download/details.aspx?id=56519\n// On the downloads page, click the 'details' button, and then replace just the filename in the URL below\nlet azure_ranges = externaldata(changeNumber: string, cloud: string, values: dynamic)\n[\"https://raw.githubusercontent.com/jensihnow/AzurePublicIPAddressRanges/main/ServiceTags_Public.json\"]\nwith(format='multijson')\n| mv-expand values\n| mv-expand values.properties.addressPrefixes\n| mv-expand values_properties_addressPrefixes\n| summarize by tostring(values_properties_addressPrefixes);\nSigninLogs\n// Limiting to Azure Portal really reduces false positives and helps focus on potential admin activity\n| where AppDisplayName =~ \"Azure Portal\"\n// Only get logons where the IP address is in an Azure range\n| evaluate ipv4_lookup(azure_ranges, IPAddress, values_properties_addressPrefixes)\n// Limit to where the user is external to the tenant\n| where HomeTenantId != ResourceTenantId\n// Further limit it to just access to the current tenant (you can drop this if you wanted to look elsewhere as well but it helps reduce FPs)\n| where ResourceTenantId == AADTenantId\n| summarize FirstSeen = min(TimeGenerated), LastSeen = max(TimeGenerated), make_set(ResourceDisplayName) by UserPrincipalName, IPAddress, UserAgent, Location, HomeTenantId, ResourceTenantId\n| extend AccountCustomEntity = UserPrincipalName, IPCustomEntity = IPAddress",
                 "queryFrequency": "PT1H",
                 "queryPeriod": "PT1H",
                 "severity": "Medium",
@@ -6451,6 +6451,78 @@
                   "T1110"
                 ],
                 "templateVersion": "1.2.2",
+                "triggerOperator": "GreaterThan",
+                "triggerThreshold": 0
+              }
+            },
+            {
+              "name": "[concat(parameters('Workspace'),'/Microsoft.SecurityInsights/e2a2ddc0-babc-453e-b4b7-4217dfbaaa3c')]",
+              "type": "Microsoft.OperationalInsights/workspaces/providers/alertRules",
+              "kind": "Scheduled",
+              "apiVersion": "2022-09-01-preview",
+              "properties": {
+                "alertRuleTemplateName": "017e095a-94d8-430c-a047-e51a11fb737b",
+                "description": "Detects a URL being added to an application where the domain is not one that is associated with the tenant.\n  The query uses domains seen in sign in logs to determine if the domain is associated with the tenant.\n  Applications associated with URLs not controlled by the organization can pose a security risk.\n  Ref: https://docs.microsoft.com/azure/active-directory/fundamentals/security-operations-applications#application-configuration-changes",
+                "displayName": "URL Added to Application from Unknown Domain",
+                "enabled": true,
+                "entityMappings": [
+                  {
+                    "entityType": "URL",
+                    "fieldMappings": [
+                      {
+                        "columnName": "AddedUrls",
+                        "identifier": "Url"
+                      }
+                    ]
+                  },
+                  {
+                    "entityType": "Account",
+                    "fieldMappings": [
+                      {
+                        "columnName": "AddedBy",
+                        "identifier": "FullName"
+                      }
+                    ]
+                  },
+                  {
+                    "entityType": "IP",
+                    "fieldMappings": [
+                      {
+                        "columnName": "ipAddress",
+                        "identifier": "Address"
+                      }
+                    ]
+                  }
+                ],
+                "eventGroupingSettings": {
+                  "aggregationKind": "SingleAlert"
+                },
+                "incidentConfiguration": {
+                  "createIncident": true,
+                  "groupingConfiguration": {
+                    "enabled": false,
+                    "groupByAlertDetails": [],
+                    "groupByCustomDetails": [],
+                    "groupByEntities": [],
+                    "lookbackDuration": "PT5H",
+                    "matchingMethod": "AllEntities",
+                    "reopenClosedIncident": false
+                  }
+                },
+                "query": "let domains =\n  SigninLogs\n  | where ResultType == 0\n  | extend domain = split(UserPrincipalName, \"@\")[1]\n  | extend domain = tostring(split(UserPrincipalName, \"@\")[1])\n  | summarize by tolower(tostring(domain));\n  AuditLogs\n  | where Category =~ \"ApplicationManagement\"\n  | where Result =~ \"success\"\n  | where OperationName =~ 'Update Application'\n  | mv-expand TargetResources\n  | mv-expand TargetResources.modifiedProperties\n  | where TargetResources_modifiedProperties.displayName =~ \"AppAddress\"\n  | extend Key = tostring(TargetResources_modifiedProperties.displayName)\n  | extend NewValue = TargetResources_modifiedProperties.newValue\n  | extend OldValue = TargetResources_modifiedProperties.oldValue\n  | where isnotempty(Key) and isnotempty(NewValue)\n  | project-reorder Key, NewValue, OldValue\n  | extend NewUrls = extract_all('\"Address\":([^,]*)', tostring(NewValue))\n  | extend OldUrls = extract_all('\"Address\":([^,]*)', tostring(OldValue))\n  | extend AddedUrls = set_difference(NewUrls, OldUrls)\n  | where array_length(AddedUrls) > 0\n  | extend UserAgent = iif(tostring(AdditionalDetails[0].key) == \"User-Agent\", tostring(AdditionalDetails[0].value), \"\")\n  | extend AddingUser = iif(isnotempty(tostring(parse_json(tostring(InitiatedBy.user)).userPrincipalName)) , tostring(parse_json(tostring(InitiatedBy.user)).userPrincipalName), \"\")\n  | extend AddingApp = iif(isnotempty(tostring(parse_json(tostring(InitiatedBy.app)).servicePrincipalName)) , tostring(parse_json(tostring(InitiatedBy.app)).servicePrincipalName), \"\")\n  | extend AddedBy = iif(isnotempty(AddingUser), AddingUser, AddingApp)\n  | project-away AddingApp, AddingUser\n  | extend AppDisplayName = tostring(TargetResources.displayName)\n  | extend ipAddress = tostring(parse_json(tostring(InitiatedBy.user)).ipAddress)\n  | where isnotempty(AddedUrls)\n  | mv-expand AddedUrls\n  | extend Domain = extract(\"^(?:https?:\\\\/\\\\/)?(?:[^@\\\\/\\\\n]+@)?(?:www\\\\.)?([^:\\\\/?\\\\n]+)/\", 1, replace_string(tolower(tostring(AddedUrls)), '\"', \"\"))\n  | where isnotempty(Domain)\n  | extend Domain = strcat(split(Domain, \".\")[-2], \".\", split(Domain, \".\")[-1])\n  | where Domain !in (domains)\n  | project-reorder TimeGenerated, AppDisplayName, AddedUrls, AddedBy, UserAgent, ipAddress",
+                "queryFrequency": "P1D",
+                "queryPeriod": "P1D",
+                "severity": "High",
+                "suppressionDuration": "PT5H",
+                "suppressionEnabled": false,
+                "tactics": [
+                  "Persistence",
+                  "PrivilegeEscalation"
+                ],
+                "techniques": [
+                  "T1078"
+                ],
+                "templateVersion": "1.0.1",
                 "triggerOperator": "GreaterThan",
                 "triggerThreshold": 0
               }
