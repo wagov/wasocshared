@@ -87,3 +87,5 @@ The WA SOC has curated a pack of over 100 [analytics rules](https://learn.micros
 ![Mitre Mapping](../images/wasoc-analytics-mitre.png)
 
 Deploying the above resources doesn't require any connectors or incur any additional charges. Detections will be dependent on appropriate ingestion having been configured. This deployment also configures and makes use of the [Advanced Security Information Model (ASIM) parsers](https://learn.microsoft.com/EN-US/AZURE/sentinel/normalization-parsers-overview) for some analytics rules to enhance coverage across third party ingestion sources.
+
+Example [code is available](https://github.com/wagov/python-squ/blob/main/examples/export-analyticsrules.py) to export your own rules as a backup or to simplify sharing, the script by default packages ASIM rules as well into the ARM template to avoid validation issues.
