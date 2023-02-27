@@ -20,7 +20,5 @@ The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.
 Refer to the appropriate IBM Security Bulletin for patch, upgrade or suggested workaround information. See References.
 
 ## Additional References:
--   [MISC:https://exchange.xforce.ibmcloud.com/vulnerabilities/243512](https://exchange.xforce.ibmcloud.com/vulnerabilities/243512)
--   [URL:https://exchange.xforce.ibmcloud.com/vulnerabilities/243512](https://exchange.xforce.ibmcloud.com/vulnerabilities/243512)
--   [MISC:https://www.ibm.com/support/pages/node/6952319](https://www.ibm.com/support/pages/node/6952319)
--   [URL:https://www.ibm.com/support/pages/node/6952319](https://www.ibm.com/support/pages/node/6952319)
+-   https://exchange.xforce.ibmcloud.com/vulnerabilities/243512
+-   https://www.ibm.com/support/pages/node/6952319
