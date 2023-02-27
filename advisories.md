@@ -1,8 +1,9 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 February
-- 2023/02/27 - [Mozilla Foundation Security Advisory - 20230227002](advisories/20230227002-Mozilla-Foundation-Security-Advisory.md)
+- 2023/02/27 - [Cisco Security Advisories for Multiple Products - 20230227004](advisories/20230227004-Cisco-Security-Advisories-for-Multiple-Products.md)
 - 2023/02/27 - [Fortinet Releases Security Updates for Multiple Products - 20230227003](advisories/20230227003-Fortinet-Security-Updates-Multiple-Products.md)
+- 2023/02/27 - [Mozilla Foundation Security Advisory - 20230227002](advisories/20230227002-Mozilla-Foundation-Security-Advisory.md)
 - 2023/02/27 - [IBM Aspera Faspex code execution - 20230227001](advisories/20230227001-IBM-Aspera-Faspex-4-4-2-Patch-Level-1.md)
 - 2023/02/17 - [Cacti Command Injection Vulnerability - 20230217002](advisories/20230217002-Cacti-Command-Injection-Vulnerability.md)
 - 2023/02/17 - [Cisco Releases Security Advisories for Multiple Products - 20230217001](advisories/20230217001-Cisco-Releases-Security-Advisories-for-Multiple-Products.md)
