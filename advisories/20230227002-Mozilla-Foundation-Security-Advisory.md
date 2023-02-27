@@ -3,8 +3,6 @@
 ## Overview
 Mozilla has released security updates to address vulnerabilities in Thunderbird 102.8. An attacker could exploit some of these vulnerabilities to take control of an affected system.
 
-Describe the threat to organisation's application/ environment/ security/ operational continuity
-
 ## What is the vulnerability?
 *Except for CVE-2023--0616, these flaws cannot be exploited through email in the Thunderbird product because scripting is disabled when reading mail, but are potentially risks in browser or browser-like contexts.*
 - [CVE-2023-0616: User Interface lockup with messages combining S/MIME and OpenPGP](https://www.mozilla.org/en-US/security/advisories/mfsa2023-07/#CVE-2023-0616)
