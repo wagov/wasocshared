@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 February
+- 2023/02/27 - [Fortinet Releases Security Updates for Multiple Products - 20230227003](advisories/20230227003-Fortinet-Security-Updates-Multiple-Products.md)
 - 2023/02/17 - [Cacti Command Injection Vulnerability - 20230217002](advisories/20230217002-Cacti-Command-Injection-Vulnerability.md)
 - 2023/02/17 - [Cisco Releases Security Advisories for Multiple Products - 20230217001](advisories/20230217001-Cisco-Releases-Security-Advisories-for-Multiple-Products.md)
 - 2023/02/15 - [Citrix Security Updates for Workspace Apps, Virtual Apps and Desktops - 20230215005](advisories/20230215005-Citrix-Security-Updates-for-Workspace-Apps-Virtual-Apps-and-Desktops.md)
