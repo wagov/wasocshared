@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 February
+- 2023/02/27 - [VMware Releases Security Updates for Carbon Black App Control - 20230227005](advisories/20230227005-VMware-Releases-Security-Updates-Carbon-Black-App-Control.md)
 - 2023/02/27 - [Cisco Security Advisories for Multiple Products - 20230227004](advisories/20230227004-Cisco-Security-Advisories-for-Multiple-Products.md)
 - 2023/02/27 - [Fortinet Releases Security Updates for Multiple Products - 20230227003](advisories/20230227003-Fortinet-Security-Updates-Multiple-Products.md)
 - 2023/02/27 - [Mozilla Foundation Security Advisory - 20230227002](advisories/20230227002-Mozilla-Foundation-Security-Advisory.md)
