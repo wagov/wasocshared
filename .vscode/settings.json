@@ -1,3 +1,6 @@
 {
-    "markdown.extension.toc.levels": "2..6"
+    "markdown.extension.toc.levels": "2..6",
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }

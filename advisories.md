@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 March
+- 2023/03/08 - [Fortinet Vulnerabilities FortiOS FortiProxy Buffer Underflow](20230308001-Fortinet-Vulnerabilities-FortiOS-FortiProxy-Buffer-Underflow.md)
 - 2023/03/03 - [Medtronic Micro Clinician and InterStim Apps - 20230303002](advisories/20230303002-Medtronic-Micro-Clinician-and-InterStim-Apps.md)
 - 2023/03/03 - [Cisco IP Phones Web UI Vulnerabilities - 20230303](advisories/20230303001-Cisco-IP-Phones-Web-UI-Vulnerabilities.md)
 
