@@ -2,6 +2,7 @@
 
 #### 2023 March
 - 2023/03/08 - [Apache Spark Command Injection Vulnerability - 20230308003](/advisories/20230308003-Apache-Spark-Command-Injection.md)
+- 2023/03/08 - [Zoho ManageEngine ADSelfService Plus Remote Code Execution Vulnerability - 20230308002](/advisories/20230308002-Zoho-ManageEngine-ADSelfService-Plus-RCE-Vulnerability.md)
 - 2023/03/08 - [Fortinet Vulnerabilities FortiOS FortiProxy Buffer Underflow](20230308001-Fortinet-Vulnerabilities-FortiOS-FortiProxy-Buffer-Underflow.md)
 - 2023/03/03 - [Medtronic Micro Clinician and InterStim Apps - 20230303002](advisories/20230303002-Medtronic-Micro-Clinician-and-InterStim-Apps.md)
 - 2023/03/03 - [Cisco IP Phones Web UI Vulnerabilities - 202303001](advisories/20230303001-Cisco-IP-Phones-Web-UI-Vulnerabilities.md)
