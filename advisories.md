@@ -1,9 +1,10 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 March
+- 2023/03/08 - [Apache Spark Command Injection Vulnerability - 20230308003](/advisories/20230308003-Apache-Spark-Command-Injection.md)
 - 2023/03/08 - [Fortinet Vulnerabilities FortiOS FortiProxy Buffer Underflow](20230308001-Fortinet-Vulnerabilities-FortiOS-FortiProxy-Buffer-Underflow.md)
 - 2023/03/03 - [Medtronic Micro Clinician and InterStim Apps - 20230303002](advisories/20230303002-Medtronic-Micro-Clinician-and-InterStim-Apps.md)
-- 2023/03/03 - [Cisco IP Phones Web UI Vulnerabilities - 20230303](advisories/20230303001-Cisco-IP-Phones-Web-UI-Vulnerabilities.md)
+- 2023/03/03 - [Cisco IP Phones Web UI Vulnerabilities - 202303001](advisories/20230303001-Cisco-IP-Phones-Web-UI-Vulnerabilities.md)
 
 #### 2023 February
 - 2023/02/27 - [VMware Releases Security Updates for Carbon Black App Control - 20230227005](advisories/20230227005-VMware-Releases-Security-Updates-Carbon-Black-App-Control.md)
