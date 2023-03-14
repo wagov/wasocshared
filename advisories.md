@@ -1,7 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 March
-- 2023/03/14 -[Plex-Media-Server-Remote-Code-Execution-Vulnerability](/advisories/20230314001-Plex-Media-Server-Remote-Code-Execution-Vulnerability.md)
+- 2023/03/14 - [Plex-Media-Server-Remote-Code-Execution-Vulnerability - 20230314001](/advisories/20230314001-Plex-Media-Server-Remote-Code-Execution-Vulnerability.md)
 - 2023/03/14 - [XStream Remote Code Execution (RCE) Vulnerability - 20230314002](/advisories/20230314002-XStream-Remote-Code-Execution-(RCE)-Vulnerability.md)
 - 2023/03/08 - [Apache Spark Command Injection Vulnerability - 20230308003](/advisories/20230308003-Apache-Spark-Command-Injection.md)
 - 2023/03/08 - [Zoho ManageEngine ADSelfService Plus Remote Code Execution Vulnerability - 20230308002](advisories/20230308002-Zoho-ManageEngine-ADSelfService-Plus-Remote-Code-Execution-Vulnerability.md)
