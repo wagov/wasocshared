@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 March
+- 2023/03/15 - [Fortinet FortiOS Path Traversal Vulnerability - 20230315004](/advisories/20230315004-Fortinet-FortiOS-Path-Traversal-Vulnerability.md)
 - 2023/03/15 - [Windows SmartScreen Security Feature Bypass Vulnerability - 20230315003](advisories/20230315003-Windows-SmartScreen-Security-Bypass-Vulnerability.md)
 - 2023/03/15 - [Microsoft-Outlook-Elevation-Privilege-Vulnerability - 20230315001](/advisories/20230315001-Microsoft-Outlook-Elevation-Privilege-Vulnerability.md)
 - 2023/03/15 - [Microsoft Internet Control Message Protocol (ICMP) Remote Code Execution (RCE) Vulnerability - 20230315002](advisories/20230315002-Microsoft-Internet-Control-Message-Protocol-(ICMP)-Remote-Code-Execution-(RCE)-Vulnerability.md)
