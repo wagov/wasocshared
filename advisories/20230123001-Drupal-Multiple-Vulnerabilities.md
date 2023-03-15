@@ -1,17 +1,25 @@
-# Drupal Address Multiple Vulnerabilities - 20230123001
+# Microsoft Outlook Elevation of Privilege Vulnerability - CVE-2023-23397
+
+
 
 ## Overview
-Drupal has released security advisories to address vulnerabilities affecting multiple products. An attacker could exploit these vulnerabilities to access sensitive information.
+Critical Outlook elevation of privilege security flaw exploitable without user interaction in low-complexity attacks.
+
+The attacker could exploit this vulnerability by sending a specially crafted email which triggers automatically when it is retrieved and processed by the Outlook client. This could lead to exploitation BEFORE the email is viewed in the Preview Pane
 
 ## What is vulnerable? 
-Below are the Drupal Advisory links and relevant products:
-- [SA-CONTRIB-2023-001](https://www.drupal.org/sa-contrib-2023-001): **Private Taxonomy Terms** - Access bypass
-- [SA-CONTRIB-2023-002](https://www.drupal.org/sa-contrib-2023-002): **Entity Browser** - Information Disclosure
-- [SA-CONTRIB-2023-003](https://www.drupal.org/sa-contrib-2023-003): **Media Library Block** - Information Disclosure
-- [SA-CONTRIB-2023-004](https://www.drupal.org/sa-contrib-2023-004): **Media Library Form API Element** - Information Disclosure
+
+- [CVE-2023-23397](https://nvd.nist.gov/vuln/detail/CVE-2023-23397): **Microsoft Outlook Elevation of Privilege Vulnerability** 
 
 ## Recommendation
-The WA SOC recommends administrators to review the listed security advisories and apply the solutions as per vendor instructions to all affected products.
+Microsoft recommends immediately patching CVE-2023-23397 to mitigate this vulnerability to thwart any incoming attacks.
+
+The company also advises adding users to the Protected Users group in Active Directory and blocking outbound SMB (TCP port 445) if patching is not immediately possible, which might limit the impact of CVE-2023-2339
 
 ## Additional References:
-* Drupal Security Advisories page - [https://www.drupal.org/security](https://www.drupal.org/security)
+National Vulnerability Database  - [https://nvd.nist.gov/vuln/detail/CVE-2023-23397](https://nvd.nist.gov/vuln/detail/CVE-2023-23397)
+
+Microsoft Outlook Elevation of Privilege Vulnerability - [https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23397](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23397)
+
+
+
