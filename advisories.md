@@ -2,6 +2,8 @@
 
 #### 2023 March
 - 2023/03/16 - [Threat Actors Exploit Progress Telerik Vulnerability in U.S. Government IIS Server - 20230316004](/advisories/20230316004-Threat-Actors-Exploit-Telerik-Vulnerability-In-U.S.-Government-IIS-Server.md)
+- 2023/03/16 - [Adobe Releases Security Updates for Multiple Products - 20230316003](advisories/20230316003-Adobe-Security-Updates.md)
+- 2023/03/15 - [Microsoft March 2023 Security Updates - 20230316](/advisories/20230316001-Microsoft-Security-Updates-March-2023.md)
 - 2023/03/15 - [Fortinet FortiOS Path Traversal Vulnerability - 20230315004](/advisories/20230315004-Fortinet-FortiOS-Path-Traversal-Vulnerability.md)
 - 2023/03/15 - [Windows SmartScreen Security Feature Bypass Vulnerability - 20230315003](advisories/20230315003-Windows-SmartScreen-Security-Bypass-Vulnerability.md)
 - 2023/03/15 - [Microsoft Internet Control Message Protocol (ICMP) Remote Code Execution (RCE) Vulnerability - 20230315002](advisories/20230315002-Microsoft-Internet-Control-Message-Protocol-(ICMP)-Remote-Code-Execution-(RCE)-Vulnerability.md)
