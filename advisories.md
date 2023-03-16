@@ -3,6 +3,7 @@
 #### 2023 March
 - 2023/03/16 - [Threat Actors Exploit Progress Telerik Vulnerability in U.S. Government IIS Server - 20230316004](advisories/20230316004-Threat-Actors-Exploit-Telerik-Vulnerability-In-US-Government-IIS-Server.md)
 - 2023/03/16 - [Adobe Releases Security Updates for Multiple Products - 20230316003](advisories/20230316003-Adobe-Security-Updates.md)
+- 2023/03/16 - [Mozilla Releases Security Updates for Firefox 111 and Firefox ESR 102.9 - 20230316002](advisories/20230316002-Mozilla-Releases-Security-Updates-for-Firefox-111-and-Firefox-ESR-102.9.md)
 - 2023/03/15 - [Microsoft March 2023 Security Updates - 20230316](/advisories/20230316001-Microsoft-Security-Updates-March-2023.md)
 - 2023/03/15 - [Fortinet FortiOS Path Traversal Vulnerability - 20230315004](/advisories/20230315004-Fortinet-FortiOS-Path-Traversal-Vulnerability.md)
 - 2023/03/15 - [Windows SmartScreen Security Feature Bypass Vulnerability - 20230315003](advisories/20230315003-Windows-SmartScreen-Security-Bypass-Vulnerability.md)
