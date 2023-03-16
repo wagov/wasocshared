@@ -48,6 +48,7 @@ This release consists of security updates for the following products, features a
 
 
 ## Recommendation
-Microsoft recommends immediately [patching](https://msrc.microsoft.com/update-guide/releaseNote/2023-Mar) all affected products.
+Microsoft recommends immediately [patching](https://msrc.microsoft.com/update-guide/releaseNote/2023-Mar) all affected products. DGov advises agencies should move towards using [Windows Autopatch](https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/overview/windows-autopatch-overview) for Microsoft endpoint device fleets where possible.
+
 ### Reference:
 * CISA encourages users and administrators to review Microsoft’s March 2023 Security Update Guide https://msrc.microsoft.com/update-guide/releaseNote/2023-Mar
