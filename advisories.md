@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 March
+- 2023/03/16 - [Threat Actors Exploit Progress Telerik Vulnerability in U.S. Government IIS Server - 20230316004](/advisories/20230316004-Threat-Actors-Exploit-Telerik-Vulnerability-In-U.S.-Government-IIS-Server.md)
 - 2023/03/15 - [Fortinet FortiOS Path Traversal Vulnerability - 20230315004](/advisories/20230315004-Fortinet-FortiOS-Path-Traversal-Vulnerability.md)
 - 2023/03/15 - [Windows SmartScreen Security Feature Bypass Vulnerability - 20230315003](advisories/20230315003-Windows-SmartScreen-Security-Bypass-Vulnerability.md)
 - 2023/03/15 - [Microsoft-Outlook-Elevation-Privilege-Vulnerability - 20230315001](/advisories/20230315001-Microsoft-Outlook-Elevation-Privilege-Vulnerability.md)
