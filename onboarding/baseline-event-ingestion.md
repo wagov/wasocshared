@@ -76,6 +76,10 @@ Agent based network protection is relatively straightforward to ingest from appl
 
 Once the above checklist is validated, an organisation should schedule regular security exercises to detect for suspicious behaviour based on indicators collected from threat intelligence soruces and to detect for deviations against known behaviour baselines. A simple example would be to determine a subset of users that are allowed to use legacy authentication protocols (NTLM, LDAP, HTTP Basic Auth), and alerting security analysts whenever a user outside of that list attempts to sign in with a legacy authentication protocol.
 
+[Sigma](https://github.com/SigmaHQ/sigma) is a flexible rule format that is easy to write and applicable to any type of log file. The project provides a structured library and an open specification in which researchers or analysts can describe and share their detection methods. The WA SOC is actively investing into sigma rule development and backends for Sentinel, and can provide assistance in converting rules to/from sigma formats.
+
+![Sigma Conversion](https://github.com/SigmaHQ/pySigma/blob/main/docs/images/pipelines.png)
+
 ### 5.1 Microsoft Sentinel Detection Pack
 
 The WA SOC has curated a pack of over 100 [analytics rules](https://learn.microsoft.com/en-us/azure/sentinel/detect-threats-built-in) from [the unified Microsoft Sentinel and Microsoft 365 Defender repository](https://github.com/Azure/Azure-Sentinel) for rapid deployment (last updated Feb 2023):
