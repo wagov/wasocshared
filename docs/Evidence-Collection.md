@@ -14,19 +14,18 @@ The encrypted file can be easily shared over email, Teams or directly uploaded t
 
 ## Large files
 
+**Large files** can be shared using a blob container where the files can be uploaded. WAGov SOC will provide a link to the blob container. The [Uploading evidence to a blob container](https://wagov.github.io/wasocshared/#/docs/collecting-evidence) has the steps on this process. 
+
 For acquisition on **Full Disc Image** or **Memory dumps** the following articles can provide some of the tools and steps for that. 
 
 https://learn.microsoft.com/en-us/azure/virtual-machines/snapshot-copy-managed-disk?tabs=portal  
 https://aditya-pratap9557.medium.com/windows-memory-forensics-using-open-source-tools-3ec09930732e
 
-For acquisition on **External Facing Service** files generally involves collecting **_wwwroot_** and **_weblogs_** (for IIS this is often the same thing). This involves compressing with 7-Zip and adding a password as explained above.
-
-## Uploading large files to WAGov SOC
-WAGov SOC will provide a link to a blob container where the files can be uploaded. The [Uploading evidence to a blob container](https://wagov.github.io/wasocshared/#/docs/collecting-evidence) has the steps on the process 
+For acquisition on **External Facing Service** files generally involves collecting **_wwwroot_** and **_weblogs_** (for IIS this is often the same thing). This involves compressing with 7-Zip and adding a password as explained in the above steps.
 
 ## Additional scans and collections
 
-**Host-Based collection** involves collecting all windows logs (usually found under c:\Windows\System32\winevt\Logs\). Other artefacts can also be handy – so we often bundle up collection into tools that perform collection of these extra artefacts automatically.
+**Host-Based collection** involves collecting all windows logs (usually found under c:\Windows\System32\winevt\Logs\). Other artefacts can also be handy and we often bundle up collection into tools that perform collection of these extra artefacts automatically. The tools can be provided by the WAGov SOC team. 
 
 (1) Housekeeper.ps1 – A PowerShell script that collects logs / process listing, service and scheduled tasks etc and stores them in a zip. For use on Windows OS’s.
 
@@ -36,5 +35,5 @@ WAGov SOC will provide a link to a blob container where the files can be uploade
 
 It is recommended these tools to be renamed before use to hide investigative activity from the actor. All the tools require admin rights for best effect. 
 
-For **Suspected malware infected endpoint** we recommend using [Microsoft Defender Offline scan](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-offline?view=o365-worldwide). It runs from outside the normal Windows kernel so it can target malware that attempts to bypass the Windows shell, such as viruses and rootkits that infect or overwrite the master boot record (MBR).
+For scans on **Suspected malware infected endpoint** we recommend using [Microsoft Defender Offline](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-offline?view=o365-worldwide). It runs from outside the normal Windows kernel so it can target malware that attempts to bypass the Windows shell, such as viruses and rootkits that infect or overwrite the master boot record (MBR).
 ![image](https://user-images.githubusercontent.com/112471287/226239228-5cbb530b-1896-4b18-bc48-f9835c09f287.png)
