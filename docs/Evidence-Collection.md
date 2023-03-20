@@ -35,5 +35,5 @@ For acquisition on **External Facing Service** files generally involves collecti
 
 It is recommended these tools to be renamed before use to hide investigative activity from the actor. All the tools require admin rights for best effect. 
 
-For scans on **Suspected malware infected endpoint** we recommend using [Microsoft Defender Offline](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-offline?view=o365-worldwide). It runs from outside the normal Windows kernel so it can target malware that attempts to bypass the Windows shell, such as viruses and rootkits that infect or overwrite the master boot record (MBR).
-![image](https://user-images.githubusercontent.com/112471287/226239228-5cbb530b-1896-4b18-bc48-f9835c09f287.png)
+For scans on a **suspected malware infected endpoint** we recommend using [Microsoft Defender Offline](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-offline?view=o365-worldwide). 
+It runs from outside the normal Windows kernel so it can target malware that attempts to bypass the Windows shell, such as viruses and rootkits that infect or overwrite the master boot record (MBR).
