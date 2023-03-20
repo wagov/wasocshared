@@ -2,7 +2,7 @@
 
 In some cases, files will need to be shared with the WAGov SOC for further analysis. The following process will provide the steps to do so.
 
-## Small files 
+## Sharing small files 
 
 E.g. **Phishing Email, Malware, or small directories**
 
@@ -12,7 +12,7 @@ Encrypt the files to avoid being detected and blocked by WAGov's Defender. For t
 
 The encrypted file can be easily shared over email, Teams or directly uploaded to the case. 
 
-## Large files
+## Sharing large files
 
 **Large files** can be shared using a blob container where the files can be uploaded. WAGov SOC will provide a link to the blob container. The [Uploading evidence to a blob container](https://wagov.github.io/wasocshared/#/docs/collecting-evidence) has the steps on this process. 
 
