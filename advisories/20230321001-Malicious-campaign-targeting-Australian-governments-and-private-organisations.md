@@ -3,7 +3,7 @@
 ## Overview
 DGov is aware of an ongoing malicious campaign, targeting websites and services of Australian governments and private organisations. The threat is comprised of a collective of Issue Motivated Groups (IMGs) reportedly seeking retribution in response to alleged religious sensitivities caused by an Australian organisation.
 
-To date, the campaign has been observed conducting [distributed denial-of-service](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.cyber.gov.au%2Facsc%2Fview-all-content%2Fthreats%2Fdenial-service&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539359118%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=kVJ5UlAZnaZsVF%2BKouefpCquKYdqIx059qzoPW0Q55Q%3D&reserved=0) (DDoS), defacement of websites and data breaches of website content from exposed vulnerabilities.
+To date, the campaign has been observed conducting [distributed denial-of-service](https://www.cyber.gov.au/acsc/view-all-content/threats/denial-service) (DDoS), defacement of websites and data breaches of website content from exposed vulnerabilities.
 
 DGov recommends WA government organisations review the below information and undertake actions as required.
 
@@ -28,10 +28,8 @@ The following tactics, techniques and procedures have been observed in incidents
 **Team Insane PK behaviour includes:**
 
 -   Utilising publicly available exploits, mainly targeting:
-
--   PHP
--   WordPress
-
+    -   PHP
+    -   WordPress
 -   Website defacement
 -   Distributed Denial of Service (DDoS)
 -   Utilisation of credential dumps
@@ -39,27 +37,21 @@ The following tactics, techniques and procedures have been observed in incidents
 
 **Mitre Attack -- Tactics and Techniques**
 
--   [TA0043 -- **Reconnaissance**](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fattack.mitre.org%2Ftactics%2FTA0043%2F&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Eq9UX3x1h%2FcOUNonnka2nYGUXBOqecrLZaDjO%2BhJ9m8%3D&reserved=0)**:**
-
--   T1595 -- Active Scanning
-
--   .001 -- Scanning IP Blocks
--   .002 -- Vulnerability Scanning
-
--   T1592 -- Gather Victim Host Information
--   T1589 -- Gather Victim Identity Information
--   T1590 -- Gather Victim Network Information
--   T1591 -- Gather Victim Org Information
--   T1597 -- Search Closed Sources
-
--   [TA0001 -- **Initial Access**](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fattack.mitre.org%2Ftactics%2FTA0001%2F&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=mvQ59j4htGwgNbaY4oE9sQ65CCx7brWhrip3Mt8dpc0%3D&reserved=0)**:**
-
--   T1190 -- Exploit Public-Facing Application
--   T1078 -- Valid Accounts
-
--   .001 -- Default Accounts
--   .003 -- Local Accounts
--   .004 - Cloud Accounts
+-   [TA0043 -- **Reconnaissance**](https://attack.mitre.org/tactics/TA0043/)**:**
+    -   T1595 -- Active Scanning
+        -   .001 -- Scanning IP Blocks
+        -   .002 -- Vulnerability Scanning
+    -   T1592 -- Gather Victim Host Information
+    -   T1589 -- Gather Victim Identity Information
+    -   T1590 -- Gather Victim Network Information
+    -   T1591 -- Gather Victim Org Information
+    -   T1597 -- Search Closed Sources
+-   [TA0001 -- **Initial Access**](https://attack.mitre.org/tactics/TA0001/)**:**
+    -   T1190 -- Exploit Public-Facing Application
+    -   T1078 -- Valid Accounts
+        -   .001 -- Default Accounts
+        -   .003 -- Local Accounts
+        -   .004 - Cloud Accounts
 
 
 ## Recommendation
@@ -74,10 +66,8 @@ DGov recommends Western Australia government organisations:
 -   Block the above IOCs that have been observed.
 -   Consider blocking connections from TOR nodes to your environment if possible.
 -   Review the following guidance and implement the relevant DDoS defences where possible in your environment:
-
--   [Preparing for and Responding to Denial-of-Service Attacks](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.cyber.gov.au%2Facsc%2Fview-all-content%2Fpublications%2Fpreparing-and-responding-denial-service-attacks&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=HZFeYT6MGBttGb6%2BNjMcI4WTgSgtHbXC8dU16PwifkE%3D&reserved=0) ([cyber.gov.au](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.cyber.gov.au%2F&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=kD9JKV8u8D3LYv7pk6kQg1J8A54zSwRCp4GEJDmhqJM%3D&reserved=0))
--   [Securing Content Management Systems](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.cyber.gov.au%2Facsc%2Fview-all-content%2Fpublications%2Fsecuring-content-management-systems&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=h9gXynVObLcFHz2y33tZ%2BTm8Gp47ioHaUJJarDzcKDk%3D&reserved=0) ([cyber.gov.au](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.cyber.gov.au%2F&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=kD9JKV8u8D3LYv7pk6kQg1J8A54zSwRCp4GEJDmhqJM%3D&reserved=0))
-
+    -   [Preparing for and Responding to Denial-of-Service Attacks](https://www.cyber.gov.au/acsc/view-all-content/publications/preparing-and-responding-denial-service-attacks) ([cyber.gov.au](https://www.cyber.gov.au))
+    -   [Securing Content Management Systems](https://www.cyber.gov.au/acsc/view-all-content/publications/securing-content-management-systems) ([cyber.gov.au](https://www.cyber.gov.au))
 -   Review your DDoS playbook and Incident Response plan
 -   If you require assistance with this, please contact DGov.
 -   Maintain a heightened level of monitoring for the above TTP's and any DDoS attack indicators.
@@ -87,10 +77,9 @@ DGov recommends Western Australia government organisations:
 
 -   Ensure WordPress Versions and Plugins are up to date
 -   Cloud hosted WAF services can implement a Content Delivery Network (CDN) that includes highly effective DDoS protections
-
--   [Google Cloud DDoS protection](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcloud.google.com%2Farmor&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=XmGVNDVBMPYhmrpPLJVkTOpKqYg%2FkAO66oZfkT9ayGA%3D&reserved=0)
--   [Azure DDoS protection](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fddos-protection%2Fddos-protection-overview&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=lzy%2BO8kMR2D8ZnQ3fqhQpyh32vF4lemhUeAYbK7lJ%2B0%3D&reserved=0)
--   [AWS DDoS protection](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Faws.amazon.com%2Fshield%2F&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=mk2rLFWBRkpJPSRMst9MPvlG%2BaBxPO7sYJMs6VLLtvI%3D&reserved=0)
+-   [Google Cloud DDoS protection](https://cloud.google.com/armor)
+-   [Azure DDoS protection](https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)
+-   [AWS DDoS protection](https://aws.amazon.com/shield/)
 
 -   Update PHP regularly
 -   Secure your network
@@ -103,12 +92,11 @@ DGov recommends Western Australia government organisations:
 -   Apply traffic filtering tools
 -   Limiting API requests in a given time period, particularly for anonymous requests
 
- |
-
 ## IoCs
 
-The following IoCs was provided to DGov from Victoria Government:
+The following IoCs were provided to DGov from Victoria Government:
 
+```
 103[.]251[.]167[.]21
 107[.]189[.]8[.]181
 109[.]248[.]150[.]45
@@ -159,3 +147,4 @@ The following IoCs was provided to DGov from Victoria Government:
 79[.]137[.]202[.]92
 89[.]58[.]27[.]84
 92[.]205[.]129[.]7
+```
