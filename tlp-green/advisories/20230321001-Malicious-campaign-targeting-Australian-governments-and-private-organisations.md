@@ -1,5 +1,7 @@
 # Malicious campaign targeting Australian governments and private organisations - 20230321001
 
+**TLP Confidentiality: AMBER - Limited Disclosure, restricted to participants organisations and clients on a need-to-know basis to prevent further harm.**
+
 ## Overview
 DGov is aware of an ongoing malicious campaign, targeting websites and services of Australian governments and private organisations. The threat is comprised of a collective of Issue Motivated Groups (IMGs) reportedly seeking retribution in response to alleged religious sensitivities caused by an Australian organisation.
 
