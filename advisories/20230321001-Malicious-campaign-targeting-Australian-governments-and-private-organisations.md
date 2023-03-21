@@ -77,17 +77,20 @@ DGov recommends Western Australia government organisations:
 
 -   Ensure WordPress Versions and Plugins are up to date
 -   Cloud hosted WAF services can implement a Content Delivery Network (CDN) that includes highly effective DDoS protections
--   [Google Cloud DDoS protection](https://cloud.google.com/armor)
--   [Azure DDoS protection](https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)
--   [AWS DDoS protection](https://aws.amazon.com/shield/)
-
+    -   [Google Cloud DDoS protection](https://cloud.google.com/armor)
+    -   [Azure DDoS protection](https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)
+    -   [AWS DDoS protection](https://aws.amazon.com/shield/)
 -   Update PHP regularly
 -   Secure your network
+
+<br>
 
 -   Regularly apply patching to your websites
 -   Implement Multifactor Authentication (MFA) wherever is possible
 -   Disable unused services
 -   Secure your APIs
+
+<br>
 
 -   Apply traffic filtering tools
 -   Limiting API requests in a given time period, particularly for anonymous requests
