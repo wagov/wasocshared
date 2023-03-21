@@ -15,15 +15,15 @@ The group, together with primary affiliates including *Eagle Cyber Crew, GanoSec
 Currently is not known if there are any monetary or corporate drivers motivating the group.
 
 ## What has been observed?
-DGov is aware of DDoS attacks on Victorian government networks.
+DGov is aware of DDoS attacks on Western Australia government networks.
 
 The ACSC has been notified of targeted entities experiencing outages to their external websites but have not received any reports of significant disruption to services as a result of this activity.
 
-Team Insane PK have claimed to have performed successful DDoS attacks against various Australian organisations, including Victorian government.
+Team Insane PK have claimed to have performed successful DDoS attacks against various Australian organisations, including Western Australia government.
 
 **Tactics, Techniques and Procedures**
 
-The following tactics, techniques and procedures have been observed in incidents involving Victorian government networks.
+The following tactics, techniques and procedures have been observed in incidents involving Western Australia government networks.
 
 **Team Insane PK behaviour includes:**
 
@@ -69,7 +69,7 @@ The following tactics, techniques and procedures have been observed in incidents
 
 Defending your internet-facing applications from attack and improving application security will deter attackers from targeting your applications.
 
-CIRS recommends Victorian government organisations:
+DGov recommends Western Australia government organisations:
 
 -   Block the above IOCs that have been observed.
 -   Consider blocking connections from TOR nodes to your environment if possible.
@@ -79,9 +79,9 @@ CIRS recommends Victorian government organisations:
 -   [Securing Content Management Systems](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.cyber.gov.au%2Facsc%2Fview-all-content%2Fpublications%2Fsecuring-content-management-systems&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=h9gXynVObLcFHz2y33tZ%2BTm8Gp47ioHaUJJarDzcKDk%3D&reserved=0) ([cyber.gov.au](https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.cyber.gov.au%2F&data=05%7C01%7Ccybersecurity%40dpc.wa.gov.au%7Cc76d01d00d6d465e3d1208db29d163b7%7Cd48144b5571f4b689721e41bc0071e17%7C0%7C0%7C638149751539515331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=kD9JKV8u8D3LYv7pk6kQg1J8A54zSwRCp4GEJDmhqJM%3D&reserved=0))
 
 -   Review your DDoS playbook and Incident Response plan
--   If you require assistance with this, please contact CIRS.
+-   If you require assistance with this, please contact DGov.
 -   Maintain a heightened level of monitoring for the above TTP's and any DDoS attack indicators.
--   If you observe any TTP's or IOCs associated with this campaign, please contact CIRS.
+-   If you observe any TTP's or IOCs associated with this campaign, please contact DGov.
 
 **Further Considerations**
 
@@ -106,6 +106,9 @@ CIRS recommends Victorian government organisations:
  |
 
 ## IoCs
+
+The following IoCs was provided to DGov from Victoria Government:
+
 103[.]251[.]167[.]21
 107[.]189[.]8[.]181
 109[.]248[.]150[.]45
