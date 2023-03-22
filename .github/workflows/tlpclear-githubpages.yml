@@ -30,10 +30,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Replace tlp-green content
+      - name: Replace tlp- content
         run: |
-          rm -rf tlp-green
-          mv tlp-green-placeholder tlp-green
+          rm -rf tlp-green tlp-amber
+          cp -av tlp-placeholder tlp-green
+          mv tlp-placeholder tlp-amber
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact

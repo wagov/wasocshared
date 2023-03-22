@@ -28,7 +28,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
+      - name: Replace tlp- content
+        run: |
+          rm -rf tlp-amber
+          mv tlp-placeholder tlp-amber
       # Upload markdown files to blob storage (tlp-green folder only)
       # make sure AZURE_STORAGE_ACCOUNT, AZURE_STORAGE_CONNSTRING and AZURE_STORAGE_SAS_TOKEN are set 
       - name: Azure CLI Action
