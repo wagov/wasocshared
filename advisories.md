@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 March
+- 2023/03/22 - [Drupal Core Access bypass vulnerability  - 20230317001](advisories/20230317001-Drupal-Core-Security-Advisory-Vulnerability.md)
 - 2023/03/17 - [Ransomware - LockBit 3.0 IOC's and TTP's - 20230317002](advisories/20230317002-Ransomware-LockBit-3-0-IOCs-and-TTPs.md)
 - 2023/03/16 - [Threat Actors Exploit Progress Telerik Vulnerability in U.S. Government IIS Server - 20230316004](advisories/20230316004-Threat-Actors-Exploit-Telerik-Vulnerability-In-US-Government-IIS-Server.md)
 - 2023/03/16 - [Adobe Releases Security Updates for Multiple Products - 20230316003](advisories/20230316003-Adobe-Security-Updates.md)
