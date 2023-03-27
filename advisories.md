@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 March
+- 2023/03/27 - [Adobe ColdFusion Security Updates - 20230327003](advisories/20230327003-Adobe-ColdFusion-Security-Updates.md)
 - 2023/03/27 - [Veeam Backup & Replication Vulnerability - 20230327001](advisories/20230327001-Veeam-Backup-Replication-Vulnerability.md)
 - 2023/03/24 - [Cisco Releases Security Advisories for Multiple Products - 20230324002](advisories/20230324002-Cisco-Releases-Security-Advisories-for-Multiple-Products.md)
 - 2023/03/22 - [Drupal Core Access bypass vulnerability  - 20230317001](advisories/20230317001-Drupal-Core-Security-Advisory-Vulnerability.md)
