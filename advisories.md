@@ -1,6 +1,10 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 March
+- 2023/02/31 - [Apple Releases Security Updates for Multiple Products - 20230331003](advisories/20230331003-Apple-Updates-Multiple-Products.md)
+- 2023/03/31 - [CISA Adds Known Exploited Vulnerabilities to Catalog - 20230331002](advisories/20230331002-CISA-Known-Exploited-Vulnerabilities.md)
+- 2023/03/31 - [GoAnywhere Active Campaign - 20230331001](advisories/20230331001-GoAwnywhere-Active-Campaign.md)
+- 2023/03/30 - [3CX Active Intrusion Campaign - 20230330001](advisories/20230330001-3CX-Active-Intrusion-Campaign.md)
 - 2023/03/27 - [Update for Microsoft Outlook Elevation of Privilege Vulnerability - 20230327002](advisories/20230327002-Microsoft-Outlook-Elevation-of-Privilege-Vulnerability.md)
 - 2023/03/27 - [Adobe ColdFusion Security Updates - 20230327003](advisories/20230327003-Adobe-ColdFusion-Security-Updates.md)
 - 2023/03/27 - [Veeam Backup & Replication Vulnerability - 20230327001](advisories/20230327001-Veeam-Backup-Replication-Vulnerability.md)
