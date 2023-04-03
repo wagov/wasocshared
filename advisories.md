@@ -1,5 +1,8 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
+#### 2023 April
+- 2023/04/03 - [QNAP Vulnerability in QTS and QuTS hero - 20230403001](advisories/20230403001-QNAP-Vulnerability-in-QTS-and-QuTS-hero.md)
+
 #### 2023 March
 - 2023/02/31 - [Apple Releases Security Updates for Multiple Products - 20230331003](advisories/20230331003-Apple-Updates-Multiple-Products.md)
 - 2023/03/31 - [CISA Adds Known Exploited Vulnerabilities to Catalog - 20230331002](advisories/20230331002-CISA-Known-Exploited-Vulnerabilities.md)
