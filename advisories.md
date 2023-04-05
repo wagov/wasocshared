@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
+- 2023/04/05 - [CISA ICS Advisory: Hitachi Energy IEC 61850 MMS-Server - 20230405001](advisories/20230405001-ICS-Hitatchi-Energy.md)
 - 2023/04/03 - [QNAP Vulnerability in QTS and QuTS hero - 20230403001](advisories/20230403001-QNAP-Vulnerability-in-QTS-and-QuTS-hero.md)
 
 #### 2023 March
