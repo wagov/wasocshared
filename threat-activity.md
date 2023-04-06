@@ -4,16 +4,15 @@ During the month the WASOC has observed in the media an increase of supply chain
 
 To stay ontop of internet facing assets, please subscribe to daily exposure alerts from **[The ShadowServer Foundation](https://www.shadowserver.org/what-we-do/network-reporting/get-reports/)** (a highly trusted free resource sponsored by both [AusCERT](https://auscert.org.au/) and the [APNIC Foundation](https://apnic.foundation/) as part of the [ShadowServer Alliance](https://www.shadowserver.org/news/shadowserver-alliance-launch/). The WA SOC is investigating the best way to incorporate similar alerts into our whole of sector vulnerability monitoring services.
 
-Recently key high profile vulnerabilites this month worth staying across include:
+Recently key high profile vulnerabilities this month worth staying across include:
 - [3CX Active Campaign](https://wagov.github.io/wasocshared/#/advisories/20230330001-3CX-Active-Intrusion-Campaign.md)
 - [GoAnywhere Active Campaign](https://wagov.github.io/wasocshared/#/advisories/20230331001-GoAwnywhere-Active-Campaign.md)
-- [Microsoft Outlook Elevation of Privilege Vulnerability](https://wagov.github.io/wasocshared/#/advisories/20230327002-Microsoft-Outlook-Elevation-of-Privilege-Vulnerability.md) 
+- [Microsoft Outlook Elevation of Privilege Vulnerability](https://wagov.github.io/wasocshared/#/advisories/20230327002-Microsoft-Outlook-Elevation-of-Privilege-Vulnerability.md)
 
-Agencies should review their software asset register(s) and vulnerability remediation (patching) processes to mitigate against the above vulnerabilities.
+Agencies should review their software asset register(s) and vulnerability remediation (patching) processes to mitigate against the above vulnerabilities. Any exposed Oracle or Citrix environments are also worth prioritising due to ongoing threat activity.
 
 **Phishing activity remains high** across all organisations with multiple incidents detected weekly. Please refer to the below guides to ensure all external and internal signins are appropriately monitored.
 
 - [Tips for preventing against new modern identity attacks (AiTM, MFA Fatigue, PRT, OAuth)](https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/)
     - [Enabling MFA number matching to mitigate MFA fatigue attacks (AAD)](https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-number-match#enable-number-matching-in-the-portal)
 - [How to implement Defender for Identity and configure all prerequisites](https://jeffreyappel.nl/how-to-implement-defender-for-identity-and-configure-all-prerequisites/)
-
