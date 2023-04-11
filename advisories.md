@@ -1,6 +1,8 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
+- 2023/04/11 - [Sophos Vulnerability - 20230411006](advisories/20230411006-Sophos-Vulnerability.md)
+- 2023/04/11 - [Apple Vulnerability - 20230411005](advisories/20230411005-Apple-Vulnerability-Two-Zero-Days.md)
 - 2023/04/11 - [Cisco Releases Security Advisories for Multiple Products - 20230411001](advisories/20230411001-Cisco-Releases-Security-Advisories-for-Multiple-Products.md)
 - 2023/04/05 - [CISA ICS Advisory: Hitachi Energy IEC 61850 MMS-Server - 20230405001](advisories/20230405001-ICS-Hitatchi-Energy.md)
 - 2023/04/03 - [QNAP Vulnerability in QTS and QuTS hero - 20230403001](advisories/20230403001-QNAP-Vulnerability-in-QTS-and-QuTS-hero.md)
