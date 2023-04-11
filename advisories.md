@@ -1,6 +1,8 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
+- 2023/04/11 - [Sophos Vulnerability - 20230411006](advisories/20230411006-Sophos-Vulnerability.md)
+- 2023/04/11 - [Apple Vulnerability - 20230411005](advisories/20230411005-Apple-Vulnerability-Two-Zero-Days.md)
 - 2023/04/11 - [Arm Mali GPU Kernel Driver Information Disclosure Vulnerability - 20230411004](advisories/20230411004-Arm-Mali-GPU-Kernel-Driver-Vulnerability.md)
 - 2023/04/11 - [Veritas Backup Exec Agent Vulnerabilities - 20230411002](advisories/20230411002-Veritas-Backup-Exec-Agent-Vulnerabilities.md)
 - 2023/04/11 - [Cisco Releases Security Advisories for Multiple Products - 20230411001](advisories/20230411001-Cisco-Releases-Security-Advisories-for-Multiple-Products.md)
