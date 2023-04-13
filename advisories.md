@@ -1,6 +1,20 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
+- 2023/04/13 - [Microsoft Releases Guidance for the BlackLotus Campaign - 20230413006](advisories/20230413006-Microsoft-Releases-Guidance-for-the-BlackLotus-Campaign.md)
+- 2023/04/13 - [Adobe Releases Security Updates for Multiple Products - 20230413005](advisories/20230413005-Adobe-Security-Update.md)
+- 2023/04/13 - [Microsoft Releases April 2023 Security Updates - 20230413004](advisories/20230413004-Microsoft-Security-Updates.md)
+- 2023/04/13 - [Fortinet April 2023 Vulnerability - 20230413003](advisories/20230413003-Fortinet-April-2023-Vulnerability.md)
+- 2023/04/13 - [Mozilla Releases Security Advisories for Multiple Products - 20230413002](advisories/20230413002-Mozilla-Releases-Security-Advisories-for-Multiple-Products.md)
+- 2023/04/13 - [Apple Releases Security Updates for Multiple Products - 20230413001](advisories/20230413001-Apple-Security-Updates-Multiple-Products.md)
+- 2023/04/12 - [Windows Common Log File System Driver Elevation of Privilege Vulnerability - 20230412001](advisories/20230412001-Windows-CLFS-Elevation-Privilege-Vulnerability.md)
+- 2023/04/11 - [Sophos Vulnerability - 20230411006](advisories/20230411006-Sophos-Vulnerability.md)
+- 2023/04/11 - [Apple Vulnerability - 20230411005](advisories/20230411005-Apple-Vulnerability-Two-Zero-Days.md)
+- 2023/04/11 - [Arm Mali GPU Kernel Driver Information Disclosure Vulnerability - 20230411004](advisories/20230411004-Arm-Mali-GPU-Kernel-Driver-Vulnerability.md)
+- 2023/04/11 - [Windows Certificate Dialog Elevation of Privilege Vulnerability - 20230411003](advisories/20230411003-Windows-Certificate-Elevation-Privilege-Vulnerability.md)
+- 2023/04/11 - [Veritas Backup Exec Agent Vulnerabilities - 20230411002](advisories/20230411002-Veritas-Backup-Exec-Agent-Vulnerabilities.md)
+- 2023/04/11 - [Cisco Releases Security Advisories for Multiple Products - 20230411001](advisories/20230411001-Cisco-Releases-Security-Advisories-for-Multiple-Products.md)
+- 2023/04/05 - [CISA ICS Advisory: Hitachi Energy IEC 61850 MMS-Server - 20230405001](advisories/20230405001-ICS-Hitatchi-Energy.md)
 - 2023/04/03 - [QNAP Vulnerability in QTS and QuTS hero - 20230403001](advisories/20230403001-QNAP-Vulnerability-in-QTS-and-QuTS-hero.md)
 
 #### 2023 March
