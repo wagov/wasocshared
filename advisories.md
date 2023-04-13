@@ -1,7 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
-
+- 2023/04/13 - [Apple Releases Security Updates for Multiple Products - 20230413001](advisories/20230413001-Apple-Security-Updates-Multiple-Products.md)
 - 2023/04/12 - [Windows Common Log File System Driver Elevation of Privilege Vulnerability - 20230412001](advisories/20230412001-Windows-CLFS-Elevation-Privilege-Vulnerability.md)
 - 2023/04/11 - [Sophos Vulnerability - 20230411006](advisories/20230411006-Sophos-Vulnerability.md)
 - 2023/04/11 - [Apple Vulnerability - 20230411005](advisories/20230411005-Apple-Vulnerability-Two-Zero-Days.md)
