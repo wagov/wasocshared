@@ -1,7 +1,9 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
+- 2023/04/13 - [Microsoft Releases Guidance for the BlackLotus Campaign - 20230413006](advisories/20230413006-Microsoft-Releases-Guidance-for-the-BlackLotus-Campaign.md)
 - 2023/04/13 - [Adobe Releases Security Updates for Multiple Products - 20230413005](advisories/20230413005-Adobe-Security-Update.md)
+- 2023/04/13 - [Microsoft Releases April 2023 Security Updates - 20230413004](advisories/20230413004-Microsoft-Security-Updates.md)
 - 2023/04/13 - [Fortinet April 2023 Vulnerability - 20230413003](advisories/20230413003-Fortinet-April-2023-Vulnerability.md)
 - 2023/04/13 - [Mozilla Releases Security Advisories for Multiple Products - 20230413002](advisories/20230413002-Mozilla-Releases-Security-Advisories-for-Multiple-Products.md)
 - 2023/04/13 - [Apple Releases Security Updates for Multiple Products - 20230413001](advisories/20230413001-Apple-Security-Updates-Multiple-Products.md)
