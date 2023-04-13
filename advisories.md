@@ -2,6 +2,7 @@
 
 #### 2023 April
 - 2023/04/13 - [Fortinet April 2023 Vulnerability - 20230413003](advisories/20230413003-Fortinet-April-2023-Vulnerability.md)
+- 2023/04/13 - [Mozilla Releases Security Advisories for Multiple Products - 20230413002](advisories/20230413002-Mozilla-Releases-Security-Advisories-for-Multiple-Products.md)
 - 2023/04/13 - [Apple Releases Security Updates for Multiple Products - 20230413001](advisories/20230413001-Apple-Security-Updates-Multiple-Products.md)
 - 2023/04/12 - [Windows Common Log File System Driver Elevation of Privilege Vulnerability - 20230412001](advisories/20230412001-Windows-CLFS-Elevation-Privilege-Vulnerability.md)
 - 2023/04/11 - [Sophos Vulnerability - 20230411006](advisories/20230411006-Sophos-Vulnerability.md)
