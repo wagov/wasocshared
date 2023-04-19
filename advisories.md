@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
+- 2023/04/19 - [APT28 Exploits Known Vulnerability on Cisco Routers - 20230419001](advisories/20230419001-CISA-APT28-Exploits-Known-Cisco-Router-Vulnerability.md)
 - 2023/04/18 - [Google Chromium V8 Engine Type Confusion Vulnerability - 20230418002](advisories/20230418002-Google-Chromium-V8-Vulnerability.md)
 - 2023/04/18 - [Apple macOS Use-After-Free Vulnerability - 20230418001](advisories/20230418001-Apple-macOS-Use-After-Free-Vulnerability.md)
 - 2023/04/13 - [Microsoft Releases Guidance for the BlackLotus Campaign - 20230413006](advisories/20230413006-Microsoft-Releases-Guidance-for-the-BlackLotus-Campaign.md)
