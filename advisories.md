@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
+- 2023/04/21 - [Supply-Chain-Attack-3CXDesktopApp - 20230421003](advisories/20230421003-Supply-Chain-Attack-3CXDesktopApp.md)
 - 2023/04/19 - [Schneider-UPS-Monitoring-Software-Vulnerability - 20230419002](advisories/20230419002-Schneider-UPS-Monitoring-Software-Vulnerability.md)
 - 2023/04/19 - [APT28 Exploits Known Vulnerability on Cisco Routers - 20230419001](advisories/20230419001-CISA-APT28-Exploits-Known-Cisco-Router-Vulnerability.md)
 - 2023/04/18 - [Google Chromium V8 Engine Type Confusion Vulnerability - 20230418002](advisories/20230418002-Google-Chromium-V8-Vulnerability.md)
