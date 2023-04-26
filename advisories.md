@@ -1,7 +1,11 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
-- 2023/04/19 - [20230419002-Schneider-UPS-Monitoring-Software-Vulnerability - 20230419002](advisories/20230419002-Schneider-UPS-Monitoring-Software-Vulnerability.md)
+- 2023/04/26 - [SolarWinds Platform Command Injection Vulnerability - 20230426009](advisories/20230426009-SolarWinds-Platform-Command-Injection-Vuln.md)
+- 2023/04/26 - [Multiple VMware Aria Operations for Logs Vulnerabilities - 20230426008](advisories/20230426008-Multiple-VMware-Aria-Operations-for-Logs-Vulnerabilities.md)
+- 2023/04/26 - [Drupal Releases Security Advisory for Bypass Vulnerability in Drupal Core - 20230426007](advisories/20230426007-Drupal-Core-Acess-Bypass-SA-CORE-2023-005.md)
+- 2023/04/21 - [Supply-Chain-Attack-3CXDesktopApp - 20230421003](advisories/20230421003-Supply-Chain-Attack-3CXDesktopApp.md)
+- 2023/04/19 - [Schneider-UPS-Monitoring-Software-Vulnerability - 20230419002](advisories/20230419002-Schneider-UPS-Monitoring-Software-Vulnerability.md)
 - 2023/04/19 - [APT28 Exploits Known Vulnerability on Cisco Routers - 20230419001](advisories/20230419001-CISA-APT28-Exploits-Known-Cisco-Router-Vulnerability.md)
 - 2023/04/18 - [Google Chromium V8 Engine Type Confusion Vulnerability - 20230418002](advisories/20230418002-Google-Chromium-V8-Vulnerability.md)
 - 2023/04/18 - [Apple macOS Use-After-Free Vulnerability - 20230418001](advisories/20230418001-Apple-macOS-Use-After-Free-Vulnerability.md)
