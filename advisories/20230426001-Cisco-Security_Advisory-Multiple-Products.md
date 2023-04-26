@@ -21,10 +21,11 @@ The vulnerability affects the following products:
 - [ BroadWorks Network Server](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bw-tcp-dos-KEdJCxLs "Cisco BroadWorks Network Server TCP Denial of Service Vulnerability")
 
 ## What has been observed?
-CISCO has listed this vulnerabilty in their [Cisco Security Advisories](https://sec.cloudapps.cisco.com/security/center/publicationListing.x) 
+DGov SOC has not observed any exploitation of any Cisco products mentioned above.
 
 ## Recommendation
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices.
 
 ## Additional References:
 * [**CISA Security Advisory**](https://www.cisa.gov/news-events/alerts/2023/04/21/cisco-releases-security-advisories-multiple-products)
+* [**Cisco Security Advisories**](https://sec.cloudapps.cisco.com/security/center/publicationListing.x) 
