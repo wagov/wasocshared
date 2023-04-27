@@ -1,12 +1,13 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
-- 2023/04/26 - [Google Chrome Skia Integer Overflow Vulnerability - 20230426002](advisories/20230426002-Google-Chrome-Skia-Integer-Overflow-Vulnerability.md)
-- 2023/04/26 - [PaperCut MF/NG Improper Access Control Vulnerability - 20230426003](advisories/20230426003-PaperCut-NG-Improper-Access-Control-Vulnerability.md)
-- 2023/04/26 - [MinIO Information Disclosure Vulnerability - 20230426004](advisories/20230426004-MinIO-Information-Disclosure-Vulnerability.md)
 - 2023/04/26 - [SolarWinds Platform Command Injection Vulnerability - 20230426009](advisories/20230426009-SolarWinds-Platform-Command-Injection-Vuln.md)
 - 2023/04/26 - [Multiple VMware Aria Operations for Logs Vulnerabilities - 20230426008](advisories/20230426008-Multiple-VMware-Aria-Operations-for-Logs-Vulnerabilities.md)
 - 2023/04/26 - [Drupal Releases Security Advisory for Bypass Vulnerability in Drupal Core - 20230426007](advisories/20230426007-Drupal-Core-Acess-Bypass-SA-CORE-2023-005.md)
+- 2023/04/26 - [Oracle Releases Security Updates - 20230426005](advisories/20230426005-Oracle-Releases-Security-Updates.md)
+- 2023/04/26 - [MinIO Information Disclosure Vulnerability - 20230426004](advisories/20230426004-MinIO-Information-Disclosure-Vulnerability.md)
+- 2023/04/26 - [PaperCut MF/NG Improper Access Control Vulnerability - 20230426003](advisories/20230426003-PaperCut-NG-Improper-Access-Control-Vulnerability.md)
+- 2023/04/26 - [Google Chrome Skia Integer Overflow Vulnerability - 20230426002](advisories/20230426002-Google-Chrome-Skia-Integer-Overflow-Vulnerability.md)
 - 2023/04/26 - [Cisco Releases Security Advisories for Multiple Products - 20230426001](advisories/20230426001-Cisco-Security_Advisory-Multiple-Products.md)
 - 2023/04/21 - [Supply-Chain-Attack-3CXDesktopApp - 20230421003](advisories/20230421003-Supply-Chain-Attack-3CXDesktopApp.md)
 - 2023/04/19 - [Schneider-UPS-Monitoring-Software-Vulnerability - 20230419002](advisories/20230419002-Schneider-UPS-Monitoring-Software-Vulnerability.md)
