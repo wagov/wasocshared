@@ -1,4 +1,4 @@
-# Service Location Protocol Abuse May Lead to DoS Attack - 20230427001
+# Service Location Protocol (SLP) Abuse May Lead to DoS Attack - 20230427001
 
 ## Overview
 The WA SOC has observed a vulnerability reported by researchers from [Bitsight and Curesec](https://www.bitsight.com/blog/new-high-severity-vulnerability-cve-2023-29552-discovered-service-location-protocol-slp) where attackers may abuse SLP to conduct high amplification factor DoS attacks using spoofed source addresses.
