@@ -7,11 +7,11 @@ Successful exploitation of these vulnerabilities could allow an attacker to take
 
 ## What is the vulnerability?
 
-[**CVE-2023-1968**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1968) - [BINDING TO AN UNRESTRICTED IP ADDRESS CWE-1327](https://cwe.mitre.org/data/definitions/1327.html)
+[**CVE-2023-1968**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1968) - [BINDING TO AN UNRESTRICTED IP ADDRESS CWE-1327](https://cwe.mitre.org/data/definitions/1327.html) CVSS v3 10.0
 
 - Instruments with Illumina Universal Copy Service v2.x are vulnerable due to binding to an unrestricted IP address. An unauthenticated malicious actor could use UCS to listen on all IP addresses, including those capable of accepting remote communications. 
 
-[**CVE-2023-1966**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1966) - [EXECUTION WITH UNNECESSARY PRIVILEGES CWE-250](https://cwe.mitre.org/data/definitions/250.html)
+[**CVE-2023-1966**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1966) - [EXECUTION WITH UNNECESSARY PRIVILEGES CWE-250](https://cwe.mitre.org/data/definitions/250.html) CVSS v3 7.4
 
 - Instruments with Illumina Universal Copy Service v1.x and v2.x contain an unnecessary privileges vulnerability. An unauthenticated malicious actor could upload and execute code remotely at the operating system level, which could allow an attacker to change settings, configurations, software, or access sensitive data on the affected product. 
 
