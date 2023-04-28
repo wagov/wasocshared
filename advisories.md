@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 April
+- 2023/04/28 - [ICSMA-23-117-01 Illumina Universal Copy Service - 20230428001](advisories/20230428001-ICSMA-23-117-01-Illumina-Universal-Copy-Service.md)
 - 2023/04/27 - [Service Location Protocol Abuse May Lead to DoS Attack - 20230427001](advisories/20230427001-SLP-Abuse-Leads-To-DoS.md)
 - 2023/04/26 - [SolarWinds Platform Command Injection Vulnerability - 20230426009](advisories/20230426009-SolarWinds-Platform-Command-Injection-Vuln.md)
 - 2023/04/26 - [Multiple VMware Aria Operations for Logs Vulnerabilities - 20230426008](advisories/20230426008-Multiple-VMware-Aria-Operations-for-Logs-Vulnerabilities.md)
