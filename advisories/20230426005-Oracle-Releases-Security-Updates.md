@@ -1,11 +1,11 @@
 #  Oracle Releases Security Updates - 20230426005
 
 ## Overview
-Oracle has released Critical Patch Update Advisory, Solaris Third Party Bulletin, and Linux Bulletin for April 2023 to address vulnerabilities affecting multiple products
+Oracle has released Critical Patch Update Advisory, Solaris Third Party Bulletin, and Linux Bulletin for April 2023 to address vulnerabilities affecting multiple products.
 A remote attacker could exploit some of these vulnerabilities to take control of an affected system.
 
 ## What is vulnerable? 
-The vulnerability affects mutliple products listed below:
+The vulnerabilities identified affects mutliple products listed below:
 
 - Security vulnerabilities addressed by this Critical Patch Update affect the products listed in [Oracle Critical Patch Update Advisory](https://www.oracle.com/security-alerts/cpuapr2023.html#AppendixRAPP).
 
