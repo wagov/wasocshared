@@ -2,6 +2,8 @@
 
 #### 2023 May
 - 2023/05/01 - [Apache Superset Vulnerability Exposes Servers to RCE Attacks - 20230501001](advisories/20230501001-Apache-Superset-RCE-Vulnerability.md)
+- 2023/05/01 - [VMware Workstation and Fusion updates address multiple security vulnerabilities - 20230501007](advisories/20230501007-VMware-Workstation-and-Fusion-updates-address-multiple-security-vulnerabilities.md)
+
 
 #### 2023 April
 - 2023/04/28 - [ICSMA-23-117-01 Illumina Universal Copy Service - 20230428001](advisories/20230428001-ICSMA-23-117-01-Illumina-Universal-Copy-Service.md)
