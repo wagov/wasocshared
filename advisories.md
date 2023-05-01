@@ -1,5 +1,8 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
+#### 2023 May
+- 2023/05/01 - [Apache Superset Vulnerability Exposes Servers to RCE Attacks - 20230501001](advisories/20230501001-Apache-Superset-RCE-Vulnerability.md)
+
 #### 2023 April
 - 2023/04/28 - [ICSMA-23-117-01 Illumina Universal Copy Service - 20230428001](advisories/20230428001-ICSMA-23-117-01-Illumina-Universal-Copy-Service.md)
 - 2023/04/27 - [Service Location Protocol Abuse May Lead to DoS Attack - 20230427001](advisories/20230427001-SLP-Abuse-Leads-To-DoS.md)
