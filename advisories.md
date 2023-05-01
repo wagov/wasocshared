@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 May
+- 2023/05/01 - [EDR Bypass Technique 'Aukill' - 20230501010](advisories/20230501010-EDR-Bypass-Technique.md)
 - 2023/05/01 - [Apache Superset Vulnerability Exposes Servers to RCE Attacks - 20230501001](advisories/20230501001-Apache-Superset-RCE-Vulnerability.md)
 
 #### 2023 April
