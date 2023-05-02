@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 May
+- 2023/05/02 - [Apache Log4j2 Deserialization of Untrusted Data Vulnerability Added to CISA's Known Exploited Vulnerabilities](advisories/20230502002-Apache-Log4j2-Deserialization-of-Untrusted-Data-Vulnerability.md)
 - 2023/05/02 - [Oracle WebLogic Server Unspecified Vulnerability - 20230502001](advisories/20230502001-Oracle-WebLogic-Server-Unspecified-Vulnerabilities.md)
 - 2023/05/01 - [VMware Workstation and Fusion updates address multiple security vulnerabilities - 20230501007](advisories/20230501007-VMware-Workstation-and-Fusion-updates-address-multiple-security-vulnerabilities.md)
 - 2023/05/01 - [EDR Bypass Technique 'Aukill' - 20230501006](advisories/20230501006-EDR-Bypass-Technique.md)
