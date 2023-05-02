@@ -1,8 +1,8 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 May
-- 2023/05/01 - [EDR Bypass Technique 'Aukill' - 20230501010](advisories/20230501010-EDR-Bypass-Technique.md)
 - 2023/05/01 - [VMware Workstation and Fusion updates address multiple security vulnerabilities - 20230501007](advisories/20230501007-VMware-Workstation-and-Fusion-updates-address-multiple-security-vulnerabilities.md)
+- 2023/05/01 - [EDR Bypass Technique 'Aukill' - 20230501006](advisories/20230501006-EDR-Bypass-Technique.md)
 - 2023/05/01 - [Oracle Critical Patch  Update Advisory April 2023 - 20230501005](advisories/20230501005-Oracle-Critical-Patch-Update-Advisory.md)
 - 2023/05/01 - [Zyxel OS Command Injection Vulnerability injection Vulnerability - 20230501004](advisories/20230501004-Zyxel-OS-Command-Injection-Vulnerability.md)
 - 2023/05/01 - [Cisco Industrial Network Director 
