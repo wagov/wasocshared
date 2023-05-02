@@ -1,4 +1,4 @@
-# EDR Bypass Technique 'Aukill' - 20230501010
+# EDR Bypass Technique 'Aukill' - 20230501006
 
 ## Overview
 A recent report by Sophos details new techniques to disable EDR controls, the tool dubbed **Aukill** currently abuses an outdated version of the driver used by version 16.32 of the Microsoft utility, Process Explorer, to disable EDR processes before deploying either a backdoor or ransomware on the target system.
