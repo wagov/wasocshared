@@ -1,15 +1,13 @@
-# WA SOC - Recent Threat Activity (April 2023)
+# WA SOC - Recent Threat Activity (May 2023)
 
-During the month the WASOC has observed in the media an increase of supply chain attacks by threat actors compromising customers of Managed Service Providers (MSPs). Agencies should review the [ACSC guidance](https://www.cyber.gov.au/acsc/view-all-content/publications/managed-service-providers-how-manage-risk-customer-networks) on managing these risks. Close attention should be given to the access Managed Service Providers (MSPs) and vendors have over agency infrastructure, and the ongoing detective and protective security controls used to monitor and manage this.
-
-To stay ontop of internet facing assets, please subscribe to daily exposure alerts from **[The ShadowServer Foundation](https://www.shadowserver.org/what-we-do/network-reporting/get-reports/)** (a highly trusted free resource sponsored by both [AusCERT](https://auscert.org.au/) and the [APNIC Foundation](https://apnic.foundation/) as part of the [ShadowServer Alliance](https://www.shadowserver.org/news/shadowserver-alliance-launch/). The WA SOC is investigating the best way to incorporate similar alerts into our whole of sector vulnerability monitoring services.
+Ensuring 3rd party risk assessments for vendors are reviewed and kept up to date as part of agencies [Cyber Supply Chain Risk Management | Cyber.gov.au](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/cyber-supply-chain-risk-management) is strongly recommended given further news related to SolarWinds: [DOJ Detected SolarWinds Breach Months Before Public Disclosure | WIRED](https://www.wired.com/story/solarwinds-hack-public-disclosure/). Responsible and timely disclosure of key cyber security threat intelligence with the WA SOC and relevant partners is a key learning from the above incident.
 
 Recently key high profile vulnerabilities this month worth staying across include:
-- [3CX Active Campaign](https://wagov.github.io/wasocshared/#/advisories/20230330001-3CX-Active-Intrusion-Campaign.md)
-- [GoAnywhere Active Campaign](https://wagov.github.io/wasocshared/#/advisories/20230331001-GoAwnywhere-Active-Campaign.md)
-- [Microsoft Outlook Elevation of Privilege Vulnerability](https://wagov.github.io/wasocshared/#/advisories/20230327002-Microsoft-Outlook-Elevation-of-Privilege-Vulnerability.md)
+- [PaperCut](https://wagov.github.io/wasocshared/#/advisories/20230426003-PaperCut-NG-Improper-Access-Control-Vulnerability)
+- [3CXDesktop](https://wagov.github.io/wasocshared/#/advisories/20230421003-Supply-Chain-Attack-3CXDesktopApp)
+- [Illumina Copy Service](https://wagov.github.io/wasocshared/#/advisories/20230428001-ICSMA-23-117-01-Illumina-Universal-Copy-Service)
 
-Agencies should review their software asset register(s) and vulnerability remediation (patching) processes to mitigate against the above vulnerabilities. Any exposed Oracle or Citrix environments are also worth prioritising due to ongoing threat activity.
+Agencies should review their software asset register(s) and vulnerability remediation (patching) processes to mitigate against the above vulnerabilities. Any exposed printing services should be worth prioritising due to ongoing threat activity.
 
 **Phishing activity remains high** across all organisations with multiple incidents detected weekly. Please refer to the below guides to ensure all external and internal signins are appropriately monitored.
 
