@@ -36,7 +36,7 @@ In the absence of an internal procedure the CERT Societe Generale [IRM-2022 (Inc
 
 ![Vulnerability Response](../images/vulnerabilityresponse.png)
 
-Under Review, refer to [Technical Example: Patch Operating Systems](https://www.cyber.gov.au/acsc/view-all-content/publications/technical-example-patch-operating-systems) and [Technical Example: Patch Applications](https://www.cyber.gov.au/acsc/view-all-content/publications/technical-example-patch-applications) for good approaches to automating baseline vulnerability management.
+Under Review, refer to [Technical Example: Patch Operating Systems](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-patch-operating-system) and [Technical Example: Patch Applications](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-patch-applications) for good approaches to automating baseline vulnerability management.
 
 ## 4. Threat Hunting
 
