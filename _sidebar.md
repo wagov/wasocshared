@@ -15,6 +15,6 @@
 - **Links**
 - [Office of Digital Government](https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government)
 - [Cyber Security Policy](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy)
-- [Dynamics IRP (legacy)](https://www.wa.gov.au/service/security/information-security/western-australian-government-cyber-security-incident-reporting-portal)
+- [Cyber Incident Reporting Portal](https://wasoc.atlassian.net/servicedesk)
 - [Vulnerability Management](https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/vulnerability-scanning-service-description)
 - [Github](https://github.com/wagov)
