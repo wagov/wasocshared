@@ -1,0 +1,2 @@
+mkdocs-same-dir
+.github/vendor/mkdocs-material-insiders.tar.gz
