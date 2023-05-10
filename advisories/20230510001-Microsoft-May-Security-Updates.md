@@ -13,7 +13,7 @@ Details about the relevant CVEs can be found in [Microsoft's update guide](https
 ## What is vulnerable? 
 A wide variety of Microsoft products and services have been included in the release.
 
-A list of the Microsoft products and services affected is [available here](https://msrc.microsoft.com/update-guide/releaseNote/2024-May).
+A list of the Microsoft products and services affected is [available here](https://msrc.microsoft.com/update-guide/releaseNote/2023-May).
 
 ## Recommendation
 The WA SOC recommends administrators review the [May 2023 Security Update Guide](https://msrc.microsoft.com/update-guide/releaseNote/2023-May) and apply the updates to all affected devices where necessary.
