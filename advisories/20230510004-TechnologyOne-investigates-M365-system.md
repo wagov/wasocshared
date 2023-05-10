@@ -20,7 +20,7 @@ The company said it had requested a trading halt while it continues to investiga
 
 ## References
 
-[TechnologyOne investigates 'cyber incident' on M365 system - iTnews](https://www.itnews.com.au/news/technologyone-investigates-cyber-incident-on-m365-system-594187)
+- [TechnologyOne investigates 'cyber incident' on M365 system - iTnews](https://www.itnews.com.au/news/technologyone-investigates-cyber-incident-on-m365-system-594187)
 
 ## Recommendation
 If any TechnologyOne services are in use, please request ongoing updates related to this cybersecurity incident from your vendor to your cyber executive. Please inform DGov via <cybersecurity@dpc.wa.gov.au> for any material updates indicating a loss of sensitive information.
