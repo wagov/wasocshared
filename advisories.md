@@ -1,8 +1,8 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 May
-
 - 2023/05/10 - [TechnologyOne investigates cyber incident on M365 system - 20230510004](advisories/20230510004-TechnologyOne-investigates-M365-system.md)
+- 2023/05/10 - [cPanel Exploit Vulnerability - 20230510003](advisories/20230510003-cPanel-Exploit-Vulnerability.md)
 - 2023/05/10 - [Microsoft has Released Security Updates for May 2023 - 20230510001](advisories/20230510001-Microsoft-May-Security-Updates.md)
 - 2023/05/09 - [Artificial Intelligence Usage in the Western Australian Government - 20230509001](advisories/20230509001-artificial-intelligence-usage-in-the-western-australian-government.md)
 - 2023/05/03 - [ALPHV (aka BlackCat) Ransomware Activity - 20230503001](advisories/20230503001-ALPHV-aka-BlackCat-Ransomware-Activity.md)
