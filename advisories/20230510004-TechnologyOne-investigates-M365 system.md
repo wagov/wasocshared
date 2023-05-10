@@ -1,4 +1,4 @@
-# TechnologyOne investigates 'cyber incident' on M365 system - 20230510001
+# TechnologyOne investigates 'cyber incident' on M365 system - 20230510004
 
 ## Overview
 The WA SOC has observed a cyber incident related to TechnologyOne, an Australian ERP SaaS provider, said an "unauthorised third party" has accessed the company's internal Microsoft 365 platform.
