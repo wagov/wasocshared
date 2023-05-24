@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 May
+- 2023/05/24 - [CISA Releases Four Industrial Control Systems Advisories](/advisories/20230524001-CISA-Industrial-Control-Systems%20Advisories-May23.md)
 - 2023/05/23 - [CISA Adds Three Known Exploited Vulnerabilities to Catalog | CISA - 20230523001](advisories/20230523001-CISA-Adds-Three-Known-Exploited-Vulnerabilities-to-Catalog.md)
 - 2023/05/22 - [Hunting Russian Intelligence “Snake” Malware | CISA - 20230522001](advisories/20230522001-Hunting-Russian-Intelligence-“Snake”-Malware-CISA.md)
 - 2023/05/17 - [CISA Industrial Control Systems Advisories, May 16 - 20230517001](/advisories/20230517001-Cisa-3-Industrial-Control-Systems%20Advisories.md)
