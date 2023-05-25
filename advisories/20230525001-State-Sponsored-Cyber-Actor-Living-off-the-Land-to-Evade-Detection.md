@@ -12,24 +12,6 @@ The WA SOC recommends informing all cyber security personnel of the advisory. Ad
 ### Kusto Query Language detections
 These can be run in [Microsoft Defender Advanced Hunting](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-modes?view=o365-worldwide#get-started-with-advanced-hunting-mode), [Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/kusto-overview) and [Log Analytics](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/queries).
 
-**CommandLines to review**
-```kusto
-let c1 = dynamic(["cmd", "wmic", "caption", "filesystem"]);
-let c2 = dynamic(["ntds.dit"]);
-let c3 = dynamic(["Secretsdump.py"]);
-let c4 = dynamic(["Invoke-NinjaCopy"]);
-let c5 = dynamic(["DSInternals"]);
-let c6 = dynamic(["portproxy", "netsh", "add"]);
-let c7 = dynamic(["Get-EventLog", "4624"]);
-let c8 = dynamic(["curl", "www.ip-api.com"]);
-let c9 = dynamic(["wmic", "process", "create", "stop"]);
-let c10 = dynamic(["ldifde.exe", "subtree"]);
-let c11 = dynamic(["mimikatz.exe"]);
-let c12 = dynamic(["reg", "ss.dat"]);
-let c13 = dynamic(["reg", "sy.dat"]);
-find where InitiatingProcessCommandLine has_all (c1) or ProcessCommandLine has_all (c1) or CommandLine has_all (c1) or InitiatingProcessCommandLine has_all (c2) or ProcessCommandLine has_all (c2) or CommandLine has_all (c2) or InitiatingProcessCommandLine has_all (c3) or ProcessCommandLine has_all (c3) or CommandLine has_all (c3) or InitiatingProcessCommandLine has_all (c4) or ProcessCommandLine has_all (c4) or CommandLine has_all (c4) or InitiatingProcessCommandLine has_all (c5) or ProcessCommandLine has_all (c5) or CommandLine has_all (c5) or InitiatingProcessCommandLine has_all (c6) or ProcessCommandLine has_all (c6) or CommandLine has_all (c6) or InitiatingProcessCommandLine has_all (c7) or ProcessCommandLine has_all (c7) or CommandLine has_all (c7) or InitiatingProcessCommandLine has_all (c8) or ProcessCommandLine has_all (c8) or CommandLine has_all (c8) or InitiatingProcessCommandLine has_all (c9) or ProcessCommandLine has_all (c9) or CommandLine has_all (c9) or InitiatingProcessCommandLine has_all (c10) or ProcessCommandLine has_all (c10) or CommandLine has_all (c10) or InitiatingProcessCommandLine has_all (c11) or ProcessCommandLine has_all (c11) or CommandLine has_all (c11) or InitiatingProcessCommandLine has_all (c12) or ProcessCommandLine has_all (c12) or CommandLine has_all (c12) or InitiatingProcessCommandLine has_all (c13) or ProcessCommandLine has_all (c13) or CommandLine has_all (c13)
-```
-
 **Hashes (please report any actual hits)**
 ```kusto
 let hashes = dynamic(['baeffeb5fdef2f42a752c65c2d2a52e84fb57efc906d981f89dd518c314e231c', 
@@ -56,6 +38,24 @@ find where SHA256 has_any (hashes)
     or FileHash has_any (hashes)
     or FileHashSha256 has_any (hashes)
     or FileHashValue has_any (hashes)
+```
+
+**CommandLines to review**
+```kusto
+let c1 = dynamic(["cmd", "wmic", "caption", "filesystem"]);
+let c2 = dynamic(["ntds.dit"]);
+let c3 = dynamic(["Secretsdump.py"]);
+let c4 = dynamic(["Invoke-NinjaCopy"]);
+let c5 = dynamic(["DSInternals"]);
+let c6 = dynamic(["portproxy", "netsh", "add"]);
+let c7 = dynamic(["Get-EventLog", "4624"]);
+let c8 = dynamic(["curl", "www.ip-api.com"]);
+let c9 = dynamic(["wmic", "process", "create", "stop"]);
+let c10 = dynamic(["ldifde.exe", "subtree"]);
+let c11 = dynamic(["mimikatz.exe"]);
+let c12 = dynamic(["reg", "ss.dat"]);
+let c13 = dynamic(["reg", "sy.dat"]);
+find where InitiatingProcessCommandLine has_all (c1) or ProcessCommandLine has_all (c1) or CommandLine has_all (c1) or InitiatingProcessCommandLine has_all (c2) or ProcessCommandLine has_all (c2) or CommandLine has_all (c2) or InitiatingProcessCommandLine has_all (c3) or ProcessCommandLine has_all (c3) or CommandLine has_all (c3) or InitiatingProcessCommandLine has_all (c4) or ProcessCommandLine has_all (c4) or CommandLine has_all (c4) or InitiatingProcessCommandLine has_all (c5) or ProcessCommandLine has_all (c5) or CommandLine has_all (c5) or InitiatingProcessCommandLine has_all (c6) or ProcessCommandLine has_all (c6) or CommandLine has_all (c6) or InitiatingProcessCommandLine has_all (c7) or ProcessCommandLine has_all (c7) or CommandLine has_all (c7) or InitiatingProcessCommandLine has_all (c8) or ProcessCommandLine has_all (c8) or CommandLine has_all (c8) or InitiatingProcessCommandLine has_all (c9) or ProcessCommandLine has_all (c9) or CommandLine has_all (c9) or InitiatingProcessCommandLine has_all (c10) or ProcessCommandLine has_all (c10) or CommandLine has_all (c10) or InitiatingProcessCommandLine has_all (c11) or ProcessCommandLine has_all (c11) or CommandLine has_all (c11) or InitiatingProcessCommandLine has_all (c12) or ProcessCommandLine has_all (c12) or CommandLine has_all (c12) or InitiatingProcessCommandLine has_all (c13) or ProcessCommandLine has_all (c13) or CommandLine has_all (c13)
 ```
 
 ### SIGMA detection logic
