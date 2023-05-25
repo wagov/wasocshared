@@ -1,34 +1,34 @@
-# State-Sponsored Cyber Actor Living off the Land to Evade Detection - 20230525001
+# Detection Guidance for Volt Typhoon - 20230525001
 
 ## Overview
-In May 2023, the Australian Signals Directorate's (ASD) Australian Cyber Security Centre (ACSC) , in conjunction with our international partners, released the Cybersecurity Advisory "People's Republic of China State-Sponsored Cyber Actor Living Off the Land to Evade Detection".
+The United States and international cybersecurity authorities issued a [joint
+Cybersecurity Advisory (CSA)](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a) on 24 May 2023 to highlight a recently discovered cluster of activity of interest associated with a state-sponsored cyber actor also known as [Volt Typhoon](https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/)
 
 The authoring agencies assess there is significant risk these **Tactics, Techniques and Procedures (TTPs)** could be employed by the actor against **Critical Infrastructure (CI)** and other sectors worldwide.
 
-## What is the Threat ?
+## Detection Guidance
+The WA SOC recommends informing all cyber security personnel of the advisory. Additionally WA public sector agencies are requested to investigate utilising their security event databases and report any suspicious or unexpected events to the WA SOC following the below guidance.
 
-The advisory details the TTP's employed by the threat actor, which primarily involve the use of built-in Windows tools on compromised hosts to achieve their objectives. This is known as "living off the land", and allows the actor to evade detection by blending in with normal Windows system and network activity, and avoid triggering security alerts by installing new tools.
+### Kusto Query Language detections
+These can be run in [Microsoft Defender Advanced Hunting](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-modes?view=o365-worldwide#get-started-with-advanced-hunting-mode), [Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/kusto-overview) and [Log Analytics](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/queries).
 
-This enables the cyber actor to blend in with routine Windows system and network activities, limit activity and data captured in default logging configurations, and avoid **endpoint detection and response (EDR)** products that could alert to the introduction of third-party applications on the host or network. Private sector partners have identified that this activity affects networks across U.S. critical infrastructure sectors, and the authoring agencies believe the actor could apply the same techniques against these and other sectors worldwide.
+```kusto
+TODO:
+```
 
+### SIGMA detection logic
+These can be converted to multiple target platforms using [uncoder.io](https://uncoder.io)
 
-## What has been observed ?
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing. 
+```sigma
+TODO:
+```
 
-This advisory highlights a recently-discovered cluster of activity affecting networks across US critical infrastructure sectors, and provides threat hunting advice and best practices for network defenders to detect related activity.
-
-## Recommendation
-The WA SOC recommends that given the potential threat is to **CI sectors outside the US**, the ACSC strongly encourages Australian organisations to review the advisory, reported TTPs and **indicators of compromise (IOCs)** and investigate their networks for signs of potential malicious activity. By design, "living off the land" is intended to resemble legitimate system and network activity, so any findings should not be assumed malicious without further investigation.
-
-To maximise opportunities to detect malicious activity, the ACSC recommends Australian organisations review and optimise their logging configurations.
-
-To hunt for this activity, agencies should encourage network defenders to use the actor's commands and detection signatures provided in [this advisory](https://cisa.gov/news-events/cybersecurity-advisories/aa23-144a). Agencies should further encourage network defenders to view the **Indicators of Compromise (IOCs)** and mitigations summaries to detect this activity.
-
-Advice to support both the detection and investigation of malicious activity is available at [Windows Event Logging and Forwarding](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/windows-event-logging-and-forwarding "Windows Event Logging and Forwarding").
+Additional behaviours and indicators can be found in the [CSA](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a), however due to the nature of the tactics, techniques and procedures (TTPs) in use, there is a high chance of detecting non-malicious events as well. Please review any detections with expected activities within your organisation, and contact the WA SOC if there is any uncertainty as to whether a detected event is suspicious.
 
 ## Additional References:
 
 For further information, please see:
 
--   [People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection advisory](https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection "People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection")
--   [Volt Typhoon targets US critical infrastructure with living-off-the-land techniques](https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/)
+- [PRC State-Sponsored Cyber Actor Living off the Land to Evade Detection](https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF)
+- [ACSC - People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection](https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection)
+- [Microsoft - Volt Typhoon targets US critical infrastructure with living-off-the-land techniques](https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/)
