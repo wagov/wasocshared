@@ -1,6 +1,7 @@
 ### [TLP:CLEAR](https://www.first.org/tlp/)
 
 #### 2023 May
+- 2023/05/29 - [Barracuda Security Gateway appliance vulnerability -  20230529001](/advisories/20230529001-Barracuda-Security-Gateway-Appliance-Vulnerability.md)
 - 2023/05/25 - [State-Sponsored Cyber Actor Living off the Land to Evade Detection - 20230525001](advisories/20230525001-State-Sponsored-Cyber-Actor-Living-off-the-Land-to-Evade-Detection.md)
 - 2023/05/24 - [CISA Releases Four Industrial Control Systems Advisories - 20230524001](/advisories/20230524001-CISA-Industrial-Control-Systems%20Advisories-May23.md)
 - 2023/05/23 - [Three Known Exploited Apple Vulnerabilities - 20230523001](advisories/20230523001-Three-Known-Exploited-Apple-Vulnerabilities.md)
