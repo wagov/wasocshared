@@ -2,6 +2,12 @@ site_name: WA Cyber Security Unit (Office of Digital Government)
 docs_dir: .
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.path
+    - toc.integrate
+    - toc.follow
+    - content.code.copy
   icon:
     logo: material/security
   palette:
@@ -30,15 +36,21 @@ theme:
 plugins:
   - same-dir
   - search
-  - blog:
-      blog_dir: advisories
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 nav:
-- Home: index.md
+- Home: home.md
 - Sentinel Connector Guidance: onboarding/sentinel-guidance.md
 - SOC Onboarding: onboarding.md
 - Baseline for Event Ingestion: onboarding/baseline-event-ingestion.md
 - Advisories:
-  - TLP:CLEAR: advisories/index.md
+  - TLP:CLEAR: advisories.md
   - TLP:GREEN: tlp-green/advisories.md
 - IRP User Guide (Jira): docs/incident-reporting.md
 - Training:
