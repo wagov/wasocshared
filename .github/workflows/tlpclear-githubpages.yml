@@ -35,13 +35,20 @@ jobs:
           rm -rf tlp-green tlp-amber
           cp -av tlp-placeholder tlp-green
           mv tlp-placeholder tlp-amber
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - name: install mkdocs
+        run: pip install -r requirements.txt
+      - name: build site
+        run:  python -m mkdocs build
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload main folder
-          path: '.'
+          path: 'site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1

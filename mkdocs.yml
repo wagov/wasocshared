@@ -1,49 +1,58 @@
-site_name: WA Cyber Security Unit (Office of Digital Government)
+site_name: WA Cyber Security Unit (DGOV Technical)
 docs_dir: .
+repo_url: https://github.com/wagov
+edit_uri: wasocshared/edit/main/
 theme:
   name: material
   features:
     - navigation.sections
     - navigation.path
+    - navigation.tracking
     - toc.integrate
     - toc.follow
     - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - search.share
   icon:
     logo: material/security
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      primary: deep orange
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      primary: deep orange
-      scheme: default 
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       primary: deep orange
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: deep orange
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 plugins:
   - same-dir
   - search
 markdown_extensions:
   - pymdownx.highlight:
+      linenums: true
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
 nav:
 - Home: home.md
 - Sentinel Connector Guidance: onboarding/sentinel-guidance.md
@@ -59,8 +68,8 @@ nav:
   - Workstation Self-Build (Linux, macOS, Windows): docs/workstations.md
 - Collecting Evidence: docs/collecting-evidence.md
 - Cyber Security Playbooks: docs/playbooks.md
-- Links:
-  - Office of Digital Government: https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government
-  - Cyber Security Policy: https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy
+- WA Gov Links:
+  - Incident Reporting Portal (IRP): https://irp.dpc.wa.gov.au
+  - Digital Government (DGOV): https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government
+  - Cyber Security Policy (WA CSP): https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy
   - Vulnerability Management: https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/vulnerability-scanning-service-description
-  - Github: https://github.com/wagov
