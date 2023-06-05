@@ -33,6 +33,8 @@ theme:
 plugins:
   - same-dir
   - search
+  - offline:
+      enabled: !ENV [OFFLINE, false]
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
