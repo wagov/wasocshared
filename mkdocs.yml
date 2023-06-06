@@ -46,6 +46,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
+  - admonition
   - abbr
   - attr_list
   - def_list
