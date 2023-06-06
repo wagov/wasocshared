@@ -31,7 +31,6 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 plugins:
-  - same-dir
   - search
 markdown_extensions:
   - pymdownx.highlight:
