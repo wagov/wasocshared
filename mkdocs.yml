@@ -1,5 +1,4 @@
 site_name: WA Cyber Security Unit (DGOV Technical)
-docs_dir: .
 repo_url: https://github.com/wagov
 edit_uri: wasocshared/edit/main/
 theme:
@@ -56,13 +55,11 @@ markdown_extensions:
   - toc:
       permalink: true
 nav:
-- Home: home.md
+- Home: README.md
 - Sentinel Connector Guidance: onboarding/sentinel-guidance.md
 - SOC Onboarding: onboarding.md
 - Baseline for Event Ingestion: onboarding/baseline-event-ingestion.md
-- Advisories:
-  - TLP:CLEAR: advisories.md
-  - TLP:GREEN: tlp-green/advisories.md
+- Advisories (TLP:CLEAR): advisories.md
 - IRP User Guide (Jira): docs/incident-reporting.md
 - Training:
   - SOC Analyst Induction: docs/analyst-induction.md
