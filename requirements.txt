@@ -1,3 +1,4 @@
 mkdocs-material
 mkdocs-redirects
 mkdocs-macros-plugin
+mkdocs-git-revision-date-localized-plugin
