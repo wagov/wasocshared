@@ -33,6 +33,10 @@ theme:
         name: Switch to dark mode
 plugins:
   - search
+  - macros
+  - redirects:
+      redirect_maps:
+        'onboarding/baseline-event-ingestion.md': 'baselines/data-sources.md'
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
@@ -58,7 +62,7 @@ nav:
 - Home: README.md
 - Sentinel Connector Guidance: onboarding/sentinel-guidance.md
 - SOC Onboarding: onboarding.md
-- Baseline for Event Ingestion: onboarding/baseline-event-ingestion.md
+- Baseline for Event Ingestion: baselines/data-sources.md
 - Advisories (TLP:CLEAR): advisories.md
 - IRP User Guide (Jira): docs/incident-reporting.md
 - Training:

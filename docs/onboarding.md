@@ -106,7 +106,7 @@ Review the custom deployment details and ensure the location is Australia East, 
 
 ## 3. Confirmation of Onboarding
 
-Once the template phase has completed, cusotmers can confirm the onboarding process has finalised by navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page and confirming you can see the **WA SOC - Security Insights** service offer.
+Once the template phase has completed, customers can confirm the onboarding process has finalised by navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page and confirming you can see the **WA SOC - Security Insights** service offer.
 
 ![service Offer](images/service-offer.png)
 
@@ -120,4 +120,4 @@ If for the purpose of offboarding the WASOC or to re-onboard onto the WASOC, the
 
 Navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page. Select the **WA SOC - Security Insights** service offer. Click **Delete**.
 
-![service offfer delete](images/service-provider-delete.png)
+![service offer delete](images/service-provider-delete.png)

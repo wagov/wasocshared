@@ -8,7 +8,7 @@ Most organisations are strategically migrating services not unique to their spec
 
 ![Service Models](../images/servicemodels.png)
 
-The above diagram should be used as a reference to determine which systems/services are relevant for capturing security logs (i.e. if utilising IaaS, the service provider should facilitate the collection of security logs in bulk, while On-Premise infrastructure would require additional resoruces to capture security logs from hypervisors, physical servers, storage and physical security).
+The above diagram should be used as a reference to determine which systems/services are relevant for capturing security logs (i.e. if utilising IaaS, the service provider should facilitate the collection of security logs in bulk, while On-Premise infrastructure would require additional resources to capture security logs from hypervisors, physical servers, storage and physical security).
 
 ## 2. Detection Observables
 
@@ -21,7 +21,7 @@ Referencing the [STIX 2.1 Cyber Observable Objects](https://stix2.readthedocs.io
 5. [File](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.File) (SHA256 hash most relevant)
 6. [HTTPRequestExt](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.HTTPRequestExt) (Inbound HTTP requests through e.g. Web Application Firewalls)
 
-> Futher information of the purpose of STIX 2.1 and the observable objects can be found [here](https://oasis-open.github.io/cti-documentation/stix/intro.html).
+> Further information of the purpose of STIX 2.1 and the observable objects can be found [here](https://oasis-open.github.io/cti-documentation/stix/intro.html).
 
 ## 3. Detection Assets
 
@@ -64,7 +64,7 @@ These are available as integrations with some deployment requirements on Windows
 
 ### 4.3. High return on investment
 
-Agent based network protection is relatively straightforward to ingest from application servers. High volume network traffic should be reviewed prior to ingestion to understand the volume of events and to avoid loading large quantites of low value events (such as Content Delivery Networks / File Sharing / Media Streaming logs).
+Agent based network protection is relatively straightforward to ingest from application servers. High volume network traffic should be reviewed prior to ingestion to understand the volume of events and to avoid loading large quantities of low value events (such as Content Delivery Networks / File Sharing / Media Streaming logs).
 
 - [ ] Query an `IPv4Address`, `IPv6Address` or `DomainName` across all inbound/outbound [Network Traffic](https://attack.mitre.org/datasources/DS0029/).
   - [ ] **Servers** - e.g. [Defender Network Protection](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/network-protection?view=o365-worldwide)
@@ -74,7 +74,7 @@ Agent based network protection is relatively straightforward to ingest from appl
 
 ## 5. Detection Analytics
 
-Once the above checklist is validated, an organisation should schedule regular security exercises to detect for suspicious behaviour based on indicators collected from threat intelligence soruces and to detect for deviations against known behaviour baselines. A simple example would be to determine a subset of users that are allowed to use legacy authentication protocols (NTLM, LDAP, HTTP Basic Auth), and alerting security analysts whenever a user outside of that list attempts to sign in with a legacy authentication protocol.
+Once the above checklist is validated, an organisation should schedule regular security exercises to detect for suspicious behaviour based on indicators collected from threat intelligence sources and to detect for deviations against known behaviour baselines. A simple example would be to determine a subset of users that are allowed to use legacy authentication protocols (NTLM, LDAP, HTTP Basic Auth), and alerting security analysts whenever a user outside of that list attempts to sign in with a legacy authentication protocol.
 
 [Sigma](https://github.com/SigmaHQ/sigma) is a flexible rule format that is easy to write and applicable to any type of log file. The project provides a structured library and an open specification in which researchers or analysts can describe and share their detection methods. The WA SOC is actively investing into [sigma rule development](https://github.com/SigmaHQ/sigma/wiki/Rule-Creation-Guide) and a [pySigma](https://github.com/SigmaHQ/pySigma) [backend/pipeline for Sentinel](https://github.com/wagov/python-squ/blob/main/sigma/pipelines/azure/azure.py), and can provide assistance in converting rules to/from sigma formats.
 
@@ -87,7 +87,6 @@ The WA SOC has curated a pack of over 100 [analytics rules](https://learn.micros
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fwagov.github.io%2Fwasocshared%2Fonboarding%2Fwasoc-sentinel-rules-deployment.json)
 [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fwagov.github.io%2Fwasocshared%2Fonboarding%2Fwasoc-sentinel-rules-deployment.json)
 
-
 *The [ARM template](https://wagov.github.io/wasocshared/onboarding/wasoc-sentinel-rules-deployment.json) can be deployed multiple times to install new and update existing rules. Rules deployed from this template will be updated in place, however there may be duplicate rules over time (it's worth scanning the names of analytics rules within a workspace, and removing the least recently modified ones after a deployment with the same name). Best practice is also to ensure any locally customised rules within your workspace have a prefix (to simplify distinguishing from externally sourced content).*
 
 ![Mitre Mapping](../images/wasoc-analytics-mitre.png)
@@ -98,11 +97,11 @@ Example [code is available](https://github.com/wagov/python-squ/blob/main/exampl
 
 ### 5.2 Microsoft Sentinel Automation Pack
 
-**WASOC Automation Rules**
+!!! note "WASOC Automation Rules"
 
-The following package is designed to automatically add task lists to the incidents generated by their paired WASOC Sentinel analytic rules in the Detection Pack. These task lists are intended as a baseline for generalised investigation and remediation steps commonly undertaken for each kind of associated incident:
+    The following package is designed to automatically add task lists to the incidents generated by their paired WASOC Sentinel analytic rules in the Detection Pack. These task lists are intended as a baseline for generalised investigation and remediation steps commonly undertaken for each kind of associated incident:
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwagov%2FWASOCAutomationPlaybook%2Fmain%2FCollatedDeployment.json)
-[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fwagov%2FWASOCAutomationPlaybook%2Fmain%2FCollatedDeployment.json)
+    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwagov%2FWASOCAutomationPlaybook%2Fmain%2FCollatedDeployment.json)
+    [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fwagov%2FWASOCAutomationPlaybook%2Fmain%2FCollatedDeployment.json)
 
-*Note: This package does not yet cover the Microsoft Defender for IoT Analytic Rules and is under development. Feedback is appreciated.*
+    *Note: This package does not yet cover the Microsoft Defender for IoT Analytic Rules and is under development. Feedback is appreciated.*
