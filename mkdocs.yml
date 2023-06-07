@@ -1,7 +1,7 @@
 site_name: WA Cyber Security Unit (DGOV Technical)
 site_url: https://wagov.github.io/wasocshared
 repo_url: https://github.com/wagov/wasocshared
-edit_uri: edit/main/docs
+edit_uri: blob/main/docs
 theme:
   name: material
   features:
@@ -11,7 +11,6 @@ theme:
     - toc.integrate
     - toc.follow
     - content.code.copy
-    - content.action.view
     - content.action.edit
     - search.suggest
     - search.highlight
@@ -33,6 +32,10 @@ theme:
         name: Switch to dark mode
 plugins:
   - search
+  - macros
+  - redirects:
+      redirect_maps:
+        'onboarding/baseline-event-ingestion.md': 'baselines/data-sources.md'
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
@@ -58,7 +61,7 @@ nav:
 - Home: README.md
 - Sentinel Connector Guidance: onboarding/sentinel-guidance.md
 - SOC Onboarding: onboarding.md
-- Baseline for Event Ingestion: onboarding/baseline-event-ingestion.md
+- Baseline for Event Ingestion: baselines/data-sources.md
 - Advisories (TLP:CLEAR): advisories.md
 - IRP User Guide (Jira): docs/incident-reporting.md
 - Training:

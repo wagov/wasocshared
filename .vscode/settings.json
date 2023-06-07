@@ -2,5 +2,31 @@
     "markdown.extension.toc.levels": "2..6",
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
+    ],
+    "cSpell.words": [
+        "ACSC",
+        "ADFS",
+        "ASIM",
+        "CASB",
+        "CISA",
+        "Corelight",
+        "Intune",
+        "Meraki",
+        "Offboarding",
+        "onboarded",
+        "ontop",
+        "Playbooks",
+        "SIEM",
+        "signins",
+        "SLES",
+        "SOCI",
+        "STIX",
+        "WASOC",
+        "WDAC"
+    ],
+    "cSpell.language": "en-GB",
+    "cSpell.ignorePaths": [
+        "*.json",
+        "*.yml"
     ]
 }
