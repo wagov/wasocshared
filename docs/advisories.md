@@ -1,4 +1,5 @@
 #### 2023 June
+- 2023/06/07 - [Google Chrome Vulnerability - 20230607001](advisories/20230607001-Google-Chrome-vulnerability.md)
 - 2023/06/02 - [HID Global SAFE Vulnerability - 20230302002](advisories/20230602002-HID-Global-SAFE-Vulnerability.md)
 - 2023/06/02 - [MOVEit Transfer Critical Vulnerability - 20230602001](advisories/20230602001-MOVEit-File-Transfer-Vulnerability.md)
 #### 2023 May
