@@ -1,8 +1,11 @@
 #### 2023 June
+
 - 2023/06/07 - [Google Chrome Vulnerability - 20230607001](advisories/20230607001-Google-Chrome-vulnerability.md)
 - 2023/06/02 - [HID Global SAFE Vulnerability - 20230302002](advisories/20230602002-HID-Global-SAFE-Vulnerability.md)
 - 2023/06/02 - [MOVEit Transfer Critical Vulnerability - 20230602001](advisories/20230602001-MOVEit-File-Transfer-Vulnerability.md)
+
 #### 2023 May
+
 - 2023/05/31 - [Lazarus Group Targeting Windows IIS Web Servers - 20230531003](advisories/20230531003-Lazarus-Targeting-Windows-IIS.md)
 - 2023/05/31 - [Advantech WebAccess/SCADA Vulnerability - 20230531002](/advisories/20230531002-Advantech-WebAccess-SCADA-Vulnerability.md)
 - 2023/05/31 - [Mirai Variant Targeting Multiple IoT Devices  - 20230531001](/advisories/20230531001-Mirai-Variant-Targeting-IoT-Devices.md)
@@ -30,7 +33,9 @@
 Vulnerabilities - 20230501003](advisories/20230501003-Cisco-Industrial-Network-Director-Vulnerabilities.md)
 - 2023/05/01 - [Cisco Prime Collaboration Deployment Cross-Site Scripting Vulnerability - 20230501002](advisories/20230501002-Cisco-Prime-Collaboration-Deployment-Cross-Site-Scripting-Vulnerability.md)
 - 2023/05/01 - [Apache Superset Vulnerability Exposes Servers to RCE Attacks - 20230501001](advisories/20230501001-Apache-Superset-RCE-Vulnerability.md)
+
 #### 2023 April
+
 - 2023/04/28 - [ICSMA-23-117-01 Illumina Universal Copy Service - 20230428001](advisories/20230428001-ICSMA-23-117-01-Illumina-Universal-Copy-Service.md)
 - 2023/04/27 - [Service Location Protocol Abuse May Lead to DoS Attack - 20230427001](advisories/20230427001-SLP-Abuse-Leads-To-DoS.md)
 - 2023/04/26 - [SolarWinds Platform Command Injection Vulnerability - 20230426009](advisories/20230426009-SolarWinds-Platform-Command-Injection-Vuln.md)
@@ -63,6 +68,7 @@ Vulnerabilities - 20230501003](advisories/20230501003-Cisco-Industrial-Network-D
 - 2023/04/03 - [QNAP Vulnerability in QTS and QuTS hero - 20230403001](advisories/20230403001-QNAP-Vulnerability-in-QTS-and-QuTS-hero.md)
 
 #### 2023 March
+
 - 2023/02/31 - [Apple Releases Security Updates for Multiple Products - 20230331003](advisories/20230331003-Apple-Updates-Multiple-Products.md)
 - 2023/03/31 - [CISA Adds Known Exploited Vulnerabilities to Catalog - 20230331002](advisories/20230331002-CISA-Known-Exploited-Vulnerabilities.md)
 - 2023/03/31 - [GoAnywhere Active Campaign - 20230331001](advisories/20230331001-GoAwnywhere-Active-Campaign.md)
@@ -91,6 +97,7 @@ Vulnerabilities - 20230501003](advisories/20230501003-Cisco-Industrial-Network-D
 - 2023/03/03 - [Cisco IP Phones Web UI Vulnerabilities - 202303001](advisories/20230303001-Cisco-IP-Phones-Web-UI-Vulnerabilities.md)
 
 #### 2023 February
+
 - 2023/02/27 - [VMware Releases Security Updates for Carbon Black App Control - 20230227005](advisories/20230227005-VMware-Releases-Security-Updates-Carbon-Black-App-Control.md)
 - 2023/02/27 - [Cisco Security Advisories for Multiple Products - 20230227004](advisories/20230227004-Cisco-Security-Advisories-for-Multiple-Products.md)
 - 2023/02/27 - [Fortinet Releases Security Updates for Multiple Products - 20230227003](advisories/20230227003-Fortinet-Security-Updates-Multiple-Products.md)
