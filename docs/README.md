@@ -22,7 +22,7 @@ The WA SOC has developed a [Baseline for Event Ingestion](onboarding/baseline-ev
 
 - [Guide to Securing Remote Access Software (CISA)](https://www.cisa.gov/resources-tools/resources/guide-securing-remote-access-software) - remote access software overview, including the malicious use of remote access software, detection methods, and recommendations for all organizations.
 - [#StopRansomware Guide (CISA)](https://www.cisa.gov/resources-tools/resources/stopransomware-guide) - one-stop resource to help organizations reduce the risk of ransomware incidents through best practices to detect, prevent, respond, and recover, including step-by-step approaches to address potential attacks.
-- [Microsoft Sentinel Connector Guidance](onboarding/sentinel-guidance.md)
+- [Microsoft Sentinel Connector Guidance](onboarding/sentinel-guidance.md) - Sentinel deployment guide including prioritisation of connector configuration based on cost and complexity.
 
 
 ## Technical Documentation
