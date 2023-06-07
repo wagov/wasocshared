@@ -28,5 +28,6 @@
     "cSpell.ignorePaths": [
         "*.json",
         "*.yml"
-    ]
+    ],
+    "markdown.extension.completion.root": "docs"
 }
