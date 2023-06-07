@@ -1,0 +1,22 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Test building TLP:CLEAR content
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - name: install mkdocs
+        run: pip install -r requirements.txt
+      - name: build site
+        run:  python -m mkdocs build --strict
