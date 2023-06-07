@@ -1,6 +1,6 @@
 # WA Cyber Security Unit (Office of Digital Government)
 
-This site contains technical information to support WA Government Cyber Security activities. Please email [cybersecurity@dpc.wa.gov.au](mailto:cybersecurity@dpc.wa.gov.au) with any feedback on this content. The site is built with [Material for MkDocs (Reference)](https://squidfunk.github.io/mkdocs-material/reference/) which includes several [extensions to markdown](https://squidfunk.github.io/mkdocs-material/setup/extensions/?h=markdown) for enhanced technical writing.
+This site contains technical information to support WA Government Cyber Security activities. Please email [cybersecurity@dpc.wa.gov.au](mailto:cybersecurity@dpc.wa.gov.au) with any feedback on this content. The site is built with [Material for MkDocs (reference)](https://squidfunk.github.io/mkdocs-material/reference/) which includes several [extensions to markdown](https://squidfunk.github.io/mkdocs-material/setup/extensions/) for enhanced technical writing.
 
 ## WA Security Operations Centre (WA SOC)
 
