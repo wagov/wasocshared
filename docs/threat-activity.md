@@ -15,7 +15,7 @@ Based on recent high impact incidents seen by the WA SOC, security teams should 
 Recently key high profile vulnerabilities this month worth staying across include:
 
 - [MOVEit Transfer Critical Vulnerability - 20230602001](advisories/20230602001-MOVEit-File-Transfer-Vulnerability.md)
-- [Barracuda Security Gateway appliance vulnerability -  20230529001](/advisories/20230529001-Barracuda-Security-Gateway-Appliance-Vulnerability.md)
+- [Barracuda Security Gateway appliance vulnerability -  20230529001](advisories/20230529001-Barracuda-Security-Gateway-Appliance-Vulnerability.md)
 - [State-Sponsored Cyber Actor Living off the Land to Evade Detection - 20230525001](advisories/20230525001-State-Sponsored-Cyber-Actor-Living-off-the-Land-to-Evade-Detection.md)
 
 Agencies should review their software asset register(s) and vulnerability remediation (patching) processes to mitigate against the above vulnerabilities. Any exposed **email** services should be worth prioritising due to ongoing threat activity.
