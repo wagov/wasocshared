@@ -36,9 +36,9 @@ ManageEngine has noted the following products and versions to be impacted by the
 | SupportCenter Plus | 11017 to 11025 | [2] |
 | Vulnerability Manager Plus | 10.1.2220.17 and below | [1] |
 
-   [1] Applicable only if configured SAML-based SSO and it is currently active.
+[1] Applicable only if configured SAML-based SSO and it is currently active.
 
-   [2] Applicable only if configured SAML-based SSO at least once in the past, regardless of the current SAML-based SSO status.
+[2] Applicable only if configured SAML-based SSO at least once in the past, regardless of the current SAML-based SSO status.
 
 ## What has been observed?
 CISA has listed this vulnerabilty in their [Known Exploited Vulnerabilties](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog.

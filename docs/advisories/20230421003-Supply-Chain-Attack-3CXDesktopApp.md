@@ -25,13 +25,13 @@ The vulnerability affects the following products:
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
- CISA has released a new Malware Analysis Report (MAR) on an infostealer known as [ICONICSTEALER](https://www.cisa.gov/news-events/analysis-reports/ar23-110a). This trojan has been identified as a variant of malware used in the supply chain attack against 3CX’s Desktop App.
+CISA has released a new Malware Analysis Report (MAR) on an infostealer known as [ICONICSTEALER](https://www.cisa.gov/news-events/analysis-reports/ar23-110a). This trojan has been identified as a variant of malware used in the supply chain attack against 3CX’s Desktop App.
 
- CISA recommends users and administrators to review the following resources for more information, and hunt for the listed indicators of compromise (IOCs) for potential malicious activity:
+CISA recommends users and administrators to review the following resources for more information, and hunt for the listed indicators of compromise (IOCs) for potential malicious activity:
 
- - [MAR-10435108.r1.v1 – ICONICSTEALER](https://www.cisa.gov/news-events/analysis-reports/ar23-110a)
+- [MAR-10435108.r1.v1 – ICONICSTEALER](https://www.cisa.gov/news-events/analysis-reports/ar23-110a)
 
- - [Supply Chain Attack Against 3CXDesktopApp](https://www.cisa.gov/news-events/alerts/2023/03/30/supply-chain-attack-against-3cxdesktopapp)
+- [Supply Chain Attack Against 3CXDesktopApp](https://www.cisa.gov/news-events/alerts/2023/03/30/supply-chain-attack-against-3cxdesktopapp)
 
 
 

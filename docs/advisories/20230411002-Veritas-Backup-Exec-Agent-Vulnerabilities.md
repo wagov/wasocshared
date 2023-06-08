@@ -5,11 +5,11 @@ Vulnerabilities exist for the Veritas Backup Exec Agent that could be used as pa
 
 ## What is the vulnerability?
 - Veritas Backup Exec Agent Arbitrary File Access:
-    - [**CVE-2021-27876**](https://nvd.nist.gov/vuln/detail/CVE-2021-27876) - CVSS v3 Base Score: ***=8.1***
+- [**CVE-2021-27876**](https://nvd.nist.gov/vuln/detail/CVE-2021-27876) - CVSS v3 Base Score: ***=8.1***
 - Veritas Backup Exec Agent Unauthorized access with SHA authentication:
-    - [**CVE-2021-27877**](https://nvd.nist.gov/vuln/detail/CVE-2021-27877) - CVSS v3 Base Score: ***=9.8***
+- [**CVE-2021-27877**](https://nvd.nist.gov/vuln/detail/CVE-2021-27877) - CVSS v3 Base Score: ***=9.8***
 - Veritas Backup Exec Agent Arbitrary Command Execution:
-    - [**CVE-2021-27878**](https://nvd.nist.gov/vuln/detail/CVE-2021-27878) - CVSS v3 Base Score: ***=8.8***
+- [**CVE-2021-27878**](https://nvd.nist.gov/vuln/detail/CVE-2021-27878) - CVSS v3 Base Score: ***=8.8***
 
 ## Recommendation
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices: [**Veritas Support**](https://www.veritas.com/content/support/en_US/security/VTS21-001#issue2)

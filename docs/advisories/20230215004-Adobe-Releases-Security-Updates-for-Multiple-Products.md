@@ -22,17 +22,17 @@ The vulnerability affects the following products:
 ## Recommendation
 
 -  Adobe categorizes these updates with the following  [priority ratings](https://helpx.adobe.com/security/severity-ratings.html) and recommends users update their installation to the latest version.
-    - **After Effects**
-    - **Connect**
-    - **FrameMaker** 
+- **After Effects**
+- **Connect**
+- **FrameMaker** 
 
 - Adobe categorizes these updates with the following [priority ratings](https://helpx.adobe.com/security/severity-ratings.html) and recommends users update their installation to the newest version via the Creative Cloud desktop app's update mechanism.  For more information, please reference this [help page](https://helpx.adobe.com/creative-cloud/help/creative-cloud-updates.html).
-    - **Bridge**
-    - **Photoshop**
-    - **Premiere Rush**
-    - **Animate**
-    - **Substance 3D Stager** 
-    - **After Effects** 
+- **Bridge**
+- **Photoshop**
+- **Premiere Rush**
+- **Animate**
+- **Substance 3D Stager** 
+- **After Effects** 
 
 - Adobe categorizes these updates with the following [priority rating](https://helpx.adobe.com/security/severity-ratings.html) and recommends users update their software installations via the Creative Cloud desktop app updater, or by navigating to the InDesign Help menu and clicking "Updates." For more information, please reference this help [page](https://helpx.adobe.com/support/indesign.html).
-    - **InDesign** 
+- **InDesign** 

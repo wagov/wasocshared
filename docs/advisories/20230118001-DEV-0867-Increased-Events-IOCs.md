@@ -1,4 +1,4 @@
-  
+
 # Increased Events from Threat Activity Group DEV-0867 - 20230118001
 
 ## Overview
@@ -11,9 +11,9 @@ The primary delivery method is via email containing a URL.
 
 ### Detection
 
- 1. Identify the presence of the below supplied KQL/ Kusto hunting code
- 2. Identify the presence of the below supplied IOCs
- 3. Inspect activity from the identified devices and/or users
+1. Identify the presence of the below supplied KQL/ Kusto hunting code
+2. Identify the presence of the below supplied IOCs
+3. Inspect activity from the identified devices and/or users
 
 ### Recommended Remediation Steps
 1.  Run a full Antivirus scan on the compromised device

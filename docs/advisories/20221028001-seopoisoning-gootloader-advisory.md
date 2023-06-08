@@ -1,5 +1,4 @@
-﻿
-# SEO poisoning targeting public sector (Gootloader) Advisory - 20221028001
+﻿# SEO poisoning targeting public sector (Gootloader) Advisory - 20221028001
 
 ## Overview
 

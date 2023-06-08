@@ -27,11 +27,11 @@ The vulnerability affects the following products:
 For updates addressing lower severity vulnerabilities, see the [Cisco Security Advisories](https://tools.cisco.com/security/center/publicationListing.x) page.
 
 - **ClamAV HFS+ Partition Scanning Buffer Overflow Vulnerability Affecting Cisco Products**
-    - For information about [fixed software releases](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes), consult the Cisco bugs identified in the [Vulnerable Products](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-q8DThCy#vp) section of this advisory.
-    When [considering software upgrades](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes), customers are advised to regularly consult the advisories for Cisco products, which are available from the [Cisco Security Advisories](https://www.cisco.com/go/psirt) page, to determine exposure and a complete upgrade solution.
+- For information about [fixed software releases](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes), consult the Cisco bugs identified in the [Vulnerable Products](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-q8DThCy#vp) section of this advisory.
+When [considering software upgrades](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes), customers are advised to regularly consult the advisories for Cisco products, which are available from the [Cisco Security Advisories](https://www.cisco.com/go/psirt) page, to determine exposure and a complete upgrade solution.
 
 - **Cisco Nexus 9000 Series Fabric Switches in ACI Mode**
-   - For help determining the best Cisco NX-OS Software release for a Cisco Nexus Switch, see the following Recommended Releases documents. If a security advisory recommends a later release, Cisco recommends following the advisory guidance.To determine the best release for Cisco UCS Software, see the Recommended Releases documents in the release notes for the device.
+- For help determining the best Cisco NX-OS Software release for a Cisco Nexus Switch, see the following Recommended Releases documents. If a security advisory recommends a later release, Cisco recommends following the advisory guidance.To determine the best release for Cisco UCS Software, see the Recommended Releases documents in the release notes for the device.
 
 ## Additional References:
 * [Cisco MDS Series Switches](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/mds9000/sw/b_MDS_NX-OS_Recommended_Releases.html)
@@ -44,4 +44,3 @@ For updates addressing lower severity vulnerabilities, see the [Cisco Security 
 * [Cisco Nexus 9000 Series Switches](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/recommended_release/b_Minimum_and_Recommended_Cisco_NX-OS_Releases_for_Cisco_Nexus_9000_Series_Switches.html)
 * [Cisco Nexus 9000 Series ACI-Mode Switches](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/recommended-release/b_Recommended_Cisco_ACI_Releases.html)
 
-    

@@ -16,10 +16,10 @@ There are currently no CVE's associated with this vulnerability.
 ## What is vulnerable? 
 The vulnerability affects the following products:
 - Drupal 7
-    - All Drupal 7 sites on Windows web servers are vulnerable.
-    - Drupal 7 sites on Linux web servers are vulnerable with certain file directory structures, or if a vulnerable contributed or custom file access module is installed.
+- All Drupal 7 sites on Windows web servers are vulnerable.
+- Drupal 7 sites on Linux web servers are vulnerable with certain file directory structures, or if a vulnerable contributed or custom file access module is installed.
 - Drupal 9 and 10
-    - Drupal 9 and 10 sites are only vulnerable if certain contributed or custom file access modules are installed.
+- Drupal 9 and 10 sites are only vulnerable if certain contributed or custom file access modules are installed.
 
 ## What has been observed?
 CISA has issued an alert for the vulnerability and encourages users and administrators to review the Drupal security advisory and apply the relevant updates.

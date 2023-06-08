@@ -1,4 +1,4 @@
-  
+
 # Lazarus Group Targeting Windows IIS Web Servers - 20230531003
 
 ## **Overview**
@@ -15,7 +15,7 @@ The WASOC has not observed any exploitation as of yet.
 ## **Indicator of Compromise**
 
 ### DLL Side-loading File Path:
-         
+
 * C:\ProgramData\USOShared\Wordconv.exe
 * C:\ProgramData\USOShared\msvcr100.dll
 

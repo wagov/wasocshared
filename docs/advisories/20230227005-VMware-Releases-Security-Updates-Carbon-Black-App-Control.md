@@ -11,9 +11,9 @@ A malicious actor with privileged access to the App Control administration conso
 ## What is vulnerable? 
 The vulnerability affects the following products:
 - VMware Carbon Black App Control
-    - 8.7.x prior to 8.7.8
-    - 8.8.x prior to 8.8.6
-    - 8.9.x.prior to 8.9.4
+- 8.7.x prior to 8.7.8
+- 8.8.x prior to 8.8.6
+- 8.9.x.prior to 8.9.4
 
 ## Recommendation
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices: [Advisory ID:

@@ -12,12 +12,12 @@ VMWare have confirmed forms of compromise include:
 ## What is the vulnerability?
 The WA SOC encourages agencies to review the following VMware Security Advisories and apply the necessary updates:
 1. [VMSA-2022-0031](https://www.vmware.com/security/advisories/VMSA-2022-0031.html)
-   - VMware vRealize Network Insight (vRNI)
+- VMware vRealize Network Insight (vRNI)
 2. [VMSA-2022-0033](https://www.vmware.com/security/advisories/VMSA-2022-0033.html)
-   - VMware ESXi
-   - VMware Workstation Pro / Player (Workstation)
-   - VMware Fusion Pro / Fusion (Fusion)
-   - VMware Cloud Foundation
+- VMware ESXi
+- VMware Workstation Pro / Player (Workstation)
+- VMware Fusion Pro / Fusion (Fusion)
+- VMware Cloud Foundation
 
 ## What has been observed ?
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.

@@ -35,7 +35,7 @@ The Office of Digital Government (DGov) recommends organisations apply the lates
 - Review Crowdstrike’s [blog post](https://www.crowdstrike.com/blog/owassrf-exploit-analysis-and-recommendations/)
 here ().
 - Apply the latest [Microsoft Exchange](https://msrc.microsoft.com/update-guide/deployments) update. 
-    - Ensure at minimum your patch is Exchange update (KB5019758) from November 2022 or later.
+- Ensure at minimum your patch is Exchange update (KB5019758) from November 2022 or later.
 - Disable remote PowerShell for non-administrative users where possible. Guidance can be found here: [Exchange Server](https://learn.microsoft.com/en-us/powershell/exchange/control-remote-powershell-access-to-exchange-servers?view=exchange-ps&viewFallbackFrom=exchange-ps%22%20%5Cl%20%22use-the-exchange-management-shell-to-enable-or-disable-remote-powershell-access-for-a-user) and [Exchange Online](https://learn.microsoft.com/en-us/powershell/exchange/disable-access-to-exchange-online-powershell?view=exchange-ps).
 - Review [Crowdstrike’s script](https://github.com/CrowdStrike/OWASSRF) to detect exploitation in IIS and Remote PowerShell logs.
 - Ensure X-Forwarded-For header is [configured](https://techcommunity.microsoft.com/t5/iis-support-blog/how-to-use-x-forwarded-for-header-to-log-actual-client-ip/ba-p/873115) to log true external IP addresses for request to proxied services. Guidance available here.

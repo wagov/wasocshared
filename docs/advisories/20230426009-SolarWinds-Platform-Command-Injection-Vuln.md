@@ -8,7 +8,7 @@ SolarWinds have published details of a vulnerability in their SolarWinds Platfor
 Please see [SolarWinds Platform Command Injection Vulnerability (CVE-2022-36963)](https://www.solarwinds.com/trust-center/security-advisories/cve-2022-36963) for an overview of the following vulnerability.
 
 - [**CVE-2022-36963**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36963) - CVSS v3 Base Score: ***8.1***
-    - The SolarWinds Platform was susceptible to the Command Injection Vulnerability. This vulnerability allows a remote adversary with a valid SolarWinds Platform admin account to execute arbitrary commands.
+- The SolarWinds Platform was susceptible to the Command Injection Vulnerability. This vulnerability allows a remote adversary with a valid SolarWinds Platform admin account to execute arbitrary commands.
 
 ## What is vulnerable? 
 The vulnerability affects the following products:

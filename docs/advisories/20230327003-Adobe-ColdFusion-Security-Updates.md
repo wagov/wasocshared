@@ -13,8 +13,8 @@ Adobe has released security updates for ColdFusion versions 2021 and 2018.�
 ## What is vulnerable? 
 The vulnerability affects the following products:
 - ColdFusion versions:
-    - 2018 (Update 15 and earlier versions)
-    - 2021 (Update 5 and earlier versions)
+- 2018 (Update 15 and earlier versions)
+- 2021 (Update 5 and earlier versions)
 
 ## Recommendation
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices: 
