@@ -16,9 +16,8 @@
 			"extensions": [
 				"yzhang.markdown-all-in-one",
 				"streetsidesoftware.code-spell-checker",
-				"DavidAnson.vscode-markdownlint",
-				"shd101wyy.markdown-preview-enhanced",
-				"bierner.github-markdown-preview"
+				"bierner.github-markdown-preview",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	},
@@ -31,7 +30,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"onCreateCommand": "pip install -r requirements.txt",
-	"postCreateCommand": "nohup bash -c 'mkdocs serve &'",
+	"postCreateCommand": "nohup bash -c '(while true; do mkdocs serve; done) &'",
 	"portsAttributes": {
 		"8000": {
 			"label": "mkdocs serve"

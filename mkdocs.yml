@@ -38,6 +38,12 @@ plugins:
   - redirects:
       redirect_maps:
         'onboarding/baseline-event-ingestion.md': 'baselines/data-sources.md'
+        'docs/incident-reporting.md': 'guidelines/incident-reporting.md'
+        'docs/workstations.md': 'guidelines/workstations.md'
+        'docs/playbooks.md': 'guidelines/playbooks.md'
+        'docs/collecting-evidence.md': 'guidelines/collecting-evidence.md'
+        'docs/analyst-induction.md': 'training/analyst-induction.md'
+        'docs/azure-basics.md': 'training/azure-basics.md'
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
@@ -63,15 +69,18 @@ nav:
 - Home: README.md
 - Sentinel Connector Guidance: onboarding/sentinel-guidance.md
 - SOC Onboarding: onboarding.md
-- Baseline for Event Ingestion: baselines/data-sources.md
 - Advisories (TLP:CLEAR): advisories.md
-- IRP User Guide (Jira): docs/incident-reporting.md
+- Baselines:
+  - Data Sources: baselines/data-sources.md
+  - Security Operations (DRAFT): baselines/security-operations.md
+- Guidelines:
+  - Incident Reporting: guidelines/incident-reporting.md
+  - Workstations: guidelines/workstations.md
+  - Playbooks: guidelines/playbooks.md
+  - Collecting Evidence: guidelines/collecting-evidence.md
 - Training:
-  - SOC Analyst Induction: docs/analyst-induction.md
-  - Azure Basics: docs/azure-basics.md
-  - Workstation Self-Build (Linux, macOS, Windows): docs/workstations.md
-- Collecting Evidence: docs/collecting-evidence.md
-- Cyber Security Playbooks: docs/playbooks.md
+  - Security Analyst Induction: training/analyst-induction.md
+  - Azure Basics: training/azure-basics.md
 - WA Gov Links:
   - Incident Reporting Portal (IRP): https://irp.dpc.wa.gov.au
   - Digital Government (DGOV): https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government

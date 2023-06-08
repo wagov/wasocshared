@@ -10,7 +10,7 @@ Recommended software for use for general activities. The majority of the below s
 - [Tailscale](https://tailscale.com/download) - Zero config VPN. Installs on any device in minutes, manages firewall rules for you, and works from anywhere.
 - [(Windows) Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) - Bundling of the Sysinternals Troubleshooting Utilities
 - [(Windows) PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/) - Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity.
-- [(macOS) Wavelink Drivers](https://www.wavlink.com/en_us/drivers/download/aa47a29b13ae.html) - For the Wavelink Docks within the SOC.
+- [(macOS) Wavlink Drivers](https://www.wavlink.com/en_us/drivers/download/aa47a29b13ae.html) - For Wavlink Docks.
 
 ## 2. Development
 

@@ -6,7 +6,7 @@ This site contains technical information to support WA Government Cyber Security
 
 - [Connecting to the WA SOC](onboarding.md)
 - [Advisories (TLP:CLEAR)](advisories.md)
-- [Incident Reporting User Guide (Jira)](docs/incident-reporting.md)
+- [Incident Reporting User Guide (Jira)](guidelines/incident-reporting.md)
 
 ### Baselines
 
@@ -24,9 +24,9 @@ The WA SOC has developed a [Baseline for Event Ingestion](baselines/data-sources
 
 !!! note "Technical Documentation"
 
-    - [SOC Analyst Induction](docs/analyst-induction.md)
-    - [Collecting Digital Forensic Evidence](docs/collecting-evidence.md)
-    - [Cyber Security Playbooks](docs/playbooks.md)
+    - [SOC Analyst Induction](training/analyst-induction.md)
+    - [Collecting Digital Forensic Evidence](guidelines/collecting-evidence.md)
+    - [Cyber Security Playbooks](guidelines/playbooks.md)
 
 {% include 'threat-activity.md' %}
 
