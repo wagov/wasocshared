@@ -1,6 +1,6 @@
 ## Recent Advisories
 
-{{ include_file('docs/advisories.md', 0, 10)  }}
+{{ date_index("docs/advisories/*.md", prefix="advisories/", expand=1, include=2) }}
 
 ## WA SOC - Recent Threat Activity (June 2023)
 
