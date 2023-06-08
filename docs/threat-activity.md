@@ -6,7 +6,7 @@
 
 Based on recent high impact incidents seen by the WA SOC, security teams should be focusing on the below areas of improvement:
 
-!!! warning "ACSC Mitigating Controls targeted on recent threat activity"
+!!! warning "ACSC Guidance targeted on recent threat activity"
 
     - [Implementing Network Segmentation and Segregation](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/implementing-network-segmentation-and-segregation)
     - [Guidelines for Procurement and Outsourcing](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing)
