@@ -23,7 +23,7 @@ Regarding sizing, dedicated operational security analyst roles should start at 2
 - Endpoint Devices (EDR - e.g Microsoft Defender)
 - Servers & Applications (WAF, EASM, Platforms & Infrastructure)
 - Network Traffic Analytics (Flow baselining and alerting on deviations)
-- Operations, Training & Awareness (developing and understanding of how technology is used and how to improve it's use securely)
+- Operations, Training & Awareness (understanding of how technology is used and increasing security awareness of staff in context of its use)
 
 If the above resourcing is difficult to retain due to a small organisational size, engaging an external Managed Service Provider (MSP) to incorporate operational security typically starts at $40k AUD annual to cover 200hrs/year of effort (approx $200/hr for basic analysts):
 
