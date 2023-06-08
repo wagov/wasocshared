@@ -48,6 +48,7 @@ let regx2=@"\.php\?(.*=){3}.+$";
 union withsource=tablename_ DeviceNetworkEvents,DeviceFileEvents
 | where RemoteUrl has_any (url) or FileOriginUrl has_any (url) or (FileName matches regex regx1 and FileOriginUrl matches regex regx2)
 ```
+
 #### **NEW SENTINEL KQL** - Utilising Threat Intelligence Feed from DGov STIX / TAXII
 
 ```kusto
@@ -80,7 +81,6 @@ union withsource=tablename_ DeviceNetworkEvents,DeviceFileEvents
 | where RemoteUrl has_any (tiObservables) or FileOriginUrl has_any (tiObservables) or (FileName matches regex regx1 and FileOriginUrl matches regex regx2)
 ```
 
-
 ## Reference
 
 - [Gootkit Loader's Updated Tactics and Fileless Delivery of Cobalt Strike | Trend Micro](https://www.trendmicro.com/en_us/research/22/g/gootkit-loaders-updated-tactics-and-fileless-delivery-of-cobalt-strike.html)
@@ -96,19 +96,20 @@ Please be advised of the following observed IOCs for detection in your environme
 
 ### File Hashes
 
-- Water_corporation_enterprise_agreement_2018_wa_29877.zip - **SHA 256** - ab244fc6a64b33743c52436c1c3bb9be12ad05067830cf82edf72a71cb464b01 
+- Water_corporation_enterprise_agreement_2018_wa_29877.zip - **SHA 256** - ab244fc6a64b33743c52436c1c3bb9be12ad05067830cf82edf72a71cb464b01
 - water corporation enterprise agreement 2018 wa 29877.js - **SHA 256** - 74a501fe8127fd8e635c89be5d98eae420a2a2d29fdbd67d60c92bc62c1ab128
-- Water corporation enterprise agreement 2018 wa (79577).zip - **SHA256** - fa036aac45db7c2eaac588e4bb2082d801e7eeb7deb3b33b89dc0426469333b7 
-- What is novation agreement in construction (73975).zip - **SHA256** - aaac2e4ed43c7a24e4c12254e576ee5a602465afd5c2df6d5d573ae805035868 
-- Honor an agreement synonym (39766).zip - **SHA256** - 906580c297c8dd683b17be49294324489393071c35606b9ba4b878a8dbcf1088            
+- Water corporation enterprise agreement 2018 wa (79577).zip - **SHA256** - fa036aac45db7c2eaac588e4bb2082d801e7eeb7deb3b33b89dc0426469333b7
+- What is novation agreement in construction (73975).zip - **SHA256** - aaac2e4ed43c7a24e4c12254e576ee5a602465afd5c2df6d5d573ae805035868
+- Honor an agreement synonym (39766).zip - **SHA256** - 906580c297c8dd683b17be49294324489393071c35606b9ba4b878a8dbcf1088
 
-### Malicious Files 
+### Malicious Files
 
 - Public service and government officers general agreement 2014 (74209).zip
-- Water corporation enterprise agreement 2018 wa (49326).zip         
-- Queensland rail network enterprise agreement (39681)     
+- Water corporation enterprise agreement 2018 wa (49326).zip
+- Queensland rail network enterprise agreement (39681)
 
 **Note**: *The file names do not indicate/ related to affected agencies. The file names are tailored to potential SEO keywords that unknowing users might be interested to search in Google*
+
 ### Additonal IoCs
 
 - [Sophos IoCs GootLoader - CSV](https://github.com/sophoslabs/IoCs/blob/master/Troj-gootloader.csv)
@@ -137,8 +138,6 @@ Please be advised of the following observed IOCs for detection in your environme
 - theodoraross[.]com/xml.php
 - theairtrekstory[.]com/xml.php
 - hxxps://www.secora[.]cl
-
-
 
 **Source**: [GootLoaderSites (twitter)](https://twitter.com/GootLoaderSites)
 

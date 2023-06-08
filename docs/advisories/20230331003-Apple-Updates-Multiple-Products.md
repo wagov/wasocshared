@@ -1,10 +1,13 @@
 # Apple Releases Security Updates for Multiple Products - 20230331003
 
 ## Overview
+
 Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected device.
 
-## What is vulnerable? 
+## What is vulnerable?
+
 The vulnerability affects devices running ***versions below*** the following:
+
 * [macOS Ventura 13.3](https://support.apple.com/en-us/HT213670 "About the security content of macOS Ventura 13.3")
 * [Safari 16.4](https://support.apple.com/en-us/HT213671 "About the security content of Safari 16.4")
 * [Studio Display Firmware Update 16.4](https://support.apple.com/en-us/HT213672 "About the security content of Studio Display Firmware Update 16.4")
@@ -16,4 +19,5 @@ The vulnerability affects devices running ***versions below*** the following:
 * [watchOS 9.4](https://support.apple.com/en-us/HT213678 "About the security content of watchOS 9.4")
 
 ## Recommendation
+
 The WA SOC recommends users and administrators to review the Apple security updates page for the above products and apply the necessary updates as soon as possible.

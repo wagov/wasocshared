@@ -1,9 +1,11 @@
 # Juniper Networks Releases Security Updates for Multiple Products - 20230113002
 
 ## Overview
+
 Juniper Networks has released [security updates](https://supportportal.juniper.net/s/global-search/%40uri?language=en_US#sort=%40sfcec_community_publish_date_formula__c%20descending&numberOfResults=50&f:ctype=[Security%20Advisories]) to address vulnerabilities affecting multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.
 
 ## What is the vulnerability ?
+
 Out of Juniper Networks vulnerabilities security update, a few more notable vulnerabilities are listed below due to the high CVE severity score.
 
 | CVE | Vulnerability Name | Security Update Released | Threat Description | Action |
@@ -16,13 +18,14 @@ Out of Juniper Networks vulnerabilities security update, a few more notable vuln
 
 --------------------------------------------------------------------------------------------------------------------------
 
-
 ## Recommendation
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected platforms:  
-https://supportportal.juniper.net/s/global-search/%40uri?language=en_US#sort=%40sfcec_community_publish_date_formula__c%20descending&numberOfResults=50&f:ctype=[Security%20Advisories]
 
-## Additional References:
-* https://www.cisa.gov/uscert/ncas/current-activity/2023/01/12/juniper-networks-releases-security-updates-multiple-products  
-* https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22396
-* https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22410
-* https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11287
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected platforms:  
+<https://supportportal.juniper.net/s/global-search/%40uri?language=en_US#sort=%40sfcec_community_publish_date_formula__c%20descending&numberOfResults=50&f:ctype=[Security%20Advisories]>
+
+## Additional References
+
+* <https://www.cisa.gov/uscert/ncas/current-activity/2023/01/12/juniper-networks-releases-security-updates-multiple-products>  
+* <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22396>
+* <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22410>
+* <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11287>

@@ -1,10 +1,13 @@
 # Mozilla Releases Security Updates for Thunderbird 102.8 - 20230227002
 
 ## Overview
+
 Mozilla has released security updates to address vulnerabilities in Thunderbird 102.8. An attacker could exploit some of these vulnerabilities to take control of an affected system.
 
 ## What is the vulnerability?
+
 *Except for CVE-2023--0616, these flaws cannot be exploited through email in the Thunderbird product because scripting is disabled when reading mail, but are potentially risks in browser or browser-like contexts.*
+
 - [CVE-2023-0616: User Interface lockup with messages combining S/MIME and OpenPGP](https://www.mozilla.org/en-US/security/advisories/mfsa2023-07/#CVE-2023-0616)
 - [CVE-2023-25728: Content security policy leak in violation reports using iframes](https://www.mozilla.org/en-US/security/advisories/mfsa2023-07/#CVE-2023-25728)
 - [CVE-2023-25730: Screen hijack via browser fullscreen mode](https://www.mozilla.org/en-US/security/advisories/mfsa2023-07/#CVE-2023-25730)
@@ -18,15 +21,17 @@ Mozilla has released security updates to address vulnerabilities in Thunderbir
 - [CVE-2023-25746: Memory safety bugs fixed in Thunderbird 102.8](https://www.mozilla.org/en-US/security/advisories/mfsa2023-07/#CVE-2023-25746)
 - [CVE-2023-25742: Web Crypto ImportKey crashes tab](https://www.mozilla.org/en-US/security/advisories/mfsa2023-07/#CVE-2023-25742)
 
+## What is vulnerable?
 
-
-## What is vulnerable? 
 The vulnerability affects the following products:
+
 - Thunderbird
 - Thunderbird 102.8
 
 ## Recommendation
+
 CISA encourages users and administrators to review Mozilla's security advisory for [Thunderbird 102.8](https://www.mozilla.org/en-US/security/advisories/mfsa2023-07/ "Thunderbird 102.8") for more information and apply the necessary updates.
 
-## Additional References:
--   [Memory safety bugs fixed in Thunderbird 102.8](https://bugzilla.mozilla.org/buglist.cgi?bug_id=1544127%2C1762368%2C1789449%2C1803628%2C1810536)
+## Additional References
+
+- [Memory safety bugs fixed in Thunderbird 102.8](https://bugzilla.mozilla.org/buglist.cgi?bug_id=1544127%2C1762368%2C1789449%2C1803628%2C1810536)

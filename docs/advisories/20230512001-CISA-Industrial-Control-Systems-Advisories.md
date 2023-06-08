@@ -1,7 +1,8 @@
 # CISA Industrial Control Systems Advisories - 20230512001
 
 ## Overview
-CISA released fifteen Industrial Control Systems (ICS) advisories on May 11, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+
+CISA released fifteen Industrial Control Systems (ICS) advisories on May 11, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
 
 ## What is the vulnerability?
 
@@ -22,14 +23,16 @@ CISA released fifteen Industrial Control Systems (ICS) advisories on May 11, 202
 * ICSA-23-131-14 [Rockwell PanelView 800](https://www.cisa.gov/news-events/ics-advisories/icsa-23-131-14)
 * ICSA-23-131-15 [Rockwell ThinManager](https://www.cisa.gov/news-events/ics-advisories/icsa-23-131-15)
 
-
-
 ## What has been observed?
+
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing
 
 ## Recommendation
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected systems:
-* https://www.cisa.gov/news-events/alerts/2023/05/11/cisa-releases-fifteen-industrial-control-systems-advisories
 
-## Additional References:
-* https://www.cisa.gov/news-events/alerts/2023/05/11/cisa-releases-fifteen-industrial-control-systems-advisories
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected systems:
+
+* <https://www.cisa.gov/news-events/alerts/2023/05/11/cisa-releases-fifteen-industrial-control-systems-advisories>
+
+## Additional References
+
+* <https://www.cisa.gov/news-events/alerts/2023/05/11/cisa-releases-fifteen-industrial-control-systems-advisories>

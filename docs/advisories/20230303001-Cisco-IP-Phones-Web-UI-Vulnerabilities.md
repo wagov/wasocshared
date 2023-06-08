@@ -32,16 +32,17 @@ This vulnerability affects the following Cisco products if they are running a vu
 * Unified IP Phone 7900 Series
 
 For information about which Cisco software releases are vulnerable, see the Fixed Software section of this advisory.
-- https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ip-phone-cmd-inj-KMFynVcP#fs
+
+* <https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ip-phone-cmd-inj-KMFynVcP#fs>
 
 ## What has been observed?
 
-CISA has added one new vulnerability to its [Known Exploited Vulnerabilities Catalog] https://www.cisa.gov/news-events/alerts/2023/03/02/cisco-releases-security-advisory-cisco-ip-phones, based on evidence of active exploitation.
-
+CISA has added one new vulnerability to its [Known Exploited Vulnerabilities Catalog] <https://www.cisa.gov/news-events/alerts/2023/03/02/cisco-releases-security-advisory-cisco-ip-phones>, based on evidence of active exploitation.
 
 ## Recommendation
 
 Refer to the appropriate Cisco Security Bulletin for patch, upgrade or suggested workaround information. See References.
 
 ## Additional References
-- https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ip-phone-cmd-inj-KMFynVcP
+
+* <https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ip-phone-cmd-inj-KMFynVcP>

@@ -1,12 +1,15 @@
 # ManageEngine RCE Vulnerability Known Exploitation - 20230124001
 
 ## Overview
+
 ManageEngine has released an advisory to address unauthenticated remote code execution (RCE) vulnerabilities across multiple ManageEngine OnPremise products due to the usage of an outdated third party dependency.
 
 ## What is the vulnerability?
+
 [**CVE-2022-47966**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-47966) - CVSS Score 8.1: Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the ManageEngine applications did not provide those protections.
 
-## What is vulnerable? 
+## What is vulnerable?
+
 ManageEngine has noted the following products and versions to be impacted by the vulnerability:
 
 | Product | Impacted Version(s) | Note |
@@ -41,7 +44,9 @@ ManageEngine has noted the following products and versions to be impacted by the
 [2] Applicable only if configured SAML-based SSO at least once in the past, regardless of the current SAML-based SSO status.
 
 ## What has been observed?
+
 CISA has listed this vulnerabilty in their [Known Exploited Vulnerabilties](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog.
 
 ## Recommendation
+
 Due to the report of active exploitation, it is strongly recommended to patch this vulnerability within 2 weeks across all affected platforms as per vendor instructions: [https://www.manageengine.com/security/advisory/CVE/cve-2022-47966.html](https://www.manageengine.com/security/advisory/CVE/cve-2022-47966.html)

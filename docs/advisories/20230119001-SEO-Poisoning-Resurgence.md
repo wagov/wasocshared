@@ -2,32 +2,39 @@
 # Resurgence of SEO Poisoning - 20230119001
 
 ## Overview
+
 The WA SOC has observed a resurgence in SEO Poisoning campaigns.
 
 ## Delivery
+
 Historically, SEO Poisoning campaigns are malicious actors setting up fake websites for popular free and open-source software to promote malicious downloads through advertisements in Google search results.
 
 ## Detection and Remediation
 
 ### Detection
+
 1. Identify the presence of the below supplied KQL/ Kusto hunting code
 2. Identify the presence of the below supplied IOCs
 3. Inspect activity from the identified devices and/or users
 
 ### Recommended Remediation Steps
-1.  Run a full Antivirus scan on the compromised device
-2.  Reset the affected user's passwords
-3.  Implement MFA if required
+
+1. Run a full Antivirus scan on the compromised device
+2. Reset the affected user's passwords
+3. Implement MFA if required
 
 ## Reference
+
 * Blog Article "Hackers push malware via Google search ads for VLC, 7-Zip, CCleaner": [https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/](https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/)
 * Internet Crime Crime Complain Center (IC3) Advisory: [https://www.ic3.gov/Media/Y2022/PSA221221](https://www.ic3.gov/Media/Y2022/PSA221221)
 
 ## Indicator of Compromise
 
 ### KQL Query
+
 ***Note the below domains have not been defanged, please exercise caution when utilizing.***
 //Known Domain clicks
+
 ```kusto
 DeviceEvents
 | where TimeGenerated >= ago(90d)
@@ -35,6 +42,7 @@ DeviceEvents
 ```
 
 ### Domain Names
+
 ***Note the below domains have not been defanged, please exercise caution when utilizing.***
 
 ```text
@@ -109,4 +117,3 @@ obstremswiev.online
 obstremswiev.fun
 oblproject.com
 ```
-

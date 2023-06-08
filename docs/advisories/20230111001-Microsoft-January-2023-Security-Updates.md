@@ -1,13 +1,14 @@
 # Microsoft January 2023 Security Updates - 20230111001
 
 ## Overview
-Microsoft's January 2023 security updates fix 98 vulnerabilities, including remote code execution, bypass security features, or elevate privileges, to address multiple vulnerabilities in Microsoft software. An attacker could exploit some of these vulnerabilities to take control of an affected system. 
+
+Microsoft's January 2023 security updates fix 98 vulnerabilities, including remote code execution, bypass security features, or elevate privileges, to address multiple vulnerabilities in Microsoft software. An attacker could exploit some of these vulnerabilities to take control of an affected system.
 
 The Office of Digital Government (DGov) encourages Western Australian Government organisations to regularly check Microsoft’s [Release Notes](https://msrc.microsoft.com/update-guide/releaseNote/2023-Jan) regarding these CVEs, and implement any actions and updates as required.
 
 ## What is the vulnerability ?
-Out of Microsoft's 118 vulnerabilities security updated, a few more notable due to the high severity score: 
 
+Out of Microsoft's 118 vulnerabilities security updated, a few more notable due to the high severity score:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -20,9 +21,8 @@ Out of Microsoft's 118 vulnerabilities security updated, a few more notable due 
 | [CVE-2023-21527](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21527) | Windows iSCSI Service Denial of Service Vulnerability | 2023-01-10 | The vulnerability allows a remote attacker to perform a denial of service (DoS) attack. The vulnerability exists due to insufficient validation of user-supplied input in Windows iSCSI Service. A remote attacker can pass specially crafted input to the application and perform a denial of service (DoS) attack. | Apply updates per vendor instructions. |
 --------------------------------------------------------------------------------------------------------------------------
 
+## What is vulnerable ?
 
-
-## What is vulnerable ? 
 The total number of issue types identified by Microsoft in each vulnerability category are listed below:
 
 - 39 Elevation of Privilege Vulnerabilities
@@ -33,12 +33,14 @@ The total number of issue types identified by Microsoft in each vulnerability ca
 - 2 Spoofing Vulnerabilities
 
 ## Recommendation
-The WA SOC recommends administrators immediately apply the solutions and updates as per vendor instructions to all affected platforms: https://msrc.microsoft.com/update-guide/deployments
 
-## Additional References:
-* https://www.cisa.gov/uscert/ncas/current-activity/2023/01/10/microsoft-releases-january-2023-security-updates
-* https://nvd.nist.gov/vuln/detail/CVE-2023-21674
-* https://nvd.nist.gov/vuln/detail/CVE-2023-21549
-* https://nvd.nist.gov/vuln/detail/CVE-2023-21561
-* https://nvd.nist.gov/vuln/detail/CVE-2023-21563
-* https://nvd.nist.gov/vuln/detail/CVE-2023-21527
+The WA SOC recommends administrators immediately apply the solutions and updates as per vendor instructions to all affected platforms: <https://msrc.microsoft.com/update-guide/deployments>
+
+## Additional References
+
+- <https://www.cisa.gov/uscert/ncas/current-activity/2023/01/10/microsoft-releases-january-2023-security-updates>
+- <https://nvd.nist.gov/vuln/detail/CVE-2023-21674>
+- <https://nvd.nist.gov/vuln/detail/CVE-2023-21549>
+- <https://nvd.nist.gov/vuln/detail/CVE-2023-21561>
+- <https://nvd.nist.gov/vuln/detail/CVE-2023-21563>
+- <https://nvd.nist.gov/vuln/detail/CVE-2023-21527>

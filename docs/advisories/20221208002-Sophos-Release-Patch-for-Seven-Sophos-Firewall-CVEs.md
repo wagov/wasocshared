@@ -1,6 +1,7 @@
 # **Sophos Release Patch for Seven "Sophos Firewall" CVE's** - 20221208003
 
 ## Overview
+
 Sophos has released a security [advisory](https://www.sophos.com/en-us/security-advisories/sophos-sa-20221201-sfos-19-5-0) and patch addressing seven vulnerabilities including a 'critical' Remote Code Execution (RCE) vulnerability previously remediated via a [hotfix](https://www.sophos.com/en-us/security-advisories/sophos-sa-20220923-sfos-rce) and three rated **'High'**.
 
 ## What is the vulnerability ?
@@ -17,13 +18,16 @@ Sophos has released a security [advisory](https://www.sophos.com/en-us/security-
 
 [**CVE-2022-3711:**](https://nvd.nist.gov/vuln/detail/CVE-2022-3711) **CVSS 4.3** - A post-auth read-only SQL injection vulnerability allows users to read non-sensitive configuration database contents in the User Portal of Sophos Firewall.
 
-## What is vulnerable ? 
+## What is vulnerable ?
+
 All versions of Sophos Firewall **prior to v19.5 GA** are considered vulnerable.
 
 ## What has been observed ?
+
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
--   Review the [Sophos Advisory](https://www.sophos.com/en-us/security-advisories/sophos-sa-20221201-sfos-19-5-0).
--   Ascertain if your version of Sophos Firewall is vulnerable.
--   If vulnerable, patch immediately to avoid exploitation.
+
+- Review the [Sophos Advisory](https://www.sophos.com/en-us/security-advisories/sophos-sa-20221201-sfos-19-5-0).
+- Ascertain if your version of Sophos Firewall is vulnerable.
+- If vulnerable, patch immediately to avoid exploitation.

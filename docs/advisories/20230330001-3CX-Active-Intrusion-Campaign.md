@@ -15,6 +15,7 @@ The 3CX Softphone Application and an observed signed malicious installer.
 ## What has been observed?
 
 The 3CX Softphone installer application has been modified to distibute a malicious payload. The installed application has been observed:
+
 - beaconing to actor controlled infrastructure
 - secondary payload distribution
 - hands on keyboard activity

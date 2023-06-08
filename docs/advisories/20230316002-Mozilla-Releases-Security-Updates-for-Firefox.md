@@ -1,6 +1,7 @@
 # Mozilla Releases Security Updates for Firefox 111 and Firefox ESR 102.9 - 20230316002
 
 ## Overview
+
 Mozilla has released security updates to address vulnerabilities in Firefox 111 and Firefox ESR 102.9. An attacker could exploit some of these vulnerabilities to take control of an affected system.
 
 ## What is the vulnerability?
@@ -19,9 +20,12 @@ Mozilla has released security updates to address vulnerabilities in Firefox 111 
 - [**CVE-2023-28176**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28176) - Memory safety bugs fixed in Firefox 111 and Firefox ESR 102.9
 - [**CVE-2023-28177**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28177) - Memory safety bugs fixed in Firefox 111
 
-## What is vulnerable? 
+## What is vulnerable?
+
 The vulnerability affects the following products:
+
 - Firefox versions prior to 111 and Firefox ESR versions prior to 102.9
 
 ## Recommendation
+
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected products.

@@ -24,8 +24,8 @@ When logging in you will be prompted to use Single Sign On, please do this and *
 ## 3. Creating a Cybersecurity Incident
 
 - [Report a cyber incident](https://wasoc.atlassian.net/servicedesk/customer/portal/2/group/1/create/19) - WASOC IRP form
-  - Enter the details of your incident
-  - Select **Share with** your organisation
+    - Enter the details of your incident
+    - Select **Share with** your organisation
 - SIEM Sentinel incidents will be automatically integrated with the IRP for monitored customers.
 - To manage alerting and integrations, please use the [Request Assistance](https://wasoc.atlassian.net/servicedesk/customer/portal/2/group/1/create/1) WASOC IRP form
 
@@ -37,11 +37,11 @@ The below actions can be taken on your incidents, noting that all standard activ
 
 - Search existing incidents by summary, description or entities
 - Add comment/ updates to an Incident
-  - If you add comments in your SIEM they will sync automatically
-  - Attachments and Non-SIEM Incidents can be directly commented on in the portal
+    - If you add comments in your SIEM they will sync automatically
+    - Attachments and Non-SIEM Incidents can be directly commented on in the portal
 - Request assistance
 - Create a post-incident review
-  - The WA SOC can review your PIR and provide additional context as needed
+    - The WA SOC can review your PIR and provide additional context as needed
 
 ### 4.1. Managing your SIEM Sentinel Analytic Rules
 
@@ -57,9 +57,9 @@ For any other SIEM advice, general security problems and questions don't hesitat
 The below aggregate statistics are being captured by the new portal and will be available in the SOC monthly reports for your organisation.
 
 - Incident statistics
-  - Total Detections
-  - Triage types (automated, manual)
-  - True / False / Benign breakdown
+    - Total Detections
+    - Triage types (automated, manual)
+    - True / False / Benign breakdown
 - MITRE tactics & techniques breakdown
 - SIEM ingested event coverage by table
 - Detection effectiveness by rule
