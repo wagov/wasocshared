@@ -28,8 +28,8 @@ Regarding sizing, dedicated operational security analyst roles should start at 2
 If the above resourcing is difficult to retain due to a small organisational size, engaging an external Managed Service Provider (MSP) to incorporate operational security typically starts at $40k AUD annual to cover 200hrs/year of effort (approx $200/hr for basic analysts):
 
 - 50-200 staff with 2-3 incidents needing investigation each day
-- 10hrs / month triaging incidents (40-60 incidents at approx 15 mins an incident)
-- 20hrs / quarter detection engineering = 200hrs per year
+- 10hrs / month triaging incidents (40-60 incidents at approx 15 mins an incident) = 120hrs per year
+- 20hrs / quarter detection engineering = 80hrs per year
 
 ## Vendor Management
 
