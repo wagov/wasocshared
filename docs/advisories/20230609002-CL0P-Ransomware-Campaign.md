@@ -2,7 +2,7 @@
 
 ## Overview
 
-In a development to our recent advisory about the [MOVEit File Transfer Vulnerability](docs/advisories/20230602001-MOVEit-File-Transfer-Vulnerability.md), further guidance has been released by CISA regarding the ransomware gang known as *CL0P*.
+In a development to our recent advisory about the [MOVEit File Transfer Vulnerability](20230602001-MOVEit-File-Transfer-Vulnerability.md), further guidance has been released by CISA regarding the ransomware gang known as *CL0P*.
 
 
 ## What has been observed?
