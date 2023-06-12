@@ -21,7 +21,9 @@ For larger deployments across an enterprise using [Azure server management serv
 
     Ensuring the vulnerability management team is also maintaining the appropriate business context is applied (e.g. using [Tags (Tenable Vulnerability Management)](https://docs.tenable.com/vulnerability-management/Content/Settings/Tagging/Tags.htm)) as well will help a lot with prioritising patch activities.
 
-Example [Assessing Security Vulnerabilities and Applying Patches](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/assessing-security-vulnerabilities-and-applying-patches) approach:
+### Example patching approach
+
+A checklist based on ACSC's [Assessing Security Vulnerabilities and Applying Patches](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/assessing-security-vulnerabilities-and-applying-patches) resource is below:
 
 - [ ] Configure and implement a fully automated patching process
     - [ ] [Azure Automanage for Windows Server | Microsoft Learn](https://learn.microsoft.com/en-us/azure/automanage/automanage-windows-server)
