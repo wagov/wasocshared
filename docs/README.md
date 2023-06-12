@@ -21,6 +21,7 @@ The WA SOC has developed a [Baseline for Event Ingestion](baselines/data-sources
 - [Guide to Securing Remote Access Software (CISA)](https://www.cisa.gov/resources-tools/resources/guide-securing-remote-access-software) - remote access software overview, including the malicious use of remote access software, detection methods, and recommendations for all organizations.
 - [#StopRansomware Guide (CISA)](https://www.cisa.gov/resources-tools/resources/stopransomware-guide) - one-stop resource to help organizations reduce the risk of ransomware incidents through best practices to detect, prevent, respond, and recover, including step-by-step approaches to address potential attacks.
 - [Microsoft Sentinel Connector Guidance](onboarding/sentinel-guidance.md) - Sentinel deployment guide including prioritisation of connector configuration based on cost and complexity.
+- [Patch Management Guideline](guidelines/patch-management.md) - Implementation guidance for [Assessing Security Vulnerabilities and Applying Patches](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/assessing-security-vulnerabilities-and-applying-patches).
 
 !!! note "Technical Documentation"
 
