@@ -78,6 +78,7 @@ nav:
   - Workstations: guidelines/workstations.md
   - Playbooks: guidelines/playbooks.md
   - Collecting Evidence: guidelines/collecting-evidence.md
+  - Patch Management: guidelines/patch-management.md
 - Training:
   - Security Analyst Induction: training/analyst-induction.md
   - Azure Basics: training/azure-basics.md
