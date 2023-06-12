@@ -18,7 +18,7 @@ The flaw would allow a hostile agent to interfere via the VPN, even if the MFA i
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within 48 hours if exposed to the internet.
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices (within 48 hours if exposed to the internet, 2 weeks otherwise).
 
 Security fixes to address this vulnerability has been released in:
 
