@@ -8,7 +8,7 @@ In some situations, a central management tool is already being used by a third p
 
 - [Windows Admin Center](https://learn.microsoft.com/en-gb/windows-server/manage/windows-admin-center/overview) - simple/predefined
 - [Red Hat Satellite](https://www.redhat.com/en/technologies/management/satellite) - simple/predefined
-- [Ansible is Simple IT Automation](https://www.ansible.com/) - complex/manual
+- [Ansible (IT automation tool)](https://docs.ansible.com/ansible/latest/index.html) - complex/manual
 
 ## Large / enterprise scenarios
 
