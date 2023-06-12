@@ -1,4 +1,4 @@
-# Patch Management
+# Patch Management Guideline
 
 This guideline is intended to define a pragmatic target for effective patch management and associated tools for most use cases.
 
