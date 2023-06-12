@@ -34,7 +34,7 @@ Example [Assessing Security Vulnerabilities and Applying Patches](https://www.cy
     - [ ] Potentially extend to fortnightly if teams can't be available weekly for patch issue remediation
 - [ ] Exclude systems with major constraints making them not able to be patched in standard maintenance window
     - [ ] Isolate these systems individually in their own [network segments](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/implementing-network-segmentation-and-segregation)
-    - [ ] Limit access to them from [monitored jump box / bastion](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/critical-infrastructure/industrial-control-systems-remote-access-protocol) type services
+    - [ ] Limit access to them from [monitored jump box / bastion](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/secure-administration) type services
     - [ ] Schedule manual reviews of 'excluded' systems quarterly
 - [ ] Critical external posture alerts and [advisories (from DGov and others)](../advisories.md) should trigger urgent / unplanned patching
     - [ ] **internet-facing services:** within two weeks, or within 48 hours if an exploit exists
