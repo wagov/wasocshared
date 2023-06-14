@@ -6,7 +6,7 @@ Microsoft has released updates to address multiple vulnerabilities in Microsoft 
 
 ## What is the vulnerability?
 
-A comprehensive list of Common Vulnerabilities and Exposures and affected products can be found [here](https://msrc.microsoft.com/update-guide/releaseNote/2023-Jun.
+A comprehensive list of Common Vulnerabilities and Exposures and affected products can be found [here](https://msrc.microsoft.com/update-guide/releaseNote/2023-Jun).
 
 
 ## Recommendation
