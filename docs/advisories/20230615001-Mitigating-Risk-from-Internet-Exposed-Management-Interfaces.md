@@ -21,7 +21,7 @@ Organisations are recommended to enforce internal policies to address these conc
 
 **Example of a network that adheres to recommendation:**
 
-![Acceptable use case – networked management interfaces only accessible from management network through management jumpbox.](image.png)
+![Acceptable use case – networked management interfaces only accessible from management network through management jumpbox.](/docs/images/ManagementIntExample.png)
 
 Additional references listed below can give further information and context to the above advisory.
 
