@@ -9,15 +9,16 @@ Threat actor trends over recent months have renewed the importance of securing i
 In the context of this advisory, device management interfaces can be defined as a dedicated device interface that is accessible over network protocols and is meant exclusively for authorized users to perform administrative activities on a device, a group of devices, or the network itself.
 
 Examples of some of the devices that can use these interfaces are proxies, firewalls, iLo/iDRAC and routers. Typically they include any device for which management interfaces are using the following network protocols:
+
 - HTTP, HTTPS, FTP, SNMP, Telnet, TFTP, RDP, rlogin, RSH, SSH, SMB, VNC, X11
 
 
 ## Recommendation
 
 The WA SOC requests WA agencies undertake the following recommendations to address these concerns:
+
 - Remove device management interfaces from the internet by making it only accessible from an internal enterprise network (Ideally an isolated management network); and/or
 - Deploy capabilities, as part of a Zero Trust Architecture, that enforce access control to the interface through a policy enforcement point separate from the interface itself (preferred action).
-
 
 **Example of a network that adheres to recommendation:**
 
