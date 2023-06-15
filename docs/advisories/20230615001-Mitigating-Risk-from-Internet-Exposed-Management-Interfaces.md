@@ -14,8 +14,8 @@ Examples of some of the devices that can use these interfaces are proxies, firew
 
 ## Recommendation
 
-Organisations are recommended to enforce internal policies to address these concerns by:
-- Removing device management interfaces from the internet by making it only accessible from an internal enterprise network (Ideally an isolated management network); and/or
+The WA SOC requests WA agencies undertake the following recommendations to address these concerns:
+- Remove device management interfaces from the internet by making it only accessible from an internal enterprise network (Ideally an isolated management network); and/or
 - Deploy capabilities, as part of a Zero Trust Architecture, that enforce access control to the interface through a policy enforcement point separate from the interface itself (preferred action).
 
 
@@ -23,7 +23,7 @@ Organisations are recommended to enforce internal policies to address these conc
 
 ![Acceptable use case – networked management interfaces only accessible from management network through management jumpbox.](../images/ManagementIntExample.png)
 
-Additional references listed below can give further information and context to the above advisory.
+Additional references listed below can give further information and context to the above advisory. WA SOC will reach out to agencies if these management interfaces are detected on the internet to help address cybersecurity risk.
 
 ## Additional References
 
