@@ -7,7 +7,6 @@ Since initial advice on the 19th of August 2022 (*SEO poisoning targeting public
 Based on multiple evidence we observed, we have updated threat hunting methods and detection for this attack.
 
 ### Detection
-
 Run the following threat hunting search on files and URLs that might be downloaded from GootLoader infected website
 
 Non-KQL SIEM, search on the following regex-pattern on Files and File download origin
