@@ -1,5 +1,5 @@
 site_name: WA Cyber Security Unit (DGOV Technical)
-site_url: https://wagov.github.io/wasocshared/
+site_url: https://soc.cyber.wa.gov.au
 repo_url: https://github.com/wagov/wasocshared
 edit_uri: blob/main/docs
 theme:
