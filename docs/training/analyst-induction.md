@@ -37,7 +37,7 @@ Learn the basics of triaging and responding to incidents, including collaboratio
 
 1. [Microsoft Security Operations Analyst (SC-200)](https://docs.microsoft.com/en-us/certifications/exams/sc-200) Certification
 2. [Microsoft 365 Certified: Enterprise Administrator Expert (MS-102)](https://learn.microsoft.com/en-us/certifications/m365-enterprise-administrator/?wt.mc_id=certsustainedmkt_portfolioupdate_blog_wwl) Certificate
-3. [Cybrary MITRE ATT&CK Defender (MAD)](https://app.cybrary.it/browse/course/mitre-attack-defender-mad-attack-for-cyber-threat-intelligence) Training
+3. [TryHackMe MITRE](https://tryhackme.com/room/mitre) Training (Optional: [Cybrary MITRE ATT&CK Defender (MAD)](https://tryhackme.com/room/mitre))
 
 #### 3.2.1. Documentation, Programming and scripting fundamentals
 
