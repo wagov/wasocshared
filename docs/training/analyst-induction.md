@@ -106,6 +106,9 @@ The below two resources are a good starting point for understanding KQL in addit
 
 ![Azure service overview](../images/azure.png)
 
+#### 3.5.2 Addtional Microsoft Security and Administration Training
+The below resources are addtional training material for better understading the Microsoft Sentinel and M365 Security tools.
+
 1. [Become a Microsoft Sentinel Ninja: The complete level 400](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) Training
 1. [Become a Microsoft 365 Defender Ninja](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/become-a-microsoft-365-defender-ninja/ba-p/1789376) Training
 1. [Cybersecurity Architect Expert (SC-100)](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/) Certification - design forward-looking strategies for security, governance, risk, compliance covering users, workstations, infrastructure, data and applications.
