@@ -1,6 +1,14 @@
 # Further Five (ACSC Strategies to Mitigate)
 
-The below are all from [ACSC Strategies to Mitigate Cyber Security Incidents – Mitigation Details](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/strategies-mitigate-cyber-security-incidents/strategies-mitigate-cyber-security-incidents-mitigation-details)
+The below are all from [ACSC Strategies to Mitigate Cyber Security Incidents – Mitigation Details](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/strategies-mitigate-cyber-security-incidents/strategies-mitigate-cyber-security-incidents-mitigation-details).
+
+!!! note "Further Five"
+
+    - [ ] [Server application hardening](#server-application-hardening) especially internet-accessible web applications (sanitise input and use TLS not SSL) and databases, as well as applications that access important (sensitive/high-availability) data.
+    - [ ] [Block spoofed emails](#block-spoofed-emails). Use Sender Policy Framework (SPF) or Sender ID to check incoming emails. Use ‘hard fail’ SPF TXT and DMARC DNS records to mitigate emails that spoof the organisation’s domain.
+    - [ ] [Network segmentation](#network-segmentation). Deny traffic between computers unless required. Constrain devices with low assurance (e.g. BYOD and IoT). Restrict access to network drives and data repositories based on user duties.
+    - [ ] [Continuous incident detection and response](#continuous-incident-detection-and-response) with automated immediate analysis of centralised time-synchronised logs of allowed and denied computer events, authentication, file access and network activity.
+    - [ ] [Personnel management](#personnel-management) e.g. ongoing vetting especially for users with privileged access, immediately disable all accounts of departing users, and remind users of their security obligations and penalties.
 
 ## Server application hardening
 
