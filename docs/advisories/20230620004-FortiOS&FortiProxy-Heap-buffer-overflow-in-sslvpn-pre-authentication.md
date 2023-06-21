@@ -19,7 +19,7 @@ The vulnerability affects the following products:
 
 ## What has been observed?
 
-This CVE is in CISA's Known Exploited Vulnerabilities Catalog (added 13 June 2023). There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing
+This CVE is in [CISA's Known Exploited Vulnerabilities Catalog](https://cisa.gov/known-exploited-vulnerabilities-catalog) (added 13 June 2023). There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing
 
 ## Recommendation
 
