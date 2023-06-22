@@ -76,9 +76,10 @@ nav:
 - Sentinel Connector Guidance: onboarding/sentinel-guidance.md
 - SOC Onboarding: onboarding.md
 - Advisories (TLP:CLEAR): advisories.md
+- ACSC Strategies to Mitigate: guidelines/further-five.md
 - Baselines:
   - Data Sources: baselines/data-sources.md
-  - Security Operations (DRAFT): baselines/security-operations.md
+  - Security Operations: baselines/security-operations.md
 - Guidelines:
   - Incident Reporting: guidelines/incident-reporting.md
   - Workstations: guidelines/workstations.md
