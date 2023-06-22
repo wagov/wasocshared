@@ -10,6 +10,28 @@ The cyber security incident reporting portal provides a secured login for each W
 
 ![Portal Overview](../images/portal-overview.png)
 
+### 1.1 Cyber Incident Response Plan
+
+All agencies should have a [Cyber Incident Response Plan](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/publications/cyber-incident-response-plan) defined that clearly outlines the work to ensure an effective response and prompt recovery in the event security controls don’t prevent an incident occurring. This plan should be tested and regularly reviewed.
+
+ACSC also publishes an excellent [ACSC Cyber Incident Response Plan - Word Template (docx)](https://www.cyber.gov.au/sites/default/files/2023-03/ACSC-Cyber-Incident-Response-Plan-Template.docx) suitable for tailoring to an organisations specific context. It includes some highly relevant appendicies:
+
+!!! abstract "Incident Response Appendices"
+
+    - Cyber Incident Response Readiness Checklist
+    - ACSC Incident Triage Questions
+    - Situation Report Template
+    - Incident Log Template
+    - Evidence Register Template
+    - Remediation Action Plan Template
+    - Post Incident Review Analysis Template
+    - Action Register Template
+    - Role Cards
+    - ACSC Incident Categorisation Matrix 2022
+
+<img width="450" alt="image" src="https://github.com/wagov/wasocshared/assets/121014/37a5c758-855d-48e1-89d2-55c591d9177d">
+
+
 ## 2. Getting access
 
 - Agencies can request access by emailing [cybersecurity@dpc.wa.gov.au](mailto:cybersecurity@dpc.wa.gov.au).
