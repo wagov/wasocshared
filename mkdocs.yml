@@ -2,8 +2,14 @@ site_name: WA Cyber Security Unit (DGOV Technical)
 site_url: https://soc.cyber.wa.gov.au
 repo_url: https://github.com/wagov/wasocshared
 edit_uri: blob/main/docs
+extra_css:
+  - stylesheets/extra.css
+copyright: '<strong>Acknowledgement of Country</strong><br>The Government of Western Australia acknowledges the traditional custodians throughout Western Australia and their continuing connection to the land, waters and community. We pay our respects to all members of the Aboriginal communities and their cultures; and to Elders both past and present.<br><small style="float: right;">© Government of Western Australia</small>'
 theme:
   name: material
+  font:
+    text: Heebo,Arial,Helvetica,sansserif
+    code: Roboto Mono
   features:
     - navigation.sections
     - navigation.path
@@ -19,13 +25,13 @@ theme:
     logo: material/security
   palette:
     - media: "(prefers-color-scheme: dark)"
-      primary: deep orange
+      primary: custom
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
-      primary: deep orange
+      primary: custom
       scheme: default
       toggle:
         icon: material/brightness-7
