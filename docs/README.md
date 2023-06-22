@@ -7,6 +7,8 @@ This site contains technical information to support WA Government Cyber Security
 - [Connecting to the WA SOC](onboarding.md)
 - [Advisories (TLP:CLEAR)](advisories.md)
 - [Incident Reporting User Guide (Jira)](guidelines/incident-reporting.md)
+- [ACSC Essential Eight Assessment Process Guide](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide)
+- [ACSC Strategies to Mitigate (including Further Five)](guidelines/further-five.md)
 
 ## Baselines & Guidelines
 
