@@ -99,7 +99,7 @@ Example [code is available](https://github.com/wagov/python-squ/blob/main/exampl
 
 !!! info "Deployment Walkthrough Video"
   
-    <video src='https://github.com/wagov/wasocshared/releases/download/2023-June/Detection.and.Automation.Pack.Deployment.Demonstration.mp4' width=1080/>
+    <video src='https://github.com/wagov/wasocshared/releases/download/2023-June/Detection.and.Automation.Pack.Deployment.Demonstration.mp4' width=1080 controls/>
 
 ??? info "Deployment FAQ"
 
