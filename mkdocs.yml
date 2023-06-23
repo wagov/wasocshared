@@ -80,6 +80,7 @@ nav:
 - Baselines:
   - Data Sources: baselines/data-sources.md
   - Security Operations: baselines/security-operations.md
+  - Vulnerability Management: baselines/vulnerability-management.md
 - Guidelines:
   - Incident Reporting: guidelines/incident-reporting.md
   - Workstations: guidelines/workstations.md
