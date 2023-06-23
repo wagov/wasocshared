@@ -5,7 +5,7 @@ This document and associated checklist is intended to be used as a high-level se
 ## Checklist
 
 - [ ] Define security operations scope (sensor availability, common/high impact events to focus on, business continuity objectives)
-    - [ ] Ensure a Cyber Incident Response Plan is developed and maintained with this content (refer to the [ACSC Cyber Incident Response Plan - Word Template (docx)](../pdfs/ACSC-Cyber-Incident-Response-Plan-Template.docx) as a starting point)
+    - [ ] Ensure a **Cyber Incident Response Plan** is developed and maintained with this content (refer to the [ACSC Cyber Incident Response Plan - Word Template (docx)](../pdfs/ACSC-Cyber-Incident-Response-Plan-Template.docx) as a starting point)
 - [ ] Ensure SIEM visibility across all endpoints used, applications / services delivered, and network traffic flows
     - [ ] Make available relevant [MITRE Data Sources](https://attack.mitre.org/datasources/) to the security operations team
     - [ ] Ensure the platform can be configured with automated detection capabilities for [MITRE Tactics](https://attack.mitre.org/tactics/enterprise/)
