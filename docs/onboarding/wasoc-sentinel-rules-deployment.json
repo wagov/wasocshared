@@ -2321,7 +2321,7 @@
                 },
                 "description": "This detection rule detects scenarios when a particular port is being scanned by multiple external sources. The rule utilize [ASIM](https://aka.ms/AboutASIM) normalization, and is applied to any source which supports the ASIM Network Session schema.",
                 "displayName": "Network Port Sweep from External Network (ASIM Network Session schema)",
-                "enabled": true,
+                "enabled": false,
                 "eventGroupingSettings": {
                   "aggregationKind": "SingleAlert"
                 },
