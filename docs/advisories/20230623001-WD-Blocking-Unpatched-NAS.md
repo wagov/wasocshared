@@ -6,7 +6,7 @@ Western Digital has stated that it has blocked unpatched My Cloud devices from b
 
 ## What is the vulnerability?
 
-[**CVE-2022-36327**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36327) - CVSS v3 Base Score: ***9.8***
+[**CVE-2022-36327**](https://nvd.nist.gov/vuln/detail/CVE-2022-36327) - CVSS v3 Base Score: ***9.8***
 
 ## What is vulnerable?
 
