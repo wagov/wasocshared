@@ -29,7 +29,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices:
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of one month (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [CVE-2023-2828: named's configured cache size limit can be significantly exceeded](https://kb.isc.org/v1/docs/cve-2023-2828)
 - [CVE-2023-2829: Malformed NSEC records can cause named to terminate unexpectedly when synth-from-dnssec is enabled](https://kb.isc.org/v1/docs/cve-2023-2829)
