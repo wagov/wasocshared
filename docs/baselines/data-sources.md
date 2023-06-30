@@ -84,16 +84,36 @@ Once the above checklist is validated, an organisation should schedule regular s
 
 The WA SOC has curated a pack of over 100 [analytics rules](https://learn.microsoft.com/en-us/azure/sentinel/detect-threats-built-in) from [the unified Microsoft Sentinel and Microsoft 365 Defender repository](https://github.com/Azure/Azure-Sentinel) for rapid deployment (last updated Feb 2023):
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fwagov.github.io%2Fwasocshared%2Fonboarding%2Fwasoc-sentinel-rules-deployment.json)
-[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fwagov.github.io%2Fwasocshared%2Fonboarding%2Fwasoc-sentinel-rules-deployment.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fsoc.cyber.wa.gov.au%2Fonboarding%2Fwasoc-sentinel-rules-deployment.json)
+[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fsoc.cyber.wa.gov.au%2Fonboarding%2Fwasoc-sentinel-rules-deployment.json)
 
-*The [ARM template](https://wagov.github.io/wasocshared/onboarding/wasoc-sentinel-rules-deployment.json) can be deployed multiple times to install new and update existing rules. Rules deployed from this template will be updated in place, however there may be duplicate rules over time (it's worth scanning the names of analytics rules within a workspace, and removing the least recently modified ones after a deployment with the same name). Best practice is also to ensure any locally customised rules within your workspace have a prefix (to simplify distinguishing from externally sourced content).*
+*The [ARM template](https://soc.cyber.wa.gov.au/onboarding/wasoc-sentinel-rules-deployment.json) can be deployed multiple times to install new and update existing rules. Rules deployed from this template will be updated in place, however there may be duplicate rules over time (it's worth scanning the names of analytics rules within a workspace, and removing the least recently modified ones after a deployment with the same name). Best practice is also to ensure any locally customised rules within your workspace have a prefix (to simplify distinguishing from externally sourced content).*
 
 ![Mitre Mapping](../images/wasoc-analytics-mitre.png)
 
 Deploying the above resources doesn't require any connectors or incur any additional charges. Detections will be dependent on appropriate ingestion having been configured. This deployment also configures and makes use of the [Advanced Security Information Model (ASIM) parsers](https://learn.microsoft.com/EN-US/AZURE/sentinel/normalization-parsers-overview) for some analytics rules to enhance coverage across third party ingestion sources.
 
 Example [code is available](https://github.com/wagov/python-squ/blob/main/examples/export-analyticsrules.py) to export your own rules as a backup or to simplify sharing, the script by default packages ASIM rules as well into the ARM template to avoid validation issues.
+
+#### 5.1.1 Deployment Walkthrough and FAQ
+
+!!! info "Deployment Walkthrough Video"
+  
+    <video src='https://github.com/wagov/wasocshared/releases/download/2023-June/Detection.and.Automation.Pack.Deployment.Demonstration.mp4' width=1080 controls/>
+
+??? info "Deployment FAQ"
+
+    - **What is the least privilege access role required to deploy a template?**
+        - [Template Spec Contributor](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#template-spec-contributor) (otherwise Contributor for the overall resource group, or higher will work, too).
+    - **Can the Analytics Rules/Automation Rules be edited?**
+        - Yes, in fact some of the Analytics Rules have comments specifically noting that they should be edited, their thresholds should be adjusted as required, or exclusions should be added.
+    - **How do I update these rules later?**
+        - We may note that there have been updates and the pack require updating. In this situation it would be a matter of re-deploying the packs over the top of the already deployed rules. Note: This will squash any changed made to the existing rules. We suggest copying and giving a different prefix name to any rules you want to edit so this doesn't occur.
+    - **How can I give feedback about either of the packs?**
+        - A Microsoft Form has been created for this purpose and is available: <https://forms.office.com/r/h9ryz8X7aY>
+    - **How can I contact DGov if I have questions about this?**
+        - We're always contactable via our monitored mailbox: <cybersecurity@dpc.wa.gov.au>
+
 
 ### 5.2 Microsoft Sentinel Automation Pack
 

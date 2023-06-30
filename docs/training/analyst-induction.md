@@ -35,8 +35,9 @@ If you are relatively new to public cloud services and/or IT infrastructure, ple
 
 Learn the basics of triaging and responding to incidents, including collaboration with organisational stakeholders.
 
-1. [Microsoft Security Operations Analyst (SC-200)](https://docs.microsoft.com/en-us/certifications/exams/sc-200) certification
-2. [Cybrary MITRE ATT&CK Defender (MAD)](https://app.cybrary.it/browse/course/mitre-attack-defender-mad-attack-for-cyber-threat-intelligence) training
+1. [Microsoft Security Operations Analyst (SC-200)](https://docs.microsoft.com/en-us/certifications/exams/sc-200) Certification
+2. [Microsoft 365 Certified: Enterprise Administrator Expert (MS-102)](https://learn.microsoft.com/en-us/certifications/m365-enterprise-administrator/?wt.mc_id=certsustainedmkt_portfolioupdate_blog_wwl) Certificate
+3. [TryHackMe MITRE](https://tryhackme.com/room/mitre) Training (Optional: [Cybrary MITRE ATT&CK Defender (MAD)](https://tryhackme.com/room/mitre))
 
 #### 3.2.1. Documentation, Programming and scripting fundamentals
 
@@ -105,9 +106,14 @@ The below two resources are a good starting point for understanding KQL in addit
 
 ![Azure service overview](../images/azure.png)
 
-1. [Become a Microsoft Sentinel Ninja: The complete level 400](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) training
-1. [Cybersecurity Architect Expert (SC-100)](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/) certification - design forward-looking strategies for security, governance, risk, compliance covering users, workstations, infrastructure, data and applications.
+#### 3.5.2 Addtional Microsoft Security and Administration Training
+The below resources are addtional training material for better understading the Microsoft Sentinel and M365 Security tools.
 
+1. [Become a Microsoft Sentinel Ninja: The complete level 400](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) Training
+1. [Become a Microsoft 365 Defender Ninja](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/become-a-microsoft-365-defender-ninja/ba-p/1789376) Training
+1. [Cybersecurity Architect Expert (SC-100)](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/) Certification - design forward-looking strategies for security, governance, risk, compliance covering users, workstations, infrastructure, data and applications.
+1. [Microsoft Certified: Identity and Access Administrator Associate (SC-300)](https://learn.microsoft.com/en-us/certifications/identity-and-access-administrator/) Certification - configure and manage authentication and authorization of identities for users, devices, Azure resources, and applications.
+1. [Microsoft Certified: Information Protection Administrator Associate (SC-400)](https://learn.microsoft.com/en-us/certifications/information-protection-administrator/?wt.mc_id=certsustainedmkt_portfolioupdate_blog_wwl) Certification - implementing and managing solutions for content classification, data loss prevention (DLP), information protection, data lifecycle management, records management, privacy, risk, and compliance.
 ### 3.6. Public cloud tooling in depth
 
 Several other cloud providers have operational security training that is designed for easy adoption on their platforms, relevant certifications of interest are below (note there is high overlap between cloud providers, so the microsoft training above should make the below learning paths much easier to complete).
