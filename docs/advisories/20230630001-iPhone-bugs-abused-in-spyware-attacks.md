@@ -54,7 +54,7 @@ CISA added this vulnerabilty in their [Known Exploited Vulnerabilties](https://w
 
 ## Recommendation
 
-Due to the report of active exploitation, it is strongly recommended to patch this vulnerability within 2 weeks across all affected platforms as per vendor instructions and E8 compliance:
+Due to the report of active exploitation, it is strongly recommended to patch this vulnerability within 2 weeks across all affected platforms as per vendor instructions (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [https://support.apple.com/en-us/HT201222](https://support.apple.com/en-us/HT201222)
 - [https://support.apple.com/en-us/HT204204](https://support.apple.com/en-us/HT204204)
