@@ -2,6 +2,8 @@
 
 This document and associated checklist is intended to be used as a high-level self assessment to determine the capability and maturity of a security operations function for various organisations. Note this excludes the Governance, Risk and Compliance (GRC) roles and is focused primarily on how many Security Analysts are required to undertake operational **Identify**, **Detect** and **Respond** capabilities under the [WA Cyber Security Policy](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy) (and takes into consideration the oversight capabilities available entities in scope of the WA SOC). The WA SOC and this document both are aligned with [MITRE 11 Strategies of a World-Class Cybersecurity Operations Center](../pdfs/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) and [ACSC's Cyber Incident Response Plan Resource](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/publications/cyber-incident-response-plan).
 
+![Security Responsibilities](../images/security-responsibilities-popout.png)
+
 ## Checklist
 
 - [ ] Define security operations scope (sensor availability, common/high impact events to focus on, business continuity objectives)
@@ -11,8 +13,11 @@ This document and associated checklist is intended to be used as a high-level se
     - [ ] Ensure the platform can be configured with automated detection capabilities for [MITRE Tactics](https://attack.mitre.org/tactics/enterprise/)
 - [ ] Review and update the below security artefacts quarterly
     - [ ] **IDENTIFY** Perceived risk from common and high impact events (this can also feed into **PROTECT** control implementation)
+    ![identify](../images/identify.png)
     - [ ] **DETECT** Configure automated detection logic in SIEM platform for [MITRE Techniques](https://attack.mitre.org) likely to be used by threat actors based on perceived risk.
+    ![detect](../images/detect.png)
 - [ ] **RESPOND** Ensure Operational risks have [cyber security response playbooks](../guidelines/playbooks.md) defined and exercised for common and high impact events at least annually.
+![respond](../images/respond.png)
     - [ ] Document how to protect, respond and recover from cyber security events (see [ACSC's Cyber Incident Response Plan Resource](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/publications/cyber-incident-response-plan)) and review [ACSC's Cyber Incident Response Readiness Checklist](https://www.cyber.gov.au/sites/default/files/2023-03/ACSC%20Cyber%20Incident%20Readiness%20Checklist_A4.pdf)
     - [ ] Document all shared responsibilities for critical business systems
     - [ ] Exercise real-world detection and response with high coverage, low risk assumed breach offensive testing (typically [Persistence](https://attack.mitre.org/tactics/TA0003), [Collection](https://attack.mitre.org/tactics/TA0009) and [Exfiltration](https://attack.mitre.org/tactics/TA0010))
