@@ -13,10 +13,14 @@ This document and associated checklist is intended to be used as a high-level se
     - [ ] Ensure the platform can be configured with automated detection capabilities for [MITRE Tactics](https://attack.mitre.org/tactics/enterprise/)
 - [ ] Review and update the below security artefacts quarterly
     - [ ] **IDENTIFY** Perceived risk from common and high impact events (this can also feed into **PROTECT** control implementation)
+
     ![identify](../images/identify.png)
+
     - [ ] **DETECT** Configure automated detection logic in SIEM platform for [MITRE Techniques](https://attack.mitre.org) likely to be used by threat actors based on perceived risk.
+
     ![detect](../images/detect.png)
-- [ ] **RESPOND** Ensure Operational risks have [cyber security response playbooks](../guidelines/playbooks.md) defined and exercised for common and high impact events at least annually.
+
+- [ ] **RESPOND** Ensure Operational risks have [cyber security response playbooks](../guidelines/playbooks.md) defined and exercised for common and high impact events at least annually.<br>
 ![respond](../images/respond.png)
     - [ ] Document how to protect, respond and recover from cyber security events (see [ACSC's Cyber Incident Response Plan Resource](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/publications/cyber-incident-response-plan)) and review [ACSC's Cyber Incident Response Readiness Checklist](https://www.cyber.gov.au/sites/default/files/2023-03/ACSC%20Cyber%20Incident%20Readiness%20Checklist_A4.pdf)
     - [ ] Document all shared responsibilities for critical business systems
