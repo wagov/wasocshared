@@ -4,7 +4,7 @@ The following listed queries would help identify observables per endpoints
 
 The chart below depicts most seen observables per [MITRE ATT&CK®](https://attack.mitre.org/) tactic source: ([OSSEM project](https://github.com/OTRF/OSSEM))
 
-![image](images/MitreAttackTTPChart.png)
+![image](/docs/images/MitreAttackTTPChart.png)
 
 ## 1. Process Creation  
 The following are common log sources for Process Creation events and relating kql queries to identify number of endpoints providing these observables.
@@ -28,7 +28,7 @@ The following kql queries will provide number of endpoints with [Command Line lo
 ## 3. Parent Process  
 
 | Log type   |   KQL    |
-|---------|-----------|
+|------------|----------|
 | Audit Policy (SecurityEvent) | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| where isnotempty(ParentProcessName) \| summarize count_distinct(Computer) |  
 
 ## 4. Microsoft Defender Device Logs 
@@ -52,12 +52,12 @@ The following kql queries will provide number of endpoints with [Command Line lo
 ## 5. Microsoft Defender Office 365 Logs Monitoring 
 [Connect Microsoft 365 Defender to Micrososft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDO)
 
-| Log type                 | KQL                                                                                              |
-|-----------------------|--------------------------------------------------------------------------------------------------|
+| Log type                   | KQL                                                                                             |
+|----------------------------|-------------------------------------------------------------------------------------------------|
 | Email Events               | EmailEvents \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)             |
 | Email Attachment Info      | EmailAttachmentInfo \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)     |
-| Email Url Info             | EmailUrlInfo \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated)            |
-| Email Post Delivery Events | EmailPostDeliveryEvents \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated) |
+| Email Url Info             | EmailUrlInfo \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated)           |
+| Email Post Delivery Events | EmailPostDeliveryEvents \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated)|
 
 ## 6. Important activities 
 
@@ -65,7 +65,7 @@ The table presented below provides a comprehensive list of significant Event IDs
 
 | Type                  | KQL                              |
 |-----------------------|----------------------------------|
-| Local Authentication    | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4624 \| summarize count_distinct(Computer)|   
+| Local Authentication     | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4624 \| summarize count_distinct(Computer)|   
 | DC Authentication        | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4776 \| summarize count_distinct(Computer)|   
 | Group Enumeration        | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4799 \| summarize count_distinct(Computer)|   
 | Kerberos                 | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4769 \| summarize count_distinct(Computer)|   
