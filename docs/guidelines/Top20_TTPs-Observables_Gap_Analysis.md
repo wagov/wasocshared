@@ -4,7 +4,7 @@ The following listed queries would help identify observables per endpoints
 
 The chart below depicts most seen observables per [MITRE ATT&CK®](https://attack.mitre.org/) tactic source: ([OSSEM project](https://github.com/OTRF/OSSEM))
 
-![image](/docs/images/MitreAttackTTPChart.png)
+![image](../images/MitreAttackTTPChart.png)
 
 ## 1. Process Creation  
 The following are common log sources for Process Creation events and relating kql queries to identify number of endpoints providing these observables.
