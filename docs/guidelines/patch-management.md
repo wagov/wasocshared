@@ -19,7 +19,7 @@ For larger deployments across an enterprise using [Azure server management serv
 
 !!! note "Vulnerability Management Business Context"
 
-    Ensuring the vulnerability management team is also maintaining the appropriate business context is applied (e.g. using [Tags (Tenable Vulnerability Management)](https://docs.tenable.com/vulnerability-management/Content/Settings/Tagging/Tags.htm)) as well will help a lot with prioritising patch activities.
+    Ensuring that [vulnerability management](../baselines/vulnerability-management.md) activities also ensure the appropriate business context is applied (e.g. using [Tags (Tenable Vulnerability Management)](https://docs.tenable.com/vulnerability-management/Content/Settings/Tagging/Tags.htm)) should effectively prioritise patch activities.
 
 ### Example patching approach
 
