@@ -1,21 +1,27 @@
-# [Advisory Title] - YYYYMMDDXXX
+# FortiOS and FortiProxy Critical Vulnerability Patch Released - 20230712002
 
 ## Overview
 
-The WA SOC has observed…
+Fortinet has released security updates for FortiOS and FortiProxy to address a critical vulnerability that a remote attacker could exploit to take control of an affected system.
 
-Describe the threat to organisation's application/ environment/ security/ operational continuity
+A stack-based overflow vulnerability [CWE-124] in FortiOS & FortiProxy may allow a remote attacker to execute arbitrary code or commands via crafted packets reaching proxy policies or firewall policies with proxy mode alongside SSL deep packet inspection.
 
 ## What is the vulnerability?
 
-[**CVE-XXXX-XXXXX**](https://nvd.nist.gov/vuln/detail/CVE-XXXX-XXXXX) - CVSS v3 Base Score: ***X.X***
+[**CVE-2023-33308**](https://www.fortiguard.com/psirt/FG-IR-23-183) - CVSS v3 Base Score: ***9.8***
+
+- As of writing, NIST does not have the [CVE](https://nvd.nist.gov/vuln/detail/CVE-2023-33308) listed. However, details may be added in the future.
 
 ## What is vulnerable?
 
 The vulnerability affects the following products:
 
-- Log4j 2.17.1
-- VMware Foundation version 3.11 and below
+- FortiOS
+    - version 7.2.0 through 7.2.3
+    - version 7.0.0 through 7.0.10
+- FortiProxy
+    - version 7.2.0 through 7.2.2
+    - version 7.0.0 through 7.0.9
 
 ## What has been observed?
 
@@ -23,10 +29,6 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within the expected time frame of 2 weeks (refer [Patch Management](../guidelines/patch-management.md)):
 
-- [Vendor URL](Vendor URL)
-
-## Additional References
-
-- reference and URL link
+- [FortiGuard - CVE-2023-33308](https://www.fortiguard.com/psirt/FG-IR-23-183)
