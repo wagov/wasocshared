@@ -4,10 +4,9 @@
 
 The WA SOC has observed An Improper Input Validation vulnerability in the Routing Protocol Daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated, network-based attacker to cause a Denial of Service (DoS).
 
-When a BGP update message is received over an established BGP session, and that message contains a specific, optional transitive attribute, this session will be torn down with an update message error. This issue cannot propagate beyond an affected system as the processing error occurs as soon as the update is received. This issue is exploitable remotely as the respective attribute can propagate through unaffected systems and intermediate AS (if any).
+When a Border Gateway Protocol (BGP) update message is received over an established BGP session, and that message contains a specific, optional transitive attribute, this session will be torn down with an update message error. This issue cannot propagate beyond an affected system as the processing error occurs as soon as the update is received. This issue is exploitable remotely as the respective attribute can propagate through unaffected systems and intermediate AS (if any).
 
-Some customers have experienced these BGP session flaps which prompted Juniper SIRT to release this advisory out of cycle before fixed releases are widely available as there is an effective workaround.
-
+Some customers have experienced these BGP session flaps which prompted Juniper Networks Security Incident Response Team (Juniper SIRT) to release this advisory out of cycle before fixed releases are widely available as there is an effective workaround.
 
 ## What is the vulnerability?
 
@@ -46,12 +45,9 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of one month (refer [Patch Management](../guidelines/patch-management.md)):
+
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within one month (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [https://kb.juniper.net/JSA71542](https://supportportal.juniper.net/s/article/2023-06-Out-of-Cycle-Security-Bulletin-Junos-OS-and-Junos-OS-Evolved-A-BGP-session-will-flap-upon-receipt-of-a-specific-optional-transitive-attribute-CVE-2023-0026?language=en_US)
 - [https://www.juniper.net/documentation/us/en/software/junos/bgp/topics/topic-map/bgp-error-messages.html](https://www.juniper.net/documentation/us/en/software/junos/bgp/topics/topic-map/bgp-error-messages.html)
-
-## Additional References
-
-- [Patch Management Guideline](../guidelines/patch-management.md)
 
