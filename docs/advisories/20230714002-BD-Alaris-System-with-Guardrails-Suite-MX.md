@@ -18,9 +18,11 @@ The WA SOC has observed eight vulnerabilities in medical technology products by 
 - [INSUFFICIENT VERIFICATION OF DATA AUTHENTICITY CWE-345](https://cwe.mitre.org/data/definitions/345.html)  
 [**CVE-2023-30562**](https://nvd.nist.gov/vuln/detail/CVE-2023-30562) - CVSS v3 Base Score: ***6.7***
 
-- [IMPROPER NEUTRALIZATION OF INPUT DURING WEB PAGE GENERATION ('CROSS-SITE SCRIPTING') CWE-79](https://cwe.mitre.org/data/definitions/79.html)  [**CVE-2023-30563**](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30563) - CVSS v3 Base Score: ***8.2***
+- [IMPROPER NEUTRALIZATION OF INPUT DURING WEB PAGE GENERATION ('CROSS-SITE SCRIPTING') CWE-79](https://cwe.mitre.org/data/definitions/79.html)  
+[**CVE-2023-30563**](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30563) - CVSS v3 Base Score: ***8.2***
 
-- [IMPROPER NEUTRALIZATION OF INPUT DURING WEB PAGE GENERATION ('CROSS-SITE SCRIPTING') CWE-79](https://cwe.mitre.org/data/definitions/79.html) [**CVE-2023-30564**](https://nvd.nist.gov/vuln/detail/CVE-2023-30564) - CVSS v3 Base Score: ***6.9***
+- [IMPROPER NEUTRALIZATION OF INPUT DURING WEB PAGE GENERATION ('CROSS-SITE SCRIPTING') CWE-79](https://cwe.mitre.org/data/definitions/79.html)  
+[**CVE-2023-30564**](https://nvd.nist.gov/vuln/detail/CVE-2023-30564) - CVSS v3 Base Score: ***6.9***
 
 - [CLEARTEXT TRANSMISSION OF SENSITIVE INFORMATION CWE-319](https://cwe.mitre.org/data/definitions/319.html)  
 [**CVE-2023-30565**](https://nvd.nist.gov/vuln/detail/CVE-2023-30565) - CVSS v3 Base Score: ***3.5***
