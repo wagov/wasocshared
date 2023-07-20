@@ -1,6 +1,10 @@
-# Further Five (ACSC Strategies to Mitigate)
+# ACSC Strategies to Mitigate
 
 The below are all from [ACSC Strategies to Mitigate Cyber Security Incidents – Mitigation Details](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/strategies-mitigate-cyber-security-incidents/strategies-mitigate-cyber-security-incidents-mitigation-details).
+
+## Further Five
+
+The Further Five below are being reviewed for inclusion in the revised [WA Government Cyber Security Policy](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy) (expected to be finalised Q1 2024).
 
 !!! note "Further Five"
 
@@ -10,39 +14,31 @@ The below are all from [ACSC Strategies to Mitigate Cyber Security Incidents –
     - [ ] [Continuous incident detection and response](#continuous-incident-detection-and-response) with automated immediate analysis of centralised time-synchronised logs of allowed and denied computer events, authentication, file access and network activity.
     - [ ] [Personnel management](#personnel-management) e.g. ongoing vetting especially for users with privileged access, immediately disable all accounts of departing users, and remind users of their security obligations and penalties.
 
-## Server application hardening
-
-### Mitigation strategy
+### Server application hardening
 
 Server application hardening especially internet-accessible web applications (sanitise input and use TLS not SSL) and databases, as well as other server applications that access important (sensitive or high-availability) data (e.g. customer, finance, human resources and other data storage systems).
 
-### Rationale
-
 Server application hardening helps the organisation to conduct its business with a reduced security risk of malicious data access, theft, exposure, corruption and loss.
 
-### Implementation guidance
+#### Implementation guidance
 
 OWASP guidance helps to mitigate web application security vulnerabilities such as SQL injection, and covers code review, data validation and sanitisation, user and session management, protection of data in transit and storage, error handling, user authentication, logging and auditing.
 
-### Further information
+!!! info
 
-The ACSC has developed guidance for securing content management systems running on web servers, as part of the ACSC responding to cyber security incidents involving adversaries compromising internet-accessible web servers and using 'web shells' which can facilitate remote access, administration and pivoting to the organisation's internal systems.
+    The ACSC has developed guidance for securing content management systems running on web servers, as part of the ACSC responding to cyber security incidents involving adversaries compromising internet-accessible web servers and using 'web shells' which can facilitate remote access, administration and pivoting to the organisation's internal systems.
 
-Further guidance on protecting web applications is available in the *[Protecting Web Applications and Users](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/web-hardening/protecting-web-applications-and-users "Protecting Web Applications and Users")* publication.
+    - Further guidance on protecting web applications is available in the *[Protecting Web Applications and Users](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/web-hardening/protecting-web-applications-and-users "Protecting Web Applications and Users")* publication.
+    - Further guidance on securing content management systems is available in the *[Securing Content Management Systems](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/web-hardening/securing-content-management-systems "Securing Content Management Systems")* publication.
+    - Further guidance on secure software development is available in the *[Guidelines for Software Development](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-software-development)* publication.
 
-Further guidance on securing content management systems is available in the *[Securing Content Management Systems](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/web-hardening/securing-content-management-systems "Securing Content Management Systems")* publication.
-
-## Block spoofed emails
-
-### Mitigation strategy
+### Block spoofed emails
 
 Block spoofed emails. Use Sender Policy Framework (SPF) or Sender ID to check incoming emails. Use 'hard fail' SPF TXT and DMARC DNS records to mitigate emails that spoof the organisation's domain.
 
-### Rationale
-
 SPF, or alternative implementations such as Sender ID, reduce the likelihood of spoofed emails being delivered to the targeted user.
 
-### Implementation guidance
+#### Implementation guidance
 
 Configure 'hard fail' SPF TXT DNS records for the organisation's domains and subdomains, and configure a wildcard SPF TXT DNS record to match non-existent subdomains.
 
@@ -56,21 +52,17 @@ Organisations can conservatively deploy DMARC if they are concerned about legiti
 
 Reject incoming emails that have the organisation's domain as the email sender but do not originate from email servers approved by the organisation.
 
-### Further information
+!!! info
 
-Further guidance on spoofed email mitigation strategies is available in the *[How to Combat Fake Emails](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/how-combat-fake-emails "How to Combat Fake Emails")* publication.
+    Further guidance on spoofed email mitigation strategies is available in the *[How to Combat Fake Emails](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/how-combat-fake-emails "How to Combat Fake Emails")* publication.
 
-## Network segmentation
-
-### Mitigation strategy
+### Network segmentation
 
 Network segmentation. Deny traffic between computers unless required. Constrain devices with low assurance (e.g. 'Bring Your Own Device' (BYOD) and 'Internet of Things' (IoT)). Restrict user access to network drives and data repositories based on user duties.
 
-### Rationale
-
 Network segmentation helps to prevent adversaries from propagating throughout the organisation's network. If implemented correctly, it can make it significantly more difficult for adversaries to locate and gain access to the organisation's important (sensitive or high-availability) data.
 
-### Implementation guidance
+#### Implementation guidance
 
 Restrict access based on the connectivity required, user job role, business function, trust boundaries and the extent to which data is important.
 
@@ -92,23 +84,19 @@ Organisations with critically important data might choose to store and access it
 
 Adversaries could propagate throughout the network by leveraging the organisation's existing systems used to distribute software such as patches for security vulnerabilities, login programs or scheduled tasks configured via Group Policy Objects, updated anti-malware detection engine software, or the computer Standard Operating Environment master image. Alternatively, adversaries could turn the organisation's intranet website into a watering hole to compromise users when they visit. Therefore, protect software distribution systems from modifications which are malicious or otherwise unauthorised, combined with implementing a robust change management process.
 
-### Further information
+!!! info
 
-Further guidance on network segmentation is available in the *[Implementing Network Segmentation and Segregation](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/implementing-network-segmentation-and-segregation "Implementing Network Segmentation and Segregation")* publication.
+    Further guidance on network segmentation is available in the *[Implementing Network Segmentation and Segregation](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/implementing-network-segmentation-and-segregation "Implementing Network Segmentation and Segregation")* publication.
 
-Information about BYOD and other enterprise mobility solutions is available in the *[Bring Your Own Device for Executives](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/bring-your-own-device-executives "Bring Your Own Device for Executives")* and *[Risk Management of Enterprise Mobility Including Bring Your Own Device](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/risk-management-enterprise-mobility-including-bring-your-own-device "Risk Management of Enterprise Mobility Including Bring Your Own Device")* publications.
+    Information about BYOD and other enterprise mobility solutions is available in the *[Bring Your Own Device for Executives](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/bring-your-own-device-executives "Bring Your Own Device for Executives")* and *[Risk Management of Enterprise Mobility Including Bring Your Own Device](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/risk-management-enterprise-mobility-including-bring-your-own-device "Risk Management of Enterprise Mobility Including Bring Your Own Device")* publications.
 
-## Continuous incident detection and response
-
-### Mitigation strategy
+### Continuous incident detection and response
 
 Continuous incident detection and response with automated immediate analysis of centralised time-synchronised logs of allowed and denied computer events, authentication, file access and network activity.
 
-### Rationale
-
 Performing continuous incident detection and response increases the organisation's ability to rapidly detect and respond to cyber security incidents in a timely manner to minimise business impact.
 
-### General implementation guidance
+#### General implementation guidance
 
 Use a Security Information and Event Management (SIEM) solution to perform real-time automated aggregation and correlation of logs from multiple sources to identify patterns of suspicious behaviour, including behaviour that deviates from the baseline of typical patterns of system usage by users.
 
@@ -122,7 +110,7 @@ Regularly test the organisation's incident response plan, processes and technica
 
 To help make the most of limited staff resources, leverage automation and context to focus on high priority security events and avoid false positives.
 
-### Implementation guidance leveraging computer-related logs
+#### Implementation guidance leveraging computer-related logs
 
 Important logs include logs generated by security products, as well as Active Directory event logs and other logs associated with user authentication including VPN and other remote access connections.
 
@@ -153,7 +141,7 @@ When performing log analysis of user authentication and use of account credentia
 -   creation of user accounts, or disabled accounts being re-enabled, especially accounts with administrative privileges
 -   modifications to user account properties, such as 'Store password using reversible encryption' or 'Password never expires' configuration options being activated.
 
-### Implementation guidance leveraging network-related logs
+#### Implementation guidance leveraging network-related logs
 
 Maintain a network map and an inventory of devices connected to the network to help baseline normal behaviour on the network and highlight anomalous network activity.
 
@@ -170,11 +158,11 @@ Perform timely log analysis focusing on connections and the amount of data trans
 -   traffic outside of business hours
 -   long lived connections.
 
-### Implementation guidance applicable to ransomware
+#### Implementation guidance applicable to ransomware
 
 Analyse and action real-time log alerts generated by file activity monitoring tools to identify suspicious rapid and numerous file changes reflecting unapproved data deletion or modification such as encryption.
 
-### Implementation guidance applicable to malicious insiders
+#### Implementation guidance applicable to malicious insiders
 
 Analyse and action real-time log alerts generated by file activity monitoring tools to identify suspicious rapid and numerous file copying or changes.
 
@@ -187,7 +175,7 @@ Perform timely log analysis focusing on:
 -   data access and printing which is excessive compared to the normal baseline for a user and their peer colleagues
 -   data transfers to unapproved cloud computing services including personal webmail, as well as the use of unapproved VPNs from the organisation's network.
 
-### Implementation guidance applicable to incident response
+#### Implementation guidance applicable to incident response
 
 Developing and implementing an incident response capability requires support from technical staff and business representatives, including data owners, corporate communications, public relations and legal staff. Organisations need to regularly test and update their incident response plan, processes and technical capabilities, focusing on decreasing the duration of time taken to detect cyber security incidents and respond to them.
 
@@ -195,19 +183,15 @@ When a targeted cyber intrusion is identified, it needs to be understood to a re
 
 For targeted cyber intrusions of higher sophistication, the ACSC can assist Australian government organisations with responding. This includes developing a strategic plan to contain and eradicate the intrusion, and providing guidance to improve the organisation's cyber security posture in preparation for adversaries attempting to regain access to the organisation's computers.
 
-## Personnel management
-
-### Mitigation strategy
+### Personnel management
 
 Personnel management e.g. ongoing vetting especially for users with privileged access, immediately disable all accounts (especially remote access accounts) of departing users, and remind users of their security obligations and penalties.
-
-### Rationale
 
 Personnel management assists to avoid employees having malicious intent, developing malicious intent, or carrying out their malicious intentions undiscovered until after damage has been done.
 
 Some malicious insiders are motivated by money, coercion, ideology, ego or excitement, and might steal a copy of customer details or intellectual property. Other malicious insiders are motivated by revenge or disgruntlement due to reasons such as a negative job performance review, a denied promotion or involuntary termination of employment, and might cause damage such as destroying data and preventing computers/networks from functioning.
 
-### Implementation guidance
+#### Implementation guidance
 
 Perform pre-employment screening and ongoing vetting, consisting of verification of previous employment and education for all employees, as well as a criminal history background check at least for employees who have privileged access.
 
@@ -219,6 +203,6 @@ Organisational executives and management can reduce some motivations for employe
 
 For the relatively small number of organisations where employees have access to highly classified data or other extremely sensitive data, a psychological assessment should be performed by qualified personnel to explore topics including allegiances and beliefs as well as character weaknesses which could be leveraged and manipulated by adversaries. Employees should be encouraged to advise the personnel security team of unusual behaviour exhibited by other employees as well as their own significant life changes such as financial, relationship and health problems.
 
-### Further information
+!!! info
 
-Australian Government [policy on personnel security](https://www.protectivesecurity.gov.au/policies/personnel-security) is available from the Attorney-General's Department.
+    Australian Government [policy on personnel security](https://www.protectivesecurity.gov.au/policies/personnel-security) is available from the Attorney-General's Department.
