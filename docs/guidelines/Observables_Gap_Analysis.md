@@ -34,7 +34,7 @@ The following kql queries will provide number of endpoints with [Command Line lo
 ## 4. Microsoft Defender Device Logs 
 [Connect Microsoft 365 Defender to Micrososft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDE)
 
-### Techniques [:Microsoft Defender for Endpoint | Microsoft Security](https://www.microsoft.com/en-au/security/business/endpoint-security/microsoft-defender-endpoint?rtc=1)
+#### Techniques: [Microsoft Defender for Endpoint | Microsoft Security](https://www.microsoft.com/en-au/security/business/endpoint-security/microsoft-defender-endpoint?rtc=1)
 
 
 | Log type        | KQL         |

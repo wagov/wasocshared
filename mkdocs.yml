@@ -87,7 +87,7 @@ nav:
   - Playbooks: guidelines/playbooks.md
   - Collecting Evidence: guidelines/collecting-evidence.md
   - Patch Management: guidelines/patch-management.md
-  - Top 20 TTP's - Observables Gap Analysis:  guidelines/Top20_TTPs-Observables_Gap_Analysis.md
+  - Observables Gap Analysis:  guidelines/Observables_Gap_Analysis.md
 - Training:
   - Security Analyst Induction: training/analyst-induction.md
   - Azure Basics: training/azure-basics.md
