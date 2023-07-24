@@ -1,4 +1,4 @@
-# OpenSSH (surprise) is vulnerable (WofVG email for reference) - 20230724002
+# Vulnerabilities in OpenSSH before 9.3p2 - 20230724002
 
 ## Overview
 
