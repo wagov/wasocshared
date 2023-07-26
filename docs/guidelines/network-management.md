@@ -17,6 +17,8 @@ TODO: diagram
         - Ensure services include managed detection and response capabilities for adverse network activity.
         - Prefer wireless access over ethernet ports and source network switches and wireless access points as part of the commercial SD-WAN service where possible.
         - Integrate SD-WAN with public cloud services as needed to securely access business applications. Note that cloud resources should be segmented per system by default, with access between systems only implemented as required (i.e. don't treat cloud resources as one flat network).
+- [ ] Limit remote access to on-premise systems using internet based Zero Trust Network Access solutions ( [Microsoft Entra Private Access](https://learn.microsoft.com/en-gb/azure/global-secure-access/overview-what-is-global-secure-access), [Cisco Umbrella SASE](https://www.cisco.com/c/en/us/products/collateral/security/at-a-glance-c45-2391315.html), [Palo PRISMA Access](https://docs.paloaltonetworks.com/prisma-access/administration/ztna-connector-in-prisma-access) )
+- [ ] Eliminate any legacy remote access VPNs / access gateways for remote staff.
 
 ### Additional considerations for Operational Technology and on-premise servers and/or entities with > 500 staff
 
@@ -28,7 +30,6 @@ TODO: diagram
         - [ ] Constrain traffic for each management group to its minimum requirements for management and serviceability
         - [ ] Ensure all devices are tagged at the point of access
         - [ ] Ensure all inter-site traffic between OT devices is encrypted
-        - [ ] Limit remote access to OT devices using internet based Zero Trust Network Access solutions ( [Microsoft Entra Private Access](https://learn.microsoft.com/en-gb/azure/global-secure-access/overview-what-is-global-secure-access), [Cisco Umbrella SASE](https://www.cisco.com/c/en/us/products/collateral/security/at-a-glance-c45-2391315.html), [Palo PRISMA Access](https://docs.paloaltonetworks.com/prisma-access/administration/ztna-connector-in-prisma-access) )
 
 #### Observability & Manageability
 
