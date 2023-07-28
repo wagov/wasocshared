@@ -12,7 +12,7 @@ An issue in “Zen 2” CPUs, under specific microarchitectural circumstances, m
 
 ## What is vulnerable?
 
-The vulnerability affects the following products all Zen2 Processors:
+The vulnerability affects all AMD Zen2 Processors:
 
 - Ryzen 3000
 
