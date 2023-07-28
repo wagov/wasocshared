@@ -13,11 +13,17 @@ An issue in “Zen 2” CPUs, under specific microarchitectural circumstances, m
 ## What is vulnerable?
 
 The vulnerability affects the following products all Zen2 Processors:
+
 - Ryzen 3000
+
 - Ryzen Pro 3000
+
 - Ryzen Threadripper 3000
+
 - Ryzen 4000 Pro
+
 - Ryzen 4000, 5000, and 7020 with Radeon Graphics
+
 - Epyc Rome datacentre processors
 
 ## Recommendation
