@@ -2,7 +2,7 @@
 
 ## Overview
 
-Update to [**Barracuda Networks Releases Update to Address ESG Vulnerability - 20230616001**](https://soc.cyber.wa.gov.au/advisories/20230616001-Barracuda-Networks-Releases-Update-to-Address-ESG-Vulnerability/?h=barrac)
+Update to [**Barracuda Networks Releases Update to Address ESG Vulnerability - 20230616001**](https://soc.cyber.wa.gov.au/advisories/20230616001-Barracuda-Networks-Releases-Update-to-Address-ESG-Vulnerability/)
 
 CISA has published three [**malware analysis reports**](https://www.cisa.gov/news-events/alerts/2023/07/28/cisa-releases-malware-analysis-reports-barracuda-backdoors) on malware variants associated with the remote command injection vulnerability that exists in the Barracuda Email Security Gateway [**CVE-2023-2868**](https://nvd.nist.gov/vuln/detail/CVE-2023-2868). These reports contain Indicators of Compromise (IoC) that are assosiated with each of these malware variants.
 
