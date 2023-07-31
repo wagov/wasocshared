@@ -100,6 +100,7 @@ These are good for querying manually, however most require some work to [Normali
 
 1. [Container Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview) - Centrally monitor [Kubernetes cluster performance](https://docs.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-analyze) and [query logs](https://docs.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-log-query)
 1. [Microsoft Defender for Cloud](https://docs.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud) - If possible [Enable all Microsoft Defender plans](https://docs.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security#enable-enhanced-security-features-from-the-azure-portal) for your high value systems (such as Domain Controllers and SQL Databases, approx. 2-3% of total servers usually)
+    - Cloud Security Posture Management (CSPM) **Foundational** [Defender for Cloud CSPM](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management) - **Recommended**
 
 ![Defender for Cloud](../images/defender-cloud.png)
 
