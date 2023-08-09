@@ -33,23 +33,25 @@ TODO: diagram
 
 #### Observability & Manageability
 
-Network security and management becomes much more effective once administrators have visibility over useful logs (baseline network activity, app & user identification, DNS, netflow data, firewall logs, HTTP/HTTPS sessions, etc). Having the ability to tie logs to specific apps and users both improves network segmentation capabilities and quality of log data for investigation and observation purposes. Products such as:
+Network security and management becomes much more effective once administrators have visibility over [useful logs](https://soc.cyber.wa.gov.au/guidelines/further-five/#implementation-guidance-leveraging-computer-related-logs) (baseline network activity, app & user identification, DNS, netflow data, firewall logs, HTTP/HTTPS sessions, etc). Having the ability to tie logs to specific apps and users both improves network segmentation capabilities and quality of log data for investigation and observation purposes. Products such as:
 
-•	Cisco DNA Cloud
+- Cisco DNA Cloud
 
-•	Palo Alto Panorama
+- Palo Alto Panorama
 
-•	Fortigate Cloud 
+- Fortigate Cloud
 
-Will give visibility (when combined with relevant hardware) over many of these areas to improve observability and manageability of networks. 
+- VMware [SD-WAN and SASE](https://sase.vmware.com/sd-wan/security-services) with VMware Secure Access
 
-//reference device / asset visibility and access logs (IDENTIFY)
-
-//note Cisco DNA cloud / Panorama / Fortigate Cloud
+Will give visibility (when combined with relevant hardware) over many of these areas to improve observability and manageability of networks.
 
 #### Adverse Event Analysis
 
-reference continuous detection and response (NDR - DETECT)
+Detailed logging mentioned in *Observability & Manageability* allows agencies to perform event analysis both automated and manual. Having an understanding of inventory and baseline opens up anomaly detection, most if not all of the products mentioned in this guidance have some capability for event analysis, or at the very least log forwarding options that can allow you SIEM to ingest data and perform alerting based on SIEM rules.
+
+- Reference [continuous detection and response](https://soc.cyber.wa.gov.au/guidelines/further-five/#continuous-incident-detection-and-response) (NDR - DETECT)
+
+- Cisco : [Cisco Security Network Analytics](https://www.cisco.com/c/en/us/products/collateral/security/stealthwatch/datasheet-c78-739398.html)
 
 #### Segmentation
 
@@ -59,7 +61,9 @@ Modern [network segmentation](https://soc.cyber.wa.gov.au/guidelines/further-fiv
 
 - Palo Alto Networks: Cloud Managed [Prisma Access](https://www.paloaltonetworks.com/sase/access) (Additional [Documentation](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/guides/sase-segmentation-solution-guide))
 
-- Fortinet Networks: ??? 
+- VMware [SD-WAN and SASE](https://sase.vmware.com/sd-wan/security-services)
+
+- Fortinet Networks: ___
 
 An agency may start this process by brainstorming appropriate groups to segment devices into and begin to find solutions for incremental changes using products appropriate to their current infrastructure.
 
