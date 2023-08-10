@@ -1,4 +1,4 @@
-# Microsofft Releases Security Updates for Multiple Products - 20230712003
+# Microsoft Releases Security Updates for Multiple Products - 20230712003
 
 ## Overview
 
