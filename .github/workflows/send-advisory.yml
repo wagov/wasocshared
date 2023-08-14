@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send advisory
-      - uses: actions/checkout@v3
-      - run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
+        uses: actions/checkout@v3
+        run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
