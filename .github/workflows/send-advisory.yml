@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Send advisory
       - uses: actions/checkout@v3
-        run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
+      - run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
