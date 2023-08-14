@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    uses: actions/checkout@v3
     steps:
       - name: Send advisory
+      - uses: actions/checkout@v3
         run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
