@@ -2,13 +2,11 @@
 
 This guideline is intended to define a pragmatic target for an entities network architecture to enable effective network management with modern tooling. This guide is structured around the [use cases for a complex network](#network-use-cases) with a design that can be adopted incrementally based on an agencies requirements.
 
-Organisations should strive to reduce network complexity to facilitate its adoption, training, and management. They should mitigate risks as much as possible by favouring managed cloud services and steering clear of legacy VPNs like IPSEC or SSL. Instead, they should adopt contemporary VPN solutions like [WireGuard](https://www.wireguard.com/) or [MASQUE-based](https://blog.cloudflare.com/masque-building-a-new-protocol-into-cloudflare-warp/) VPNs
+![Network topology utilising recommended modern SASE solutions.](../images/Network-SASE.png)
 
 ## Modern Network Design
 
 Organisations should strive to reduce network complexity to facilitate its adoption, training, and management. They should mitigate risks as much as possible by favouring managed cloud services and steering clear of legacy technologies such as direct Layer 3 network access.
-
-![Network topology utilising recommended modern SASE solutions.](../images/Network-SASE.png)
 
 **VPNs and Remote Access for staff and vendors**
 
