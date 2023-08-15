@@ -10,13 +10,13 @@ Organisations should strive to reduce network complexity and focus on the key ou
 
 ### Remote Access for staff and vendors
 
-It's strongly recommended to transition from traditional VPNs to Modern Secure Service Edge (SSE) technology, that can also improve the application of network policies across an organisation. SSE and SASE technologies are available from:
+It's strongly recommended to transition from traditional VPNs to modern Secure Service Edge (SSE) platforms, that can also improve the application of network policies across an organisation. SSE and SASE platforms are available from:
 
 - Infrastructure providers ([Microsoft Global Secure Access](https://learn.microsoft.com/en-us/azure/global-secure-access/overview-what-is-global-secure-access), [VMWare SASE](https://sase.vmware.com/sd-wan/security-services))
 - Network hardware vendors ([Check Point Harmony Connect](https://www.checkpoint.com/harmony/connect-sase/), [Cisco Secure Access](https://www.cisco.com/site/us/en/products/security/secure-access/index.html), [FortiSASE](https://www.fortinet.com/products/sase),  [Palo Alto Prisma SASE](https://www.paloaltonetworks.com/sase/access))
 - Virtual network vendors ([Claroty SRA](https://claroty.com/industrial-cybersecurity/sra), [Netskope SASE](https://www.netskope.com/solutions/secure-access-service-edge), [Zscaler SASE](https://www.zscaler.com/capabilities/secure-access-service-edge))
 
-These technologies all incorporate zero trust and policy-based access logging and management out of the box and are strongly recommended for where direct network access to legacy systems is still required.
+These platforms all incorporate zero trust and policy-based access logging and management out of the box and are strongly recommended for where direct network access to legacy systems is still required.
 
 ## Observability & Manageability
 
