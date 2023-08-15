@@ -12,9 +12,11 @@ Organisations should strive to reduce network complexity to facilitate its adopt
 
 It's strongly recommended to transition from traditional VPNs to Modern Secure Service Edge (SSE) technology, that can also improve the application of network policies across an organisation. SSE and SASE technologies are available from:
 
+
 - Infrastructure providers ([Microsoft Global Secure Access](https://learn.microsoft.com/en-us/azure/global-secure-access/overview-what-is-global-secure-access), [VMWare SASE](https://sase.vmware.com/sd-wan/security-services))
 - Network hardware vendors ([Check Point Harmony Connect](https://www.checkpoint.com/harmony/connect-sase/), [Cisco Secure Access](https://www.cisco.com/site/us/en/products/security/secure-access/index.html), [FortiSASE](https://www.fortinet.com/products/sase),  [Palo Alto Prisma SASE](https://www.paloaltonetworks.com/sase/access)) 
 - Virtual network vendors ([Claroty SRA](https://claroty.com/industrial-cybersecurity/sra), [Netskope SASE](https://www.netskope.com/solutions/secure-access-service-edge), [Zscaler SASE](https://www.zscaler.com/capabilities/secure-access-service-edge))
+
 
 These technologies all incorporate zero trust and policy-based access logging and management out of the box and are strongly recommended for where direct network access to legacy systems is still required.
 
@@ -26,12 +28,14 @@ Network security and management becomes much more effective once administrators 
 
 Maintaining an up to date asset inventory and monitoring baseline activity enable network anomaly detection. Most if not all the products mentioned in this guideline have some capability for continuous threat detection and monitoring, real-time detection and response, or at the very least log forwarding options that can allow you SIEM to ingest data and perform alerting based on SIEM rules.
 
+
 - Cisco [Security Network Analytics](https://www.cisco.com/c/en/us/products/collateral/security/stealthwatch/datasheet-c78-739398.html) -- Provides baseline network monitoring and anomaly detection.
 - Palo Alto [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud/cloud-network-security) - Anomaly policies use audit logs and network flow logs to help you identify unusual network and user activity for all users.
     - [Cortex XDR](https://www.paloaltonetworks.com/engage/cortex-extended-detection-and-response/cortex-xdr-datasheet) -- Real-time response and monitoring
 - Check Point [CloudGuard](https://www.checkpoint.com/cloudguard/) -- Cloud workload centric solution for threat detection including [anomaly detection](https://blog.checkpoint.com/securing-the-cloud/cloudguard-intelligence-threat-hunting/) for abnormal network behaviour.
     - [Horizon NDR](https://www.checkpoint.com/horizon/ndr/) - Network Detection and Response
 - Fortinet -- [FortiNDR](https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-fortindr.pdf)
+
 
 ## Segmentation
 
