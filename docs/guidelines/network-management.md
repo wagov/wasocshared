@@ -29,7 +29,7 @@ Maintaining an up to date asset inventory and monitoring baseline activity enabl
 - Cisco [Secure Network Analytics](https://www.cisco.com/c/en/us/products/collateral/security/stealthwatch/datasheet-c78-739398.html) - [Cisco XDR](https://www.cisco.com/site/au/en/products/security/xdr/index.html)
 - Palo Alto [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud/cloud-network-security) - [Cortex XDR](https://www.paloaltonetworks.com/engage/cortex-extended-detection-and-response/cortex-xdr-datasheet)
 - Check Point [CloudGuard](https://www.checkpoint.com/cloudguard/) - [Horizon NDR](https://www.checkpoint.com/horizon/ndr/)
-- Fortinet - [FortiNDR](https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-fortindr.pdf)
+- Fortinet [FortiAnalyzer](https://www.fortinet.com/products/management/fortianalyzer) - [FortiNDR](https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-fortindr.pdf)
 
 ## Segmentation
 
