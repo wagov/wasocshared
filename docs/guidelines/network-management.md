@@ -1,6 +1,6 @@
 # Network Management Guideline
 
-This guideline is intended to define a pragmatic target for an entities network architecture to enable effective network management with modern tooling. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted incrementally based on an agencies requirements.
+This guideline is a pragmatic target for an entities network architecture to enable effective and secure network management while minimising complexity. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted in stages dependent on an organisation's requirements.
 
 ![Network topology utilising recommended modern SASE solutions.](../images/Network-SASE.png)
 
@@ -36,6 +36,12 @@ Maintaining an up to date asset inventory and monitoring baseline activity enabl
 Modern [network segmentation](https://soc.cyber.wa.gov.au/guidelines/further-five/#network-segmentation) helps prevent lateral movement of adversaries in an organisation and allows effective isolation/containment when responding to breaches. Through good use of network segmentation agencies can prevent certain devices or groups of devices from ever communicating with each other to adhere with principles of least privilege and protect critical infrastructure or sensitive systems. Modern SSE technologies such as those mentioned above can implement tag-based network segmentation across a broad enterprise SD-WAN including public cloud assets with appropriate egress flow monitoring. Additionally the ongoing traffic analytics from central control planes enable rapid analysis and understanding of common network flows, to simplify ongoing firewall policy management and security improvements.
 
 Response actions may also require rapid isolation of sections of the network - a separate secure control plane (as is standard with SD-WAN and SASE architectures) with the ability to rapidly enact policy, physical and logical management boundaries between networks makes this much simpler to implement rapidly when required.
+
+### Operational Technology
+
+Entities with business critical OT/ICS/SCADA assets should run a distinct operational network with associated specialist resources, that ensures encryption over all backhaul links and full segmentation from "untrusted" user networks. The cost of edge routers with full encrypted transit and management capabilities has fallen significantly, see [Cisco Extended Enterprise SD-WAN with IR1101 Solution Overview](https://www.cisco.com/c/en/us/solutions/collateral/enterprise/design-zone-industry-solutions/solution-overview-c22-743249.html) for an example approach with modern cloud managed hardware.
+
+![cisco ir1101](https://www.cisco.com/c/dam/en/us/solutions/collateral/enterprise/design-zone-industry-solutions/solution-overview-c22-743249.docx/_jcr_content/renditions/solution-overview-c22-743249_1.jpg)
 
 ## Common Network Use Cases
 
