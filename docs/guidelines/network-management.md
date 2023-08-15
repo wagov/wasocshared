@@ -2,7 +2,7 @@
 
 This guideline is intended to define a pragmatic target for an entities network architecture to enable effective network management with modern tooling. This guide is structured around the [use cases for a complex network](#network-use-cases) with a design that can be adopted incrementally based on an agencies requirements.
 
-Agencies should aim for a goal to minimise network complexity to allow easier adoption, training and management of the network. Remove as much risk as possible by prioritising use of managed cloud services, and avoid legacy VPNs (IPSEC/SSL). Utilise modern VPN solutions such as [WireGuard](https://www.wireguard.com/) or [MASQUE-based](https://blog.cloudflare.com/masque-building-a-new-protocol-into-cloudflare-warp/) VPNs.
+Organisations should strive to reduce network complexity to facilitate its adoption, training, and management. They should mitigate risks as much as possible by favouring managed cloud services and steering clear of legacy VPNs like IPSEC or SSL. Instead, they should adopt contemporary VPN solutions like [WireGuard](https://www.wireguard.com/) or [MASQUE-based](https://blog.cloudflare.com/masque-building-a-new-protocol-into-cloudflare-warp/) VPNs
 
 ## Modern Network Design
 
@@ -33,9 +33,9 @@ TODO: diagram
 
 #### Observability & Manageability
 
-Network security and management becomes much more effective once administrators have visibility over [useful logs](https://soc.cyber.wa.gov.au/guidelines/further-five/#implementation-guidance-leveraging-computer-related-logs) (baseline network activity, app & user identification, DNS, netflow data, firewall logs, HTTP/HTTPS sessions, etc). Having the ability to tie logs to specific apps and users both improves network segmentation capabilities and quality of log data for investigation and observation purposes. Products such as:
+Network security and management becomes much more effective once administrators have visibility over [useful logs](https://soc.cyber.wa.gov.au/guidelines/further-five/#implementation-guidance-leveraging-computer-related-logs) (baseline network activity, app & user identification, DNS, NetFlow data, firewall logs, HTTP/HTTPS sessions, etc). Having the ability to tie logs to specific apps and users both improves network segmentation capabilities and quality of log data for investigation and observation purposes. Products such as:
 
-- Cisco DNA Cloud
+- [Cisco DNA Cloud](https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/dna-center/nb-06-dna-center-data-sheet-cte-en.html)
 
 - Palo Alto Panorama
 
@@ -43,27 +43,35 @@ Network security and management becomes much more effective once administrators 
 
 - VMware [SD-WAN and SASE](https://sase.vmware.com/sd-wan/security-services) with VMware Secure Access
 
-Will give visibility (when combined with relevant hardware) over many of these areas to improve observability and manageability of networks.
+- [Check Point Quantum](https://www.checkpoint.com/quantum/next-generation-firewall/)
+
+Will give visibility over many of these areas to improve observability and manageability of networks. Next-Gen firewalls are an effective way to implement this when leveraging the above cloud services.
 
 #### Adverse Event Analysis
 
-Detailed logging mentioned in *Observability & Manageability* allows agencies to perform event analysis both automated and manual. Having an understanding of inventory and baseline opens up anomaly detection, most if not all of the products mentioned in this guidance have some capability for event analysis, or at the very least log forwarding options that can allow you SIEM to ingest data and perform alerting based on SIEM rules.
+Detailed logging mentioned in *Observability & Manageability* allows agencies to perform event analysis both automated and manual. Understanding inventory and baseline activity allows anomaly detection. Most if not all of the products mentioned in this guidance have some capability for continuous threat detection and monitoring, real-time detection and response, or at the very least log forwarding options that can allow your SIEM to ingest data and perform alerting based on SIEM rules.
 
-- Reference [continuous detection and response](https://soc.cyber.wa.gov.au/guidelines/further-five/#continuous-incident-detection-and-response) (NDR - DETECT)
+- Cisco [Security Network Analytics](https://www.cisco.com/c/en/us/products/collateral/security/stealthwatch/datasheet-c78-739398.html) -- Provides baseline network monitoring and anomaly detection.
 
-- Cisco : [Cisco Security Network Analytics](https://www.cisco.com/c/en/us/products/collateral/security/stealthwatch/datasheet-c78-739398.html)
+- Palo Alto [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud/cloud-network-security) - Anomaly policies use audit logs and network flow logs to help you identify unusual network and user activity for all users.
+
+    - [Cortex XDR](https://www.paloaltonetworks.com/engage/cortex-extended-detection-and-response/cortex-xdr-datasheet) - Real-time response and monitoring
+
+- Check Point [CloudGuard](https://www.checkpoint.com/cloudguard/) - Cloud workload centric solution for threat detection including [anomaly detection](https://blog.checkpoint.com/securing-the-cloud/cloudguard-intelligence-threat-hunting/) for abnormal network behaviour.
+
+    - [Horizon NDR](https://www.checkpoint.com/horizon/ndr/) - Network Detection and Response
+
+- Fortinet - [FortiNDR](https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-fortindr.pdf)
 
 #### Segmentation
 
 Modern [network segmentation](https://soc.cyber.wa.gov.au/guidelines/further-five/#network-segmentation) helps prevent lateral movement of adversaries in an organisation and allows effective isolation/containment ([RESPOND](https://www.nist.gov/cyberframework/online-learning/five-functions#respond)) when responding to breaches. Through good use of network segmentation agencies can prevent certain devices or groups of devices from ever communicating with each other to adhere with principles of least privilege ([PROTECT](https://www.nist.gov/cyberframework/online-learning/five-functions#protect)) and protect critical infrastructure or sensitive systems. By ensuring all devices on the network can be segmented into appropriate groups, organisations can greatly improve cyber security and modernise their networks for the future. Keeping in the ecosystem of current equipment will reduce complexity for easier adoption:
 
-- Cisco Networks: [Cisco TrustSec](https://www.cisco.com/c/en/us/solutions/enterprise-networks/trustsec/index.html) managed via DNA?
+- Cisco Networks: [Cisco TrustSec](https://www.cisco.com/c/en/us/solutions/enterprise-networks/trustsec/index.html) integrated with Cisco DNA
 
-- Palo Alto Networks: Cloud Managed [Prisma Access](https://www.paloaltonetworks.com/sase/access) (Additional [Documentation](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/guides/sase-segmentation-solution-guide))
+- Palo Alto: Cloud Managed [Prisma Access](https://www.paloaltonetworks.com/sase/access) (Additional [Documentation](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/guides/sase-segmentation-solution-guide))
 
 - VMware [SD-WAN and SASE](https://sase.vmware.com/sd-wan/security-services)
-
-- Fortinet Networks: ___
 
 An agency may start this process by brainstorming appropriate groups to segment devices into and begin to find solutions for incremental changes using products appropriate to their current infrastructure.
 
