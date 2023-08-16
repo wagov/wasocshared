@@ -86,6 +86,7 @@ nav:
   - Workstations: guidelines/workstations.md
   - Playbooks: guidelines/playbooks.md
   - Collecting Evidence: guidelines/collecting-evidence.md
+  - Network Management: guidelines/network-management.md
   - Patch Management: guidelines/patch-management.md
   - Observables Gap Analysis:  guidelines/Observables_Gap_Analysis.md
 - Training:
