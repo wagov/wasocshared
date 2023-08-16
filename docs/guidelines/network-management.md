@@ -1,6 +1,6 @@
 # Network Management Guideline
 
-This guideline is a pragmatic target for an entities network architecture to enable effective and secure network management while minimising complexity. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted in stages dependent on an organisation's requirements.
+This guideline is a pragmatic target for an entities network architecture to enable effective and secure network management while minimising complexity. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted in stages that is highly aligned with the [ACSC Network gateway hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance) guidance package.
 
 ![Network topology utilising recommended modern SASE solutions.](../images/Network-SASE.png)
 
@@ -14,7 +14,7 @@ It's strongly recommended to transition from traditional VPNs to modern Secure S
 
 - Infrastructure providers ([Microsoft Global Secure Access](https://learn.microsoft.com/en-us/azure/global-secure-access/overview-what-is-global-secure-access), [VMWare SASE](https://sase.vmware.com/sd-wan/security-services))
 - Network hardware vendors ([Check Point Harmony Connect](https://www.checkpoint.com/harmony/connect-sase/), [Cisco Secure Access](https://www.cisco.com/site/us/en/products/security/secure-access/index.html), [FortiSASE](https://www.fortinet.com/products/sase),  [Palo Alto Prisma SASE](https://www.paloaltonetworks.com/sase/access))
-- Virtual network vendors ([Claroty SRA](https://claroty.com/industrial-cybersecurity/sra), [Netskope SASE](https://www.netskope.com/solutions/secure-access-service-edge), [Zscaler SASE](https://www.zscaler.com/capabilities/secure-access-service-edge))
+- Virtual network vendors ([Claroty SRA](https://claroty.com/industrial-cybersecurity/sra), [Teleport (open-source with self-hosted capability)](https://goteleport.com), [Netskope SASE](https://www.netskope.com/solutions/secure-access-service-edge), [Zscaler SASE](https://www.zscaler.com/capabilities/secure-access-service-edge))
 
 These platforms all incorporate zero trust and policy-based access logging and management out of the box and are strongly recommended for where direct network access to legacy systems is still required. All vendors, contractors and identities external to an organisation should have access controlled via such a platform to avoid third party persistent remote access (e.g. TeamViwer, LogMeIn, AnyDesk) being utilised that may not adhere to an organisations Identity and Access Management policies and procedures.
 
