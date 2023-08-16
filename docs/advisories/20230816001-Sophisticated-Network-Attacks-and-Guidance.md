@@ -18,7 +18,7 @@ Agencies vulnerable to these threats may be [unaware of active exploits](https:/
 
 ## How are these risks addressed?
 
-As many of the risks outlined in the reports are from gateway devices, ACSC's [Gateway Security Guidance](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance) offers helpful executive guidance, principles and frameworks to address many of the concerns. Listed within that guidance is an essential list of governance-related security principles that organisations need to be aware of as part of using gateways. These are:
+As many of the risks outlined in the reports are directly on gateway devices and associated internet exposed appliances, ACSC's [Gateway Security Guidance](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance) offers helpful executive guidance, principles and frameworks to address many of the concerns. Listed within that guidance is an essential list of governance-related security principles that organisations need to be aware of as part of using gateways. These are:
 
 -   risk cannot be outsourced
 -   security management is continuous
