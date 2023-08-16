@@ -26,8 +26,9 @@ Baselines are for use as self-assessment checklists, and guidelines are for gene
 
     - [Guide to Securing Remote Access Software (CISA)](https://www.cisa.gov/resources-tools/resources/guide-securing-remote-access-software) - remote access software overview, including the malicious use of remote access software, detection methods, and recommendations for all organizations.
     - [#StopRansomware Guide (CISA)](https://www.cisa.gov/resources-tools/resources/stopransomware-guide) - one-stop resource to help organizations reduce the risk of ransomware incidents through best practices to detect, prevent, respond, and recover, including step-by-step approaches to address potential attacks.
-    - [Microsoft Sentinel Connector Guidance](onboarding/sentinel-guidance.md) - Sentinel deployment guide including prioritisation of connector configuration based on cost and complexity.
-    - [Patch Management Guideline](guidelines/patch-management.md) - Implementation guidance for [Assessing Security Vulnerabilities and Applying Patches](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/assessing-security-vulnerabilities-and-applying-patches).
+    - [Microsoft Sentinel Guidance](onboarding/sentinel-guidance.md) - Implementation guidance for using Sentinel for [ACSC Guidelines for System Monitoring](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-monitoring)
+    - [Network Management Guideline](guidelines/network-management.md) - Implementation guidance for [ACSC Network gateway hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance).
+    - [Patch Management Guideline](guidelines/patch-management.md) - Implementation guidance for [ACSC Assessing Security Vulnerabilities and Applying Patches](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/assessing-security-vulnerabilities-and-applying-patches).
 
 ## Additional documentation
 
