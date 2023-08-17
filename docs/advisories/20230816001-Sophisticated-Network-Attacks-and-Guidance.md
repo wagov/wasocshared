@@ -12,7 +12,7 @@ Cisco Talos and many intelligence agencies have [reported attacks](https://blog.
 
 ### Mandiant
 
-Google's Mandiant has also released a [blog post](https://www.mandiant.com/resources/blog/chinese-espionage-tactics) about the tactics used by state-sponsored threat actors to avoid detection and that 'cyber espionage zero-day exploitation in 2021 and 2022 has focused on security, networking, and virtualization technologies'. Mandiant continues to list seven more cases of similar threat actors launching network attacks targeting firewalls, routers, VPNs, and email gateways.
+Google's Mandiant has also released a [blog post](https://www.mandiant.com/resources/blog/chinese-espionage-tactics) about the tactics used by state-sponsored threat actors to avoid detection and that *cyber espionage zero-day exploitation in 2021 and 2022 has focused on security, networking, and virtualization technologies*. Mandiant continues to list seven more cases of similar threat actors launching network attacks targeting firewalls, routers, VPNs, and email gateways.
 
 Agencies vulnerable to these threats may be [unaware of active exploits](https://www.mandiant.com/resources/blog/barracuda-esg-exploited-globally) due to the sophisticated persistence techniques used.
 
