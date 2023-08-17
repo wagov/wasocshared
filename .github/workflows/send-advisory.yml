@@ -1,4 +1,5 @@
 name: Send advisory
+
 on:
   workflow_dispatch:
     inputs:
