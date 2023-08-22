@@ -83,12 +83,9 @@ nav:
   - Vulnerability Management: baselines/vulnerability-management.md
 - Guidelines:
   - Incident Reporting: guidelines/incident-reporting.md
-  - Workstations: guidelines/workstations.md
-  - Playbooks: guidelines/playbooks.md
-  - Collecting Evidence: guidelines/collecting-evidence.md
   - Network Management: guidelines/network-management.md
   - Patch Management: guidelines/patch-management.md
-  - Observables Gap Analysis:  guidelines/Observables_Gap_Analysis.md
+  - Configuration Assessment: guidelines/secure-configuration.md
 - Training:
   - Security Analyst Induction: training/analyst-induction.md
   - Azure Basics: training/azure-basics.md
