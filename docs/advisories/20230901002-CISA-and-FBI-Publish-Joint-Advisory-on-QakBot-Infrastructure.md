@@ -12,7 +12,7 @@ The delivery method for QakBot has been carried out mainly via phishing campaign
 
 ## Indicator of Compromise
 
-The following list of IOC's can be used for detecting and identifying of any activity related to QakBot.
+The following list of IOC's can be used for detecting and identifying activity related to QakBot.
 
 ### Registry Key(s) and Folder(s)
 
