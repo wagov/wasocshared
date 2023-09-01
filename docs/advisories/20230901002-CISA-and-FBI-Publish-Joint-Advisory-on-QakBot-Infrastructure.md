@@ -1,4 +1,4 @@
-#  CISA and FBI Publish JointAdvisoryonQakBotInfrastructure - 20230901002
+#  CISA and FBI Publish Joint Advisory on QakBot Infrastructure - 20230901002
 
 ## Overview
 
