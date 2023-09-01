@@ -130,7 +130,7 @@ For more information on mitigations, please refer to CISA's [Identification and 
 7cdee5a583eacf24b1f142413aabb4e556ccf4ef3a4764ad084c1526cc90e117
 ```
 
-#### Resources:
+#### Additional Resources:
 
 -   [HHS: Qbot/QakBot Malware](https://www.cisa.gov/stopransomware/qbotqakbot-malware-report "Qbot/Qakbot Malware Report")
 -   [CISA: CPGs](https://www.cisa.gov/cpg "Cross-Sector Cybersecurity Performance Goals")
