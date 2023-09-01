@@ -87,7 +87,7 @@ nav:
   - Patch Management: guidelines/patch-management.md
   - Configuration Assessment: guidelines/secure-configuration.md
   - Observable Gap Analysis: guidelines/observables-gap-analysis.md
-  - TTP Detection Guidline: guidelines/TTP_Hunt/ttp_detection_guideline.md
+  - TTP Detection Guideline: guidelines/TTP_Hunt/ttp_detection_guideline.md
 - Training:
   - Security Analyst Induction: training/analyst-induction.md
   - Azure Basics: training/azure-basics.md
