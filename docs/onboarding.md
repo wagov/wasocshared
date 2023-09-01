@@ -110,6 +110,24 @@ Browse for the template provided, and click **Upload**. This can be customised t
 
 Review the custom deployment details and ensure the location is Australia East, then click **Review and create** then click **Create**.
 
+### 2.4. Dedicated Cluster
+
+The WASOC Dedcated Clsuter program is an initiative to assist with reducing the total cost of ownership (TCO) of customers Sentinel Workspace. This is achieved by utilising a centralised [pricing model](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#cluster-pricing-model) offered by Microsoft as part of the [dedicated cluster services](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#advanced-capabilities).
+
+??? note "Customer Prerequisite"
+
+    The dedicated clsuter has prerequisites that **must** be met to have the minimum technical requirements to onboard ([link](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#link-a-workspace-to-a-cluster)) an sentinel workspace.
+
+    The prerequisites as follows. 
+
+    - Must be on Microsoft [Enterprise Agreement](https://www.wa.gov.au/government/cuas/supply-of-microsoft-product-licences-and-licensing-solutions-cuams2019)
+       - E licensing ([Compare Microsoft 365 Enterprise Plans](https://www.microsoft.com/en-au/microsoft-365/enterprise/microsoft365-plans-and-pricing))
+    - Must have signed an exisiting MOU (T0,T1,T2) with the WASOC
+    - Customers Workspace must be located in region **Australia EAST**
+    - Must have been already onboarded to the WASOC via [Azure Lighthouse](https://soc.cyber.wa.gov.au//onboarding/#23-azure-subscription-access-delegation)
+
+The onboarding to the Dedicated Cluster is handled entirely by the WASOC Engineers and can be facilitated upon request.
+
 ## 3. Confirmation of Onboarding
 
 Once the template phase has completed, customers can confirm the onboarding process has finalised by navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page and confirming you can see the **WA SOC - Security Insights** service offer.
