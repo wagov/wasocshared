@@ -4,7 +4,7 @@ This page serves as a high-level guideline specifically for WA SOC threat huntin
 
 The [MITRE ATT&CK](https://attack.mitre.org/) framework is a knowledge base of adversary tactics and techniques based on real-world observations. Relevant KQL queries are mapped to each of the techniques used by threat actor tactics in line with the MITRE ATT&CK framework.
 
-This section only includes references to queries that can be mapped in the MITRE ATT&CK Framework. Reconnaissance and Resource Development are out of scope. 
+This section highlights queries that can be mapped in the MITRE ATT&CK Framework. Reconnaissance and Resource Development are out of the hunting services initial scope. The [Top 10 MITRE ATT&CK Techniques for Ransomware](https://top-attack-techniques.mitre-engenuity.org) is another sensible resource with a broader scope that can also be used to prioritise detection logic.
 
 ## Guidelines/Instructions:
 * Review the TTP Hunt results shared with you via email/JIRA ticket.
