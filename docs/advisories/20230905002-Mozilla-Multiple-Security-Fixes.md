@@ -5,6 +5,7 @@
 Mozilla has released security updates to address vulnerabilities in Firefox ESR **all versions below 115.2**. An attacker could exploit some of these vulnerabilities to potentially allow the leak of sensitive information.
 
 ## What are the vulnerabilities?
+The following listed vulnerabilities affect Firefox ESR **all versions below 115.2**:
 
 - [**CVE-2023-4573**](https://nvd.nist.gov/vuln/detail/CVE-2023-4573): Memory corruption in IPC CanvasTranslator
 - [**CVE-2023-4574**](https://nvd.nist.gov/vuln/detail/CVE-2023-4574): Memory corruption in IPC ColorPickerShownCallback
@@ -20,14 +21,6 @@ Mozilla has released security updates to address vulnerabilities in Firefox ESR 
 - [**CVE-2023-4583**](https://nvd.nist.gov/vuln/detail/CVE-2023-4583): Browsing Context potentially not cleared when closing Private Window
 - [**CVE-2023-4584**](https://nvd.nist.gov/vuln/detail/CVE-2023-4584): Memory safety bugs fixed in Firefox 117, Firefox ESR 102.15, Firefox ESR 115.2, Thunderbird 102.15, and Thunderbird 115.2
 - [**CVE-2023-4585**](https://nvd.nist.gov/vuln/detail/CVE-2023-4585): Memory safety bugs fixed in Firefox 117, Firefox ESR 115.2, and Thunderbird 115.2
-
-## What is vulnerable?
-
-The above listed vulnerabilities affect Firefox ESR **all versions below 115.2**.
-
-## What has been observed?
-
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
 
