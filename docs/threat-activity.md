@@ -2,7 +2,7 @@
 
 {{ date_index("docs/advisories/*.md", prefix="advisories/", expand=1, include=2) }}
 
-## WA SOC - Recent Threat Activity (Aug 2023)
+## WA SOC - Recent Threat Activity (Sep 2023)
 
 Based on recent high impact incidents seen by the WA SOC, security teams should be focusing on the below areas of improvement:
 
