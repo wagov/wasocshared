@@ -17,3 +17,21 @@ The [ACSC’s Cyber Toolbox](https://www.cyber.gov.au/about-us/news/essential-ei
 ## Infrastructure (public cloud and on-premise compute and storage) configuration monitoring
 
 The standard recommended actions within [Microsoft Defender for Cloud](https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/5) should be reviewed and exported each month and retained for 12 months.
+
+## Addressing Microsoft 365 cloud service risks
+
+Organisations with Microsoft 365 premium or enterprise licencing should at a minimum undertake the following basics:
+
+- Enable security defaults in Azure Active Directory. Microsoft has published [guidance on enabling Security defaults](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#enabling-security-defaults). 
+- Enrol your compatible devices in Intune. Microsoft has published guidance on [enrolling Windows devices in Intune](https://docs.microsoft.com/en-us/mem/intune/enrollment/windows-enrollment-methods).
+
+This subsequently enables straightforward implementation of the [ACSCs Essential Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight) Microsoft 365 [Cloud Security Guides](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guides) listed below for reference:
+
+- [Application control](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-application-control)
+- [Patch applications](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-patch-applications)
+- [Configure macro settings](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-configure-macro-settings)
+- [User application hardening](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-user-application-hardening)
+- [Restrict administrative privileges](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-restrict-administrative-privileges)
+- [Patch operating systems](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-patch-operating-system)
+- [ulti-factor authentication](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-multi-factor-authentication)
+- [Regular backups](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-regular-backups)
