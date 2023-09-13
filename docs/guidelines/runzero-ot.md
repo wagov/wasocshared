@@ -30,3 +30,7 @@ runzero-scanner.exe 192.168.1.0/24 192.168.1.1/24 -r 300 --max-host-rate 20 --ma
 ```
 sudo runzero 192.168.1.0/24 192.168.1.1/24 -r 300 --max-host-rate 20 --max-group-size 2048 --max-ttl 64 -p 21,22,23,69,80,123,135,137,161,179,443,445,3389,5040,5900,7547,8080,8443,62078,65535 --host-ping --probes layer2,netbios,ntp,snmp,ssh,syn,tftp --snmp-comms public,private
 ```
+
+## Reviewing results
+
+The results will be saved to a rumble-*timestamp* directory in the current folder, key files are the `.jsonl` and the `.html` which include all the asset data.
