@@ -17,7 +17,7 @@ Please make sure you have access to a [standalone command-line scanner](https://
 
 ### Scan Configuration
 
-In the below commands, replace **192.168.1.0/24 192.168.1.1/24** with the IPv4 subnets you would like to scan and **public,private** with the SNMP v1/v2c read communities for the network (if available).
+In the below commands, replace **192.168.1.0/24 192.168.1.1/24** with the IPv4 subnets you would like to scan and **public,private** with the SNMP v1/v2c read communities for the network (if available). The scans have been configured according to runzeros playbook, limiting packets per second to **300** and host simultaneous connections to **20** which is an extremely low rate that should not impact fragile networks or equipment.
 
 ## Running a scan
 
