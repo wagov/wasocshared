@@ -4,7 +4,7 @@ Below is a guide to use the standalone runZero command-line scanner to rapidly i
 
 ## References
 - [Scanning OT networks (runZero playbook)](https://www.runzero.com/docs/playbooks/scanning-ot-networks/)
-- [Can I safely scan my IoT or OT environments? (runZero FAQ)](https://www.runzero.com/docs/troubleshooting-iot-and-ot/)https://www.runzero.com/docs/troubleshooting-iot-and-ot/
+- [Can I safely scan my IoT or OT environments? (runZero FAQ)](https://www.runzero.com/docs/troubleshooting-iot-and-ot/)
 
 ## Prerequisites
 
