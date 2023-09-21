@@ -1,0 +1,28 @@
+# Trend Micro Patches Apex One Critical 3rd Party Vulnerability - 20230921002
+
+## Overview
+
+Trend Micro has released new patches and hotfixes for Trend Micro Apex One (on-premise and SaaS), Worry-Free Business Security and Worry-Free Business Security Services (SaaS) that resolves a vulnerability in the 3rd party AV uninstaller module that is provided with the endpoint products.
+
+## What is the vulnerability?
+
+[**CVE-2023-41179**](https://nvd.nist.gov/vuln/detail/CVE-2023-41179) - CVSS v3 Base Score: ***9.1***
+
+## What is vulnerable?
+
+The vulnerability affects the following products:
+
+- Apex One 2019 (On-prem)
+- Apex One as a Service
+- Worry-Free Business Security (WFBS)
+- Worry-Free Business Security Services (WFBSS)
+
+## What has been observed?
+
+Trend Micro has observed at least one active attempt of potential attacks against this vulnerability in the wild (ITW).
+
+## Recommendation
+
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 Hours...* (refer [Patch Management](../guidelines/patch-management.md)):
+
+- <https://success.trendmicro.com/dcx/s/solution/000294994?language=en_US>
