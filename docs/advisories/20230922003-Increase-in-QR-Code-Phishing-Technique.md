@@ -24,7 +24,7 @@ The QR code for Quishing will most likely be scanned with user's mobile phone, a
 
 ## Detection
 
-### Data sources, detection queries and triage information for the Quishing attacks are provided on the [WASOC TTP Detection Guideline page](../guidelines/TTP_Hunt/ADS_forms/T1566.001-QR-CodePhishingAttachment(Quishing).md).
+Data sources, detection queries and triage information for the Quishing attacks are provided on the [**WASOC TTP Detection Guideline page as shown below**](../guidelines/TTP_Hunt/ADS_forms/T1566.001-QR-CodePhishingAttachment(Quishing).md).
 
 
 {% include "./guidelines/TTP_Hunt/ADS_forms/T1566.001-QR-CodePhishingAttachment(Quishing).md" %}
