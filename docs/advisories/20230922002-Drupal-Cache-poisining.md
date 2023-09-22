@@ -1,4 +1,4 @@
-# Drupal Core Cache poisoning - 20230922002
+# Drupal Core Cache Poisoning - 20230922002
 
 ## Overview
 
