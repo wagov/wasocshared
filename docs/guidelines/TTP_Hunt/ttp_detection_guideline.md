@@ -18,6 +18,7 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | ---  | --- | --- |--- |
 | T1190 | Web shells | [Network Traffic](https://attack.mitre.org/datasources/DS0029/)  | [T1190 - Webshells Suspicious URI](./ADS_forms/T1190-WebshellsSuspiciousURI.md) |
 | TA0001 | PcAppStore | [Network Traffic](https://attack.mitre.org/datasources/DS0029/)  | [TA0001 - PcAppStore - Potential Malware Installed](./ADS_forms/TA0001-PcAppStore-PotentialMalwareInstalled.md) |
+| T1566 | Phishing | [Application Log](https://attack.mitre.org/datasources/DS0015/)  | [T1566.001 - QR Code Phishing Attachment (Quishing)](./ADS_forms/T1566.001-QR-CodePhishingAttachment(Quishing).md) |
 
 
 ## Execution

@@ -1,4 +1,4 @@
-# Increase in QR Code Phishing Technique - 20230710003
+# Increase-in-QR-Code-Phishing-Technique - 20230710003
 
 Overview
 --------
