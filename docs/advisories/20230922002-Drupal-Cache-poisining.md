@@ -22,7 +22,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *two weeks...* (refer [Patch Management](../guidelines/patch-management.md)):
 
 -   If you are using Drupal 10.1, update to [Drupal 10.1.4](https://www.drupal.org/project/drupal/releases/10.1.4).
 -   If you are using Drupal 10.0, update to [Drupal 10.0.11](https://www.drupal.org/project/drupal/releases/10.0.11).
