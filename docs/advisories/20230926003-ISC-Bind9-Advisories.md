@@ -8,7 +8,7 @@ The Internet Systems Consortium (ISC) has released security advisories to addres
 
 [**CVE-2023-4236**](https://nvd.nist.gov/vuln/detail/CVE-2023-4236) - CVSS v3 Base Score: ***7.5***: A flaw in the networking code handling DNS-over-TLS queries may cause named to terminate unexpectedly due to an assertion failure. This happens when internal data structures are incorrectly reused under significant DNS-over-TLS query load.
 
-- [**CVE-2023-3341**](https://nvd.nist.gov/vuln/detail/CVE-2023-3341) - CVSS v3 Base Score: ***7.5***: The code that processes control channel messages sent to named calls certain functions recursively during packet parsing. Recursion depth is only limited by the maximum accepted packet size; depending on the environment, this may cause the packet-parsing code to run out of available stack memory, causing named to terminate unexpectedly.
+[**CVE-2023-3341**](https://nvd.nist.gov/vuln/detail/CVE-2023-3341) - CVSS v3 Base Score: ***7.5***: The code that processes control channel messages sent to named calls certain functions recursively during packet parsing. Recursion depth is only limited by the maximum accepted packet size; depending on the environment, this may cause the packet-parsing code to run out of available stack memory, causing named to terminate unexpectedly.
 
 ## What is vulnerable?
 
