@@ -1,4 +1,4 @@
-# Apple Releases Security Updates for Multiple Products - 20231002001
+# Apple Releases Security Updates for Multiple Products - 20231002002
 
 ## Overview
 
