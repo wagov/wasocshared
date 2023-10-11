@@ -125,6 +125,7 @@ The WASOC Dedcated Clsuter program is an initiative to assist with reducing the 
     - Must have signed an exisiting MOU (T0,T1,T2) with the WASOC
     - Customers Workspace must be located in region **Australia EAST**
     - Must have been already onboarded to the WASOC via [Azure Lighthouse](https://soc.cyber.wa.gov.au//onboarding/#23-azure-subscription-access-delegation)
+    - Must have Log Analytics workspace *Access Mode* set to **Use resource or workspace permissions**. [Log Analytics Access Mode](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/manage-access?tabs=portal#access-control-mode)
 
 The onboarding to the Dedicated Cluster is handled entirely by the WASOC Engineers and can be facilitated upon request.
 
