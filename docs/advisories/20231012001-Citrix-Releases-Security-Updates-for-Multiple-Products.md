@@ -60,8 +60,9 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - **Citrix Hypervisor 8.2 CU1 LTSR**: 
 
-    | CTX575070 | - | [Support Article](https://support.citrix.com/article/CTX575070) |
+    | Hot Fix Number | - | Article  |
     |-----------|---|----------------------------------------------|
+    | CTX575070 | - | [Support Article](https://support.citrix.com/article/CTX575070) |
     | CTX579955 | - | [Support Article](https://support.citrix.com/article/CTX579955) |
     | CTX580401 | - | [Support Article](https://support.citrix.com/article/CTX580401) |
     | CTX581053 | - | [Support Article](https://support.citrix.com/article/CTX581053) |
