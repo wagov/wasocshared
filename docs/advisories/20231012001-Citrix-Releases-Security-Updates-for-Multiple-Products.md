@@ -2,7 +2,7 @@
 
 ## Overview
 
-Citrix has released multiple updates to address critical vulnerabilities in ADC, NetScaler Gateway and Citrix Hypervisor. Vulnerabilities in Citrix Hypervisor 8.2 CU1 LTSR and may allow malicious privileged code in a guest VMs. The vulnerabilities present in Netscalar ADS and Netscalar gateway's would allow attackers to perform Denial of Service attacks or disclose sensitive information.
+Citrix has released multiple updates to address critical vulnerabilities in ADC, NetScaler Gateway and Citrix Hypervisor. Vulnerabilities in Citrix Hypervisor 8.2 CU1 LTSR may allow malicious privileged code executions in guest VMs. The vulnerabilities present in NetScalar ADS and NetScalar gateway's would allow attackers to perform Denial of Service attacks or disclose sensitive information.
 
 ## What is the vulnerability?
 
