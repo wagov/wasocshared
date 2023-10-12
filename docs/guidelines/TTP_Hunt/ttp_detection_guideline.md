@@ -19,7 +19,7 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1190 | Web shells | [Network Traffic](https://attack.mitre.org/datasources/DS0029/)  | [T1190 - Webshells Suspicious URI](./ADS_forms/T1190-WebshellsSuspiciousURI.md) |
 | TA0001 | PcAppStore | [Network Traffic](https://attack.mitre.org/datasources/DS0029/)  | [TA0001 - PcAppStore - Potential Malware Installed](./ADS_forms/TA0001-PcAppStore-PotentialMalwareInstalled.md) |
 | T1566 | Phishing | [Application Log](https://attack.mitre.org/datasources/DS0015/)  | [T1566.001 - QR Code Phishing Attachment (Quishing)](./ADS_forms/T1566.001-QR-CodePhishingAttachment(Quishing).md) |
-
+| T1189 | Drive-by Compromise | [File](https://attack.mitre.org/datasources/DS0022/)  | [T1189 - Drive-by Compromise - FakeUpdate](./ADS_forms/T1189-Drive-byCompromise-FakeUpdate.md) |
 
 ## Execution
 
@@ -36,19 +36,21 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | ---  | --- | --- |--- |
 | T1547.001 | Persistence Via Run Keys | [Command](https://attack.mitre.org/datasources/DS0017/) | [T1547.001 - Persistence Via Run Keys](./ADS_forms/T1547.001-PersistenceViaRunKeys.md) |
 | T1505.003 | Web shells | [Process](https://attack.mitre.org/datasources/DS0009/) | [T1505.003 - IIS Webshell File Writes](./ADS_forms/T1505.003-IISWebshellFileWrites.md) |
+| T1505.003 | Linux Webshell Indicators | [Process](https://attack.mitre.org/datasources/DS0009/) | [T1505.003 - Linux Webshell Indicators](./ADS_forms/T1505.003-LinuxWebshellIndicators.md) |
 
 
 ## Defense Evasion
 
 | Technique ID | Title  | Data Source  | ADS |
 | ---  | --- | --- |--- |
-| T1562.001  | PowerShell Downgrade attack|  [Command](https://attack.mitre.org/datasources/DS0017/)  | [T1562.001-ImpairDefenses-PowershellDowngrade](./ADS_forms/T1562.001-ImpairDefenses-PowershellDowngrade.md)| 
-| T1562.001  | AMSI Bypass attack |  [Command](https://attack.mitre.org/datasources/DS0017/)  | [T1562.001-ImpairDefenses-AMSIBypassAttack](./ADS_forms/T1562.001-ImpairDefenses-AMSIBypass.md)| 
-| T1562.001  | PowerShell Defender Disabling Or Exclusions|  [Command](https://attack.mitre.org/datasources/DS0017/)  | [T1562.001-ImpairDefenses-DefenderDisablingOrExclusions](./ADS_forms/T1562.001-ImpairDefenses-DefenderDisablingOrExclusions.md)| 
-| T1562.001  | Disable Defender via RegistryKey |  [Windows Registry](https://attack.mitre.org/datasources/DS0024)  | [T1562.001-ImpairDefenses-DisableDefenderRegistryKey](./ADS_forms/T1562.001-ImpairDefenses-DisableDefenderRegistryKey.md)| 
-| T1562.002 | Disable Windows Logging MiniNT |  [Windows Registry](https://attack.mitre.org/datasources/DS0024)   | [T1562.002-DisableWindowsLoggingMiniNT](./ADS_forms/T1562.002-DisableWindowsLoggingMiniNT.md)| 
-| T1562.002 | Disable Windows Logging EventID |  [Active Directory](https://attack.mitre.org/datasources/DS0026)  | [T1562.002-DisableWindowsLoggingEventID](./ADS_forms/T1562.002-DisableWindowsLoggingEventID.md)| 
+| T1562.001  | PowerShell Downgrade attack|  [Command](https://attack.mitre.org/datasources/DS0017/)  | [T1562.001 - ImpairDefenses-PowershellDowngrade](./ADS_forms/T1562.001-ImpairDefenses-PowershellDowngrade.md)| 
+| T1562.001  | AMSI Bypass attack |  [Command](https://attack.mitre.org/datasources/DS0017/)  | [T1562.001 - ImpairDefenses - AMSIBypassAttack](./ADS_forms/T1562.001-ImpairDefenses-AMSIBypass.md)| 
+| T1562.001  | PowerShell Defender Disabling Or Exclusions|  [Command](https://attack.mitre.org/datasources/DS0017/)  | [T1562.001 - ImpairDefenses-DefenderDisablingOrExclusions](./ADS_forms/T1562.001-ImpairDefenses-DefenderDisablingOrExclusions.md)| 
+| T1562.001  | Disable Defender via RegistryKey |  [Windows Registry](https://attack.mitre.org/datasources/DS0024)  | [T1562.001 - ImpairDefenses-DisableDefenderRegistryKey](./ADS_forms/T1562.001-ImpairDefenses-DisableDefenderRegistryKey.md)| 
+| T1562.002 | Disable Windows Logging MiniNT |  [Windows Registry](https://attack.mitre.org/datasources/DS0024)   | [T1562.002 - DisableWindowsLoggingMiniNT](./ADS_forms/T1562.002-DisableWindowsLoggingMiniNT.md)| 
+| T1562.002 | Impair Defenses: Disable Windows Logging on EventID|  [Active Directory](https://attack.mitre.org/datasources/DS0026)  | [T1562.002 - ImpairDefenses:DisableWindowsLoggingonEventID](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingonEventID.md)| 
 | T1562.002 | Disable Windows Logging Multi |  [Command](https://attack.mitre.org/datasources/DS0017)  | [ T1562.002 - Disable Windows Logging Multi](./ADS_forms/T1562.002-DisableWindowsLoggingMulti.md)| 
+| T1027.006 | HTML Smuggling |  [TBA]()  | [T1027.006 - HTML Smuggling](./ADS_forms/T1027.006-HTMLSmuggling.md)| 
 
 ## Credential Access
 
@@ -57,10 +59,11 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1003.001  | OS Credential Dumping | [Command](https://attack.mitre.org/datasources/DS0017/) | [T1003.001 - OS Credential Dumping: LSASS Memory](./ADS_forms/T1003.001-OSCredentialDumpingLSASSMemory.md) |
 | T1003.003  | OS Credential Dumping | [Command](https://attack.mitre.org/datasources/DS0017/) | [T1003.003 - OS Credential Dumping: exfiltrate ntds.dit](./ADS_forms/T1003.003-OSCredentialDumpingExfiltratentds.dit.md) |
 | T1003.003  | OS Credential Dumping | [Command](https://attack.mitre.org/datasources/DS0017/) | [T1003.003 - OS Credential Dumping: NTDS using tools](./ADS_forms/T1003.003-OSCredentialDumpingNTDSusingTools.md) |
-| T1003.006  | Credential Dumping: DCSync | [Command](https://attack.mitre.org/datasources/DS0017/) | [DCSync](./ADS_forms/T1003.006-DCSyncAD.md) |
+| T1003.006  | Credential Dumping: DCSync | [Command](https://attack.mitre.org/datasources/DS0017/) | [T1003.006 - DCSync](./ADS_forms/T1003.006-DCSyncAD.md) |
 | T1552.002  | Unsecured Credentials | [Command](https://attack.mitre.org/datasources/DS001/), [Windows Registry](https://attack.mitre.org/datasources/DS0024) | [T1552.002 - REGISTRY Password Dumping](./ADS_forms/T1552.002-REGISTRYPasswordDumping.md)
 | T1555  | Credentials from Password Stores | [Command](https://attack.mitre.org/datasources/DS001/) | [T1555 - Credentials from Password Stores](./ADS_forms/T1555-CredentialsPasswordStores.md)
 | T1558.003 | Steal or Forge Kerberos Tickets | [Security Events](https://attack.mitre.org/datasources/DS0026/) | [T1558.003 - Kerberoasting](./ADS_forms/T1558.003-Kerberoasting.md)
+| T1557 | AiTM - Phishing logging | [Security Events](https://attack.mitre.org/datasources/DS0026/) | [T1557 - AiTM - Phishing logging](./ADS_forms/T1557-AiTM-PhishingLogging.md)
 
 
 
@@ -70,14 +73,15 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | ---  | --- | --- |--- |
 | T1016  | System Network Configuration Discovery | [Command](https://attack.mitre.org/datasources/DS0017/)  | [T1016-EnumerateNetworkTopology](./ADS_forms/T1016-EnumerateNetworkTopology.md)| 
 | T1033 | System Owner/User Discovery |[Command](https://attack.mitre.org/datasources/DS0017/)  | [T1033-Identify successful logons to the host](./ADS_forms/T1033-IdentifySuccessfulLogons.md)| 
-| T1082  | System Information Discovery | [Command](https://attack.mitre.org/datasources/DS0017/)  | [T1082_SystemInformationDiscovery](./ADS_forms/T1082-SystemInformationDiscovery.md)| 
+| T1082  | System Information Discovery | [TBA]()  | [T1082 - SystemInformationDiscovery](./ADS_forms/T1082-SystemInformationDiscovery.md)| 
 
 
 ## Lateral Movement
 
 | Technique ID | Title  | Data Source  | ADS |
 | ---  | --- | --- |--- |
-| T1021 | Lateral Movement - Remote Services | [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [T1021 - Lateral Movement Webservers](./ADS_forms/T1021-LateralMovementWebservers.md) |
+| T1021 | Lateral Movement - Remote Services | [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [T1021 Lateral Movement - Remote Services](./ADS_forms/T1021-LateralMovement-RemoteServices.md) |
+| T1021 | Lateral Movement - Webservers | [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [T1021 - Lateral Movement - Webservers](./ADS_forms/T1021-LateralMovement-Webservers.md) |
 
 
 ## Command and Control
@@ -91,15 +95,15 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 
 | Technique ID | Title  | Data Source  | ADS |
 | ---  | --- | --- |--- |
-| S0357 | Impacket | [Command](https://attack.mitre.org/datasources/DS0017/) | [S0357-ImpacketDirCommand](./ADS_forms/S0357-ImpacketDirCommand.md)
-| S0357 | Impacket | [Command](https://attack.mitre.org/datasources/DS0017/) | [S0357-ImpacketSecretDumpSMB2](./ADS_forms/S0357-ImpacketSecretdumpSMB2.md)
-| S0154 | Cobalt Strike |  [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [S0154-CobaltStrike_DNS](./ADS_forms/S0154-CobaltStrike_DNS.md) |
-| S0154 | Cobalt Strike |  [Named Pipe](https://attack.mitre.org/datasources/DS0023) | [S0154-CobaltStrike_NamedPipe](./ADS_forms/S0154-CobaltStrike_NamedPipe.md) |
+| S0357 | Impacket | [Command](https://attack.mitre.org/datasources/DS0017/) | [S0357 - ImpacketDirCommand](./ADS_forms/S0357-ImpacketDirCommand.md)
+| S0357 | Impacket | [Command](https://attack.mitre.org/datasources/DS0017/) | [S0357 - ImpacketSecretDumpSMB2](./ADS_forms/S0357-ImpacketSecretdumpSMB2.md)
+| S0154 | Cobalt Strike |  [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [S0154 - CobaltStrike_DNS](./ADS_forms/S0154-CobaltStrike_DNS.md) |
+| S0154 | Cobalt Strike |  [Named Pipe](https://attack.mitre.org/datasources/DS0023) | [S0154 - CobaltStrike_NamedPipe](./ADS_forms/S0154-CobaltStrike_NamedPipe.md) |
 | S0650 | QakBot | [Command](https://attack.mitre.org/datasources/DS0017/) | [Qakbot Post Compromise](./ADS_forms/S0650-QakbotPostCompromise.md) |
 | S0650 | QakBot | [Command](https://attack.mitre.org/datasources/DS0017/) | [Qakbot Process Execution](./ADS_forms/S0650-QakbotProcessExecution.md) |
 | S0650 | QakBot | [Command](https://attack.mitre.org/datasources/DS0017/) | [Qakbot Defender Exclusions](./ADS_forms/S0650-Qakbot-DefenderExclusions.md) |
 | S0521 | Bloodhound/Sharphound | [Command](https://attack.mitre.org/datasources/DS0017/) | [S0521 - Bloodhound/Sharphound Execution Commandlets](./ADS_forms/S0521-BloodHoundCommandlets.md) |
-
+| S0552 | AdFind | [Command](https://attack.mitre.org/datasources/DS0017/)  | [S0552 - AdFind Execution](./ADS_forms/S0552-AdFindExecution.md) |
 
 
 
