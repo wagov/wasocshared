@@ -1,6 +1,4 @@
 ### S0552 - AdFind Execution
-  
-
 
 ####  DESCRIPTION  
 Detects the use of Adfind. AdFind continues to be seen across majority of breaches. It is used to domain trust discovery to plan out subsequent steps in the attack chain.   
@@ -64,4 +62,4 @@ Legitimate administrative activity
 
 
 #### VERSION  
-Version 0.1 (date: 10/07/2023)  
+Version 1.0 (date: 10/07/2023)
