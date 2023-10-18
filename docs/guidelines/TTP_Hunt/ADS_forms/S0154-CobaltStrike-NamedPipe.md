@@ -1,4 +1,4 @@
-###  S0154 - Cobalt Strike NamedPipe
+###  S0154 - Cobalt Strike: NamedPipe
 
 ####  DESCRIPTION  
 Cobalt Strike is a famous Pen Test tool that is used by pen testers as well as attackers alike to compromise an environment. 
@@ -19,7 +19,7 @@ https://blog.cobaltstrike.com/2021/02/09/learn-pipe-fitting-for-all-of-your-offe
 https://redcanary.com/threat-detection-report/threats/cobalt-strike/  
 
 ####  ATT&CK TACTICS<br>
-[S0154](https://attack.mitre.org/software/S0154/)  
+{{mitre("S0154")}}
 
 Data Source(s): [Named Pipe](https://attack.mitre.org/datasources/DS0023)  
 
@@ -38,4 +38,4 @@ DeviceEvents
 
 
 #### VERSION
-Version 0.1 (date: 10/07/2023)
+Version 1.0 (date: 10/07/2023)

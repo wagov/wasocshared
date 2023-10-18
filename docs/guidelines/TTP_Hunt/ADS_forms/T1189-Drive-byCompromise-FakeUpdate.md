@@ -19,7 +19,7 @@ https://www.cybereason.com/blog/threat-analysis-report-socgholish-and-zloader-fr
 
 #### ATT&CK TACTICS  
 
-T1189   
+{{ mitre("T1189") }}   
 
 Data Source(s): [File](https://attack.mitre.org/datasources/DS0022/)  
 

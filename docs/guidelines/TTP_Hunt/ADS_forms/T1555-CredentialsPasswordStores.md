@@ -1,4 +1,4 @@
-### T1555 Credentials from Password Stores     
+### T1555 - Credentials from Password Stores     
   
 
 ####  DESCRIPTION  
@@ -18,7 +18,7 @@ reg save hklm\sam ss.dat
 reg save hklm\system sy.dat    
 
 
-**Related** \
+**Related**   
 Volt Typhoon     
 
 
@@ -27,7 +27,7 @@ https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a
 
 
 ####  ATT&CK TACTICS    
-T1555    
+{{ mitre("T1555")}}    
 
 Data Source(s): [Command](https://attack.mitre.org/datasources/DS001/)  
 
@@ -59,4 +59,4 @@ find where (InitiatingProcessCommandLine has_all (c1) or ProcessCommandLine has_
 
 
 #### VERSION  
-Version 0.1 (date: 10/07/2023)  
+Version 1.0 (date: 10/07/2023)  

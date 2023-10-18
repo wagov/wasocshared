@@ -16,7 +16,7 @@ https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-liv
 
 
 ####  ATT&CK TACTICS<br>
-[T1090](https://attack.mitre.org/techniques/T1090/)    
+{{ mitre("T1090")}}    
 
 Data Source(s): [Process](https://attack.mitre.org/datasources/DS0009/), [Command](https://attack.mitre.org/datasources/DS0017/)
 
@@ -33,4 +33,4 @@ find where InitiatingProcessCommandLine has_all (c1) or ProcessCommandLine has_a
 
 
 #### VERSION
-Version 0.1 (date: 10/07/2023)
+Version 1.0 (date: 10/07/2023)

@@ -18,7 +18,7 @@ dclist – Dumps Domain Controllers FQDNs.
 computers_pwdnotreqd – Dumps users set with password not required.   
 
 
-**Related** \
+**Related**  
 common tool           
 
 
@@ -29,7 +29,8 @@ https://thedfirreport.com/2021/01/11/trickbot-still-alive-and-well/
 
 
 ####  ATT&CK TACTICS  
-	S0552
+{{mitre("S0552")}}  
+
 	- attack.discovery
     - attack.t1018
     - attack.t1087.002
