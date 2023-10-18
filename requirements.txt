@@ -3,4 +3,3 @@ mkdocs-redirects
 mkdocs-macros-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-linkcheck
-beautifulsoup4

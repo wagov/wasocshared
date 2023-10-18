@@ -2,7 +2,8 @@ import os
 from pathlib import Path
 from itertools import groupby
 from dateutil.parser import parse
-
+import requests
+from bs4 import BeautifulSoup
 
 def define_env(env):
     """
