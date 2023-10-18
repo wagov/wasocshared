@@ -17,7 +17,7 @@ https://www.trendmicro.com/en_au/research/22/j/black-basta-infiltrates-networks-
 
 
 ####  ATT&CK TACTICS
-S0650
+{{mitre("S0650")}}
 
 Data source - Command  
 

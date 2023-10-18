@@ -16,7 +16,7 @@ https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a
 https://github.com/Azure/Azure-Sentinel/blob/3833100de05ce61d6972c43dd5af7b9706e4674c/Solutions/Windows%20Security%20Events/Hunting%20Queries/CommandsexecutedbyWMIonnewhosts-potentialImpacket.yaml#L21    
 
 ####  ATT&CK TACTICS<br>
-S0357    
+{{mitre("S0357")}}    
 
 Data Source(s): [Process](https://attack.mitre.org/datasources/DS0009/), [Command](https://attack.mitre.org/datasources/DS0017/)  
 

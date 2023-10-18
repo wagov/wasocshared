@@ -49,12 +49,28 @@ def define_env(env):
         return "\n".join(mdtext)
 
 
+    def getCategory(mitreID):
+        category = mitreID[:1]
+
+        if (category == "T"):
+            return f"techniques"
+        elif (category == "S"):
+            return "software"
+        elif (category == "G"):
+            return "groups"
+        elif (category == "C"):
+            return "campaigns"
+        else:
+            return None
+
     @env.macro
-    def mitre(techId):
+    def mitre(mitreId):
 
         try: 
-            techRef = techId.replace(".","/") # Prep for url
-            url = "https://attack.mitre.org/techniques/"+techRef+"/"
+            techRef = mitreId.replace(".","/") # Prep for url
+            category = getCategory(mitreId)
+            url = f"https://attack.mitre.org/{category}/{techRef}/"
+
             response = requests.get(url)
 
             if response.status_code == 200:
@@ -67,13 +83,13 @@ def define_env(env):
                 heading = [element.get_text() for element in desired_elements]
 
                 # Combine the technique ID with the technique heading
-                combinedText = ''.join(techId) + ' -' + ''.join(heading)
+                combinedText = ''.join(mitreId) + ' -' + ''.join(heading)
 
                 # Return it as a link
                 return f"[{combinedText}]({url})"
             
             else:
-                return f"Failed to fetch content from the {techId}. Status code: {response.status_code}"
+                return f"Failed to fetch content from the {mitreId}. Status code: {response.status_code}"
             
         except Exception as e:
-            return f"An error occurred while fetching content from {techId}: {str(e)}"
+            return f"An error occurred while fetching content from {mitreId}: {str(e)}"
