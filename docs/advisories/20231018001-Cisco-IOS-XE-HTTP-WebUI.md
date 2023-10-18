@@ -22,12 +22,10 @@ The WASOC has been made aware that this vulnerability is currently be actively e
 
 Cisco strongly recommends that customers disable the HTTP Server feature on all internet-facing systems. To disable the HTTP Server feature, use the no ip http server or no ip http secure-server command in global configuration mode. If both the HTTP server and HTTPS server are in use, both commands are required to disable the HTTP Server feature.
 
-**Cisco will provide updates on the status of this investigation and when a software patch is available.**
-
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month* (refer [Patch Management](../guidelines/patch-management.md)):
-
 - [Cisco Security Advisory](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z)
+
+**Cisco will provide updates on the status of this investigation and when a software patch is available.**
 
 ## Additional References
 
-The WASOC has previously provided an advisory and patch related to [Cisco IOS VPN services](https://soc.cyber.wa.gov.au/advisories/20231011004-Cisco-IOS-Software-Out-of-Bounds-Write-Vulnerability/)
+The WASOC has previously provided an advisory related to [Cisco IOS VPN services](https://soc.cyber.wa.gov.au/advisories/20231011004-Cisco-IOS-Software-Out-of-Bounds-Write-Vulnerability/)
