@@ -1,4 +1,4 @@
-###  S0154 - Cobalt Strike DNS Beaconing
+###  S0154 - Cobalt Strike: DNS Beaconing
 
 ####  DESCRIPTION  
 Cobalt Strike is a famous Pen Test tool that is used by pen testers as well as attackers alike to compromise an environment. 
@@ -21,7 +21,7 @@ https://blog.gigamon.com/2017/07/26/footprints-of-fin7-tracking-actor-patterns-p
 
 
 ####  ATT&CK TACTICS<br>
-[S0154](https://attack.mitre.org/software/S0154/)  
+{{ mitre("S0154")}} 
 
 Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029)
 
@@ -52,7 +52,7 @@ let badNames = dynamic(["aaa.stage","baa.stage","caa.stage", "post.1"]);
 
 
 #### VERSION
-Version 0.1 (date: 10/07/2023)
+Version 1.0 (date: 10/07/2023)
 
 
 

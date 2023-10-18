@@ -46,3 +46,33 @@ def define_env(env):
                 if month_count > include:
                     break
         return "\n".join(mdtext)
+
+
+    @env.macro
+    def mitre(techId):
+
+        try: 
+            techRef = techId.replace(".","/") # Prep for url
+            url = "https://attack.mitre.org/techniques/"+techRef+"/"
+            response = requests.get(url)
+
+            if response.status_code == 200:
+                bsoup = BeautifulSoup(response.text, 'html.parser')
+
+                #Find the technique heading and retrieve content
+                desired_elements = bsoup.find_all('h1')
+
+                # Get the text bit from the list without the HTML tags
+                heading = [element.get_text() for element in desired_elements]
+
+                # Combine the technique ID with the technique heading
+                combinedText = ''.join(techId) + ' -' + ''.join(heading)
+
+                # Return it as a link
+                return f"[{combinedText}]({url})"
+            
+            else:
+                return f"Failed to fetch content from the {techId}. Status code: {response.status_code}"
+            
+        except Exception as e:
+            return f"An error occurred while fetching content from {techId}: {str(e)}"

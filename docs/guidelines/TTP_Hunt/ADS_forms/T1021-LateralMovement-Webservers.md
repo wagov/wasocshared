@@ -9,7 +9,7 @@ Detects lateral movement activity of webservers onto core systems.
 NA    
 
 
-**Related** \
+**Related**  
 NA        
 
 
@@ -18,7 +18,7 @@ NA
 
 
 ####  ATT&CK TACTICS    
-T1003.001    
+{{ mitre("T1003.001")}}    
 
 Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029)  
 

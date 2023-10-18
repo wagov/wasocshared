@@ -1,4 +1,4 @@
-### T1190 - webshell by suspicious URI requests   
+### T1190 - Webshell by suspicious URI requests   
   
 
 ####  DESCRIPTION  
@@ -11,7 +11,7 @@ NA
 
 
 
-**Related** \
+**Related**  
 common persistance        
 
 
@@ -20,7 +20,7 @@ https://attack.mitre.org/techniques/T1505/003/
 https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/W3CIISLog/RareClientFileAccess.yaml   
 
 ####  ATT&CK TACTICS  
-T1190   
+{{ mitre("T1190")}}   
 
 Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029/)   
 
@@ -57,4 +57,4 @@ unknown
 
 
 #### VERSION  
-Version 0.1 (date: 10/07/2023)  
+Version 1.0 (date: 10/07/2023)  

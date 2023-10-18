@@ -16,7 +16,8 @@ https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigatin
 https://github.com/GossiTheDog/ThreatHunting/blob/867aaa3e1ea996c5f19f5262f2f4b70e08c9ac37/AzureSentinel/Successful-AITM-Phishing-Login 
 
 ####  ATT&CK TACTICS  
-T1557, T1111
+{{ mitre("T1557")}}   
+{{ mitre("T1111")}}
 
 Data Source(s): TBA
 
