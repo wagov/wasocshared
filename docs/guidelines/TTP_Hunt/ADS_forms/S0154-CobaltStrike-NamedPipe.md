@@ -19,7 +19,7 @@ https://blog.cobaltstrike.com/2021/02/09/learn-pipe-fitting-for-all-of-your-offe
 https://redcanary.com/threat-detection-report/threats/cobalt-strike/  
 
 ####  ATT&CK TACTICS<br>
-{{ mitre("S0154")}} 
+S0154
 
 Data Source(s): [Named Pipe](https://attack.mitre.org/datasources/DS0023)  
 

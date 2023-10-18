@@ -17,7 +17,7 @@ https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a
 https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Attacker%20Tools%20Threat%20Protection%20Essentials/Hunting%20Queries/PotentialImpacketExecution.yaml  
 
 ####  ATT&CK TACTICS<br>
-{{ mitre("S0357")}}  
+S0357 
 
 Data Source(s): [Process](https://attack.mitre.org/datasources/DS0009/), [Command](https://attack.mitre.org/datasources/DS0017/)
 

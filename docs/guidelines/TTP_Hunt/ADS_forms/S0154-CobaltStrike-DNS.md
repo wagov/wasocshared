@@ -21,7 +21,7 @@ https://blog.gigamon.com/2017/07/26/footprints-of-fin7-tracking-actor-patterns-p
 
 
 ####  ATT&CK TACTICS<br>
-{{ mitre("S0154")}} 
+S0154
 
 Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029)
 

@@ -1,4 +1,4 @@
-### Title - Qakbot - process executions
+### S0650 - Qakbot: Process executions
 
 ####  DESCRIPTION  
 Detects potential QBot activity by looking for process executions used previously by QBot  
@@ -15,7 +15,7 @@ https://www.trendmicro.com/en_au/research/22/j/black-basta-infiltrates-networks-
 
 
 ####  ATT&CK TACTICS
-{{ mitre("S0650")}}
+S0650
 
 Data source - Command  
 

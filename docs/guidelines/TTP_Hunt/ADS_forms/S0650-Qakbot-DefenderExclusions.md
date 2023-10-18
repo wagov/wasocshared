@@ -1,4 +1,4 @@
-### Title - S0650 Qakbot - Defender Exclusions  
+### S0650 - Qakbot: Defender Exclusions  
 
 
 ####  DESCRIPTION  
