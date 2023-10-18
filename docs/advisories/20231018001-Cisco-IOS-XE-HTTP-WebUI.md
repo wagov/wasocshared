@@ -1,4 +1,4 @@
-# Cisco IOS and IOS XE Group Encrypted Transport VPN Out-of-Bounds Write Vulnerability - 20231018001
+# Cisco IOS and IOS XE HTTP WebUI - 20231018001
 
 ## Overview
 
