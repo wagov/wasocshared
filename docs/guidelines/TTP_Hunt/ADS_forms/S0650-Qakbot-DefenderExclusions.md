@@ -1,4 +1,4 @@
-### Title - S0650 Qakbot - Defender Exclusions  
+### S0650 - Qakbot: Defender Exclusions  
 
 
 ####  DESCRIPTION  
@@ -16,7 +16,7 @@ https://github.com/SigmaHQ/sigma/blob/4de6102dc7d94c9ee70995aeea27b77184d62c35/r
 https://thedfirreport.com/2022/02/07/qbot-likes-to-move-it-move-it/     
 
 ####  ATT&CK TACTICS  
-T1562.001  
+{{ mitre("T1562.001")}}  
 
 Data source - Command  
 
@@ -31,4 +31,4 @@ find where InitiatingProcessCommandLine has_any (c1) or ProcessCommandLine has_a
 1. Inspect commands to identify Qbot activity     
 
 ####  Version   
-Version 0.1 (date 5/7/2023)   
+Version 1.0 (date 5/7/2023)   

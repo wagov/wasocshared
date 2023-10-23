@@ -17,7 +17,7 @@ https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a
 https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Attacker%20Tools%20Threat%20Protection%20Essentials/Hunting%20Queries/PotentialImpacketExecution.yaml  
 
 ####  ATT&CK TACTICS<br>
-[S0357](https://attack.mitre.org/software/S0357/)    
+{{mitre("S0357")}} 
 
 Data Source(s): [Process](https://attack.mitre.org/datasources/DS0009/), [Command](https://attack.mitre.org/datasources/DS0017/)
 
@@ -38,4 +38,4 @@ find where (EventID == 5145 and RelativeTargetName has 'SYSTEM32' and RelativeTa
 
 
 #### VERSION
-Version 0.1 (date: 10/07/2023)  
+Version 1.0 (date: 10/07/2023)  

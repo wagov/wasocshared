@@ -2,7 +2,8 @@ import os
 from pathlib import Path
 from itertools import groupby
 from dateutil.parser import parse
-
+import requests
+from bs4 import BeautifulSoup
 
 def define_env(env):
     """
@@ -46,3 +47,49 @@ def define_env(env):
                 if month_count > include:
                     break
         return "\n".join(mdtext)
+
+
+    def getCategory(mitreID):
+        category = mitreID[:1]
+
+        if (category == "T"):
+            return f"techniques"
+        elif (category == "S"):
+            return "software"
+        elif (category == "G"):
+            return "groups"
+        elif (category == "C"):
+            return "campaigns"
+        else:
+            return None
+
+    @env.macro
+    def mitre(mitreId):
+
+        try: 
+            techRef = mitreId.replace(".","/") # Prep for url
+            category = getCategory(mitreId)
+            url = f"https://attack.mitre.org/{category}/{techRef}/"
+
+            response = requests.get(url)
+
+            if response.status_code == 200:
+                bsoup = BeautifulSoup(response.text, 'html.parser')
+
+                #Find the technique heading and retrieve content
+                desired_elements = bsoup.find_all('h1')
+
+                # Get the text bit from the list without the HTML tags
+                heading = [element.get_text() for element in desired_elements]
+
+                # Combine the technique ID with the technique heading
+                combinedText = ''.join(mitreId) + ' -' + ''.join(heading)
+
+                # Return it as a link
+                return f"[{combinedText}]({url})"
+            
+            else:
+                return f"Failed to fetch content from the {mitreId}. Status code: {response.status_code}"
+            
+        except Exception as e:
+            return f"An error occurred while fetching content from {mitreId}: {str(e)}"

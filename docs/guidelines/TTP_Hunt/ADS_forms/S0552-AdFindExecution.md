@@ -1,6 +1,4 @@
 ### S0552 - AdFind Execution
-  
-
 
 ####  DESCRIPTION  
 Detects the use of Adfind. AdFind continues to be seen across majority of breaches. It is used to domain trust discovery to plan out subsequent steps in the attack chain.   
@@ -20,7 +18,7 @@ dclist – Dumps Domain Controllers FQDNs.
 computers_pwdnotreqd – Dumps users set with password not required.   
 
 
-**Related** \
+**Related**  
 common tool           
 
 
@@ -31,7 +29,8 @@ https://thedfirreport.com/2021/01/11/trickbot-still-alive-and-well/
 
 
 ####  ATT&CK TACTICS  
-	S0552
+{{mitre("S0552")}}  
+
 	- attack.discovery
     - attack.t1018
     - attack.t1087.002
@@ -64,4 +63,4 @@ Legitimate administrative activity
 
 
 #### VERSION  
-Version 0.1 (date: 10/07/2023)  
+Version 1.0 (date: 10/07/2023)

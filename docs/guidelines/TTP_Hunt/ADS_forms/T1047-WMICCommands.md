@@ -1,4 +1,4 @@
-### T1047 WMIC Commands
+### T1047 - WMIC Commands
 
 ####  DESCRIPTION  
 The actor has executed WMIC commands to create a copy of the ntds.dit file and SYSTEM registry.   
@@ -16,7 +16,7 @@ https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-liv
 https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/
 
 ####  ATT&CK TACTICS
-T1047  
+{{ mitre("T1047") }}  
 
 Data source - [Command](https://attack.mitre.org/datasources/DS0017)
 
@@ -32,4 +32,4 @@ find where InitiatingProcessCommandLine has_all (c1) or ProcessCommandLine has_a
 2. Question the user if the activity was expected and approved  
 
 #### Version
-Version 0.1 (date 5/7/2023)
+Version 1.0 (date 5/7/2023)

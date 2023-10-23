@@ -8,7 +8,7 @@ Detects BloodHound activity in commandlines. Bloodhound is and Active Directory 
  
 
 
-**Related** \
+**Related**  
 Bloodhound/Sharphound       
 
 
@@ -17,7 +17,7 @@ https://github.com/SigmaHQ/sigma/blob/cf29e28a54daa9d52f7d1a5996f023e2d08cde84/r
 
 
 ####  ATT&CK TACTICS  
-[S0521](https://attack.mitre.org/software/S0521/)    
+{{mitre("S0521")}}      
 
 Data Source(s): [Command](https://attack.mitre.org/datasources/DS001/)
 
@@ -41,4 +41,4 @@ Data Source(s): [Command](https://attack.mitre.org/datasources/DS001/)
 
 
 #### VERSION  
-Version 0.1 (date: 10/07/2023)  
+Version 1.0 (date: 10/07/2023)  

@@ -1,4 +1,4 @@
-### Title - Qakbot - post compromise commands
+### S0650 - Qakbot: Post compromise commands
 
 ####  DESCRIPTION  
 Detect when multiple Qakbot post compromise commands have been executed  
@@ -17,7 +17,7 @@ https://www.trendmicro.com/en_au/research/22/j/black-basta-infiltrates-networks-
 
 
 ####  ATT&CK TACTICS
-S0650
+{{mitre("S0650")}}
 
 Data source - Command  
 
@@ -35,4 +35,4 @@ find where InitiatingProcessCommandLine in (c1) or ProcessCommandLine in (c1) or
 
 
 ####  Version  
-Version 0.1 (date 5/7/2023)  
+Version 1.0 (date 5/7/2023)  
