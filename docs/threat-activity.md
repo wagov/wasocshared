@@ -2,7 +2,7 @@
 
 {{ date_index("docs/advisories/*.md", prefix="advisories/", expand=1, include=2) }}
 
-## WA SOC - Recent Threat Activity (Aug 2023)
+## WA SOC - Recent Threat Activity (September 2023)
 
 Based on recent high impact incidents seen by the WA SOC, security teams should be focusing on the below areas of improvement:
 
@@ -14,10 +14,8 @@ Based on recent high impact incidents seen by the WA SOC, security teams should 
 
 Recent WA SOC advisories this month worth staying across include:
 
-- [Downfall and Zenbleed - Modern Processor Attacks](https://soc.cyber.wa.gov.au/advisories/20230810001-Downfall-and-Zenbleed-Processor-Attacks/)
-- [Secure Cloud Business Applications (SCuBA) Project](https://soc.cyber.wa.gov.au/advisories/20230809004-SCuBA-Recommendations/)
-- [Sophisticated network attacks and guidance for agencies](https://soc.cyber.wa.gov.au/advisories/20230816001-Sophisticated-Network-Attacks-and-Guidance/)
-- [Results of Major Technical Investigations for Storm-0558 Key Acquisition ](https://msrc.microsoft.com/blog/2023/09/results-of-major-technical-investigations-for-storm-0558-key-acquisition/)
+- [Increased BEC activity](https://soc.cyber.wa.gov.au/advisories/20231012002-Awareness-BEC-Increased-Activity/)
+- [QRCode Phishing](https://soc.cyber.wa.gov.au/advisories/20230922003-Increase-in-QR-Code-Phishing-Technique/)
 
 Agencies should review [ACSC's Questions to Ask Managed Service Providers](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/managed-services/questions-ask-managed-service-providers), especially service providers managing their **network**, **compute** and **file/email (Microsoft 365)** resources. A supporting extract from page 16 and 17 of the [NIST CSF 2.0 Initial Public Draft](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.ipd.pdf) is below, identifying what should be addressed as part of procurement and contract management.
 
@@ -29,7 +27,7 @@ Agencies should review [ACSC's Questions to Ask Managed Service Providers](https
     - **Respond:** Executing incident response plans when compromised products or services are involved [RS.MA-01]
     - **Recover:** Executing the recovery portion of the organization’s incident response plan when compromised products or services are involved [RC.RP-01], and restoring compromised products or services and verifying their integrity [RC.RP-05]
 
-Additionally agencies should prioritise remediating vulnerabilities in any internet-facing **remote access** services due to ongoing threat activity. If you were affected by the [LastPass breach](https://soc.cyber.wa.gov.au/advisories/20221223001-Lastpass-breach-update/) last year, please also review [Experts Fear Crooks are Cracking Keys Stolen in LastPass Breach](https://krebsonsecurity.com/2023/09/experts-fear-crooks-are-cracking-keys-stolen-in-lastpass-breach/).
+Additionally agencies should prioritise remediating vulnerabilities in any internet-facing **remote access** services due to ongoing threat activity.
 
 **Phishing activity remains high** across all organisations with multiple incidents detected weekly. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
 

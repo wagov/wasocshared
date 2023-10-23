@@ -1,4 +1,4 @@
-### T1021 Lateral Movement - Remote Services   
+### T1021 - Lateral Movement - Remote Services   
   
 
 ####  DESCRIPTION  
@@ -9,7 +9,7 @@ Detects lateral movement activity of webservers onto core systems.
     
 
 
-**Related** \
+**Related**  
         
 
 
@@ -18,7 +18,7 @@ https://attack.mitre.org/techniques/T1021/
 
 
 ####  ATT&CK TACTICS    
-T1003.001    
+{{ mitre("T1003.001")}}    
 
 Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029)  
 
@@ -43,4 +43,4 @@ DeviceNetworkEvents
 
 
 #### VERSION  
-Version 0.1 (date: 10/07/2023)  
+Version 1.0 (date: 10/07/2023)  

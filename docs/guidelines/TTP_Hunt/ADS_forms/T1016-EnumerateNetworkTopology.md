@@ -15,7 +15,7 @@ https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-liv
 https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/
 
 ####  ATT&CK TACTICS
-T1016  
+{{ mitre("T1016")}}  
 
 Data source - [Command](https://attack.mitre.org/datasources/DS0017)
 
@@ -33,4 +33,4 @@ InitiatingProcessCommandLine has_all (c2) or ProcessCommandLine has_all (c2) or 
 2. Question the user if the activity was expected and approved  
 
 #### Version
-Version 0.1 (date 5/7/2023)
+Version 1.0 (date 5/7/2023)
