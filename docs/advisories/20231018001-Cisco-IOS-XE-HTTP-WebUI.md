@@ -23,6 +23,7 @@ The WASOC has been made aware that this vulnerability is currently be actively e
 Cisco strongly recommends that customers disable the HTTP Server feature on all internet-facing systems. To disable the HTTP Server feature, use the no ip http server or no ip http secure-server command in global configuration mode. If both the HTTP server and HTTPS server are in use, both commands are required to disable the HTTP Server feature.
 
 - [Cisco Security Advisory](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z)
+- [CISA Guidance - Addressing Cisco IOS WebUI vulnerabilities](https://www.cisa.gov/guidance-addressing-cisco-ios-xe-web-ui-vulnerabilities)
 
 **Cisco will provide updates on the status of this investigation and when a software patch is available.**
 
