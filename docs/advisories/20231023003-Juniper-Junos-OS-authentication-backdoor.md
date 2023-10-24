@@ -1,4 +1,4 @@
-# Juniper JunoOS authentication backdoor - 20231023003
+# Juniper Junos OS authentication backdoor - 20231023003
 
 ## Overview
 
