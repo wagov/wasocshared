@@ -18,9 +18,7 @@ The vulnerability affects the following products:
 
 - Cisco IOS XE Software with the web UI feature enabled.
 
-
-**Products Confirmed Not Vulnerable**  
-
+**Products Confirmed Not Vulnerable**
 Cisco has confirmed that these vulnerabilities do not affect the following Cisco products:
 
 - Adaptive Security Appliance (ASA) Software
@@ -28,7 +26,6 @@ Cisco has confirmed that these vulnerabilities do not affect the following Cisco
 - IOS Software
 - IOS XE Software prior to Release 16
 - NX-OS Software
-
 
 ## Recommendation
 
@@ -48,12 +45,9 @@ IOS XE Software Maintenance Upgrade (SMU):
 | 17.9                                    | 17.9.4           | Yes               |
 | 17.6                                    | 17.6.5           | TBD               |
 
-
 Cisco strongly recommends that customers disable the HTTP Server feature on all internet-facing systems or restrict its access to trusted source addresses. To disable the HTTP Server feature, use the no ip http server or no ip http secure-server command in global configuration mode. If both the HTTP server and HTTPS server are in use, both commands are required to disable the HTTP Server feature.
 
-
 ***Note***: A list of IOC's (Indicators of Compromise) provided in [Cisco's advisory](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z) that can be used to determine if a system have been compromised.
-
 
 ## Additional References
 
