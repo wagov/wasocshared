@@ -8,7 +8,7 @@ Citrix has released multiple updates to address critical vulnerabilities in ADC,
 
 Vulnerabilities in **NetScaler ADC and NetScaler Gateway**:
 
-- [**CVE-2023-4966**](https://nvd.nist.gov/vuln/detail/CVE-2023-4966) - CVSS v3 Base Score: ***8.4*** - Denial of service
+- [**CVE-2023-4966**](https://nvd.nist.gov/vuln/detail/CVE-2023-4966) - CVSS v3 Base Score: ***9.4*** - Denial of service
 
 - [**CVE-2023-4967**](https://nvd.nist.gov/vuln/detail/CVE-2023-4967) - CVSS v3 Base Score: ***8.2*** - Denial of service
 
