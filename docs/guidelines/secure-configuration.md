@@ -12,7 +12,7 @@ A backup of tenant configuration should be taken each month with [Microsoft365DS
 
 A tool to review tenant configuration such as the [CISA ScubaGear M365 Secure Configuration Baseline Assessment Tool](https://github.com/cisagov/ScubaGear) should be run against all tenants at least quarterly with results reviewed and retained for 12 months to guide policy remediations and improvements.
 
-![Microsoft365DSC Export UI](https://microsoft365dsc.com/Images/ExportUI.png)
+![Microsoft365DSC Export](https://microsoft365dsc.com/Images/Marketing-Export.gif)
 ![SCuBA Architecture diagram](https://github.com/cisagov/ScubaGear/raw/main/images/scuba-architecture.png)
 
 ### Enhanced validation of endpoint configuration
