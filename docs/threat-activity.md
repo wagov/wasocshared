@@ -11,7 +11,7 @@ Based on recent high impact incidents seen by the WA SOC, security teams should 
     - [Preventing Web Application Access Control Abuse](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/preventing-web-application-access-control-abuse)
     - [Distributed Denial-of-Service (DDoS) Controls](https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/governance/preparing-and-responding-denial-of-service-attacks)
     - [How to Combat Fake Emails](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/how-combat-fake-emails)
-    - [How to detect and response to QRCode Phishing - "Quishing"](https://www.cyber.gov.au/learn-basics/explore-basics/watch-out-threats/quishing)
+    - [What is QRCode Phishing - "Quishing"](https://www.cyber.gov.au/learn-basics/explore-basics/watch-out-threats/quishing)
 
 Recent WA SOC advisories this month worth staying across include:
 
