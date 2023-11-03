@@ -2,22 +2,24 @@
 
 {{ date_index("docs/advisories/*.md", prefix="advisories/", expand=1, include=2) }}
 
-## WA SOC - Recent Threat Activity (September 2023)
+## WA SOC - Recent Threat Activity (October 2023)
 
 Based on recent high impact incidents seen by the WA SOC, security teams should be focusing on the below areas of improvement:
 
 !!! warning "ACSC Guidance targeted on recent threat activity"
 
-    - [2022 Top Routinely Exploited Vulnerabilities](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/2022-top-routinely-exploited-vulnerabilities)
     - [Preventing Web Application Access Control Abuse](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/preventing-web-application-access-control-abuse)
+    - [Distributed Denial-of-Service (DDoS) Controls](https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/governance/preparing-and-responding-denial-of-service-attacks)
     - [How to Combat Fake Emails](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/how-combat-fake-emails)
+    - [What is QRCode Phishing - "Quishing"](https://www.cyber.gov.au/learn-basics/explore-basics/watch-out-threats/quishing)
 
 Recent WA SOC advisories this month worth staying across include:
 
 - [Increased BEC activity](https://soc.cyber.wa.gov.au/advisories/20231012002-Awareness-BEC-Increased-Activity/)
 - [QRCode Phishing](https://soc.cyber.wa.gov.au/advisories/20230922003-Increase-in-QR-Code-Phishing-Technique/)
+- [Cisco IOS Web Vulnerabilities](https://soc.cyber.wa.gov.au/advisories/20231027004-Multiple-Vulnerabilities-in-Cisco-IOS-XE-Software-Web-UI-Feature/)
 
-Agencies should review [ACSC's Questions to Ask Managed Service Providers](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/managed-services/questions-ask-managed-service-providers), especially service providers managing their **network**, **compute** and **file/email (Microsoft 365)** resources. A supporting extract from page 16 and 17 of the [NIST CSF 2.0 Initial Public Draft](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.ipd.pdf) is below, identifying what should be addressed as part of procurement and contract management.
+Agencies should review [ACSC's Questions to Ask Managed Service Providers](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/managed-services/questions-ask-managed-service-providers), especially service providers managing their **network**, **compute** and **file/email (Microsoft 365)** resources. A supporting extract from page 16 and 17 of the [NIST CSF 2.0 Initial Public Draft](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.ipd.pdf) is below, identifying what should be addressed as part of procurement and **contract management**.
 
 !!! note "Managing Cybersecurity Risk in Supply Chains (NIST)"
 
