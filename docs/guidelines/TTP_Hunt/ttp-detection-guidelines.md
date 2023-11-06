@@ -85,7 +85,7 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | Technique ID | Title  | Data Source  | ADS |
 | ---  | --- | --- |--- |
 | T1021 | Lateral Movement - Remote Services | [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [Lateral Movement - Remote Services](./ADS_forms/T1021-LateralMovement-RemoteServices.md) |
-| T1021 | Lateral Movement - Webservers | [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [Lateral Movement - Webservers](./ADS_forms/T1021-LateralMovement-Webservers.md) |
+<!-- | T1021 | Lateral Movement - Webservers | [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [Lateral Movement - Webservers](./ADS_forms/T1021-LateralMovement-Webservers.md) | -->
 
 
 ## Command and Control
