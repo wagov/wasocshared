@@ -4,10 +4,12 @@ This site contains technical information to support WA Government Cyber Security
 
 ## WA Security Operations Centre (WA SOC)
 
-- [Connecting to the WA SOC](onboarding.md)
+- [Connecting to the WA SOC](onboarding.md) ([Sentinel Guidance](onboarding/sentinel-guidance.md))
 - [Advisories (TLP:CLEAR)](advisories.md)
 - [Incident Reporting User Guide (Jira)](guidelines/incident-reporting.md)
+- [Threat Hunting (MITRE ATT&CK Tactics and Techniques)](guidelines/TTP_Hunt/ttp-detection-guidelines.md)
 - [ACSC Essential Eight Assessment Process Guide](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide)
+
 
 ## Baselines & Guidelines
 
