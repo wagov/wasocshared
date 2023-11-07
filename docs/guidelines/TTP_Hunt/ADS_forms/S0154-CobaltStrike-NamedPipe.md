@@ -28,7 +28,7 @@ Data Source(s): [Named Pipe](https://attack.mitre.org/datasources/DS0023)
 
 ~~~
 let selection_MSSE = dynamic([@'\MSSE-', '-server']);
-let selection_Pipename = dynamic(['\\\\postex_', '\\\\status_', '\\\\msagent_', '\\\\mojo_', '\\\\interprocess_', '\\\\samr_', '\\\\netlogon_', '\\\\srvsvc_', '\\\\lsarpc_', '\\\\wkssvc_']); // Also include the pipe "\postex_ssh_"
+let selection_Pipename = dynamic(['\\postex_', '\\status_', '\\msagent_', '\\mojo_', '\\interprocess_', '\\samr_', '\\netlogon_', '\\srvsvc_', '\\lsarpc_', '\\wkssvc_']); // Also include the pipe "\postex_ssh_"
 DeviceEvents
 | where ActionType == "NamedPipeEvent"
 | extend FileOperation_ = tostring(AdditionalFields.FileOperation)

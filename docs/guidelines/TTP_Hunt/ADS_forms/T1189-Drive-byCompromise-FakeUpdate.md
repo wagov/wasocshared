@@ -4,7 +4,7 @@
 
 Detects the existence of FakeUpdate .zip file, commonly associated with SocGholish malware family. Javascript file (.js) is usually hidden inside the .zip file  
 
-**example:**  
+**Example:**  
 Edge.6ebddd.zip
 Edge.7a859a.zip
 

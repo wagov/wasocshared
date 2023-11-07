@@ -3,9 +3,9 @@
 ####  DESCRIPTION  
 Detects commands that are used to enumerate the network topology.
 
-**example:**  
-curl www<.>ip-api<.>com   
-ldifde.exe -f c:\windows\temp\cisco_up.txt -p subtree  
+**Example:**  
+> curl www<.>ip-api<.>com   
+> ldifde.exe -f c:\windows\temp\cisco_up.txt -p subtree  
 
 **Related**  
 Volt Typhoon activity
