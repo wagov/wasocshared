@@ -21,9 +21,11 @@ Baselines are for use as self-assessment checklists, and guidelines are for gene
     - [Detection Coverage Baseline](baselines/data-sources.md) - *[telemetry collection](https://attack.mitre.org/datasources/)* and *[detection analytics](https://attack.mitre.org)* aligned to the [MITRE ATT&CK Framework](https://attack.mitre.org).
     - [Vulnerability Management Baseline](baselines/vulnerability-management.md) - focused on undertaking operational **Identify** and **Protect** capabilities.
 
-!!! danger "Critical Infrastructure Entities"
+!!! danger "Critical Infrastructure Entities and Operational Technology"
 
-    The [CISA Cross-Sector Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) detail very effective network and server hardening controls that are a highly valuable addition to the ACSC Essential 8, especially for entities in scope of [SOCI regulatory obligations](https://www.cisc.gov.au/legislative-information-and-reforms/critical-infrastructure/regulatory-obligations).
+    The [CISA Cross-Sector Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) are clear targeted recommendations focusing on most common and impactful threats, including cost, complexity and impact ratings against each recommendation. These are highly relevant targets for entities in scope of [SOCI regulatory obligations](https://www.cisc.gov.au/legislative-information-and-reforms/critical-infrastructure/regulatory-obligations).
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/W6Cu0xa8kds?si=2ycn8UBxaG1uXJGd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 !!! tip "Guidelines"
 
