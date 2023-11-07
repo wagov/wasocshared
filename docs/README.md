@@ -16,6 +16,9 @@ Baselines are for use as self-assessment checklists, and guidelines are for gene
 !!! abstract "Baselines"
 
     The WA SOC has developed a [Baseline for Event Ingestion](baselines/data-sources.md). It's currently under review to align with [MITRE ATT&CK®](https://attack.mitre.org) and develop detection coverage/quality into a standalone baseline. See [MITRE Data Sources](https://attack.mitre.org/datasources/) for SIEM (sensors/events) coverage and [MITRE Tactics](https://attack.mitre.org/tactics/enterprise/) for SIEM automated detection coverage.
+    
+    - [Security Operations Baseline](baselines/security-operations.md) - aligned with [MITRE 11 Strategies of a World-Class Cybersecurity Operations Center](pdfs/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) and [ACSC's Cyber Incident Response Plan Resource](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/publications/cyber-incident-response-plan).
+    - [Vulnerability Management Baseline](baselines/vulnerability-management.md) - focused on undertaking operational **Identify** and **Protect** capabilities.
 
 !!! danger "Critical Infrastructure Entities"
 
