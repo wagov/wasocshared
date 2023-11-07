@@ -45,4 +45,4 @@ SigninLogs
 2. Expected VPN usage  
 
 ####  VERSION  
-Version 2.0 (date: 25/10/2023)  
+Version 2.0 (date: 25/10/2023)
