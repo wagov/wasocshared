@@ -4,7 +4,7 @@
 
 Detects potential successful AITM-Phishing-Login based on risk sign in level and application used.  
 
-**example:**   
+**Example:**   
 Successful Sign-in logs with ResultType == "0" from a malicious (unexpected) IP Address  
 
 **Related**  
@@ -25,10 +25,11 @@ Data Source(s): TBA
 
 ~~~
 SigninLogs  
-| where parse_json(RiskEventTypes_V2) has "unfamiliarFeatures" and RiskLevelDuringSignIn == "high"
-| where ResultType == "0"
+| where parse_json(RiskEventTypes_V2) has_any ("unfamiliarFeatures","Travel") and RiskLevelDuringSignIn == "high"
+| extend authenticationStepResultDetail_ = tostring(parse_json(AuthenticationDetails)[0].authenticationStepResultDetail) //Capture first sucessful password auth
+| where ResultType == "0" or authenticationStepResultDetail_ == "Correct password"
 | where AppDisplayName == "OfficeHome"
-| project-reorder TimeGenerated,IPAddress, Location, UserPrincipalName, AppDisplayName, Category, ResultType, ResultDescription, RiskLevelDuringSignIn, RiskEventTypes_V2, RiskDetail, AutonomousSystemNumber,  AuthenticationDetails
+| project-reorder TimeGenerated,IPAddress, Location, UserPrincipalName, AppDisplayName, Category, authenticationStepResultDetail_, ResultType, ResultDescription, RiskLevelDuringSignIn, RiskEventTypes_V2, RiskDetail, AutonomousSystemNumber,  AuthenticationDetails
 ~~~  
 
 ####  Triage  
@@ -44,4 +45,4 @@ Risky sign ins from AU locations
 Expected VPN usage  
 
 ####  VERSION  
-Version 1.0 (date: 22/08/2023)  
+Version 1.1 (date: 25/10/2023)  

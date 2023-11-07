@@ -25,7 +25,7 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 
 | Technique ID | Title  | Data Source  | ADS |
 | ---  | --- | --- |--- |
-| T1047 | WMI | [Command](https://attack.mitre.org/datasources/DS0017/) | [WMIC commands](./ADS_forms/T1047-WMICCommands.md) |
+| T1047 | WMI | [Command](https://attack.mitre.org/datasources/DS0017/), [Process Creation](https://attack.mitre.org/datasources/DS0009/#Process%20Creation) | [WMIC commands](./ADS_forms/T1047-WMICCommands.md) |
 | T1059.007 | GootLoader | [Command](https://attack.mitre.org/datasources/DS0017/) | [GootLoader Execution](./ADS_forms/T1059.007-GootLoader-JavaScriptExecution.md) |
   
 
@@ -36,6 +36,11 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1547.001 | Persistence Via Run Keys | [Command](https://attack.mitre.org/datasources/DS0017/) | [Persistence Via Run Keys](./ADS_forms/T1547.001-PersistenceViaRunKeys.md) |
 | T1505.003 | Web shells | [Process](https://attack.mitre.org/datasources/DS0009/) | [IIS Webshell File Writes](./ADS_forms/T1505.003-IISWebshellFileWrites.md) |
 | T1505.003 | Linux Webshell Indicators | [Process](https://attack.mitre.org/datasources/DS0009/) | [Linux Webshell Indicators](./ADS_forms/T1505.003-LinuxWebshellIndicators.md) |
+| T1505.003 | Suspicious Windows Strings In URI | [TBA]() | [Suspicious Windows Strings In URI](./ADS_forms/T1505.003-SuspiciousWindowsStringsInURI.md) |
+| T1505.003 | Windows Webshell Creation | [File](https://attack.mitre.org/datasources/DS0022/) | [Windows Webshell Creation](./ADS_forms/T1505.003-WindowsWebshellCreation.md) |
+| T1505.003 | Suspicious Child Process Of SQL Server | [Process Creation](https://attack.mitre.org/datasources/DS0009/#Process%20Creation) | [Suspicious Child Process Of SQL Server](./ADS_forms/T1505.003-SuspiciousChildProcessOfSQLServer.md) |
+| T1543.003 | Service Installations in Registry | [registry_set](https://attack.mitre.org/datasources/DS0024/) | [CobaltStrike: Service Installations in Registry](./ADS_forms/T1543.003-CobaltStrike-ServiceInstallationsInRegistry.md) |
+| T1543.003 | New Service Creation Using PowerShell | [Process](https://attack.mitre.org/datasources/DS0009/) | [New Service Creation Using PowerShell](./ADS_forms/T1543.003-NewServiceCreationUsingPowerShell.md) |
 
 
 ## Defense Evasion
@@ -56,9 +61,9 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | Technique ID | Title  | Data Source  | ADS |
 | ---  | --- | --- |--- |
 | T1003.001  | OS Credential Dumping | [Command](https://attack.mitre.org/datasources/DS0017/) | [OS Credential Dumping: LSASS Memory](./ADS_forms/T1003.001-OSCredentialDumping-LSASSMemory.md) |
-| T1003.003  | OS Credential Dumping | [Command](https://attack.mitre.org/datasources/DS0017/) | [OS Credential Dumping: exfiltrate ntds.dit](./ADS_forms/T1003.003-OSCredentialDumping-Exfiltratentds.dit.md) |
+| T1003.003  | OS Credential Dumping | [Process](https://attack.mitre.org/datasources/DS0009/), [Command](https://attack.mitre.org/datasources/DS0017/) | [OS Credential Dumping: Exfiltrate ntds.dit](./ADS_forms/T1003.003-OSCredentialDumping-Exfiltratentds.dit.md) |
 | T1003.003  | OS Credential Dumping | [Command](https://attack.mitre.org/datasources/DS0017/) | [OS Credential Dumping: NTDS using tools](./ADS_forms/T1003.003-OSCredentialDumping-NTDSusingTools.md) |
-| T1003.006  | Credential Dumping: DCSync | [Command](https://attack.mitre.org/datasources/DS0017/) | [OS Credential Dumping: DCSync](./ADS_forms/T1003.006-OSCredentialDumping-DCSyncAD.md) |
+| T1003.006  | OS Credential Dumping | [Command](https://attack.mitre.org/datasources/DS0017/) | [OS Credential Dumping: DCSync](./ADS_forms/T1003.006-OSCredentialDumping-DCSyncAD.md) |
 | T1552.002  | Unsecured Credentials | [Command](https://attack.mitre.org/datasources/DS001/), [Windows Registry](https://attack.mitre.org/datasources/DS0024) | [REGISTRY Password Dumping](./ADS_forms/T1552.002-REGISTRYPasswordDumping.md)
 | T1555  | Credentials from Password Stores | [Command](https://attack.mitre.org/datasources/DS001/) | [Credentials from Password Stores](./ADS_forms/T1555-CredentialsPasswordStores.md)
 | T1558.003 | Steal or Forge Kerberos Tickets | [Security Events](https://attack.mitre.org/datasources/DS0026/) | [Kerberoasting](./ADS_forms/T1558.003-Kerberoasting.md)
@@ -80,7 +85,7 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | Technique ID | Title  | Data Source  | ADS |
 | ---  | --- | --- |--- |
 | T1021 | Lateral Movement - Remote Services | [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [Lateral Movement - Remote Services](./ADS_forms/T1021-LateralMovement-RemoteServices.md) |
-| T1021 | Lateral Movement - Webservers | [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [Lateral Movement - Webservers](./ADS_forms/T1021-LateralMovement-Webservers.md) |
+<!-- | T1021 | Lateral Movement - Webservers | [Network Traffic](https://attack.mitre.org/datasources/DS0029) | [Lateral Movement - Webservers](./ADS_forms/T1021-LateralMovement-Webservers.md) | -->
 
 
 ## Command and Control
