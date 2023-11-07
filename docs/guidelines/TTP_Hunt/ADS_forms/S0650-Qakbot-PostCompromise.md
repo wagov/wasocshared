@@ -4,7 +4,7 @@
 Detect when multiple Qakbot post compromise commands have been executed  
 
 **example:**  
-> Automated reconnaissance commands: 
+> Automated reconnaissance commands:  
 > nslookup -querytype=ALL -timeout=12 _ldap._tcp.dc._msdcs.<domain_fqdn>
 
 **Related**  

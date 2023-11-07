@@ -5,8 +5,8 @@
 Detects the existence of FakeUpdate .zip file, commonly associated with SocGholish malware family. Javascript file (.js) is usually hidden inside the .zip file  
 
 **Example:**  
-Edge.6ebddd.zip
-Edge.7a859a.zip
+> Edge.6ebddd.zip  
+> Edge.7a859a.zip
 
 **Related**  
 https://www.secureworks.com/research/threat-profiles/gold-prelude   

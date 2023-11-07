@@ -5,9 +5,9 @@ Cobalt Strike is a famous Pen Test tool that is used by pen testers as well as a
 The query tries to detect suspicious DNS queries known from Cobalt Strike beacons. 
   
 **Example:**  
-> aaa.stage.[encryptedstage].MaliciousDomain.com, 
-> baa.stage.[encryptedstage].MaliciousDomain.com, 
-> caa.stage.[encryptedstage].MaliciousDomain.com
+> aaa.stage.[encryptedstage].MaliciousDomain.com,   
+> baa.stage.[encryptedstage].MaliciousDomain.com,  
+> caa.stage.[encryptedstage].MaliciousDomain.com  
 > post.[EncryptedData].[RandomValue].MaliciousDomain.com
 
 
