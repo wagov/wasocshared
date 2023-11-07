@@ -41,8 +41,8 @@ SigninLogs
 5. Reset user’s passwords and revoke session tokens if proven to be malicious   
 
 ####  FalsePositive  
-Risky sign ins from AU locations  
-Expected VPN usage  
+1. Risky sign ins from AU locations  
+2. Expected VPN usage  
 
 ####  VERSION  
 Version 1.1 (date: 25/10/2023)  
