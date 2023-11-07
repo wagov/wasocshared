@@ -15,9 +15,8 @@ Baselines are for use as self-assessment checklists, and guidelines are for gene
 
 !!! abstract "Baselines"
 
-    The WA SOC has developed a [Baseline for Event Ingestion](baselines/data-sources.md). It's currently under review to align with [MITRE ATT&CK®](https://attack.mitre.org) and develop detection coverage/quality into a standalone baseline. See [MITRE Data Sources](https://attack.mitre.org/datasources/) for SIEM (sensors/events) coverage and [MITRE Tactics](https://attack.mitre.org/tactics/enterprise/) for SIEM automated detection coverage.
-    
     - [Security Operations Baseline](baselines/security-operations.md) - aligned with [MITRE 11 Strategies of a World-Class Cybersecurity Operations Center](pdfs/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) and [ACSC's Cyber Incident Response Plan Resource](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/publications/cyber-incident-response-plan).
+    - [Detection Coverage Baseline](baselines/data-sources.md) - *[telemetry collection](https://attack.mitre.org/datasources/)* and *[detection analytics](https://attack.mitre.org)* aligned to the [MITRE ATT&CK Framework](https://attack.mitre.org).
     - [Vulnerability Management Baseline](baselines/vulnerability-management.md) - focused on undertaking operational **Identify** and **Protect** capabilities.
 
 !!! danger "Critical Infrastructure Entities"
@@ -26,6 +25,7 @@ Baselines are for use as self-assessment checklists, and guidelines are for gene
 
 !!! tip "Guidelines"
 
+    - [Supply Chain Risk Management Guideline](guidelines/supply-chain-risk-mgmt.md) - Implementation guidance for [ACSC Cyber Supply Chain Risk Management](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/cyber-supply-chain-risk-management).
     - [Guide to Securing Remote Access Software (CISA)](https://www.cisa.gov/resources-tools/resources/guide-securing-remote-access-software) - remote access software overview, including the malicious use of remote access software, detection methods, and recommendations for all organizations.
     - [#StopRansomware Guide (CISA)](https://www.cisa.gov/resources-tools/resources/stopransomware-guide) - one-stop resource to help organizations reduce the risk of ransomware incidents through best practices to detect, prevent, respond, and recover, including step-by-step approaches to address potential attacks.
     - [Microsoft Sentinel Guidance](onboarding/sentinel-guidance.md) - Implementation guidance for using Sentinel for [ACSC Guidelines for System Monitoring](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-monitoring)

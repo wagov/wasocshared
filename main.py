@@ -1,9 +1,11 @@
-import os
 from pathlib import Path
 from itertools import groupby
 from dateutil.parser import parse
 import requests
 from bs4 import BeautifulSoup
+from diskcache import Index
+
+macro_cache = Index()
 
 def define_env(env):
     """
@@ -25,6 +27,9 @@ def define_env(env):
         """
         Insert an index to a glob pattern relative to top dir of documentation project.
         """
+        cachekey = f"date_index.{glob}.{prefix}.{expand}.{include}"
+        if cachekey in macro_cache:
+            return macro_cache[cachekey]
         files = Path(env.project_dir).glob(glob)
         mdtext = []
         # Reverse order, sorted by first 6 characters (year + month)
@@ -46,7 +51,8 @@ def define_env(env):
             if include is not None:
                 if month_count > include:
                     break
-        return "\n".join(mdtext)
+        macro_cache[cachekey] = "\n".join(mdtext)
+        return macro_cache[cachekey]
 
 
     def getCategory(mitreID):
@@ -67,6 +73,9 @@ def define_env(env):
 
     @env.macro
     def mitre(mitreId):
+        cachekey = f"mitre.{mitreId}"
+        if cachekey in macro_cache:
+            return macro_cache[cachekey]
 
         try: 
             techRef = mitreId.replace(".","/") # Prep for url
@@ -88,7 +97,8 @@ def define_env(env):
                 combinedText = ''.join(mitreId) + ' -' + ''.join(heading)
 
                 # Return it as a link
-                return f"[{combinedText}]({url})"
+                macro_cache[cachekey] = f"[{combinedText}]({url})"
+                return macro_cache[cachekey] 
             
             else:
                 return f"Failed to fetch content from the {mitreId}. Status code: {response.status_code}"
