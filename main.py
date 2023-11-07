@@ -50,15 +50,17 @@ def define_env(env):
 
 
     def getCategory(mitreID):
-        category = mitreID[:1]
+        category = mitreID[:2]
 
-        if (category == "T"):
+        if (category[:2] == "TA"):
+            return "tactics"
+        elif (category[:1] == "T"):
             return f"techniques"
-        elif (category == "S"):
+        elif (category[:1] == "S"):
             return "software"
-        elif (category == "G"):
+        elif (category[:1] == "G"):
             return "groups"
-        elif (category == "C"):
+        elif (category[:1] == "C"):
             return "campaigns"
         else:
             return None

@@ -3,23 +3,21 @@
 ####  DESCRIPTION  
 Detects the use of Adfind. AdFind continues to be seen across majority of breaches. It is used to domain trust discovery to plan out subsequent steps in the attack chain.   
 
-**example:**  
-adfind.exe -f "(objectcategory=person)" > ad_users.txt      
-
-
-objectcategory=person – Finds all person objects  
-objectcategory=computer – Finds all computers in domain  
-trustdmp – Dumps trust objects.  
-objectcategory=subnet – Finds all subnets  
-domainlist – Dumps all Domain NCs in forest in sorted DNS list format  
-dcmodes – Shows modes of all DCs in forest from config  
-adinfo – Shows Active Directory Info with whoami info.  
-dclist – Dumps Domain Controllers FQDNs.  
-computers_pwdnotreqd – Dumps users set with password not required.   
-
+**Example:**  
+> adfind.exe -f "(objectcategory=person)" > ad_users.txt      
+> 
+> objectcategory=person – Finds all person objects  
+> objectcategory=computer – Finds all computers in domain  
+> trustdmp – Dumps trust objects.  
+> objectcategory=subnet – Finds all subnets  
+> domainlist – Dumps all Domain NCs in forest in sorted DNS list format  
+> dcmodes – Shows modes of all DCs in forest from config  
+> adinfo – Shows Active Directory Info with whoami info.  
+> dclist – Dumps Domain Controllers FQDNs.  
+> computers_pwdnotreqd – Dumps users set with password not required.
 
 **Related**  
-common tool           
+Common tool           
 
 
 **Reference:**  
@@ -43,11 +41,11 @@ Data Source(s): [Command](https://attack.mitre.org/datasources/DS0017/)
 #### SENTINEL RULE QUERY   
 
 ~~~
-let c1 = dynamic(['domainlist', 'trustdmp', 'dcmodes', 'adinfo', ' dclist ', 'computer_pwdnotreqd', 'objectcategory=', '-subnets -f', 'name="Domain Admins"', '-sc u:', 'domainncs', 'dompol', ' oudmp ', 'subnetdmp', 'gpodmp', 'fspdmp', 'users_noexpire', 'computers_active', 'computers_pwdnotreqd']);
-find where 
-FileName =~ "AdFind.exe" or ProcessVersionInfoOriginalFileName =~ "AdFind.exe" or 
-InitiatingProcessFileName =~ "AdFind.exe" or InitiatingProcessVersionInfoOriginalFileName =~ "AdFind.exe" or Process =~ "AdFind.exe" or
-ProcessCommandLine has_any (c1)    
+let c1 = dynamic(['domainlist', 'trustdmp', 'dcmodes', 'adinfo', ' dclist ', 'computer_pwdnotreqd', 'objectcategory=', '-subnets -f', 'name="Domain Admins"', '-sc u:', 'domainncs', 'dompol', ' oudmp ', 'subnetdmp', 'gpodmp', 'fspdmp', 'users_noexpire', 'computers_active', 'computers_pwdnotreqd']); 
+find where FileName =~ "AdFind.exe" or ProcessVersionInfoOriginalFileName =~ "AdFind.exe" or  InitiatingProcessFileName =~ "AdFind.exe" or InitiatingProcessVersionInfoOriginalFileName =~ "AdFind.exe" or Process =~ "AdFind.exe" or ProcessCommandLine has_any (c1)     
+| where TimeGenerated between(todatetime('2023-09-01')..todatetime('2023-09-30'))
+| extend placeholder_=dynamic({'':null}) 
+| evaluate bag_unpack(column_ifexists('pack_', placeholder_))  
 ~~~
 
 
@@ -59,8 +57,8 @@ ProcessCommandLine has_any (c1)
 
 #### FalsePositive  
 
-Legitimate administrative activity    
+1. Legitimate administrative activity.
 
 
 #### VERSION  
-Version 1.0 (date: 10/07/2023)
+Version 1.1 (date: 10/07/2023)
