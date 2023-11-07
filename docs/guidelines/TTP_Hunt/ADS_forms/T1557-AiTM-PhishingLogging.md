@@ -19,7 +19,7 @@ https://github.com/GossiTheDog/ThreatHunting/blob/867aaa3e1ea996c5f19f5262f2f4b7
 {{ mitre("T1557")}}   
 {{ mitre("T1111")}}
 
-Data Source(s): TBA
+Data Source(s): [Logon Session](https://attack.mitre.org/datasources/DS0028/)
 
 #### SENTINEL RULE QUERY  
 
@@ -45,4 +45,4 @@ SigninLogs
 2. Expected VPN usage  
 
 ####  VERSION  
-Version 1.1 (date: 25/10/2023)  
+Version 2.0 (date: 25/10/2023)  
