@@ -2,6 +2,8 @@
 
 The below guide has been developed by the WA SOC to expedite a SIEM implementation with Microsoft Sentinel.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xu7UIRJ7tBw?si=HupWLNVC5TSjebn1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## 1. Sentinel Deployment Notes
 
 It is recommended to deploy Microsoft Sentinel in the **Australia East** region following the [Deployment guide for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/deploy-overview)
