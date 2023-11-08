@@ -1,8 +1,8 @@
 # Supply Chain Risk Management Guideline
 
-During all procurement and vendor management activities where digital information is handled supply chain risks should be identified and managed.
+During all procurement and vendor management activities where digital information is handled supply chain risks should be identified and managed. This page follows the principles in the [CISA Supply Chain Risk Management Essentials (2 page PDF)](https://www.cisa.gov/sites/default/files/publications/ict_scrm_essentials_508.pdf) and is fully aligned with the [WA Gov CSP](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy) and the [ACSC ISM Controls](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism).
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lyb5MIYLAME?si=S4fPFegah-wJk7IV&amp;start=1560" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qvFfoHxfBqY?si=2VsaNSqPTnxaWqSM&amp;start=1560" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Pre-procurement risk assessment
 
