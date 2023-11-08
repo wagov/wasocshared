@@ -36,4 +36,4 @@ DeviceProcessEvents
 2. Verify on folders path and name being added into Defender exclusion  
 
 ####  Version   
-Version 1.1 (date 18/10/2023)   
+Version 1.0 (date 26/10/2023)

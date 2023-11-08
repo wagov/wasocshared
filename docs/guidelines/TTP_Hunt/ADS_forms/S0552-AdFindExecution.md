@@ -41,11 +41,8 @@ Data Source(s): [Command](https://attack.mitre.org/datasources/DS0017/)
 #### SENTINEL RULE QUERY   
 
 ~~~
-let c1 = dynamic(['domainlist', 'trustdmp', 'dcmodes', 'adinfo', ' dclist ', 'computer_pwdnotreqd', 'objectcategory=', '-subnets -f', 'name="Domain Admins"', '-sc u:', 'domainncs', 'dompol', ' oudmp ', 'subnetdmp', 'gpodmp', 'fspdmp', 'users_noexpire', 'computers_active', 'computers_pwdnotreqd']); 
+let c1 = dynamic(['domainlist', 'trustdmp', 'dcmodes', 'adinfo', ' dclist ', 'computer_pwdnotreqd', 'objectcategory=', '-subnets -f', 'name="Domain Admins"', '-sc u:', 'domainncs', 'dompol', ' oudmp ', 'subnetdmp', 'gpodmp', 'fspdmp', 'users_noexpire', 'computers_active', 'computers_pwdnotreqd']);  
 find where FileName =~ "AdFind.exe" or ProcessVersionInfoOriginalFileName =~ "AdFind.exe" or  InitiatingProcessFileName =~ "AdFind.exe" or InitiatingProcessVersionInfoOriginalFileName =~ "AdFind.exe" or Process =~ "AdFind.exe" or ProcessCommandLine has_any (c1)     
-| where TimeGenerated between(todatetime('2023-09-01')..todatetime('2023-09-30'))
-| extend placeholder_=dynamic({'':null}) 
-| evaluate bag_unpack(column_ifexists('pack_', placeholder_))  
 ~~~
 
 
