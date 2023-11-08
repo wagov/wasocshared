@@ -36,6 +36,8 @@ Key considerations from page 16 and 17 of the [NIST CSF 2.0 Initial Public Draft
 
 ## ACSC ISM Controls - Contractual security requirements with service providers
 
+These are all lifted from the  [ACSC Procurement Guidelines](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing).
+
 - **Control: ISM-1793; Revision: 0; Updated: Sep-22;** Managed service providers and their managed services undergo a security assessment by an IRAP assessor at least every 24 months.
 - **Control: ISM-1570; Revision: 1; Updated: Jun-22;** Outsourced cloud service providers and their cloud services undergo a security assessment by an IRAP assessor at least every 24 months.
 - **Control: ISM-1395; Revision: 7; Updated: Dec-22;** Service providers, including any subcontractors, provide an appropriate level of protection for any data entrusted to them or their services.
