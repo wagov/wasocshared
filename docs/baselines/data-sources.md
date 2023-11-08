@@ -2,6 +2,8 @@
 
 This document and associated checklist is intended to be used as a high-level self assessment against an organisations *[telemetry collection](https://attack.mitre.org/datasources/)* and *[detection analytics](https://attack.mitre.org)* aligned to the [MITRE ATT&CK Framework](https://attack.mitre.org).
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uEkoLXpHoBE?si=xrEk4k4cUcDKlLrB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## 1. Shared Responsibility Model
 
 For service providers see [Supply Chain Risk Management](../guidelines/supply-chain-risk-mgmt.md) (vendors should report detection coverage monthly and incidents within 24 hours). Otherwise ensure the [Security Operations](../baselines/security-operations.md) team is resourced to collect the below telemetry and manage detection, triage and response activities over them based on the organisations risk profile.
