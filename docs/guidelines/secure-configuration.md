@@ -2,6 +2,8 @@
 
 This guideline is intended to define a simple approach to ongoing monitoring and assurance of secure configuration of common tools and platforms.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/g22fKjtMS4I?si=Z7_ZxAQDV-A0K8VL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Email, File sharing and Endpoint configuration monitoring
 
 The standard recommended actions within [Microsoft Defender](https://security.microsoft.com/securescore?viewid=actions) should be reviewed and exported each month and retained for 12 months.
