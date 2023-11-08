@@ -12,7 +12,15 @@ Consider information security risks as a part of procurement and contract risk a
 - Conduct due diligence on any suppliers’ information security maturity, including, where appropriate, whether the supplier has been independently assessed or certified against information security industry standards
     - For high-risk procurements involving managed service providers and/or cloud service providers, give preference to supplier offerings which have undergone an independent assessment by a qualified assessor under the [ACSC Infosec Registered Assessors Program (IRAP)](https://www.cyber.gov.au/resources-business-and-government/assessment-and-evaluation-programs/infosec-registered-assessors-program) or similar industry certification.
     - Recognised industry certifications: [ACSC ISM](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism) ([IRAP](https://www.cyber.gov.au/resources-business-and-government/assessment-and-evaluation-programs/infosec-registered-assessors-program)), [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), [SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2) or [NIST SP 800-53](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
-- Understand the shared responsibility model between the supplier and the entity under which services are being contracted and managed
+- Understand the shared responsibility model between the supplier and the entity under which services are being contracted and managed.
+
+!!! note "Software Development"
+
+    Where development is being outsourced including for managed services, the [ACSC Shifting the Balance of Cybersecurity Risk: Principles and Approaches for Security-by-Design and Default](https://www.cyber.gov.au/about-us/view-all-content/publications/principles-and-approaches-for-security-by-design-and-default) should be followed.
+
+!!! note "Gateway Operators (Network and Internet managed services)"
+
+    Where network management services are being outsourced, the [ACSC Gateway Hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening) security guidance should be followed. Please also refer to the [WA SOC Network Management Guideline](../guidelines/network-management.md)
 
 ## Template contract clauses promoting information security
 
