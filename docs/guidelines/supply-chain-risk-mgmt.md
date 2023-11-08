@@ -2,6 +2,8 @@
 
 During all procurement and vendor management activities where digital information is handled supply chain risks should be identified and managed.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lyb5MIYLAME?si=jiYVOVScmJXiRDyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Pre-procurement risk assessment
 
 Consider information security risks as a part of procurement and contract risk assessment, informed by the [ACSC Procurement Guidelines](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing), [ACSC Supply Chain Risk Management](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/cyber-supply-chain-risk-management), [ACSC Guidelines for Software Development](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-software-development).
