@@ -4,9 +4,9 @@
 ####  DESCRIPTION  
 Adversary may use connection proxy to direct network traffic between systems or act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure.  
 
-**example:**  
-"cmd.exe /c "netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=9999 connectaddress=<internal ip address> connectport=8443 protocol=tcp""
-"cmd.exe /c netsh interface portproxy add v4tov4 listenport=50100 listenaddress=0.0.0.0 connectport=1433 connectaddress=<internal ip address>"
+**Example:**  
+> "cmd.exe /c "netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=9999 connectaddress=<internal ip address> connectport=8443 protocol=tcp""
+> "cmd.exe /c netsh interface portproxy add v4tov4 listenport=50100 listenaddress=0.0.0.0 connectport=1433 connectaddress=<internal ip address>"
 
 **Related**  
 Volt Typhoon activity  

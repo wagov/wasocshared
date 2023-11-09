@@ -3,8 +3,8 @@
 ####  DESCRIPTION  
 Detects potential QBot activity by looking for process executions used previously by QBot  
 
-**example:**  
-"C:\Windows\System32\cmd.exe" /c ping.exe -n 6 127.0.0.1 & type "C:\Windows\System32\calc.exe" > "C:\Users\admin\AppData\Local\Temp\aNkxbUo.exe"  
+**Example:**  
+> "C:\Windows\System32\cmd.exe" /c ping.exe -n 6 127.0.0.1 & type "C:\Windows\System32\calc.exe" > "C:\Users\admin\AppData\Local\Temp\aNkxbUo.exe"  
 
 **Related**  
 Malware  

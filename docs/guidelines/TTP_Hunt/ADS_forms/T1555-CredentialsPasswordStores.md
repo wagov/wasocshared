@@ -4,18 +4,18 @@
 ####  DESCRIPTION  
 Detects suspicious credential access commands. Alone they may be normal but in concert, they may be worth looking into     
 
-**example:**  
-dir C:\Users\{REDACTED}\.ssh\known_hosts
-dir C:\users\{REDACTED}\appdata\roaming\Mozilla\firefox\profiles
-reg query hklm\software\OpenSSH
-reg query hklm\software\OpenSSH\Agent
-reg query hklm\software\realvnc
-reg query hklm\software\realvnc\vncserver
-reg query hklm\software\realvnc\Allusers
-reg query hklm\software\realvnc\Allusers\vncserver
-reg query hkcu\software\{REDACTED}\putty\session
-reg save hklm\sam ss.dat
-reg save hklm\system sy.dat    
+**Example:**  
+> dir C:\Users\{REDACTED}\.ssh\known_hosts
+> dir C:\users\{REDACTED}\appdata\roaming\Mozilla\firefox\profiles
+> reg query hklm\software\OpenSSH
+> reg query hklm\software\OpenSSH\Agent
+> reg query hklm\software\realvnc
+> reg query hklm\software\realvnc\vncserver
+> reg query hklm\software\realvnc\Allusers
+> reg query hklm\software\realvnc\Allusers\vncserver
+> reg query hkcu\software\{REDACTED}\putty\session
+> reg save hklm\sam ss.dat
+> reg save hklm\system sy.dat    
 
 
 **Related**   
