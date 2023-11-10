@@ -4,8 +4,8 @@
 Actor may use Impacket’s wmiexec, which redirects output to a file within the victim host’s ADMIN$ share (C:\Windows\) containing an epoch timestamp in its name.  
 
 
-**example:**  
-cmd.exe /Q /c dir 1> \\127.0.0.1\ADMIN$\__1684944005.9400265 2>&1  
+**Example:**  
+> cmd.exe /Q /c dir 1> \\127.0.0.1\ADMIN$\__1684944005.9400265 2>&1  
 
 **Related**  
 Volt Typhoon activity  

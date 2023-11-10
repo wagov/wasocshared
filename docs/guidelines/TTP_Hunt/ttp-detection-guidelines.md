@@ -1,6 +1,8 @@
-# TTP Detection Guideline
+# Threat Hunting Guideline
 
-This page serves as a high-level guideline specifically for WA SOC threat hunting activities, showcasing prominent tactics, techniques, and procedures (TTPs). The ADS provides a tailored Kusto Query Language (KQL) queries to assist in threat hunting inside Microsoft Sentinel environment.
+This page serves as a high-level guideline specifically for WA SOC threat hunting activities, showcasing prominent tactics, techniques, and procedures (TTPs). The ADS provides a tailored Kusto Query Language (KQL) queries to assist in threat hunting inside Microsoft Sentinel environment. An overview of why threat hunting is valuable is below:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VNp35Uw_bSM?si=N2709vnW2VqRQFB7&amp;start=1560" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The [MITRE ATT&CK](https://attack.mitre.org/) framework is a knowledge base of adversary tactics and techniques based on real-world observations. Relevant KQL queries are mapped to each of the techniques used by threat actor tactics in line with the MITRE ATT&CK framework.
 

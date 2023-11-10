@@ -3,8 +3,8 @@
 ####  DESCRIPTION  
 The actor gathered information about successful logons to the host using a PowerShell command.
 
-**example:**  
-Get-EventLog security -instanceid 4624 
+**Example:**  
+> Get-EventLog security -instanceid 4624 
 
 **Related**  
 Volt Typhoon activity

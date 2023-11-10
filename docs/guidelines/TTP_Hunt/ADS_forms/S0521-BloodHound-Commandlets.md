@@ -5,8 +5,7 @@
 Detects BloodHound activity in commandlines. Bloodhound is and Active Directory (AD) reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment    
 
 **example:**  
- 
-
+N/A
 
 **Related**  
 Bloodhound/Sharphound       

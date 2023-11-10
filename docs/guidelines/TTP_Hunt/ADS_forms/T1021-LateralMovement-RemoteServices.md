@@ -4,14 +4,11 @@
 ####  DESCRIPTION  
 Detects lateral movement activity of webservers onto core systems.  
 
-
 **example:**  
-    
-
+N/A    
 
 **Related**  
-        
-
+N/A        
 
 **Reference:**  
 https://attack.mitre.org/techniques/T1021/    

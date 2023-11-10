@@ -3,8 +3,8 @@
 ####  DESCRIPTION  
 The actor has executed commands to gather information about the storage devices on the local host
 
-**example:**  
-"cmd.exe /C "wmic path win32_logicaldisk get caption,filesystem,freespace,size,volumename" 
+**Example:**  
+> "cmd.exe /C "wmic path win32_logicaldisk get caption,filesystem,freespace,size,volumename" 
 
 **Related**  
 Volt Typhoon activity
