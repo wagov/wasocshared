@@ -1,6 +1,8 @@
 name: Send advisory
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
     inputs:
       advisory_url:
@@ -8,7 +10,7 @@ on:
 
 jobs:
   send-modified-files:
-    name: Send advisory files if date is today in the commit
+    name: Send advisory files added today, or send advisory from input url
     runs-on: ubuntu-latest
     steps:
       - name: Send advisory
