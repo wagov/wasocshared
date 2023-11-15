@@ -6,7 +6,7 @@ Microsoft has released updates addressing multiple vulnerabilities in Microsoft 
 
 ## What is the vulnerability?
 
-A list of vulnerabilities and products can be found [November 2023 Security Update Guide](https://msrc.microsoft.com/update-guide/releaseNote/2023-Nov)
+A list of vulnerabilities and products can be found at [November 2023 Security Update Guide](https://msrc.microsoft.com/update-guide/releaseNote/2023-Nov)
 
 ## Recommendation
 
