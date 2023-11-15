@@ -34,14 +34,16 @@ In addition to standard IP session telemetry, systems and APIs exposed to the in
 
 As per the [ACSC Gateway Security Guidance Package: Gateway Operations and Management](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-gateway-operations-management) Organisations should periodically audit their Internet number (ASN) resource assets running Border Gateway Protocol (BGP) by validating RPKI and ROA are established with Internet Service Providers (ISPs) and internet router management teams.
 
-## Adverse Event Analysis
+## Adverse Event Analysis and Asset Inventory
 
 Maintaining an up to date asset inventory and monitoring baseline activity enable network anomaly detection. Most if not all the products mentioned in this guideline have some capability for continuous threat detection and monitoring, real-time detection and response, or at the very least log forwarding options that can allow you SIEM to ingest data and perform alerting based on SIEM rules. The below tools notably provide tunable detection analytics linked into basic case management for security operations.
 
-- Cisco [Secure Network Analytics](https://www.cisco.com/c/en/us/products/collateral/security/stealthwatch/datasheet-c78-739398.html) - [Cisco XDR](https://www.cisco.com/site/au/en/products/security/xdr/index.html)
-- Palo Alto [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud/cloud-network-security) - [Cortex XDR](https://www.paloaltonetworks.com/engage/cortex-extended-detection-and-response/cortex-xdr-datasheet)
-- Check Point [CloudGuard](https://www.checkpoint.com/cloudguard/) - [Horizon NDR](https://www.checkpoint.com/horizon/ndr/)
-- Fortinet [FortiAnalyzer](https://www.fortinet.com/products/management/fortianalyzer) - [FortiNDR](https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-fortindr.pdf)
+| **Vendor**      | **Network Analytics**                                                                                                         | **Detection & Response**                                                                                          | **Asset Inventory**                                                                                                  |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **Cisco**       | [Secure Network Analytics](https://www.cisco.com/c/en/us/products/collateral/security/stealthwatch/datasheet-c78-739398.html) | [Cisco XDR](https://www.cisco.com/site/au/en/products/security/xdr/index.html)                                    | [Cisco Cyber Vision](https://www.cisco.com/site/us/en/products/security/industrial-security/cyber-vision/index.html) |
+| **Palo Alto**   | [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud/cloud-network-security)                                          | [Cortex XDR](https://www.paloaltonetworks.com/engage/cortex-extended-detection-and-response/cortex-xdr-datasheet) | [IoT Security](https://www.paloaltonetworks.com/resources/videos/iot-security-by-palo-alto-networks)                 |
+| **Check Point** | [CloudGuard](https://www.checkpoint.com/cloudguard/)                                                                          | [Horizon NDR](https://www.checkpoint.com/horizon/ndr/)                                                            | [Claroty xDome](https://claroty.com/industrial-cybersecurity/xdome)                                                  |
+| **Fortinet**    | [FortiAnalyzer](https://www.fortinet.com/products/management/fortianalyzer)                                                   | [FortiNDR](https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-fortindr.pdf)                  | [Claroty xDome](https://claroty.com/industrial-cybersecurity/xdome)                                                  |
 
 ## Segmentation
 
