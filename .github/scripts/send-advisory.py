@@ -7,7 +7,7 @@ added_files = check_output(["git", "diff", "--name-only", "-r", "--diff-filter=A
 latest_advisory = max(Path("docs/advisories").glob("*.md"))
 today = latest_advisory.name[:8]
 advisory_mds = {}
-base_url = "https://soc.cyber.wa.gov.au/"
+base_url = "https://soc.cyber.wa.gov.au/advisories/"
 
 if sys.argv[1].startswith(base_url):
     # If a url is provided, find the relevant advisory and send it
@@ -21,7 +21,7 @@ else:
         print(file)
         if file.startswith(f"docs/advisories/{today}"):
             file = Path(file)
-            url = base_url + file.relative_to("docs").stem
+            url = base_url + file.stem
             advisory_mds[url] = file.read_text()
 
 print("Preparing to send below advisories: ")
