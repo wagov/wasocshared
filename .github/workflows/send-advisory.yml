@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       advisory_url:
-        required: true
         type: string
 
 jobs:
-  deploy:
+  send-modified-files:
+    name: Send advisory files if date is today in the commit
     runs-on: ubuntu-latest
     steps:
       - name: Send advisory
