@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout docs
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+            fetch-depth: 2
       - name: Send advisories
         run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
