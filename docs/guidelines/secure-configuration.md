@@ -15,7 +15,6 @@ A backup of tenant configuration should be taken each month with [Microsoft365DS
 A tool to review tenant configuration such as the [CISA ScubaGear M365 Secure Configuration Baseline Assessment Tool](https://github.com/cisagov/ScubaGear) should be run against all tenants at least quarterly with results reviewed and retained for 12 months to guide policy remediations and improvements.
 
 ![Microsoft365DSC Export](https://microsoft365dsc.com/Images/Marketing-Export.gif)
-![SCuBA Architecture diagram](https://github.com/cisagov/ScubaGear/raw/main/images/scuba-architecture.png)
 
 ### Enhanced validation of endpoint configuration
 
@@ -23,13 +22,12 @@ The [ACSC’s Cyber Toolbox](https://www.cyber.gov.au/about-us/news/essential-ei
 
 ## Infrastructure (public cloud and on-premise compute and storage) configuration monitoring
 
-The standard recommended actions within CSPM tools such as [Microsoft Defender for Cloud](https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/5)  and [AWS Security Hub](https://aws.amazon.com/security-hub/) should be reviewed and exported each month and retained for 12 months. It is strongly recommended to ensure checks are configured against the ACSC ISM and NIST CSF (SP 800-53 R5) using compliance dashboards:
+The standard recommended actions within CSPM tools such as [Microsoft Defender for Cloud](https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/5), [AWS Security Hub](https://aws.amazon.com/security-hub/), [Oracle Cloud Guard](https://www.oracle.com/au/security/cloud-security/cloud-guard/) and [Google Cloud Security Command Centre](https://cloud.google.com/security-command-center) should be reviewed and exported each month and retained for 12 months. It is strongly recommended to ensure checks are configured against the ACSC ISM and NIST CSF (SP 800-53 R5) using compliance dashboards where possible:
 
 - [Microsoft Defender for Cloud Compliance Dashboard](https://learn.microsoft.com/en-us/azure/defender-for-cloud/update-regulatory-compliance-packages)
 - [Deploying a Conformance Pack Using the AWS Config Console](https://docs.aws.amazon.com/config/latest/developerguide/conformance-pack-console.html)
-
-![Defender for Cloud Compliance Dashboard](https://learn.microsoft.com/en-us/azure/defender-for-cloud/media/concept-regulatory-compliance/compliance-dashboard.png)
-![AWS Security Services](https://docs.aws.amazon.com/images/prescriptive-guidance/latest/security-reference-architecture/images/security-tooling-acct.png)
+- [Oracle Cloud Guard](https://www.oracle.com/au/security/cloud-security/cloud-guard/) and [Oracle Data Safe](https://www.oracle.com/au/security/database-security/data-safe/)
+- [Google Cloud Security Command Centre](https://cloud.google.com/security-command-center)
 
 ## Addressing Microsoft 365 cloud service risks
 
