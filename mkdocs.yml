@@ -50,6 +50,7 @@ plugins:
         'docs/collecting-evidence.md': 'guidelines/collecting-evidence.md'
         'docs/analyst-induction.md': 'training/analyst-induction.md'
         'docs/azure-basics.md': 'training/azure-basics.md'
+        'guidelines/observables-gap-analysis.md': 'baselines/data-sources.md'
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
@@ -73,21 +74,21 @@ markdown_extensions:
       permalink: true
 nav:
 - Home: README.md
-- Sentinel Connector Guidance: onboarding/sentinel-guidance.md
 - SOC Onboarding: onboarding.md
 - Advisories (TLP:CLEAR): advisories.md
 - ACSC Strategies to Mitigate: guidelines/further-five.md
+- Threat Hunting (TTPs): guidelines/TTP_Hunt/ttp-detection-guidelines.md
 - Baselines:
   - Data Sources: baselines/data-sources.md
   - Security Operations: baselines/security-operations.md
   - Vulnerability Management: baselines/vulnerability-management.md
 - Guidelines:
   - Incident Reporting: guidelines/incident-reporting.md
-  - Workstations: guidelines/workstations.md
-  - Playbooks: guidelines/playbooks.md
-  - Collecting Evidence: guidelines/collecting-evidence.md
+  - Vendor Management: guidelines/supply-chain-risk-mgmt.md
+  - Network Management: guidelines/network-management.md
   - Patch Management: guidelines/patch-management.md
-  - Observables Gap Analysis:  guidelines/Observables_Gap_Analysis.md
+  - Configuration Assessment: guidelines/secure-configuration.md
+  - Annual Implementation Report: guidelines/annual-implementation-reporting.md
 - Training:
   - Security Analyst Induction: training/analyst-induction.md
   - Azure Basics: training/azure-basics.md

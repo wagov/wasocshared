@@ -2,13 +2,16 @@
 
 This document and associated checklist is intended to be used as a high-level self assessment to determine the capability and maturity of a security operations function for various organisations. Note this excludes the Governance, Risk and Compliance (GRC) roles and is focused primarily on how many Security Analysts are required to undertake operational **Identify**, **Detect** and **Respond** capabilities under the [WA Cyber Security Policy](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy) (and takes into consideration the oversight capabilities available entities in scope of the WA SOC). The WA SOC and this document both are aligned with [MITRE 11 Strategies of a World-Class Cybersecurity Operations Center](../pdfs/11-strategies-of-a-world-class-cybersecurity-operations-center.pdf) and [ACSC's Cyber Incident Response Plan Resource](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/publications/cyber-incident-response-plan).
 
-![Security Responsibilities](../images/security-responsibilities-popout.png)
+For a description of cyber security roles, please see the [Workforce Framework for Cybersecurity (NICE Framework)](https://niccs.cisa.gov/workforce-development/nice-framework) which the majority of the cyber security industry in Australia is aligned to.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IKa8Wf4F6QA?si=l1CUEMNWIlZ_VnDF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Checklist
 
 - [ ] Define security operations scope (sensor availability, common/high impact events to focus on, business continuity objectives)
     - [ ] Ensure a **Cyber Incident Response Plan** is developed and maintained with this content (refer to the [ACSC Cyber Incident Response Plan - Word Template (docx)](../pdfs/ACSC-Cyber-Incident-Response-Plan-Template.docx) as a starting point)
 - [ ] Ensure SIEM visibility across all endpoints used, applications / services delivered, and network traffic flows
+    - [ ] Deploy SIEM tools to ingest endpoint, network and application telemetry. Ensure tools can be targeted with open, interoperable query formats such as [STIX](https://github.com/opencybersecurityalliance/stix-shifter) indicators and [Sigma](https://github.com/SigmaHQ/sigma) detection rules. Refer to [stix-shifter connectors](https://github.com/opencybersecurityalliance/stix-shifter/blob/develop/docs/CONNECTORS.md) and [pySigma backends](https://github.com/SigmaHQ/pySigma#backends-comparison-between-pysigma-and-sigmac) for a comprehensive list of tools with good interoperability.
     - [ ] Make available relevant [MITRE Data Sources](https://attack.mitre.org/datasources/) to the security operations team
     - [ ] Ensure the platform can be configured with automated detection capabilities for [MITRE Tactics](https://attack.mitre.org/tactics/enterprise/)
 - [ ] Review and update the below security artefacts quarterly

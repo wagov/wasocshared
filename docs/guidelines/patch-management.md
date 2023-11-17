@@ -1,6 +1,8 @@
 # Patch Management Guideline
 
-This guideline is intended to define a pragmatic target for effective patch management and associated tools for most use cases.
+This guideline is intended to define a pragmatic target for effective patch management and associated tools for most use cases. This guide is primarily focused on routine patching as defined within [NIST Special Publication 800-40r4](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r4.pdf) (Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology).
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cGWA-lW__MY?si=BRMtUjVPfb3mI6kx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Small / hybrid scenarios
 

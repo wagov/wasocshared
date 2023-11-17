@@ -1,27 +1,24 @@
-# Baseline for Event Ingestion
+# Baseline for Detection Coverage (MITRE ATT&CK)
 
-This document and associated checklist is intended to be used as a high-level self assessment to determine coverage quality of an operational SIEM environment for a typical organisation.
+This document and associated checklist is intended to be used as a high-level self assessment against an organisations *[telemetry collection](https://attack.mitre.org/datasources/)* and *[detection analytics](https://attack.mitre.org)* aligned to the [MITRE ATT&CK Framework](https://attack.mitre.org).
 
-## 1. Service Model Context
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uEkoLXpHoBE?si=xrEk4k4cUcDKlLrB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Most organisations are strategically migrating services not unique to their specific business to shared common service models as below (diagram from [CISA Cloud Security Technical Reference Architecture](https://www.cisa.gov/sites/default/files/publications/Cloud%20Security%20Technical%20Reference%20Architecture.pdf)). This typically results in the **Identity, Credential and Access Management** and **Data** relevant observables having the greatest value.
+## 1. Shared Responsibility Model
 
-![Service Models](../images/servicemodels.png)
+For service providers see [Supply Chain Risk Management](../guidelines/supply-chain-risk-mgmt.md) (vendors should report detection coverage monthly and incidents within 24 hours). Otherwise ensure the [Security Operations](../baselines/security-operations.md) team is resourced to collect the below telemetry and manage detection, triage and response activities over them based on the organisations risk profile.
 
-The above diagram should be used as a reference to determine which systems/services are relevant for capturing security logs (i.e. if utilising IaaS, the service provider should facilitate the collection of security logs in bulk, while On-Premise infrastructure would require additional resources to capture security logs from hypervisors, physical servers, storage and physical security).
+## 2. Data Sources
 
-## 2. Detection Observables
+Below are the highest priority MITRE Data Sources to ensure telemetry and analytics are available for:
 
-Referencing the [STIX 2.1 Cyber Observable Objects](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html) library, the below observables are intended to represent an organisation detection scope of potential threat indicators. The observables objects are ordered based on feasibility of ingestion of all relevant activities external to an organisation.
-
-1. [IPv4Address](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.IPv4Address), [IPv6Address](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.IPv6Address)
-2. [UserAccount](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.UserAccount), [EmailAddress](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.EmailAddress)
-3. [DomainName](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.DomainName), [URL](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.URL)
-4. [EmailMessage](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.EmailMessage) (date, subject, from, to most relevant)
-5. [File](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.File) (SHA256 hash most relevant)
-6. [HTTPRequestExt](https://stix2.readthedocs.io/en/latest/api/v21/stix2.v21.observables.html#stix2.v21.observables.HTTPRequestExt) (Inbound HTTP requests through e.g. Web Application Firewalls)
-
-> Further information of the purpose of STIX 2.1 and the observable objects can be found [here](https://oasis-open.github.io/cti-documentation/stix/intro.html).
+1. [DS0002 User Account](https://attack.mitre.org/datasources/DS0002/) - A profile representing a user, device, service, or application used to authenticate and access resources
+2. [DS0025 Cloud Service](https://attack.mitre.org/datasources/DS0025/) - Infrastructure, platforms, or software that are hosted on-premise or by third-party providers, made available to users through network connections and/or APIs
+3. [DS0009 Process](https://attack.mitre.org/datasources/DS0009/) - Instances of computer programs that are being executed by at least one thread. Processes have memory space for process executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures
+4. [DS0017 Command](https://attack.mitre.org/datasources/DS0017/) - A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task
+5. [DS0022 File](https://attack.mitre.org/datasources/DS0022/) - A computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).
+6. [DS0029 Network Traffic](https://attack.mitre.org/datasources/DS0029/) - Data transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP)
+7. [DS0015 Application Log](https://attack.mitre.org/datasources/DS0015/) - Events collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)
 
 ## 3. Detection Assets
 
@@ -33,6 +30,7 @@ The below is a high level summary of assets and services from where security log
 - **Servers** - Hypervisors, Servers, Container Platforms
 - **Network Firewalls (Firewalls)** - Network egress and internal network control points
 - **Web Application Firewalls (WAFs)** - Network ingress control points
+- **Applications and Databases** - Application logs and query logs from application runtimes (e.g. stack traces) and databases
 
 ## 4. Detection Checklist
 
@@ -59,7 +57,7 @@ These are available as integrations with some deployment requirements on Windows
 
 - [ ] **Endpoints** - Query a `IPv4Address`, `IPv6Address`, `DomainName` or `URL` across all outbound [Network Traffic](https://attack.mitre.org/datasources/DS0029/).
     - E.g. [Defender Network Protection](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/network-protection?view=o365-worldwide), [Defender Web Protection](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/web-protection-overview?view=o365-worldwide)
-- [ ] **Endpoints** - Query a `SHA256 Hash (File)`, `Name (File)` or `FileOriginUrl (File)` across all [Files](https://attack.mitre.org/datasources/DS0022/) and [Processes](https://attack.mitre.org/datasources/DS0009/).
+- [ ] **Endpoints** - Query a `SHA256 Hash (File)`, `Name (File)` or `FileOriginUrl (File)` across all [Files](https://attack.mitre.org/datasources/DS0022/), [Processes](https://attack.mitre.org/datasources/DS0009/) and [Commands](https://attack.mitre.org/datasources/DS0017/).
     - E.g. [Defender Real-time protection](https://learn.microsoft.com/en-us/mem/intune/protect/antivirus-microsoft-defender-settings-windows#real-time-protection)
 
 ### 4.3. High return on investment
@@ -74,13 +72,18 @@ Agent based network protection is relatively straightforward to ingest from appl
 
 ## 5. Detection Analytics
 
-Once the above checklist is validated, an organisation should schedule regular security exercises to detect for suspicious behaviour based on indicators collected from threat intelligence sources and to detect for deviations against known behaviour baselines. A simple example would be to determine a subset of users that are allowed to use legacy authentication protocols (NTLM, LDAP, HTTP Basic Auth), and alerting security analysts whenever a user outside of that list attempts to sign in with a legacy authentication protocol.
+The security tools collecting telemetry should be capable of running both built-in and custom analytics on a regular basis. Some repositories and tools to build high quality detection analytics are below:
 
-[Sigma](https://github.com/SigmaHQ/sigma) is a flexible rule format that is easy to write and applicable to any type of log file. The project provides a structured library and an open specification in which researchers or analysts can describe and share their detection methods. The WA SOC is actively investing into [sigma rule development](https://github.com/SigmaHQ/sigma/wiki/Rule-Creation-Guide) and a [pySigma](https://github.com/SigmaHQ/pySigma) [backend/pipeline for Sentinel](https://github.com/wagov/python-squ/blob/main/sigma/pipelines/azure/azure.py), and can provide assistance in converting rules to/from sigma formats.
-
-![Sigma Conversion](https://github.com/SigmaHQ/pySigma/raw/main/docs/images/pipelines.png)
+- [Sigma](https://github.com/SigmaHQ/sigma/) - Sigma main rule repository. The place where detection engineers, threat hunters and all defensive security practitioners collaborate on detection rules. The repository offers more than 3000 detection rules of different type and aims to make reliable detections accessible to all at no cost.
+- [Microsoft Sentinel Solutions](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions) - combinations of data connectors, workbooks, analytic rules, playbooks, hunting queries, parsers, watchlists, and more for Microsoft Sentinel.
+- [reprise99 Sentinel Queries](https://github.com/reprise99/Sentinel-Queries) - Some tips, tricks and examples for using KQL for Microsoft Sentinel.
+- [Sentinel custom content CI/CD](https://learn.microsoft.com/en-us/azure/sentinel/ci-cd?tabs=github) - How to create and manage connections between Microsoft Sentinel and GitHub or Azure DevOps repositories. Managing your content in an external repository allows you to make updates to that content outside of Microsoft Sentinel, and have it automatically deployed to your workspaces.
 
 ### 5.1 Microsoft Sentinel Detection Pack
+
+!!! note "Under Review"
+
+    The below detection pack is currently being converted into an external content repository to enable better change management with git.
 
 The WA SOC has curated a pack of over 100 [analytics rules](https://learn.microsoft.com/en-us/azure/sentinel/detect-threats-built-in) from [the unified Microsoft Sentinel and Microsoft 365 Defender repository](https://github.com/Azure/Azure-Sentinel) for rapid deployment (last updated Feb 2023):
 
@@ -114,8 +117,11 @@ Example [code is available](https://github.com/wagov/python-squ/blob/main/exampl
     - **How can I contact DGov if I have questions about this?**
         - We're always contactable via our monitored mailbox: <cybersecurity@dpc.wa.gov.au>
 
-
 ### 5.2 Microsoft Sentinel Automation Pack
+
+!!! note "Under Review"
+
+    The below automation pack is currently being converted into an external content repository to enable better change management with git.
 
 !!! note "WASOC Automation Rules"
 
@@ -125,3 +131,81 @@ Example [code is available](https://github.com/wagov/python-squ/blob/main/exampl
     [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fwagov%2FWASOCAutomationPlaybook%2Fmain%2FCollatedDeployment.json)
 
     *Note: This package does not yet cover the Microsoft Defender for IoT Analytic Rules and is under development. Feedback is appreciated.*
+
+## 6. Sentinel Telemetry Gap Analysis (KQL)
+
+The following listed queries help identify missing telemetry for endpoints in Microsoft Sentinel. The chart below depicts most seen observables per [MITRE ATT&CK®](https://attack.mitre.org/) (source: [OSSEM project](https://github.com/OTRF/OSSEM))
+
+![image](../images/MitreAttackTTPChart.png)
+
+### 6.1 Process Creation  
+
+The following are common log sources for Process Creation events and relating kql queries to identify number of endpoints providing these observables.
+
+| Log source  |    KQL    |
+|-------------|-----------|
+| Audit Policy (SecurityEvent) | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| summarize count_distinct(Computer) |
+| Sysmon (Event) | Event \| where TimeGenerated > ago(7d) \| where Source == "Microsoft-Windows-Sysmon" \| where EventID == 1 \| summarize count_distinct(Computer) |
+| Defender (DeviceProcessEvents) | DeviceProcessEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName) |
+| AzureAD (VMProcess) | VMProcess \| where TimeGenerated > ago(7d) \| where isnotempty(ExecutableName) \| summarize count_distinct(Computer) |
+
+### 6.2 Process Command Line
+
+The following kql queries will provide number of endpoints with [Command Line logging enabled](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/command-line-process-auditing).
+
+| Log type   |   KQL    |
+|---------|-----------|
+| Audit Policy (SecurityEvent) | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| where isnotempty(CommandLine) \| summarize count_distinct(Computer) |
+| AzureAD: VMProcess | VMProcess \| where TimeGenerated > ago(7d) \| where isnotempty(CommandLine) \|summarize count_distinct(Computer) |  
+| DeviceProcessEvents | DeviceProcessEvents \| where TimeGenerated > ago(7d) \| where isnotempty(InitiatingProcessCommandLine) or isnotempty(ProcessCommandLine) \| summarize count_distinct(DeviceName) |
+
+### 6.3 Parent Process  
+
+| Log type   |   KQL    |
+|------------|----------|
+| Audit Policy (SecurityEvent) | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| where isnotempty(ParentProcessName) \| summarize count_distinct(Computer) |  
+
+### 6.4 Microsoft Defender Device Logs
+
+[Connect Microsoft 365 Defender to Micrososft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDE)
+
+#### Techniques: [Microsoft Defender for Endpoint | Microsoft Security](https://www.microsoft.com/en-au/security/business/endpoint-security/microsoft-defender-endpoint?rtc=1)
+
+| Log type        | KQL         |
+|-----------------------|-------------|
+|Process creation and related events  | DeviceProcessEvents   \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
+|Network connection and related events | DeviceNetworkEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
+|Parent Process  | DeviceProcessEvents   \| where TimeGenerated > ago(7d) \| where isnotempty(InitiatingProcessParentFileName)   \| summarize count_distinct(DeviceName)|  
+|Named Pipes | DeviceEvents \|   where ActionType == "NamedPipeEvent" \| where TimeGenerated >  ago(7d) \| summarize count_distinct(DeviceName)|  
+|File creation, modification, and other file system events| DeviceFileEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
+|Creation and modification of registry entries |  DeviceRegistryEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
+|DLL loading events |  DeviceImageLoadEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
+
+### 6.5 Microsoft Defender Office 365 Logs Monitoring
+
+[Connect Microsoft 365 Defender to Micrososft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDO)
+
+| Log type                   | KQL                                                                                             |
+|----------------------------|-------------------------------------------------------------------------------------------------|
+| Email Events               | EmailEvents \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)             |
+| Email Attachment Info      | EmailAttachmentInfo \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)     |
+| Email Url Info             | EmailUrlInfo \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated)           |
+| Email Post Delivery Events | EmailPostDeliveryEvents \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated)|
+
+### 6.6 Important activities
+
+The table presented below provides a comprehensive list of significant Event IDs that can potentially signify noteworthy activities associated with malicious actions.
+
+| Type                  | KQL                              |
+|-----------------------|----------------------------------|
+| Local Authentication           | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4624 \| summarize count_distinct(Computer)|
+| DC Authentication              | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4776 \| summarize count_distinct(Computer)|
+| Group Enumeration              | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4799 \| summarize count_distinct(Computer)|
+| Kerberos                       | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4769 \| summarize count_distinct(Computer)|
+| Certificate Usage (Kerb)       | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4768 \| summarize count_distinct(Computer)|
+| Replication                    | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4662 \| summarize count_distinct(Computer)|
+| New Scheduled Task             | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4698 \| summarize count_distinct(Computer)|
+| Powershell Execution           | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4104 \| summarize count_distinct(Computer)|
+| Registry Value Modification    | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4657 \| summarize count_distinct(Computer)|
+| RunAs                          | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4648 \| summarize count_distinct(Computer)|
+| Windows Firewall Rule Deletion | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4948 \| summarize count_distinct(Computer)|

@@ -1,0 +1,21 @@
+name: Send advisory
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      advisory_url:
+        type: string
+
+jobs:
+  send-modified-files:
+    name: Send advisory files added today, or send advisory from input url
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout docs
+        uses: actions/checkout@v4
+        with:
+            fetch-depth: 2
+      - name: Send advisories
+        run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
