@@ -1,4 +1,4 @@
-# Juniper Addresses Multiple Vulnerbilities in Secure Analytics - 20231122001
+# Juniper Addresses Multiple Vulnerabilities in Secure Analytics - 20231122001
 
 ## Overview
 
