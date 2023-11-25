@@ -4,6 +4,10 @@
 
 The below guidance is to get a novice with basic IT literacy up to speed with common Security Operations activities all the way from collecting events, alerting on detections, triaging alerts, responding to incidents and managing detection rules and investigative queries.
 
+A refresher on good study techniques is below which should help for pursuing any professional or academic certifications.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Lt54CX9DmS4?si=4MhEWoaMsDc9EXhD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## 2. Prerequisites
 
 To get started with SOC activities in the Microsoft Sentinel environment it is sensible to have administrative access to both a [Microsoft 365](https://www.microsoft.com/en-au/microsoft-365) tenant and a [Microsoft Azure](https://azure.microsoft.com/en-au/) subscription.
