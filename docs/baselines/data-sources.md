@@ -20,6 +20,24 @@ Below are the highest priority MITRE Data Sources to ensure telemetry and analyt
 6. [DS0029 Network Traffic](https://attack.mitre.org/datasources/DS0029/) - Data transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP)
 7. [DS0015 Application Log](https://attack.mitre.org/datasources/DS0015/) - Events collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)
 
+### 2.1 Telemetry Sensors
+
+Based on these data sources telemetry sensor deployment can be prioritised as follows:
+
+1. [Endpoints and Servers via XDR platforms](#22-xdr-detection-and-response-platforms)
+2. [Network via network analytics platforms](https://soc.cyber.wa.gov.au/guidelines/network-management/#adverse-event-analysis-and-asset-inventory)
+3. [Public / Private cloud via API or native platforms](../guidelines/secure-configuration.md)
+
+### 2.2 XDR (Detection and Response) platforms
+
+XDR platforms are regularly [evaluated by MITRE Engenuity (ref:  Turla (2023))](https://attackevals.mitre-engenuity.org/results/enterprise?vendor=microsoft&vendor=crowdstrike&vendor=trendmicro&evaluation=turla&scenario=2). Please carefully consider [Supply Chain Risk](../guidelines/supply-chain-risk-mgmt.md) when selecting such platforms - constrain to independently assessed platforms hosted in Australia, such as [Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/eval-overview?view=o365-worldwide) or [Trend Vision One](https://www.trendmicro.com/en_au/business/technologies/regional-data-centers.html).
+
+![mitre eval summary](../images/mitre-edr-eval.png)
+
+Self managed platforms like [Wazuh](https://wazuh.com) (a SIEM platform that also [inventories vulnerabilities](https://documentation.wazuh.com/current/user-manual/capabilities/vulnerability-detection/how-it-works.html), measures [CIS Benchmarks](https://documentation.wazuh.com/current/user-manual/capabilities/policy-monitoring/ciscat/ciscat.html) and [NIST 800-53 Compliance](https://documentation.wazuh.com/current/compliance/nist/index.html)) are effective for internally capable teams or training purposes (below excellent vid by [John Hammond](https://www.youtube.com/johnhammond010)):
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i68atPbB8uQ?si=x-Z7fleGVr-BCII6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## 3. Detection Assets
 
 The below is a high level summary of assets and services from where security logs should typically be collected. Subsequent detection queries will refer to these assets.
