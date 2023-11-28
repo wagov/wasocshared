@@ -24,7 +24,7 @@ Consider information security risks as a part of procurement and contract risk a
 
 ## Template contract clauses promoting information security
 
-Include clauses similar to below when procuring any goods or services that handle digital information.†mi
+Include clauses similar to below when procuring any goods or services that handle digital information.
 
 - **Vulnerability Disclosure:** Notify the customer of confirmed security vulnerabilities in their assets within 24 hours of confirmation.
 - **Cyber Incident Detection and Response:** Notify the customer of cyber security incidents within 24 hours of detection.
