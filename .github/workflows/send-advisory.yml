@@ -17,5 +17,10 @@ jobs:
         uses: actions/checkout@v4
         with:
             fetch-depth: 2
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: install mkdocs
+        run: pip install -r requirements.txt
       - name: Send advisories
         run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"

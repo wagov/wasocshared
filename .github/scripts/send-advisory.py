@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 import sys, re
 from pathlib import Path
+from markdown import markdown
+from string import Template
 from subprocess import check_output
 
 added_files = check_output(["git", "diff", "--name-only", "-r", "--diff-filter=A", "HEAD^"]).decode("utf8").split("\n")
 latest_advisory = max(Path("docs/advisories").glob("*.md"))
+base_template = Template(Path("email-template.html").read_text())
 today = latest_advisory.name[:8]
 advisory_mds = {}
 base_url = "https://soc.cyber.wa.gov.au/advisories/"
@@ -39,7 +42,9 @@ for url, advisory_md in advisory_mds.items():
             break
 
     overview += f"\n\n- [{title}]({url})"
+    html_overview = markdown(overview)
 
-    print("---")
+    print(f"Title: {title}")
+    print("--- Overview Below ---")
     print(overview)
     print("---")
