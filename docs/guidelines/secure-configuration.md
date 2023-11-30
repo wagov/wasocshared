@@ -59,6 +59,6 @@ Management](https://www.qualys.com/apps/vulnerability-management-detection-respo
     - [Migrate file shares to OneDrive, Teams, and SharePoint](https://learn.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide)
     - [Migrate Microsoft Access data to Microsoft Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/migrate-access-to-dataverse)
 - [Regular backups](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-regular-backups)
-    - [Azure File Sync (Disaster Recovery for local file shares)](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/hybrid-file-share-dr-remote-local-branch-workers), [Druva Phoenix](https://www.druva.com/products/data-center), 
+    - [Azure File Sync (Disaster Recovery for local file shares)](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/hybrid-file-share-dr-remote-local-branch-workers), [Back up on-premises applications and data to the cloud (Azure Backup)](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/backup-archive-on-premises-applications), [Druva Phoenix](https://www.druva.com/products/data-center)
 
 
