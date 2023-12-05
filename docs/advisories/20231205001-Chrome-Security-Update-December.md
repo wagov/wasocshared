@@ -1,4 +1,4 @@
-# Google Chrome Critical Security Updates - 20231204003
+# Google Chrome Critical Security Updates - 20231205001
 
 ## Overview
 
