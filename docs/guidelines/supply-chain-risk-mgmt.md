@@ -44,6 +44,21 @@ Key considerations from page 16 and 17 of the [NIST CSF 2.0 Initial Public Draft
 - **Respond:** Executing incident response plans when compromised products or services are involved [RS.MA-01]
 - **Recover:** Executing the recovery portion of the organization’s incident response plan when compromised products or services are involved [RC.RP-01], and restoring compromised products or services and verifying their integrity [RC.RP-05]
 
+## Device as a Service (DaaS) options for Computing and Mobile Devices
+
+An organisation can partially outsource asset and vulnerability management across it's end user fleet to a Device as a Service (DaaS) provider. If management is outsourced, ensure the provider is using an endpoint management platform able to meet the above [procurement clauses](#template-contract-clauses-promoting-information-security). See the below list for [Computing and Mobile Devices CUACMD2021](https://www.wa.gov.au/government/cuas/computing-and-mobile-devices-cuacmd2021) manufacturer agnostic DaaS providers.
+
+- [CDM's Desktop as a Service](https://cdm.com.au/solutions/modern-workplace/)
+- [Compnow’s Device as a Service](https://www.compnow.com.au/capabilities/lifecycle-management/)
+- [Data#3’s Device as a Service](https://www.data3.com/solutions/modern-workplace/end-user-devices/device-as-a-service/)
+- [JB Hi-Fi Business Device as a Service](https://www.jbhifi.business/daas)
+- [stotthoare Desktop as a Service](https://stotthoare.com.au/capabilities/managed-services/device-as-a-service/)
+
+Additionally see the [Telecommunications Solutions CUATEL2021](https://www.wa.gov.au/government/cuas/telecommunications-solutions-cuatel2021) for services that could be combined with mobile devices.
+
+- [Optus Managed Desktop Service](http://smb.optus.com.au/opfiles/Business/PDFs/Managed_Desktop_Services_Factsheet.pdf)
+- [Telstra Microsoft Surface as a Service](https://www.telstra.com.au/business-enterprise/products/mobility-solutions/plans-and-devices/surface-as-a-service)
+
 ## ACSC ISM Controls - Contractual security requirements with service providers
 
 These are all lifted from the  [ACSC Procurement Guidelines](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing).
