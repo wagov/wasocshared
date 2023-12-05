@@ -55,6 +55,11 @@ An organisation can partially outsource asset and vulnerability management acros
 - [JB Hi-Fi Business Device as a Service](https://www.jbhifi.business/daas)
 - [stotthoare Desktop as a Service](https://stotthoare.com.au/capabilities/managed-services/device-as-a-service/)
 
+Additionally see the [Telecommunications Solutions CUATEL2021](https://www.wa.gov.au/government/cuas/telecommunications-solutions-cuatel2021) for services that could be combined with mobile devices.
+
+- [Optus Managed Desktop Service](http://smb.optus.com.au/opfiles/Business/PDFs/Managed_Desktop_Services_Factsheet.pdf)
+- [Telstra Microsoft Surface as a Service](https://www.telstra.com.au/business-enterprise/products/mobility-solutions/plans-and-devices/surface-as-a-service)
+
 ## ACSC ISM Controls - Contractual security requirements with service providers
 
 These are all lifted from the  [ACSC Procurement Guidelines](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing).
