@@ -46,7 +46,7 @@ Key considerations from page 16 and 17 of the [NIST CSF 2.0 Initial Public Draft
 
 ## Device as a Service (DaaS) options for Computing and Mobile Devices
 
-An organisation can partially outsource asset and vulnerability management across it's end user fleet to a Device as a Service (DaaS) provider. If management is outsourced, ensure the provider is using an endpoint management platform able to meet the above [procurement clauses](#template-contract-clauses-promoting-information-security). See the below list for [Computing and Mobile Devices CUACMD2021](https://www.wa.gov.au/government/cuas/computing-and-mobile-devices-cuacmd2021) device agnostic DaaS providers.
+An organisation can partially outsource asset and vulnerability management across it's end user fleet to a Device as a Service (DaaS) provider. If management is outsourced, ensure the provider is using an endpoint management platform able to meet the above [procurement clauses](#template-contract-clauses-promoting-information-security). See the below list for [Computing and Mobile Devices CUACMD2021](https://www.wa.gov.au/government/cuas/computing-and-mobile-devices-cuacmd2021) manufacturer agnostic DaaS providers.
 
 - [CDM's Desktop as a Service](https://cdm.com.au/solutions/modern-workplace/)
 - [Compnow’s Device as a Service](https://www.compnow.com.au/capabilities/lifecycle-management/)
