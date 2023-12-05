@@ -51,7 +51,6 @@ An organisation can partially outsource asset and vulnerability management acros
 - [CDM's Desktop as a Service](https://cdm.com.au/solutions/modern-workplace/)
 - [Compnow’s Device as a Service](https://www.compnow.com.au/capabilities/lifecycle-management/)
 - [Data#3’s Device as a Service](https://www.data3.com/solutions/modern-workplace/end-user-devices/device-as-a-service/)
-- [Datacom's desktop as a service](https://datacom.com/au/en/solutions/cloud/cloud-solutions/desktop-as-a-service)
 - [JB Hi-Fi Business Device as a Service](https://www.jbhifi.business/daas)
 - [stotthoare Desktop as a Service](https://stotthoare.com.au/capabilities/managed-services/device-as-a-service/)
 
