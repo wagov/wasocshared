@@ -7,7 +7,7 @@ Apple has released security updates to address vulnerabilities in WebKit for mul
 ## What is the vulnerability?
 
 - An out-of-bounds read vulnerability [**CVE-2023-42916**](https://nvd.nist.gov/vuln/detail/CVE-2023-42916) - CVSS v3 Base Score: ***N.A***
-- A memory corruption vulnerability [**CVE-2023-42916**](https://nvd.nist.gov/vuln/detail/CVE-2023-42917) - CVSS v3 Base Score: ***N.A***
+- A memory corruption vulnerability [**CVE-2023-42917**](https://nvd.nist.gov/vuln/detail/CVE-2023-42917) - CVSS v3 Base Score: ***N.A***
 
 
 ## What is vulnerable?
