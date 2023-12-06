@@ -12,7 +12,7 @@
 ---
 
 ## Examples of usage
-### [20231123001](docs/advisories/20231123001-CISA-StopRansomware-LockBit-Citrix-Bleed.md)
+### 20231123001
 | Platform | Package | State | Errata | Release Date |
 | --- | --- | --- | --- | --- |
 | Red Hat Enterprise Linux 8 | glibc | Fixed | [RHSA-2023:5455](https://access.redhat.com/errata/RHSA-2023:5455) | 5 October 2023 |
@@ -30,7 +30,7 @@
 ---
 
 
-### [20231206001](docs/advisories/20231206001-KnownExploitedVulnerability-Qualcomm-Multiple-Chipsets.md)
+### 20231206001
 | CVE ID | CVSS Score | Overview | Affected Products | Vendor Bulletin |
 | --- | --- | --- | --- | --- |
 | [CVE-2023-33106](https://www.cve.org/CVERecord?id=CVE-2023-33106) | TBD | Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND. | See CVE Link | [Vendor Bulletin](<https://www.qualcomm.com/company/product-security/bulletins/december-2023-bulletin>) |
