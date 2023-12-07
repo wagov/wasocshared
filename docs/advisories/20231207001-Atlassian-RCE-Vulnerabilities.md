@@ -2,7 +2,7 @@
 
 ## Overview
 
-Atlassian has released security fixes for RCE (Remote Code Execution) vulnerabilities in multiple products as part of their [**December 2023 Security Advisories**](https://confluence.atlassian.com/security/december-2023-security-advisories-overview-1318892103.html)
+Atlassian has released security fixes for RCE (Remote Code Execution) vulnerabilities in multiple products and relevant mitigations as part of their [**December 2023 Security Advisories**](https://confluence.atlassian.com/security/december-2023-security-advisories-overview-1318892103.html)
 
 
 ## What is vulnerable?
@@ -26,7 +26,6 @@ Atlassian has released security fixes for RCE (Remote Code Execution) vulnerabil
 
 ***CVE-2023-22523*** *-* [*RCE Vulnerability in Assets Discovery*](https://confluence.atlassian.com/x/EiSiTg "https://confluence.atlassian.com/x/EiSiTg") *(stand-alone app)*
 
--   *Jira Service Management Cloud*
 -   *Jira Service Management Data Center and Server*
 
 ## What has been observed?
