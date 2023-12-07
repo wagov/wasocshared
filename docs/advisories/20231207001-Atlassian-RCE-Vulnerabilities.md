@@ -7,7 +7,7 @@ Atlassian has released security fixes for RCE (Remote Code Execution) vulnerabil
 
 ## What is vulnerable?
 
-***CVE-2022-1471*** *-* [*SnakeYAML library RCE Vulnerability impacts Multiple Products*](https://confluence.atlassian.com/x/AQBCTQ "https://confluence.atlassian.com/x/AQBCTQ")
+***CVE-2022-1471*** *-* [*SnakeYAML library RCE Vulnerability impacts Multiple Products*](https://confluence.atlassian.com/x/AQBCTQ)
 
 -   *Bitbucket Data Center and Server*
 -   *Confluence Data Center and Server*
@@ -17,14 +17,15 @@ Atlassian has released security fixes for RCE (Remote Code Execution) vulnerabil
 -   *Jira Software Data Center and Server*
 -   *Automation for Jira (A4J) app (including Server Lite edition)*
 
-***CVE-2023-22522*** *-* [*RCE Vulnerability in Confluence Data Center and Server*](https://confluence.atlassian.com/x/ugunTg "https://confluence.atlassian.com/x/ugunTg")
+***CVE-2023-22522*** *-* [*RCE Vulnerability in Confluence Data Center and Server*](https://confluence.atlassian.com/x/ugunTg)
+
 -   *Confluence Data Center and Server*
 
-***CVE-2023-22524*** *-*[*RCE Vulnerability in Atlassian Companion App for MacOS*](https://confluence.atlassian.com/security/cve-2023-22524-rce-vulnerability-in-atlassian-companion-app-for-macos-1319249492.html "https://confluence.atlassian.com/security/cve-2023-22524-rce-vulnerability-in-atlassian-companion-app-for-macos-1319249492.html")
+***CVE-2023-22524*** *-*[*RCE Vulnerability in Atlassian Companion App for MacOS*](https://confluence.atlassian.com/security/cve-2023-22524-rce-vulnerability-in-atlassian-companion-app-for-macos-1319249492.html)
 
 -  *Confluence Data Center and Server (former and present customers)*
 
-***CVE-2023-22523*** *-* [*RCE Vulnerability in Assets Discovery*](https://confluence.atlassian.com/x/EiSiTg "https://confluence.atlassian.com/x/EiSiTg") *(stand-alone app)*
+***CVE-2023-22523*** *-* [*RCE Vulnerability in Assets Discovery*](https://confluence.atlassian.com/x/EiSiTg) *(stand-alone app)*
 
 -   *Jira Service Management Data Center and Server*
 
