@@ -25,7 +25,7 @@ Baselines are for use as self-assessment checklists, and guidelines are for gene
 
     The [CISA Cross-Sector Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) are clear targeted recommendations focusing on most common and impactful threats, including cost, complexity and impact ratings against each recommendation. These are highly relevant targets for entities in scope of [SOCI regulatory obligations](https://www.cisc.gov.au/legislative-information-and-reforms/critical-infrastructure/regulatory-obligations).
     
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W6Cu0xa8kds?si=flUQ8EyhaHgcDNzZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/podtgMpjVp4?si=rmJ_tqjca9iQX_in" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 !!! tip "Guidelines"
 
