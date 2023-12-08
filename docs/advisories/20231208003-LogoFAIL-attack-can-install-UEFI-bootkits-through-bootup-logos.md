@@ -30,7 +30,7 @@ More information on the scale of the vulnerabilities or devices affected, refer 
 
 ## Recommendation
 
-The WA SOC highly recommends ensure the latest firmware updates are applied across all applicable devices (as they become available) as per their vendors instructions. (refer [Patch Management](../guidelines/patch-management.md)).
+The WA SOC recommends latest firmware updates are applied across all applicable devices (as they become available) as per their vendors instructions. (refer [Patch Management](../guidelines/patch-management.md)).
 
 
 ## Additional References
