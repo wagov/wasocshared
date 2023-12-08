@@ -2,7 +2,7 @@
 
 ## Overview
 
-Atlassian has released security fixes for RCE (Remote Code Execution) vulnerabilities in multiple products and relevant mitigations as part of their [**December 2023 Security Advisories**](https://confluence.atlassian.com/security/december-2023-security-advisories-overview-1318892103.html)
+Atlassian has released security fixes for RCE (Remote Code Execution) vulnerabilities in multiple products and relevant mitigations as part of their [**December 2023 Security Advisories**](https://confluence.atlassian.com/security/december-2023-security-advisories-overview-1318892103.html).
 
 
 ## What is vulnerable?
@@ -31,9 +31,13 @@ Atlassian has released security fixes for RCE (Remote Code Execution) vulnerabil
 
 ## What has been observed?
 
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+The Australian Signal Directorate’s Australian Cyber Security Centre (ASD’s ACSC) notes that previous critical vulnerabilities in Confluence and Jira have had significant exploitation by malicious cyber actors.
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
+See [ACSC Serious vulnerabilities in Atlassian products including Confluence, Jira and Bitbucket](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/serious-vulnerabilities-in-atlassian-products-including-confluence-jira-and-bitbucket) for more detail.
+
+- If you operate Confluence, Jira or Bitbucket, particularly in internet facing configurations, review the vendor advisories to determine if you are affected
+- If you are affected carefully apply all vendor recommended mitigations within expected timeframe of *48 hours* for internet facing instances (refer [Patch Management](../guidelines/patch-management.md)):
+- Reassess whether your system needs to be internet facing and filter from the internet if possible.
 
