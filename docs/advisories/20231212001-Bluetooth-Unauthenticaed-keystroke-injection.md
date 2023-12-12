@@ -11,7 +11,7 @@ The attack does not require specialized hardware, and can be performed from a Li
 
 | CVE ID | CVSS Score | Overview |
 | --- | --- | --- | 
-| [CVE-2023-45866](https://www.cve.org/CVERecord?id=CVE-2023-45866) | 9.8 | Bluetooth HID Hosts in BlueZ may permit an unauthenticated Peripheral role HID Device to initiate and establish an encrypted connection, and accept HID keyboard reports, potentially permitting injection of HID messages when no user interaction has occurred in the Central role to authorize such access. An example affected package is bluez 5.64-0ubuntu1 in Ubuntu 22.04LTS. NOTE: in some cases, a CVE-2020-0556 mitigation would have already addressed this Bluetooth HID Hosts issue. | 
+| [CVE-2023-45866](https://nvd.nist.gov/vuln/detail/CVE-2023-45866) | 9.8 | Bluetooth HID Hosts in BlueZ may permit an unauthenticated Peripheral role HID Device to initiate and establish an encrypted connection, and accept HID keyboard reports, potentially permitting injection of HID messages when no user interaction has occurred in the Central role to authorize such access. An example affected package is bluez 5.64-0ubuntu1 in Ubuntu 22.04LTS. NOTE: in some cases, a CVE-2020-0556 mitigation would have already addressed this Bluetooth HID Hosts issue. | 
 
 ## What is vulnerable?
 
