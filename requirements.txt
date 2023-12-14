@@ -5,3 +5,4 @@ mkdocs-git-revision-date-localized-plugin
 mkdocs-linkcheck
 beautifulsoup4
 diskcache
+sendgrid
