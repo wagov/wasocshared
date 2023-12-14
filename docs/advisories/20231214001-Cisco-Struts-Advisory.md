@@ -1,4 +1,4 @@
-# Cisco Addresses Apache Struts 2 Critical RCE Vulnerability - 20231213001
+# Cisco Addresses Apache Struts 2 Critical RCE Vulnerability - 20231214001
 
 ## Overview
 
