@@ -11,7 +11,7 @@ Cisco is investigating its product line to determine which products may be affec
 
 | CVE ID | CVSS Score | Overview 
 | --- | --- | --- |
-| [**CVE-2023-50164**](https://cwe.mitre.org/data/definitions/20.html) | 9.8 | An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution. |
+| [**CVE-2023-50164**](https://nvd.nist.gov/vuln/detail/CVE-2023-50164) | 9.8 | An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution. |
 
 
 ## What is vulnerable?
