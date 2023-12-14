@@ -24,3 +24,5 @@ jobs:
         run: pip install -r requirements.txt
       - name: Send advisories
         run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
+        env: # sendgrid api token
+          super_secret: ${{ secrets.SENDGRID_API }}
