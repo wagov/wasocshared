@@ -8,6 +8,10 @@ on:
       advisory_url:
         type: string
 
+
+env: # sendgrid api token
+  sendgrid_api: ${{ secrets.SENDGRID_API }}
+
 jobs:
   send-modified-files:
     name: Send advisory files added today, or send advisory from input url
@@ -24,5 +28,3 @@ jobs:
         run: pip install -r requirements.txt
       - name: Send advisories
         run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
-        env: # sendgrid api token
-          super_secret: ${{ secrets.SENDGRID_API }}

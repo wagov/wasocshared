@@ -16,7 +16,7 @@ def email_campaign (uid, title, overview, url, content):
 
 
     #
-    sg = SendGridAPIClient(os.environ.get('SENDGRID_API'))
+    sg = SendGridAPIClient(os.environ.get('sendgrid_api'))
 
     data = {
     "name":f"{uid} - TLP CLEAR - {title}",
@@ -86,3 +86,5 @@ for url, advisory_md in advisory_mds.items():
     html_filled = Template(Path("templates/tlp-clear-email-template.html").read_text()).substitute(title=title, overview=html_overview, url=url, uid=advisory_id)
 
     email_campaign(advisory_uid, title, html_overview, url, html_filled)
+
+    print()
