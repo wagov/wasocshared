@@ -23,7 +23,7 @@ Please use the above links or existing services to organise yourself admin acces
 
 ## 3. Recommended structured learning approach
 
-The below training and certifications are all free, and provide a good foundational base for cyber security defensive activities. It's recommended to work through them in order.
+The below training provides a good foundational base for cyber security defensive activities. It's recommended to work through them in order.
 
 ### 3.1. IT Infrastructure and Cloud fundamentals
 
