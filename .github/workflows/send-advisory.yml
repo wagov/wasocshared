@@ -8,6 +8,10 @@ on:
       advisory_url:
         type: string
 
+
+env: # sendgrid api token
+  sendgrid_api: ${{ secrets.SENDGRID_API }}
+
 jobs:
   send-modified-files:
     name: Send advisory files added today, or send advisory from input url

@@ -12,7 +12,7 @@ Organisations should strive to reduce network complexity and focus on the key ou
 
 It's strongly recommended to transition from traditional VPNs to modern Secure Service Edge (SSE) platforms, that can also improve the application of network policies across an organisation. SSE and SASE platforms are available from:
 
-- Infrastructure providers ([Microsoft Global Secure Access](https://learn.microsoft.com/en-us/azure/global-secure-access/overview-what-is-global-secure-access), [VMWare SASE](https://sase.vmware.com/sd-wan/security-services))
+- Infrastructure providers ([Microsoft Security Service Edge](https://learn.microsoft.com/en-us/entra/architecture/sse-deployment-guide-intro), [VMWare SASE](https://sase.vmware.com/sd-wan/security-services))
 - Network hardware vendors ([Check Point Harmony Connect](https://www.checkpoint.com/harmony/connect-sase/), [Cisco Secure Access](https://www.cisco.com/site/us/en/products/security/secure-access/index.html), [FortiSASE](https://www.fortinet.com/products/sase),  [Palo Alto Prisma SASE](https://www.paloaltonetworks.com/sase/access))
 - Virtual network vendors ([Claroty SRA](https://claroty.com/industrial-cybersecurity/sra), [Teleport (open-source with self-hosted capability)](https://goteleport.com), [Netskope SASE](https://www.netskope.com/solutions/secure-access-service-edge), [Zscaler SASE](https://www.zscaler.com/capabilities/secure-access-service-edge))
 
