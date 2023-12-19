@@ -28,6 +28,7 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | Technique ID | Title  | Data Source  | ADS |
 | ---  | --- | --- |--- |
 | T1047 | WMI | [Command](https://attack.mitre.org/datasources/DS0017/), [Process Creation](https://attack.mitre.org/datasources/DS0009/#Process%20Creation) | [WMIC commands](./ADS_forms/T1047-WMICCommands.md) |
+| T1059 | MicroSCADA SCILC | [Application Log](https://attack.mitre.org/datasources/DS0015/) | [MicroSCADA SCILC - Command Execution](./ADS_forms/T1059-MicroSCADA-SCILC-Command-Execution.md) |
 | T1059.007 | GootLoader | [Command](https://attack.mitre.org/datasources/DS0017/) | [GootLoader Execution](./ADS_forms/T1059.007-GootLoader-JavaScriptExecution.md) |
   
 
@@ -38,11 +39,16 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1547.001 | Persistence Via Run Keys | [Command](https://attack.mitre.org/datasources/DS0017/) | [Persistence Via Run Keys](./ADS_forms/T1547.001-PersistenceViaRunKeys.md) |
 | T1505.003 | Web shells | [Process](https://attack.mitre.org/datasources/DS0009/) | [IIS Webshell File Writes](./ADS_forms/T1505.003-IISWebshellFileWrites.md) |
 | T1505.003 | Linux Webshell Indicators | [Process](https://attack.mitre.org/datasources/DS0009/) | [Linux Webshell Indicators](./ADS_forms/T1505.003-LinuxWebshellIndicators.md) |
-| T1505.003 | Suspicious Windows Strings In URI | [TBA]() | [Suspicious Windows Strings In URI](./ADS_forms/T1505.003-SuspiciousWindowsStringsInURI.md) |
+| T1505.003 | Suspicious Windows Strings In URI | [NA]() | [Suspicious Windows Strings In URI](./ADS_forms/T1505.003-SuspiciousWindowsStringsInURI.md) |
 | T1505.003 | Windows Webshell Creation | [File](https://attack.mitre.org/datasources/DS0022/) | [Windows Webshell Creation](./ADS_forms/T1505.003-WindowsWebshellCreation.md) |
 | T1505.003 | Suspicious Child Process Of SQL Server | [Process Creation](https://attack.mitre.org/datasources/DS0009/#Process%20Creation) | [Suspicious Child Process Of SQL Server](./ADS_forms/T1505.003-SuspiciousChildProcessOfSQLServer.md) |
+| T1505.004 | Suspicious IIS Module Registration | [NA]() | [Suspicious IIS Module Registration](./ADS_forms/T1505.004-Suspicious-IIS-Module-Registration.md) |
 | T1543.003 | Service Installations in Registry | [registry_set](https://attack.mitre.org/datasources/DS0024/) | [CobaltStrike: Service Installations in Registry](./ADS_forms/T1543.003-CobaltStrike-ServiceInstallationsInRegistry.md) |
 | T1543.003 | New Service Creation Using PowerShell | [Process](https://attack.mitre.org/datasources/DS0009/) | [New Service Creation Using PowerShell](./ADS_forms/T1543.003-NewServiceCreationUsingPowerShell.md) |
+| T1543.003 | Create or Modify System Process | [File](https://attack.mitre.org/datasources/DS0022/), [Windows Registry](https://attack.mitre.org/datasources/DS0024), [Process](https://attack.mitre.org/datasources/DS0009/), [Application Log](https://attack.mitre.org/datasources/DS0015/)  | [Create or Modify System Process - Remote Access Tool Services Have Been Installed](./ADS_forms/T1543.003-Create-or-Modify-System-Process-Remote-Access-Tool-Services-Have-Been-Installed.md) |
+| T1543.003 | Potential Persistence Attempt Via Existing Service Tampering (reg.exe) | [Process](https://attack.mitre.org/datasources/DS0009/) | [Potential Persistence Attempt Via Existing Service Tampering (reg.exe)](./ADS_forms/T1543.003-Potential-Persistence-Attempt-Via-Existing-Service-Tampering-(reg.exe).md) |
+| T1543.003 | Potential Persistence Attempt Via Existing Service Tampering (sc.exe) | [Process](https://attack.mitre.org/datasources/DS0009/) | [Potential Persistence Attempt Via Existing Service Tampering (sc.exe)](./ADS_forms/T1543.003-Potential-Persistence-Attempt-Via-Existing-Service-Tampering(sc.exe).md) |
+
 
 
 ## Defense Evasion
@@ -53,10 +59,12 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1562.001  | AMSI Bypass attack |  [Command](https://attack.mitre.org/datasources/DS0017/)  | [ImpairDefenses - AMSIBypass Attack](./ADS_forms/T1562.001-ImpairDefenses-AMSIBypass.md)| 
 | T1562.001  | PowerShell Defender Disabling Or Exclusions|  [Command](https://attack.mitre.org/datasources/DS0017/)  | [ImpairDefenses - Defender Disabling Or Exclusions](./ADS_forms/T1562.001-ImpairDefenses-DefenderDisablingOrExclusions.md)| 
 | T1562.001  | Disable Defender via RegistryKey |  [Windows Registry](https://attack.mitre.org/datasources/DS0024)  | [ImpairDefenses - Disable Defender Registry Key](./ADS_forms/T1562.001-ImpairDefenses-DisableDefenderRegistryKey.md)| 
+| T1562.001  | Impair Defenses: Removal Of AMSI Provider Registry Keys |  [Windows Registry](https://attack.mitre.org/datasources/DS0024)  | [Impair Defenses: Removal Of AMSI Provider Registry Keys](./ADS_forms/T1562.001-ImpairDefenses-Removal-Of-AMSI-Provider-Registry-Keys.md)| 
 | T1562.002 | Disable Windows Logging MiniNT |  [Windows Registry](https://attack.mitre.org/datasources/DS0024)   | [ImpairDefenses - Disable Windows Logging Mini NT](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingMiniNT.md)| 
 | T1562.002 | Impair Defenses: Disable Windows Logging on EventID|  [Active Directory](https://attack.mitre.org/datasources/DS0026)  | [ImpairDefenses - Disable Windows Logging on EventID](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingonEventID.md)| 
-| T1562.002 | Disable Windows Logging Multi |  [Command](https://attack.mitre.org/datasources/DS0017)  | [ImpairDefenses - Disable Windows Logging Multi](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingMulti.md)| 
-| T1027.006 | HTML Smuggling |  [TBA]()  | [HTML Smuggling](./ADS_forms/T1027.006-HTMLSmuggling.md)| 
+| T1562.002 | Impair Defenses: Disable Windows Logging using wevtutil| [Process](https://attack.mitre.org/datasources/DS0009/) | [Impair Defenses: Disable Windows Logging using wevtutil](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingWevtutil.md)|
+<!-- | T1562.002 | Disable Windows Logging Multi |  [Command](https://attack.mitre.org/datasources/DS0017)  | [ImpairDefenses - Disable Windows Logging Multi](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingMulti.md)| Removed -->
+| T1027.006 | HTML Smuggling |  [NA]()  | [HTML Smuggling](./ADS_forms/T1027.006-HTMLSmuggling.md)| 
 
 ## Credential Access
 
@@ -79,7 +87,7 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | ---  | --- | --- |--- |
 | T1016  | System Network Configuration Discovery | [Command](https://attack.mitre.org/datasources/DS0017/)  | [EnumerateNetworkTopology](./ADS_forms/T1016-EnumerateNetworkTopology.md)| 
 | T1033 | System Owner/User Discovery |[Command](https://attack.mitre.org/datasources/DS0017/)  | [Identify successful logons to the host](./ADS_forms/T1033-IdentifySuccessfulLogons.md)| 
-| T1082  | System Information Discovery | [TBA]()  | [System Information Discovery](./ADS_forms/T1082-SystemInformationDiscovery.md)| 
+| T1082  | System Information Discovery | [NA]()  | [System Information Discovery](./ADS_forms/T1082-SystemInformationDiscovery.md)| 
 
 
 ## Lateral Movement
