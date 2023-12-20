@@ -17,25 +17,44 @@ https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a
 https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Attacker%20Tools%20Threat%20Protection%20Essentials/Hunting%20Queries/PotentialImpacketExecution.yaml  
 
 ####  ATT&CK TACTICS<br>
-{{mitre("S0357")}} 
+{{mitre("S0357")}}    
 
 Data Source(s): [Process](https://attack.mitre.org/datasources/DS0009/), [Command](https://attack.mitre.org/datasources/DS0017/)
 
 #### SENTINEL RULE QUERY  
 
 ~~~
-let c1 = dynamic(["SYSTEM32", ".tmp"]);
-find where (EventID == 5145 and RelativeTargetName has 'SYSTEM32' and RelativeTargetName endswith @".tmp") or 
-(EventID == 5145 and EventData has_all (c1)) 
+(union isfuzzy=true
+  (SecurityEvent
+  | where EventID == '5145'
+  | where RelativeTargetName has 'SYSTEM32' and RelativeTargetName endswith @".tmp"
+  | where ShareName has "\\\\*\\ADMIN$"
+  ),
+  (WindowsEvent
+  | where EventID == '5145' 
+  | extend RelativeTargetName= tostring(EventData.RelativeTargetName)
+  | extend ShareName= tostring(EventData.ShareName)
+  | where RelativeTargetName has 'SYSTEM32' and RelativeTargetName endswith @".tmp"
+  | where ShareName has "\\\\*\\ADMIN$"
+  | extend Account =  strcat(tostring(EventData.SubjectDomainName),"\\", tostring(EventData.SubjectUserName))
+  )
+  )
+  | extend timestamp = TimeGenerated 
+  | extend NTDomain = split(Account, '\\', 0)[0], UserName = split(Account, '\\', 1)[0]
+  | extend HostName = split(Computer, '.', 0)[0], DnsDomain = strcat_array(array_slice(split(Computer, '.'), 1, -1), '.')
+  | extend Account_0_Name = UserName
+  | extend Account_0_NTDomain = NTDomain
+  | extend Host_0_HostName = HostName
+  | extend Host_0_DnsDomain = DnsDomain
 ~~~
 
 #### Triage  
 
 
 1. Identify user/service triggering the activity
-2. Check time of activity if within business hours  
+2. Validate .tmp file names and location
 3. Investigate further if the activity is expected and approved   
 
 
 #### VERSION
-Version 1.0 (date: 10/07/2023)  
+Version 1.1 (date: 26/10/2023)  
