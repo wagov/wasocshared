@@ -9,7 +9,7 @@ Juniper released a security advisory to address multiple vulnerabilities affecti
 
 | Product | Severity | CVSS Score |
 | --- | --- | --- |
-| Juniper Secure Analytics (JSA) Series Virtual Appliance all versions to and including 7.5.0 UP7. | Critical | 9.8 |
+| Juniper Secure Analytics (JSA) Series Virtual Appliance all versions to and including 7.5.0 UP7. | Critical | **9.8** |
 
 
 ## What has been observed
