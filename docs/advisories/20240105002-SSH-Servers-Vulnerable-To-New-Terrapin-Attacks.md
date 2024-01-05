@@ -8,7 +8,7 @@ The Secure Shell (SSH) transport protocol with certain OpenSSH extensions allows
 
 | CVE ID | CVSS Score | Description |
 | --- | --- | --- |
-| [CVE-2023-48795](https://nvd.nist.gov/vuln/detail/CVE-2023-48795 | 5.9 | SSH transport protocol with certain OpenSSH extensions vulnerable to Terrapin attack|
+| [CVE-2023-48795](https://nvd.nist.gov/vuln/detail/CVE-2023-48795) | 5.9 | SSH transport protocol with certain OpenSSH extensions vulnerable to Terrapin attack|
 
 
 ## What is vulnerable?
