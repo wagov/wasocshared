@@ -31,4 +31,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Updated advisories
 
-A new advisory has been released for the above vulnerability with updates and can be found [here](./20240105001-CISA-adds-two-known-exploited-vulnerabilities-to-catalogue.md).
+A new advisory has been released for the above vulnerability with updates and can be found [here](https://soc.cyber.wa.gov.au/advisories/20240105001-CISA-adds-two-known-exploited-vulnerabilities-to-catalogue/).
