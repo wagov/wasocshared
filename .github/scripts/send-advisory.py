@@ -83,8 +83,8 @@ for url, advisory_md in advisory_mds.items():
 
     overview += f"\n\n- [{title}]({url})"
     html_overview = markdown(overview)
-    html_filled = Template(Path("templates/tlp-clear-email-template.html").read_text()).substitute(title=title, overview=html_overview, url=url, uid=advisory_id)
+    html_filled = Template(Path("templates/tlp-clear-email-template.html").read_text()).substitute(title=title, overview=html_overview, url=url, uid=advisory_uid)
 
     email_campaign(advisory_uid, title, html_overview, url, html_filled)
 
-    print()
+    #print()
