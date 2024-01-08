@@ -6,7 +6,7 @@ The below guidance is to get a novice with basic IT literacy up to speed with co
 
 A refresher on good study skills is below which should help for pursuing any professional or academic certifications.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IhuwS5ZLwKY?si=ZK9OgF4sn3fgge1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## 2. Prerequisites
 
