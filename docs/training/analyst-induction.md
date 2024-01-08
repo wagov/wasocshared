@@ -50,11 +50,13 @@ Learn how to create documentation in markdown, keep track of your work in git, c
 ![Git Branching](../images/branching.png)
 
 1. [Basic writing and formatting guide (GitHub Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) - use markdown docs in git repos for managing code, detection rules, investigation evidence.
-2. [Oh My Git!](https://ohmygit.org) - use git to manage all your work and track who has changed what. [Git, GitHub, & GitHub Desktop for beginners - YouTube](https://www.youtube.com/watch?v=8Dd7KRpKeaE) for those who prefer video tutorials.
-3. [Python lessons 1-20 (Code with Vincent)](https://www.youtube.com/watch?v=r0cGhyzFzco&list=PLEcHbCIBlyJryQxxElze2C_xMHLAJW94C&index=3) - if you are new to programming this will get you up to speed with variables, functions, conditional statements, loops, lists, dictionaries, objects, interfaces
-   - [Python for defenders](https://learn.taggart-tech.com/p/python-for-defenders-pt1) from taggart-tech.com is also a very good resource, focused on using Python from a blue team perspective.
-4. [Automate administrative tasks by using PowerShell](https://docs.microsoft.com/en-us/learn/paths/powershell/) - learn to run commands, how to learn more about PowerShell and it's modules and additionally to create and run script files.
-5. [How to ask Technical Questions (Princeton)](https://princetonuniversity.github.io/PUbootcamp/sessions/technical-questions/HowToAskQuestions2018Bootcamp.pdf) - once you are dealing with complex technical activities, having a good approach for understanding where to look next for assistance is a very useful skill.
+2. <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8Dd7KRpKeaE?si=calG17orbRgsrls3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    - Also see [Oh My Git!](https://ohmygit.org) - use git to manage all your work and track who has changed what.
+4. <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLEcHbCIBlyJryQxxElze2C_xMHLAJW94C&index=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    - [Python for defenders](https://learn.taggart-tech.com/p/python-for-defenders-pt1) from taggart-tech.com is also a very good resource, focused on using Python from a blue team perspective.
+5. <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pQ9dQ13B2vM?si=Mn-YfJi8kW7zQTQG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    - Also see [Automate administrative tasks by using PowerShell](https://docs.microsoft.com/en-us/learn/paths/powershell/) - learn to run commands, how to learn more about PowerShell and it's modules and additionally to create and run script files.
+6. [How to ask Technical Questions (Princeton)](https://princetonuniversity.github.io/PUbootcamp/sessions/technical-questions/HowToAskQuestions2018Bootcamp.pdf) - once you are dealing with complex technical activities, having a good approach for understanding where to look next for assistance is a very useful skill.
 
 #### 3.2.2. Creating and securing public cloud workloads
 
