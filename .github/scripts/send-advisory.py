@@ -14,8 +14,6 @@ base_url = "https://soc.cyber.wa.gov.au/advisories/"
 
 def email_campaign (uid, title, overview, url, content):
 
-
-    #
     sg = SendGridAPIClient(os.environ.get('sendgrid_api'))
 
     data = {
@@ -31,7 +29,7 @@ def email_campaign (uid, title, overview, url, content):
     "email_config": {
         "subject": f"Cyber Security Advisory - TLP CLEAR - {title}",
         "html_content": f"{content}",
-        "plain_content": f"{title}\n\n*Ref: {uid}*\n\nOverview\n\n{overview}\n\n{url}\n\nReporting\n\nAgencies whose cyber security teams have enrolled in the DGov Incident Reporting Portal (IRP) should raise an incident within the portal.\n\nThe Cyber Security Unit will liaise with the Australian Cyber Security Centre and other States and Territories in support of nation-wide incident coordination.\n\nFurther Information\n\nFor more information relating to this advisory, or for further information on connecting to the WA SOC, please contact the Office of Digital Government - Cyber Security Unit at cybersecurity@dpc.wa.gov.au\n\n© 2023 Office of the Digital Government - Cyber Security Unit. All rights reserved.\nDumas House, 2 Havelock Street, WEST PERTH, WA 6005",
+        #"plain_content": f"{title}\n\n*Ref: {uid}*\n\nOverview\n\n{overview}\n\n{url}\n\nReporting\n\nAgencies whose cyber security teams have enrolled in the DGov Incident Reporting Portal (IRP) should raise an incident within the portal.\n\nThe Cyber Security Unit will liaise with the Australian Cyber Security Centre and other States and Territories in support of nation-wide incident coordination.\n\nFurther Information\n\nFor more information relating to this advisory, or for further information on connecting to the WA SOC, please contact the Office of Digital Government - Cyber Security Unit at cybersecurity@dpc.wa.gov.au\n\n© 2023 Office of the Digital Government - Cyber Security Unit. All rights reserved.\nDumas House, 2 Havelock Street, WEST PERTH, WA 6005",
         "generate_plain_content": True,
         "editor": "design",
         "suppression_group_id": -1,
@@ -80,8 +78,7 @@ for url, advisory_md in advisory_mds.items():
         if section.strip().lower().startswith("overview"):
             overview = section[9:].strip()
             break
-
-    overview += f"\n\n- [{title}]({url})"
+    
     html_overview = markdown(overview)
     html_filled = Template(Path("templates/tlp-clear-email-template.html").read_text()).substitute(title=title, overview=html_overview, url=url, uid=advisory_uid)
 
