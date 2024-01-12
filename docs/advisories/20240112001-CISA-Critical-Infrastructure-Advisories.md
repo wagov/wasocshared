@@ -14,3 +14,8 @@ CISA has released Critical Infrastructure related advisories.
 ## Recommendation
 
 The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
+
+
+### Additional references
+
+- CISA Advisory "*CISA Releases Nine Industrial Control Systems Advisories*": <https://www.cisa.gov/news-events/alerts/2024/01/11/cisa-releases-nine-industrial-control-systems-advisories>
