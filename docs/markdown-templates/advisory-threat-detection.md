@@ -1,5 +1,5 @@
   
-# [Advisory Title] - YYYYMMDDXXX
+# [Advisory Title] - 2024MMDD###
 
 ## Overview
 
