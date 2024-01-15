@@ -16,15 +16,17 @@ In a Juniper Flow Monitoring (jflow) scenario route churn that causes BGP next h
 
 This issue affects the following products:
 
-- Junos OS versions
-  - 21.4 versions earlier than 21.4R3;
-  - 22.1 versions earlier than 22.1R3;
-  - 22.2 versions earlier than 22.2R3.
+Junos OS versions:
 
-- Junos OS Evolved
-  - 21.4-EVO versions earlier than 21.4R3-EVO;
-  - 22.1-EVO versions earlier than 22.1R3-EVO;
-  - 22.2-EVO versions earlier than 22.2R3-EVO.
+- 21.4 versions earlier than 21.4R3;
+- 22.1 versions earlier than 22.1R3;
+- 22.2 versions earlier than 22.2R3;
+
+Junos OS Evolved:
+
+- 21.4-EVO versions earlier than 21.4R3-EVO;
+- 22.1-EVO versions earlier than 22.1R3-EVO;
+- 22.2-EVO versions earlier than 22.2R3-EVO;
 
 
 ## Recommendation
