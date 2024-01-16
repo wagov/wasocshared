@@ -18,7 +18,8 @@ Additionally, GitLab has noted "*These versions contain important security fixes
 
 The vulnerability affects the following products:
 
-GitLab - All deployment types
+GitLab - All deployment types:
+
 - 16.1 prior to 16.1.5
 - 16.2 prior to 16.2.8
 - 16.3 prior to 16.3.6
