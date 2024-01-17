@@ -21,7 +21,3 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of 48 hours (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [Google Blog - Stable Channel Update for Desktop](https://chromereleases.googleblog.com/2024/01/stable-channel-update-for-desktop_16.html)
-
-
-## Additional References
-
