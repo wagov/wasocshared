@@ -8,9 +8,9 @@ Google is aware that an exploit for CVE-2023-7024 exists in the wild.
 
 ## What is the vulnerability?
 
-| CVE ID | CVSS Score | Description |
-| --- | --- | --- |
-| [CVE-2023-7024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7024) | TBD | Heap buffer overflow in WebRTC.  |
+| CVE ID                                                                        | CVSS Score | Description                     |
+| ----------------------------------------------------------------------------- | ---------- | ------------------------------- |
+| [CVE-2023-7024](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7024) | TBD        | Heap buffer overflow in WebRTC. |
 
 ## What is vulnerable?
 
@@ -21,7 +21,7 @@ The vulnerability affects the following Google products:
 
 ## What has been observed?
 
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing. Google is aware that an exploit for CVE-2023-7024 exists in the wild. 
+There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing. Google is aware that an exploit for CVE-2023-7024 exists in the wild.
 
 ## Recommendation
 

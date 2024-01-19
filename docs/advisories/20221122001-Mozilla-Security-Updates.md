@@ -10,9 +10,9 @@ An attacker could exploit these vulnerabilities to cause user confusion or condu
 
 ## What is vulnerable ?
 
-* [Thunderbird 102.5](https://www.mozilla.org/en-US/security/advisories/mfsa2022-49/),
-* [Firefox ESR 102.5](https://www.mozilla.org/en-US/security/advisories/mfsa2022-48/), and;
-* [Firefox 107](https://www.mozilla.org/en-US/security/advisories/mfsa2022-47/) for mitigations and updates.
+- [Thunderbird 102.5](https://www.mozilla.org/en-US/security/advisories/mfsa2022-49/),
+- [Firefox ESR 102.5](https://www.mozilla.org/en-US/security/advisories/mfsa2022-48/), and;
+- [Firefox 107](https://www.mozilla.org/en-US/security/advisories/mfsa2022-47/) for mitigations and updates.
 
 ## What has been observed ?
 
@@ -24,4 +24,4 @@ WA SOC encourages users and administrators to review the security advisory for t
 
 ### Reference
 
-* Mozilla Security Advisories - [https://www.mozilla.org/en-US/security/advisories/](https://www.mozilla.org/en-US/security/advisories/)
+- Mozilla Security Advisories - [https://www.mozilla.org/en-US/security/advisories/](https://www.mozilla.org/en-US/security/advisories/)

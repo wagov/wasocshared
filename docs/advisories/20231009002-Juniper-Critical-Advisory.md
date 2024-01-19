@@ -16,18 +16,18 @@ Juniper published an update to an existing advisory regarding a variation of the
 
 The vulnerability affects the following products:
 
-- Juniper Networks Junos OS on EX Series and SRX Series: 
-  - All versions prior to 20.4R3-S9
-  - 21.1 versions 21.1R1 and later
-  - 22.1 versions prior to 22.1R3-S4 
-  - 21.2 versions prior to 21.2R3-S7
-  - 21.3 versions prior to 21.3R3-S5
-  - 21.4 versions prior to 21.4R3-S5
-  - 22.1 versions prior to 22.1R3-S4
-  - 22.2 versions prior to 22.2R3-S2 
-  - 22.3 versions prior to 22.3R2-S2, 22.3R3-S1
-  - 22.4 versions prior to 22.4R2-S1, 22.4R3
-  - 23.2 versions prior to 23.2R1-S1, 23.2R2
+- Juniper Networks Junos OS on EX Series and SRX Series:
+    - All versions prior to 20.4R3-S9
+    - 21.1 versions 21.1R1 and later
+    - 22.1 versions prior to 22.1R3-S4
+    - 21.2 versions prior to 21.2R3-S7
+    - 21.3 versions prior to 21.3R3-S5
+    - 21.4 versions prior to 21.4R3-S5
+    - 22.1 versions prior to 22.1R3-S4
+    - 22.2 versions prior to 22.2R3-S2
+    - 22.3 versions prior to 22.3R2-S2, 22.3R3-S1
+    - 22.4 versions prior to 22.4R2-S1, 22.4R3
+    - 23.2 versions prior to 23.2R1-S1, 23.2R2
 
 ## What has been observed?
 

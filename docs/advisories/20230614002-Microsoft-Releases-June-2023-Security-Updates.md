@@ -8,7 +8,6 @@ Microsoft has released updates to address multiple vulnerabilities in Microsoft 
 
 A comprehensive list of Common Vulnerabilities and Exposures and affected products can be found [here](https://msrc.microsoft.com/update-guide/releaseNote/2023-Jun).
 
-
 ## Recommendation
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices: [Microsoft Security Update Guide](https://msrc.microsoft.com/update-guide/deployments)

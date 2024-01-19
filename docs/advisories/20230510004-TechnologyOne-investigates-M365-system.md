@@ -6,7 +6,7 @@ The WA SOC has observed a cyber incident related to TechnologyOne, an Australian
 
 ## What has been observed?
 
-[In a financial filing [pdf]](<https://www.asx.com.au/asx/statistics/displayAnnouncement.do?display=pdf&idsId=02664471>), the company requested being placed into a trading halt. It said the third-party, which it did not characterise, had "acted illegally" in accessing the M365 instance. TechnologyOne said its customer-facing SaaS platform isn't connected to M365 "and therefore has not been impacted". "The company has acted with urgency to investigate the issue, including initiation of its cyber response strategy, appointing third party experts, and isolating affected systems," it said. "Once the investigation is further progressed, we will be in a position to contact those who may be affected to work with them on the ongoing safety of their data."
+[In a financial filing \[pdf\]](https://www.asx.com.au/asx/statistics/displayAnnouncement.do?display=pdf&idsId=02664471), the company requested being placed into a trading halt. It said the third-party, which it did not characterise, had "acted illegally" in accessing the M365 instance. TechnologyOne said its customer-facing SaaS platform isn't connected to M365 "and therefore has not been impacted". "The company has acted with urgency to investigate the issue, including initiation of its cyber response strategy, appointing third party experts, and isolating affected systems," it said. "Once the investigation is further progressed, we will be in a position to contact those who may be affected to work with them on the ongoing safety of their data."
 
 ## References
 

@@ -8,10 +8,10 @@ Apple has released security updates to address vulnerabilities in Safari, iOS, i
 
 The vulnerability affects the following products:
 
-| Product | Affected Devices |
-| --- | --- |
-| Safari below 17.2.1 | macOS Monterey and macOS Ventura |
-| iOS below 17.2.1 | iPhone XS and later |
+| Product                                 | Affected Devices                                                                                                 |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Safari below 17.2.1                     | macOS Monterey and macOS Ventura                                                                                 |
+| iOS below 17.2.1                        | iPhone XS and later                                                                                              |
 | iOS below16.7.4 and iPadOS below 16.7.4 | iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation |
 
 ## What has been observed?

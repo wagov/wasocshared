@@ -6,15 +6,17 @@ Fortinet has released security updates to address vulnerabilities in multiple Fo
 
 ## What is the vulnerability?
 
-[**CVE-2023-41678**](https://nvd.nist.gov/vuln/detail/CVE-2023-41678) - CVSS v3 Base Score: ***8.8*** 
+[**CVE-2023-41678**](https://nvd.nist.gov/vuln/detail/CVE-2023-41678) - CVSS v3 Base Score: ***8.8***
 
 A double free in cache management vulnerability, affects the following products:
-- Fortinet FortiOS versions 7.0.0 to 7.0.5 
+
+- Fortinet FortiOS versions 7.0.0 to 7.0.5
 - FortiPAM versions (1.0.0 to 1.0.3, 1.1.0 to 1.1.1)
 
 [**CVE-2022-27488**](https://nvd.nist.gov/vuln/detail/CVE-2022-27488) - CVSS v3 Base Score: ***8.3***
 
 A cross-site request forgery (CSRF) vulnerabilty, affects the following products:
+
 - Fortinet FortiVoiceEnterprise versions 6.4.0 to 6.4.7, 6.0.0 to 6.0.11
 - FortiSwitch versions 7.0.0 t0 7.0.4, 6.4.0 to 6.4.10, 6.2.0 to 6.2.7, 6.0.x
 - FortiMail versions 7.0.0 to 7.0.3, 6.4.0 to 6.4.6, 6.2.x, 6.0.x
@@ -24,9 +26,10 @@ A cross-site request forgery (CSRF) vulnerabilty, affects the following products
 [**CVE-2022-27488**](https://nvd.nist.gov/vuln/detail/CVE-2022-27488) - CVSS v3 Base Score: ***8.3***
 
 A use of externally-controlled format string vulnerability, affects the following products:
+
 - Fortinet FortiProxy versions 7.2.0 to 7.2.4, 7.0.0 to 7.0.10
 - FortiOS versions 7.4.0, 7.2.0 to 7.2.4, 7.0.0 to 7.0.11, 6.4.0 to 6.4.12, 6.2.0 to 6.2.15, 6.0.0 to 6.0.17
-- FortiPAM versions 1.0.0 to 1.0.3  
+- FortiPAM versions 1.0.0 to 1.0.3
 
 ## What has been observed?
 

@@ -9,7 +9,6 @@ Apple has released security updates to address vulnerabilities in WebKit for mul
 - An out-of-bounds read vulnerability [**CVE-2023-42916**](https://nvd.nist.gov/vuln/detail/CVE-2023-42916) - CVSS v3 Base Score: ***N.A***
 - A memory corruption vulnerability [**CVE-2023-42917**](https://nvd.nist.gov/vuln/detail/CVE-2023-42917) - CVSS v3 Base Score: ***N.A***
 
-
 ## What is vulnerable?
 
 The vulnerability affects the following apple products WebKit:
@@ -27,5 +26,3 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [Apple Security Releases](https://support.apple.com/en-us/HT201222)
-
-

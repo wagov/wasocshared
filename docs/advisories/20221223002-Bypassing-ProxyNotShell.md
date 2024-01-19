@@ -29,14 +29,14 @@ There is no evidence of exploitation affecting Western Australian Government net
 This [CVE-2022-41080](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41080) has not been publicly detailed yet and is marked as **"exploitation more likely"** by
 Microsoft. **CVE-2022-41080** has been referenced in other exploit chains to achieve RCE.
 
-Reporting suggests this method is currently being exploited in the wild to deploy **Ransomware**.  
+Reporting suggests this method is currently being exploited in the wild to deploy **Ransomware**.
 
 ## Recommendation
 
 The Office of Digital Government (DGov) recommends organisations apply the latest Exchange patches to avoid exploitation.
 
 - Review Crowdstrike’s [blog post](https://www.crowdstrike.com/blog/owassrf-exploit-analysis-and-recommendations/)
-here ().
+    here ().
 - Apply the latest [Microsoft Exchange](https://msrc.microsoft.com/update-guide/deployments) update.
 - Ensure at minimum your patch is Exchange update (KB5019758) from November 2022 or later.
 - Disable remote PowerShell for non-administrative users where possible. Guidance can be found here: [Exchange Server](https://learn.microsoft.com/en-us/powershell/exchange/control-remote-powershell-access-to-exchange-servers?view=exchange-ps&viewFallbackFrom=exchange-ps%22%20%5Cl%20%22use-the-exchange-management-shell-to-enable-or-disable-remote-powershell-access-for-a-user) and [Exchange Online](https://learn.microsoft.com/en-us/powershell/exchange/disable-access-to-exchange-online-powershell?view=exchange-ps).

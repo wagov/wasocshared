@@ -1,4 +1,3 @@
-
 # Lazarus Group Targeting Windows IIS Web Servers - 20230531003
 
 ## **Overview**
@@ -19,27 +18,27 @@ The WASOC has not observed any exploitation as of yet.
 
 ### DLL Side-loading File Path
 
-* C:\ProgramData\USOShared\Wordconv.exe
-* C:\ProgramData\USOShared\msvcr100.dll
+- C:\\ProgramData\\USOShared\\Wordconv.exe
+- C:\\ProgramData\\USOShared\\msvcr100.dll
 
 ### File-Hash
 
 diagn.dll
 
-* MD5: e501bb6762c14baafadbde8b0c04bbd6
+- MD5: e501bb6762c14baafadbde8b0c04bbd6
 
 msvcr100.dll
 
-* MD5: 228732b45ed1ca3cda2b2721f5f5667c
+- MD5: 228732b45ed1ca3cda2b2721f5f5667c
 
 ? (Variant malware of msvcr100.dll)
 
-* MD5: 47d380dd587db977bf6458ec767fee3d
+- MD5: 47d380dd587db977bf6458ec767fee3d
 
 cylvc.dll (Variant malware of msvcr100.dll)
 
-* MD5: 4d91cd34a9aae8f2d88e0f77e812cef7
+- MD5: 4d91cd34a9aae8f2d88e0f77e812cef7
 
 ## Reference
 
-* [**AhnLab Report**](https://asec.ahnlab.com/en/53132/)
+- [**AhnLab Report**](https://asec.ahnlab.com/en/53132/)

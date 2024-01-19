@@ -1,28 +1,27 @@
-### T1021 - Lateral Movement - Remote Services   
-  
+### T1021 - Lateral Movement - Remote Services
 
-####  DESCRIPTION  
-Detects lateral movement activity of webservers onto core systems.  
+#### DESCRIPTION
 
-**example:**  
-N/A    
+Detects lateral movement activity of webservers onto core systems.
 
-**Related**  
-N/A        
+**example:**\
+N/A
 
-**Reference:**  
-https://attack.mitre.org/techniques/T1021/    
+**Related**\
+N/A
 
+**Reference:**\
+https://attack.mitre.org/techniques/T1021/
 
-####  ATT&CK TACTICS    
-{{ mitre("T1003.001")}}    
+#### ATT&CK TACTICS
 
-Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029)  
+{{ mitre("T1003.001")}}
 
+Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029)
 
-#### SENTINEL RULE QUERY   
+#### SENTINEL RULE QUERY
 
-~~~
+```
 let webserver_ip = ()
 {DeviceNetworkEvents
 | where InitiatingProcessFileName has_any ('w3wp','nginx','apache') and LocalIPType == "Private"
@@ -30,14 +29,13 @@ let webserver_ip = ()
 DeviceNetworkEvents
 | where (LocalIP has_any (webserver_ip()) or DeviceName contains "Web") and RemotePort in (3389,22)
 | distinct RemoteIP, DeviceName,RemotePort, InitiatingProcessCommandLine
-~~~
+```
 
+#### Triage
 
-#### Triage  
+1. Inspect command lines for suspicious activity
+1. Inspect if the activity is expected and approved. It may be performed by an admin or a service
 
-1. Inspect command lines for suspicious activity   
-2. Inspect if the activity is expected and approved. It may be performed by an admin or a service  
+#### VERSION
 
-
-#### VERSION  
-Version 1.0 (date: 10/07/2023)  
+Version 1.0 (date: 10/07/2023)

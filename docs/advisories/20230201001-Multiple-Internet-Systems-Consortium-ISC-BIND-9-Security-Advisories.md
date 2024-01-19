@@ -2,13 +2,13 @@
 
 ## Overview
 
---------------------------------------------------------------------------------------------------------------------------------
+---
 
 The Internet Systems Consortium (ISC) has released security advisories that address vulnerabilities affecting multiple versions of the ISC’s [Berkeley Internet Name Domain (BIND) 9](https://www.cisa.gov/uscert/ncas/current-activity/2023/01/27/isc-releases-security-advisories-multiple-versions-bind-9). A remote attacker could exploit these vulnerabilities to potentially cause denial-of-service conditions and system failures.
 
 ## What is vulnerable?
 
---------------------------------------------------------------------------------------------------------------------------------
+---
 
 Below are the Internet Systems Consortium (ISC) Advisory links and relevant products:
 
@@ -17,7 +17,7 @@ Below are the Internet Systems Consortium (ISC) Advisory links and relevant prod
 - [CVE-2022-3736](https://kb.isc.org/v1/docs/cve-2022-3736): **BIND and BIND Supported Preview Edition** - Named configured to answer from stale cache may terminate unexpectedly while processing RRSIG queries.
 - [CVE-2022-3924](https://kb.isc.org/v1/docs/cve-2022-3924): **BIND and BIND Supported Preview Edition** - Named configured to answer from stale cache may terminate unexpectedly at recursive-clients soft quota.
 
---------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Recommendation
 

@@ -6,6 +6,9 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      # Sets permissions of the GITHUB_TOKEN to allow updating markdown format
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -16,5 +19,13 @@ jobs:
           python-version: 3.11
       - name: install mkdocs
         run: pip install -r requirements.txt
+      - name: run mdformat
+        run: mdformat .
       - name: build site
         run:  python -m mkdocs build --strict
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git diff --quiet && git diff --staged --quiet || (git add . && git commit -m 'Format markdown files')
+          git push

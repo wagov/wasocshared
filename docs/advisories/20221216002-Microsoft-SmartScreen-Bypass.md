@@ -24,4 +24,4 @@ Due to known exploitations, the WA SOC recommends remediating these vulnerabilit
 
 ### Reference
 
-* Microsoft Security Bulletin: [https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-44698](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-44698)
+- Microsoft Security Bulletin: [https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-44698](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-44698)

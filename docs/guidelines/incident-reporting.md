@@ -17,7 +17,6 @@ All agencies should have a [Cyber Incident Response Plan](https://www.cyber.gov.
 ACSC also publishes an excellent [ACSC Cyber Incident Response Plan - Word Template (docx)](../pdfs/ACSC-Cyber-Incident-Response-Plan-Template.docx) suitable for tailoring to an organisations specific context. It includes some highly relevant appendices:
 
 !!! abstract "Incident Response Appendices"
-
     - Terminology and Definitions
     - Cyber Incident Response Readiness Checklist
     - ACSC Incident Triage Questions
@@ -33,7 +32,6 @@ ACSC also publishes an excellent [ACSC Cyber Incident Response Plan - Word Templ
 ### 1.2 ACSC Incident Categorisation Matrix
 
 <img width="700" alt="ACSC Incident Categorisation Matrix 2022" src="https://github.com/wagov/wasocshared/assets/121014/37a5c758-855d-48e1-89d2-55c591d9177d">
-
 
 ## 2. Getting access
 

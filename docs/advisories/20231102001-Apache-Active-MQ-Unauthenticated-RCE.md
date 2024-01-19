@@ -33,7 +33,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 Apache recommended to upgrade to version **5.15.16, 5.16.7, 5.17.6, or 5.18.3**, which fixes this issue.
 
-
 ## Additional References
 
 - [NVD - CVE-2023-46604 (nist.gov)](https://nvd.nist.gov/vuln/detail/CVE-2023-46604)

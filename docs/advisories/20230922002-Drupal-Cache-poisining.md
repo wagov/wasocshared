@@ -12,9 +12,9 @@ Drupal has released a security advisory to address a vulnerability affecting mul
 
 The vulnerability affects the following versions of **Drupal Core**:
 
-- \>=8.7.0 <9.5.11 
-- \>=10.0 <10.0.11 
-- \>= 10.1 <10.1.4
+- \>=8.7.0 \<9.5.11
+- \>=10.0 \<10.0.11
+- \>= 10.1 \<10.1.4
 
 ## What has been observed?
 
@@ -24,6 +24,6 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *two weeks...* (refer [Patch Management](../guidelines/patch-management.md)):
 
--   If you are using Drupal 10.1, update to [Drupal 10.1.4](https://www.drupal.org/project/drupal/releases/10.1.4).
--   If you are using Drupal 10.0, update to [Drupal 10.0.11](https://www.drupal.org/project/drupal/releases/10.0.11).
--   If you are using Drupal 9.5, update to [Drupal 9.5.11](https://www.drupal.org/project/drupal/releases/9.5.11).
+- If you are using Drupal 10.1, update to [Drupal 10.1.4](https://www.drupal.org/project/drupal/releases/10.1.4).
+- If you are using Drupal 10.0, update to [Drupal 10.0.11](https://www.drupal.org/project/drupal/releases/10.0.11).
+- If you are using Drupal 9.5, update to [Drupal 9.5.11](https://www.drupal.org/project/drupal/releases/9.5.11).

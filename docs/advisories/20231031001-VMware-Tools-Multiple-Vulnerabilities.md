@@ -34,5 +34,3 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 ## Additional References
 
 - [VMWare Security Advisory](https://www.vmware.com/security/advisories/VMSA-2023-0024.html)
-
-

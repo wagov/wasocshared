@@ -40,8 +40,8 @@ If you are relatively new to public cloud services and/or IT infrastructure, ple
 Learn the basics of triaging and responding to incidents, including collaboration with organisational stakeholders.
 
 1. [Microsoft Security Operations Analyst (SC-200)](https://docs.microsoft.com/en-us/certifications/exams/sc-200) Certification
-2. [Microsoft 365 Certified: Enterprise Administrator Expert (MS-102)](https://learn.microsoft.com/en-us/certifications/m365-enterprise-administrator/?wt.mc_id=certsustainedmkt_portfolioupdate_blog_wwl) Certificate
-3. [TryHackMe MITRE](https://tryhackme.com/room/mitre) Training (Optional: [Cybrary MITRE ATT&CK Defender (MAD)](https://tryhackme.com/room/mitre))
+1. [Microsoft 365 Certified: Enterprise Administrator Expert (MS-102)](https://learn.microsoft.com/en-us/certifications/m365-enterprise-administrator/?wt.mc_id=certsustainedmkt_portfolioupdate_blog_wwl) Certificate
+1. [TryHackMe MITRE](https://tryhackme.com/room/mitre) Training (Optional: [Cybrary MITRE ATT&CK Defender (MAD)](https://tryhackme.com/room/mitre))
 
 #### 3.2.1. Documentation, Programming and scripting fundamentals
 
@@ -50,13 +50,13 @@ Learn how to create documentation in markdown, keep track of your work in git, c
 ![Git Branching](../images/branching.png)
 
 1. [Basic writing and formatting guide (GitHub Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) - use markdown docs in git repos for managing code, detection rules, investigation evidence.
-2. <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8Dd7KRpKeaE?si=calG17orbRgsrls3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+1. <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8Dd7KRpKeaE?si=calG17orbRgsrls3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     - Also see [Oh My Git!](https://ohmygit.org) - use git to manage all your work and track who has changed what.
-4. <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLEcHbCIBlyJryQxxElze2C_xMHLAJW94C&index=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+1. <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLEcHbCIBlyJryQxxElze2C_xMHLAJW94C&index=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     - [Python for defenders](https://learn.taggart-tech.com/p/python-for-defenders-pt1) from taggart-tech.com is also a very good resource, focused on using Python from a blue team perspective.
-5. <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pQ9dQ13B2vM?si=Mn-YfJi8kW7zQTQG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+1. <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pQ9dQ13B2vM?si=Mn-YfJi8kW7zQTQG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     - Also see [Automate administrative tasks by using PowerShell](https://docs.microsoft.com/en-us/learn/paths/powershell/) - learn to run commands, how to learn more about PowerShell and it's modules and additionally to create and run script files.
-6. [How to ask Technical Questions (Princeton)](https://princetonuniversity.github.io/PUbootcamp/sessions/technical-questions/HowToAskQuestions2018Bootcamp.pdf) - once you are dealing with complex technical activities, having a good approach for understanding where to look next for assistance is a very useful skill.
+1. [How to ask Technical Questions (Princeton)](https://princetonuniversity.github.io/PUbootcamp/sessions/technical-questions/HowToAskQuestions2018Bootcamp.pdf) - once you are dealing with complex technical activities, having a good approach for understanding where to look next for assistance is a very useful skill.
 
 #### 3.2.2. Creating and securing public cloud workloads
 
@@ -106,12 +106,13 @@ For those using a Microsoft toolset the below guides have in-depth details on op
 The below two resources are a good starting point for understanding KQL in addition to the [Microsoft KQL Overview](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/).
 
 1. [KQL Overview](https://www.youtube.com/watch?v=Pl8n6GaWEo0) Overview video of the whole language (1 hour).
-2. [Must Learn KQL](https://github.com/rod-trent/MustLearnKQL) A blog/book/video channel.
-3. [Kusto Detective Agency](https://detective.kusto.io/inbox) Use KQL as an investigation tool as part of a virtual agency with cases.
+1. [Must Learn KQL](https://github.com/rod-trent/MustLearnKQL) A blog/book/video channel.
+1. [Kusto Detective Agency](https://detective.kusto.io/inbox) Use KQL as an investigation tool as part of a virtual agency with cases.
 
 ![Azure service overview](../images/azure.png)
 
 #### 3.5.2 Addtional Microsoft Security and Administration Training
+
 The below resources are addtional training material for better understading the Microsoft Sentinel and M365 Security tools.
 
 1. [Become a Microsoft Sentinel Ninja: The complete level 400](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) Training
@@ -119,13 +120,14 @@ The below resources are addtional training material for better understading the 
 1. [Cybersecurity Architect Expert (SC-100)](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/) Certification - design forward-looking strategies for security, governance, risk, compliance covering users, workstations, infrastructure, data and applications.
 1. [Microsoft Certified: Identity and Access Administrator Associate (SC-300)](https://learn.microsoft.com/en-us/certifications/identity-and-access-administrator/) Certification - configure and manage authentication and authorization of identities for users, devices, Azure resources, and applications.
 1. [Microsoft Certified: Information Protection Administrator Associate (SC-400)](https://learn.microsoft.com/en-us/certifications/information-protection-administrator/?wt.mc_id=certsustainedmkt_portfolioupdate_blog_wwl) Certification - implementing and managing solutions for content classification, data loss prevention (DLP), information protection, data lifecycle management, records management, privacy, risk, and compliance.
+
 ### 3.6. Public cloud tooling in depth
 
 Several other cloud providers have operational security training that is designed for easy adoption on their platforms, relevant certifications of interest are below (note there is high overlap between cloud providers, so the microsoft training above should make the below learning paths much easier to complete).
 
 1. [AWS Skill Builder - Security Learning Plan](https://explore.skillbuilder.aws/learn/public/learning_plan/view/91/security-learning-plan) leads to [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/)
-![AWS Security shared responsibility](../images/aws-shared.png)
+    ![AWS Security shared responsibility](../images/aws-shared.png)
 1. [Oracle become a cloud security professional](https://mylearn.oracle.com/learning-path/become-a-cloud-security-professional/108608) leads to [Oracle Cloud Infrastructure 2022 Security Professional 1Z0-1104-22](https://education.oracle.com/en/oracle-cloud-infrastructure-2022-certified-security-professional/trackp_OCIS2022CP)
-![Oracle Cloud Infrastructure services overview](../images/oracle.png)
+    ![Oracle Cloud Infrastructure services overview](../images/oracle.png)
 1. [Google Security Engineer learning path](https://cloud.google.com/training/networking-security/#security-engineer-learning-path) leads to [Google Professional Cloud Security Engineer](https://cloud.google.com/certification/cloud-security-engineer)
-![Google Cloud Platform services overview](../images/google.png)
+    ![Google Cloud Platform services overview](../images/google.png)

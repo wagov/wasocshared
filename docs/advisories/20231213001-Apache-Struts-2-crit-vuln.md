@@ -29,6 +29,3 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - [Apache Struts 2 Security Bulletin](https://cwiki.apache.org/confluence/display/WW/S2-066)
 - [Apache Warns of Critical Vulnerability in Struts 2](https://www.infosecurity-magazine.com/news/apache-warns-critical/)
-
-
-

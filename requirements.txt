@@ -3,6 +3,8 @@ mkdocs-redirects
 mkdocs-macros-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-linkcheck
+mdformat-gfm
+mdformat-mkdocs[recommended]
 beautifulsoup4
 diskcache
 sendgrid

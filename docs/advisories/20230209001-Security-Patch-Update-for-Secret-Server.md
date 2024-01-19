@@ -10,7 +10,7 @@ This issue is rated **High** with an ***8.5*** Common Vulnerability Scoring Syst
 
 ### ***NOTE from Vendor's Article:***
 
-* The vulnerability is not publicly known and was responsibly disclosed through internal communication channels. There have been no detected exploitation attempts against Secret Server Cloud or On-Premises, [prior to the publication of this article](https://docs.delinea.com/bulletins/current/2023/11.3.000003.md).
+- The vulnerability is not publicly known and was responsibly disclosed through internal communication channels. There have been no detected exploitation attempts against Secret Server Cloud or On-Premises, [prior to the publication of this article](https://docs.delinea.com/bulletins/current/2023/11.3.000003.md).
 
 ## What is vulnerable?
 
@@ -22,6 +22,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-* <https://docs.delinea.com/bulletins/current/2023/11.3.000003.md>
-* <https://delinea.com/products/secret-server>
-* <https://cve.mitre.org/>
+- <https://docs.delinea.com/bulletins/current/2023/11.3.000003.md>
+- <https://delinea.com/products/secret-server>
+- <https://cve.mitre.org/>

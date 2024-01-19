@@ -12,22 +12,22 @@ While some documents have been assessed as decoys, containing no malicious indic
 
 **Tactics, Techniques & Procedures (TTP)**
 
- The following tactics, techniques and procedures have been observed by Victorian Government organisations:
+The following tactics, techniques and procedures have been observed by Victorian Government organisations:
 
-- Multiple Victorian Government organisation recipients both in the 'to' and 'cc' field.  
+- Multiple Victorian Government organisation recipients both in the 'to' and 'cc' field.
 
 - Preliminary review of recipients list indicates email addresses are public facing, position-based email accounts
 
-- Multiple documents, mostly containing PDFs on a particular issue or theme.  
+- Multiple documents, mostly containing PDFs on a particular issue or theme.
 
-- CIRS is currently tracking documents to related to a *Freedom of Information* (FOI) request.  
+- CIRS is currently tracking documents to related to a *Freedom of Information* (FOI) request.
 
 **Indicators of Compromise (IOCs)**
 
-The following IOCs have been observed by Victorian Government:  
+The following IOCs have been observed by Victorian Government:
 
-- www[.]tpsgc-pwgsc[.]gc[.]ca
-- sydneylivingmuseums[.]com[.]au
+- www\[.\]tpsgc-pwgsc\[.\]gc\[.\]ca
+- sydneylivingmuseums\[.\]com\[.\]au
 
 **Assessment**
 
@@ -39,8 +39,8 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-- Review the above **IOCs** and search for these in your environment.  
-- Review the above **TTPs** and consider reminding staff of organisational requirements regarding opening external links/attachments from unknown or external email addresses.  
+- Review the above **IOCs** and search for these in your environment.
+- Review the above **TTPs** and consider reminding staff of organisational requirements regarding opening external links/attachments from unknown or external email addresses.
 - Ensure **DMARC** is enabled where possible.
 - Notify the WA SOC if this campaign is identified
 

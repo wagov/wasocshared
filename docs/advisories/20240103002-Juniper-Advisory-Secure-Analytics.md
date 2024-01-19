@@ -4,13 +4,11 @@
 
 Juniper released a security advisory to address multiple vulnerabilities affecting Juniper Secure Analytics. A cyber threat actor could exploit one of these vulnerabilities to take control of an affected system.
 
-
 ## What is vulnerable?
 
-| Product | Severity | CVSS Score |
-| --- | --- | --- |
-| Juniper Secure Analytics (JSA) Series Virtual Appliance all versions to and including 7.5.0 UP7. | Critical | **9.8** |
-
+| Product                                                                                          | Severity | CVSS Score |
+| ------------------------------------------------------------------------------------------------ | -------- | ---------- |
+| Juniper Secure Analytics (JSA) Series Virtual Appliance all versions to and including 7.5.0 UP7. | Critical | **9.8**    |
 
 ## What has been observed
 

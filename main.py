@@ -23,10 +23,11 @@ def define_env(env):
         return line[2:].strip()
 
     @env.macro
-    def date_index(glob, prefix="", expand=3, include=None):
+    def date_index(folder, prefix="", expand=3, include=None):
         """
         Insert an index to a glob pattern relative to top dir of documentation project.
         """
+        glob = f"{folder}/*.md"
         cachekey = f"date_index.{glob}.{prefix}.{expand}.{include}"
         if cachekey in macro_cache:
             return macro_cache[cachekey]

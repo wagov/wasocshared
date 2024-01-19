@@ -15,7 +15,7 @@ Fortinet is not aware of any instance where this vulnerability was exploited in 
 
 **[CVE-2023-25610](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-25610)** - FortiOS Critical vulnerability  (CVE-2023-25610).
 
-CVE-2023-25610 Unauthenticated Stored Cross-Site Scripting (XSS) in Simple Ajax Chat <= 20220115 allows an attacker to store the malicious code. However, the attack requires specific conditions, making it hard to exploit.
+CVE-2023-25610 Unauthenticated Stored Cross-Site Scripting (XSS) in Simple Ajax Chat \<= 20220115 allows an attacker to store the malicious code. However, the attack requires specific conditions, making it hard to exploit.
 
 ## What is vulnerable ?
 
