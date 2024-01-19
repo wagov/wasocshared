@@ -28,7 +28,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [M365 Secure configuration baseline](https://www.cisa.gov/sites/default/files/publications/Microsoft%20Exchange%20Online%20M365%20Minimum%20Viable%20SCB%20Draft%20v0.1.pdf)
-- [SEcure Cloud Business Applications (SCuBA)](%22https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project)
+- [SEcure Cloud Business Applications (SCuBA)](https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project)
 
 ## Additional References
 
