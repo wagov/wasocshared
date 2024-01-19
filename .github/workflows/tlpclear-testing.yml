@@ -3,12 +3,13 @@ name: Test building TLP:CLEAR content
 
 on: [push, pull_request, workflow_dispatch]
 
+permissions:
+  # Sets permissions of the GITHUB_TOKEN to allow updating markdown format
+  contents: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
-    permissions:
-      # Sets permissions of the GITHUB_TOKEN to allow updating markdown format
-      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
