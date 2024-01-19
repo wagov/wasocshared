@@ -9,12 +9,17 @@ For a description of cyber security roles, please see the [Workforce Framework f
 ## Checklist
 
 - [ ] Define security operations scope (sensor availability, common/high impact events to focus on, business continuity objectives)
+
     - [ ] Ensure a **Cyber Incident Response Plan** is developed and maintained with this content (refer to the [ACSC Cyber Incident Response Plan - Word Template (docx)](../pdfs/ACSC-Cyber-Incident-Response-Plan-Template.docx) as a starting point)
+
 - [ ] Ensure SIEM visibility across all endpoints used, applications / services delivered, and network traffic flows
+
     - [ ] Deploy SIEM tools to ingest endpoint, network and application telemetry. Ensure tools can be targeted with open, interoperable query formats such as [STIX](https://github.com/opencybersecurityalliance/stix-shifter) indicators and [Sigma](https://github.com/SigmaHQ/sigma) detection rules. Refer to [stix-shifter connectors](https://github.com/opencybersecurityalliance/stix-shifter/blob/develop/docs/CONNECTORS.md) and [pySigma backends](https://github.com/SigmaHQ/pySigma#backends-comparison-between-pysigma-and-sigmac) for a comprehensive list of tools with good interoperability.
     - [ ] Make available relevant [MITRE Data Sources](https://attack.mitre.org/datasources/) to the security operations team
     - [ ] Ensure the platform can be configured with automated detection capabilities for [MITRE Tactics](https://attack.mitre.org/tactics/enterprise/)
+
 - [ ] Review and update the below security artefacts quarterly
+
     - [ ] **IDENTIFY** Perceived risk from common and high impact events (this can also feed into **PROTECT** control implementation)
 
     ![identify](../images/identify.png)
@@ -24,7 +29,8 @@ For a description of cyber security roles, please see the [Workforce Framework f
     ![detect](../images/detect.png)
 
 - [ ] **RESPOND** Ensure Operational risks have [cyber security response playbooks](../guidelines/playbooks.md) defined and exercised for common and high impact events at least annually.<br>
-![respond](../images/respond.png)
+    ![respond](../images/respond.png)
+
     - [ ] Document how to protect, respond and recover from cyber security events (see [ACSC's Cyber Incident Response Plan Resource](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/publications/cyber-incident-response-plan)) and review [ACSC's Cyber Incident Response Readiness Checklist](https://www.cyber.gov.au/sites/default/files/2023-03/ACSC%20Cyber%20Incident%20Readiness%20Checklist_A4.pdf)
     - [ ] Document all shared responsibilities for critical business systems
     - [ ] Exercise real-world detection and response with high coverage, low risk assumed breach offensive testing (typically [Persistence](https://attack.mitre.org/tactics/TA0003), [Collection](https://attack.mitre.org/tactics/TA0009) and [Exfiltration](https://attack.mitre.org/tactics/TA0010))
@@ -53,5 +59,4 @@ If an external Managed Security Service Provider (MSSP) is used the contract man
 - [ ] Quarterly reporting on detection improvements and incident data quality (classification and severity)
 
 !!! note "Complexity management"
-
     Consolidating MSP and MSSP services to deliver both IT management (endpoints, identities, infrastructure and platforms) and security operations functions from a single provider greatly reduces the complexity of vendor management. For business applications that aren't aligned with an organisations core enterprise architecture, they should be procured as fully managed services (i.e. SaaS) to minimise the complexity of shared responsibilities and associated risk which that incurs.

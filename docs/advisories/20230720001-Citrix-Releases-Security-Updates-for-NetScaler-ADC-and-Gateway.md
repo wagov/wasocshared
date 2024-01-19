@@ -6,21 +6,21 @@ Citrix has released security updates to address multiple vulnerabilities affecti
 
 ## What is the vulnerability?
 
-| CVE ID | Affected Products | Description | Pre-requisites | CVSS |
-| --- | --- | --- | --- | --- |
-| [CVE-2023-3466](https://nvd.nist.gov/vuln/detail/CVE-2023-3466)| Citrix ADC, Citrix Gateway | Reflected Cross-Site Scripting (XSS) | Requires victim to access an attacker-controlled link in the browser while being on a network with connectivity to the NSIP | [8.3](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H) |
-| [CVE-2023-3467](https://nvd.nist.gov/vuln/detail/CVE-2023-3467) | Citrix ADC, Citrix Gateway | Privilege Escalation to root administrator (nsroot) | Authenticated access to NSIP or SNIP with management interface access | [8](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H) |
-| [CVE-2023-3519](https://nvd.nist.gov/vuln/detail/CVE-2023-3519) | Citrix ADC, Citrix Gateway | Unauthenticated remote code execution | Appliance must be configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server | [9.8](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H) |
+| CVE ID                                                          | Affected Products          | Description                                         | Pre-requisites                                                                                                              | CVSS                                                                                          |
+| --------------------------------------------------------------- | -------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [CVE-2023-3466](https://nvd.nist.gov/vuln/detail/CVE-2023-3466) | Citrix ADC, Citrix Gateway | Reflected Cross-Site Scripting (XSS)                | Requires victim to access an attacker-controlled link in the browser while being on a network with connectivity to the NSIP | [8.3](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H) |
+| [CVE-2023-3467](https://nvd.nist.gov/vuln/detail/CVE-2023-3467) | Citrix ADC, Citrix Gateway | Privilege Escalation to root administrator (nsroot) | Authenticated access to NSIP or SNIP with management interface access                                                       | [8](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H)   |
+| [CVE-2023-3519](https://nvd.nist.gov/vuln/detail/CVE-2023-3519) | Citrix ADC, Citrix Gateway | Unauthenticated remote code execution               | Appliance must be configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server            | [9.8](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H) |
 
 ## What is vulnerable?
 
 The vulnerability affects the following products:
 
--   NetScaler ADC and NetScaler Gateway 13.1, before 13.1-49.13 
--   NetScaler ADC and NetScaler Gateway 13.0, before 13.0-91.13 
--   NetScaler ADC 13.1-FIPS, before 13.1-37.159
--   NetScaler ADC 12.1-FIPS, before 12.1-55.297
--   NetScaler ADC 12.1-NDcPP, before 12.1-55.297
+- NetScaler ADC and NetScaler Gateway 13.1, before 13.1-49.13
+- NetScaler ADC and NetScaler Gateway 13.0, before 13.0-91.13
+- NetScaler ADC 13.1-FIPS, before 13.1-37.159
+- NetScaler ADC 12.1-FIPS, before 12.1-55.297
+- NetScaler ADC 12.1-NDcPP, before 12.1-55.297
 
 ***Note***: NetScaler ADC and NetScaler Gateway version 12.1 is now End Of Life (EOL) and is vulnerable.
 
@@ -36,7 +36,7 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 - NetScaler ADC 12.1-FIPS 12.1-55.297 and later releases of 12.1-FIPS
 - NetScaler ADC 12.1-NDcPP 12.1-55.297 and later releases of 12.1-NDcPP
 
-***Note***: For NetScaler ADC and NetScaler Gateway version 12.1 (EOL) product(s), Citrix recommends customers to upgrade their appliances to one of the supported versions that address the vulnerabilities. 
+***Note***: For NetScaler ADC and NetScaler Gateway version 12.1 (EOL) product(s), Citrix recommends customers to upgrade their appliances to one of the supported versions that address the vulnerabilities.
 
 ## Additional References
 

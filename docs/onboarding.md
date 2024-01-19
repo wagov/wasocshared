@@ -5,11 +5,11 @@
 There are 2 delegations of access an operational security team would need to assist a customer with managing their security events and detection rules. Our customer offerings below have been constructed around the type of ongoing access and assistance required:
 
 **Tier 0 - Advisor:** Ability for automation accounts to read security incidents, alerts, identity and device information, event data, and azure subscription resources.
+
 - Microsoft 365 Tenant (Azure AD) Role: [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader)
 - Azure Subscription Role: [Reader](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#reader)
 
 ??? note "Enhanced support tiers (optional)"
-
     **Tier 1 - Monitor:** Increased access for analysts to work on security incidents and detection rules ontop of **Tier 0**.
 
     - Microsoft 365 Tenant (Azure AD) Roles: [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader), [Security Operator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-operator)
@@ -40,6 +40,7 @@ As part of onboarding, the WA SOC will send the customer a list of analysts (in 
 ### 2.2. Microsoft 365 tenant access delegation
 
 The below Azure AD group and Defender for Endpoint roles grant permissions required from the customer tenant to the WA SOC analysts. Once you have reviewed the roles themselves please implement using the [2.2.3. Group and role assignment walkthrough](#223-group-and-role-assignment-walkthrough).
+
 > Note that the Defender for Endpoint role assignment is only required if you have enabled [Manage portal access using role-based access control](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/rbac?view=o365-worldwide#before-you-begin) in [Defender for Endpoint](https://security.microsoft.com/preferences2/user_roles).
 
 #### 2.2.1. Tier 0 Azure AD Group & Defender for Endpoint Roles
@@ -60,7 +61,6 @@ Create a Defender for Endpoint role as follows. This will inherit from the above
 - **Assigned user groups:** WASOC-T0-Advisor
 
 ??? note "Enhanced support tiers (optional)"
-
     #### 2.2.2. Tier 1 Azure AD Group & Defender for Endpoint Roles
 
     Create an Azure AD group as follows. Any future changes to membership will be requested by the WA SOC.
@@ -86,12 +86,12 @@ The group names and role names below can be set to anything you prefer, however 
 
 ![Bulk Invite](images/bulk-invite.gif)
 
-2. [Create a single Azure AD Group](https://portal.azure.com/#view/Microsoft_AAD_IAM/AddGroupBlade) with the above invited automation accounts / analysts as members and documented Azure AD roles assigned.
+1. [Create a single Azure AD Group](https://portal.azure.com/#view/Microsoft_AAD_IAM/AddGroupBlade) with the above invited automation accounts / analysts as members and documented Azure AD roles assigned.
 
 ![Create Group](images/azuread-wasocgroup.gif)
 
-3. Assign the [Defender for Endpoint roles](https://security.microsoft.com/preferences2/user_roles) to the above group to add Defender for Endpoint access if you have enabled role based access control.
-  
+1. Assign the [Defender for Endpoint roles](https://security.microsoft.com/preferences2/user_roles) to the above group to add Defender for Endpoint access if you have enabled role based access control.
+
 ![Endpoint Role](images/wasoc-endpointrole.gif)
 
 ### 2.3. Azure Subscription access delegation
@@ -115,13 +115,12 @@ Review the custom deployment details and ensure the location is Australia East, 
 The WASOC Dedicated Cluster program is an initiative to assist with reducing the total cost of ownership (TCO) of customers Sentinel Workspace. This is achieved by utilising a centralised [pricing model](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#cluster-pricing-model) offered by Microsoft as part of the [dedicated cluster services](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#advanced-capabilities).
 
 ??? note "Customer Prerequisite"
-
     The dedicated cluster has prerequisites that **must** be met to have the minimum technical requirements to onboard ([link](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#link-a-workspace-to-a-cluster)) an sentinel workspace.
 
-    The prerequisites as follows. 
+    The prerequisites as follows.
 
     - Must be on Microsoft [Enterprise Agreement](https://www.wa.gov.au/government/cuas/supply-of-microsoft-product-licences-and-licensing-solutions-cuams2019)
-       - E licensing ([Compare Microsoft 365 Enterprise Plans](https://www.microsoft.com/en-au/microsoft-365/enterprise/microsoft365-plans-and-pricing))
+        - E licensing ([Compare Microsoft 365 Enterprise Plans](https://www.microsoft.com/en-au/microsoft-365/enterprise/microsoft365-plans-and-pricing))
     - Must have signed an exisiting MOU (T0,T1,T2) with the WASOC
     - Customers Workspace must be located in region **Australia EAST**
     - Must have been already onboarded to the WASOC via [Azure Lighthouse](https://soc.cyber.wa.gov.au//onboarding/#23-azure-subscription-access-delegation)

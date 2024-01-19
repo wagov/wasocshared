@@ -12,7 +12,7 @@ Adobe has released security updates that address a critical vulnerability in the
 
 The vulnerability affects the following products:
 
-- ColdFusion 2018 - Update 17 and earlier versions  
+- ColdFusion 2018 - Update 17 and earlier versions
 - ColdFusion 2021 - Update 7 and earlier versions
 - ColdFusion 2023 - Update 1 and earlier versions
 

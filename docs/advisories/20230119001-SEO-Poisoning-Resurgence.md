@@ -1,4 +1,3 @@
-
 # Resurgence of SEO Poisoning - 20230119001
 
 ## Overview
@@ -14,19 +13,19 @@ Historically, SEO Poisoning campaigns are malicious actors setting up fake websi
 ### Detection
 
 1. Identify the presence of the below supplied KQL/ Kusto hunting code
-2. Identify the presence of the below supplied IOCs
-3. Inspect activity from the identified devices and/or users
+1. Identify the presence of the below supplied IOCs
+1. Inspect activity from the identified devices and/or users
 
 ### Recommended Remediation Steps
 
 1. Run a full Antivirus scan on the compromised device
-2. Reset the affected user's passwords
-3. Implement MFA if required
+1. Reset the affected user's passwords
+1. Implement MFA if required
 
 ## Reference
 
-* Blog Article "Hackers push malware via Google search ads for VLC, 7-Zip, CCleaner": [https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/](https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/)
-* Internet Crime Crime Complain Center (IC3) Advisory: [https://www.ic3.gov/Media/Y2022/PSA221221](https://www.ic3.gov/Media/Y2022/PSA221221)
+- Blog Article "Hackers push malware via Google search ads for VLC, 7-Zip, CCleaner": [https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/](https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/)
+- Internet Crime Crime Complain Center (IC3) Advisory: [https://www.ic3.gov/Media/Y2022/PSA221221](https://www.ic3.gov/Media/Y2022/PSA221221)
 
 ## Indicator of Compromise
 

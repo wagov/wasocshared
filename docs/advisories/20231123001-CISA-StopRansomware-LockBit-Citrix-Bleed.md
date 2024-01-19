@@ -12,12 +12,12 @@ The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of I
 
 The vulnerability exists in the following products:
 
--   NetScaler ADC and NetScaler Gateway 14.1 before 14.1-8.50
--   NetScaler ADC and NetScaler Gateway 13.1 before 13.1-49.15
--   NetScaler ADC and NetScaler Gateway 13.0 before 13.0-92.19
--   NetScaler ADC 13.1-FIPS before 13.1-37.164
--   NetScaler ADC 12.1-FIPS before 12.1-55.300
--   NetScaler ADC 12.1-NDcPP before 12.1-55.300
+- NetScaler ADC and NetScaler Gateway 14.1 before 14.1-8.50
+- NetScaler ADC and NetScaler Gateway 13.1 before 13.1-49.15
+- NetScaler ADC and NetScaler Gateway 13.0 before 13.0-92.19
+- NetScaler ADC 13.1-FIPS before 13.1-37.164
+- NetScaler ADC 12.1-FIPS before 12.1-55.300
+- NetScaler ADC 12.1-NDcPP before 12.1-55.300
 
 ## What has been observed?
 
@@ -32,6 +32,7 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 ### Additional Resources
 
 **WASOC Advisories:**
+
 - [**Citrix Bleed ACT NOW - Ensure Citrix ADC & Netscaler have mitigations applied OR are taken offline - 20231115001**](https://soc.cyber.wa.gov.au/advisories/20231115001-Citrix-Bleed)
 - [**Mass exploitation of CitrixBleed vulnerability - 20231102002**](https://soc.cyber.wa.gov.au/advisories/20231102002-Mass-exploitation-of-CitrixBleed-vulnerability/)
 - [**Citrix Releases Security Updates for Multiple Products - 20231012003**](https://soc.cyber.wa.gov.au/advisories/20231012003-Citrix-Releases-Security-Updates-for-Multiple-Products/)

@@ -25,30 +25,28 @@ Table 4 of the [CISA advisory found here](https://www.cisa.gov/news-events/cyber
 
 Based on secondary sources, it was noted that affiliates exploit older vulnerabilities like [CVE-2021-22986](https://nvd.nist.gov/vuln/detail/CVE-2021-22986), F5 iControl REST unauthenticated Remote Code Execution Vulnerability, as well as newer vulnerabilities such as:
 
--   [CVE-2023-0669](https://nvd.nist.gov/vuln/detail/CVE-2023-0669): Fortra GoAnyhwere Managed File Transfer (MFT) Remote Code Execution Vulnerability
--   [CVE-2023-27350](https://nvd.nist.gov/vuln/detail/CVE-2023-27350): PaperCut MF/NG Improper Access Control Vulnerability
+- [CVE-2023-0669](https://nvd.nist.gov/vuln/detail/CVE-2023-0669): Fortra GoAnyhwere Managed File Transfer (MFT) Remote Code Execution Vulnerability
+- [CVE-2023-27350](https://nvd.nist.gov/vuln/detail/CVE-2023-27350): PaperCut MF/NG Improper Access Control Vulnerability
 
 LockBit affiliates have been documented exploiting numerous CVEs, including:
 
--   [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228): Apache Log4j2 Remote Code Execution Vulnerability,
--   [CVE-2021-22986](https://nvd.nist.gov/vuln/detail/CVE-2021-22986): F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability,
--   [CVE-2020-1472: NetLogon Privilege Escalation Vulnerability,](https://nvd.nist.gov/vuln/detail/CVE-2020-1472)
--   [CVE-2019-0708](https://nvd.nist.gov/vuln/detail/CVE-2019-0708): Microsoft Remote Desktop Services Remote Code Execution Vulnerability, and
--   [CVE-2018-13379](https://nvd.nist.gov/vuln/detail/CVE-2018-13379): Fortinet FortiOS Secure Sockets Layer (SSL) Virtual Private Network (VPN) Path Traversal Vulnerability.
+- [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228): Apache Log4j2 Remote Code Execution Vulnerability,
+- [CVE-2021-22986](https://nvd.nist.gov/vuln/detail/CVE-2021-22986): F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability,
+- [CVE-2020-1472: NetLogon Privilege Escalation Vulnerability,](https://nvd.nist.gov/vuln/detail/CVE-2020-1472)
+- [CVE-2019-0708](https://nvd.nist.gov/vuln/detail/CVE-2019-0708): Microsoft Remote Desktop Services Remote Code Execution Vulnerability, and
+- [CVE-2018-13379](https://nvd.nist.gov/vuln/detail/CVE-2018-13379): Fortinet FortiOS Secure Sockets Layer (SSL) Virtual Private Network (VPN) Path Traversal Vulnerability.
 
 ## Detection and Remediation
 
-The listed mitigations are ordered by MITRE ATT&CK tactic. Mitigations that apply to multiple MITRE ATT&CK tactics are listed under the tactic that occurs earliest in an incident’s lifecycle. 
+The listed mitigations are ordered by MITRE ATT&CK tactic. Mitigations that apply to multiple MITRE ATT&CK tactics are listed under the tactic that occurs earliest in an incident’s lifecycle.
 
 ### Tactics and techniques
 
 Tables 5-16 in the [CISA Advisory found here](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a), shows a list of LockBit affiliate tactics and techniques.
 
-
 ### Recommended Remediation Steps
 
 A comprehensive list of mitigations organized according to the MITRE ATT&CK tactics and information on implementing additional defence-in-depth measures can be found [here](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a).
-
 
 ## Additional References
 

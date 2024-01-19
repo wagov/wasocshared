@@ -12,13 +12,13 @@ CISA encourages users and administrators to review Citrix security bulletins:
 
 ## What is the vulnerability?
 
-[**CVE-2023-24483**] - Privilege Escalation to NT AUTHORITY\SYSTEM on the vulnerable VDA
+\[**CVE-2023-24483**\] - Privilege Escalation to NT AUTHORITY\\SYSTEM on the vulnerable VDA
 
-[**CVE-2023-24484**] - A malicious user can cause log files to be written to a directory that they do not have permission to write to
+\[**CVE-2023-24484**\] - A malicious user can cause log files to be written to a directory that they do not have permission to write to
 
-[**CVE-2023-24485**] - Privilege Escalation on the system running a vulnerable version of Citrix Workspace app for Windows
+\[**CVE-2023-24485**\] - Privilege Escalation on the system running a vulnerable version of Citrix Workspace app for Windows
 
-[**CVE-2023-24486**] - Session takeover
+\[**CVE-2023-24486**\] - Session takeover
 
 ## What is vulnerable?
 
@@ -26,7 +26,7 @@ CISA encourages users and administrators to review Citrix security bulletins:
 
 [CTX477617](https://support.citrix.com/article/CTX477617/citrix-workspace-app-for-windows-security-bulletin-for-cve202324484-cve202324485) bulletin comprises information of vulnerabilities identified that, collectively, allow a standard Windows user to perform operations as SYSTEM on the computer running Citrix Workspace app.
 
-[CTX477618](https://support.citrix.com/article/CTX477618/citrix-workspace-app-for-linux-security-bulletin-for-cve202324486) incorporates information of a vulnerability that has been identified, if exploited, could result in a local user elevating their privilege level to NT AUTHORITY\SYSTEM on a Citrix Virtual Apps and Desktops Windows VDA.
+[CTX477618](https://support.citrix.com/article/CTX477618/citrix-workspace-app-for-linux-security-bulletin-for-cve202324486) incorporates information of a vulnerability that has been identified, if exploited, could result in a local user elevating their privilege level to NT AUTHORITY\\SYSTEM on a Citrix Virtual Apps and Desktops Windows VDA.
 
 ## Recommendation
 

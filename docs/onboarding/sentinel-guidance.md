@@ -13,12 +13,12 @@ It is recommended to deploy Microsoft Sentinel in the **Australia East** region 
 Below is a rapid approach to get Microsoft workloads covered rapidly using Sentinel.
 
 1. [Turn on auditing and health monitoring](https://learn.microsoft.com/en-us/azure/sentinel/enable-monitoring)
-2. [Enable User and Entity Behavior Analytics (UEBA)](https://learn.microsoft.com/en-us/azure/sentinel/enable-entity-behavior-analytics)
-3. [Microsoft 365 Defender connector](https://learn.microsoft.com/en-us/azure/sentinel/data-connectors/microsoft-365-defender)
+1. [Enable User and Entity Behavior Analytics (UEBA)](https://learn.microsoft.com/en-us/azure/sentinel/enable-entity-behavior-analytics)
+1. [Microsoft 365 Defender connector](https://learn.microsoft.com/en-us/azure/sentinel/data-connectors/microsoft-365-defender)
     1. [Microsoft Defender for Office 365](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/step-by-step-guides/step-by-step-guide-overview?view=o365-worldwide)
-    2. [Microsoft Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/quick-installation-guide)
-    3. [Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mde-planning-guide?view=o365-worldwide)
-4. [Connect Microsoft Defender for Cloud (servers)](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud)
+    1. [Microsoft Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/quick-installation-guide)
+    1. [Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mde-planning-guide?view=o365-worldwide)
+1. [Connect Microsoft Defender for Cloud (servers)](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud)
 
 ## 3. Third party solutions (Telemetry re-ingestion)
 

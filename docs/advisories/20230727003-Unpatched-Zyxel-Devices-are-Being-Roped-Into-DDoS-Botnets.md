@@ -4,24 +4,23 @@
 
 The WA SOC has observed a rapidly evolving botnets exploiting vulnerabilities in upatched Zyxel devices.
 
-
 ## What is the vulnerability?
 
 [**CVE-2023-28771**](https://nvd.nist.gov/vuln/detail/CVE-2023-28771) - CVSS v3 Base Score: ***9.8***
 
-This vulnerability is characterized by a command injection flaw affecting multiple firewall models that could potentially allow an unauthorized attacker to execute arbitrary code by sending a specifically crafted packet to the targeted device. 
+This vulnerability is characterized by a command injection flaw affecting multiple firewall models that could potentially allow an unauthorized attacker to execute arbitrary code by sending a specifically crafted packet to the targeted device.
 
 ## Exploitation and Propagation
 
-The attacks commonly utilise download of files tailored for MIPS architecture. In the analysis done by Fortinet, they have identified that the scripts downloads a file named "lolmips" from the IP address 92[.]118[.]39[.]16 and saves it with a ".zw" extension, after which it executes with the "zywall" parameter, indicating its connection to the Zyxel firewall vulnerability. 
+The attacks commonly utilise download of files tailored for MIPS architecture. In the analysis done by Fortinet, they have identified that the scripts downloads a file named "lolmips" from the IP address 92\[.\]118\[.\]39\[.\]16 and saves it with a ".zw" extension, after which it executes with the "zywall" parameter, indicating its connection to the Zyxel firewall vulnerability.
 
-The attacks usually seen originating from the following IP addresses: 
+The attacks usually seen originating from the following IP addresses:
 
-- 193[.]32[.]162[.]190
-- 109[.]205[.]213[.]30
-- 109[.]207[.]200[.]42
-- 109[.]207[.]200[.]47
-- 109[.]207[.]200[.]44
+- 193\[.\]32\[.\]162\[.\]190
+- 109\[.\]205\[.\]213\[.\]30
+- 109\[.\]207\[.\]200\[.\]42
+- 109\[.\]207\[.\]200\[.\]47
+- 109\[.\]207\[.\]200\[.\]44
 
 These attacks specifically target the command injection vulnerability in the Internet Key Exchange (IKE) packet transmitted over UDP on Zyxel devices. The attackers utilize tools such as curl or wget to download scripts for further actions. Below, you can find the corresponding traffic capture illustrating these activities.
 
@@ -29,22 +28,20 @@ In depth analysis of this exploit can be found in the article [DDoS Botnets Targ
 
 ## C2 Servers
 
-- raw[.]pastebin[.]com
-- hoz[.]1337[.]cx
-- babaroga[.]lib
-- dragon[.]lib
-- blacknurse[.]lib
-- tempest[.]lib
-- routercontroller[.]geek
-- dvrcontroller[.]libre
+- raw\[.\]pastebin\[.\]com
+- hoz\[.\]1337\[.\]cx
+- babaroga\[.\]lib
+- dragon\[.\]lib
+- blacknurse\[.\]lib
+- tempest\[.\]lib
+- routercontroller\[.\]geek
+- dvrcontroller\[.\]libre
 
-Dark.IoT utilizes the OpenNIC server with the IP address "147[.]182[.]243[.]49" for DNS resolution and establishes communication with the C2 servers.
+Dark.IoT utilizes the OpenNIC server with the IP address "147\[.\]182\[.\]243\[.\]49" for DNS resolution and establishes communication with the C2 servers.
 
 A comprehensive technical analysis of the Botnet activity can be found [here](https://www.fortinet.com/blog/threat-research/ddos-botnets-target-zyxel-vulnerability-cve-2023-28771).
 
 ## List of IOC's related to Zyxel DDoS Botnet activity
-
-
 
 d618c817e6a93193a499126156a1f7e888008dacdb247a769fd69ce4c0c87b67
 
@@ -82,9 +79,7 @@ f82f5ec551f9ac3bb5a3b1ace5dd21c35239bd983fd9a36e0e7c07bfb48a3fdd
 
 28fa9225db6d42084123989712313489e255376134f8e77f07b77c345a026304
 
-
 312022da42ab6df882c44d984f9aceea7f08e217a5ca8ca985c533a1af399cee
-
 
 ## Additional References
 

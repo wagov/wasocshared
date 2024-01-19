@@ -1,4 +1,3 @@
-  
 # Microsoft TI Report for Storm-0987 - 20230717001
 
 ## Overview
@@ -9,7 +8,7 @@ Microsoft Threat Intelligence has released a report detailing the activities of 
 
 The primary delivery method is via phishing with lures related to political affairs, targeting mostly European government and military organisations however activity has also been observed in telecommunications and finance industries.
 
-In addition, the actor has trojanised versions of popular software that include Adobe products, Solarwinds products, Advanced IP Scanner, Signal and KeePass. To host the trojanized installers for delivery, Storm-0978 typically registers malicious domains mimicking the legitimate software (for example, the malicious domain _advanced-ip-scaner[.]com_).
+In addition, the actor has trojanised versions of popular software that include Adobe products, Solarwinds products, Advanced IP Scanner, Signal and KeePass. To host the trojanized installers for delivery, Storm-0978 typically registers malicious domains mimicking the legitimate software (for example, the malicious domain _advanced-ip-scaner\[.\]com_).
 
 User education and strong endpoint security are recommended mitigations for defending against Storm-0978 and similar advanced actors. The full report can be read [here](https://www.microsoft.com/en-us/security/blog/2023/07/11/storm-0978-attacks-reveal-financial-and-espionage-motives/).
 
@@ -24,4 +23,4 @@ Microsoft recommends the following mitigations to reduce the impact of activity 
 
 ## Reference
 
-* [Storm-0978 attacks reveal financial and espionage motives](https://www.microsoft.com/en-us/security/blog/2023/07/11/storm-0978-attacks-reveal-financial-and-espionage-motives/)
+- [Storm-0978 attacks reveal financial and espionage motives](https://www.microsoft.com/en-us/security/blog/2023/07/11/storm-0978-attacks-reveal-financial-and-espionage-motives/)

@@ -33,4 +33,4 @@ If you're unable to do so, upgrade to these **fixed versions: 7.13.19, 7.19.11 o
 ## Additional References
 
 - [Security Bulletin - August 15 2023 | Atlassian Support | Atlassian Documentation](https://confluence.atlassian.com/security/security-bulletin-august-15-2023-1276870882.html)
-- [[CONFSERVER-90185] Third-Party Dependency Vulnerability in Confluence - Create and track feature requests for Atlassian products.](https://jira.atlassian.com/browse/CONFSERVER-90185)
+- [\[CONFSERVER-90185\] Third-Party Dependency Vulnerability in Confluence - Create and track feature requests for Atlassian products.](https://jira.atlassian.com/browse/CONFSERVER-90185)

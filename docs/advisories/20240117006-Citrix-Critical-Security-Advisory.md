@@ -2,15 +2,14 @@
 
 ## Overview
 
-Citrix have released a security advisory for CVE-2023-6548 affecting  NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway). 
+Citrix have released a security advisory for CVE-2023-6548 affecting  NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway).
 
 ## What is the vulnerability?
 
-| CVE ID | CVSS Score | Description |
-| --- | --- | --- |
-| [CVE-2023-6548](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6548) | 5.5 | Authenticated (low privileged) remote code execution on Management Interface |
-| [CVE-2023-6549](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6549) | 8.2 | Denial of Service |
-
+| CVE ID                                                                        | CVSS Score | Description                                                                  |
+| ----------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------- |
+| [CVE-2023-6548](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6548) | 5.5        | Authenticated (low privileged) remote code execution on Management Interface |
+| [CVE-2023-6549](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6549) | 8.2        | Denial of Service                                                            |
 
 ## What is vulnerable?
 
@@ -23,10 +22,9 @@ The following products and versions are affected:
 - NetScaler ADC 12.1-FIPS before 12.1-55.302
 - NetScaler ADC 12.1-NDcPP before 12.1-55.302
 
-
 ## What has been observed?
-Citrix has observed exploits of these CVEs on unmitigated appliances.
 
+Citrix has observed exploits of these CVEs on unmitigated appliances.
 
 ## Recommendation
 

@@ -7,12 +7,11 @@ The below are all from [ACSC Strategies to Mitigate Cyber Security Incidents –
 The Further Five below are being reviewed for inclusion in the revised [WA Government Cyber Security Policy](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy) (expected to be finalised Q1 2024).
 
 !!! note "Further Five"
-
-    - [ ] [Server application hardening](#server-application-hardening) especially internet-accessible web applications (sanitise input and use TLS not SSL) and databases, as well as applications that access important (sensitive/high-availability) data.
-    - [ ] [Block spoofed emails](#block-spoofed-emails). Use Sender Policy Framework (SPF) or Sender ID to check incoming emails. Use ‘hard fail’ SPF TXT and DMARC DNS records to mitigate emails that spoof the organisation’s domain.
-    - [ ] [Network segmentation](#network-segmentation). Deny traffic between computers unless required. Constrain devices with low assurance (e.g. BYOD and IoT). Restrict access to network drives and data repositories based on user duties.
-    - [ ] [Continuous incident detection and response](#continuous-incident-detection-and-response) with automated immediate analysis of centralised time-synchronised logs of allowed and denied computer events, authentication, file access and network activity.
-    - [ ] [Personnel management](#personnel-management) e.g. ongoing vetting especially for users with privileged access, immediately disable all accounts of departing users, and remind users of their security obligations and penalties.
+    - [Server application hardening](#server-application-hardening) especially internet-accessible web applications (sanitise input and use TLS not SSL) and databases, as well as applications that access important (sensitive/high-availability) data.
+    - [Block spoofed emails](#block-spoofed-emails). Use Sender Policy Framework (SPF) or Sender ID to check incoming emails. Use ‘hard fail’ SPF TXT and DMARC DNS records to mitigate emails that spoof the organisation’s domain.
+    - [Network segmentation](#network-segmentation). Deny traffic between computers unless required. Constrain devices with low assurance (e.g. BYOD and IoT). Restrict access to network drives and data repositories based on user duties.
+    - [Continuous incident detection and response](#continuous-incident-detection-and-response) with automated immediate analysis of centralised time-synchronised logs of allowed and denied computer events, authentication, file access and network activity.
+    - [Personnel management](#personnel-management) e.g. ongoing vetting especially for users with privileged access, immediately disable all accounts of departing users, and remind users of their security obligations and penalties.
 
 ### Server application hardening
 
@@ -25,7 +24,6 @@ Server application hardening helps the organisation to conduct its business with
 OWASP guidance helps to mitigate web application security vulnerabilities such as SQL injection, and covers code review, data validation and sanitisation, user and session management, protection of data in transit and storage, error handling, user authentication, logging and auditing.
 
 !!! info
-
     The ACSC has developed guidance for securing content management systems running on web servers, as part of the ACSC responding to cyber security incidents involving adversaries compromising internet-accessible web servers and using 'web shells' which can facilitate remote access, administration and pivoting to the organisation's internal systems.
 
     - Further guidance on protecting web applications is available in the *[Protecting Web Applications and Users](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/web-hardening/protecting-web-applications-and-users "Protecting Web Applications and Users")* publication.
@@ -53,7 +51,6 @@ Organisations can conservatively deploy DMARC if they are concerned about legiti
 Reject incoming emails that have the organisation's domain as the email sender but do not originate from email servers approved by the organisation.
 
 !!! info
-
     Further guidance on spoofed email mitigation strategies is available in the *[How to Combat Fake Emails](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/how-combat-fake-emails "How to Combat Fake Emails")* publication.
 
 ### Network segmentation
@@ -85,7 +82,6 @@ Organisations with critically important data might choose to store and access it
 Adversaries could propagate throughout the network by leveraging the organisation's existing systems used to distribute software such as patches for security vulnerabilities, login programs or scheduled tasks configured via Group Policy Objects, updated anti-malware detection engine software, or the computer Standard Operating Environment master image. Alternatively, adversaries could turn the organisation's intranet website into a watering hole to compromise users when they visit. Therefore, protect software distribution systems from modifications which are malicious or otherwise unauthorised, combined with implementing a robust change management process.
 
 !!! info
-
     Further guidance on network segmentation is available in the *[Implementing Network Segmentation and Segregation](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/implementing-network-segmentation-and-segregation "Implementing Network Segmentation and Segregation")* publication.
 
     Information about BYOD and other enterprise mobility solutions is available in the *[Bring Your Own Device for Executives](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/bring-your-own-device-executives "Bring Your Own Device for Executives")* and *[Risk Management of Enterprise Mobility Including Bring Your Own Device](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/risk-management-enterprise-mobility-including-bring-your-own-device "Risk Management of Enterprise Mobility Including Bring Your Own Device")* publications.
@@ -116,30 +112,30 @@ Important logs include logs generated by security products, as well as Active Di
 
 Perform timely log analysis focusing on:
 
--   Most Likely Targets, especially users who have administrative privileges to operating systems or applications such as databases
--   application control logs revealing attempted but blocked program execution, as well as logs generated by other security products
--   gaps in logs where there should be periodic activity, for example, an absence of expected daily security product logs usually generated by computers of users who are in the office and are believed to be using their computers, potentially indicating that adversaries have disabled the security products
--   user actions outside of business hours, noting that malware compromising a user's account might appear in logs as though the malware's actions are the user's actions
--   new or changed services or Windows Registry keys used to automatically run programs on bootup or user login
--   new or changed files that are executable
--   access to critical asset computers that store or process important (sensitive or high-availability) data
--   access to files on network drives
--   unauthorised attempts to access or modify event logs
--   [use of tools shipped with Microsoft Windows](https://lolbas-project.github.io/) to perform code execution, reconnaissance and network propagation (e.g. cscript.exe, wscript.exe, cmd.exe, mshta.exe, ipconfig.exe, net.exe, net1.exe, netstat.exe, reg.exe, wmic.exe, powershell.exe, powershell_ise.exe, at.exe, schtasks.exe, tasklist.exe, regsvr32.exe, rundll32.exe, gpresult.exe and systeminfo.exe)
--   user authentication and use of account credentials.
+- Most Likely Targets, especially users who have administrative privileges to operating systems or applications such as databases
+- application control logs revealing attempted but blocked program execution, as well as logs generated by other security products
+- gaps in logs where there should be periodic activity, for example, an absence of expected daily security product logs usually generated by computers of users who are in the office and are believed to be using their computers, potentially indicating that adversaries have disabled the security products
+- user actions outside of business hours, noting that malware compromising a user's account might appear in logs as though the malware's actions are the user's actions
+- new or changed services or Windows Registry keys used to automatically run programs on bootup or user login
+- new or changed files that are executable
+- access to critical asset computers that store or process important (sensitive or high-availability) data
+- access to files on network drives
+- unauthorised attempts to access or modify event logs
+- [use of tools shipped with Microsoft Windows](https://lolbas-project.github.io/) to perform code execution, reconnaissance and network propagation (e.g. cscript.exe, wscript.exe, cmd.exe, mshta.exe, ipconfig.exe, net.exe, net1.exe, netstat.exe, reg.exe, wmic.exe, powershell.exe, powershell_ise.exe, at.exe, schtasks.exe, tasklist.exe, regsvr32.exe, rundll32.exe, gpresult.exe and systeminfo.exe)
+- user authentication and use of account credentials.
 
 When performing log analysis of user authentication and use of account credentials, focus on:
 
--   user authentication from a user who is currently on holiday or other leave
--   user authentication from computers other than the user's usual computer, especially if from computers that are located outside of the user's geographical location
--   VPN and other remote access connections from countries that the associated user is not located in
--   a single IP address attempting to authenticate as multiple different users
--   VPN and other remote access connections by a user from two different IP addresses concurrently
--   failed login attempts for accounts with administrative privileges
--   user accounts that become locked out because of too many incorrect passphrase attempts
--   administrative service accounts unexpectedly logging into other computers
--   creation of user accounts, or disabled accounts being re-enabled, especially accounts with administrative privileges
--   modifications to user account properties, such as 'Store password using reversible encryption' or 'Password never expires' configuration options being activated.
+- user authentication from a user who is currently on holiday or other leave
+- user authentication from computers other than the user's usual computer, especially if from computers that are located outside of the user's geographical location
+- VPN and other remote access connections from countries that the associated user is not located in
+- a single IP address attempting to authenticate as multiple different users
+- VPN and other remote access connections by a user from two different IP addresses concurrently
+- failed login attempts for accounts with administrative privileges
+- user accounts that become locked out because of too many incorrect passphrase attempts
+- administrative service accounts unexpectedly logging into other computers
+- creation of user accounts, or disabled accounts being re-enabled, especially accounts with administrative privileges
+- modifications to user account properties, such as 'Store password using reversible encryption' or 'Password never expires' configuration options being activated.
 
 #### Implementation guidance leveraging network-related logs
 
@@ -149,14 +145,14 @@ Important logs include DNS, web proxy logs containing connection details includi
 
 Perform timely log analysis focusing on connections and the amount of data transferred by Most Likely Targets to highlight abnormal internal network traffic such as suspicious reconnaissance enumeration of both network drives (file shares) and user data including honeytoken accounts. Also focus on abnormal external network traffic crossing perimeter boundaries such as:
 
--   periodic beaconing traffic
--   HTTP/HTTPS sessions with an unusual ratio of outgoing traffic to incoming traffic
--   HTTP/HTTPS traffic with a 'User-Agent' header value that is not associated with legitimate software used by the organisation
--   DNS lookups for domain names that don't exist and aren't an obvious user typo, indicating malware communicating to a domain that is yet to be registered by adversaries
--   DNS lookups for domain names that resolve to a localhost IP address such as 127.0.0.1, indicating malware that adversaries are not ready to communicate with
--   large amounts of traffic
--   traffic outside of business hours
--   long lived connections.
+- periodic beaconing traffic
+- HTTP/HTTPS sessions with an unusual ratio of outgoing traffic to incoming traffic
+- HTTP/HTTPS traffic with a 'User-Agent' header value that is not associated with legitimate software used by the organisation
+- DNS lookups for domain names that don't exist and aren't an obvious user typo, indicating malware communicating to a domain that is yet to be registered by adversaries
+- DNS lookups for domain names that resolve to a localhost IP address such as 127.0.0.1, indicating malware that adversaries are not ready to communicate with
+- large amounts of traffic
+- traffic outside of business hours
+- long lived connections.
 
 #### Implementation guidance applicable to ransomware
 
@@ -170,10 +166,10 @@ Logs should be analysed by staff who have no other privileges or job roles in or
 
 Perform timely log analysis focusing on:
 
--   use of removable storage media and connected devices especially USB storage devices
--   computer usage outside of business hours
--   data access and printing which is excessive compared to the normal baseline for a user and their peer colleagues
--   data transfers to unapproved cloud computing services including personal webmail, as well as the use of unapproved VPNs from the organisation's network.
+- use of removable storage media and connected devices especially USB storage devices
+- computer usage outside of business hours
+- data access and printing which is excessive compared to the normal baseline for a user and their peer colleagues
+- data transfers to unapproved cloud computing services including personal webmail, as well as the use of unapproved VPNs from the organisation's network.
 
 #### Implementation guidance applicable to incident response
 
@@ -204,5 +200,4 @@ Organisational executives and management can reduce some motivations for employe
 For the relatively small number of organisations where employees have access to highly classified data or other extremely sensitive data, a psychological assessment should be performed by qualified personnel to explore topics including allegiances and beliefs as well as character weaknesses which could be leveraged and manipulated by adversaries. Employees should be encouraged to advise the personnel security team of unusual behaviour exhibited by other employees as well as their own significant life changes such as financial, relationship and health problems.
 
 !!! info
-
     Australian Government [policy on personnel security](https://www.protectivesecurity.gov.au/policies/personnel-security) is available from the Attorney-General's Department.

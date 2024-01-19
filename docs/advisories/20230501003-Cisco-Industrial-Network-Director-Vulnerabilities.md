@@ -10,7 +10,7 @@ Multiple vulnerabilities in Cisco Industrial Network Director (IND) could allow 
 
 [**CVE-2023-20036**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20036) - CVSS v3 Base Score: ***9.9***
 
-- This vulnerability is due to improper input validation when uploading a Device Pack. An attacker could exploit this vulnerability by altering the request that is sent when uploading a Device Pack. A successful exploit could allow the attacker to execute arbitrary commands as NT AUTHORITY\SYSTEM on the underlying operating system of an affected device.
+- This vulnerability is due to improper input validation when uploading a Device Pack. An attacker could exploit this vulnerability by altering the request that is sent when uploading a Device Pack. A successful exploit could allow the attacker to execute arbitrary commands as NT AUTHORITY\\SYSTEM on the underlying operating system of an affected device.
 
 [**CVE-2023-20039**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20039) - CVSS v3 Base Score: ***9.9***
 

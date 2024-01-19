@@ -2,15 +2,13 @@
 
 ## Overview
 
-Juniper have released a security advisory for Junos OS and Junos OS Evolved. 
-
+Juniper have released a security advisory for Junos OS and Junos OS Evolved.
 
 ## What is the vulnerability?
 
 A Missing Release of Memory after Effective Lifetime vulnerability in the Routing Protocol Daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated, network-based attacker to cause a Denial of Service (DoS).
 
 In a Juniper Flow Monitoring (jflow) scenario route churn that causes BGP next hops to be updated will cause a slow memory leak and eventually a crash and restart of rpd.
-
 
 ## What is vulnerable?
 
@@ -27,7 +25,6 @@ Junos OS Evolved:
 - 21.4-EVO versions earlier than 21.4R3-EVO;
 - 22.1-EVO versions earlier than 22.1R3-EVO;
 - 22.2-EVO versions earlier than 22.2R3-EVO;
-
 
 ## Recommendation
 

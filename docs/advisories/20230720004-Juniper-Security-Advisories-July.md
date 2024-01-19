@@ -18,26 +18,42 @@ The vulnerability affects the following Juniper products:
 
 Juniper Networks Junos OS:
 
--   15.1R1 and later versions prior to 20.4R3-S8;
--   21.1 version 21.1R1 and later versions prior to 21.2R3-S6;
--   21.3 versions prior to 21.3R3-S5;
--   21.4 versions prior to 21.4R3-S4;
--   22.1 versions prior to 22.1R3-S4;
--   22.2 versions prior to 22.2R3-S2;
--   22.3 versions prior to 22.3R2-S2, 22.3R3-S1;
--   22.4 versions prior to 22.4R2-S1, 22.4R3;
--   23.1 versions prior to 23.1R1-S1, 23.1R2.\
-Juniper Networks Junos OS Evolved:
+- 15.1R1 and later versions prior to 20.4R3-S8;
 
--   All versions prior to 20.4R3-S8-EVO;
--   21.1 version 21.1R1-EVO and later versions prior to 21.2R3-S6-EVO;
--   21.3 versions prior to 21.3R3-S5-EVO;
--   21.4 versions prior to 21.4R3-S4-EVO;
--   22.1 versions prior to 22.1R3-S4-EVO;
--   22.2 versions prior to 22.2R3-S2-EVO;
--   22.3 versions prior to 22.3R2-S2-EVO, 22.3R3-S1-EVO;
--   22.4 versions prior to 22.4R2-S1-EVO, 22.4R3-EVO;
--   23.1 versions prior to 23.1R1-S1-EVO, 23.1R2-EVO.
+- 21.1 version 21.1R1 and later versions prior to 21.2R3-S6;
+
+- 21.3 versions prior to 21.3R3-S5;
+
+- 21.4 versions prior to 21.4R3-S4;
+
+- 22.1 versions prior to 22.1R3-S4;
+
+- 22.2 versions prior to 22.2R3-S2;
+
+- 22.3 versions prior to 22.3R2-S2, 22.3R3-S1;
+
+- 22.4 versions prior to 22.4R2-S1, 22.4R3;
+
+- 23.1 versions prior to 23.1R1-S1, 23.1R2.\
+    Juniper Networks Junos OS Evolved:
+
+- All versions prior to 20.4R3-S8-EVO;
+
+- 21.1 version 21.1R1-EVO and later versions prior to 21.2R3-S6-EVO;
+
+- 21.3 versions prior to 21.3R3-S5-EVO;
+
+- 21.4 versions prior to 21.4R3-S4-EVO;
+
+- 22.1 versions prior to 22.1R3-S4-EVO;
+
+- 22.2 versions prior to 22.2R3-S2-EVO;
+
+- 22.3 versions prior to 22.3R2-S2-EVO, 22.3R3-S1-EVO;
+
+- 22.4 versions prior to 22.4R2-S1-EVO, 22.4R3-EVO;
+
+- 23.1 versions prior to 23.1R1-S1-EVO, 23.1R2-EVO.
 
 ## What has been observed?
 

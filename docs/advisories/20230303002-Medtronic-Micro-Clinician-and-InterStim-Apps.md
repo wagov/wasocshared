@@ -22,7 +22,7 @@ The vulnerability affects the following versions of Medtronic Clinician Apps:
 The following mitigations have been provided by Medtronic:
 
 - An app update is available as of February 23, 2023 that will fix the vulnerability.
-- Users should refer to the Medtronic [Security Bulletin](https://global.medtronic.com/xg-en/product-security/security-bulletins/pelvic-health-interstim-micro.html) for the correct Medtronic Support contact for help updating the app.  
+- Users should refer to the Medtronic [Security Bulletin](https://global.medtronic.com/xg-en/product-security/security-bulletins/pelvic-health-interstim-micro.html) for the correct Medtronic Support contact for help updating the app.
 
 ## Additional References
 

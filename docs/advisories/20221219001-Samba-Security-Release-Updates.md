@@ -27,7 +27,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-Additionally, **Samba 4.15.13**, **4.16.8** and **4.17.4** have been issued as security releases to correct the defect.  
+Additionally, **Samba 4.15.13**, **4.16.8** and **4.17.4** have been issued as security releases to correct the defect.
 
 Samba administrators are advised to upgrade to these releases or apply the patch as soon as possible.
 

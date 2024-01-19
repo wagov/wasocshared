@@ -1,4 +1,3 @@
-  
 # CISA Releases IOCs Associated with Malicious Barracuda Activity - 20230901003
 
 ## Overview
@@ -10,5 +9,6 @@ This CVE is a remote command injection vulnerability affecting Barracuda Email S
 ## Recommendation
 
 The WA SOC recommends administrators review the CISA article which contains the downloadable STIX, as well as additional relevant and important links:
+
 - <https://www.cisa.gov/news-events/alerts/2023/08/29/cisa-releases-iocs-associated-malicious-barracuda-activity>
 - <https://www.barracuda.com/company/legal/esg-vulnerability>

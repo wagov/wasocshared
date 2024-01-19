@@ -6,7 +6,7 @@ Certitude's researcher Stefan Proksch discovered that Cloudflare's Firewall and 
 
 ## What is vulnerable?
 
-Cloudflare uses the SSL/TLS certificate to authenticate any HTTP(S) requests between the service's reverse proxies and the customer's origin server, preventing unauthorized requests from accessing the website. Attackers can bypass this protection as Cloudflare uses a shared certificate for all customers instead of a tenant-specific one, causing all connections originating from Cloudflare to be permitted. 
+Cloudflare uses the SSL/TLS certificate to authenticate any HTTP(S) requests between the service's reverse proxies and the customer's origin server, preventing unauthorized requests from accessing the website. Attackers can bypass this protection as Cloudflare uses a shared certificate for all customers instead of a tenant-specific one, causing all connections originating from Cloudflare to be permitted.
 
 ## What has been observed?
 
@@ -15,7 +15,6 @@ There is no evidence of exploitation affecting Western Australian Government net
 ## Recommendation
 
 The WA SOC recommends administrators apply the solutions as per the researcher's instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
-
 
 ## Additional References
 

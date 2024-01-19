@@ -1,7 +1,6 @@
 # Increase-in-QR-Code-Phishing-Technique - 20230710003
 
-Overview
---------
+## Overview
 
 The Office of Digital Government (DGov) has observed a number of effective email phishing campaigns that contain QR code images instead of phishing links.
 
@@ -11,20 +10,17 @@ Victims typically then scan the QR code with their mobile device and are taken t
 
 In addition, **there is evidence that the phishing campaigns use** [**Adversary-in-the-Middle (AiTM)**](https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/ "https://www.microsoft.com/en-us/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/") **techniques to bypass multi-factor authentication (MFA)**.
 
-What is the threat?
--------------------
+## What is the threat?
 
--   Accounts may be compromised and used to further distribute phishing emails.
--   Potential loss of confidential data.
+- Accounts may be compromised and used to further distribute phishing emails.
+- Potential loss of confidential data.
 
-What has been observed in Western Australia?
------------------------
+## What has been observed in Western Australia?
 
--   Threat actors use a mix of legitimate and known bad email addresses to send the phishing emails with varying degrees of success to the target's inbox.
--   DGov has observed credentials being leaked from these campaigns.
+- Threat actors use a mix of legitimate and known bad email addresses to send the phishing emails with varying degrees of success to the target's inbox.
+- DGov has observed credentials being leaked from these campaigns.
 
-Recommendations
-------------------------------------
+## Recommendations
 
 While avoiding QR code scans may be impractical, taking certain [proactive measures](https://cisomag.com/think-before-you-scan-malicious-qr-codes-in-the-wild/ "https://cisomag.com/think-before-you-scan-malicious-qr-codes-in-the-wild/") may help mitigate the risks associated with QR code technology.
 
@@ -38,8 +34,7 @@ While avoiding QR code scans may be impractical, taking certain [proactive measu
 - Ensure the QR is original and not pasted over with another one.
 - Use QR scanner software to view the URL before clicking on it.
 
-References
-----------
+## References
 
 - [**QR Codes: A Growing Vulnerability to Cybercrimes - Infosecurity Magazine**](https://www.infosecurity-magazine.com/opinions/qr-codes-vulnerability-cybercrimes/#:~:text=QR%20Code%20Fraud%20is%20Rampant&text=In%20fact%2C%20many%20don%27t,information%20and%20inserts%20digital%20infections. "https://www.infosecurity-magazine.com/opinions/qr-codes-vulnerability-cybercrimes/#:~:text=qr%20code%20fraud%20is%20rampant&text=in%20fact%2c%20many%20don%27t,information%20and%20inserts%20digital%20infections.")
 - [**Understanding QR code security issues for enterprise devices - TechTarget**](https://www.techtarget.com/searchmobilecomputing/tip/Understanding-QR-code-security-issues-for-enterprise-devices)

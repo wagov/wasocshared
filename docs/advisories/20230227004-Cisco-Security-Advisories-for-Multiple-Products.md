@@ -2,7 +2,7 @@
 
 ## Overview
 
-Cisco has released security advisories for vulnerabilities affecting multiple Cisco products.  
+Cisco has released security advisories for vulnerabilities affecting multiple Cisco products.
 
 ## What is the vulnerability?
 
@@ -29,10 +29,12 @@ The vulnerability affects the following products:
 For updates addressing lower severity vulnerabilities, see the [Cisco Security Advisories](https://tools.cisco.com/security/center/publicationListing.x) page.
 
 - **ClamAV HFS+ Partition Scanning Buffer Overflow Vulnerability Affecting Cisco Products**
+
 - For information about [fixed software releases](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes), consult the Cisco bugs identified in the [Vulnerable Products](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-q8DThCy#vp) section of this advisory.
-When [considering software upgrades](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes), customers are advised to regularly consult the advisories for Cisco products, which are available from the [Cisco Security Advisories](https://www.cisco.com/go/psirt) page, to determine exposure and a complete upgrade solution.
+    When [considering software upgrades](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes), customers are advised to regularly consult the advisories for Cisco products, which are available from the [Cisco Security Advisories](https://www.cisco.com/go/psirt) page, to determine exposure and a complete upgrade solution.
 
 - **Cisco Nexus 9000 Series Fabric Switches in ACI Mode**
+
 - For help determining the best Cisco NX-OS Software release for a Cisco Nexus Switch, see the following Recommended Releases documents. If a security advisory recommends a later release, Cisco recommends following the advisory guidance.To determine the best release for Cisco UCS Software, see the Recommended Releases documents in the release notes for the device.
 
 ## Additional References

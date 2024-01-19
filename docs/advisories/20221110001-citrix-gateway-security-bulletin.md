@@ -10,11 +10,11 @@ Appliances that have enabled SSL VPN functionaility or are using ICA Proxy servi
 
 ## What is the vulnerability ?
 
-| CVE | Description | CVSSv3 |
-| --- | --- | --- |
-| CVE-2022-27510 | Citrix ADC and Gateway Authentication Bypass Vulnerability | 9.8 |
-| CVE-2022-27513 | Citrix ADC and Gateway Insufficient Verification of Data Authenticity Vulnerability | 8.3 |
-| CVE-2022-27516 | Citrix ADC and Gateway Protection Mechanism Failure Vulnerability | 5.3 |
+| CVE            | Description                                                                         | CVSSv3 |
+| -------------- | ----------------------------------------------------------------------------------- | ------ |
+| CVE-2022-27510 | Citrix ADC and Gateway Authentication Bypass Vulnerability                          | 9.8    |
+| CVE-2022-27513 | Citrix ADC and Gateway Insufficient Verification of Data Authenticity Vulnerability | 8.3    |
+| CVE-2022-27516 | Citrix ADC and Gateway Protection Mechanism Failure Vulnerability                   | 5.3    |
 
 ## What has been observed ?
 
@@ -25,9 +25,9 @@ No active exploitation has been observed in the WA sector, however internet expo
 Affected customers of Citrix ADC and Citrix Gateway are recommended to install the relevant updated versions of Citrix ADC or Citrix Gateway as soon as possible:
 
 - Citrix ADC and Citrix Gateway 13.1-33.47 and later releases
-- Citrix ADC and Citrix Gateway 13.0-88.12 and later releases of 13.0  
-- Citrix ADC and Citrix Gateway 12.1-65.21 and later releases of 12.1  
-- Citrix ADC 12.1-FIPS 12.1-55.289 and later releases of 12.1-FIPS  
+- Citrix ADC and Citrix Gateway 13.0-88.12 and later releases of 13.0
+- Citrix ADC and Citrix Gateway 12.1-65.21 and later releases of 12.1
+- Citrix ADC 12.1-FIPS 12.1-55.289 and later releases of 12.1-FIPS
 - Citrix ADC 12.1-NDcPP 12.1-55.289 and later releases of 12.1-NDcPP
 
 **Please note** that Citrix ADC and Citrix Gateway versions prior to 12.1 are EOL and customers on those versions are recommended to upgrade to one of the supported versions.

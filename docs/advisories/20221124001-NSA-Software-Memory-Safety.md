@@ -20,14 +20,14 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-* **Memory safe languages** can help prevent programmers from introducing certain types of memory-related issues. Memory is managed automatically as part of the computer language; it does not rely on the programmer adding code to implement memory protections.
+- **Memory safe languages** can help prevent programmers from introducing certain types of memory-related issues. Memory is managed automatically as part of the computer language; it does not rely on the programmer adding code to implement memory protections.
 
-* **Application Security Testing** Several mechanisms can be used to harden non-memory safe languages to make them more memory safe. Analyzing the software using **static and dynamic application security testing (SAST and DAST)** can identify memory use issues in software.
+- **Application Security Testing** Several mechanisms can be used to harden non-memory safe languages to make them more memory safe. Analyzing the software using **static and dynamic application security testing (SAST and DAST)** can identify memory use issues in software.
 
-* **Anti-exploitation features** such as the compilation and execution environment can be used to make it more difficult for cyber actors to exploit memory management issues. Most of these added features focus on limiting where code can be executed in memory and making memory layout unpredictable.
+- **Anti-exploitation features** such as the compilation and execution environment can be used to make it more difficult for cyber actors to exploit memory management issues. Most of these added features focus on limiting where code can be executed in memory and making memory layout unpredictable.
 
-* **NSA advises** organizations to consider making a strategic shift from programming languages that provide little or no inherent memory protection to a memory safe language when possible.
+- **NSA advises** organizations to consider making a strategic shift from programming languages that provide little or no inherent memory protection to a memory safe language when possible.
 
 ### Reference
 
-* The National Security Agency (NSA) Cybersecurity Information Sheet [https://media.defense.gov/2022/Nov/10/2003112742/-1/-1/0/CSI_SOFTWARE_MEMORY_SAFETY.PDF](https://media.defense.gov/2022/Nov/10/2003112742/-1/-1/0/CSI_SOFTWARE_MEMORY_SAFETY.PDF)
+- The National Security Agency (NSA) Cybersecurity Information Sheet [https://media.defense.gov/2022/Nov/10/2003112742/-1/-1/0/CSI_SOFTWARE_MEMORY_SAFETY.PDF](https://media.defense.gov/2022/Nov/10/2003112742/-1/-1/0/CSI_SOFTWARE_MEMORY_SAFETY.PDF)
