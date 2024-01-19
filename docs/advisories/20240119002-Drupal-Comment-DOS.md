@@ -17,7 +17,6 @@ The following products and versions are affected:
 - Drupal 8.0 to 10.1.7 (inclusive)
 - Drupal 10.2 to 10.2.1 (inclusive)
 
-
 ## What has been observed?
 
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
