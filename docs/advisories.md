@@ -1,4 +1,4 @@
-{{ date_index("docs/advisories/\*.md", prefix="advisories/") }}
+{{ date_index("docs/advisories", prefix="advisories/") }}
 
 ### Key Sources
 

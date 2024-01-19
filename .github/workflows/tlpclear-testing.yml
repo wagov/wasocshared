@@ -7,8 +7,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
+      # Sets permissions of the GITHUB_TOKEN to allow updating markdown format
       contents: write
     steps:
       - name: Checkout

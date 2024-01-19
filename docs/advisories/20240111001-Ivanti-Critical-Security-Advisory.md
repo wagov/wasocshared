@@ -10,9 +10,9 @@ If CVE-2024-21887 is used in conjunction with CVE-2023-46805, exploitation does 
 
 The following vulnerabilities impact **all supported versions of Ivanti Connect Secure and Ivanti Policy Secure gateways**.
 
-| CVE                                                                   | Severity     | CVSS | Summary                                                                                                                                                                                                                              |
-| --------------------------------------------------------------------- | ------------ | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [CVE-2023-46805](https://www.cve.org/CVERecord?id=CVE-2023-46805)     | **High**     | 8.2  | An authentication bypass vulnerability in the web component allows a remote attacker to access restricted resources by bypassing control checks.                                                                                     |
+| CVE                                                               | Severity     | CVSS | Summary                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------- | ------------ | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [CVE-2023-46805](https://www.cve.org/CVERecord?id=CVE-2023-46805) | **High**     | 8.2  | An authentication bypass vulnerability in the web component allows a remote attacker to access restricted resources by bypassing control checks.                                                                                     |
 | [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) | **Critical** | 9.1  | A command injection vulnerability in web components allows an authenticated administrator to send specially crafted requests and execute arbitrary commands on the appliance. This vulnerability can be exploited over the internet. |
 
 ## What has been observed?

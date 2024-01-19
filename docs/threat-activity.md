@@ -1,6 +1,6 @@
 ## Recent Advisories
 
-{{ date_index("docs/advisories/\*.md", prefix="advisories/", expand=1, include=2) }}
+{{ date_index("docs/advisories", prefix="advisories/", expand=1, include=2) }}
 
 ## WA SOC - Recent Threat Activity (December 2023)
 
