@@ -3,10 +3,6 @@ name: Test building TLP:CLEAR content
 
 on: [push, pull_request, workflow_dispatch]
 
-permissions:
-  # Sets permissions of the GITHUB_TOKEN to allow updating markdown format
-  contents: write
-
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -15,7 +11,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: ${{ github.head_ref }}
       - uses: actions/setup-python@v4
         with:
           python-version: 3.11
@@ -25,9 +20,3 @@ jobs:
         run: mdformat .
       - name: build site
         run:  python -m mkdocs build --strict
-      - name: Commit and push changes
-        run: |
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'actions@github.com'
-          git diff --quiet && git diff --staged --quiet || (git add . && git commit -m 'Format markdown files')
-          git push origin ${{ github.head_ref }}
