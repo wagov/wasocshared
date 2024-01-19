@@ -11,7 +11,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -37,8 +37,16 @@ jobs:
           python-version: 3.11
       - name: install mkdocs
         run: pip install -r requirements.txt
+      - name: run mdformat
+        run: mdformat .
       - name: build site
-        run:  python -m mkdocs build
+        run:  python -m mkdocs build --strict
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git diff --quiet && git diff --staged --quiet || (git add . && git commit -m 'Format markdown files')
+          git push origin ${{ github.head_ref }}
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
