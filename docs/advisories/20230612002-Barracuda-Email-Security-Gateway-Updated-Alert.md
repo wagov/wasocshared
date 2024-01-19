@@ -2,7 +2,7 @@
 
 ## Overview
 
-Barracuda have added an action notice to their ESG advisory. This notice instructs customers to replace ESG appliances immediately regardless of patch versions. 
+Barracuda have added an action notice to their ESG advisory. This notice instructs customers to replace ESG appliances immediately regardless of patch versions.
 
 ## What is the vulnerability?
 
@@ -20,4 +20,4 @@ An update to [**Barracuda's ESG Vulnerability Advisory**](https://www.barracuda.
 
 ## Recommendation
 
-Barracuda’s remediation recommendation at this time is full replacement of the impacted ESG. 
+Barracuda’s remediation recommendation at this time is full replacement of the impacted ESG.

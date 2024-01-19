@@ -8,15 +8,15 @@ Apple has released security updates to address vulnerabilities in multiple produ
 
 The vulnerability affects devices running ***versions below*** the following:
 
-* tvOS 16.3
-* Safari 16.3
-* iOS 12.5.7
-* macOS Monterey 12.6.3
-* macOS Big Sur 11.7.3
-* watchOS 9.3
-* iOS 15.7.3 and iPadOS 15.7.3
-* iOS 16.3 and iPadOS 16.3
-* macOS Ventura 13.2
+- tvOS 16.3
+- Safari 16.3
+- iOS 12.5.7
+- macOS Monterey 12.6.3
+- macOS Big Sur 11.7.3
+- watchOS 9.3
+- iOS 15.7.3 and iPadOS 15.7.3
+- iOS 16.3 and iPadOS 16.3
+- macOS Ventura 13.2
 
 ## Recommendation
 

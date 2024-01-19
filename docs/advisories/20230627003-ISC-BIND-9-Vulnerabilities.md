@@ -15,11 +15,13 @@ The Internet Systems Consortium (ISC) has released security advisories that addr
 The vulnerability affects the following products:
 
 BIND
+
 - 9.11.0 -> 9.16.41
 - 9.18.0 -> 9.18.15
 - 9.19.0 -> 9.19.13
 
 BIND Supported Preview Edition
+
 - 9.11.3-S1 -> 9.16.41-S1
 - 9.18.11-S1 -> 9.18.15-S1
 

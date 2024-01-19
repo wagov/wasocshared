@@ -26,4 +26,4 @@ The WA SOC recommends administrators apply the latest released patches as per ve
 ## Additional References
 
 - Rapid7 Article - [https://www.rapid7.com/blog/post/2023/02/03/exploitation-of-goanywhere-mft-zero-day-vulnerability/](https://www.rapid7.com/blog/post/2023/02/03/exploitation-of-goanywhere-mft-zero-day-vulnerability/)
-- Forta (formerly HelpSystems) GoAnywhere MFT Release Notes - [https://hstechdocs.helpsystems.com/releasenotes/Content/_ProductPages/GoAnywhere/GAMFT.htm](https://hstechdocs.helpsystems.com/releasenotes/Content/_ProductPages/GoAnywhere/GAMFT.htm)
+- Forta (formerly HelpSystems) GoAnywhere MFT Release Notes - [https://hstechdocs.helpsystems.com/releasenotes/Content/\_ProductPages/GoAnywhere/GAMFT.htm](https://hstechdocs.helpsystems.com/releasenotes/Content/_ProductPages/GoAnywhere/GAMFT.htm)

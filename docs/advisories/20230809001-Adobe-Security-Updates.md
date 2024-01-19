@@ -12,7 +12,7 @@ There is a number of vulnerabilities for each product. Please review each produc
 
 - [Security update available for Adobe Acrobat and Reader  | APSB23-30](https://helpx.adobe.com/security/products/acrobat/apsb23-30.html)
 - [Security update available for Adobe Commerce | APSB23-42
-](https://helpx.adobe.com/security/products/magento/apsb23-42.html)
+    ](https://helpx.adobe.com/security/products/magento/apsb23-42.html)
 - [Security updates available for Dimension | APSB23-44](https://helpx.adobe.com/security/products/dimension/apsb23-44.html)
 - [Security updates Available for Adobe XMP Toolkit SDK | APSB23-45](https://helpx.adobe.com/security/products/xmpcore/apsb23-45.html)
 
@@ -37,6 +37,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - [Security update available for Adobe Acrobat and Reader  | APSB23-30](https://helpx.adobe.com/security/products/acrobat/apsb23-30.html)
 - [Security update available for Adobe Commerce | APSB23-42
-](https://helpx.adobe.com/security/products/magento/apsb23-42.html)
+    ](https://helpx.adobe.com/security/products/magento/apsb23-42.html)
 - [Security updates available for Dimension | APSB23-44](https://helpx.adobe.com/security/products/dimension/apsb23-44.html)
 - [Security Updates Available for Adobe XMP Toolkit SDK | APSB23-45](https://helpx.adobe.com/security/products/xmpcore/apsb23-45.html)

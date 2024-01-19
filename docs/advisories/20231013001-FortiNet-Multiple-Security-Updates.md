@@ -8,7 +8,7 @@ Fortinet has released security updates to address vulnerabilities affecting Fort
 
 - [**CVE-2023-42791**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42791) - CVSS v3 Base Score: ***8.6***: A relative path traversal [CWE-23](https://cwe.mitre.org/data/definitions/23.html) vulnerability in FortiManager and FortiAnalyzer may allow a remote attacker with low privileges to execute unauthorized code via crafted HTTP requests.
 
-- [**CVE-2023-41679**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-41679) - CVSS v3 Base Score: ***7.7***: An improper access control vulnerability [CWE-284](https://cwe.mitre.org/data/definitions/284.html) in FortiManager management interface may allow a remote and authenticated attacker with at least "device management" permission on his profile and belonging to a specific ADOM to add and delete CLI script on other ADOMs  
+- [**CVE-2023-41679**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-41679) - CVSS v3 Base Score: ***7.7***: An improper access control vulnerability [CWE-284](https://cwe.mitre.org/data/definitions/284.html) in FortiManager management interface may allow a remote and authenticated attacker with at least "device management" permission on his profile and belonging to a specific ADOM to add and delete CLI script on other ADOMs
 
 - [**CVE-2023-42788**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42788) - CVSS v3 Base Score: ***7.6***: An improper neutralization of special elements used in an os command ('OS Command Injection') vulnerability [CWE-78](https://cwe.mitre.org/data/definitions/78.html) in FortiManager & FortiAnalyzer may allow a local attacker with low privileges to execute unauthorized code via specifically crafted arguments to a CLI command.
 

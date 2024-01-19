@@ -12,7 +12,6 @@ Examples of some of the devices that can use these interfaces are proxies, firew
 
 - HTTP, HTTPS, FTP, SNMP, Telnet, TFTP, RDP, rlogin, RSH, SSH, SMB, VNC, X11
 
-
 ## Recommendation
 
 The WA SOC requests WA agencies undertake the following recommendations to address these concerns:

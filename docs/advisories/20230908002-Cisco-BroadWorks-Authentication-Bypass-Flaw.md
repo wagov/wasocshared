@@ -4,7 +4,6 @@
 
 The WA SOC has observed a critical vulnerability in the single sign-on (SSO) implementation of Cisco BroadWorks Application Delivery Platform and Cisco BroadWorks Xtended Services Platform, a cloud communication services platform allowing an unauthenticated remote attacker to forge the credentials required to bypass an affected system.
 
-
 ## What is the vulnerability?
 
 [**CVE-2023-20238**](https://nvd.nist.gov/vuln/detail/CVE-2023-20238) - CVSS v3 Base Score: ***10.0***
@@ -13,18 +12,18 @@ The WA SOC has observed a critical vulnerability in the single sign-on (SSO) imp
 
 The vulnerability affects the Cisco Application Delivery Platform and BroadWorks Xtended Services Platform release having one of the following applications enabled;
 
--   AuthenticationService
--   BWCallCenter
--   BWReceptionist
--   CustomMediaFilesRetrieval
--   ModeratorClientApp
--   PublicECLQuery
--   PublicReporting
--   UCAPI
--   Xsi-Actions
--   Xsi-Events
--   Xsi-MMTel
--   Xsi-VTR
+- AuthenticationService
+- BWCallCenter
+- BWReceptionist
+- CustomMediaFilesRetrieval
+- ModeratorClientApp
+- PublicECLQuery
+- PublicReporting
+- UCAPI
+- Xsi-Actions
+- Xsi-Events
+- Xsi-MMTel
+- Xsi-VTR
 
 ## What has been observed?
 

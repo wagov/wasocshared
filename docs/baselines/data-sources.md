@@ -13,20 +13,20 @@ For service providers see [Supply Chain Risk Management](../guidelines/supply-ch
 Below are the highest priority MITRE Data Sources to ensure telemetry and analytics are available for:
 
 1. [DS0002 User Account](https://attack.mitre.org/datasources/DS0002/) - A profile representing a user, device, service, or application used to authenticate and access resources
-2. [DS0025 Cloud Service](https://attack.mitre.org/datasources/DS0025/) - Infrastructure, platforms, or software that are hosted on-premise or by third-party providers, made available to users through network connections and/or APIs
-3. [DS0009 Process](https://attack.mitre.org/datasources/DS0009/) - Instances of computer programs that are being executed by at least one thread. Processes have memory space for process executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures
-4. [DS0017 Command](https://attack.mitre.org/datasources/DS0017/) - A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task
-5. [DS0022 File](https://attack.mitre.org/datasources/DS0022/) - A computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).
-6. [DS0029 Network Traffic](https://attack.mitre.org/datasources/DS0029/) - Data transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP)
-7. [DS0015 Application Log](https://attack.mitre.org/datasources/DS0015/) - Events collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)
+1. [DS0025 Cloud Service](https://attack.mitre.org/datasources/DS0025/) - Infrastructure, platforms, or software that are hosted on-premise or by third-party providers, made available to users through network connections and/or APIs
+1. [DS0009 Process](https://attack.mitre.org/datasources/DS0009/) - Instances of computer programs that are being executed by at least one thread. Processes have memory space for process executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures
+1. [DS0017 Command](https://attack.mitre.org/datasources/DS0017/) - A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task
+1. [DS0022 File](https://attack.mitre.org/datasources/DS0022/) - A computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).
+1. [DS0029 Network Traffic](https://attack.mitre.org/datasources/DS0029/) - Data transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP)
+1. [DS0015 Application Log](https://attack.mitre.org/datasources/DS0015/) - Events collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)
 
 ### 2.1 Telemetry Sensors
 
 Based on these data sources telemetry sensor deployment can be prioritised as follows:
 
 1. [Endpoints and Servers via XDR platforms](#22-xdr-detection-and-response-platforms)
-2. [Network via network analytics platforms](https://soc.cyber.wa.gov.au/guidelines/network-management/#adverse-event-analysis-and-asset-inventory)
-3. [Public / Private cloud via API or native platforms](../guidelines/secure-configuration.md)
+1. [Network via network analytics platforms](https://soc.cyber.wa.gov.au/guidelines/network-management/#adverse-event-analysis-and-asset-inventory)
+1. [Public / Private cloud via API or native platforms](../guidelines/secure-configuration.md)
 
 ### 2.2 XDR (Detection and Response) platforms
 
@@ -100,7 +100,6 @@ The security tools collecting telemetry should be capable of running both built-
 ### 5.1 Microsoft Sentinel Detection Pack
 
 !!! note "Under Review"
-
     The below detection pack is currently being converted into an external content repository to enable better change management with git.
 
 The WA SOC has curated a pack of over 100 [analytics rules](https://learn.microsoft.com/en-us/azure/sentinel/detect-threats-built-in) from [the unified Microsoft Sentinel and Microsoft 365 Defender repository](https://github.com/Azure/Azure-Sentinel) for rapid deployment (last updated Feb 2023):
@@ -119,11 +118,9 @@ Example [code is available](https://github.com/wagov/python-squ/blob/main/exampl
 #### 5.1.1 Deployment Walkthrough and FAQ
 
 !!! info "Deployment Walkthrough Video"
-  
     <video src='https://github.com/wagov/wasocshared/releases/download/2023-June/Detection.and.Automation.Pack.Deployment.Demonstration.mp4' width=1080 controls/>
 
 ??? info "Deployment FAQ"
-
     - **What is the least privilege access role required to deploy a template?**
         - [Template Spec Contributor](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#template-spec-contributor) (otherwise Contributor for the overall resource group, or higher will work, too).
     - **Can the Analytics Rules/Automation Rules be edited?**
@@ -138,11 +135,9 @@ Example [code is available](https://github.com/wagov/python-squ/blob/main/exampl
 ### 5.2 Microsoft Sentinel Automation Pack
 
 !!! note "Under Review"
-
     The below automation pack is currently being converted into an external content repository to enable better change management with git.
 
 !!! note "WASOC Automation Rules"
-
     The following package is designed to automatically add task lists to the incidents generated by their paired WASOC Sentinel analytic rules in the Detection Pack. These task lists are intended as a baseline for generalised investigation and remediation steps commonly undertaken for each kind of associated incident:
 
     [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwagov%2FWASOCAutomationPlaybook%2Fmain%2FCollatedDeployment.json)
@@ -156,32 +151,32 @@ The following listed queries help identify missing telemetry for endpoints in Mi
 
 ![image](../images/MitreAttackTTPChart.png)
 
-### 6.1 Process Creation  
+### 6.1 Process Creation
 
 The following are common log sources for Process Creation events and relating kql queries to identify number of endpoints providing these observables.
 
-| Log source  |    KQL    |
-|-------------|-----------|
-| Audit Policy (SecurityEvent) | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| summarize count_distinct(Computer) |
-| Sysmon (Event) | Event \| where TimeGenerated > ago(7d) \| where Source == "Microsoft-Windows-Sysmon" \| where EventID == 1 \| summarize count_distinct(Computer) |
-| Defender (DeviceProcessEvents) | DeviceProcessEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName) |
-| AzureAD (VMProcess) | VMProcess \| where TimeGenerated > ago(7d) \| where isnotempty(ExecutableName) \| summarize count_distinct(Computer) |
+| Log source                     | KQL                                                                                                                                              |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Audit Policy (SecurityEvent)   | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| summarize count_distinct(Computer)                                    |
+| Sysmon (Event)                 | Event \| where TimeGenerated > ago(7d) \| where Source == "Microsoft-Windows-Sysmon" \| where EventID == 1 \| summarize count_distinct(Computer) |
+| Defender (DeviceProcessEvents) | DeviceProcessEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                     |
+| AzureAD (VMProcess)            | VMProcess \| where TimeGenerated > ago(7d) \| where isnotempty(ExecutableName) \| summarize count_distinct(Computer)                             |
 
 ### 6.2 Process Command Line
 
 The following kql queries will provide number of endpoints with [Command Line logging enabled](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/command-line-process-auditing).
 
-| Log type   |   KQL    |
-|---------|-----------|
-| Audit Policy (SecurityEvent) | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| where isnotempty(CommandLine) \| summarize count_distinct(Computer) |
-| AzureAD: VMProcess | VMProcess \| where TimeGenerated > ago(7d) \| where isnotempty(CommandLine) \|summarize count_distinct(Computer) |  
-| DeviceProcessEvents | DeviceProcessEvents \| where TimeGenerated > ago(7d) \| where isnotempty(InitiatingProcessCommandLine) or isnotempty(ProcessCommandLine) \| summarize count_distinct(DeviceName) |
+| Log type                     | KQL                                                                                                                                                                              |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Audit Policy (SecurityEvent) | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| where isnotempty(CommandLine) \| summarize count_distinct(Computer)                                   |
+| AzureAD: VMProcess           | VMProcess \| where TimeGenerated > ago(7d) \| where isnotempty(CommandLine) \|summarize count_distinct(Computer)                                                                 |
+| DeviceProcessEvents          | DeviceProcessEvents \| where TimeGenerated > ago(7d) \| where isnotempty(InitiatingProcessCommandLine) or isnotempty(ProcessCommandLine) \| summarize count_distinct(DeviceName) |
 
-### 6.3 Parent Process  
+### 6.3 Parent Process
 
-| Log type   |   KQL    |
-|------------|----------|
-| Audit Policy (SecurityEvent) | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| where isnotempty(ParentProcessName) \| summarize count_distinct(Computer) |  
+| Log type                     | KQL                                                                                                                                                  |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Audit Policy (SecurityEvent) | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4688 \| where isnotempty(ParentProcessName) \| summarize count_distinct(Computer) |
 
 ### 6.4 Microsoft Defender Device Logs
 
@@ -189,41 +184,41 @@ The following kql queries will provide number of endpoints with [Command Line lo
 
 #### Techniques: [Microsoft Defender for Endpoint | Microsoft Security](https://www.microsoft.com/en-au/security/business/endpoint-security/microsoft-defender-endpoint?rtc=1)
 
-| Log type        | KQL         |
-|-----------------------|-------------|
-|Process creation and related events  | DeviceProcessEvents   \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
-|Network connection and related events | DeviceNetworkEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
-|Parent Process  | DeviceProcessEvents   \| where TimeGenerated > ago(7d) \| where isnotempty(InitiatingProcessParentFileName)   \| summarize count_distinct(DeviceName)|  
-|Named Pipes | DeviceEvents \|   where ActionType == "NamedPipeEvent" \| where TimeGenerated >  ago(7d) \| summarize count_distinct(DeviceName)|  
-|File creation, modification, and other file system events| DeviceFileEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
-|Creation and modification of registry entries |  DeviceRegistryEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
-|DLL loading events |  DeviceImageLoadEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)|  
+| Log type                                                  | KQL                                                                                                                                                   |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Process creation and related events                       | DeviceProcessEvents   \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                        |
+| Network connection and related events                     | DeviceNetworkEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                          |
+| Parent Process                                            | DeviceProcessEvents   \| where TimeGenerated > ago(7d) \| where isnotempty(InitiatingProcessParentFileName)   \| summarize count_distinct(DeviceName) |
+| Named Pipes                                               | DeviceEvents \|   where ActionType == "NamedPipeEvent" \| where TimeGenerated >  ago(7d) \| summarize count_distinct(DeviceName)                      |
+| File creation, modification, and other file system events | DeviceFileEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                             |
+| Creation and modification of registry entries             | DeviceRegistryEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                         |
+| DLL loading events                                        | DeviceImageLoadEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                        |
 
 ### 6.5 Microsoft Defender Office 365 Logs Monitoring
 
 [Connect Microsoft 365 Defender to Micrososft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDO)
 
-| Log type                   | KQL                                                                                             |
-|----------------------------|-------------------------------------------------------------------------------------------------|
-| Email Events               | EmailEvents \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)             |
-| Email Attachment Info      | EmailAttachmentInfo \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)     |
-| Email Url Info             | EmailUrlInfo \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated)           |
-| Email Post Delivery Events | EmailPostDeliveryEvents \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated)|
+| Log type                   | KQL                                                                                              |
+| -------------------------- | ------------------------------------------------------------------------------------------------ |
+| Email Events               | EmailEvents \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)              |
+| Email Attachment Info      | EmailAttachmentInfo \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)      |
+| Email Url Info             | EmailUrlInfo \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated)            |
+| Email Post Delivery Events | EmailPostDeliveryEvents \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated) |
 
 ### 6.6 Important activities
 
 The table presented below provides a comprehensive list of significant Event IDs that can potentially signify noteworthy activities associated with malicious actions.
 
-| Type                  | KQL                              |
-|-----------------------|----------------------------------|
-| Local Authentication           | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4624 \| summarize count_distinct(Computer)|
-| DC Authentication              | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4776 \| summarize count_distinct(Computer)|
-| Group Enumeration              | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4799 \| summarize count_distinct(Computer)|
-| Kerberos                       | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4769 \| summarize count_distinct(Computer)|
-| Certificate Usage (Kerb)       | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4768 \| summarize count_distinct(Computer)|
-| Replication                    | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4662 \| summarize count_distinct(Computer)|
-| New Scheduled Task             | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4698 \| summarize count_distinct(Computer)|
-| Powershell Execution           | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4104 \| summarize count_distinct(Computer)|
-| Registry Value Modification    | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4657 \| summarize count_distinct(Computer)|
-| RunAs                          | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4648 \| summarize count_distinct(Computer)|
-| Windows Firewall Rule Deletion | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4948 \| summarize count_distinct(Computer)|
+| Type                           | KQL                                                                                                           |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| Local Authentication           | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4624 \| summarize count_distinct(Computer) |
+| DC Authentication              | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4776 \| summarize count_distinct(Computer) |
+| Group Enumeration              | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4799 \| summarize count_distinct(Computer) |
+| Kerberos                       | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4769 \| summarize count_distinct(Computer) |
+| Certificate Usage (Kerb)       | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4768 \| summarize count_distinct(Computer) |
+| Replication                    | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4662 \| summarize count_distinct(Computer) |
+| New Scheduled Task             | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4698 \| summarize count_distinct(Computer) |
+| Powershell Execution           | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4104 \| summarize count_distinct(Computer) |
+| Registry Value Modification    | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4657 \| summarize count_distinct(Computer) |
+| RunAs                          | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4648 \| summarize count_distinct(Computer) |
+| Windows Firewall Rule Deletion | SecurityEvent \| where TimeGenerated > ago(7d) \| where EventID == 4948 \| summarize count_distinct(Computer) |

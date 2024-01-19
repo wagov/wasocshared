@@ -30,16 +30,16 @@ The vulnerability affects all AMD Zen2 Processors:
 
 The WA SOC recommends administrators pay close attention to latest available updates on their hardware using Zen2 processors and ensure patches are applied as soon as they become available. A patch for EPYC 7002 is available now. Other patches are forecast to be available over the next few months:
 
-| CPU | Estimate Patch Date | 
-|---- |----------------|
-| Ryzen 3000 (desktop) | December 2023 |
-| Ryzen 4000G (desktop) | December 2023 | 
-| Ryzen 4000 (laptop) | December 2023 |
-| Ryzen 5700U/5500U/5300U (laptop) | December 2023 | 
-| Ryzen 7020 (laptop) | December 2023 |
-| Ryzen Threadripper 3000 | October 2023 | 
-| Ryzen Threadripper Pro 3000WX | November/December 2023 |
-| EPYC 7002 | Patch available | 
+| CPU                              | Estimate Patch Date    |
+| -------------------------------- | ---------------------- |
+| Ryzen 3000 (desktop)             | December 2023          |
+| Ryzen 4000G (desktop)            | December 2023          |
+| Ryzen 4000 (laptop)              | December 2023          |
+| Ryzen 5700U/5500U/5300U (laptop) | December 2023          |
+| Ryzen 7020 (laptop)              | December 2023          |
+| Ryzen Threadripper 3000          | October 2023           |
+| Ryzen Threadripper Pro 3000WX    | November/December 2023 |
+| EPYC 7002                        | Patch available        |
 
 ## Additional References
 

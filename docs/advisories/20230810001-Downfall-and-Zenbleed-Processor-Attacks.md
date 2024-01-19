@@ -18,7 +18,6 @@ An issue in *Zen 2* CPUs, under specific microarchitectural circumstances, may a
 
 The [vulnerability](https://downfall.page/) is caused by memory optimization features in Intel processors that unintentionally reveal internal hardware registers to software. This allows untrusted software to access data stored by other programs, which should not normally be accessible.
 
-
 ## What is vulnerable?
 
 ### AMD
@@ -32,7 +31,6 @@ Intel Core processors from the 6th Skylake to (including) the 11th Tiger Lake ge
 ## Recommendation
 
 The WA SOC recommends administrators pay close attention to latest available updates on their hardware using AMD or Intel processors and reach out to their vendors, IT staff and Managed Service Providers (MSP) to ensure they are mitigating risks. Risks from unchecked MSPs are of particular concern due to [recent history](https://www.cyber.gov.au/sites/default/files/2023-03/msp_investigation_report.pdf) of compromises.
-
 
 ## Additional References
 

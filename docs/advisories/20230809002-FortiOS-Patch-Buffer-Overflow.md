@@ -8,7 +8,6 @@ Fortinet has released security updates for FortiOS to address a buffer overflow 
 
 [**CVE-2023-29182**](https://www.fortiguard.com/psirt/FG-IR-23-149) - CVSS v3 Base Score: ***6.4***
 
-
 ## What is vulnerable?
 
 The vulnerability affects the following products:

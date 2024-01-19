@@ -4,7 +4,6 @@
 
 ownCloud has released security advisories and patches for 3 critical vulnerabilities in the platform and its apps.
 
-
 ## What is the vulnerability?
 
 - [**CVE-2023-49103**](https://nvd.nist.gov/vuln/detail/CVE-2023-49103) - CVSS v3 Base Score: ***10***
@@ -16,7 +15,7 @@ ownCloud has released security advisories and patches for 3 critical vulnerabili
 The vulnerability affects the following products:
 
 - [**graphapi v0.2.0 -- v0.3.0**](https://owncloud.com/security-advisories/disclosure-of-sensitive-credentials-and-configuration-in-containerized-deployments)
-- [**oauth2 < v0.6.1**](https://owncloud.com/security-advisories/subdomain-validation-bypass)
+- [**oauth2 \< v0.6.1**](https://owncloud.com/security-advisories/subdomain-validation-bypass)
 - [**Core v10.6.0 -- v10.13.1**](https://owncloud.com/security-advisories/webdav-api-authentication-bypass-using-pre-signed-urls)
 
 ## What has been observed?

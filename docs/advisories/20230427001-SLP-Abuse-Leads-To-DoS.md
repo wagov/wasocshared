@@ -22,6 +22,6 @@ The WA SOC recommends administrators should consider disabling or restricting ne
 
 ## Additional References
 
-* [**CISA - Advisory**](https://www.cisa.gov/news-events/alerts/2023/04/25/abuse-service-location-protocol-may-lead-dos-attacks)
-* [**CISA - Understanding and Responding to DDoS Attacks**](https://www.cisa.gov/sites/default/files/publications/understanding-and-responding-to-ddos-attacks_508c.pdf)
-* [**VMware Response to CVE-2023-29552**](https://blogs.vmware.com/security/2023/04/vmware-response-to-cve-2023-29552-reflective-denial-of-service-dos-amplification-vulnerability-in-slp.html)
+- [**CISA - Advisory**](https://www.cisa.gov/news-events/alerts/2023/04/25/abuse-service-location-protocol-may-lead-dos-attacks)
+- [**CISA - Understanding and Responding to DDoS Attacks**](https://www.cisa.gov/sites/default/files/publications/understanding-and-responding-to-ddos-attacks_508c.pdf)
+- [**VMware Response to CVE-2023-29552**](https://blogs.vmware.com/security/2023/04/vmware-response-to-cve-2023-29552-reflective-denial-of-service-dos-amplification-vulnerability-in-slp.html)

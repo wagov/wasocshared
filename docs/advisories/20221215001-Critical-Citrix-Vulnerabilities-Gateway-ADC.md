@@ -8,7 +8,7 @@ The Australian Cyber Security Centre (ACSC) is aware of a critical vulnerability
 
 ## What is the vulnerability ?
 
-Exploitation of the vulnerability could allow a malicious actor to perform remote code execution against hosts running the affected versions of Citrix.  
+Exploitation of the vulnerability could allow a malicious actor to perform remote code execution against hosts running the affected versions of Citrix.
 
 **[CVE-2022-27518](https://www.tenable.com/blog/cve-2022-27518-unauthenticated-rce-in-citrix-adc-and-gateway)** - Unauthenticated Remote Code Execution (RCE) in Citrix ADC and Gateway.
 

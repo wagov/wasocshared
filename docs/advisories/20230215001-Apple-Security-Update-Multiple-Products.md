@@ -15,15 +15,21 @@ Apple has released security updates to address vulnerabilities in multiple produ
 An attacker could exploit these vulnerabilities to take control of an affected device.
 
 - iOS 16.3.1 and iPadOS 16.3.1:
+
 - **Kernel:** An app may be able to execute arbitrary code with kernel privileges.
+
 - **Webkit:** Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
 
-- Safari 16.3*:
+- Safari 16.3\*:
+
 - **Webkit:** Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
 
 - macOS Ventura 13.2.1:
+
 - **Kernel:** An app may be able to execute arbitrary code with kernel privileges.
+
 - **Shortcuts:** An app may be able to observe unprotected user data.
+
 - **Webkit:** Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
 
 ## Recommendation

@@ -1,4 +1,3 @@
-
 # UPDATED ADVISORY - SEO poisoning targeting public sector (Gootloader) - 20221208003
 
 ## Overview
@@ -119,25 +118,25 @@ Please be advised of the following observed IOCs for detection in your environme
 
 ### Domain Names
 
-- hxxps://www.webdesignbrabant[.]net/faq.php
-- hxxps://www.ibpm[.]it/2022/04/10/water-corporation-enterprise-agreement-2018-wa/
-- hxxps://www.zen-altitude[.]fr/faq.php
-- hxxps://www.setman[.]es/content.php
-- tavernelentrepot[.]be/xml.php
-- termowood[.]net/xml.php
-- textfabrik[.]de/xml.php
-- hxxps://www.sfl[.]hu
-- hxxps://www.seyhanaluminyum[.]com
-- hxps://theodoraross[.]com
-- hxxps://theairtrekstory[.]com
-- hxxps://tavernelentrepot[.]be
-- hxxps://www.serphero[.]com
-- hxxps://www.shisharealty[.]com
-- hxxps://www.sheffieldcoronarysociety.org[.]uk
-- thomadaneau[.]com/xml.php
-- theodoraross[.]com/xml.php
-- theairtrekstory[.]com/xml.php
-- hxxps://www.secora[.]cl
+- hxxps://www.webdesignbrabant\[.\]net/faq.php
+- hxxps://www.ibpm\[.\]it/2022/04/10/water-corporation-enterprise-agreement-2018-wa/
+- hxxps://www.zen-altitude\[.\]fr/faq.php
+- hxxps://www.setman\[.\]es/content.php
+- tavernelentrepot\[.\]be/xml.php
+- termowood\[.\]net/xml.php
+- textfabrik\[.\]de/xml.php
+- hxxps://www.sfl\[.\]hu
+- hxxps://www.seyhanaluminyum\[.\]com
+- hxps://theodoraross\[.\]com
+- hxxps://theairtrekstory\[.\]com
+- hxxps://tavernelentrepot\[.\]be
+- hxxps://www.serphero\[.\]com
+- hxxps://www.shisharealty\[.\]com
+- hxxps://www.sheffieldcoronarysociety.org\[.\]uk
+- thomadaneau\[.\]com/xml.php
+- theodoraross\[.\]com/xml.php
+- theairtrekstory\[.\]com/xml.php
+- hxxps://www.secora\[.\]cl
 
 **Source**: [GootLoaderSites (twitter)](https://twitter.com/GootLoaderSites)
 

@@ -7,6 +7,7 @@ Mozilla has released security updates to address vulnerabilities in Firefox and 
 ## What is the vulnerability?
 
 For a list of CVE's for:
+
 - Firefox ESR 115.6, please refer to [Mozilla Foundation Security Advisory 2023-54](https://www.mozilla.org/en-US/security/advisories/mfsa2023-54/)
 - Thunderbird 115.6, please refer to [Mozilla Foundation Security Advisory 2023-55](https://www.mozilla.org/en-US/security/advisories/mfsa2023-55/)
 - Firefox 121, please refer to [Mozilla Foundation Security Advisory 2023-56](https://www.mozilla.org/en-US/security/advisories/mfsa2023-56/)

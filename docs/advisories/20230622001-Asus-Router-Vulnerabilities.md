@@ -19,6 +19,7 @@ ASUS has released new firmware with cumulative security updates that address vul
 ## What is vulnerable?
 
 The vulnerability affects the following ASUS products:
+
 - GT6
 - GT-AXE16000
 - GT-AXE11000 PRO
@@ -50,4 +51,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 ## Additional References
 
 - [ASUS urges customers to patch critical router vulnerabilities
-](https://www.bleepingcomputer.com/news/security/asus-urges-customers-to-patch-critical-router-vulnerabilities/)
+    ](https://www.bleepingcomputer.com/news/security/asus-urges-customers-to-patch-critical-router-vulnerabilities/)

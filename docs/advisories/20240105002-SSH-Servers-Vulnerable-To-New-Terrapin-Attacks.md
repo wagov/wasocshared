@@ -6,16 +6,15 @@ The Secure Shell (SSH) transport protocol with certain OpenSSH extensions allows
 
 ## What is the vulnerability?
 
-| CVE ID | CVSS Score | Description |
-| --- | --- | --- |
-| [CVE-2023-48795](https://nvd.nist.gov/vuln/detail/CVE-2023-48795) | 5.9 | SSH transport protocol with certain OpenSSH extensions vulnerable to Terrapin attack|
-
+| CVE ID                                                            | CVSS Score | Description                                                                          |
+| ----------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------ |
+| [CVE-2023-48795](https://nvd.nist.gov/vuln/detail/CVE-2023-48795) | 5.9        | SSH transport protocol with certain OpenSSH extensions vulnerable to Terrapin attack |
 
 ## What is vulnerable?
 
 The vulnerability affects the following products:
 
-- OpenSSH versions before 9.6 
+- OpenSSH versions before 9.6
 
 ## What has been observed?
 
@@ -29,5 +28,3 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 - [CVE Mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795)
 - [Shadow Server Foundation](https://www.shadowserver.org/what-we-do/network-reporting/accessible-ssh-report/)
 - [Bleeping computer security news](https://www.bleepingcomputer.com/news/security/nearly-11-million-ssh-servers-vulnerable-to-new-terrapin-attacks/)
-
-

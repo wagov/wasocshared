@@ -5,6 +5,7 @@
 Mozilla has released security updates to address vulnerabilities in Firefox ESR **all versions below 115.2**. An attacker could exploit some of these vulnerabilities to potentially allow the leak of sensitive information.
 
 ## What are the vulnerabilities?
+
 The following listed vulnerabilities affect Firefox ESR **all versions below 115.2**:
 
 - [**CVE-2023-4573**](https://nvd.nist.gov/vuln/detail/CVE-2023-4573): Memory corruption in IPC CanvasTranslator

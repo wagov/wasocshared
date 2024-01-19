@@ -6,21 +6,21 @@ SolarWinds has released an advisory for eight vulnerabilities, including three c
 
 ## What is the vulnerability?
 
-**Three Critical Vulnerabilities:**  
+**Three Critical Vulnerabilities:**
 
 [**CVE-2023-35182**](https://nvd.nist.gov/vuln/detail/CVE-2023-35182) - CVSS v3 Base Score: ***8.8***
- - Remote unauthenticated attackers can execute arbitrary code in the context of SYSTEM due to the deserialization of untrusted data in the ‘createGlobalServerChannelInternal’ method
 
+- Remote unauthenticated attackers can execute arbitrary code in the context of SYSTEM due to the deserialization of untrusted data in the ‘createGlobalServerChannelInternal’ method
 
 [**CVE-2023-35185**](https://nvd.nist.gov/vuln/detail/CVE-2023-35185) - CVSS v3 Base Score: ***8.8***
+
 - Remote unauthenticated attackers can execute arbitrary code in the context of SYSTEM due to a lack of validation of user-supplied paths in the ‘OpenFile’ method
 
-
 [**CVE-2023-35187**](https://nvd.nist.gov/vuln/detail/CVE-2023-35187) - CVSS v3 Base Score: ***8.8***
+
 - Remote unauthenticated attackers can execute arbitrary code in the context of SYSTEM without authentication due to lack of validation of user-supplied paths in the ‘OpenClientUpdateFile’ method
 
-
-**Other Vulnerabilities:**  
+**Other Vulnerabilities:**
 
 [**CVE-2023-35180**](https://nvd.nist.gov/vuln/detail/CVE-2023-35180) - CVSS v3 Base Score: ***8.0***
 
@@ -34,7 +34,6 @@ SolarWinds has released an advisory for eight vulnerabilities, including three c
 
 - The SolarWinds Access Rights Manager was susceptible to Privilege Escalation Vulnerability. This vulnerability allows authenticated users to abuse local resources to Privilege Escalation.
 
-
 [**CVE-2023-35184**](https://nvd.nist.gov/vuln/detail/CVE-2023-35184) - CVSS v3 Base Score: ***8.8***
 
 - The SolarWinds Access Rights Manager was susceptible to Remote Code Execution Vulnerability. This vulnerability allows an unauthenticated user to abuse a SolarWinds service resulting in a remote code execution.
@@ -42,7 +41,6 @@ SolarWinds has released an advisory for eight vulnerabilities, including three c
 [**CVE-2023-35186**](https://nvd.nist.gov/vuln/detail/CVE-2023-35186) - CVSS v3 Base Score: ***8.0***
 
 - The SolarWinds Access Rights Manager was susceptible to Remote Code Execution Vulnerability. This vulnerability allows an authenticated user to abuse SolarWinds service resulting in remote code execution.
-
 
 ## What is vulnerable?
 

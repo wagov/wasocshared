@@ -2,7 +2,7 @@
 
 ## Overview
 
-Microsoft has released their September 2023 Patch Tuesday updates, with security updates for 59 flaws, including two actively exploited zero-day vulnerabilities. 
+Microsoft has released their September 2023 Patch Tuesday updates, with security updates for 59 flaws, including two actively exploited zero-day vulnerabilities.
 
 ## What are the critical vulnerabilities?
 
@@ -10,6 +10,7 @@ Microsoft has released their September 2023 Patch Tuesday updates, with security
 - Microsoft Word Information Disclosure Vulnerability [**CVE-2023-36761**](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36761) - CVSS v3 Base Score: ***6.2***
 
 Patch Tuesday updates includes the following:
+
 - 3 Security Feature Bypass Vulnerabilities
 - 24 Remote Code Execution Vulnerabilities
 - 9 Information Disclosure Vulnerabilities

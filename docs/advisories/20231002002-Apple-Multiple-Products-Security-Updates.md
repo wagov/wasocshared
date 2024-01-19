@@ -8,8 +8,8 @@ Apple has released security updates to address vulnerabilities in multiple produ
 
 The vulnerability affects the following products:
 
--   [Safari 17](https://support.apple.com/en-us/HT213941 "About the security content of Safari 17")
--   [macOS Sonoma 14](https://support.apple.com/en-us/HT213940 "About the security content of macOS Sonoma 14")
+- [Safari 17](https://support.apple.com/en-us/HT213941 "About the security content of Safari 17")
+- [macOS Sonoma 14](https://support.apple.com/en-us/HT213940 "About the security content of macOS Sonoma 14")
 
 ## What has been observed?
 

@@ -12,7 +12,6 @@ The WA SOC has observed a critical and high severity RCE (Remote Code Execution)
 
 [**CVE-2023-22508**](https://nvd.nist.gov/vuln/detail/CVE-2023-22508) - CVSS v3 Base Score: ***8.5***
 
-
 ## What is vulnerable?
 
 The vulnerability affects the following products:
@@ -20,7 +19,6 @@ The vulnerability affects the following products:
 - Confluence Data Center (8.0.0, 7.4.0)
 - Confluence Server (8.0.0, 7.4.0)
 - Bamboo Data Center and Server 8.0.0
-
 
 ## What has been observed?
 
@@ -32,8 +30,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - [Atlassian Security Bulletin July](https://confluence.atlassian.com/security/security-bulletin-july-18-2023-1251417643.html)
 - [Confluence Release Notes](https://confluence.atlassian.com/doc/confluence-release-notes-327.html)
-
-
 
 ## Additional References
 

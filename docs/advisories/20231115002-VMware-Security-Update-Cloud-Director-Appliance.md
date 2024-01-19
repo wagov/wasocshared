@@ -2,7 +2,7 @@
 
 ## Overview
 
-VMware has a critical severity range vulnerability in VMware Cloud Director Appliance, that contains an authentication bypass vulnerability in case VMware Cloud Director Appliance was upgraded to 10.5 from an older version. 
+VMware has a critical severity range vulnerability in VMware Cloud Director Appliance, that contains an authentication bypass vulnerability in case VMware Cloud Director Appliance was upgraded to 10.5 from an older version.
 
 ## What is the vulnerability?
 

@@ -1,4 +1,4 @@
-# (Vulnerability) added to CISA Known Exploited Catalog - 2024MMDD##\#
+# Ivanti EPMM and MobileIron Core added to CISA Known Exploited Catalog - 20240119003
 
 ## Overview
 
@@ -6,10 +6,10 @@ Ivanti have released a critical security advisory relating to a vulnerability im
 
 ## What is vulnerable?
 
-| Product(s) Affected                                     | CVE                                                                              | Severity     | CVSS |
-| ------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------ | ---- |
-| Ivanti Endpoint Manager Mobile (EPMM) 11.8, 11.9, 11.10 | [CVE-2023-35082](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CCVE-2023-35082) | **Critical** | 10   |
-| MobileIron Core 11.7 and below                          | [CVE-2023-35082](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CCVE-2023-35082) | **Critical** | 10   |
+| Product(s) Affected                                     | CVE                                                                             | Severity     | CVSS |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------ | ---- |
+| Ivanti Endpoint Manager Mobile (EPMM) 11.8, 11.9, 11.10 | [CVE-2023-35082](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-35082) | **Critical** | 10   |
+| MobileIron Core 11.7 and below                          | [CVE-2023-35082](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-35082) | **Critical** | 10   |
 
 ## What has been observed?
 
@@ -23,4 +23,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ### Additional Resources
 
--
+- CISA "CVE-2023-35082 Detail": <https://nvd.nist.gov/vuln/detail/CVE-2023-35082>
