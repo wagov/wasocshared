@@ -6,20 +6,17 @@ Since the publishing of [Advisory 20240119003](https://soc.cyber.wa.gov.au//advi
 
 At the time of writing, this directive is **only meant for United States operated Federal Civilian Executive Branch (FCEB) agencies**, however CISA strongly encourages all organizations to address the vulnerabilities in Ivanti Connect Secure and Ivanti Policy Secure.
 
-
 ## What has been observed?
 
 Since publishing, **Ivanti have updated their Security Advisory** (link below) on January 20 with "*Update workaround section about known race condition when pushing device configurations. This condition can impact negatively the XML remediation leaving customers vulnerable.*"
 
 Additionally, CISA have noted they will update their alert page (link below) with further mitigations and patches as they become available.
 
-
 ## Recommendation
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 Hours...* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - <https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US>
-
 
 ### Additional Resources
 
