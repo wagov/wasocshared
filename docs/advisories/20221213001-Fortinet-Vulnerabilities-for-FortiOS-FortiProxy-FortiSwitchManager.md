@@ -13,14 +13,9 @@ In addition, A heap-based buffer overflow vulnerability [CWE-122](https://cwe.mi
 Forinet is aware of an instance where this vulnerability was exploited, and recommends:
 
 - Immediately validating your systems against the following indicator of compromise (IoCs) in the device's logs:
-`user="Local_Process_Access"`
+    `user="Local_Process_Access"`
 - Download the config file from the targeted devices, and to add a malicious super_admin account called  `"fortigate-tech-support"`:
-`# show system admin\
-edit "fortigate-tech-support"\
-set accprofile "super_admin"\
-set vdom "root"\
-set password ENC [...]\
-next`
+    `# show system admin\ edit "fortigate-tech-support"\ set accprofile "super_admin"\ set vdom "root"\ set password ENC [...]\ next`
 
 **[CVE-2022-42475](https://www.fortiguard.com/psirt/FG-IR-22-398)** - FortiOS heap-based buffer overflow in SSl-VPN
 

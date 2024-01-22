@@ -6,7 +6,7 @@ The Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructu
 
 ## What has been observed?
 
-CISA added this vulnerabilty in their [Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories?f%5B0%5D=advisory_type%3A94) catalog on *September 20, 2023*. 
+CISA added this vulnerabilty in their [Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories?f%5B0%5D=advisory_type%3A94) catalog on *September 20, 2023*.
 
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
@@ -15,6 +15,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators perform a scan for the IOCs included and apply the mitigations as per CISA instructions.
 
 **Immediate action to take includes:**
+
 1. Secure and closely monitor Remote Desktop Protocol (RDP).
-2. Maintain offline backups of data.
-3. Enable and enforce phishing-resistant multifactor authentication (MFA).
+1. Maintain offline backups of data.
+1. Enable and enforce phishing-resistant multifactor authentication (MFA).

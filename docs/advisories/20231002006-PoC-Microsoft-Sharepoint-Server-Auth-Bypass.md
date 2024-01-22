@@ -17,12 +17,14 @@ A proof-of-concept (PoC) exploit code has surfaced on GitHub for a critical auth
 The vulnerabilities exist in the following products:
 
 - **CVE-2023-29357**:
-  - Microsoft SharePoint Server 2019
+
+    - Microsoft SharePoint Server 2019
 
 - **CVE-2023-24955**:
-  - Microsoft SharePoint Server Subscription Edition
-  - Microsoft SharePoint Server 2019
-  - Microsoft SharePoint Enterprise Server 2016
+
+    - Microsoft SharePoint Server Subscription Edition
+    - Microsoft SharePoint Server 2019
+    - Microsoft SharePoint Enterprise Server 2016
 
 ## Recommendation
 

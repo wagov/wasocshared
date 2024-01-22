@@ -4,7 +4,6 @@
 
 Mozilla releases security updates for high impact vulnerabilities in firefox, Firefox ESR and Thunderbird products.
 
-
 ## What is vulnerable?
 
 The vulnerability affects the following Mozilla products:

@@ -1,4 +1,3 @@
-  
 # Understanding Ransomware Threat Actors: LockBit - 20230615003
 
 ## Overview
@@ -17,39 +16,39 @@ Table 4 of the [CISA advisory found here](https://www.cisa.gov/news-events/cyber
 
 Based on secondary sources, it was noted that affiliates exploit older vulnerabilities like [CVE-2021-22986](https://nvd.nist.gov/vuln/detail/CVE-2021-22986), F5 iControl REST unauthenticated Remote Code Execution Vulnerability, as well as newer vulnerabilities such as:
 
--   [CVE-2023-0669](https://nvd.nist.gov/vuln/detail/CVE-2023-0669): Fortra GoAnyhwere Managed File Transfer (MFT) Remote Code Execution Vulnerability
--   [CVE-2023-27350](https://nvd.nist.gov/vuln/detail/CVE-2023-27350): PaperCut MF/NG Improper Access Control Vulnerability
+- [CVE-2023-0669](https://nvd.nist.gov/vuln/detail/CVE-2023-0669): Fortra GoAnyhwere Managed File Transfer (MFT) Remote Code Execution Vulnerability
+- [CVE-2023-27350](https://nvd.nist.gov/vuln/detail/CVE-2023-27350): PaperCut MF/NG Improper Access Control Vulnerability
 
 LockBit affiliates have been documented exploiting numerous CVEs, including:
 
--   [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228): Apache Log4j2 Remote Code Execution Vulnerability,
--   [CVE-2021-22986](https://nvd.nist.gov/vuln/detail/CVE-2021-22986): F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability,
--   [CVE-2020-1472: NetLogon Privilege Escalation Vulnerability,](https://nvd.nist.gov/vuln/detail/CVE-2020-1472)
--   [CVE-2019-0708](https://nvd.nist.gov/vuln/detail/CVE-2019-0708): Microsoft Remote Desktop Services Remote Code Execution Vulnerability, and
--   [CVE-2018-13379](https://nvd.nist.gov/vuln/detail/CVE-2018-13379): Fortinet FortiOS Secure Sockets Layer (SSL) Virtual Private Network (VPN) Path Traversal Vulnerability.
+- [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228): Apache Log4j2 Remote Code Execution Vulnerability,
+- [CVE-2021-22986](https://nvd.nist.gov/vuln/detail/CVE-2021-22986): F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability,
+- [CVE-2020-1472: NetLogon Privilege Escalation Vulnerability,](https://nvd.nist.gov/vuln/detail/CVE-2020-1472)
+- [CVE-2019-0708](https://nvd.nist.gov/vuln/detail/CVE-2019-0708): Microsoft Remote Desktop Services Remote Code Execution Vulnerability, and
+- [CVE-2018-13379](https://nvd.nist.gov/vuln/detail/CVE-2018-13379): Fortinet FortiOS Secure Sockets Layer (SSL) Virtual Private Network (VPN) Path Traversal Vulnerability.
 
 ## Detection and Remediation
 
-The listed mitigations are ordered by MITRE ATT&CK tactic. Mitigations that apply to multiple MITRE ATT&CK tactics are listed under the tactic that occurs earliest in an incident’s lifecycle. 
+The listed mitigations are ordered by MITRE ATT&CK tactic. Mitigations that apply to multiple MITRE ATT&CK tactics are listed under the tactic that occurs earliest in an incident’s lifecycle.
 
 ### Detection
 
- 1. Identify the presence of the below supplied KQL/ Kusto hunting code
- 2. Identify the presence of the below supplied IOCs
- 3. Inspect activity from the identified devices and/or users
+1. Identify the presence of the below supplied KQL/ Kusto hunting code
+1. Identify the presence of the below supplied IOCs
+1. Inspect activity from the identified devices and/or users
 
 ### Recommended Remediation Steps
 
-[Specific to type of infection] - Example from Agent Tesla:
+\[Specific to type of infection\] - Example from Agent Tesla:
 
 1. Delete Registry Key entries and folder paths
-2. Run a full Antivirus scan on the compromised device
-3. Reset the affected user's passwords
+1. Run a full Antivirus scan on the compromised device
+1. Reset the affected user's passwords
 
 ## Reference
 
-* URL Reference #1
-* URL Reference #2
+- URL Reference #1
+- URL Reference #2
 
 ## Indicator of Compromise
 
@@ -87,17 +86,17 @@ C:\system\win32\
 
 Filename1.exe
 
-* SHA-256:b2416875d5f34fc9ed8d20bb5eaf554a6f2e86885e30e8b904ddd66d4745d491
+- SHA-256:b2416875d5f34fc9ed8d20bb5eaf554a6f2e86885e30e8b904ddd66d4745d491
 
 Filename2.exe
 
-* SHA-1: 2e05ea754f9765993690d961a2a35181
-* SHA-256: fcf53f2ec6170b2b93ac8216d3928167187931db75331a1a037720bcc79e39d5
+- SHA-1: 2e05ea754f9765993690d961a2a35181
+- SHA-256: fcf53f2ec6170b2b93ac8216d3928167187931db75331a1a037720bcc79e39d5
 
-| Artefacts / IOC Type | IOC-Value | Description |
-| - | --- | - |
-|Filehash|SHA-256:b2416875d5f34fc9ed8d20bb5eaf554a6f2e86885e30e8b904ddd66d4745d491|Downloaded file|
-|Filehash|SHA-256:b2416875d5f34fc9ed8d20bb5eaf554a6f2e86885e30e8b904ddd66d4745d491|Malicious .js file|
+| Artefacts / IOC Type | IOC-Value                                                                | Description        |
+| -------------------- | ------------------------------------------------------------------------ | ------------------ |
+| Filehash             | SHA-256:b2416875d5f34fc9ed8d20bb5eaf554a6f2e86885e30e8b904ddd66d4745d491 | Downloaded file    |
+| Filehash             | SHA-256:b2416875d5f34fc9ed8d20bb5eaf554a6f2e86885e30e8b904ddd66d4745d491 | Malicious .js file |
 
 ### Signatures
 
@@ -107,10 +106,10 @@ Fast Corporate LTD
 
 The following IPs historically were linked to that platform, any communications to them should be inspected and assessed if it’s relevant to that platform:
 
-| Artefacts / IOC Type | IOC-Value | Description |
-| - | - | --- |
-|IP Address|8.8.8.8|Malicious sign-in attempts|
-|IP Address|1.1.1.1|Outbound C2 communication|
+| Artefacts / IOC Type | IOC-Value | Description                |
+| -------------------- | --------- | -------------------------- |
+| IP Address           | 8.8.8.8   | Malicious sign-in attempts |
+| IP Address           | 1.1.1.1   | Outbound C2 communication  |
 
 ### Domain Names
 

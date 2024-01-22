@@ -10,7 +10,7 @@ CISA has published three [**malware analysis reports**](https://www.cisa.gov/new
 
 - [**SUBMARINE Backdoor**](https://www.cisa.gov/news-events/analysis-reports/ar23-209a)– SUBMARINE is a novel persistent backdoor executed with root privileges that lives in a Structured Query Language (SQL) database on the ESG appliance. SUBMARINE comprises multiple artifacts—including a SQL trigger, shell scripts, and a loaded library for a Linux daemon—that together enable execution with root privileges, persistence, command and control, and cleanup. CISA also analyzed artifacts related to SUBMARINE that contained the contents of the compromised SQL database. This malware poses a severe threat for lateral movement.
 
-- [**SEASPY Backdoor**](https://www.cisa.gov/news-events/analysis-reports/ar23-209b)– SEASPY is a persistent and passive backdoor that masquerades as a legitimate Barracuda service. SEASPY monitors traffic from the actor’s C2 server. When the right packet sequence is captured, it establishes a Transmission Control Protocol (TCP) reverse shell to the C2 server. The shell allows the threat actors to execute arbitrary commands on the ESG appliance.\
+- [**SEASPY Backdoor**](https://www.cisa.gov/news-events/analysis-reports/ar23-209b)– SEASPY is a persistent and passive backdoor that masquerades as a legitimate Barracuda service. SEASPY monitors traffic from the actor’s C2 server. When the right packet sequence is captured, it establishes a Transmission Control Protocol (TCP) reverse shell to the C2 server. The shell allows the threat actors to execute arbitrary commands on the ESG appliance.\\
 
 - [**Barracuda Exploit Payload & Backdoor**](https://www.cisa.gov/news-events/analysis-reports/ar23-209c) - The payload exploits CVE-2023-2868, leading to dropping and execution of a reverse shell backdoor on ESG appliance. The reverse shell establishes communication with the threat actor’s command and control (C2) server, from where it downloads the SEASPY backdoor to the ESG appliance. The actors delivered the payload to the victim via a phishing email with a malicious attachment.
 
@@ -20,4 +20,4 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-The WASOC recommends administrators review the associated indicators against their relevant Email Gateway Solutions and remediate were necessary. 
+The WASOC recommends administrators review the associated indicators against their relevant Email Gateway Solutions and remediate were necessary.

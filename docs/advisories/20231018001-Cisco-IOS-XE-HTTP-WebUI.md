@@ -2,8 +2,8 @@
 
 ## Overview
 
-The WA SOC has observed a vulnerability in the Cisco HTTP WebUI feature of Cisco IOS Software and Cisco IOS XE Software 
-when exposed to the internet or untrusted network, which could allow an unauthenticated attacker to create an account on an affected system with privilege level 15 access. The attacker can then use that account to gain control of the affected system. 
+The WA SOC has observed a vulnerability in the Cisco HTTP WebUI feature of Cisco IOS Software and Cisco IOS XE Software
+when exposed to the internet or untrusted network, which could allow an unauthenticated attacker to create an account on an affected system with privilege level 15 access. The attacker can then use that account to gain control of the affected system.
 
 ## What is the vulnerability?
 
@@ -12,7 +12,6 @@ when exposed to the internet or untrusted network, which could allow an unauthen
 ## What is vulnerable?
 
 This vulnerability affects Cisco IOS XE Software if the web UI feature is enabled. The web UI feature is enabled through the ip http server or ip http secure-server commands.
-
 
 ## What has been observed?
 

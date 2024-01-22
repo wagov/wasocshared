@@ -20,7 +20,6 @@ For larger deployments across an enterprise using [Azure server management serv
 - [About Azure Automanage Machine Best Practices | Microsoft Learn](https://learn.microsoft.com/en-us/azure/automanage/overview-about)
 
 !!! note "Vulnerability Management Business Context"
-
     Ensuring that [vulnerability management](../baselines/vulnerability-management.md) activities also ensure the appropriate business context is applied (e.g. using [Tags (Tenable Vulnerability Management)](https://docs.tenable.com/vulnerability-management/Content/Settings/Tagging/Tags.htm)) should effectively prioritise patch activities.
 
 ### Example patching approach

@@ -6,9 +6,9 @@ The WA SOC has received an adivsory from CISA regarding Apache Spark having know
 
 ## What is the vulnerability?
 
-| CVE | Vulnerability Name | Advisory Released | Threat Description | Action |
-| --- | --- | --- | --- | --- |
-| [**CVE-2022-33891**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-33891) - CVSSv3: ***8.8 HIGH*** | Apache Spark Command Injection Vulnerabilit | 2023-03-08 | Apache Spark contains a command injection vulnerability via Spark User Interface (UI) when Access Control Lists (ACLs) are enabled. | Apply updates per vendor instructions. |
+| CVE                                                                                                          | Vulnerability Name                          | Advisory Released | Threat Description                                                                                                                  | Action                                 |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [**CVE-2022-33891**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-33891) - CVSSv3: ***8.8 HIGH*** | Apache Spark Command Injection Vulnerabilit | 2023-03-08        | Apache Spark contains a command injection vulnerability via Spark User Interface (UI) when Access Control Lists (ACLs) are enabled. | Apply updates per vendor instructions. |
 
 ## What is vulnerable?
 

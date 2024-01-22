@@ -2,9 +2,8 @@
 
 ## Overview
 
-The Android Security Bulletin has released two batch of security vulnerabilities affecting Android devices. The most severe of these issues is a critical security vulnerability in the System component that could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation. 
-Android partners are notified of all issues at least a month before publication. 
-
+The Android Security Bulletin has released two batch of security vulnerabilities affecting Android devices. The most severe of these issues is a critical security vulnerability in the System component that could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
+Android partners are notified of all issues at least a month before publication.
 
 ## What is vulnerable?
 
@@ -34,7 +33,6 @@ The following details two batch of vulnerabilities;
 
 - [Qualcomm closed-source components](https://source.android.com/docs/security/bulletin/2023-07-01#qualcomm-closed-source)
 
-
 ## What has been observed?
 
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
@@ -45,7 +43,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - [Google support](https://support.google.com/pixelphone/answer/4457705)
 - [Check and update your Android version](https://support.google.com/android/answer/7680439?sjid=12619948930270875911-AP)
-
 
 ## Additional References
 

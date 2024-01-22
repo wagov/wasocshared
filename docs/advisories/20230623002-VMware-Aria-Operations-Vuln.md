@@ -1,6 +1,7 @@
 # VMware Aria Operations for Networks Command Injection Vulnerability - 20230623002
 
 ## Overview
+
 VMware Aria Operations for Networks (formerly vRealize Network Insight) contains a command injection vulnerability that allows a malicious actor with network access to perform an attack resulting in remote code execution.
 
 ## What is the vulnerability?
@@ -10,9 +11,11 @@ VMware Aria Operations for Networks (formerly vRealize Network Insight) contains
 ## What is vulnerable?
 
 The vulnerability exists in the following products:
-- Aria Operations for Networks Version **6.x** 
+
+- Aria Operations for Networks Version **6.x**
 
 ## What has been observed?
+
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation

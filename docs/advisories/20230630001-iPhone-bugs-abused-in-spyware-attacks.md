@@ -12,21 +12,22 @@ These Vulnerabilities are still undergoing analysis.
 
 - [**CVE-2023-32434**](https://nvd.nist.gov/vuln/detail/CVE-2023-32434) - CVSS v3 Base Score: ***N/A***
 
-  Apple Multiple Products Integer Overflow Vulnerability
+    Apple Multiple Products Integer Overflow Vulnerability
 
 - [**CVE-2023-32435**](https://nvd.nist.gov/vuln/detail/CVE-2023-32435) - CVSS v3 Base Score: ***N/A***
 
-  Apple iOS and iPadOS WebKit Memory Corruption Vulnerability
+    Apple iOS and iPadOS WebKit Memory Corruption Vulnerability
 
 - [**CVE-2023-32439**](https://nvd.nist.gov/vuln/detail/CVE-2023-32439) - CVSS v3 Base Score: ***N/A***
 
-  Apple Multiple Products WebKit Type Confusion Vulnerability
+    Apple Multiple Products WebKit Type Confusion Vulnerability
 
 ## What is vulnerable?
 
 The vulnerability affects the following products:
 
 iOS and iPadOS before 15.7:
+
 - iPhone 7 (all models)
 - iPhone 6s (all models)
 - iPhone SE (1st generation)
@@ -35,6 +36,7 @@ iOS and iPadOS before 15.7:
 - iPod touch (7th generation)
 
 iOS and iPadOS before 16.5:
+
 - iPhone 8 and later
 - iPad Pro (all models)
 - iPad Air 3rd generation and later
@@ -42,9 +44,11 @@ iOS and iPadOS before 16.5:
 - iPad mini 5th generation and later
 
 macOS before 13.4
+
 - Macs running macOS Big Sur, Monterey, and Ventura
 
 watchOS before 9.5.2
+
 - Apple Watch Series 4 and later
 - Apple Watch Series 3, Series 4, Series 5, Series 6, Series 7, and SE++
 

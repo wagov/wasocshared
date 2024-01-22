@@ -4,7 +4,6 @@
 
 Mozilla has released security updates to address vulnerabilities in Firefox and Thunderbird. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
 
-
 ## What is vulnerable?
 
 The vulnerability affects the following products:

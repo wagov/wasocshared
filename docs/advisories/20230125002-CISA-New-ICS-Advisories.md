@@ -9,4 +9,4 @@ CISA released two Industrial Control Systems (ICS) advisories on 24th of January
 The WA SOC recommends administrators to review the newly released ICS advisories for technical details and mitigations:
 
 1. [ICSA-23-024-01](https://www.cisa.gov/uscert/ics/advisories/icsa-23-024-01): XINJE XD
-2. [ICSA-23-024-02](https://www.cisa.gov/uscert/ics/advisories/icsa-23-024-02): SOCOMEC MODULYS GP
+1. [ICSA-23-024-02](https://www.cisa.gov/uscert/ics/advisories/icsa-23-024-02): SOCOMEC MODULYS GP

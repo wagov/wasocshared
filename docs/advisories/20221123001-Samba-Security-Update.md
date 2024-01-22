@@ -16,9 +16,9 @@ overflow when calculating how many bytes to allocate for a buffer for the parsed
 
 All versions of Samba prior to:
 
-* 4.15.12
-* 4.16.7
-* 4.17.3
+- 4.15.12
+- 4.16.7
+- 4.17.3
 
 On a 32-bit system an overflow allows placement of 16-byte chunks of entirely attacker-controlled data. (Because the user's control over this calculation is limited to an unsigned 32-bit value, 64-bit systems are not impacted).
 
@@ -36,10 +36,10 @@ Samba administrators are advised to upgrade to these releases or apply the patch
 
 Patches addressing these issues have been posted to correct the defect [https://www.samba.org/samba/security/](https://www.samba.org/samba/security/)
 
-* No workaround on a 32-bit systems as an **AD DC**
-* File Servers are only impacted if in a non-AD domain
-* 64-bit systems are not exploitable
+- No workaround on a 32-bit systems as an **AD DC**
+- File Servers are only impacted if in a non-AD domain
+- 64-bit systems are not exploitable
 
 ### Reference
 
-* Samba Security Releases [https://www.samba.org/samba/history/security.html](https://www.samba.org/samba/history/security.html)
+- Samba Security Releases [https://www.samba.org/samba/history/security.html](https://www.samba.org/samba/history/security.html)

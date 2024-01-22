@@ -30,9 +30,13 @@ The 3CX Softphone installer application has been modified to distibute a malicio
 ## Recommendation
 
 - Locate the presence of 3CXDesktopApp software in your environment by using the queries outlined above.
+
 - Ensure relevant EDR solution is deployed to applicable systems.
+
 - Ensure “Suspicious Processes” is enabled in applicable Prevention Policies.
 
 - [YARA Signature from Neo23x0](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mal_3cx_compromise_mar23.yar)
+
 - [Sigma YAML from SigmaHQ](https://github.com/SigmaHQ/sigma/blob/master/rules/web/proxy_generic/proxy_malware_3cx_compromise.yml)
+
 - Hunt for historical presence of atomic indicators in third-party tooling (if available).

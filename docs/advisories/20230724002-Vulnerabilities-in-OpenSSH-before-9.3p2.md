@@ -25,7 +25,6 @@ The vulnerability affects the following products:
 
 The WA SOC recommends administrators to update OpenSSH to the lastest update within an expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)).
 
-
 ## Additional References
 
 - [OpenSSH: Release Notes](https://www.openssh.com/releasenotes.html#9.3p2)

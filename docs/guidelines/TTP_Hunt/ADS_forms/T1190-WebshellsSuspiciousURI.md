@@ -1,33 +1,30 @@
-### T1190 - Webshell by suspicious URI requests   
-  
+### T1190 - Webshell by suspicious URI requests
 
-####  DESCRIPTION  
-This will look for connections to files on the server that are requested by only a single client. 
-This analytic will be effective where an actor is utilising relatively static operational IP addresses. The threshold can be modified. 
-The larger the execution window for this query the more reliable the results returned.   
+#### DESCRIPTION
 
-**example:**  
-NA      
+This will look for connections to files on the server that are requested by only a single client.
+This analytic will be effective where an actor is utilising relatively static operational IP addresses. The threshold can be modified.
+The larger the execution window for this query the more reliable the results returned.
 
+**example:**\
+NA
 
+**Related**\
+common persistance
 
-**Related**  
-common persistance        
+**Reference:**\
+https://attack.mitre.org/techniques/T1505/003/\
+https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/W3CIISLog/RareClientFileAccess.yaml
 
+#### ATT&CK TACTICS
 
-**Reference:**  
-https://attack.mitre.org/techniques/T1505/003/    
-https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/W3CIISLog/RareClientFileAccess.yaml   
+{{ mitre("T1190")}}
 
-####  ATT&CK TACTICS  
-{{ mitre("T1190")}}   
+Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029/)
 
-Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029/)   
+#### SENTINEL RULE QUERY
 
-
-#### SENTINEL RULE QUERY   
-
-~~~
+```
 let clientThreshold = 1;
   let scriptExtensions = dynamic([".php", ".aspx", ".asp", ".cfml"]);
   let data = W3CIISLog
@@ -43,18 +40,16 @@ let clientThreshold = 1;
   | where dcount_list_cIP == clientThreshold 
   | where csUserAgent startswith "Mozilla"
   | extend timestamp = StartTime, UserAgentCustomEntity = csUserAgent    
-~~~
+```
 
+#### Triage
 
-#### Triage  
+1. Inspect network traffic to potential web shells. Most webshells take commands via POSTs. Successfull commands are met with a "200"
 
-1. Inspect network traffic to potential web shells. Most webshells take commands via POSTs. Successfull commands are met with a "200"  
+#### FalsePositive
 
+unknown
 
-#### FalsePositive  
+#### VERSION
 
-unknown    
-
-
-#### VERSION  
-Version 1.0 (date: 10/07/2023)  
+Version 1.0 (date: 10/07/2023)

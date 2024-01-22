@@ -44,14 +44,14 @@ Please be advised of the following observed IOCs for detection in your environme
 
 ### File Names and File hash (Not reliable IOCs, as filenames changed)
 
-| Artefacts / IOC Type | IOC-Value | Description |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| File (Hash) | Water corporation enterprise agreement 2018 wa (79577).zip<br>SHA256=fa036aac45db7c2eaac588e4bb2082d801e7eeb7deb3b33b89dc0426469333b7 | Gootkit Malicious file - Downloaded |
-| File (Hash) | Public service and government officers general agreement 2014 (74209).zip                                                             | Gootkit Malicious file - Downloaded |
-| File (Hash) | What is novation agreement in construction (73975).zip<br>SHA256=aaac2e4ed43c7a24e4c12254e576ee5a602465afd5c2df6d5d573ae805035868     | Gootkit Malicious file - Downloaded |
-| File (Hash) | Honor an agreement synonym (39766).zip<br>SHA256=906580c297c8dd683b17be49294324489393071c35606b9ba4b878a8dbcf1088                     | Gootkit Malicious file - Downloaded |
-| File (Hash) | Water corporation enterprise agreement 2018 wa (49326).zip                                                                            | Gootkit Malicious file - Downloaded |
-| File (Hash) | Queensland rail network enterprise agreement (39681)                                                                                  | Gootkit Malicious file - Downloaded |
+| Artefacts / IOC Type | IOC-Value                                                                                                                             | Description                         |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| File (Hash)          | Water corporation enterprise agreement 2018 wa (79577).zip<br>SHA256=fa036aac45db7c2eaac588e4bb2082d801e7eeb7deb3b33b89dc0426469333b7 | Gootkit Malicious file - Downloaded |
+| File (Hash)          | Public service and government officers general agreement 2014 (74209).zip                                                             | Gootkit Malicious file - Downloaded |
+| File (Hash)          | What is novation agreement in construction (73975).zip<br>SHA256=aaac2e4ed43c7a24e4c12254e576ee5a602465afd5c2df6d5d573ae805035868     | Gootkit Malicious file - Downloaded |
+| File (Hash)          | Honor an agreement synonym (39766).zip<br>SHA256=906580c297c8dd683b17be49294324489393071c35606b9ba4b878a8dbcf1088                     | Gootkit Malicious file - Downloaded |
+| File (Hash)          | Water corporation enterprise agreement 2018 wa (49326).zip                                                                            | Gootkit Malicious file - Downloaded |
+| File (Hash)          | Queensland rail network enterprise agreement (39681)                                                                                  | Gootkit Malicious file - Downloaded |
 
 **Note**: *The file names do not indicate/ related to affected agencies. The file names are tailored to potential SEO keywords that unknowing users might be interested to search in Google*
 

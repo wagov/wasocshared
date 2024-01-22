@@ -23,7 +23,7 @@ The vulnerabilities affect the following products:
 - SAP Commerce Cloud
 - SAP Host Agent
 - SAP Message Server
-- SAP NetWeaver AS ABAP and ABAP Platform 
+- SAP NetWeaver AS ABAP and ABAP Platform
 - SAP NetWeaver Process Integration
 - SAP PowerDesigner
 - SAP Supplier Relationship Management

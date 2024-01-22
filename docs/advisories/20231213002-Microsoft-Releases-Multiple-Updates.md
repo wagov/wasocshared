@@ -1,4 +1,5 @@
 # Microsoft Releases Security Updates for Multiple Products - 20231213002
+
 ## Overview
 
 Microsoft has released security updates to address vulnerabilities in multiple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.

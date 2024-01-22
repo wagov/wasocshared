@@ -8,17 +8,17 @@ Mozilla has released security updates to address vulnerabilities in Thunderbir
 
 Mozilla have confirmed forms of compromise include:
 
-* Potentially running commands on a user's computer via .atloc and .ftploc files
-* Memory corruption leading to running arbitrary code
-* Filename truncation to remove the valid extension, leaving a malicious extension in its place
-* Partially escaping the sandbox to read arbitrary files via clipboard-related IPC messages
-* Potentially exploitable crashes
+- Potentially running commands on a user's computer via .atloc and .ftploc files
+- Memory corruption leading to running arbitrary code
+- Filename truncation to remove the valid extension, leaving a malicious extension in its place
+- Partially escaping the sandbox to read arbitrary files via clipboard-related IPC messages
+- Potentially exploitable crashes
 
 ## What is vulnerable?
 
-* [Thunderbird 102.6](https://www.mozilla.org/en-US/security/advisories/mfsa2022-53/)
-* [Firefox ESR 102.6](https://www.mozilla.org/en-US/security/advisories/mfsa2022-52/)
-* [Firefox 108](https://www.mozilla.org/en-US/security/advisories/mfsa2022-51/)
+- [Thunderbird 102.6](https://www.mozilla.org/en-US/security/advisories/mfsa2022-53/)
+- [Firefox ESR 102.6](https://www.mozilla.org/en-US/security/advisories/mfsa2022-52/)
+- [Firefox 108](https://www.mozilla.org/en-US/security/advisories/mfsa2022-51/)
 
 ## What has been observed?
 
@@ -30,4 +30,4 @@ The WA SOC encourages users and administrators to review the security advisory f
 
 ### Reference
 
-* Mozilla Security Advisories - [https://www.mozilla.org/en-US/security/advisories/](https://www.mozilla.org/en-US/security/advisories/)
+- Mozilla Security Advisories - [https://www.mozilla.org/en-US/security/advisories/](https://www.mozilla.org/en-US/security/advisories/)

@@ -7,9 +7,9 @@ MongoDB has stipulated that at the moment there is no evidence of exposure of cu
 
 ## Indicators
 
-**Update(19-12-2023):** Initial MongoDB investigation has correlated that a unauthorised user had utilised **Mullvad VPN** to access coporate systems. 
+**Update(19-12-2023):** Initial MongoDB investigation has correlated that a unauthorised user had utilised **Mullvad VPN** to access coporate systems.
 
-The known indicators are as follows: 
+The known indicators are as follows:
 
 - 107.150.22.47
 - 138.199.6.199

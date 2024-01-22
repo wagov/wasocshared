@@ -10,10 +10,9 @@ A malicious actor with network access to Aria Operations for Networks could bypa
 
 VMware Aria Operations for Networks address multiple vulnerabilities. Please review each product's [security bulletin](https://www.vmware.com/security/advisories/VMSA-2023-0018.html#) for details.
 
-- Authentication Bypass Vulnerability [CVE-2023-34039](https://nvd.nist.gov/vuln/detail/CVE-2023-34039) 
+- Authentication Bypass Vulnerability [CVE-2023-34039](https://nvd.nist.gov/vuln/detail/CVE-2023-34039)
 
 - Arbitrary File Write Vulnerability [CVE-2023-20890](https://nvd.nist.gov/vuln/detail/CVE-2023-20890)
-
 
 ## What is vulnerable?
 

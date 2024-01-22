@@ -11,7 +11,6 @@ Google Chrome versions **earlier** than:
 - **Windows** 120.0.6099.225
 - **Mac** 120.0.6099.234
 
-
 ## What has been observed?
 
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.

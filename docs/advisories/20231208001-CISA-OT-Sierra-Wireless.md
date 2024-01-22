@@ -6,8 +6,8 @@ CISA has released a Critical Infrastructure advisory affecting multiple sectors.
 
 ## What is vulnerable?
 
-| Industry | Product | Advisory | 
-| --- | --- | --- | 
+| Industry                                                                                                                                       | Product                 | Advisory                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------------- |
 | Energy, Water and Wastewater Systems, Transportation Systems, Government Facilities, Commercial Facilities, Communications, Emergency Services | Sierra Wireless AirLink | [ICSA-23-341-06](https://www.cisa.gov/news-events/ics-advisories/icsa-23-341-06) |
 
 ## Recommendation

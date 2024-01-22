@@ -22,7 +22,7 @@ Apple has released security updates for Safari, iOS and iPadOS, Sonoma, Ventura,
 - ExtensionKit - An app may be able to access sensitive user data [**CVE-2023-42927**](https://nvd.nist.gov/vuln/detail/CVE-2023-42927) - CVSS v3 Base Score: ***N/A***
 - Find My - An app may be able to read sensitive location information [**CVE-2023-42922**](https://nvd.nist.gov/vuln/detail/CVE-2023-42922) - CVSS v3 Base Score: ***N/A***
 - ImageIO - Processing an image may lead to arbitrary code execution [**CVE-2023-42898**](https://nvd.nist.gov/vuln/detail/CVE-2023-42898) - CVSS v3 Base Score: ***N/A***
-[**CVE-2023-42899**](https://nvd.nist.gov/vuln/detail/CVE-2023-42899) - CVSS v3 Base Score: ***N/A***
+    [**CVE-2023-42899**](https://nvd.nist.gov/vuln/detail/CVE-2023-42899) - CVSS v3 Base Score: ***N/A***
 - IOKit - An app may be able to monitor keystrokes without user permission [**CVE-2023-42891**](https://nvd.nist.gov/vuln/detail/CVE-2023-42891) - CVSS v3 Base Score: ***N/A***
 - Kernel - An app may be able to break out of its sandbox [**CVE-2023-42914**](https://nvd.nist.gov/vuln/detail/CVE-2023-42914) - CVSS v3 Base Score: ***N/A***
 - ncurses - A remote user may be able to cause unexpected app termination or arbitrary code execution [**CVE-2023-19190**](https://nvd.nist.gov/vuln/detail/CVE-2023-19190) - CVSS v3 Base Score: ***N/A***
@@ -39,11 +39,14 @@ The vulnerability affects the following products:
 - [Safari 17.2](https://support.apple.com/en-us/HT214039)
 
 - [iOS 17.2 and iPadOS 17.2](https://support.apple.com/en-us/HT214035)
-- [iOS 16.7.3 and iPadOS 16.7.3](https://support.apple.com/en-us/HT214034)
-- [macOS Sonoma 14.2](https://support.apple.com/en-us/HT214036)
-- [macOS Ventura 13.6.3](https://support.apple.com/en-us/HT214038)
-- [macOS Monterey 12.7.2](https://support.apple.com/en-us/HT214037)
 
+- [iOS 16.7.3 and iPadOS 16.7.3](https://support.apple.com/en-us/HT214034)
+
+- [macOS Sonoma 14.2](https://support.apple.com/en-us/HT214036)
+
+- [macOS Ventura 13.6.3](https://support.apple.com/en-us/HT214038)
+
+- [macOS Monterey 12.7.2](https://support.apple.com/en-us/HT214037)
 
 ## What has been observed?
 
@@ -55,4 +58,3 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - [Apple Security Releases](https://support.apple.com/en-us/HT201222)
 - [CISA](https://www.cisa.gov/news-events/alerts/2023/12/12/apple-releases-security-updates-multiple-products)
-

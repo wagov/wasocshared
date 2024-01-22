@@ -6,9 +6,9 @@ CISA has released Critical Infrastructure related advisories.
 
 ## What is vulnerable?
 
-| Industry | Product | Advisory | 
-| --- | --- | --- | 
-| Water and Wastewater | Unitronics Vision Series | [ICSA-23-348-15](https://www.cisa.gov/news-events/ics-advisories/icsa-23-348-15) |
+| Industry                     | Product                    | Advisory                                                                         |
+| ---------------------------- | -------------------------- | -------------------------------------------------------------------------------- |
+| Water and Wastewater         | Unitronics Vision Series   | [ICSA-23-348-15](https://www.cisa.gov/news-events/ics-advisories/icsa-23-348-15) |
 | Healthcare and Public Health | Enhancing Cyber Resilience | [AA23-349A](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-349a) |
 
 ## Recommendation
