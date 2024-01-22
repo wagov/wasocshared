@@ -2,13 +2,13 @@
 
 ## Overview
 
-Trend Micro has released a new agent update for Trend Micro Deep Security and Trend Micro Cloud One - Endpoint and Workload Security that resolves two local privilege escalation vulnerabilities.  
+Trend Micro has released a new agent update for Trend Micro Deep Security and Trend Micro Cloud One - Endpoint and Workload Security that resolves two local privilege escalation vulnerabilities.
 
 ## What is vulnerable?
 
-| CVE ID   | Product(s) Affected | Summary      | Severity     | CVSS |
-| --------------------------------------------------------------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---- | ------|
-| [CVE-2023-52338](https://nvd.nist.gov/vuln/detail/CVE-2023-52338)| Deep Security Agent (Including Cloud One - Endpoint and Workload Security), **versions before** 20.0, Windows Platform | This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Deep Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. | **High** | 7.8  |
+| CVE ID                                                            | Product(s) Affected                                                                                                    | Summary                                                                                                                                                                                                                                                        | Severity | CVSS |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---- |
+| [CVE-2023-52338](https://nvd.nist.gov/vuln/detail/CVE-2023-52338) | Deep Security Agent (Including Cloud One - Endpoint and Workload Security), **versions before** 20.0, Windows Platform | This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Deep Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. | **High** | 7.8  |
 
 ## What has been observed?
 
