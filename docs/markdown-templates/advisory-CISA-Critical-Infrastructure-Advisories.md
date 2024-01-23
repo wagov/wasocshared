@@ -1,4 +1,4 @@
-# CISA Releases Multiple Critical Infrastructure Related Advisories - 2024MMDD00#
+# CISA Releases Multiple Critical Infrastructure Related Advisories - 2024MMDD00\#
 
 ## Overview
 
@@ -6,10 +6,10 @@ CISA has released multiple advisories for Critical Infrastructure related produc
 
 ## What is vulnerable?
 
-| Industry | Product | Advisory |
-| --- | --- | --- |
-| Healthcare and Public Health | BD FACSChorus | [ICSMA-23-331-01](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-23-331-01) |
-| Energy | Franklin Electric Fueling Systems Colibri | [ICSA-23-331-02](https://www.cisa.gov/news-events/ics-advisories/icsa-23-331-02) |
+| Industry                           | Product                                          | Advisory                                                                                                                                               |
+| ---------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Healthcare and Public Health       | BD FACSChorus                                    | [ICSMA-23-331-01](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-23-331-01)                                                             |
+| Energy                             | Franklin Electric Fueling Systems Colibri        | [ICSA-23-331-02](https://www.cisa.gov/news-events/ics-advisories/icsa-23-331-02)                                                                       |
 | Water and Wastewater Systems (WWS) | Unitronics programmable logic controllers (PLCs) | [General Alert released 2023-11-28](https://www.cisa.gov/news-events/alerts/2023/11/28/exploitation-unitronics-plcs-used-water-and-wastewater-systems) |
 
 ## Recommendation
