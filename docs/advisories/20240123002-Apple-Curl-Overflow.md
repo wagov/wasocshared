@@ -4,7 +4,7 @@
 
 Apple have released security advisories relating to several vulnerabilities impacting macOS Monterey, macOS Ventura, iOS, and iPadOS.
 
-# What is the vulnerability?
+## What is the vulnerability?
 
 | CVE                                                                             | Severity     | CVSS |
 | ------------------------------------------------------------------------------- | ------------ | ---- |
