@@ -1,4 +1,4 @@
-# CISA Releases Multiple Critical Infrastructure Related Advisories - 2024MMDD##\#
+# CISA Releases Multiple Critical Infrastructure Related Advisories - 2024MMDD00\#
 
 ## Overview
 
