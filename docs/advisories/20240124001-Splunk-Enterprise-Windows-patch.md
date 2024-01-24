@@ -10,7 +10,7 @@ Splunk has released information about a High severity vulnerability affecting Sp
 
 | CVE ID | Product(s) Affected                                                   | Summary                                                                                                                                                                                                                                                                                                 | Severity     | CVSS |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---- | ---|
-| [CVE-2024-23678](https://www.cve.org/CVERecord?id=CVE-2024-23678) | Splunk Enterprise for Windows **versions below** 9.0.8 and 9.1.3 | Splunk Enterprise for Windows does not correctly sanitize path input data. This results in the unsafe deserialization of untrusted data from a separate disk partition on the machine. This vulnerability only affects Splunk Enterprise for Windows. | **High** | 7.5  |
+| [CVE-2024-23678](https://nvd.nist.gov/vuln/detail/CVE-2024-23678) | Splunk Enterprise for Windows **versions below** 9.0.8 and 9.1.3 | Splunk Enterprise for Windows does not correctly sanitize path input data. This results in the unsafe deserialization of untrusted data from a separate disk partition on the machine. This vulnerability only affects Splunk Enterprise for Windows. | **High** | 7.5  |
 
 
 ## What has been observed?
