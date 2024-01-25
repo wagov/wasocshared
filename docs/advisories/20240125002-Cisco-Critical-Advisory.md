@@ -4,11 +4,25 @@
 
 Cisco has released software updates that addresses a vulnerability in multiple Cisco Unified Communications and Contact Center Solutions products could allow an unauthenticated, remote attacker to execute arbitrary code on an affected device.
 
+## What is the vulnerability?
+
+| CVE                                                             | Severity     | CVSS |
+| --------------------------------------------------------------- | ------------ | ---- |
+| [CVE-2024-20253](https://nvd.nist.gov/vuln/detail/CVE-2024-20253) | **Critical** | 9.9  |
+
 ## What is vulnerable?
 
-| CVE ID                                                            | Product(s) Affected                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Summary                                                                         | Severity     | CVSS |
-| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------ | ---- |
-| [CVE-2024-20253](https://nvd.nist.gov/vuln/detail/CVE-2024-20253) | Packaged Contact Center Enterprise (PCCE) ([CSCwe18830](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd64245)) **versions before** 12.0, Unified Communications Manager (Unified CM) ([CSCwd64245](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd64245)) **versions before** 11.5,Unified Communications Manager IM & Presence Service (Unified CM IM&P) ([CSCwd64276](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd64276)) **versions before** 11.5, Unified Communications Manager Session Management Edition (Unified CM SME) ([CSCwd64245](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd64245)) **versions before** 11.5,  Unified Contact Center Enterprise (UCCE) ([CSCwe18830](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd64245)) **versions before** 12.0, Unified Contact Center Express (UCCX) ([CSCwe18773](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd64245)) **versions before** 12.0, Unity Connection ([CSCwd64292](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd64245)) **versions before** 11.5, Virtualized Voice Browser (VVB) ([CSCwe18840](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd64245)) **versions before** 12.0 | Cisco Unified Communications Products Remote Code Execution (RCE) Vulnerability | **Critical** | 9.9  |
+| Product(s) Affected                    |                                                     |
+| -------------------------------------- | ------------------------------------------------------------------- |
+| Packaged Contact Center Enterprise (PCCE)   | **versions before** 12.0  |
+| Unified Communications Manager (Unified CM)  | **versions before** 11.5 |
+| Unified Communications Manager IM & Presence Service (Unified CM IM&P) | **versions before** 11.5 |
+| Unified Communications Manager Session Management Edition (Unified CM SME) | **versions before** 11.5 |
+| Unified Contact Center Enterprise (UCCE) | **versions before** 12.0 |
+| Unified Contact Center Express (UCCX)  | **versions before** 12.0 |
+| Unity Connection  | **versions before** 11.5|
+|Virtualized Voice Browser(VVB) | **versions before** 12.0 |
+
 
 ## What has been observed?
 
