@@ -7,7 +7,7 @@
 | Row 1     |     |     |
 | Row 2     |     |     |
 
-***Important Note***: All rows require the same number of column `|` seperators, even if the column will be empty.
+***Important Note***: All rows require the same number of column `|` separators, even if the column will be empty.
 
 ---
 
