@@ -1,4 +1,4 @@
-## Mozilla Releases Security Updates for Thunderbird and Firefox - 20240125001
+# Mozilla Releases Security Updates for Thunderbird and Firefox - 20240125001
 
 ## Overview
 
