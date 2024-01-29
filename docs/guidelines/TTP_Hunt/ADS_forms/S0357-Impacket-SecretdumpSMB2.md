@@ -12,9 +12,9 @@ Actor may use Impacket’s wmiexec, which redirects output to a file within the 
 Volt Typhoon activity
 
 **Reference:**\
-https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection\
-https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/\
-https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a\
+https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection%5C
+https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/%5C
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a%5C
 https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Attacker%20Tools%20Threat%20Protection%20Essentials/Hunting%20Queries/PotentialImpacketExecution.yaml
 
 #### ATT&CK TACTICS<br>
