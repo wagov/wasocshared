@@ -1,4 +1,4 @@
-## GitLab Critical Security Advisory - 20240129002
+# GitLab Critical Security Advisory - 20240129002
 
 ## Overview
 
