@@ -1,4 +1,4 @@
-## Cisco Critical Advisory - 20240125002
+# Cisco Critical Advisory - 20240125002
 
 ## Overview
 
