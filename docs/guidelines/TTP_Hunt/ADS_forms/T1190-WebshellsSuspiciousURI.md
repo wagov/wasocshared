@@ -13,7 +13,7 @@ NA
 common persistance
 
 **Reference:**\
-https://attack.mitre.org/techniques/T1505/003/\
+https://attack.mitre.org/techniques/T1505/003/%5C
 https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/W3CIISLog/RareClientFileAccess.yaml
 
 #### ATT&CK TACTICS
