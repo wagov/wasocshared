@@ -6,17 +6,17 @@ Juniper has released a security advisories relating to Missing Authentication fo
 
 ## What is vulnerable?
 
-| Product(s) Affected | Summary | Severity     | CVSS |
-| ------------------- | ------- | ------------ | ---- |
-| **20.4R3-S9** |         | **High** | 8.8  |
-| **21.2R3-S7** |         | **High** | 8.8  |
-| **21.3R3-S5** |         | **High** | 8.8  |
-| **21.4R3-S6** |         | **High** | 8.8  |
-| **22.1R3-S5** |         | **High** | 8.8  |
-| **22.2R3-S3** |         | **High** | 8.8  |
-| **22.3R3-S2** |         | **High** | 8.8  |
-| **22.4R3** |            | **High** | 8.8  |
-| **23.2R1-S2, 23.2R2**   |          | **High** | 8.8  |
+| Product(s) Affected | Severity     | CVSS |
+| ------------------- | ------------ | ---- |
+| **20.4R3-S9** | **High** | 8.8  |
+| **21.2R3-S7** | **High** | 8.8  |
+| **21.3R3-S5** | **High** | 8.8  |
+| **21.4R3-S6** | **High** | 8.8  |
+| **22.1R3-S5** | **High** | 8.8  |
+| **22.2R3-S3** | **High** | 8.8  |
+| **22.3R3-S2** | **High** | 8.8  |
+| **22.4R3** | **High** | 8.8  |
+| **23.2R1-S2, 23.2R2**   | **High** | 8.8  |
 
 
 ## What has been observed?
