@@ -12,7 +12,7 @@ Detects potential QBot activity by looking for process executions used previousl
 Malware
 
 **Reference**\
-https://github.com/SigmaHQ/sigma/blob/4de6102dc7d94c9ee70995aeea27b77184d62c35/rules-emerging-threats/2019/Malware/QBot/proc_creation_win_malware_qbot.yml#L4\
+https://github.com/SigmaHQ/sigma/blob/4de6102dc7d94c9ee70995aeea27b77184d62c35/rules-emerging-threats/2019/Malware/QBot/proc_creation_win_malware_qbot.yml#L4%5C
 https://www.trendmicro.com/en_au/research/22/j/black-basta-infiltrates-networks-via-qakbot-brute-ratel-and-coba.html
 
 #### ATT&CK TACTICS

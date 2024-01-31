@@ -13,12 +13,12 @@ CobaltStrike uses named pipes for communication between processes. Default beaco
 CobaltStrike
 
 **Reference:**\
-https://github.com/SigmaHQ/sigma/blob/dcfb4c5c28431dcdc1d26ed4e008945965afd8ed/rules/windows/pipe_created/pipe_created_mal_cobaltstrike.yml#L4\
-https://twitter.com/d4rksystem/status/1357010969264873472\
-https://labs.f-secure.com/blog/detecting-cobalt-strike-default-modules-via-named-pipe-analysis/\
-https://github.com/SigmaHQ/sigma/issues/253\
-https://blog.cobaltstrike.com/2021/02/09/learn-pipe-fitting-for-all-of-your-offense-projects/\
-https://redcanary.com/threat-detection-report/threats/cobalt-strike/\
+https://github.com/SigmaHQ/sigma/blob/dcfb4c5c28431dcdc1d26ed4e008945965afd8ed/rules/windows/pipe_created/pipe_created_mal_cobaltstrike.yml#L4%5C
+https://twitter.com/d4rksystem/status/1357010969264873472%5C
+https://labs.f-secure.com/blog/detecting-cobalt-strike-default-modules-via-named-pipe-analysis/%5C
+https://github.com/SigmaHQ/sigma/issues/253%5C
+https://blog.cobaltstrike.com/2021/02/09/learn-pipe-fitting-for-all-of-your-offense-projects/%5C
+https://redcanary.com/threat-detection-report/threats/cobalt-strike/%5C
 https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/Microsoft%20365%20Defender/Command%20and%20Control/C2-NamedPipe.yaml
 
 #### ATT&CK TACTICS<br>
