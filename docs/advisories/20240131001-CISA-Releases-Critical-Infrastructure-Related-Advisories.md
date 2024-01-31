@@ -6,9 +6,9 @@ CISA has released Critical Infrastructure related advisories.
 
 ## What is vulnerable?
 
-| Industry                                                   | Product                                                            | Advisory                                                                                   |
-| ---------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-|  Energy, Chemical                                                   | Emerson Rosemount GC370XA, GC700XA, GC1500XA | [ICSA-24-030-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-030-01)           |
+| Industry         | Product                                      | Advisory                                                                         |
+| ---------------- | -------------------------------------------- | -------------------------------------------------------------------------------- |
+| Energy, Chemical | Emerson Rosemount GC370XA, GC700XA, GC1500XA | [ICSA-24-030-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-030-01) |
 
 ## Recommendation
 
