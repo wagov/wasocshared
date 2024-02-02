@@ -44,7 +44,7 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1543.003    | Create or Modify System Process                                        | [File](https://attack.mitre.org/datasources/DS0022/), [Windows Registry](https://attack.mitre.org/datasources/DS0024), [Process](https://attack.mitre.org/datasources/DS0009/), [Application Log](https://attack.mitre.org/datasources/DS0015/) | [Create or Modify System Process - Remote Access Tool Services Have Been Installed](./ADS_forms/T1543.003-Create-or-Modify-System-Process-Remote-Access-Tool-Services-Have-Been-Installed.md) |
 | T1543.003    | Potential Persistence Attempt Via Existing Service Tampering (reg.exe) | [Process](https://attack.mitre.org/datasources/DS0009/)                                                                                                                                                                                         | [Potential Persistence Attempt Via Existing Service Tampering (reg.exe)](<./ADS_forms/T1543.003-Potential-Persistence-Attempt-Via-Existing-Service-Tampering-(reg.exe).md>)                   |
 | T1543.003    | Potential Persistence Attempt Via Existing Service Tampering (sc.exe)  | [Process](https://attack.mitre.org/datasources/DS0009/)                                                                                                                                                                                         | [Potential Persistence Attempt Via Existing Service Tampering (sc.exe)](<./ADS_forms/T1543.003-Potential-Persistence-Attempt-Via-Existing-Service-Tampering(sc.exe).md>)                      |
-| T1053.005    | Diamond Sleet APT Scheduled Task Creation - Registry  | [Windows Registry](https://attack.mitre.org/datasources/DS0024/)  | [Diamond Sleet APT Scheduled Task Creation - Registry](<./ADS_forms/T1053.005-Diamond-Sleet-APT-Scheduled-Task-Creation-Registry.md>)                      |
+| T1053.005    | Diamond Sleet APT Scheduled Task Creation - Registry                   | [Windows Registry](https://attack.mitre.org/datasources/DS0024/)                                                                                                                                                                                | [Diamond Sleet APT Scheduled Task Creation - Registry](./ADS_forms/T1053.005-Diamond-Sleet-APT-Scheduled-Task-Creation-Registry.md)                                                           |
 
 ## Defense Evasion
 
@@ -55,11 +55,9 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1562.002    | Disable Windows Logging MiniNT                          | [Windows Registry](https://attack.mitre.org/datasources/DS0024) | [ImpairDefenses - Disable Windows Logging Mini NT](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingMiniNT.md)                   |
 | T1562.002    | Impair Defenses: Disable Windows Logging on EventID     | [Active Directory](https://attack.mitre.org/datasources/DS0026) | [ImpairDefenses - Disable Windows Logging on EventID](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingonEventID.md)             |
 | T1562.002    | Impair Defenses: Disable Windows Logging using wevtutil | [Process](https://attack.mitre.org/datasources/DS0009/)         | [Impair Defenses: Disable Windows Logging using wevtutil](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingWevtutil.md)          |
-| T1027.006 | HTML Smuggling |  [NA](<>)  | [HTML Smuggling](./ADS_forms/T1027.006-HTMLSmuggling.md)|
+| T1027.006    | HTML Smuggling                                          | [NA](<>)                                                        | [HTML Smuggling](./ADS_forms/T1027.006-HTMLSmuggling.md)                                                                                  |
 
 <!-- | T1562.002 | Disable Windows Logging Multi |  [Command](https://attack.mitre.org/datasources/DS0017)  | [ImpairDefenses - Disable Windows Logging Multi](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingMulti.md)| Removed -->
-
-
 
 ## Credential Access
 
@@ -106,4 +104,3 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | S0650        | QakBot                | [Command](https://attack.mitre.org/datasources/DS0017/)        | [Qakbot - Process Execution](./ADS_forms/S0650-Qakbot-ProcessExecution.md)                   |
 | S0650        | QakBot                | [Command](https://attack.mitre.org/datasources/DS0017/)        | [Qakbot - Defender Exclusions](./ADS_forms/S0650-Qakbot-DefenderExclusions.md)               |
 | S0521        | Bloodhound/Sharphound | [Command](https://attack.mitre.org/datasources/DS0017/)        | [Bloodhound/Sharphound - Execution Commandlets](./ADS_forms/S0521-BloodHound-Commandlets.md) |
-
