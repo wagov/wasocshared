@@ -9,7 +9,7 @@ The query tries to detect suspicious DNS queries known from Cobalt Strike beacon
 
 > aaa.stage.\[encryptedstage\].MaliciousDomain.com,\
 > baa.stage.\[encryptedstage\].MaliciousDomain.com,\
-> caa.stage.\[encryptedstage\].MaliciousDomain.com\
+> caa.stage.\[encryptedstage\].MaliciousDomain.com,
 > post.\[EncryptedData\].\[RandomValue\].MaliciousDomain.com
 
 **Related**\
@@ -42,8 +42,6 @@ let badNames = dynamic(["aaa.stage","baa.stage","caa.stage", "post.1"]);
 | where DNSName has_any (badNames)
 | extend Domain = DNSName, RemoteIP = RemoteIp
 ))
-| summarize StartTimeUtc = min(TimeGenerated), EndTimeUtc = max(TimeGenerated) by Domain, SourceIp, RemoteIP, Computer
-| extend timestamp = StartTimeUtc, HostCustomEntity = Computer, IPCustomEntity = RemoteIP
 ```
 
 #### Triage
@@ -53,4 +51,4 @@ let badNames = dynamic(["aaa.stage","baa.stage","caa.stage", "post.1"]);
 
 #### VERSION
 
-Version 1.0 (date: 10/07/2023)
+Version 2.0 (date: 19/12/2023)

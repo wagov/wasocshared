@@ -25,7 +25,7 @@ Data Source(s): [Process](https://attack.mitre.org/datasources/DS0009/), [Comman
 
 #### SENTINEL RULE QUERY
 
-```kusto
+```
 (union isfuzzy=true
   (SecurityEvent
   | where EventID == '5145'
