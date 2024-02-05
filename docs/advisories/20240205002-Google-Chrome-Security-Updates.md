@@ -6,9 +6,9 @@ Google has released new updates for Google Chrome to address a Use-After-Free in
 
 ## What is vulnerable?
 
-| Product(s) Affected | Summary | Severity     | CVSS |
-| ------------------- | ------- | ------------ | ---- |
-| **Google Chrome** <br /> Versions Prior to: 121.0.6167.139  | This vulnerability could allow a remote attacker to potentially exploit heap corruption via a malicious file. | **NA**       | N.A  |
+| Product(s) Affected                                        | Summary                                                                                                       | Severity | CVSS |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------- | ---- |
+| **Google Chrome** <br /> Versions Prior to: 121.0.6167.139 | This vulnerability could allow a remote attacker to potentially exploit heap corruption via a malicious file. | **NA**   | N.A  |
 
 ## Recommendation
 
