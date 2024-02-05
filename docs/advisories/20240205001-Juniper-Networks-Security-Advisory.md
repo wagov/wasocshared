@@ -1,4 +1,4 @@
-## Juniper Networks Security Advisory - 20240205001
+# Juniper Networks Security Advisory - 20240205001
 
 ## Overview
 
