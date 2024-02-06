@@ -1,15 +1,13 @@
-### S0154 - Cobalt Strike: DNS Beaconing
-
-#### DESCRIPTION
+## S0154 - Cobalt Strike: DNS Beaconing
 
 Cobalt Strike is a famous Pen Test tool that is used by pen testers as well as attackers alike to compromise an environment.
 The query tries to detect suspicious DNS queries known from Cobalt Strike beacons.
 
 !!! example
     ```
-    aaa.stage.[encryptedstage].MaliciousDomain.com,
-    baa.stage.[encryptedstage].MaliciousDomain.com,
-    caa.stage.[encryptedstage].MaliciousDomain.com,
+    aaa.stage.[encryptedstage].MaliciousDomain.com
+    baa.stage.[encryptedstage].MaliciousDomain.com
+    caa.stage.[encryptedstage].MaliciousDomain.com
     post.[EncryptedData].[RandomValue].MaliciousDomain.com
     ```
 
@@ -21,13 +19,13 @@ The query tries to detect suspicious DNS queries known from Cobalt Strike beacon
     - <https://blog.sekoia.io/hunting-and-detecting-cobalt-strike/%5C>
     - <https://blog.gigamon.com/2017/07/26/footprints-of-fin7-tracking-actor-patterns-part-1/>
 
-#### ATT&CK TACTICS
+### ATT&CK TACTICS
 
 {{mitre("S0154")}}
 
 Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029)
 
-#### SENTINEL RULE QUERY
+### SENTINEL RULE QUERY
 
 ```kusto
 let badNames = dynamic(["aaa.stage","baa.stage","caa.stage", "post.1"]);
@@ -45,11 +43,11 @@ let badNames = dynamic(["aaa.stage","baa.stage","caa.stage", "post.1"]);
 ))
 ```
 
-#### Triage
+### Triage
 
 1. Inspect DNS queries and destination IP
 1. Note source of endpoint beaconing
 
-#### VERSION
+### VERSION
 
 Version 2.0 (date: 19/12/2023)

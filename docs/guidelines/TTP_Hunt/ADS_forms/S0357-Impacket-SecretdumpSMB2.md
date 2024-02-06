@@ -1,29 +1,28 @@
-### S0357 - Impacket Secretdump with SMB2
-
-#### DESCRIPTION
+## S0357 - Impacket Secretdump with SMB2
 
 Actor may use Impacket’s wmiexec, which redirects output to a file within the victim host’s ADMIN$ share (C:\\Windows) containing an epoch timestamp in its name.
 
-**Example:**
+!!! example
+    ```
+    cmd.exe /Q /c dir 1> \\127.0.0.1\\ADMIN$\_\_1684944005.9400265 2>&1
+    ```
 
-> cmd.exe /Q /c dir 1> \\127.0.0.1\\ADMIN$\_\_1684944005.9400265 2>&1
+!!! tip "Related"
+    Volt Typhoon activity
 
-**Related**\
-Volt Typhoon activity
+!!! abstract "Reference"
+    - <https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection>
+    - <https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/>
+    - <https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a>
+    - <https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Attacker%20Tools%20Threat%20Protection%20Essentials/Hunting%20Queries/PotentialImpacketExecution.yaml>
 
-**Reference:**\
-https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection%5C
-https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/%5C
-https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a%5C
-https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Attacker%20Tools%20Threat%20Protection%20Essentials/Hunting%20Queries/PotentialImpacketExecution.yaml
-
-#### ATT&CK TACTICS<br>
+### ATT&CK TACTICS
 
 {{mitre("S0357")}}
 
 Data Source(s): [Process](https://attack.mitre.org/datasources/DS0009/), [Command](https://attack.mitre.org/datasources/DS0017/)
 
-#### SENTINEL RULE QUERY
+### SENTINEL RULE QUERY
 
 ```
 (union isfuzzy=true
@@ -50,12 +49,12 @@ Data Source(s): [Process](https://attack.mitre.org/datasources/DS0009/), [Comman
   | extend Host_0_DnsDomain = DnsDomain
 ```
 
-#### Triage
+### Triage
 
 1. Identify user/service triggering the activity
 1. Validate .tmp file names and location
 1. Investigate further if the activity is expected and approved
 
-#### VERSION
+### VERSION
 
 Version 1.1 (date: 26/10/2023)

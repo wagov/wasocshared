@@ -9,8 +9,8 @@ The larger the execution window for this query the more reliable the results ret
 **example:**\
 NA
 
-**Related**\
-common persistance
+!!! tip "Related"
+    common persistance
 
 **Reference:**\
 https://attack.mitre.org/techniques/T1505/003/%5C
