@@ -8,8 +8,8 @@ The actor has executed commands to gather information about the storage devices 
 
 > "cmd.exe /C "wmic path win32_logicaldisk get caption,filesystem,freespace,size,volumename"
 
-**Related**\
-Volt Typhoon activity
+!!! tip "Related"
+    Volt Typhoon activity
 
 **Reference**\
 https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection
