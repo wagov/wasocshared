@@ -6,14 +6,13 @@ VMware released a security advisory to address multiple vulnerabilities in Aria 
 
 ## What is vulnerable?
 
-| Product(s) Affected | Summary | Severity     | CVSS |
-| ------------------- | ------- | ------------ | ---- |
-| **Aria Operations for Networks** |         | |   |
-|  - Local Privilege Escalation vulnerability (CVE-2024-22237) |         | **High** | 7.8  |
-| - Cross Site Scripting Vulnerability (CVE-2024-22238) |         | **Medium** | 6.4 |
+| Product(s) Affected                                         | Summary | Severity   | CVSS |
+| ----------------------------------------------------------- | ------- | ---------- | ---- |
+| **Aria Operations for Networks**                            |         |            |      |
+| - Local Privilege Escalation vulnerability (CVE-2024-22237) |         | **High**   | 7.8  |
+| - Cross Site Scripting Vulnerability (CVE-2024-22238)       |         | **Medium** | 6.4  |
 | - Local Privilege Escalation vulnerability (CVE-2024-22239) |         | **Medium** | 5.3  |
-| - Local File Read vulnerability (CVE-2024-22240) |         | **Medium** | 4.9  |
-
+| - Local File Read vulnerability (CVE-2024-22240)            |         | **Medium** | 4.9  |
 
 ## Recommendation
 
