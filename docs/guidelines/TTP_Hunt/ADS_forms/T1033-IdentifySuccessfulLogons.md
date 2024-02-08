@@ -8,8 +8,8 @@ The actor gathered information about successful logons to the host using a Power
 
 > Get-EventLog security -instanceid 4624
 
-**Related**\
-Volt Typhoon activity
+!!! tip "Related"
+    Volt Typhoon activity
 
 **Reference**\
 https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection

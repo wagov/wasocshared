@@ -10,8 +10,8 @@ The actor has executed WMIC commands to create a copy of the ntds.dit file and S
 > wmic process call create "cmd.exe /c ntdsutil "ac i ntds" ifm "create full C:\\Windows\\Temp\\Pro"\
 > wmic process call create "cmd.exe /c mkdir C:\\Windows\\Temp\\tmp & ntdsutil "ac i ntds" ifm
 
-**Related**\
-Volt Typhoon activity
+!!! tip "Related"
+    Volt Typhoon activity
 
 **Reference**\
 https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection

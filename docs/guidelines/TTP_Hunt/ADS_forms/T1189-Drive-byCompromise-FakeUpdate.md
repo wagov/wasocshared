@@ -9,8 +9,8 @@ Detects the existence of FakeUpdate .zip file, commonly associated with SocGholi
 > Edge.6ebddd.zip\
 > Edge.7a859a.zip
 
-**Related**\
-https://www.secureworks.com/research/threat-profiles/gold-prelude
+!!! tip "Related"
+    <https://www.secureworks.com/research/threat-profiles/gold-prelude>
 
 **Reference:**\
 https://redcanary.com/threat-detection-report/threats/socgholish/
