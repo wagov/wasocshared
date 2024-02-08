@@ -6,8 +6,8 @@ Cisco has released a security advisory relating to multiple vulnerabilities for 
 
 ## What is vulnerable?
 
-| Product(s) Affected                                               | Summary | Severity                                                                                                                                                                       | CVSS |
-| ----------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
+| Product(s) Affected                                                   | Summary | Severity                                                                                                                                                                       | CVSS |
+| --------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
 | **[CVE-2024-20252](https://nvd.nist.gov/vuln/detail/CVE-2024-20252)** |         | **[CRITICAL](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-20252&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H&version=3.1&source=Cisco%20Systems,%20Inc.)** | 9.6  |
 | **[CVE-2024-20254](https://nvd.nist.gov/vuln/detail/CVE-2024-20254)** |         | **[CRITICAL](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-20254&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H&version=3.1&source=Cisco%20Systems,%20Inc.)** | 9.6  |
 | **[CVE-2024-20255](https://nvd.nist.gov/vuln/detail/CVE-2024-20255)** |         | **[HIGH](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-20255&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:L&version=3.1&source=Cisco%20Systems,%20Inc.)**     | 8.2  |
