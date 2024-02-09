@@ -3,10 +3,11 @@
 ## Overview
 
 Use after free in Mojo in Google Chrome prior to 121.0.6167.160 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+
 ## What is vulnerable?
 
-| Product(s) Affected              | Summary                                                               | Severity     | CVSS |
-| -------------------------------- | --------------------------------------------------------------------- | ------------ | ---- |
+| Product(s) Affected                       | Summary                                                             | Severity | CVSS |
+| ----------------------------------------- | ------------------------------------------------------------------- | -------- | ---- |
 | from 121.0.6167.160 before 121.0.6167.160 | [**CVE-2024-1284**](https://nvd.nist.gov/vuln/detail/CVE-2024-1284) | **High** | N/A  |
 
 ## What has been observed?
