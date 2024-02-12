@@ -11,9 +11,9 @@ Qbot used reg.exe to add Defender folder exceptions for folders within AppData a
 !!! tip "Related"
     Malware
 
-**Reference**\
-https://github.com/SigmaHQ/sigma/blob/4de6102dc7d94c9ee70995aeea27b77184d62c35/rules/windows/process_creation/proc_creation_win_reg_defender_exclusion.yml#L4%5C
-https://thedfirreport.com/2022/02/07/qbot-likes-to-move-it-move-it/
+!!! abstract "Reference"
+    - <https://github.com/SigmaHQ/sigma/blob/4de6102dc7d94c9ee70995aeea27b77184d62c35/rules/windows/process_creation/proc_creation_win_reg_defender_exclusion.yml#L4>
+    - <https://thedfirreport.com/2022/02/07/qbot-likes-to-move-it-move-it/>
 
 ### ATT&CK TACTICS
 
