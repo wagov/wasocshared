@@ -8,7 +8,7 @@ Adobe has released security updates to address vulnerabilities in Adobe software
 
 | Product(s) Affected | Summary | Severity | CVSS |
 
----------------------------------------------------
+---
 
 - [Adobe Commerce and Magento](https://helpx.adobe.com/security/products/magento/apsb24-03.html)
 
