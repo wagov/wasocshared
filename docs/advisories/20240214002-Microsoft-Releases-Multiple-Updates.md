@@ -6,12 +6,10 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 
 ## What is vulnerable?
 
-| Product(s) Affected | Summary | Severity     | CVSS |
-| ------------------- | ------- | ------------ | ---- |
-| **Internet Shortcut Files Security Feature Bypass Vulnerability** | CVE-2024-21412 | **High** | 8.1  |
-| [**February 2024 Security Updates**](https://msrc.microsoft.com/update-guide/releaseNote/2024-Feb) |  | |  |
-
-
+| Product(s) Affected                                                                                | Summary        | Severity | CVSS |
+| -------------------------------------------------------------------------------------------------- | -------------- | -------- | ---- |
+| **Internet Shortcut Files Security Feature Bypass Vulnerability**                                  | CVE-2024-21412 | **High** | 8.1  |
+| [**February 2024 Security Updates**](https://msrc.microsoft.com/update-guide/releaseNote/2024-Feb) |                |          |      |
 
 ## Recommendation
 
