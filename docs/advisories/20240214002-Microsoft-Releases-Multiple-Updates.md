@@ -12,9 +12,13 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 | **Internet Shortcut Files Security Feature Bypass Vulnerability**                                  | [CVE-2024-21412](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21412) | **High** | 8.1  | **Yes**             |
 | **Windows SmartScreen Security Feature Bypass Vulnerability**                                      | [CVE-2024-21351](https://nvd.nist.gov/vuln/detail/CVE-2024-21351)                      | **High** | 7.6  | **Yes**             |
 
+## What has been observed?
+
+CISA added this vulnerability in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe (refer [Patch Management](../guidelines/patch-management.md)).
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *two weeks* (refer [Patch Management](../guidelines/patch-management.md)).
 
 ## Additional References
 
