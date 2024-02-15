@@ -10,7 +10,7 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------- | ---- | ------------------- |
 | [**February 2024 Security Updates**](https://msrc.microsoft.com/update-guide/releaseNote/2024-Feb) |                                                                                        |          |      |                     |
 | **Internet Shortcut Files Security Feature Bypass Vulnerability**                                  | [CVE-2024-21412](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21412) | **High** | 8.1  | **Yes**             |
-| **Windows SmartScreen Security Feature Bypass Vulnerability**                                  | [CVE-2024-21351](https://nvd.nist.gov/vuln/detail/CVE-2024-21351) | **High** | 7.6  | **Yes**             |
+| **Windows SmartScreen Security Feature Bypass Vulnerability**                                      | [CVE-2024-21351](https://nvd.nist.gov/vuln/detail/CVE-2024-21351)                      | **High** | 7.6  | **Yes**             |
 
 ## Recommendation
 
