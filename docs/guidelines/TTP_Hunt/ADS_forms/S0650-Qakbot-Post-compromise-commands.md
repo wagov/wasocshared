@@ -12,8 +12,8 @@ nslookup -querytype=ALL -timeout=12 \_ldap.\_tcp.dc.\_msdcs.\<domain_fqdn>
 Malware
 
 **Reference**\
-https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/blob/22cf7b2e0ef909e3f8ba1b39e2a8e897b6f49fb5/Defender%20For%20Endpoint/QakbotPostCompromiseCommandsExecuted.md?plain=1\
-https://github.com/Azure/Azure-Sentinel/blob/2030f55a46b18e9d9723b06557d0653f38e21724/Hunting%20Queries/Microsoft%20365%20Defender/Campaigns/Qakbot/Qakbot%20reconnaissance%20activities.yaml#L2\
+https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules/blob/22cf7b2e0ef909e3f8ba1b39e2a8e897b6f49fb5/Defender%20For%20Endpoint/QakbotPostCompromiseCommandsExecuted.md?plain=1%5C
+https://github.com/Azure/Azure-Sentinel/blob/2030f55a46b18e9d9723b06557d0653f38e21724/Hunting%20Queries/Microsoft%20365%20Defender/Campaigns/Qakbot/Qakbot%20reconnaissance%20activities.yaml#L2%5C
 https://www.trendmicro.com/en_au/research/22/j/black-basta-infiltrates-networks-via-qakbot-brute-ratel-and-coba.html
 
 #### ATT&CK TACTICS <br />
