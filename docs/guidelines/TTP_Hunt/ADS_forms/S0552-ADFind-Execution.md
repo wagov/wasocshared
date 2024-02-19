@@ -22,9 +22,9 @@ Detects the use of Adfind. AdFind continues to be seen across majority of breach
 Common tool
 
 **Reference:**\
-https://github.com/SigmaHQ/sigma/blob/cac07b8ecd07ffe729ed82dfa2082fdb6a1ceabc/rules/windows/process_creation/proc_creation_win_pua_adfind_susp_usage.yml\
+https://github.com/SigmaHQ/sigma/blob/cac07b8ecd07ffe729ed82dfa2082fdb6a1ceabc/rules/windows/process_creation/proc_creation_win_pua_adfind_susp_usage.yml%5C
 https://github.com/SigmaHQ/sigma/blob/b9c0dd661eac6b6efdb47f7cfcbb20b5a5c169da/rules/windows/process_creation/proc_creation_win_renamed_adfind.yml
-https://thedfirreport.com/2020/05/08/adfind-recon/\
+https://thedfirreport.com/2020/05/08/adfind-recon/%5C
 https://thedfirreport.com/2021/01/11/trickbot-still-alive-and-well/
 
 #### ATT&CK TACTICS  <br />

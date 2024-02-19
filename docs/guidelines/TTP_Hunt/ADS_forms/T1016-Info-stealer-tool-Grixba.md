@@ -12,8 +12,8 @@ Imageload log containing file name costura.commandline.dll which is used by Grix
 Play ransomware
 
 **Reference:**\
-https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a\
-https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/play-ransomware-volume-shadow-copy\
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a%5C
+https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/play-ransomware-volume-shadow-copy%5C
 https://www.bleepingcomputer.com/news/security/play-ransomware-gang-uses-custom-shadow-volume-copy-data-theft-tool/
 
 #### ATT&CK TACTICS <br />
