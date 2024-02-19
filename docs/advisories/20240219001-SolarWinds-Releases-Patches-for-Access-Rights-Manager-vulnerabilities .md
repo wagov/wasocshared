@@ -1,4 +1,4 @@
-# SolarWinds Releases Patches for vulnerabilities - 20240219001
+# SolarWinds Releases Patches for Vulnerabilities - 20240219001
 
 ## Overview
 
