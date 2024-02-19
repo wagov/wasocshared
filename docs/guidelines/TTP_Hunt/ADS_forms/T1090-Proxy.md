@@ -9,8 +9,8 @@ Adversary may use connection proxy to direct network traffic between systems or 
 > "cmd.exe /c "netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=9999 connectaddress=<internal ip address> connectport=8443 protocol=tcp""
 > "cmd.exe /c netsh interface portproxy add v4tov4 listenport=50100 listenaddress=0.0.0.0 connectport=1433 connectaddress=<internal ip address>"
 
-!!! tip "Related"
-    Volt Typhoon activity
+**Related**\
+Volt Typhoon activity
 
 **Reference:**\
 https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection

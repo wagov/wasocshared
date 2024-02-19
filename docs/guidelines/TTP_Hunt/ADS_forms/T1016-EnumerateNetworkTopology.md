@@ -9,8 +9,8 @@ Detects commands that are used to enumerate the network topology.
 > curl www\<.>ip-api\<.>com\
 > ldifde.exe -f c:\\windows\\temp\\cisco_up.txt -p subtree
 
-!!! tip "Related"
-    Volt Typhoon activity
+**Related**\
+Volt Typhoon activity
 
 **Reference**\
 https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection
