@@ -7,8 +7,9 @@ Detects potential successful AITM-Phishing-Login based on risk sign in level and
 **Example:**\
 Successful Sign-in logs with ResultType == "0" from a malicious (unexpected) IP Address
 
-!!! tip "Related"
-    <https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigating-a-multi-stage-aitm-phishing-and-bec-campaign/>
+**Related**
+
+https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigating-a-multi-stage-aitm-phishing-and-bec-campaign/
 
 **Reference:**
 
