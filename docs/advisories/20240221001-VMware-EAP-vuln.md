@@ -18,7 +18,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of**48 hours** (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of **48 hours** (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [Removing the deprecated VMware Enhanced Authentication Plugin (EAP) to address CVE-2024-22245 and CVE-2024-22250](https://kb.vmware.com/s/article/96442)
 
