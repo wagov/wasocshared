@@ -14,7 +14,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendations
 
-The WA SOC recommends agencies to proactively enagage with vendor management/supply chain on the patch of these services. (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends agencies to upgrade to version 23.9.8 and proactively enagage with vendor management/supply chain on the patch of these services. (refer [Patch Management](../guidelines/patch-management.md)):
 
 ## Additional References
 
