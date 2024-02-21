@@ -8,9 +8,9 @@ A malicious actor could trick a target domain user with EAP installed in their w
 
 ## What is vulnerable?
 
-| Product(s) Affected | Summary | Severity     | CVSS |
-| ------------------- | ------- | ------------ | ---- |
-| VMware Enhanced Authentication Plug-in (EAP) - **Any version** | Component is deprecated and should be removed        | **Critical** | 9.6  |
+| Product(s) Affected                                            | Summary                                       | Severity     | CVSS |
+| -------------------------------------------------------------- | --------------------------------------------- | ------------ | ---- |
+| VMware Enhanced Authentication Plug-in (EAP) - **Any version** | Component is deprecated and should be removed | **Critical** | 9.6  |
 
 ## What has been observed?
 
