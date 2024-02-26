@@ -1,4 +1,4 @@
-# Microsoft Edge (Chromium-based) Spoofing and Information Disclosure Vulnerabilities - 20240226001
+# Microsoft Edge Spoofing and Information Disclosure Vulnerabilities - 20240226001
 
 ## Overview
 
