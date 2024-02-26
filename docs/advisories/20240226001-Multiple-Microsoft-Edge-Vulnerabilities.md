@@ -9,11 +9,10 @@ Microsoft has released security advisories relating to multiple vulnerabilities 
 
 ## What is vulnerable?
 
-| Product(s) Affected | Summary | Severity     | CVSS |
-| ------------------- | ------- | ------------ | ---- |
-| **versions before** <br> 122.0.2365.52 |  [CVE-2024-26188](https://nvd.nist.gov/vuln/detail/CVE-2024-26188)       | **Low** | 4.3  |
-| **versions before** <br> 122.0.2365.52 |  [CVE-2024-26192](https://nvd.nist.gov/vuln/detail/CVE-2024-26192)   | **High** | 8.2 |
-
+| Product(s) Affected                    | Summary                                                           | Severity | CVSS |
+| -------------------------------------- | ----------------------------------------------------------------- | -------- | ---- |
+| **versions before** <br> 122.0.2365.52 | [CVE-2024-26188](https://nvd.nist.gov/vuln/detail/CVE-2024-26188) | **Low**  | 4.3  |
+| **versions before** <br> 122.0.2365.52 | [CVE-2024-26192](https://nvd.nist.gov/vuln/detail/CVE-2024-26192) | **High** | 8.2  |
 
 ## What has been observed?
 
