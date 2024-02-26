@@ -2,10 +2,8 @@
 
 ## Overview
 
-Microsoft has released security advisories relating to multiple vulnerabilities present in select Microsoft Edge versions. An attacker who successfully exploited these vulnerabilities could:
-
-- Cover and spoof elements of the UI.
-- Lead to a browser sandbox escape.
+Microsoft has released security advisories relating to multiple vulnerabilities present in select Microsoft Edge versions. 
+An attacker who has successfully exploited these vulnerabilities could obfuscate and spoof of elements in the UI and lead to escape of the browser sandbox environment.
 
 ## What is vulnerable?
 
