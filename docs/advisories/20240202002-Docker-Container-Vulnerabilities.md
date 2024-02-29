@@ -6,12 +6,12 @@ An attacker could use the core container infrastructure components of docker con
 
 ## What is vulnerable?
 
-| Component(s) Affected      | CVE                                                               | Severity     | CVSS |
-| -------------------------- | ----------------------------------------------------------------- | ------------ | ---- |
-| OCI runc                   | [CVE-2024-21626](https://nvd.nist.gov/vuln/detail/CVE-2024-21626) | **High**     | 8.6  |
-| Buildkit Mount             | [CVE-2024-23653](https://nvd.nist.gov/vuln/detail/CVE-2024-23651) | **High**     | 8.7  |
-| Buildkit GRPC SecurityMode | [CVE-2024-23653](https://nvd.nist.gov/vuln/detail/CVE-2024-23653) | **Critical** | 10.0 |
-| BuildKit Buildtime         | [CVE-2024-23652](https://nvd.nist.gov/vuln/detail/CVE-2024-23652) | **Critical** | 9.8  |
+| Component(s) Affected      | CVE                                                               | Severity     | CVSS | Exploitation | Dated |
+| -------------------------- | ----------------------------------------------------------------- | ------------ | ---- | --- | -- |
+| OCI runc                   | [CVE-2024-21626](https://nvd.nist.gov/vuln/detail/CVE-2024-21626) | **High**     | 8.6  |Yes| 18.02.2024
+| Buildkit Mount             | [CVE-2024-23651](https://nvd.nist.gov/vuln/detail/CVE-2024-23651) | **High**     | 7.4  |No| 08.02.2024 |
+| Buildkit GRPC SecurityMode | [CVE-2024-23653](https://nvd.nist.gov/vuln/detail/CVE-2024-23653) | **Critical** | 9.8 |No|08.02.2024 |
+| BuildKit Buildtime         | [CVE-2024-23652](https://nvd.nist.gov/vuln/detail/CVE-2024-23652) | **Critical** | 9.1  |No|08.02.2024 |
 
 ## What has been observed?
 
