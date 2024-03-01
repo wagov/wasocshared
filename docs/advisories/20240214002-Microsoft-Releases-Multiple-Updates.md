@@ -6,9 +6,6 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 
 ## What is vulnerable?
 
-\<\<\<\<\<\<\< HEAD
-\<\<\<\<\<\<\< HEAD
-
 | Product(s) Affected                                                                                | Summary                                                                                | Severity     | CVSS | Active Exploitation | Dated        |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------ | ---- | ------------------- | ------------ |
 | [**February 2024 Security Updates**](https://msrc.microsoft.com/update-guide/releaseNote/2024-Feb) |                                                                                        |              |      |                     | 13 Feb, 2024 |
