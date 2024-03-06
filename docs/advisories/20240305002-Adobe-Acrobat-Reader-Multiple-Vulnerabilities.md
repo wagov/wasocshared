@@ -8,7 +8,7 @@ Adobe Acrobat Reader contains multiple vulnerabilities that could lead to remote
 
 Affected Adobe products:
 
-- Adobe Acrobat Reader 2023.006.20380
+- Acrobat Reader versions 20.005.30539, 23.008.20470 and earlier
 
 | CVE                                                                   | Summary                                                                                  | Severity   | CVSS |
 | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------- | ---- |
