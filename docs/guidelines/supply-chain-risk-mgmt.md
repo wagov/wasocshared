@@ -34,13 +34,26 @@ Include clauses similar to below when procuring any goods or services that handl
 
 ## Managing Cybersecurity Risk in Supply Chains (NIST)
 
-Key considerations from page 16 and 17 of the [NIST CSF 2.0 Initial Public Draft](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.ipd.pdf) are below, identifying the NIST CSF subcategories relevant for **Information Secure Procurement**.
+Key considerations from the [NIST CSF 2.0: CYBERSECURITY SUPPLY CHAIN RISK MANAGEMENT (C-SCRM)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1305.ipd.pdf) are below, identifying the subcategories relevant for **Information Secure Procurement**.
 
-- **Identify:** Identifying, validating, and recording vulnerabilities associated with the supplier’s product or service \[ID.RA-01\]
-- **Protect:** Authenticating users, services, and hardware \[PR.AA-03\]; applying appropriate configuration management practices \[PR.PS-01\]; generating log records and having the logs available for continuous monitoring \[PR.PS-04\]; and integrating secure software development practices into the supplier’s software development life cycles \[PR.PS-07\]
-- **Detect:** Monitoring computing hardware and software for potentially adverse events \[DE.CM-09\]
-- **Respond:** Executing incident response plans when compromised products or services are involved \[RS.MA-01\]
-- **Recover:** Executing the recovery portion of the organization’s incident response plan when compromised products or services are involved \[RC.RP-01\], and restoring compromised products or services and verifying their integrity \[RC.RP-05\]
+### Govern
+- **Organizational Context:** Legal, regulatory, and contractual requirements regarding cybersecurity including privacy and civil liberties obligations are understood and managed \[GV.OC-03\]
+- **Roles, Responsibilities, and Authorities:** Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced \[GV.RR02\]
+- **Cybersecurity Supply Chain Risk Management:** Cyber supply chain risk management processes are identified, established, managed, monitored, and improved by organizational stakeholders \[GV.SC\]
+### Identify
+- **Risk Assessment:** The authenticity and integrity of hardware and software are assessed prior to acquisition and use \[ID.RA-09\]; Critical suppliers are assessed prior to acquisition \[ID.RA-10\]
+- **Improvement:** Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties \[ID.IM-02\]
+### Protect
+- **Identity Management, Authentication, and Access Control:** Identities and credentials for authorized users, services, and hardware are managed by the organization \[PR.AA-01\]
+- **Awareness and Training:** Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind \[PR.AT-02\]
+### Detect
+- **Continuous Monitoring:** Personnel activity and technology usage are monitored to find potentially adverse events \[DE.CM-03\]
+### Respond
+- **Incident Management:** Incidents are escalated or elevated as needed \[RS.MA-04\]
+- **Incident Response Reporting and Communication:** Internal and external stakeholders are notified of incidents \[RS.CO-02\]
+### Recover
+- **Incident Recovery Plan Execution:** The integrity of backups and other restoration assets is verified before using them for restoration \[RC.RP-03\]
+- **Incident Recovery Communication:** Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders \[RC.CO-03\]
 
 ## Device as a Service (DaaS) options for Computing and Mobile Devices
 
