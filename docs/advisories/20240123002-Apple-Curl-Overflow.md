@@ -6,8 +6,8 @@ Apple have released security advisories relating to several vulnerabilities impa
 
 ## What is the vulnerability?
 
-| CVE  | Severity     | CVSS |
------------------------------------------------------------------------------- | ------------ | ---- |
+| CVE                                                                             | Severity     | CVSS |
+| ------------------------------------------------------------------------------- | ------------ | ---- |
 | [CVE-2023-38039](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38039) | **High**     | 7.5  |
 | [CVE-2023-38545](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545) | **Critical** | 9.8  |
 | [CVE-2023-38546](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546) | Low          | 3.7  |
@@ -23,7 +23,7 @@ Apple have released security advisories relating to several vulnerabilities impa
 | [CVE-2024-23212](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23212) | TBA          | TBA  |
 | [CVE-2024-23213](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23213) | TBA          | TBA  |
 | [CVE-2024-23214](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23214) | TBA          | TBA  |
-| [CVE-2024-23222](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23222) | High         | 8.8 |
+| [CVE-2024-23222](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23222) | High         | 8.8  |
 | [CVE-2024-23224](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23224) | TBA          | TBA  |
 
 ## What is vulnerable?
