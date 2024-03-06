@@ -8,6 +8,7 @@ Based on recent high impact incidents seen by the WA SOC, security teams should 
 
 !!! warning "WASOC Guidance targeted on recent threat activity"
     - AD configuration and deployments continue to cause significant exposure to organisations, please ensure there is appropriate separation of concerns to avoid exploits such as [follows](https://www.akamai.com/blog/security-research/spoofing-dns-by-abusing-dhcp)
+    - GoldenSAML exploitation in the [wild](https://www.semperis.com/blog/meet-silver-saml/)
 
 Recent WA SOC advisories this month worth staying across include:
 
