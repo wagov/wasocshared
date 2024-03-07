@@ -14,10 +14,10 @@ VMware released a security advisory to address multiple vulnerabilities in ESXi,
   
 |  Product(s) Affected| Severity  | Version| CVEs |
 | -- | -- | -- | -- |
-| VMware ESXi |Critical  | 7.0, 8.0  |CVE-2024-22252, CVE-2024-22253, CVE-2024-22254, CVE-2024-22255  |
-| VMware Workstation Pro / Player (Workstation) | Critical| 17.x |CVE-2024-22252, CVE-2024-22253, CVE-2024-22255|
-| VMware Fusion Pro / Fusion (Fusion) |Critical |13.x|  CVE-2024-22252, CVE-2024-22253, CVE-2024-22255|
-| VMware Cloud Foundation (Cloud Foundation) |Critical |5.x/4.x| CVE-2024-22252, CVE-2024-22253, CVE-2024-22254, CVE-2024-22255|
+| VMware ESXi |Critical  | 7.0, 8.0  |[CVE-2024-22252](https://nvd.nist.gov/vuln/detail/CVE-2024-22252), [CVE-2024-22253](https://nvd.nist.gov/vuln/detail/CVE-2024-22253), [CVE-2024-22254](https://nvd.nist.gov/vuln/detail/CVE-2024-22254), [CVE-2024-22255](https://nvd.nist.gov/vuln/detail/CVE-2024-22255)  |
+| VMware Workstation Pro / Player (Workstation) | Critical| 17.x |[CVE-2024-22252](https://nvd.nist.gov/vuln/detail/CVE-2024-22252), [CVE-2024-22253](https://nvd.nist.gov/vuln/detail/CVE-2024-22253), [CVE-2024-22255](https://nvd.nist.gov/vuln/detail/CVE-2024-22255)|
+| VMware Fusion Pro / Fusion (Fusion) |Critical |13.x|  [CVE-2024-22252](https://nvd.nist.gov/vuln/detail/CVE-2024-22252), [CVE-2024-22253](https://nvd.nist.gov/vuln/detail/CVE-2024-22253), [CVE-2024-22255](https://nvd.nist.gov/vuln/detail/CVE-2024-22255)|
+| VMware Cloud Foundation (Cloud Foundation) |Critical |5.x/4.x| [CVE-2024-22252](https://nvd.nist.gov/vuln/detail/CVE-2024-22252), [CVE-2024-22253](https://nvd.nist.gov/vuln/detail/CVE-2024-22253), [CVE-2024-22254](https://nvd.nist.gov/vuln/detail/CVE-2024-22254), [CVE-2024-22255](https://nvd.nist.gov/vuln/detail/CVE-2024-22255)|
   
 
 ## Recommendation
