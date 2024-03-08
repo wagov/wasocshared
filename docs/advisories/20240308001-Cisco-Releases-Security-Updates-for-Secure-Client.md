@@ -6,8 +6,12 @@ Cisco released security updates to address vulnerabilities in Cisco Secure Clien
 
 ## What is vulnerable?
 
-[Cisco Secure Client Carriage Return Line Feed Injection Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-secure-client-crlf-W43V4G7) - CVSS v3 Base Score: ***8.2***
-[Cisco Secure Client for Linux with ISE Posture Module Privilege Escalation Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-secure-privesc-sYxQO6ds) - CVSS v3 Base Score: ***7.3***
+
+| Product(s) Affected | Version |CVE | Severity     | CVSS |
+| ------------------- | ------- | ------------ | ---- | ---- |
+| **Cisco Secure Client** | <br> before 4.10.04065 <br> after 4.10.04065 to 4.10.08025 <br> 5.0 <br> 5.1|   [CVE-2024-20337](https://nvd.nist.gov/vuln/detail/CVE-2024-20337)      | **High** | 8.2  |
+| **Cisco Secure Client for Linux** | <br> before 5.1.2.42 |     [CVE-2024-20338](https://nvd.nist.gov/vuln/detail/CVE-2024-28222)     | **High** | 7.3  |
+
 
 
 ## What has been observed?
@@ -19,6 +23,8 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [CISA Alerts](https://www.cisa.gov/news-events/alerts/2024/03/07/cisco-releases-security-updates-secure-client)
+- [Cisco Secure Client Carriage Return Line Feed Injection Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-secure-client-crlf-W43V4G7)
+- [Cisco Secure Client for Linux with ISE Posture Module Privilege Escalation Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-secure-privesc-sYxQO6ds)
 
 ## Additional References
 
