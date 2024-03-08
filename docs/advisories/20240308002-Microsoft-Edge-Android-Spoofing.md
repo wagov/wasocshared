@@ -7,9 +7,9 @@ An attacker can exploit this vulnerabilities by tricking a user into opening a c
 
 ## What is vulnerable?
 
-| Product(s) Affected | Summary | Severity     | CVSS |
-| ------------------- | ------- | ------------ | ---- |
-| **versions before** <br> 122.0.2365.80 |  [CVE-2024-26167](https://nvd.nist.gov/vuln/detail/CVE-2024-26167) | **Low** | 4.3  |
+| Product(s) Affected                    | Summary                                                           | Severity | CVSS |
+| -------------------------------------- | ----------------------------------------------------------------- | -------- | ---- |
+| **versions before** <br> 122.0.2365.80 | [CVE-2024-26167](https://nvd.nist.gov/vuln/detail/CVE-2024-26167) | **Low**  | 4.3  |
 
 ## What has been observed?
 
@@ -20,4 +20,3 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26167
-
