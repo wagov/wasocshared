@@ -9,7 +9,7 @@ Cisco released security updates to address vulnerabilities in Cisco Secure Clien
 
 | Product(s) Affected | Version |CVE | Severity     | CVSS |
 | ------------------- | ------- | ------------ | ---- | ---- |
-| **Cisco Secure Client** | <br> before 4.10.04065 <br> after 4.10.04065 to 4.10.08025 <br> 5.0 <br> 5.1|   [CVE-2024-20337](https://nvd.nist.gov/vuln/detail/CVE-2024-20337)      | **High** | 8.2  |
+| **Cisco Secure Client** | <br> before 4.10.04065 <br> after 4.10.04065 to 4.10.08025, <br> 5.0, <br> 5.1|   [CVE-2024-20337](https://nvd.nist.gov/vuln/detail/CVE-2024-20337)      | **High** | 8.2  |
 | **Cisco Secure Client for Linux** | <br> before 5.1.2.42 |     [CVE-2024-20338](https://nvd.nist.gov/vuln/detail/CVE-2024-28222)     | **High** | 7.3  |
 
 
