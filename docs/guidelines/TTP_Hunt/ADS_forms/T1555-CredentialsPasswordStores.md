@@ -18,8 +18,8 @@ Detects suspicious credential access commands. Alone they may be normal but in c
 > reg save hklm\\sam ss.dat
 > reg save hklm\\system sy.dat
 
-!!! tip "Related"
-    Volt Typhoon
+**Related**\
+Volt Typhoon
 
 **Reference:**\
 https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a
