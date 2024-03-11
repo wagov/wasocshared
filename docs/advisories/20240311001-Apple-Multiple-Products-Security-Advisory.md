@@ -6,10 +6,9 @@ Apple released security updates to address vulnerabilities in Safari, macOS, w
 
 ## What is vulnerable?
 
-| Product(s) Affected | Dated |
-| ---- | --------------------| 
-|- [Safari 17.4](https://support.apple.com/en-us/HT214089) <br>-[macOS Sonoma 14.4](https://support.apple.com/en-us/HT214084) <br>-[macOS Ventura 13.6.5](https://support.apple.com/en-us/HT214085) <br>-[macOS Monterey 12.7.4](https://support.apple.com/en-us/HT214083)<br>-[watchOS 10.4](https://support.apple.com/en-us/HT214088) <br>-[tvOS 17.4](https://support.apple.com/en-us/HT214086) <br>-[visionOS 1.1](https://support.apple.com/en-us/HT214087) | 7 Mar, 2024 | 
-
+| Product(s) Affected                                                                                                                                                                                                                                                                                                                                                                                                                                             | Dated       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| - [Safari 17.4](https://support.apple.com/en-us/HT214089) <br>-[macOS Sonoma 14.4](https://support.apple.com/en-us/HT214084) <br>-[macOS Ventura 13.6.5](https://support.apple.com/en-us/HT214085) <br>-[macOS Monterey 12.7.4](https://support.apple.com/en-us/HT214083)<br>-[watchOS 10.4](https://support.apple.com/en-us/HT214088) <br>-[tvOS 17.4](https://support.apple.com/en-us/HT214086) <br>-[visionOS 1.1](https://support.apple.com/en-us/HT214087) | 7 Mar, 2024 |
 
 ## What has been observed?
 
