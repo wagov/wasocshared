@@ -8,7 +8,8 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 
 This release consists of the following 61 Microsoft CVEs:
 
-* [March 2024 Security Updates](https://msrc.microsoft.com/update-guide/releaseNote/2024-Mar)
+- [March 2024 Security Updates](https://msrc.microsoft.com/update-guide/releaseNote/2024-Mar)
+
 ## What has been observed?
 
 CISA added this vulnerability in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
