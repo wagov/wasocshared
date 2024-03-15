@@ -5,7 +5,6 @@ This site contains technical information to support WA Government Cyber Security
 !!! tip "RSS Feeds"
     If you would like to subscribe to updates for this site please use the [RSS](/rss.xml) or [ATOM](/atom.xml) feeds.
 
-
 ## WA Security Operations Centre (WA SOC)
 
 - [Connecting to the WA SOC](onboarding.md) ([Sentinel Guidance](onboarding/sentinel-guidance.md))
