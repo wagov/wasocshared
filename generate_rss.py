@@ -10,6 +10,15 @@ base_url = "https://soc.cyber.wa.gov.au"
 
 def get_meta(path):
     doc = path.read_text().split("\n\n")
+    if path.name == "threat-activity.md":
+        doc = doc[2:] # skip recent activity
+    # Exclude ADS form updates and templates
+    for exclusion in ["/ADS_forms/", "/markdown-templates/"]:
+        if str(path).find(exclusion) > -1:
+            raise ValueError("Excluded path")
+    url_path = path.relative_to("docs").with_suffix("")
+    category = url_path.parts[0]
+    url = f"{base_url}/{url_path}"
     updated = run(["git", "log", "-1", '--pretty=format:%ci', path], capture_output=True).stdout.decode("utf8").strip()
     title = doc[0].replace("#", "").strip()
     for i, row in enumerate(doc):
@@ -19,16 +28,12 @@ def get_meta(path):
     else:
         raise ValueError("Can't find overview")
     overview = doc[overview_index]
-    url_path = path.relative_to("docs").with_suffix("")
-    category = url_path.parts[0]
-    url = f"{base_url}/{url_path}"
     return { "title": title, "url": url, "overview": overview, "updated": updated, "category": category }
 
 
-# -
-
+# +
 recent = run(["git", "whatchanged", "@{180 days ago}", "--oneline", "--name-only", "--pretty=format:"], capture_output=True).stdout.decode("utf8").split("\n")
-# Exclude ADS form updates
+
 recent = [Path(p) for p in recent if p.find("/ADS_forms/") < 0 and Path(p).suffix == ".md" and Path(p).is_file()]
 recent = list(dict.fromkeys(recent))
 latest_updated = run(["git", "log", "-1", '--pretty=format:%ci', recent[0]], capture_output=True).stdout.decode("utf8").strip()
@@ -60,3 +65,5 @@ for path in reversed(recent):
 
 fg.atom_file("site/atom.xml")
 fg.rss_file("site/rss.xml")
+
+
