@@ -18,7 +18,7 @@ Below is a rapid approach to get Microsoft workloads covered rapidly using Senti
     1. [Microsoft Defender for Office 365](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/step-by-step-guides/step-by-step-guide-overview?view=o365-worldwide)
     1. [Microsoft Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/quick-installation-guide)
     1. [Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mde-planning-guide?view=o365-worldwide)
-1. [Connect Microsoft Defender for Cloud (servers)](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud)
+    1. [Connect Microsoft Defender for Cloud (servers)](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud)
 1. [Microsoft Entra ID (formerley AAD)](https://learn.microsoft.com/en-us/azure/sentinel/connect-azure-active-directory)
 
 Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once telemetry is being collected, the [Maturity Model For Event Log Management](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/MaturityModelForEventLogManagementM2131#onboarding-prerequisites) solution adds the capability to detect changes in telemetry quality over time (which supports [Secure Configuration Assessment](../guidelines/secure-configuration.md) of the SIEM environment itself).
