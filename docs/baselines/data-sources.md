@@ -44,7 +44,7 @@ The below is a high level summary of assets and services from where security log
 
 - **Users** - Identity Services (On Premise and SaaS), Application access
 - **Mailboxes** - Email mailboxes and associated inbound/outbound flows
-- **Endpoints** - Devices that users access organisational resources from
+- **Endpoints** - Devices that users utilise to access organisational resources
 - **Servers** - Hypervisors, Servers, Container Platforms
 - **Network Firewalls (Firewalls)** - Network egress and internal network control points
 - **Web Application Firewalls (WAFs)** - Network ingress control points
@@ -56,7 +56,7 @@ The below checklist should be undertaken by the organisations security team to c
 
 ### 4.1. Excellent return on investment
 
-These are available as out of the box integrations on fully SaaS platforms such as [Microsoft Sentinel connected to Microsoft 365 Defender](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDE). On-Prem sign-ins depending on the [Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning) require sensor deployment on all Domain Controllers (minimum version Windows Server 2012).
+These are available as out of the box integrations on fully SaaS platforms such as [Microsoft Sentinel connected to Microsoft 365 Defender via Microsoft XDR](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDE). On-Prem sign-ins depending on the [Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning) require sensor deployment on all Domain Controllers (minimum version Windows Server 2012).
 
 - [ ] **Users** - Query a `IPv4Address`, `IPv6Address`, `Protocol` or `User-Agent (HTTPRequestExt)` across all [Network Traffic](https://attack.mitre.org/datasources/DS0029/) for HTTPS sign ins.
     - E.g. [Sign-in logs in Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-all-sign-ins).
