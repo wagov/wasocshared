@@ -6,11 +6,11 @@ An authentication bypass vulnerability, path traversal vulnerability, and denial
 
 ## What is vulnerable?
 
-| CVE | Severity | CVSS | Product(s) Affected | Dated |
-| --- | -------- | ---- | ------------------- | ----- |
-|  [CVE-2024-0799](https://nvd.nist.gov/vuln/detail/CVE-2024-0799)  |      **Critical**    |    9.8  | **versions 9.2 and 8.1** | 13/03/2024  |
-|  [CVE-2024-0800](https://nvd.nist.gov/vuln/detail/CVE-2024-0800)  |     **High**     |   8.8   | **versions 9.2 and 8.1** | 13/03/2024    |
-|  [CVE-2024-0801](https://nvd.nist.gov/vuln/detail/CVE-2024-0801)  |    **High**      |   7.5   | **versions 9.2 and 8.1** | 13/03/2024   |
+| CVE                                                             | Severity     | CVSS | Product(s) Affected      | Dated      |
+| --------------------------------------------------------------- | ------------ | ---- | ------------------------ | ---------- |
+| [CVE-2024-0799](https://nvd.nist.gov/vuln/detail/CVE-2024-0799) | **Critical** | 9.8  | **versions 9.2 and 8.1** | 13/03/2024 |
+| [CVE-2024-0800](https://nvd.nist.gov/vuln/detail/CVE-2024-0800) | **High**     | 8.8  | **versions 9.2 and 8.1** | 13/03/2024 |
+| [CVE-2024-0801](https://nvd.nist.gov/vuln/detail/CVE-2024-0801) | **High**     | 7.5  | **versions 9.2 and 8.1** | 13/03/2024 |
 
 ## What has been observed?
 
@@ -22,7 +22,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - [Arcserve UDP 9.2 | Console Vulnerabilities: CVE-2024-0801, CVE-2024-0800, CVE-2024-0799](https://support.arcserve.com/s/article/P00003050?language=en_US)
 - [Arcserve UDP 8.1 | Console & Agent Vulnerabilities: CVE-2024-0801, CVE-2024-0800, CVE-2024-0799](https://support.arcserve.com/s/article/P00003059?language=en_US)
-
 
 ## Additional References
 
