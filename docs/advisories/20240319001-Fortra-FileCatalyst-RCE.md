@@ -6,9 +6,9 @@ A proof of concept (PoC) has been released for a vulnerability where the 'ftpser
 
 ## What is vulnerable?
 
-| CVE | Severity | CVSS | Product(s) Affected | Summary      |
-| --- | -------- | ---- | ------------------- | ------------ |
-| [CVE-2024-25153](https://nvd.nist.gov/vuln/detail/CVE-2024-25153)    |  Critical        | **9.8**    | Fortra FileCatalyst Workflow 5.x before 5.1.6 Build 114 | **Critical** |
+| CVE                                                               | Severity | CVSS    | Product(s) Affected                                     | Summary      |
+| ----------------------------------------------------------------- | -------- | ------- | ------------------------------------------------------- | ------------ |
+| [CVE-2024-25153](https://nvd.nist.gov/vuln/detail/CVE-2024-25153) | Critical | **9.8** | Fortra FileCatalyst Workflow 5.x before 5.1.6 Build 114 | **Critical** |
 
 ## What has been observed?
 
