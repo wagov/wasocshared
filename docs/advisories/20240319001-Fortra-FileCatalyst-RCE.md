@@ -12,7 +12,7 @@ A proof of concept (PoC) has been released for a vulnerability where the 'ftpser
 
 ## What has been observed?
 
-The vulnerability was reported on August 9, 2023, and addressed two days later in FileCatalyst Workflow version 5.1.6 Build 114 without a CVE identifier however Fortra published the CVE on 03/13/2024. There has since been a proof of concept released by security researchers.
+The vulnerability was reported on August 9, 2023, and addressed two days later in FileCatalyst Workflow version 5.1.6 Build 114 without a CVE identifier however Fortra published the CVE on March 13, 2024. There has since been a proof of concept released by security researchers.
 
 ## Recommendation
 
