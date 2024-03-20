@@ -1,4 +1,6 @@
-# Mozilla Products in Could Multiple Vulnerabilities - 20240320001
+
+# Mozilla Security Updates For Multiple Products - 20240320001
+
 
 ## Overview
 
@@ -19,3 +21,4 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [Mozilla Security Updates](https://www.mozilla.org/en-US/security/advisories/)
+
