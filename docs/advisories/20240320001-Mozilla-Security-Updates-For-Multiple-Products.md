@@ -1,4 +1,4 @@
-# Mozilla Products in Could Multiple Vulnerabilities - 20240320001
+# Mozilla Security Updates For Multiple Products - 20240320001
 
 ## Overview
 
