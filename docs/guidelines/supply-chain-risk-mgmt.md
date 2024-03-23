@@ -4,6 +4,9 @@ During all procurement and vendor management activities where digital informatio
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qvFfoHxfBqY?si=2VsaNSqPTnxaWqSM&amp;start=1560" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+!!! note
+    The federal government has established the [Hosting Certification Framework](https://www.hostingcertification.gov.au/framework) for sensitive government data, whole-of-government systems and systems rated at the classification level of PROTECTED (similar to state [OFFICIAL: Sensitive](https://www.wa.gov.au/government/publications/western-australian-information-classification-policy), which includes a pre-qualified list of [Certified Service Providers](https://www.hostingcertification.gov.au/certified-service-providers).
+
 ## Pre-procurement risk assessment
 
 Consider information security risks as a part of procurement and contract risk assessment, informed by the [ACSC Procurement Guidelines](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing), [ACSC Supply Chain Risk Management](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/cyber-supply-chain-risk-management), [ACSC Guidelines for Software Development](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-software-development).
