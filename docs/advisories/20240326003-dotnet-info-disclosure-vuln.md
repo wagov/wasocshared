@@ -8,9 +8,9 @@ An attacker who successfully exploits this vulnerability could obtain the ObjRef
 
 ## What is vulnerable?
 
-| CVE    | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ------ | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-29059](https://nvd.nist.gov/vuln/detail/CVE-2024-29059) | **High** | 7.5  | Please review the affected versions [here](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29059) | .NET Framework Information Disclosure Vulnerability        | 22/03/2024      |
+| CVE                                                               | Severity | CVSS | Product(s) Affected                                                                                              | Summary                                             | Dated      |
+| ----------------------------------------------------------------- | -------- | ---- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------- |
+| [CVE-2024-29059](https://nvd.nist.gov/vuln/detail/CVE-2024-29059) | **High** | 7.5  | Please review the affected versions [here](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29059) | .NET Framework Information Disclosure Vulnerability | 22/03/2024 |
 
 ## What has been observed?
 
