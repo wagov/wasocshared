@@ -4,6 +4,9 @@ During all procurement and vendor management activities where digital informatio
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qvFfoHxfBqY?si=2VsaNSqPTnxaWqSM&amp;start=1560" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+!!! success "Federal Certified Service Providers"
+    The federal government has established the [Hosting Certification Framework](https://www.hostingcertification.gov.au/framework) for sensitive government data, whole-of-government systems and systems rated at the classification level of PROTECTED (similar to state [OFFICIAL: Sensitive](https://www.wa.gov.au/government/publications/western-australian-information-classification-policy)), which includes a pre-qualified list of [Certified Service Providers](https://www.hostingcertification.gov.au/certified-service-providers).
+
 ## Pre-procurement risk assessment
 
 Consider information security risks as a part of procurement and contract risk assessment, informed by the [ACSC Procurement Guidelines](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing), [ACSC Supply Chain Risk Management](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/cyber-supply-chain-risk-management), [ACSC Guidelines for Software Development](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-software-development).
@@ -14,10 +17,10 @@ Consider information security risks as a part of procurement and contract risk a
     - Recognised industry certifications: [ACSC ISM](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism) ([IRAP](https://www.cyber.gov.au/resources-business-and-government/assessment-and-evaluation-programs/infosec-registered-assessors-program)), [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), [SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2) or [NIST SP 800-53](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
 - Understand the shared responsibility model between the supplier and the entity under which services are being contracted and managed.
 
-!!! note "Software Development"
+!!! warning "Software Development"
     Where development is being outsourced including for managed services, the [ACSC Shifting the Balance of Cybersecurity Risk: Principles and Approaches for Security-by-Design and Default](https://www.cyber.gov.au/about-us/view-all-content/publications/principles-and-approaches-for-security-by-design-and-default) should be followed.
 
-!!! note "Gateway Operators (Network and Internet managed services)"
+!!! warning "Gateway Operators (Network and Internet managed services)"
     Where network management services are being outsourced, the [ACSC Gateway Hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening) security guidance should be followed. Please also refer to the [WA SOC Network Management Guideline](../guidelines/network-management.md)
 
 ## Template contract clauses promoting information security
