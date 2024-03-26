@@ -6,10 +6,10 @@ Mozilla has released security updates for Firefox and Firefox ESR in response to
 
 ## What is vulnerable?
 
-| CVE || | Product(s) Affected                 | Dated          |
-| --------------------------------------------------------------- | ---------- | ---- | ----------------------------------- | -------------- |
-| [CVE-2024-29943](https://cve.org/CVERecord?id=CVE-2024-29943), [CVE-2024-29944](https://www.cve.org/CVERecord?id=CVE-2024-29944) |  |  | **Firefox 124.0.1** | March 22, 2024 |
-| [CVE-2024-29944](https://www.cve.org/CVERecord?id=CVE-2024-29944) |  |  | **Firefox ESR 115.9.1** | March 22, 2024 |
+| CVE                                                                                                                              |     |     | Product(s) Affected     | Dated          |
+| -------------------------------------------------------------------------------------------------------------------------------- | --- | --- | ----------------------- | -------------- |
+| [CVE-2024-29943](https://cve.org/CVERecord?id=CVE-2024-29943), [CVE-2024-29944](https://www.cve.org/CVERecord?id=CVE-2024-29944) |     |     | **Firefox 124.0.1**     | March 22, 2024 |
+| [CVE-2024-29944](https://www.cve.org/CVERecord?id=CVE-2024-29944)                                                                |     |     | **Firefox ESR 115.9.1** | March 22, 2024 |
 
 ## What has been observed?
 
