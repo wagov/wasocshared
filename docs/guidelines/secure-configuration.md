@@ -68,7 +68,7 @@ The defaults above subsequently enable straightforward implementation of the [AC
 - Endpoint vuln mgmt with [Microsoft Defender Vulnerability Management](https://learn.microsoft.com/en-us/microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management?view=o365-worldwide)
 - Cloud vuln mgmt with [Defender CSPM](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management), [Amazon Inspector](https://aws.amazon.com/inspector/)
 - Server and OT vuln mgmt with [Tenable Vulnerability Management](https://www.tenable.com/products/tenable-io), [Rapid7 InsightVM](https://www.rapid7.com/products/insightvm/), [Qualys Vulnerability
-Management](https://www.qualys.com/apps/vulnerability-management-detection-response/), [Crowdstrike Falcon Spotlight](https://www.crowdstrike.com/products/exposure-management/falcon-spotlight-vulnerability-management/), [Ivanti Neurons for ASOC](https://www.ivanti.com/products/ivanti-neurons-for-asoc)
+    Management](https://www.qualys.com/apps/vulnerability-management-detection-response/), [Crowdstrike Falcon Spotlight](https://www.crowdstrike.com/products/exposure-management/falcon-spotlight-vulnerability-management/), [Ivanti Neurons for ASOC](https://www.ivanti.com/products/ivanti-neurons-for-asoc)
 - OT and Network vuln mgmt with [Claroty xDome](https://claroty.com/industrial-cybersecurity/xdome), [Cisco Cyber Vision](https://www.cisco.com/site/us/en/products/security/industrial-security/cyber-vision/index.html) or [Palo Alto IoT Security](https://docs.paloaltonetworks.com/iot/iot-security-admin/iot-security-solution/iot-security-solution-structure)
 
 ### Restrict Microsoft Office Macros
