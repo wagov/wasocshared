@@ -8,3 +8,4 @@ mdformat-mkdocs[recommended]
 beautifulsoup4
 diskcache
 sendgrid
+feedgen

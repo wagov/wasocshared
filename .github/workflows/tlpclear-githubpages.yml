@@ -42,6 +42,8 @@ jobs:
         run: mdformat .
       - name: build site
         run:  python -m mkdocs build --strict
+      - name: build rss feeds
+        run:  python generate_rss.py
       - name: Commit and push changes
         run: |
           git config --global user.name 'GitHub Actions'

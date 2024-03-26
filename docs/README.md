@@ -2,6 +2,9 @@
 
 This site contains technical information to support WA Government Cyber Security activities. Please propose updates directly via the edit link on each page or email [cybersecurity@dpc.wa.gov.au](mailto:cybersecurity@dpc.wa.gov.au) with any feedback. The site is built with [Material for MkDocs (reference)](https://squidfunk.github.io/mkdocs-material/reference/) which includes several [extensions to markdown](https://squidfunk.github.io/mkdocs-material/setup/extensions/) for enhanced technical writing.
 
+!!! tip "RSS Feeds"
+    If you would like to subscribe to updates for this site please use the [RSS](/rss.xml) or [ATOM](/atom.xml) feeds.
+
 ## WA Security Operations Centre (WA SOC)
 
 - [Connecting to the WA SOC](onboarding.md) ([Sentinel Guidance](onboarding/sentinel-guidance.md))
