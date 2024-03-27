@@ -27,6 +27,7 @@ The vulnerabilities exist in the following products:
     - Microsoft SharePoint Enterprise Server 2016
 
 ## What has been observed?
+
 CISA added **CVE-2023-24955** vulnerability in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
