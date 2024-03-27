@@ -6,10 +6,10 @@ Denial of Service via incomplete cleanup vulnerability in Apache Tomcat. It was 
 
 ## What is vulnerable?
 
-| CVE                                                               | Severity     | CVSS | Product(s) Affected                                                                                                             | Summary | Dated |
-| ----------------------------------------------------------------- | ------------ | ---- | ------------------------------------------------------------------------------------------------------------------------------- | ------- | ----- |
-| [CVE-2024-23672](https://nvd.nist.gov/vuln/detail/CVE-2024-23672) | **Critical** | N/A  | **From 11.0.0-M1 through 11.0.0-M16, from 10.1.0-M1 through 10.1.18, from 9.0.0-M1 through 9.0.85, from 8.5.0 through 8.5.98**  |         |       |
-| [CVE-2024-24549](https://nvd.nist.gov/vuln/detail/CVE-2024-24549) | **Critical** | N/A  | **From 11.0.0-M1 through 11.0.0-M16, from 10.1.0-M1 through 10.1.18, from 9.0.0-M1 through 9.0.85, from 8.5.0 through 8.5.98.** |         |       |
+| CVE                                                               | Severity     | CVSS | Product(s) Affected                                                                                                             |
+| ----------------------------------------------------------------- | ------------ | ---- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [CVE-2024-23672](https://nvd.nist.gov/vuln/detail/CVE-2024-23672) | **Critical** | TBD  | **From 11.0.0-M1 through 11.0.0-M16, from 10.1.0-M1 through 10.1.18, from 9.0.0-M1 through 9.0.85, from 8.5.0 through 8.5.98**  |
+| [CVE-2024-24549](https://nvd.nist.gov/vuln/detail/CVE-2024-24549) | **Critical** | TBD  | **From 11.0.0-M1 through 11.0.0-M16, from 10.1.0-M1 through 10.1.18, from 9.0.0-M1 through 9.0.85, from 8.5.0 through 8.5.98.** |
 
 ## What has been observed?
 
