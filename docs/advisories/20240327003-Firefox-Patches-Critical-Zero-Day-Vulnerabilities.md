@@ -6,10 +6,10 @@ Mozilla has released security updates for Firefox and Firefox ESR in response to
 
 ## What is vulnerable?
 
-| Product(s) Affected | CVE                                                                                                                                                                                                                                          |     |     | Exploit exists | Dated          |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | -------------- | -------------- |
-| Firefox 124.0.1     | **[CVE-2024-29943](https://nvd.nist.gov/vuln/detail/CVE-2024-29943 "https://nvd.nist.gov/vuln/detail/CVE-2024-29943"), [CVE-2024-29944](https://nvd.nist.gov/vuln/detail/CVE-2024-29944 "https://nvd.nist.gov/vuln/detail/CVE-2024-29944")** |     |     | Yes (Zero Day) | March 22, 2024 |
-| Firefox ESR 115.9.1 | **[CVE-2024-29944](https://nvd.nist.gov/vuln/detail/CVE-2024-29944 "https://nvd.nist.gov/vuln/detail/CVE-2024-29944")**                                                                                                                      |     |     | Yes (Zero Day) | March 22, 2024 |
+| Product(s) Affected | CVE                                                                                                                                                                                                                                          |  CVSS  | Exploit exists | Dated          |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | -------------- | -------------- |
+| Firefox 124.0.1     | **[CVE-2024-29943](https://nvd.nist.gov/vuln/detail/CVE-2024-29943 "https://nvd.nist.gov/vuln/detail/CVE-2024-29943"), [CVE-2024-29944](https://nvd.nist.gov/vuln/detail/CVE-2024-29944 "https://nvd.nist.gov/vuln/detail/CVE-2024-29944")** |  TBD     | Yes (Zero Day) | March 22, 2024 |
+| Firefox ESR 115.9.1 | **[CVE-2024-29944](https://nvd.nist.gov/vuln/detail/CVE-2024-29944 "https://nvd.nist.gov/vuln/detail/CVE-2024-29944")**                                                                                                                      |  TBD     | Yes (Zero Day) | March 22, 2024 |
 
 ## What has been observed?
 
