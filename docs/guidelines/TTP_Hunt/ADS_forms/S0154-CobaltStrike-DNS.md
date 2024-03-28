@@ -7,26 +7,28 @@ The query tries to detect suspicious DNS queries known from Cobalt Strike beacon
 
 **Example:**
 
-> aaa.stage.\[encryptedstage\].MaliciousDomain.com,\
-> baa.stage.\[encryptedstage\].MaliciousDomain.com,\
-> caa.stage.\[encryptedstage\].MaliciousDomain.com,
-> post.\[EncryptedData\].\[RandomValue\].MaliciousDomain.com
+> aaa.stage.\[encryptedstage\].MaliciousDomain.com <br>
+> baa.stage.\[encryptedstage\].MaliciousDomain.com <br>
+> caa.stage.\[encryptedstage\].MaliciousDomain.com <br>
+> post.\[EncryptedData\].\[RandomValue\].MaliciousDomain.com <br>
 
-**Related**\
+**Related**
+
 CobaltStrike
 
-**Reference:**\
-https://github.com/SigmaHQ/sigma/blob/dcfb4c5c28431dcdc1d26ed4e008945965afd8ed/rules/network/dns/net_dns_mal_cobaltstrike.yml#L4%5C
-https://blog.sekoia.io/hunting-and-detecting-cobalt-strike/%5C
-https://blog.gigamon.com/2017/07/26/footprints-of-fin7-tracking-actor-patterns-part-1/
+**Reference:**
 
-#### ATT&CK TACTICS<br>
+https://github.com/SigmaHQ/sigma/blob/dcfb4c5c28431dcdc1d26ed4e008945965afd8ed/rules/network/dns/net_dns_mal_cobaltstrike.yml#L4 <br>
+https://blog.sekoia.io/hunting-and-detecting-cobalt-strike <br>
+https://blog.gigamon.com/2017/07/26/footprints-of-fin7-tracking-actor-patterns-part-1 <br>
+
+#### ATT&CK TACTICS
 
 {{mitre("S0154")}}
 
 Data Source(s): [Network Traffic](https://attack.mitre.org/datasources/DS0029)
 
-#### SENTINEL RULE QUERY<br>
+#### SENTINEL RULE QUERY
 
 ```
 let badNames = dynamic(["aaa.stage","baa.stage","caa.stage", "post.1"]);

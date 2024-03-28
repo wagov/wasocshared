@@ -6,22 +6,24 @@ Adversary may use connection proxy to direct network traffic between systems or 
 
 **Example:**
 
-> "cmd.exe /c "netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=9999 connectaddress=<internal ip address> connectport=8443 protocol=tcp""
+> "cmd.exe /c "netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=9999 connectaddress=<internal ip address> connectport=8443 protocol=tcp"" <br>
 > "cmd.exe /c netsh interface portproxy add v4tov4 listenport=50100 listenaddress=0.0.0.0 connectport=1433 connectaddress=<internal ip address>"
 
-**Related**\
+**Related**
+
 Volt Typhoon activity
 
-**Reference:**\
-https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection
+**Reference:**
 
-#### ATT&CK TACTICS<br>
+https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection <br>
+
+#### ATT&CK TACTICS
 
 {{ mitre("T1090")}}
 
 Data Source(s): [Process](https://attack.mitre.org/datasources/DS0009/), [Command](https://attack.mitre.org/datasources/DS0017/)
 
-#### SENTINEL RULE QUERY<br>
+#### SENTINEL RULE QUERY
 
 ```
 let c1 = dynamic(["portproxy", "netsh", "add"]);
