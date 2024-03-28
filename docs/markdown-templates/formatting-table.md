@@ -9,7 +9,7 @@
 
 ***Important Note***: All rows require the same number of column `|` separators, even if the column will be empty.
 
----
+______________________________________________________________________
 
 ## Examples of usage
 
@@ -28,7 +28,7 @@
 | Red Hat Enterprise Linux 7                              | glibc        | Not affected |                                                                   |                |
 | Red Hat Enterprise Linux 7                              | compat-glibc | Not affected |                                                                   |                |
 
----
+______________________________________________________________________
 
 ### 20231206001
 
@@ -39,4 +39,4 @@
 | [CVE-2023-33107](https://www.cve.org/CVERecord?id=CVE-2023-33107) | TBD        | Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.                                                                                                                                                                                           | See CVE Link      | [Vendor Bulletin](https://www.qualcomm.com/company/product-security/bulletins/december-2023-bulletin) |
 | [CVE-2023-22071](https://www.cve.org/CVERecord?id=CVE-2023-22071) | 7.8        | Possible use after free when process shell memory is freed using IOCTL munmap call and process initialization is in progress in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music | See CVE Link      | [Vendor Bulletin](https://www.qualcomm.com/company/product-security/bulletins/may-2022-bulletin)      |
 
----
+______________________________________________________________________
