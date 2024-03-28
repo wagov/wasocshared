@@ -8,18 +8,20 @@ Detects potential QBot activity by looking for process executions used previousl
 
 > "C:\\Windows\\System32\\cmd.exe" /c ping.exe -n 6 127.0.0.1 & type "C:\\Windows\\System32\\calc.exe" > "C:\\Users\\admin\\AppData\\Local\\Temp\\aNkxbUo.exe"
 
-**Related**\
+**Related**
+
 Malware
 
-**Reference**\
-https://github.com/SigmaHQ/sigma/blob/4de6102dc7d94c9ee70995aeea27b77184d62c35/rules-emerging-threats/2019/Malware/QBot/proc_creation_win_malware_qbot.yml#L4%5C
-https://www.trendmicro.com/en_au/research/22/j/black-basta-infiltrates-networks-via-qakbot-brute-ratel-and-coba.html
+**Reference**
+
+https://github.com/SigmaHQ/sigma/blob/4de6102dc7d94c9ee70995aeea27b77184d62c35/rules-emerging-threats/2019/Malware/QBot/proc_creation_win_malware_qbot.yml#L4 <br>
+https://www.trendmicro.com/en_au/research/22/j/black-basta-infiltrates-networks-via-qakbot-brute-ratel-and-coba.html <br>
 
 #### ATT&CK TACTICS
 
 {{mitre("S0650")}}
 
-Data source - Command
+Data source - [Command](https://attack.mitre.org/datasources/DS0017)
 
 #### SENTINEL RULE QUERY
 

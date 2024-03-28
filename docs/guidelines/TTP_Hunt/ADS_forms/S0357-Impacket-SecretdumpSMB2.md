@@ -8,16 +8,18 @@ Actor may use Impacket’s wmiexec, which redirects output to a file within the 
 
 > cmd.exe /Q /c dir 1> \\127.0.0.1\\ADMIN$\_\_1684944005.9400265 2>&1
 
-**Related**\
+**Related**
+
 Volt Typhoon activity
 
-**Reference:**\
-https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection%5C
-https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/%5C
-https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a%5C
-https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Attacker%20Tools%20Threat%20Protection%20Essentials/Hunting%20Queries/PotentialImpacketExecution.yaml
+**Reference:**
 
-#### ATT&CK TACTICS<br>
+https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection <br>
+https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques <br>
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a <br>
+https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Attacker%20Tools%20Threat%20Protection%20Essentials/Hunting%20Queries/PotentialImpacketExecution.yaml <br>
+
+#### ATT&CK TACTICS
 
 {{mitre("S0357")}}
 

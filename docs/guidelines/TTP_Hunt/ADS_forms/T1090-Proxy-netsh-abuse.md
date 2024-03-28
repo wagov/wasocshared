@@ -1,22 +1,22 @@
-## T1090 - Proxy - netsh abuse
+### T1090 - Proxy - netsh abuse
 
-### DESCRIPTION
+#### DESCRIPTION
 
 Detects usage of [netsh](https://attack.mitre.org/software/S0108) in the commands that configure a new port forwarding (PortProxy) rule
 
-#### Example:
+**Example**:
 
-> netsh I p a v l=8001 listena=127.0.0.1 connectp=80 c=192.168.1.1.
+> netsh I p a v l=8001 listena=127.0.0.1 connectp=80 c=192.168.1.1. <br>
 > netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=9999"
 
-#### Related
+**Related**
 
 LOLBINs
 
-#### Reference:
+**Reference**:
 
-https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/identifying-and-mitigating-living-off-the-land-techniques
-https://github.com/SigmaHQ/sigma/blob/49adcf9a00247ed6c3daacba03b589470f6716d0/rules/windows/process_creation/proc_creation_win_netsh_port_forwarding.yml#L7
+https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/identifying-and-mitigating-living-off-the-land-techniques <br>
+https://github.com/SigmaHQ/sigma/blob/49adcf9a00247ed6c3daacba03b589470f6716d0/rules/windows/process_creation/proc_creation_win_netsh_port_forwarding.yml#L7 <br>
 
 #### ATT&CK TACTICS
 

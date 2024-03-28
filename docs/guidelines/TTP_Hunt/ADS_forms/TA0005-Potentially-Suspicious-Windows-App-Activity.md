@@ -4,25 +4,26 @@
 
 Detects potentially suspicious child process of applications launched from inside the WindowsApps directory. This could be a sign of a rogue ".appx" package installation/execution
 
-**example:**
+**Example:**
 
-```
-"c:\Program Files\WindowsApps\<randomGUID>\UpdateFix\SecurityFix.exe" spawning "c:\Windows\System32\cmd.exe" /C regsvr32 /s "C:\Users\XXX\AppData\Local\Temp\4h23123qwe.dll"
-```
+> "c:\\Program Files\\WindowsApps\<randomGUID>\\UpdateFix\\SecurityFix.exe" spawning <br>
+> "c:\\Windows\\System32\\cmd.exe" /C regsvr32 /s "C:\\Users\\XXX\\AppData\\Local\\Temp\\4h23123qwe.dll" <br>
 
-**Related**\
+**Related**
+
 BazarBackdoor
 BazarLoader
 
-**Reference**\
-https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/identifying-and-mitigating-living-off-the-land-techniques
-https://github.com/SigmaHQ/sigma/blob/6b8cd1f0f1d222dcffa95394b4cbcec2a05137a0/rules/windows/process_creation/proc_creation_win_susp_appx_execution.yml#L6
+**Reference**
+
+https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/identifying-and-mitigating-living-off-the-land-techniques <br>
+https://github.com/SigmaHQ/sigma/blob/6b8cd1f0f1d222dcffa95394b4cbcec2a05137a0/rules/windows/process_creation/proc_creation_win_susp_appx_execution.yml#L6 <br>
 
 #### ATT&CK TACTICS
 
-{{ mitre("T1059")}}
-{{ mitre("T1218.005")}}
-{{ mitre("T1047")}}
+{{ mitre("T1059")}} <br>
+{{ mitre("T1218.005")}} <br>
+{{ mitre("T1047")}} <br>
 
 Data Source(s): [Command](https://attack.mitre.org/datasources/DS0017/), [Process](https://attack.mitre.org/datasources/DS0009/)
 
@@ -46,9 +47,7 @@ DeviceProcessEvents
 
 ### False Positive
 
-```
 - Legitimate Windows App running
-```
 
 #### Version
 

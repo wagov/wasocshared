@@ -4,13 +4,16 @@
 
 Detects BloodHound activity in commandlines. Bloodhound is and Active Directory (AD) reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment
 
-**example:**\
+**Example:**
+
 N/A
 
-**Related**\
+**Related**
+
 Bloodhound/Sharphound
 
-**Reference:**\
+**Reference:**
+
 https://github.com/SigmaHQ/sigma/blob/cf29e28a54daa9d52f7d1a5996f023e2d08cde84/rules/windows/process_creation/proc_creation_win_hktl_bloodhound_sharphound.yml#L40
 
 #### ATT&CK TACTICS

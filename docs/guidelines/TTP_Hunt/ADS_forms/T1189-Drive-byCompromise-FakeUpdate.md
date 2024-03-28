@@ -6,15 +6,17 @@ Detects the existence of FakeUpdate .zip file, commonly associated with SocGholi
 
 **Example:**
 
-> Edge.6ebddd.zip\
+> Edge.6ebddd.zip
 > Edge.7a859a.zip
 
-**Related**\
+**Related**
+
 https://www.secureworks.com/research/threat-profiles/gold-prelude
 
-**Reference:**\
-https://redcanary.com/threat-detection-report/threats/socgholish/
-https://www.cybereason.com/blog/threat-analysis-report-socgholish-and-zloader-from-fake-updates-and-installers-to-owning-your-systems
+**Reference:**
+
+https://redcanary.com/threat-detection-report/threats/socgholish/ <br>
+https://www.cybereason.com/blog/threat-analysis-report-socgholish-and-zloader-from-fake-updates-and-installers-to-owning-your-systems <br>
 
 #### ATT&CK TACTICS
 
