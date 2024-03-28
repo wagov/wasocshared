@@ -15,7 +15,7 @@ The query tries to detect suspicious DNS queries known from Cobalt Strike beacon
 CobaltStrike
 
 **Reference:**  
-https://github.com/SigmaHQ/sigma/blob/dcfb4c5c28431dcdc1d26ed4e008945965afd8ed/rules/network/dns/net_dns_mal_cobaltstrike.yml#L4  
+https://github.com/SigmaHQ/sigma/tree/dcfb4c5c28431dcdc1d26ed4e008945965afd8ed/rules/network/dns 
 https://blog.sekoia.io/hunting-and-detecting-cobalt-strike/  
 https://blog.gigamon.com/2017/07/26/footprints-of-fin7-tracking-actor-patterns-part-1/  
 
