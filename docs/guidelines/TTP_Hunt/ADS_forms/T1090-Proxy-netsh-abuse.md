@@ -1,13 +1,13 @@
 ## T1090 - Proxy - netsh abuse
-  
+
 ###  DESCRIPTION
 
-Detects usage of [netsh](https://attack.mitre.org/software/S0108) in the commands that configure a new port forwarding (PortProxy) rule     
+Detects usage of [netsh](https://attack.mitre.org/software/S0108) in the commands that configure a new port forwarding (PortProxy) rule
 
 #### Example:
 
-> netsh I p a v l=8001 listena=127.0.0.1 connectp=80 c=192.168.1.1. 
-> netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=9999"  
+> netsh I p a v l=8001 listena=127.0.0.1 connectp=80 c=192.168.1.1.
+> netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=9999"
 
 #### Related
 LOLBINs
@@ -15,8 +15,8 @@ LOLBINs
 
 #### Reference:
 
-https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/identifying-and-mitigating-living-off-the-land-techniques  
-https://github.com/SigmaHQ/sigma/blob/49adcf9a00247ed6c3daacba03b589470f6716d0/rules/windows/process_creation/proc_creation_win_netsh_port_forwarding.yml#L7   
+https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/identifying-and-mitigating-living-off-the-land-techniques
+https://github.com/SigmaHQ/sigma/blob/49adcf9a00247ed6c3daacba03b589470f6716d0/rules/windows/process_creation/proc_creation_win_netsh_port_forwarding.yml#L7
 
 ####  ATT&CK TACTICS
 
@@ -45,11 +45,11 @@ ProcessCommandLine has_all (selection_cli_1) or ProcessCommandLine has_all (sele
 
 #### Triage
 
-1. Inspect if the activity was expected and approved    
+1. Inspect if the activity was expected and approved
 
 #### FalsePositive
 
-- Legitimate administration activity   
+- Legitimate administration activity
 
 #### VERSION
 
