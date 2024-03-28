@@ -10,7 +10,7 @@ The Office of Digital Government (DGov) encourages Western Australian Governme
 
 Out of Microsoft's 118 vulnerabilities security updated, a few more notable due to the high severity score:
 
----
+______________________________________________________________________
 
 | CVE                                                                                                               | Vulnerability Name                                                                | Security Update Released | Threat Description                                                                                                                                                                                                                                                                                                   | Action                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -20,7 +20,7 @@ Out of Microsoft's 118 vulnerabilities security updated, a few more notable due 
 | [CVE-2023-21563](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21563)                            | BitLocker Security Feature Bypass Vulnerability                                   | 2023-01-10               | A successful attacker could bypass the BitLocker Device Encryption feature on the system storage device. An attacker with physical access to the target could exploit this vulnerability to gain access to encrypted data..                                                                                          | Apply updates per vendor instructions.                                                              |
 | [CVE-2023-21527](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21527)                            | Windows iSCSI Service Denial of Service Vulnerability                             | 2023-01-10               | The vulnerability allows a remote attacker to perform a denial of service (DoS) attack. The vulnerability exists due to insufficient validation of user-supplied input in Windows iSCSI Service. A remote attacker can pass specially crafted input to the application and perform a denial of service (DoS) attack. | Apply updates per vendor instructions.                                                              |
 
----
+______________________________________________________________________
 
 ## What is vulnerable ?
 
