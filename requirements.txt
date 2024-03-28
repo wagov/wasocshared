@@ -4,7 +4,7 @@ mkdocs-macros-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-linkcheck
 mdformat-gfm
-mdformat-mkdocs[recommended]
+mdformat-mkdocs==2.0.2
 beautifulsoup4
 diskcache
 sendgrid
