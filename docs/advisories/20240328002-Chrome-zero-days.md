@@ -6,10 +6,10 @@ Chrome updates to address multiple vulnerabilities, including two proof of conce
 
 ## What is vulnerable?
 
-| CVE                                                                 | Severity   | CVSS | Product(s) Affected  |
-| ------------------------------------------------------------------- | ---------- | ---- | -------------------- |
+| CVE                                                                 | Severity | CVSS | Product(s) Affected                                     |
+| ------------------------------------------------------------------- | -------- | ---- | ------------------------------------------------------- |
 | [**CVE-2024-2886**](https://nvd.nist.gov/vuln/detail/CVE-2024-2886) | **High** | N/A  | Chrome for Windows and Mac **before** 123.0.6312.86/.87 |
-| [**CVE-2024-2887**](https://nvd.nist.gov/vuln/detail/CVE-2024-2887) | **High** | N/A  | Chrome for Linux **before** 123.0.6312.86 |
+| [**CVE-2024-2887**](https://nvd.nist.gov/vuln/detail/CVE-2024-2887) | **High** | N/A  | Chrome for Linux **before** 123.0.6312.86               |
 
 ## What has been observed?
 
