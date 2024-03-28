@@ -27,8 +27,9 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 
 | Technique ID | Title            | Data Source                                                                                                                                  | ADS                                                                                             |
 | ------------ | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| T1047        | WMI              | [Command](https://attack.mitre.org/datasources/DS0017/), [Process Creation](https://attack.mitre.org/datasources/DS0009/#Process%20Creation) | [WMIC commands](./ADS_forms/T1047-WMICCommands.md)                                              |
 | T1059        | MicroSCADA SCILC | [Application Log](https://attack.mitre.org/datasources/DS0015/)                                                                              | [MicroSCADA SCILC - Command Execution](./ADS_forms/T1059-MicroSCADA-SCILC-Command-Execution.md) |
+| T1059.004        | Netcat Reverse Shell Execution | [Command](https://attack.mitre.org/datasources/DS0017),&nbsp;[Process](https://attack.mitre.org/datasources/DS0009/)  | [Potential Netcat Reverse Shell Execution](./ADS_forms/T1059.004-Potential-Netcat-Reverse-Shell-Execution.md) |
+| T1204        | MonikerLink - User Execution  | [Network Traffic](https://attack.mitre.org/datasources/DS0029)  | [MonikerLink - User Execution ](./ADS_forms/T1204-User-Execution-MonikerLink.md) |
 
 ## Persistence
 
@@ -45,6 +46,16 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1053.005    | Diamond Sleet APT Scheduled Task Creation - Registry                   | [Windows Registry](https://attack.mitre.org/datasources/DS0024/)                    | [Diamond Sleet APT Scheduled Task Creation - Registry](./ADS_forms/T1053.005-Diamond-Sleet-APT-Scheduled-Task-Creation-Registry.md)                                         |
 | T1547.001    | Potential Persistence Attempt Via Run Keys                             | [Command](https://attack.mitre.org/datasources/DS0017/)                             | [Potential Persistence Attempt Via Run Keys Using Reg.EXE](./ADS_forms/T1547.001-Potential-Persistence-Attempt-Via-Run-Keys-Using-Reg.EXE.md)                               |
 | T1547.001    | Diamond Sleet APT Process Activity Indicators                          | [Process](https://attack.mitre.org/datasources/DS0009/)                             | [Potential Persistence Attempt Via Run Keys Using Reg.EXE](./ADS_forms/T1574.002-Diamond-Sleet-APT-Process-Activity-Indicators.md)                                          |
+| T1059.004    |Suspicious Nohup Execution                         | [Process](https://attack.mitre.org/datasources/DS0009/) , [Command](https://attack.mitre.org/datasources/DS0017/)                            | [Suspicious Nohup Execution](./ADS_forms/T1059.004-Suspicious-Nohup-Execution.md)                                          |
+| T1562.001    |Disable or Modify Tools - netsh abuse                         | [Windows Registry](https://attack.mitre.org/datasources/DS0024/)                          | [Disable or Modify Tools - netsh abuse](./ADS_forms/T1562.001-Disable-or-Modify-Tools-netsh-abuse.md)                                          |
+
+## Privilege Escalation
+
+| Technique ID | Title               | Data Source                                                     | ADS                                                                                                      |
+| ------------ | ------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| T1543.003       | Potential PSExec.exe abuse            | [Command](https://attack.mitre.org/datasources/DS0017), [Process](https://attack.mitre.org/datasources/DS0009/) | [LOLBins - Potential PSExec.exe abuse](./ADS_forms/T1543.003-LOLBins-Potential-PSExec.exe-abuse.md) |
+
+
 
 ## Defense Evasion
 
@@ -57,8 +68,8 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1562.001    | Impair Defenses: Removal Of AMSI Provider Registry Keys                          | [Windows Registry](https://attack.mitre.org/datasources/DS0024) | [Impair Defenses: Removal Of AMSI Provider Registry Keys](./ADS_forms/T1562.001-Impair-Defenses-Removal-Of-AMSI-Provider-Registry-Keys.md)                                                 |
 | T1562.002    | Disable Windows Logging MiniNT                                                   | [Windows Registry](https://attack.mitre.org/datasources/DS0024) | [ImpairDefenses - Disable Windows Logging Mini NT](./ADS_forms/T1562.002-Impair-Defenses-Disable-WindowsLoggingMiniNT.md)                                                                  |
 | T1562.002    | Impair Defenses: Disable Windows Logging on EventID                              | [Active Directory](https://attack.mitre.org/datasources/DS0026) | [ImpairDefenses - Disable Windows Logging on EventID](./ADS_forms/T1562.002-Impair-Defenses-DisableWindowsLoggingonEventID.md)                                                             |
-| T1562.002    | Impair Defenses: Disable Windows Logging using wevtutil                          | [Process](https://attack.mitre.org/datasources/DS0009/)         | [Impair Defenses: Disable Windows Logging using wevtutil](./ADS_forms/T1562.002-Impair-Defenses-Disable-Windows-Logging-using-wevtutil.md)                                                 |
 | T1027.006    | HTML Smuggling                                                                   | [NA](<>)                                                        | [HTML Smuggling](./ADS_forms/T1027.006-HTMLSmuggling.md)                                                                                                                                   |
+| TA0005    | Potentially Suspicious Windows App Activity       | [Command](https://attack.mitre.org/datasources/DS0017/), [Process](https://attack.mitre.org/datasources/DS0009/)               | [Potentially Suspicious Windows App Activity](./ADS_forms/TA0005-Potentially-Suspicious-Windows-App-Activity.md)                                                                                                                                   |
 
 <!-- | T1562.002 | Disable Windows Logging Multi |  [Command](https://attack.mitre.org/datasources/DS0017)  | [ImpairDefenses - Disable Windows Logging Multi](./ADS_forms/T1562.002-ImpairDefenses-DisableWindowsLoggingMulti.md)| Removed -->
 
@@ -67,11 +78,13 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | Technique ID | Title                            | Data Source                                                                                                             | ADS                                                                                                           |
 | ------------ | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | T1003.001    | OS Credential Dumping            | [Command](https://attack.mitre.org/datasources/DS0017/)                                                                 | [OS Credential Dumping: LSASS Memory](./ADS_forms/T1003.001-OSCredentialDumping-LSASSMemory.md)               |
-| T1003.003    | OS Credential Dumping            | [Process](https://attack.mitre.org/datasources/DS0009/), [Command](https://attack.mitre.org/datasources/DS0017/)        | [OS Credential Dumping: Exfiltrate ntds.dit](./ADS_forms/T1003.003-OSCredentialDumping-Exfiltratentds.dit.md) |
+| T1003.003    | Credential Access            | [File](https://attack.mitre.org/datasources/DS0022)                                                                 | [Creation of Ntds.dit to Suspicious Location in Server](./ADS_forms/T1003.003-Creation-of-Ntds.dit-to-Suspicious-Location-in-Server.md) |
+| T1003.003    | OS Credential Dumping            | [Command](https://attack.mitre.org/datasources/DS0017)      , [Process](https://attack.mitre.org/datasources/DS0009)                                                           | [OS Credential Dumping: NTDS](./ADS_forms/T1003.003-OS-Credential-Dumping-NTDS.md)               |
+| T1003.003    | Credential Access            | [Command](https://attack.mitre.org/datasources/DS0017), [Process](https://attack.mitre.org/datasources/DS0009/)                                                                 | [Shadow Copies Creation Using Operating Systems Utilities](./ADS_forms/T1003.003-Shadow-Copies-Creation-Using-Operating-Systems-Utilities.md) |
+| T1003.008    | OS Credential Dumping            | [File](https://attack.mitre.org/versions/v14/datasources/DS0022/) , [Process](https://attack.mitre.org/versions/v14/datasources/DS0009/)                                                                 | [OS Credential Dumping: /etc/passwd and /etc/shadow](./ADS_forms/T1003.008-OS-Credential-Dumping-etc-passwd-and-etc-shadow.md) |
 | T1003.003    | OS Credential Dumping            | [Command](https://attack.mitre.org/datasources/DS0017/)                                                                 | [OS Credential Dumping: NTDS using tools](./ADS_forms/T1003.003-OSCredentialDumping-NTDSusingTools.md)        |
 | T1552.002    | Unsecured Credentials            | [Command](https://attack.mitre.org/datasources/DS001/), [Windows Registry](https://attack.mitre.org/datasources/DS0024) | [REGISTRY Password Dumping](./ADS_forms/T1552.002-REGISTRYPasswordDumping.md)                                 |
 | T1555        | Credentials from Password Stores | [Command](https://attack.mitre.org/datasources/DS001/)                                                                  | [Credentials from Password Stores](./ADS_forms/T1555-CredentialsPasswordStores.md)                            |
-| T1557        | AiTM - Phishing logging          | [Security Events](https://attack.mitre.org/datasources/DS0026/)                                                         | [AiTM - Phishing logging](./ADS_forms/T1557-AiTM-PhishingLogging.md)                                          |
 
 ## Discovery
 
@@ -82,12 +95,17 @@ This section highlights queries that can be mapped in the MITRE ATT&CK Framework
 | T1016.001    | Potential Pikabot C2 Activity          | [Process](https://attack.mitre.org/datasources/DS0009/#Process%20Creation) | [Suspicious Process Created By Rundll32.EXE](./ADS_forms/T1016.001-Potential-Pikabot-C2-Activity-Suspicious-Process-Created-By-Rundll32.EXE.md) |
 | T1033        | System Owner/User Discovery            | [Command](https://attack.mitre.org/datasources/DS0017/)                    | [Identify successful logons to the host](./ADS_forms/T1033-IdentifySuccessfulLogons.md)                                                         |
 | T1082        | System Information Discovery           | [NA](<>)                                                                   | [System Information Discovery](./ADS_forms/T1082-SystemInformationDiscovery.md)                                                                 |
+| T1016        |  Discovery Activity Via Dnscmd.exe          | [Command](https://attack.mitre.org/datasources/DS0017), [Process](https://attack.mitre.org/datasources/DS0009/) | [Potential Discovery Activity Via Dnscmd.exe](./ADS_forms/T1016-Potential-Discovery-Activity-Via-Dnscmd.md)                                                                 |
+| T1087.002      |  Active Directory Structure Export Via Ldifde.EXE          | [Command](https://attack.mitre.org/datasources/DS0017), [Process](https://attack.mitre.org/datasources/DS0009/) | [Active Directory Structure Export Via Ldifde.EXE](./ADS_forms/T1087.002-Active-Directory-Structure-Export-Via-Ldifde.md)                                                                 |
+| T1087.002      |  Suspicious Group And Account Reconnaissance Activity Using Net.EXE          | [Command](https://attack.mitre.org/datasources/DS0017), [Process](https://attack.mitre.org/datasources/DS0009/) | [Suspicious Group And Account Reconnaissance Activity Using Net.EXE](./ADS_forms/T1087.002-Suspicious-Group-And-Account-Reconnaissance-Activity-Using-Net.md)                                                                 |
+
 
 ## Command and Control
 
 | Technique ID | Title    | Data Source                                             | ADS                                 |
 | ------------ | -------- | ------------------------------------------------------- | ----------------------------------- |
 | T1090        | C2 Proxy | [Command](https://attack.mitre.org/datasources/DS0017/) | [Proxy](./ADS_forms/T1090-Proxy.md) |
+| T1090        | Proxy - netsh abuse| [Command](https://attack.mitre.org/datasources/DS0017), [Process](https://attack.mitre.org/datasources/DS0009/) | [Proxy - netsh abuse](./ADS_forms/T1090-Proxy-netsh-abuse.md) |
 
 ## Malware / Tools
 
