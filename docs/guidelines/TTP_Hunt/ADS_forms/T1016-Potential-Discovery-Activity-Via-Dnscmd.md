@@ -1,8 +1,8 @@
 ## T1016-Potential Discovery Activity Via Dnscmd.exe
-  
+
 ###  DESCRIPTION
 
-Detects an attempt to leverage dnscmd.exe to enumerate the DNS zones of a domain. DNS zones used to host the DNS records for a particular domain    
+Detects an attempt to leverage dnscmd.exe to enumerate the DNS zones of a domain. DNS zones used to host the DNS records for a particular domain
 
 #### Example:
 > dnscmd . /enumrecords /zone {REDACTED}
