@@ -41,36 +41,61 @@ Organisations with Microsoft 365 premium or enterprise licencing should at a min
 
 ## Essential Eight Implementation
 
-The [ASD's Blueprint for Secure Cloud](https://blueprint.asd.gov.au/) was updated in December 2023, and has in depth process implementation guidance aligned to this technical reference.
+The [ASD's Blueprint for Secure Cloud](https://blueprint.asd.gov.au/) is being regularly updated, and has in depth process implementation guidance aligned to this technical reference.
 
-The defaults above subsequently enable straightforward implementation of the [ACSCs Essential Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight) Microsoft 365 [Cloud Security Guides](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guides). The indented links reference security platforms and tools that have been seen to simplify establishment and monitoring of controls as per the [ACSC Essential Eight Process Guide](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide) and introduce low [Supply Chain Risk](../guidelines/supply-chain-risk-mgmt.md).
+The defaults above subsequently enable straightforward implementation of the [ACSCs Essential Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight) Microsoft 365 [Cloud Security Guides](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guides). The indented links reference security platforms and tools that have been seen to simplify establishment and monitoring of controls as per the [ACSC Essential Eight Process Guide](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide) and introduce low [Supply Chain Risk](../guidelines/supply-chain-risk-mgmt.md) (where possible [Certified Service Providers](https://www.hostingcertification.gov.au/certified-service-providers) tooling has been referenced).
 
-### Application control [(ACSC Example)](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-application-control)
+### Application Control
 
-[AirLock Digital](https://www.airlockdigital.com), [Ivanti Application Control](https://www.ivanti.com/en-au/products/application-control), [Trend Vision One Application Control](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-application-control_001) or [VMWare Carbon Black App Control](https://www.vmware.com/products/app-control.html)
+[ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/application-control/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-application-control)
 
-### Patch operating systems [(ACSC Example)](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-patch-operating-system), Patch applications [(ACSC Example)](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-patch-applications)
+- If WDAC is high complexity to manage review [Intune ACSC Windows Hardening Guidelines](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines)
+- If above is still high complexity due to number of legacy or packaged applications review a third party tool like [AirLock Digital](https://www.airlockdigital.com)
+- Other effective tools: [Ivanti Application Control](https://www.ivanti.com/en-au/products/application-control), [Trend Vision One Application Control](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-application-control_001),  [VMWare Carbon Black App Control](https://www.vmware.com/products/app-control.html)
 
-[Microsoft Defender Vulnerability Management](https://learn.microsoft.com/en-us/microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management?view=o365-worldwide), [Tenable Vulnerability Management](https://www.tenable.com/products/tenable-io), [Rapid7 InsightVM](https://www.rapid7.com/products/insightvm/), [Qualys Vulnerability
-Management](https://www.qualys.com/apps/vulnerability-management-detection-response/), [Crowdstrike Falcon Spotlight](https://www.crowdstrike.com/products/exposure-management/falcon-spotlight-vulnerability-management/), [Ivanti Neurons for ASOC](https://www.ivanti.com/products/ivanti-neurons-for-asoc)
+### Patch Operating Systems
 
-### Configure macro settings [(ACSC Example)](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-configure-macro-settings)
+[ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/patch-os/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-patch-operating-system)
+
+- Manage MS endpoints OS patching with [Windows Autopatch](https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/overview/windows-autopatch-deployment-guide)
+- Manage Windows and Linux server patching with [Azure Automanage](https://learn.microsoft.com/en-us/azure/automanage/automanage-arc)
+- Manage MacOS endpoints as [supervised devices in Intune](https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-macos)
+
+### Patch Applications
+
+[ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/patch-applications/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-patch-applications)
+
+- Endpoint vuln mgmt with [Microsoft Defender Vulnerability Management](https://learn.microsoft.com/en-us/microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management?view=o365-worldwide)
+- Cloud vuln mgmt with [Defender CSPM](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management), [Amazon Inspector](https://aws.amazon.com/inspector/)
+- Server and OT vuln mgmt with [Tenable Vulnerability Management](https://www.tenable.com/products/tenable-io), [Rapid7 InsightVM](https://www.rapid7.com/products/insightvm/), [Qualys Vulnerability
+    Management](https://www.qualys.com/apps/vulnerability-management-detection-response/), [Crowdstrike Falcon Spotlight](https://www.crowdstrike.com/products/exposure-management/falcon-spotlight-vulnerability-management/), [Ivanti Neurons for ASOC](https://www.ivanti.com/products/ivanti-neurons-for-asoc)
+- OT and Network vuln mgmt with [Claroty xDome](https://claroty.com/industrial-cybersecurity/xdome), [Cisco Cyber Vision](https://www.cisco.com/site/us/en/products/security/industrial-security/cyber-vision/index.html) or [Palo Alto IoT Security](https://docs.paloaltonetworks.com/iot/iot-security-admin/iot-security-solution/iot-security-solution-structure)
+
+### Restrict Microsoft Office Macros
+
+[ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/restrict-microsoft-office-macros/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-configure-macro-settings)
 
 Migrate from legacy macros to [Office Scripts and Power Automate](https://learn.microsoft.com/en-us/office/dev/scripts/develop/power-automate-integration?tabs=run-script)
 
-### User application hardening [(ACSC Example)](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-user-application-hardening)
+### User Application Hardening
+
+[ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/user-application-hardening/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-user-application-hardening)
 
 - Block [newly registered domains (over 70% are malicious)](https://unit42.paloaltonetworks.com/newly-registered-domains-malicious-abuse-by-bad-actors/) with [Web Content Filtering](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/web-content-filtering?view=o365-worldwide)
 - Migrate java applications to use [Java Web Start](https://blogs.oracle.com/ebstech/post/migrate-to-java-web-start-from-java-plug-in-now) instead of browser plugins
 
-### Restrict administrative privileges [(ACSC Example)](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-restrict-administrative-privileges)
+### Restrict Administrative Privileges
+
+[ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/restrict-administrative-privileges/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-restrict-administrative-privileges)
 
 - Implement [Windows LAPS](https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview) for secure local administrator password management
 - Use [Administrative Units](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/administrative-units) to partition management scopes and minimise usage of global administration roles
 - Use [Entra ID Privileged Identity Management](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure) to enable time bound tracked access to privileged resources (as opposed to persistent privileged access)
 - Run shared devices in [Kiosk Mode](https://learn.microsoft.com/en-us/mem/intune/configuration/kiosk-settings) with local unprivileged users
 
-### Multi-factor authentication [(ACSC Example)](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-multi-factor-authentication)
+### Multi-factor Authentication
+
+[ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/multi-factor-authentication/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-multi-factor-authentication)
 
 Once Azure AD MFA configured, below migrations will get identities and data into compliant states and locations
 
@@ -82,6 +107,10 @@ Once Azure AD MFA configured, below migrations will get identities and data into
 - Implement a [Security Service Edge](https://learn.microsoft.com/en-us/entra/architecture/sse-deployment-guide-intro) or [MFA Application Proxy](https://learn.microsoft.com/en-us/entra/identity/app-proxy/application-proxy) in front of legacy systems in use by staff (internal identities)
 - Implement a [cloud based CDN and WAF](https://soc.cyber.wa.gov.au/guidelines/network-management/#web-application-firewalls-wafs-and-content-delivery-networks-cdns) such as [Akamai](https://www.akamai.com/products/app-and-api-protector), [Amazon CloudFront](https://aws.amazon.com/blogs/security/protect-public-clients-for-amazon-cognito-by-using-an-amazon-cloudfront-proxy/), [Azure Front Door](https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/afds-overview), [Cloudflare](https://www.cloudflare.com/en-au/application-services/products/waf/), [F5XC](https://docs.cloud.f5.com/docs/quick-start/service-chaining-cdn-waap), [Fastly](https://www.fastly.com/products/web-application-api-protection) or [Imperva](https://docs.imperva.com/bundle/cloud-application-security/page/introducing/overview.htm) that interoperate with Customer IAM such as [Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/overview), [Amazon Cognito](https://aws.amazon.com/cognito/), [IBM Verify](https://www.ibm.com/products/verify-identity), [Okta Customer Identity Cloud](https://www.okta.com/customer-identity/), [PingOne for Customers](https://www.pingidentity.com/en/platform/solutions/pingone-for-customers.html) in front of legacy systems in use by customers (external identities)
 
-### Regular backups [(ACSC Example)](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-regular-backups)
+### Regular Backups
 
-[Azure File Sync (Disaster Recovery for local file shares)](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/hybrid-file-share-dr-remote-local-branch-workers), [Back up on-premises applications and data to the cloud (Azure Backup)](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/backup-archive-on-premises-applications), [Druva Phoenix](https://www.druva.com/products/data-center)
+[ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/regular-backups/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-regular-backups)
+
+- Mirror onprem fileshares with [Azure File Sync (Disaster Recovery for local file shares)](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/hybrid-file-share-dr-remote-local-branch-workers)
+- Back up simple servers with [Back up on-premises applications and data to the cloud (Azure Backup)](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/backup-archive-on-premises-applications)
+- Back up complex environments with backup platforms like [Druva Phoenix](https://www.druva.com/products/data-center)
