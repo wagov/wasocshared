@@ -6,15 +6,17 @@ Qbot used reg.exe to add Defender folder exceptions for folders within AppData a
 
 **Example:**
 
-> C:\\Windows\\system32\\reg.exe ADD "HKLM\\SOFTWARE\\Microsoft\\Microsoft Antimalware\\Exclusions\\Paths" /f /t REG_DWORD /v "C:\\ProgramData\\Microsoft\\Oweboiqnb" /d "0"
-> C:\\Windows\\system32\\reg.exe ADD "HKLM\\SOFTWARE\\Microsoft\\Windows Defender\\Exclusions\\Paths" /f /t REG_DWORD /v "C:\\ProgramData\\Microsoft\\Oweboiqnb" /d "0"
+> - C:\\Windows\\system32\\reg.exe ADD "HKLM\\SOFTWARE\\Microsoft\\Microsoft Antimalware\\Exclusions\\Paths" /f /t REG_DWORD /v "C:\\ProgramData\\Microsoft\\Oweboiqnb" /d "0"
+> - C:\\Windows\\system32\\reg.exe ADD "HKLM\\SOFTWARE\\Microsoft\\Windows Defender\\Exclusions\\Paths" /f /t REG_DWORD /v "C:\\ProgramData\\Microsoft\\Oweboiqnb" /d "0"
 
-**Related**\
+**Related**
+
 Malware
 
-**Reference**\
-https://github.com/SigmaHQ/sigma/blob/4de6102dc7d94c9ee70995aeea27b77184d62c35/rules/windows/process_creation/proc_creation_win_reg_defender_exclusion.yml#L4%5C
-https://thedfirreport.com/2022/02/07/qbot-likes-to-move-it-move-it/
+**Reference**
+
+https://github.com/SigmaHQ/sigma/blob/4de6102dc7d94c9ee70995aeea27b77184d62c35/rules/windows/process_creation/proc_creation_win_reg_defender_exclusion.yml#L4 <br>
+https://thedfirreport.com/2022/02/07/qbot-likes-to-move-it-move-it/ <br>
 
 #### ATT&CK TACTICS
 
