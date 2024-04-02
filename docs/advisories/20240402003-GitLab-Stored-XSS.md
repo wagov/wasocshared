@@ -8,9 +8,9 @@ GitLab strongly recommends that all affected instances are upgraded to the lates
 
 ## What is vulnerable?
 
-| CVE    | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ------ | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2023-6371](https://nvd.nist.gov/vuln/detail/CVE-2023-6371) | **High** | 8.7  | GitLab CE/EE affecting all versions **before 16.8.5**, all versions starting **from 16.9 before 16.9.3**, all versions starting **from 16.10 before 16.10.1**. | A wiki page with a crafted payload may lead to a Stored XSS, allowing attackers to perform arbitrary actions on behalf of victims.        | 28/03/2024      |
+| CVE                                                             | Severity | CVSS | Product(s) Affected                                                                                                                                            | Summary                                                                                                                            | Dated      |
+| --------------------------------------------------------------- | -------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [CVE-2023-6371](https://nvd.nist.gov/vuln/detail/CVE-2023-6371) | **High** | 8.7  | GitLab CE/EE affecting all versions **before 16.8.5**, all versions starting **from 16.9 before 16.9.3**, all versions starting **from 16.10 before 16.10.1**. | A wiki page with a crafted payload may lead to a Stored XSS, allowing attackers to perform arbitrary actions on behalf of victims. | 28/03/2024 |
 
 ## What has been observed?
 
