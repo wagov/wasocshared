@@ -8,11 +8,13 @@ Identification of Events or Host Commands that are related to the MicroSCADA SCI
 
 > C:\\sc\\prog\\exec\\scilc.exe -do pack\\scil\\s1.txt
 
-**Related**\
+**Related**
+
 SCADA
 [Sandworm](https://attack.mitre.org/groups/G0034/)
 
-**Reference:**\
+**Reference:**
+
 https://www.mandiant.com/resources/blog/sandworm-disrupts-power-ukraine-operational-technology
 
 #### ATT&CK TACTICS
