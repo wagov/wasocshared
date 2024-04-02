@@ -11,11 +11,13 @@ Detects potential MonikerLink exploit CVE-2024-21413 activity by looking for cer
 ```
 
 **Related**
+
 Microsoft Outlook CVE-2024-21413
 
 **Reference**
-https://research.checkpoint.com/2024/the-risks-of-the-monikerlink-bug-in-microsoft-outlook-and-the-big-picture
-https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability?tab=readme-ov-file
+
+https://research.checkpoint.com/2024/the-risks-of-the-monikerlink-bug-in-microsoft-outlook-and-the-big-picture <br>
+https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability?tab=readme-ov-file <br>
 
 #### ATT&CK TACTICS
 
