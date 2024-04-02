@@ -6,10 +6,9 @@ Red Hat Linux has released security advisories to address malicious code discove
 
 ## What is vulnerable?
 
-| CVE                                                               | Severity     | CVSS | Product(s) Affected                                                                                                             |
-| ----------------------------------------------------------------- | ------------ | ---- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [CVE-2024-3094](https://nvd.nist.gov/vuln/detail/CVE-2024-3094) | **Critical** | 10.0  | **xz**  All versions starting 5.6.0|
-
+| CVE                                                             | Severity     | CVSS | Product(s) Affected                 |
+| --------------------------------------------------------------- | ------------ | ---- | ----------------------------------- |
+| [CVE-2024-3094](https://nvd.nist.gov/vuln/detail/CVE-2024-3094) | **Critical** | 10.0 | **xz**  All versions starting 5.6.0 |
 
 ## What has been observed?
 
@@ -18,9 +17,6 @@ There is no evidence of exploitation affecting Western Australian Government net
 ## Recommendation
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
-
-
-
 
 ## Additional References
 
