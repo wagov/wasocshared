@@ -6,11 +6,9 @@ Detects an attempt to leverage dnscmd.exe to enumerate the DNS zones of a domain
 
 #### Example:
 
-> dnscmd . /enumrecords /zone {REDACTED}
-
-> dnscmd . /enumzones
-
-> dnscmd /enumrecords {REDACTED} . /additional
+> dnscmd . /enumrecords /zone {REDACTED} <br>
+> dnscmd . /enumzones <br>
+> dnscmd /enumrecords {REDACTED} . /additional <br>
 
 #### Related
 
@@ -19,10 +17,10 @@ Discovery
 
 #### Reference:
 
-- https://github.com/SigmaHQ/sigma/blob/583f08ecaca532c7bff6e56e73c2e25c5b184796/rules/windows/process_creation/proc_creation_win_dnscmd_discovery.yml#L13
-- https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/dnscmd
-- https://lolbas-project.github.io/lolbas/Binaries/Dnscmd/
-- https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection
+- https://github.com/SigmaHQ/sigma/blob/583f08ecaca532c7bff6e56e73c2e25c5b184796/rules/windows/process_creation/proc_creation_win_dnscmd_discovery.yml#L13 <br>
+- https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/dnscmd <br>
+- https://lolbas-project.github.io/lolbas/Binaries/Dnscmd/ <br>
+- https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection <br>
 
 #### ATT&CK TACTICS
 
