@@ -15,7 +15,7 @@ Recent WA SOC advisories this month worth staying across include:
 - [Fortinet Services](https://soc.cyber.wa.gov.au/advisories/20240313002-Fortinet-Updates-Multiple-Products/)
 - [XZ Utility](https://soc.cyber.wa.gov.au/advisories/20240402002-Supply-Chain-Compromise-Affecting-XZ-Utils-Data-Compression-Library/)
 
-Agencies should review the latest [NIST CSF 2.0](https://www.nist.gov/quick-start-guides) and the new [AI Policy and Assurance Framwework](https://www.wa.gov.au/government/publications/wa-government-artificial-intelligence-policy-and-assurance-framework).
+Agencies should review the latest [NIST CSF 2.0](https://www.nist.gov/quick-start-guides) and the new [AI Policy and Assurance Framework](https://www.wa.gov.au/government/publications/wa-government-artificial-intelligence-policy-and-assurance-framework).
 
 **Security Hardening** remains a focus for all organisations. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
 
