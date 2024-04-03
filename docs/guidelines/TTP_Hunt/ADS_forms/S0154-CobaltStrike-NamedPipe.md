@@ -9,25 +9,27 @@ CobaltStrike uses named pipes for communication between processes. Default beaco
 
 > "MSSE-x-server", where "x" is a number from 1 to 4 characters
 
-**Related**\
+**Related**
+
 CobaltStrike
 
-**Reference:**\
-https://github.com/SigmaHQ/sigma/blob/dcfb4c5c28431dcdc1d26ed4e008945965afd8ed/rules/windows/pipe_created/pipe_created_mal_cobaltstrike.yml#L4%5C
-https://twitter.com/d4rksystem/status/1357010969264873472%5C
-https://labs.f-secure.com/blog/detecting-cobalt-strike-default-modules-via-named-pipe-analysis/%5C
-https://github.com/SigmaHQ/sigma/issues/253%5C
-https://blog.cobaltstrike.com/2021/02/09/learn-pipe-fitting-for-all-of-your-offense-projects/%5C
-https://redcanary.com/threat-detection-report/threats/cobalt-strike/%5C
-https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/Microsoft%20365%20Defender/Command%20and%20Control/C2-NamedPipe.yaml
+**Reference:**
 
-#### ATT&CK TACTICS<br>
+https://github.com/SigmaHQ/sigma/blob/dcfb4c5c28431dcdc1d26ed4e008945965afd8ed/rules/windows/pipe_created/pipe_created_mal_cobaltstrike.yml#L4 <br>
+https://twitter.com/d4rksystem/status/1357010969264873472 <br>
+https://labs.f-secure.com/blog/detecting-cobalt-strike-default-modules-via-named-pipe-analysis <br>
+https://github.com/SigmaHQ/sigma/issues/253 <br>
+https://blog.cobaltstrike.com/2021/02/09/learn-pipe-fitting-for-all-of-your-offense-projects <br>
+https://redcanary.com/threat-detection-report/threats/cobalt-strike <br>
+https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/Microsoft%20365%20Defender/Command%20and%20Control/C2-NamedPipe.yaml <br>
+
+#### ATT&CK TACTICS
 
 {{mitre("S0154")}}
 
 Data Source(s): [Named Pipe](https://attack.mitre.org/datasources/DS0023)
 
-#### SENTINEL RULE QUERY<br>
+#### SENTINEL RULE QUERY
 
 ```
 let selection_MSSE = dynamic([@'\MSSE-', '-server']);
