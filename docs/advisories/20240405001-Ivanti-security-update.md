@@ -2,17 +2,16 @@
 
 ## Overview
 
-Ivanti has released security updates to address vulnerabilities in all supported versions (9.x and 22.x) of Ivanti Connect Secure and Policy Secure gateways. A cyber threat actor could exploit one of these vulnerabilities to take control of an affected system. 
-
+Ivanti has released security updates to address vulnerabilities in all supported versions (9.x and 22.x) of Ivanti Connect Secure and Policy Secure gateways. A cyber threat actor could exploit one of these vulnerabilities to take control of an affected system.
 
 ## What is vulnerable?
 
-| CVE    | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ------ | ------------ | ---- | ------------------- | ------- | ----- |
-| CVE-2024-21894 | **High** | 8.2  | ICS and Ivanti Policy Secure |    An unauthenticated malicious user may send specially crafted requests to crash the service thereby causing a DoS. In certain conditions this may lead to execution of arbitrary code.     |   04/04/2024    |
-| CVE-2024-22052 | **High** | 7.5  | ICS and Ivanti Policy Secure | Allows an unauthenticated malicious user to send specially crafted requests to crash the service thereby causing a DoS attack.     |   04/04/2024    |
-| CVE-2024-22053 | **High** | 8.2  | ICS and Ivanti Policy Secure |    Allows an unauthenticated malicious user to send specially crafted requests to crash the service thereby causing a DoS attack or in certain conditions read contents from memory.     |   04/04/2024    |
-| CVE-2024-22023 | **Medium** | 5.3  | ICS and Ivanti Policy Secure |    Allows an unauthenticated attacker to send specially crafted XML requests to temporarily cause resource exhaustion thereby resulting in a limited-time DoS.     |   04/04/2024    |
+| CVE            | Severity   | CVSS | Product(s) Affected          | Summary                                                                                                                                                                               | Dated      |
+| -------------- | ---------- | ---- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| CVE-2024-21894 | **High**   | 8.2  | ICS and Ivanti Policy Secure | An unauthenticated malicious user may send specially crafted requests to crash the service thereby causing a DoS. In certain conditions this may lead to execution of arbitrary code. | 04/04/2024 |
+| CVE-2024-22052 | **High**   | 7.5  | ICS and Ivanti Policy Secure | Allows an unauthenticated malicious user to send specially crafted requests to crash the service thereby causing a DoS attack.                                                        | 04/04/2024 |
+| CVE-2024-22053 | **High**   | 8.2  | ICS and Ivanti Policy Secure | Allows an unauthenticated malicious user to send specially crafted requests to crash the service thereby causing a DoS attack or in certain conditions read contents from memory.     | 04/04/2024 |
+| CVE-2024-22023 | **Medium** | 5.3  | ICS and Ivanti Policy Secure | Allows an unauthenticated attacker to send specially crafted XML requests to temporarily cause resource exhaustion thereby resulting in a limited-time DoS.                           | 04/04/2024 |
 
 ## What has been observed?
 
