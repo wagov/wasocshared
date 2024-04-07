@@ -1,4 +1,4 @@
-# Ivanti Releases Security Update for Ivanti Connect Secure and Policy Secure Gateways - 20240405001
+# Ivanti Security Update for Connect Secure and Policy Secure Gateways - 20240405001
 
 ## Overview
 
