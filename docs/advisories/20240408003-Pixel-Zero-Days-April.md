@@ -8,10 +8,10 @@ Google has released patches for these vulnerabilities and strongly encourages al
 
 ## What is vulnerable?
 
-| CVE    | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ------ | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-29748](https://nvd.nist.gov/vuln/detail/CVE-2024-29748) | N/A | Not yet rated  | **versions before** security patch levels of 2024-04-05 |  Android Pixel Privilege Escalation Vulnerability       | 05/04/2024      |
-| [CVE-2024-29745](https://nvd.nist.gov/vuln/detail/CVE-2024-29745) | N/A | Not yet rated | **versions before** security patch levels of 2024-04-05 | Android Pixel Information Disclosure Vulnerability| 05/04/2024
+| CVE                                                               | Severity | CVSS          | Product(s) Affected                                     | Summary                                            | Dated      |
+| ----------------------------------------------------------------- | -------- | ------------- | ------------------------------------------------------- | -------------------------------------------------- | ---------- |
+| [CVE-2024-29748](https://nvd.nist.gov/vuln/detail/CVE-2024-29748) | N/A      | Not yet rated | **versions before** security patch levels of 2024-04-05 | Android Pixel Privilege Escalation Vulnerability   | 05/04/2024 |
+| [CVE-2024-29745](https://nvd.nist.gov/vuln/detail/CVE-2024-29745) | N/A      | Not yet rated | **versions before** security patch levels of 2024-04-05 | Android Pixel Information Disclosure Vulnerability | 05/04/2024 |
 
 ## What has been observed?
 
