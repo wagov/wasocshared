@@ -6,22 +6,24 @@ Detects suspicious credential access commands. Alone they may be normal but in c
 
 **Example:**
 
-> dir C:\\Users{REDACTED}.ssh\\known_hosts
-> dir C:\\users{REDACTED}\\appdata\\roaming\\Mozilla\\firefox\\profiles
-> reg query hklm\\software\\OpenSSH
-> reg query hklm\\software\\OpenSSH\\Agent
-> reg query hklm\\software\\realvnc
-> reg query hklm\\software\\realvnc\\vncserver
-> reg query hklm\\software\\realvnc\\Allusers
-> reg query hklm\\software\\realvnc\\Allusers\\vncserver
-> reg query hkcu\\software{REDACTED}\\putty\\session
-> reg save hklm\\sam ss.dat
-> reg save hklm\\system sy.dat
+> dir C:\\Users{REDACTED}.ssh\\known_hosts <br>
+> dir C:\\users{REDACTED}\\appdata\\roaming\\Mozilla\\firefox\\profiles <br>
+> reg query hklm\\software\\OpenSSH <br>
+> reg query hklm\\software\\OpenSSH\\Agent <br>
+> reg query hklm\\software\\realvnc <br>
+> reg query hklm\\software\\realvnc\\vncserver <br>
+> reg query hklm\\software\\realvnc\\Allusers <br>
+> reg query hklm\\software\\realvnc\\Allusers\\vncserver <br>
+> reg query hkcu\\software{REDACTED}\\putty\\session <br>
+> reg save hklm\\sam ss.dat <br>
+> reg save hklm\\system sy.dat <br>
 
-**Related**\
+**Related**
+
 Volt Typhoon
 
-**Reference:**\
+**Reference:**
+
 https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a
 
 #### ATT&CK TACTICS
