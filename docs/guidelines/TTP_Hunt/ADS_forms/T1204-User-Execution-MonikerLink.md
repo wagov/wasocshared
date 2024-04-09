@@ -7,7 +7,7 @@ Detects potential MonikerLink exploit CVE-2024-21413 activity by looking for cer
 **Example:**
 
 ```
-"href="file:///\\10.10.111.111\test\test.rtf!something">CLICK ME</a>*"
+"href="file[:][/][/][/]\\10[.]10[.]111[.]111\test\test[.]rtf[!]something">CLICK ME<[/]a>*"
 ```
 
 **Related**
