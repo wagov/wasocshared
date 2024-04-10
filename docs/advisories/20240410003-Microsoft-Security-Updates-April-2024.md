@@ -12,7 +12,7 @@ This release consists of the following 149 Microsoft CVEs:
 
 ## What has been observed?
 
- There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
 
@@ -20,5 +20,5 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- [CISA -Microsoft Releases April 2024 Security Updates 
-](https://www.cisa.gov/news-events/alerts/2024/04/09/microsoft-releases-april-2024-security-updates)
+- [CISA -Microsoft Releases April 2024 Security Updates
+    ](https://www.cisa.gov/news-events/alerts/2024/04/09/microsoft-releases-april-2024-security-updates)
