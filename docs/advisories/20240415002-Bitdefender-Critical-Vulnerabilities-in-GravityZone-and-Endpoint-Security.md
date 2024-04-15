@@ -6,8 +6,8 @@ Bitdefender has released a security advisory to address a Path Traversal vulnera
 
 ## What is vulnerable?
 
-| Product(s) Affected                                                                                                                                                                                          | CVE                                                               | Severity   | CVSS |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ---------- | ---- | --- |
+| Product(s) Affected                                                                                                                                                                          | CVE                                                                                                                              | Severity | CVSS |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------- | ---- | --- |
 | Bitdefender Endpoint Security for Linux version 7.0.5.200089 <br>Bitdefender Endpoint Security for Windows version 7.9.9.380 <br>GravityZone Control Center (On Premises) version 6.36.1<br> | [CVE-2024-2224](https://nvd.nist.gov/vuln/detail/CVE-2024-2224), [CVE-2024-2223](https://nvd.nist.gov/vuln/detail/CVE-2024-2223) | **High** | 8.1  |     |
 
 ## What has been observed?
