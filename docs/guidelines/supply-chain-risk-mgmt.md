@@ -18,7 +18,7 @@ Consider information security risks as a part of procurement and contract risk a
 - Understand the shared responsibility model between the supplier and the entity under which services are being contracted and managed.
 
 !!! warning "Software Development"
-    Where development is being outsourced including for managed services, the [ACSC Shifting the Balance of Cybersecurity Risk: Principles and Approaches for Security-by-Design and Default](https://www.cyber.gov.au/about-us/view-all-content/publications/principles-and-approaches-for-security-by-design-and-default) should be followed.
+    Where development is being outsourced including for managed services, the [ACSC Shifting the Balance of Cybersecurity Risk: Principles and Approaches for Security-by-Design and Default](https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/secure-by-design/principles-and-approaches-for-security-by-design-and-default) should be followed.
 
 !!! warning "Gateway Operators (Network and Internet managed services)"
     Where network management services are being outsourced, the [ACSC Gateway Hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening) security guidance should be followed. Please also refer to the [WA SOC Network Management Guideline](../guidelines/network-management.md)
