@@ -4,12 +4,6 @@
 
 Detects potential MonikerLink exploit CVE-2024-21413 activity by looking for certain strings in URLs
 
-**Example:**
-
-```
-"href="file:///\\10.10.111.111\test\test.rtf!something">CLICK ME</a>*"
-```
-
 **Related**
 
 Microsoft Outlook CVE-2024-21413
