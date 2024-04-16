@@ -8,9 +8,9 @@ Due to the improper handling of batch files in child_process.spawn / child_proce
 
 ## What is vulnerable?
 
-| CVE    | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ------ | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-27980](https://nvd.nist.gov/vuln/detail/CVE-2024-27980) | **Critical** | 9.8  | This vulnerability affects all users in active release lines: 18.x, 20.x, 21.x | A malicious command line argument can inject arbitrary commands and achieve code execution on Windows.        | Not yet published as of writing.      |
+| CVE                                                               | Severity     | CVSS | Product(s) Affected                                                            | Summary                                                                                                | Dated                            |
+| ----------------------------------------------------------------- | ------------ | ---- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | -------------------------------- |
+| [CVE-2024-27980](https://nvd.nist.gov/vuln/detail/CVE-2024-27980) | **Critical** | 9.8  | This vulnerability affects all users in active release lines: 18.x, 20.x, 21.x | A malicious command line argument can inject arbitrary commands and achieve code execution on Windows. | Not yet published as of writing. |
 
 ## What has been observed?
 
