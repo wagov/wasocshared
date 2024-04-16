@@ -12,16 +12,24 @@ on:
 env: # sendgrid api token
   sendgrid_api: ${{ secrets.SENDGRID_API }}
 
+permissions:
+  contents: read
+
 jobs:
   send-modified-files:
     name: Send advisory files added today, or send advisory from input url
     runs-on: ubuntu-latest
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          egress-policy: audit
+
       - name: Checkout docs
-        uses: actions/checkout@v4
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
             fetch-depth: 2
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5.1.0
         with:
           python-version: '3.11'
           cache: 'pip' # caching pip dependencies
