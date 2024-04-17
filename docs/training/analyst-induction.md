@@ -113,10 +113,12 @@ The below two resources are a good starting point for understanding KQL in addit
 
 #### 3.5.2 Addtional Microsoft Security and Administration Training
 
-The below resources are addtional training material for better understading the Microsoft Sentinel and M365 Security tools.
+The below resources are addtional training material for better understading the Microsoft Sentinel and M365 Security tools. Microsoft has developed the [Microsoft Security Academy](https://microsoft.github.io/PartnerResources/skilling/microsoft-security-academy), the following are high priority for SOC Analysts:
 
 1. [Become a Microsoft Sentinel Ninja: The complete level 400](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310) Training
+1. [Become a Microsoft Unified SOC Platform Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-unified-soc-platform-ninja/ba-p/4014565) Training
 1. [Become a Microsoft 365 Defender Ninja](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/become-a-microsoft-365-defender-ninja/ba-p/1789376) Training
+1. [Become a Microsoft 365 Defender Ninja](https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/become-a-microsoft-365-defender-ninja/ba-p/1789376) Training
 1. [Cybersecurity Architect Expert (SC-100)](https://docs.microsoft.com/en-us/certifications/cybersecurity-architect-expert/) Certification - design forward-looking strategies for security, governance, risk, compliance covering users, workstations, infrastructure, data and applications.
 1. [Microsoft Certified: Identity and Access Administrator Associate (SC-300)](https://learn.microsoft.com/en-us/certifications/identity-and-access-administrator/) Certification - configure and manage authentication and authorization of identities for users, devices, Azure resources, and applications.
 1. [Microsoft Certified: Information Protection Administrator Associate (SC-400)](https://learn.microsoft.com/en-us/certifications/information-protection-administrator/?wt.mc_id=certsustainedmkt_portfolioupdate_blog_wwl) Certification - implementing and managing solutions for content classification, data loss prevention (DLP), information protection, data lifecycle management, records management, privacy, risk, and compliance.
