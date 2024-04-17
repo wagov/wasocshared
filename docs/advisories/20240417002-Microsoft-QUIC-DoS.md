@@ -6,9 +6,9 @@ Microsoft has previously released information regarding QUIC Denial of Service v
 
 ## What is vulnerable?
 
-| CVE    | Severity     | CVSS | Product(s) Affected | Dated |
-| ------ | ------------ | ---- | ------------------- |  ----- |
-| [CVE-2024-26190](https://nvd.nist.gov/vuln/detail/CVE-2024-26190) | **High** | 7.5  |See vendor link in Recommendation  |    12/03/24 (Updated 16/04/24)   |
+| CVE                                                               | Severity | CVSS | Product(s) Affected               | Dated                       |
+| ----------------------------------------------------------------- | -------- | ---- | --------------------------------- | --------------------------- |
+| [CVE-2024-26190](https://nvd.nist.gov/vuln/detail/CVE-2024-26190) | **High** | 7.5  | See vendor link in Recommendation | 12/03/24 (Updated 16/04/24) |
 
 ## What has been observed?
 
