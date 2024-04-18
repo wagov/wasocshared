@@ -6,8 +6,8 @@ Multiple vulnerabilities have been discovered in Google Chrome, which could allo
 
 ## What is vulnerable?
 
-| CVE                                                             | Severity     | CVSS | Product(s) Affected                                                                       | 
-| --------------------------------------------------------------- | ------------ | ---- | ----------------------------------------------------------------------------------------- | 
+| CVE                                                             | Severity     | CVSS | Product(s) Affected                                                                       |
+| --------------------------------------------------------------- | ------------ | ---- | ----------------------------------------------------------------------------------------- |
 | [CVE-2024-1673](https://nvd.nist.gov/vuln/detail/CVE-2024-1673) | **Critical** | 9.8  | **Chrome versions prior to 124.0.6367.60/.61 for Wins & Mac and 124.0.6367.60 for Linux** |
 
 ## Recommendation
