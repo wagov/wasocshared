@@ -41,6 +41,7 @@ jobs:
           commit_message: Format markdown docs
   deploy:
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
