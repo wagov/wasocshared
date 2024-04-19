@@ -71,7 +71,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@84bb4cd4b733d5c320c9c9cfbc354937524f4d64 # v1.0.10
+        uses: actions/upload-pages-artifact@v4
         with:
           # Upload main folder
           path: "site"
