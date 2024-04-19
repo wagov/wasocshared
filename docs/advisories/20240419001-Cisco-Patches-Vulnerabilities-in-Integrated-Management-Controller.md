@@ -6,9 +6,9 @@ A vulnerability in the CLI of the Cisco Integrated Management Controller (IMC) c
 
 ## What is vulnerable?
 
-| CVE                                                               | Severity | CVSS | Product(s) Affected               | 
-| ----------------------------------------------------------------- | -------- | ---- | --------------------------------- | 
-| [CVE-2024-20295](https://nvd.nist.gov/vuln/detail/CVE-2024-20295) | **High** | 8.8  | See vendor link in Recommendation | 
+| CVE                                                               | Severity | CVSS | Product(s) Affected               |
+| ----------------------------------------------------------------- | -------- | ---- | --------------------------------- |
+| [CVE-2024-20295](https://nvd.nist.gov/vuln/detail/CVE-2024-20295) | **High** | 8.8  | See vendor link in Recommendation |
 
 ## What has been observed?
 
