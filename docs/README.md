@@ -1,5 +1,7 @@
 # WA Cyber Security Unit (Office of Digital Government)
 
+[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/wagov/wasocshared.svg?label=openssf%20scorecard)](https://securityscorecards.dev/viewer/?uri=github.com/wagov/wasocshared)
+
 This site contains technical information to support WA Government Cyber Security activities. Please propose updates directly via the edit link on each page or email [cybersecurity@dpc.wa.gov.au](mailto:cybersecurity@dpc.wa.gov.au) with any feedback. The site is built with [Material for MkDocs (reference)](https://squidfunk.github.io/mkdocs-material/reference/) which includes several [extensions to markdown](https://squidfunk.github.io/mkdocs-material/setup/extensions/) for enhanced technical writing.
 
 !!! tip "RSS Feeds"
