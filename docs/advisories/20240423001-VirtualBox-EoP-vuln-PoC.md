@@ -6,9 +6,9 @@ An easily exploitable vulnerability in Oracle VM VirtualBox allows a low privile
 
 ## What is vulnerable?
 
-| CVE    | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ------ | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-21111](https://nvd.nist.gov/vuln/detail/CVE-2024-21111) | **High** | 7.8  | Oracle VM VirtualBox prior to 7.0.16 - Windows only  | Allows attackers with basic access to a Windows system running VirtualBox to escalate their privileges.        | 16/04/2024      |
+| CVE                                                               | Severity | CVSS | Product(s) Affected                                 | Summary                                                                                                 | Dated      |
+| ----------------------------------------------------------------- | -------- | ---- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------- |
+| [CVE-2024-21111](https://nvd.nist.gov/vuln/detail/CVE-2024-21111) | **High** | 7.8  | Oracle VM VirtualBox prior to 7.0.16 - Windows only | Allows attackers with basic access to a Windows system running VirtualBox to escalate their privileges. | 16/04/2024 |
 
 ## What has been observed?
 
