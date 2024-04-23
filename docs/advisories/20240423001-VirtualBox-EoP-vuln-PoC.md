@@ -1,4 +1,4 @@
-# VirtualBox Privelege Escalation Vulnerability - 20240423001
+# VirtualBox Privilege Escalation Vulnerability - 20240423001
 
 ## Overview
 
