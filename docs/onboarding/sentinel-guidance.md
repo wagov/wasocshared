@@ -37,14 +37,14 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 
 [Create incidents based on events from systems whose logs are not ingested into Microsoft Sentinel.](https://learn.microsoft.com/en-us/azure/sentinel/create-incident-manually)
 
-The above guide supports the below incident creation flows from third party systems (ideally for these integrations aim to ensure that **classification**, **severity** are set and related incidents are grouped):
+The above guide supports the below incident creation flows from third party systems:
 
 - [Create an incident using Azure Logic Apps](https://learn.microsoft.com/en-us/azure/sentinel/create-incident-manually#create-an-incident-using-azure-logic-apps)
     - [Create Incidents with Email](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Create%20Incidents%20with%20Email)
     - [Create Incidents from Webhook (HTTP)](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Create%20Incidents%20From%20Http)
 - [Create an incident using the Microsoft Sentinel API](https://learn.microsoft.com/en-us/azure/sentinel/create-incident-manually#create-an-incident-using-the-microsoft-sentinel-api)
 
-Including **severity**, **classification** and **mitre tactic / technique** attributes helps the WASOC triage and prioritise incidents.
+Ensuring that integrations include **severity**, **classification** and **mitre tactic / technique** attributes helps the WASOC triage and prioritise incidents. Additionally incidents with similar subjects or identifiers should be grouped if possible (a good rule of thumb is if something is triggering more than 4 times a day it should be grouped into hourly or larger aggregated incidents).
 
 ## 5. Performance and cost optimisation
 
