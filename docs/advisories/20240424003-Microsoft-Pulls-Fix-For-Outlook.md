@@ -6,8 +6,8 @@ Microsoft has rolled back a fix for a known Outlook issue that was causing incor
 
 ## What is vulnerable?
 
-| CVE    | Severity     | CVSS |
-| ------ | ------------ | ---- |
+| CVE                                                               | Severity   | CVSS |
+| ----------------------------------------------------------------- | ---------- | ---- |
 | [CVE-2023-35636](https://nvd.nist.gov/vuln/detail/CVE-2023-35636) | **Medium** | 6.5  |
 
 ## What has been observed?
