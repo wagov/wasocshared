@@ -25,14 +25,14 @@ Consider information security risks as a part of procurement and contract risk a
 
 ## Template contract clauses promoting information security
 
-Include clauses similar to below when procuring any goods or services that handle digital information.
+Include clauses similar to below when procuring any goods or services that handle digital information. If the information processed is only classified as [OFFICIAL or UNOFFICIAL](https://www.wa.gov.au/government/publications/western-australian-information-classification-policy) then the [Minimum Viable Secure Product checklist](https://mvsp.dev/mvsp.en/) may be a sufficient reduced set of criteria dependent on risk.
 
 - **Vulnerability Disclosure:** Notify the customer of confirmed security vulnerabilities in their assets within 24 hours of confirmation.
 - **Cyber Incident Detection and Response:** Notify the customer of cyber security incidents within 24 hours of detection.
 - **Cyber Security Performance Monitoring:** Provide visibility of [Security Operations](../baselines/security-operations.md) and [Vulnerability Management](../baselines/vulnerability-management.md) through an online portal (preferred) or monthly reports (fallback).
     - **Security Operations** should include performance metrics collected, [MITRE data sources](https://attack.mitre.org/datasources/) analysed for adverse events, and security incidents triaged by [MITRE ATT&CK category](https://attack.mitre.org).
     - **Vulnerability Management** should include [asset inventory](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-management), [secure configuration assessments](https://soc.cyber.wa.gov.au/guidelines/secure-configuration/), [vulnerability assessment scope and outstanding vulnerabilities](https://soc.cyber.wa.gov.au/baselines/vulnerability-management/).
-- **Cyber Security Assessments:** Undertake an independent cyber security assurance activity across operations in scope of this contract at least every 24 months aligned to ACSC ISM (IRAP), ISO 27k, SOC 2 or NIST SP 800-53 and make available the report including noted exceptions.
+- **Cyber Security Assessments:** Undertake an independent cyber security assurance activity across operations in scope of this contract at least every 24 months aligned to [ACSC ISM](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism) ([IRAP](https://www.cyber.gov.au/resources-business-and-government/assessment-and-evaluation-programs/infosec-registered-assessors-program)), [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), [SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2) or [NIST SP 800-53](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) and make available the report including noted exceptions.
 - **Information Classification, Retention and Disposal:** Ensure information is secured for the duration of the contract, with secure disposal or transfer at termination of contract.
 
 ## Managing Cybersecurity Risk in Supply Chains (NIST)
