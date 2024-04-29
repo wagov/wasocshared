@@ -2,7 +2,8 @@ name: Send advisory
 
 on:
   push:
-    branches: [main]
+    branches: ['main']
+    paths: ['docs/advisories']
 
 
 env: # sendgrid api token
