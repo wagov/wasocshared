@@ -3,8 +3,6 @@ name: Send advisory
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 
 env: # sendgrid api token
