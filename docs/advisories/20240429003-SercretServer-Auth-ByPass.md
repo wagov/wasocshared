@@ -8,9 +8,9 @@ Delinea Secret Server versions before 11.7.000001 are vulnerable to a serious au
 
 ## What is vulnerable?
 
-| CVE    | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ------ | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-33891](https://nvd.nist.gov/vuln/detail/CVE-2024-33891) | **High** | 8.8  | Delinea Secret Server **versions before** 11.7.000001| Authentication bypass vulnerabilty due to a hardcoded key.       | 28/04/2024      |
+| CVE                                                               | Severity | CVSS | Product(s) Affected                                   | Summary                                                    | Dated      |
+| ----------------------------------------------------------------- | -------- | ---- | ----------------------------------------------------- | ---------------------------------------------------------- | ---------- |
+| [CVE-2024-33891](https://nvd.nist.gov/vuln/detail/CVE-2024-33891) | **High** | 8.8  | Delinea Secret Server **versions before** 11.7.000001 | Authentication bypass vulnerabilty due to a hardcoded key. | 28/04/2024 |
 
 ## What has been observed?
 
