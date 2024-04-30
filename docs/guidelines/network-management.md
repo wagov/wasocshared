@@ -3,7 +3,6 @@
 This guideline is a pragmatic target for an entity's network architecture to enable effective and secure network management while minimising complexity. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted in stages that is highly aligned with the [ACSC Network gateway hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance) guidance package.
 
 !!! note "tl;dr (rapid implementation plan)"
-
     To rapidly achieve quality network telemetry and the capability to detect and respond to lateral movement implementing the below tools provide a rapid return on investment while only imposing minimal user facing / network hardware changes:
 
     - Implement [Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/deploy/quick-installation-guide) and ensure DNS resolution for OT/IoT and Server environments is done via Active Directory to monitor DNS, Kerberos and LDAP traffic
