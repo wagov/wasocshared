@@ -29,21 +29,11 @@ The standard recommended actions within CSPM tools such as [Microsoft Defender f
 - [Oracle Cloud Guard](https://www.oracle.com/au/security/cloud-security/cloud-guard/) and [Oracle Data Safe](https://www.oracle.com/au/security/database-security/data-safe/)
 - [Google Cloud Security Command Centre](https://cloud.google.com/security-command-center)
 
-## Microsoft 365 security defaults and Intune enrollment
-
-Organisations with Microsoft 365 premium or enterprise licencing should at a minimum undertake the following basics:
-
-- Enable security defaults in Azure Active Directory. Microsoft has published [guidance on enabling Security defaults](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#enabling-security-defaults).
-- Enrol your compatible devices in Intune. Microsoft has published guidance on [enrolling Windows devices in Intune](https://docs.microsoft.com/en-us/mem/intune/enrollment/windows-enrollment-methods).
-
-![Security defaults](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/media/security-defaults/security-defaults-entra-admin-center.png)
-![Intune enrollment](https://learn.microsoft.com/en-us/mem/intune/fundamentals/media/deployment-guide-enroll/deployment-plan-enroll.png)
-
 ## Essential Eight Implementation
 
-The [ASD's Blueprint for Secure Cloud](https://blueprint.asd.gov.au/) is being regularly updated, and has in depth process implementation guidance aligned to this technical reference.
+The [ASD's Blueprint for Secure Cloud (process focused)](https://blueprint.asd.gov.au/) and [Microsoft Compliance - ACSC Essential Eight (technical focus)](https://learn.microsoft.com/en-us/compliance/essential-eight/e8-overview) are being regularly updated, and have in depth guidance aligned to this technical reference.
 
-The defaults above subsequently enable straightforward implementation of the [ACSCs Essential Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight) Microsoft 365 [Cloud Security Guides](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guides). The indented links reference security platforms and tools that have been seen to simplify establishment and monitoring of controls as per the [ACSC Essential Eight Process Guide](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide) and introduce low [Supply Chain Risk](../guidelines/supply-chain-risk-mgmt.md) (where possible [Certified Service Providers](https://www.hostingcertification.gov.au/certified-service-providers) tooling has been referenced).
+Small entities should also review the [ACSCs Essential Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight) Microsoft 365 [Cloud Security Guides](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guides). Our below links reference security platforms and tools that have been seen to simplify establishment and monitoring of controls as per the [ACSC Essential Eight Process Guide](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide) and reduce [Supply Chain Risk](../guidelines/supply-chain-risk-mgmt.md) (where possible [Certified Service Providers](https://www.hostingcertification.gov.au/certified-service-providers) tooling has been referenced).
 
 ### Application Control
 
