@@ -2,6 +2,16 @@
 
 This guideline is a pragmatic target for an entity's network architecture to enable effective and secure network management while minimising complexity. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted in stages that is highly aligned with the [ACSC Network gateway hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance) guidance package.
 
+!!! note "tl;dr (rapid implementation plan)"
+
+    To rapidly achieve quality network telemetry and the capability to detect and respond to lateral movement implementing the below tools provide a rapid return on investment while only imposing minimal user facing / network hardware changes:
+
+    - Implement [Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/deploy/quick-installation-guide) and ensure DNS resolution for OT/IoT and Server environments is done via Active Directory to monitor DNS, Kerberos and LDAP traffic
+    - [Turn on network protection in Defender for Endpoint](https://learn.microsoft.com/en-us/defender-endpoint/enable-network-protection) to monitor endpoint egress traffic
+    - Implement [Per-app Access using Global Secure Access](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-per-app-access) for user access to corporate resources to monitor all traffic to applications
+    - Deny direct network access to applications - this can take months to years, however is easy to prioritise based on criticality of applications and/or number of assets being 'secured' from broad network access
+    - Iteratively improve network topology with long term goal to isolate all applications laterally and remove all default private access from user vlans (i.e. users should only be able to access corporate resources via a zero trust policy targeted per application + application user group)
+
 ![Network topology utilising recommended modern SASE solutions.](../images/Network-SASE.png)
 
 ## Contemporary Network Architecture
