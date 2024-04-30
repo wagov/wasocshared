@@ -1,4 +1,4 @@
-![image](https://github.com/wagov/wasocshared/assets/121014/581293d3-2ced-4929-9059-90c84608a8b0)# Secure Configuration Assessment Guideline
+# Secure Configuration Assessment Guideline
 
 This guideline is intended to define a simple approach to ongoing monitoring and assurance of secure configuration of common tools and platforms.
 
