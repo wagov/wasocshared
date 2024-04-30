@@ -2,9 +2,8 @@ name: Send advisory
 
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+    branches: ['main']
+    paths: ['docs/advisories']
 
 
 env: # sendgrid api token
@@ -17,6 +16,8 @@ jobs:
   send-modified-files:
     name: Send advisory files created in last hour
     runs-on: ubuntu-latest
+    environment:
+      name: communication
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
