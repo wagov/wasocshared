@@ -3,7 +3,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.4
 mkdocs-macros-plugin==1.0.5
 mkdocs-material==9.5.18
 mkdocs-redirects==1.2.1
-pymdown-extensions==10.8
+pymdown-extensions==10.8.1
 mkdocs-linkcheck==1.0.6
 mdformat-gfm==0.3.6
 mdformat-mkdocs[recommended]==2.0.9
