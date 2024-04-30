@@ -10,7 +10,7 @@ This guideline is a pragmatic target for an entity's network architecture to ena
     - Implement [Per-app Access](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-per-app-access) for user access to corporate resources to **monitor application traffic**
 
     The below steps can take months to years, but won't impede the risk reduction from the above quick steps:
-    
+
     - Implement [webauthn (passkeys/fido)](https://github.com/herrjemand/awesome-webauthn) with centrally logged [CIAM](https://learn.microsoft.com/en-us/entra/external-id/customers/overview-customers-ciam) for all internet exposed (i.e. citizen facing) systems
     - Deny direct network access to applications and iteratively improve network topology
 
