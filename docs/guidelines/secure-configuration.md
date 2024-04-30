@@ -1,4 +1,4 @@
-# Secure Configuration Assessment Guideline
+![image](https://github.com/wagov/wasocshared/assets/121014/581293d3-2ced-4929-9059-90c84608a8b0)# Secure Configuration Assessment Guideline
 
 This guideline is intended to define a simple approach to ongoing monitoring and assurance of secure configuration of common tools and platforms.
 
@@ -49,9 +49,10 @@ The defaults above subsequently enable straightforward implementation of the [AC
 
 [ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/application-control/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-application-control)
 
-- If WDAC is high complexity to manage review [Intune ACSC Windows Hardening Guidelines](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines)
+- Start with [Essential Eight application control using AppLocker for ML1](https://learn.microsoft.com/en-us/compliance/essential-eight/e8-app-control#essential-eight-application-control-using-applocker-for-ml1) (simple 3 path block rule) 
+- For modern approaches to [WDAC for ML2](https://learn.microsoft.com/en-us/compliance/essential-eight/e8-app-control#essential-eight-application-control-using-wdac-for-ml2) see [Intune ACSC Windows Hardening Guidelines](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines)
 - If above is still high complexity due to number of legacy or packaged applications review a third party tool like [AirLock Digital](https://www.airlockdigital.com)
-- Other effective tools: [Ivanti Application Control](https://www.ivanti.com/en-au/products/application-control), [Trend Vision One Application Control](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-application-control_001),  [VMWare Carbon Black App Control](https://www.vmware.com/products/app-control.html)
+- Other effective tools: [Ivanti Application Control](https://www.ivanti.com/en-au/products/application-control), [Trend Vision One Application Control](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-application-control_001), [VMWare Carbon Black App Control](https://www.vmware.com/products/app-control.html)
 
 ### Patch Operating Systems
 
