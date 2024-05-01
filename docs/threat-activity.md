@@ -7,7 +7,6 @@
 Based on recent high impact incidents seen by the WA SOC, security teams should be focusing on the below areas of improvement:
 
 !!! warning "WASOC Guidance targeted on recent threat activity"
-
     - Lessons from XZ Utils: Achieving a More Sustainable Open Source Ecosystem (https://www.cisa.gov/news-events/news/lessons-xz-utils-achieving-more-sustainable-open-source-ecosystem)
         - Secure by Design [CISA Guidance on SBOM](https://www.cisa.gov/sites/default/files/2023-10/SecureByDesign_1025_508c.pdf)
         - Software Bill of Materials [SBOM](https://www.cisa.gov/sbom)
