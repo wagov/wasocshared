@@ -6,8 +6,8 @@ The Foxit PDF Reader has three High vulnerabilities that can lead to memory corr
 
 ## What is vulnerable?
 
-| CVE            | Severity | CVSS | Product(s) Affected        | Summary                                                                                                           | Dated         |
-| -------------- | -------- | ---- | -------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------- |
+| CVE                                                               | Severity | CVSS | Product(s) Affected        | Summary                                                                                                           | Dated         |
+| ----------------------------------------------------------------- | -------- | ---- | -------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------- |
 | [CVE-2024-25575](https://nvd.nist.gov/vuln/detail/CVE-2024-25575) | **High** | 8.8  | **versions before** 2024.2 | A type confusion vulnerability vulnerability exists in the way Foxit Reader 2024.1.0.23997 handles a Lock object. | 30 April 2024 |
 | [CVE-2024-25648](https://nvd.nist.gov/vuln/detail/CVE-2024-25648) | **High** | 8.8  | **versions before** 2024.2 | A use-after-free vulnerability exists in the way Foxit Reader 2024.1.0.23997 handles a ComboBox widget.           | 30 April 2024 |
 | [CVE-2024-25938](https://nvd.nist.gov/vuln/detail/CVE-2024-25938) | **High** | 8.8  | **versions before** 2024.2 | A use-after-free vulnerability exists in the way Foxit Reader 2024.1.0.23997 handles a Barcode widget.            | 30 April 2024 |
