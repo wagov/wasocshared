@@ -17,7 +17,7 @@ Below is a rapid approach to get Microsoft workloads covered rapidly using Senti
 1. [Microsoft 365 Defender XDR connector](https://learn.microsoft.com/en-us/azure/sentinel/data-connectors/microsoft-365-defender)
     1. [Microsoft Defender for Office 365](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/step-by-step-guides/step-by-step-guide-overview?view=o365-worldwide)
     1. [Microsoft Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/quick-installation-guide)
-    1. [Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mde-planning-guide?view=o365-worldwide)
+    1. [Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mde-planning-guide?view=o365-worldwide) (including [Attack Surface Reduction](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction?view=o365-worldwide))
     1. [Connect Microsoft Defender for Cloud (servers)](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud)
 1. [Microsoft Entra ID (formerley AAD)](https://learn.microsoft.com/en-us/azure/sentinel/connect-azure-active-directory)
 
@@ -40,11 +40,11 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 The above guide supports the below incident creation flows from third party systems:
 
 - [Create an incident using Azure Logic Apps](https://learn.microsoft.com/en-us/azure/sentinel/create-incident-manually#create-an-incident-using-azure-logic-apps)
-    - Create incident with Microsoft Form
-    - Create incident from shared email inbox
+    - [Create Incidents with Email](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Create%20Incidents%20with%20Email)
+    - [Create Incidents from Webhook (HTTP)](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Create%20Incidents%20From%20Http)
 - [Create an incident using the Microsoft Sentinel API](https://learn.microsoft.com/en-us/azure/sentinel/create-incident-manually#create-an-incident-using-the-microsoft-sentinel-api)
 
-Including **severity**, **classification** and **mitre tactic / technique** attributes helps the WASOC triage and prioritise incidents.
+Ensuring that integrations include **severity**, **classification** and **mitre tactic / technique** attributes helps the WASOC triage and prioritise incidents. Additionally incidents with similar subjects or identifiers should be grouped if possible (a good rule of thumb is if something is triggering more than 4 times a day it should be grouped into hourly or larger aggregated incidents).
 
 ## 5. Performance and cost optimisation
 
