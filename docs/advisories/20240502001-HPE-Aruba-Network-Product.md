@@ -1,4 +1,4 @@
-# HPE Aruba Network Products Critical Remote Code Execution (RCE) Vulnerabilities - 20240502001
+# HPE Aruba Network Products Critical RCE Vulnerabilities - 20240502001
 
 ## Overview
 
