@@ -1,8 +1,6 @@
-# NSA Highlights Mitigations against North Korean Actor Email Policy Exploitation - 20240503004
+# North Korean Threat Actor Email Policy Exploitation - 20240503004
 
 ## Overview
-
-### What has been observed?
 
 The National Security Agency (NSA) and Federal Bureau of Investigation (FBI) have released a report detailing how Northern Korean actors are exploiting weak DMARC security policies to mask spearphishing efforts. These efforts include emails that appear to be from legitimate journalists, academics, or other experts in East Asian affairs.
 
