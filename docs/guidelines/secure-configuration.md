@@ -29,29 +29,20 @@ The standard recommended actions within CSPM tools such as [Microsoft Defender f
 - [Oracle Cloud Guard](https://www.oracle.com/au/security/cloud-security/cloud-guard/) and [Oracle Data Safe](https://www.oracle.com/au/security/database-security/data-safe/)
 - [Google Cloud Security Command Centre](https://cloud.google.com/security-command-center)
 
-## Microsoft 365 security defaults and Intune enrollment
-
-Organisations with Microsoft 365 premium or enterprise licencing should at a minimum undertake the following basics:
-
-- Enable security defaults in Azure Active Directory. Microsoft has published [guidance on enabling Security defaults](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#enabling-security-defaults).
-- Enrol your compatible devices in Intune. Microsoft has published guidance on [enrolling Windows devices in Intune](https://docs.microsoft.com/en-us/mem/intune/enrollment/windows-enrollment-methods).
-
-![Security defaults](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/media/security-defaults/security-defaults-entra-admin-center.png)
-![Intune enrollment](https://learn.microsoft.com/en-us/mem/intune/fundamentals/media/deployment-guide-enroll/deployment-plan-enroll.png)
-
 ## Essential Eight Implementation
 
-The [ASD's Blueprint for Secure Cloud](https://blueprint.asd.gov.au/) is being regularly updated, and has in depth process implementation guidance aligned to this technical reference.
+The [ASD's Blueprint for Secure Cloud (process focused)](https://blueprint.asd.gov.au/) and [Microsoft Compliance - ACSC Essential Eight (technical focus)](https://learn.microsoft.com/en-us/compliance/essential-eight/e8-overview) are being regularly updated, and have in depth guidance aligned to this technical reference.
 
-The defaults above subsequently enable straightforward implementation of the [ACSCs Essential Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight) Microsoft 365 [Cloud Security Guides](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guides). The indented links reference security platforms and tools that have been seen to simplify establishment and monitoring of controls as per the [ACSC Essential Eight Process Guide](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide) and introduce low [Supply Chain Risk](../guidelines/supply-chain-risk-mgmt.md) (where possible [Certified Service Providers](https://www.hostingcertification.gov.au/certified-service-providers) tooling has been referenced).
+Small entities should also review the [ACSCs Essential Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight) Microsoft 365 [Cloud Security Guides](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guides). Our below links reference security platforms and tools that have been seen to simplify establishment and monitoring of controls as per the [ACSC Essential Eight Process Guide](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide) and reduce [Supply Chain Risk](../guidelines/supply-chain-risk-mgmt.md) (where possible [Certified Service Providers](https://www.hostingcertification.gov.au/certified-service-providers) tooling has been referenced).
 
 ### Application Control
 
 [ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/application-control/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-application-control)
 
-- If WDAC is high complexity to manage review [Intune ACSC Windows Hardening Guidelines](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines)
+- Start with [Essential Eight application control using AppLocker for ML1](https://learn.microsoft.com/en-us/compliance/essential-eight/e8-app-control#essential-eight-application-control-using-applocker-for-ml1) (simple 3 path block rule)
+- For modern approaches to [WDAC for ML2](https://learn.microsoft.com/en-us/compliance/essential-eight/e8-app-control#essential-eight-application-control-using-wdac-for-ml2) see [Intune ACSC Windows Hardening Guidelines](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines)
 - If above is still high complexity due to number of legacy or packaged applications review a third party tool like [AirLock Digital](https://www.airlockdigital.com)
-- Other effective tools: [Ivanti Application Control](https://www.ivanti.com/en-au/products/application-control), [Trend Vision One Application Control](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-application-control_001),  [VMWare Carbon Black App Control](https://www.vmware.com/products/app-control.html)
+- Other effective tools: [Ivanti Application Control](https://www.ivanti.com/en-au/products/application-control), [Trend Vision One Application Control](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-application-control_001), [VMWare Carbon Black App Control](https://www.vmware.com/products/app-control.html)
 
 ### Patch Operating Systems
 
@@ -99,7 +90,7 @@ Migrate from legacy macros to [Office Scripts and Power Automate](https://learn.
 
 Once Azure AD MFA configured, below migrations will get identities and data into compliant states and locations
 
-- Enable [DKIM/DMARC/SPF](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-about?view=o365-worldwide#how-to-avoid-email-authentication-failures-when-sending-mail-to-microsoft-36) across all registered domains belonging to the organisation
+- [Combat fake emails (ACSC)](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/how-combat-fake-emails) by enabling [DKIM/DMARC/SPF](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-about?view=o365-worldwide#how-to-avoid-email-authentication-failures-when-sending-mail-to-microsoft-36) across all registered domains belonging to the organisation
     - If legacy systems/applications dependent on SMTP exist, migrate them to separate subdomains on transactional email platforms such as [mailchimp](https://mailchimp.com/developer/transactional/docs/smtp-integration/), [postmarkapp](https://postmarkapp.com/developer/user-guide/send-email-with-smtp) or [sendgrid](https://docs.sendgrid.com/for-developers/sending-email/getting-started-smtp) to avoid reducing the security of the primary identity domains
 - [Disable SMTP Auth for Exchange Online](https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization) to simplify conditional access policies and avoid reconnaisance and exploitation of primary identity domains and mailboxes
 - [Migrate file shares to OneDrive, Teams, and SharePoint](https://learn.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide) and enable [Microsoft Purview risk and compliance](https://learn.microsoft.com/en-us/purview/purview-compliance)
