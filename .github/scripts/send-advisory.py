@@ -30,7 +30,7 @@ def email_lookup (advisory_uid):
         result_send_time = results[0]["send_at"]
         result_status = results[0]["status"]
         result_id = results[0]["id"]
-        print(f"\nNOTE: The advisory '{result_name}' already exists and was sent at '{result_send_time}' with '{result_status}' status. Sengrid ID: {result_id}")
+        print(f"\nNOTE: The advisory '{result_name}' already exists and was sent at '{result_send_time}' with '{result_status}' status. Sendgrid ID: {result_id}")
         return True, result_name
     else:
         print("NOTE: No existing advisory found")
@@ -78,6 +78,7 @@ def email_campaign (uid, title, overview, url, content):
         request_body=data
     )
 
+    print(f"\nAdvisory: {uid} - TLP CLEAR - {title} was uploaded to Sendgrid for review")
     # For Troubleshooting Send Grid API
     #print(response.status_code)
     #print(response.body)
@@ -149,13 +150,12 @@ elif sys.argv[1] == '-b' or sys.argv[1] == '--bulk':
         content = {file.name:max(Path(f"docs/advisories").glob(f"{file.name}")).read_text()}
         send_campaign(content)
 elif sys.argv[1] == '-a' or sys.argv[1] == '--auto':
-    look_back_time = time.time() - 1 * 60 * 60 #1 hr look back
+    look_back_time = time.strftime("%Y%m%d") #Current day lookback for advisories
     all_files = Path("docs/advisories").glob("*.md")
     sorted_files = sorted(all_files, key=lambda item: item.name)
     for file in sorted_files:
-        if os.path.getctime(file) > look_back_time:
+        if file.name[:8] == look_back_time:
             advisory_uid = file.name[:11]
-            print(f"Advisory File Number {advisory_uid}: {file} was created less than a hour ago")
             content = {file.name:max(Path(f"docs/advisories").glob(f"{file.name}")).read_text()}
             send_campaign(content)
 else:
