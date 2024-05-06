@@ -2,11 +2,7 @@ name: Send advisory
 
 on:
   push:
-    branches: [main]
-  workflow_dispatch:
-    inputs:
-      advisory_url:
-        type: string
+    branches: ['main']
 
 
 env: # sendgrid api token
@@ -17,23 +13,25 @@ permissions:
 
 jobs:
   send-modified-files:
-    name: Send advisory files added today, or send advisory from input url
+    name: Send advisory files created in last hour
     runs-on: ubuntu-latest
+    environment:
+      name: communication
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        uses: step-security/harden-runner@a4aa98b93cab29d9b1101a6143fb8bce00e2eac4 # v2.7.1
         with:
           egress-policy: audit
 
       - name: Checkout docs
-        uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
+        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
         with:
             fetch-depth: 2
       - uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5.1.0
         with:
           python-version: '3.11'
           cache: 'pip' # caching pip dependencies
-      - name: install mkdocs
+      - name: install requirements
         run: pip install -r requirements.txt
       - name: Send advisories
-        run: ./.github/scripts/send-advisory.py "${{ inputs.advisory_url }}"
+        run: ./.github/scripts/send-advisory.py --auto
