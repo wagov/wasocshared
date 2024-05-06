@@ -8,11 +8,13 @@ Additionally, GitLab has noted "*These versions contain important security fixes
 
 ## What is the Vulnerability?
 
-| CVE                                                             | Severity     | CVSS Score | Summary                                                                                                                                     |
-| --------------------------------------------------------------- | ------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [CVE-2023-7028](https://nvd.nist.gov/vuln/detail/CVE-2023-7028) | **Critical** | 10         | An issue has been discovered in GitLab CE/EE in which user account password reset emails could be delivered to an unverified email address. |
+| CVE| Severity| CVSS Score | Summary |Exploied|Dated|
+|------ | ------ | ----- |------|---- |--|
+| [CVE-2023-7028](https://nvd.nist.gov/vuln/detail/CVE-2023-7028) | **Critical** | 10         | An issue has been discovered in GitLab CE/EE in which user account password reset emails could be delivered to an unverified email address. |Yes| 1 May, 2024|
 
 ## What is vulnerable?
+
+CISA added this vulnerability in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 The vulnerability affects the following products:
 
