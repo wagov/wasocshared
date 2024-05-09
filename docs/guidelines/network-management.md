@@ -3,7 +3,7 @@
 This guideline is a pragmatic target for an entity's network architecture to enable effective and secure network management while minimising complexity. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted in stages that is highly aligned with the [ACSC Network gateway hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance) guidance package.
 
 !!! note "Quick network security for Microsoft 365 customers"
-    To rapidly achieve quality network telemetry and the capability to detect and respond to lateral movement implementing the below tools provide a rapid return on investment while only imposing minimal user facing / network hardware changes:
+    Rapidly implement **identify**, **detect** and some **protect** controls with minimal user facing / network hardware changes:
 
     - Implement [Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/deploy/quick-installation-guide) to **monitor identities, DNS, Kerberos and LDAP traffic**
     - [Turn on network protection](https://learn.microsoft.com/en-us/defender-endpoint/enable-network-protection) to **monitor endpoint traffic** and [enable UEBA](https://learn.microsoft.com/en-us/azure/sentinel/enable-entity-behavior-analytics?tabs=azure)
