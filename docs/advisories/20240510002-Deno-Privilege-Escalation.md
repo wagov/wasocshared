@@ -6,9 +6,9 @@ Deno is an open-source runtime for JavaScript and TypeScript that provides a sec
 
 ## What is vulnerable?
 
-| CVE            | Severity | CVSS | Product(s) Affected                           | Summary                                                                                                | Dated         |
-| -------------- | -------- | ---- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------- |
-| CVE-2024-34346 | **High** | 8.4  | versions <1.43 | The Deno sandbox can be weakened by granting read/write access to privileged files in various locations on Unix and Windows platforms. | 8 May 2024 |
+| CVE            | Severity | CVSS | Product(s) Affected | Summary                                                                                                                                | Dated      |
+| -------------- | -------- | ---- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| CVE-2024-34346 | **High** | 8.4  | versions \<1.43     | The Deno sandbox can be weakened by granting read/write access to privileged files in various locations on Unix and Windows platforms. | 8 May 2024 |
 
 ## What has been observed?
 
@@ -19,8 +19,6 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe for their organisations risk level (refer [Patch Management](../guidelines/patch-management.md)):
 
 - Update to 1.43.1 or higher, or implement workarounds - https://github.com/denoland/deno/security/advisories/GHSA-23rx-c3g5-hv9w
-
-
 
 ## Additional References
 
