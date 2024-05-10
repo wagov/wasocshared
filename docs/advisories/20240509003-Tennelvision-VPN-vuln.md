@@ -8,9 +8,9 @@ By leveraging DHCP option 121 to inject routing rules that take priority over th
 
 ## What is vulnerable?
 
-| CVE  | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ---- | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-3661](https://nvd.nist.gov/vuln/detail/CVE-2024-3661) | **High** | 7.6  | **versions before** |  DHCP can add routes to a client’s routing table via the classless static route option (121). VPN-based security solutions that rely on routes to redirect traffic can be forced to leak traffic over the physical interface. An attacker on the same local network can read, disrupt, or possibly modify network traffic that was expected to be protected by the VPN.       |  05/06/2024     |
+| CVE                                                             | Severity | CVSS | Product(s) Affected | Summary                                                                                                                                                                                                                                                                                                                                                                | Dated      |
+| --------------------------------------------------------------- | -------- | ---- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [CVE-2024-3661](https://nvd.nist.gov/vuln/detail/CVE-2024-3661) | **High** | 7.6  | **versions before** | DHCP can add routes to a client’s routing table via the classless static route option (121). VPN-based security solutions that rely on routes to redirect traffic can be forced to leak traffic over the physical interface. An attacker on the same local network can read, disrupt, or possibly modify network traffic that was expected to be protected by the VPN. | 05/06/2024 |
 
 ## What has been observed?
 
