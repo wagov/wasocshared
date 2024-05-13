@@ -10,6 +10,8 @@ Citrix have released a security advisory for CVE-2023-6548 affecting  NetScaler 
 | ----------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------- |
 | [CVE-2023-6548](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6548) | 5.5        | Authenticated (low privileged) remote code execution on Management Interface |
 | [CVE-2023-6549](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6549) | 8.2        | Denial of Service                                                            |
+Note: NetScaler ADC and NetScaler Gateway version 12.1 is now End Of Life (EOL) and is vulnerable.
+
 
 ## What is vulnerable?
 
