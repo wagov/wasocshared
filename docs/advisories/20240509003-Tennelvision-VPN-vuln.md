@@ -1,4 +1,4 @@
-# TunnelVision Vulnerability Allows Hijacking of VPN Traffic via DHCP Manipulation - 20240509003
+# TunnelVision Vulnerability of VPN Traffic via DHCP Manipulation - 20240510003
 
 ## Overview
 
