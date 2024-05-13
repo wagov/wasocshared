@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, sys, re, os, time
+import json, sys, re, os, datetime
 from sendgrid import SendGridAPIClient
 from pathlib import Path
 from markdown import markdown
@@ -150,14 +150,16 @@ elif sys.argv[1] == '-b' or sys.argv[1] == '--bulk':
         content = {file.name:max(Path(f"docs/advisories").glob(f"{file.name}")).read_text()}
         send_campaign(content)
 elif sys.argv[1] == '-a' or sys.argv[1] == '--auto':
-    look_back_time = time.strftime("%Y%m%d") #Current day lookback for advisories
+    #look_back_time = time.strftime("%Y%m%d") #Current day lookback for advisories
     all_files = Path("docs/advisories").glob("*.md")
     sorted_files = sorted(all_files, key=lambda item: item.name)
-    for file in sorted_files:
-        if file.name[:8] == look_back_time:
-            advisory_uid = file.name[:11]
-            content = {file.name:max(Path(f"docs/advisories").glob(f"{file.name}")).read_text()}
-            send_campaign(content)
+    for i in range(0, 5):#Look back on the last 5 days worth of Advisories
+        look_back_date = datetime.date.today() - datetime.timedelta(i)
+        for file in sorted_files:
+            if file.name[:8] == look_back_date.strftime("%Y%m%d"):
+                advisory_uid = file.name[:11]
+                content = {file.name:max(Path(f"docs/advisories").glob(f"{file.name}")).read_text()}
+                send_campaign(content)
 else:
     print(f"ERROR: Input {sys.argv[1]} doesn't start with {base_url} or is a markdown file or is contains type '-a', '--auto'")
     sys.exit()
