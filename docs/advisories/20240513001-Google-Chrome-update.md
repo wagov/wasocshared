@@ -6,9 +6,9 @@ A number of vulnerabilities in Google Chrome V8 have been addressed, including a
 
 ## What is vulnerable?
 
-| CVE  | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ---- | ------------ | ---- | ------------------- | ------- | ----- |
-| Google Chrome | **High** | 8.8 | **versions before** Mac 120.0.6099.234; Linux and Win 120.0.6099.224/225 |    Out of bounds memory access in V8 in Google Chrome allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.     |    16 Jan 2024   |
+| CVE           | Severity | CVSS | Product(s) Affected                                                      | Summary                                                                                                                                      | Dated       |
+| ------------- | -------- | ---- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Google Chrome | **High** | 8.8  | **versions before** Mac 120.0.6099.234; Linux and Win 120.0.6099.224/225 | Out of bounds memory access in V8 in Google Chrome allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. | 16 Jan 2024 |
 
 ## What has been observed?
 
