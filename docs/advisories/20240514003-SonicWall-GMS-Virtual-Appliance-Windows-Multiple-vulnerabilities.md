@@ -6,10 +6,10 @@ The WA SOC has been made aware of multiple vulnerabilities affecting SonicWall G
 
 ## What is vulnerable?
 
-| CVE  | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ---- | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-29010](https://nvd.nist.gov/vuln/detail/CVE-2024-29010) | **High** | 7.1  | **versions before 9.3.4** | GMS ECM Policy XML External Entity Processing Information Disclosure Vulnerability | 01/05/2024|
-| [CVE-2024-29011](https://nvd.nist.gov/vuln/detail/CVE-2024-29011) | **High** | 7.5  | **versions before 9.3.4** | GMS ECM Hard-Coded Credential Authentication Bypass Vulnerability | 01/05/2024|
+| CVE                                                               | Severity | CVSS | Product(s) Affected       | Summary                                                                            | Dated      |
+| ----------------------------------------------------------------- | -------- | ---- | ------------------------- | ---------------------------------------------------------------------------------- | ---------- |
+| [CVE-2024-29010](https://nvd.nist.gov/vuln/detail/CVE-2024-29010) | **High** | 7.1  | **versions before 9.3.4** | GMS ECM Policy XML External Entity Processing Information Disclosure Vulnerability | 01/05/2024 |
+| [CVE-2024-29011](https://nvd.nist.gov/vuln/detail/CVE-2024-29011) | **High** | 7.5  | **versions before 9.3.4** | GMS ECM Hard-Coded Credential Authentication Bypass Vulnerability                  | 01/05/2024 |
 
 ## What has been observed?
 
