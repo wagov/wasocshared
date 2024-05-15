@@ -10,9 +10,14 @@ This release consists of the following 60 Microsoft CVEs:
 
 - [May 2024 Security Updates](https://msrc.microsoft.com/update-guide/releaseNote/2024-May)
 
+| Product(s) Affected  | CVE | Severity  | CVSS |Exploited| Dated|
+| ----------- | --- | ------|----- | ---- |--|
+| Microsoft DWM Core Library Privilege Escalation Vulnerability | [CVE-2024-30051](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30051) | **High**| 7.8 |Yes|14 May, 2024|
+| Microsoft Windows MSHTML Platform Security Feature Bypass Vulnerability | [CVE-2024-30040](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30040) | **High**| 8.8 |Yes|14 May, 2024|
+
 ## What has been observed?
 
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+CISA added some of the above vulnerability in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
 
