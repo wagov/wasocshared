@@ -1,4 +1,4 @@
-# SonicWall GMS Virtual Appliance Windows Multiple vulnerabilities - 20240514003
+# SonicWall GMS Virtual Appliance Windows Multiple Vulnerabilities - 20240514003
 
 ## Overview
 
