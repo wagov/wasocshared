@@ -1,0 +1,33 @@
+# Mozilla Products Arbitrary Code Execution Multiple Vulnerabilities - 20240515003
+
+## Overview
+
+Multiple vulnerabilities have been discovered in Mozilla Products, the most severe of which could allow for arbitrary code execution.
+
+## What is vulnerable?
+The following Mozilla products are found vulnerable:
+
+<br>- **[Firefox ESR versions prior to 115.11](https://www.mozilla.org/en-US/security/advisories/mfsa2024-22/)**<br/>
+<br>- **[Thunderbird versions prior to 115.11](https://www.mozilla.org/en-US/security/advisories/mfsa2024-23/)**<br/>
+<br>- **[Firefox versions prior to 126](https://www.mozilla.org/en-US/security/advisories/mfsa2024-21/)**<br/>
+
+## What has been observed?
+
+There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+
+## Recommendation
+
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
+
+- We recommend updating your affected Mozilla products to any of the following or later version(s):
+
+    - Firefox ESR version 115.11
+
+    - Thunderbird version 115.11
+
+    - Firefox version 126
+
+## Additional References
+
+- [Mozilla Foundation Security Advisories --- Mozilla](https://www.mozilla.org/en-US/security/advisories/)
+- [Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution (cisecurity.org)](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-056)
