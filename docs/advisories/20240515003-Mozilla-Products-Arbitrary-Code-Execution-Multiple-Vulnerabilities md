@@ -11,6 +11,8 @@ The following Mozilla products are found vulnerable:
 <br>- **[Thunderbird versions prior to 115.11](https://www.mozilla.org/en-US/security/advisories/mfsa2024-23/)**<br/>
 <br>- **[Firefox versions prior to 126](https://www.mozilla.org/en-US/security/advisories/mfsa2024-21/)**<br/>
 
+Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.
+
 ## What has been observed?
 
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
