@@ -2,7 +2,7 @@
 
 ## Overview
 
-Apple has released security updates to address vulnerabilities in Safari, iOS, iPadOS, macOS, watchOS, and tvOS. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system. 
+Apple has released security updates to address vulnerabilities in Safari, iOS, iPadOS, macOS, watchOS, and tvOS. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
 
 ## What is vulnerable?
 
