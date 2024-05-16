@@ -1,4 +1,4 @@
-# HPE Aruba Networking Multiple Critical Vulnerabilities In Access Points - 20240516001
+# HPE Aruba Networking Multiple Critical Vulnerabilities - 20240516001
 
 ## Overview
 
