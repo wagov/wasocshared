@@ -6,10 +6,10 @@ Cacti, an operational monitoring and fault management framework, has recently re
 
 ## What is vulnerable?
 
-| CVE  | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ---- | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-29895](https://nvd.nist.gov/vuln/detail/CVE-2024-29895) | **Critical** | 10  | **versions before 1.3.x DEV** |         |       |
-| [CVE-2024-30268](https://nvd.nist.gov/vuln/detail/CVE-2024-30268) | **Medium** | 6.1  | **versions before 1.3.x DEV** |         |       |
+| CVE                                                               | Severity     | CVSS | Product(s) Affected           | Summary | Dated |
+| ----------------------------------------------------------------- | ------------ | ---- | ----------------------------- | ------- | ----- |
+| [CVE-2024-29895](https://nvd.nist.gov/vuln/detail/CVE-2024-29895) | **Critical** | 10   | **versions before 1.3.x DEV** |         |       |
+| [CVE-2024-30268](https://nvd.nist.gov/vuln/detail/CVE-2024-30268) | **Medium**   | 6.1  | **versions before 1.3.x DEV** |         |       |
 
 ## Recommendation
 
@@ -22,5 +22,3 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 - https://github.com/Cacti/cacti/security/advisories/GHSA-9m3v-whmr-pc2q
 - https://github.com/Cacti/cacti/commit/a38b9046e9772612fda847b46308f9391a49891e
 - https://github.com/Cacti/cacti/blob/08497b8bcc6a6037f7b1aae303ad8f7dfaf7364e/settings.php#L66
-
-
