@@ -2,11 +2,11 @@
 
 ## Overview
 
-Apple has released security updates to address vulnerabilities in Safari, iOS, iPadOS, macOS, watchOS, and tvOS. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
+Apple has released security updates for its latest versons in Safari, iOS, iPadOS, macOS, watchOS, and tvOS. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
 
 ## What is vulnerable?
 
-The vulnerability affects the following products:
+The vulnerability affects versions prior to the following lists of Apple products:
 
 - [Safari 17.5](https://support.apple.com/en-us/HT214103)
 - [iOS 17.5 and iPadOS 17.5](https://support.apple.com/en-us/HT214101)
