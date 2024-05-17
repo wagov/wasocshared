@@ -7,7 +7,7 @@ This guideline is a pragmatic target for an entity's network architecture to ena
 
     - Implement [Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/deploy/quick-installation-guide) to **monitor identities, DNS, Kerberos and LDAP traffic**
     - [Turn on network protection](https://learn.microsoft.com/en-us/defender-endpoint/enable-network-protection) to **monitor endpoint traffic** and [enable UEBA](https://learn.microsoft.com/en-us/azure/sentinel/enable-entity-behavior-analytics?tabs=azure)
-    - Implement [Per-app Access](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-per-app-access) for user access to corporate resources to **monitor application traffic**
+    - Implement [Per-app Access](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-per-app-access) for user access to corporate resources (including [on-prem servers and DCs](https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-private-access-for-on-prem-users/ba-p/3905450)) to **monitor application traffic**
 
     The below steps can take months to years, but won't impede the risk reduction from the above quick steps:
 
