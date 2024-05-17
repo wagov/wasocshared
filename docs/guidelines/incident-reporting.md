@@ -12,26 +12,26 @@ The cyber security incident reporting portal provides a secured login for each W
 
 ### 1.1 Cyber Incident Response Plan
 
-All agencies should have a [Cyber Incident Response Plan](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/publications/cyber-incident-response-plan) defined that clearly outlines the work to ensure an effective response and prompt recovery in the event security controls don’t prevent an incident occurring. This plan should be tested and regularly reviewed.
+All agencies should have a [Cyber Incident Response Plan](https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/incident-response/cyber-security-incident-response-planning-practitioner-guidance) (ACSC Practitioner Guidance updated April 2024, [pdf](https://www.cyber.gov.au/sites/default/files/2024-04/PROTECT%20-%20Cyber%20Security%20Incident%20Response%20Planning%20-%20Practitioner%20Guidance%20%28April%202024%29.pdf) also available) defined that clearly outlines the work to ensure an effective response and prompt recovery in the event security controls don’t prevent an incident occurring. This plan should be tested and regularly reviewed.
 
-ACSC also publishes an excellent [ACSC Cyber Incident Response Plan - Word Template (docx)](../pdfs/ACSC-Cyber-Incident-Response-Plan-Template.docx) suitable for tailoring to an organisations specific context. It includes some highly relevant appendices:
+ACSC also published an excellent [ACSC Cyber Incident Response Plan - Word Template - March 2023 (docx)](https://www.cyber.gov.au/sites/default/files/2023-03/ACSC-Cyber-Incident-Response-Plan-Template.docx) suitable for tailoring to an organisations specific context. The guidance includes some highly relevant appendices:
 
 !!! abstract "Incident Response Appendices"
-    - Terminology and Definitions
-    - Cyber Incident Response Readiness Checklist
-    - ACSC Incident Triage Questions
-    - Situation Report Template
-    - Incident Log Template
-    - Evidence Register Template
-    - Remediation Action Plan Template
-    - Post Incident Review Analysis Template
-    - Action Register Template
-    - Role Cards
-    - ACSC Incident Categorisation Matrix 2022
+    - Appendix A - Terminology and definitions
+    - Appendix B - Cyber Security Incident Response Readiness Checklist
+    - Appendix C - ASD cyber security incident triage questions
+    - Appendix D - Situation Report Template
+    - Appendix E - Cyber Security Incident Log Template
+    - Appendix F - Evidence Register Template
+    - Appendix G - Remediation Action Plan Template
+    - Appendix H - Post cyber security incident reviews
+    - Appendix I - Action Register Template
+    - Appendix J - Role cards
+    - Appendix K - ASD Cyber Security Incident Categorisation Matrix
 
 ### 1.2 ACSC Incident Categorisation Matrix
 
-<img width="700" alt="ACSC Incident Categorisation Matrix 2022" src="https://github.com/wagov/wasocshared/assets/121014/37a5c758-855d-48e1-89d2-55c591d9177d">
+<img width="700" alt="ACSC Incident Categorisation Matrix 2022" src="https://www.cyber.gov.au/sites/default/files/2024-04/Cyber%20Security%20Incident%20Response%20Planning%20Image%204.png">
 
 ## 2. Getting access
 
