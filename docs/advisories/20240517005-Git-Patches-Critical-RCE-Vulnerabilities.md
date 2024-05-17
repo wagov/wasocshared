@@ -6,10 +6,10 @@ The Git project has recently addressed a series of critical security vulnerabili
 
 ## What is vulnerable?
 
-| CVE  | Severity     | CVSS | Product(s) Affected |
-| ---- | ------------ | ---- | ------------------- |
+| CVE                                                               | Severity     | CVSS | Product(s) Affected                                                            |
+| ----------------------------------------------------------------- | ------------ | ---- | ------------------------------------------------------------------------------ |
 | [CVE-2024-32002](https://nvd.nist.gov/vuln/detail/CVE-2024-32002) | **Critical** | 9.0  | **versions before** 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4 |
-| [CVE-2024-32004](https://nvd.nist.gov/vuln/detail/CVE-2024-32004) | **High** | 8.1  | **versions before** 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4 |
+| [CVE-2024-32004](https://nvd.nist.gov/vuln/detail/CVE-2024-32004) | **High**     | 8.1  | **versions before** 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4 |
 
 ## What has been observed?
 
