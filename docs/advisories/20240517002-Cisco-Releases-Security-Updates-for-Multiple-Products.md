@@ -15,7 +15,6 @@ Cisco has released security updates to address vulnerabilities in Cisco software
 - [Cisco Secure Email Gateway HTTP Response Splitting](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-http-split-GLrnnOwS "Cisco Secure Email Gateway HTTP Response Splitting")
 - [Cisco AppDynamics Network Visibility Service Denial of Service](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appd-netvisdos-9zNbsJtK "Cisco AppDynamics Network Visibility Service Denial of Service")
 
-
 ## Recommendation
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
@@ -31,9 +30,7 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
     - [Cisco Secure Email Gateway HTTP Response Splitting](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-http-split-GLrnnOwS#fs "Cisco Secure Email Gateway HTTP Response Splitting")
     - [Cisco AppDynamics Network Visibility Service Denial of Service](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appd-netvisdos-9zNbsJtK#fs "Cisco AppDynamics Network Visibility Service Denial of Service")
 
-
 ## Additional References
 
 - [Security Advisories (cisco.com)](https://sec.cloudapps.cisco.com/security/center/publicationListing.x)
 - [Cisco Releases Security Updates for Multiple Products | CISA](https://www.cisa.gov/news-events/alerts/2024/05/16/cisco-releases-security-updates-multiple-products)
-
