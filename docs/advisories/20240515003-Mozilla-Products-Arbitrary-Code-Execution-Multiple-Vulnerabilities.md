@@ -5,6 +5,7 @@
 Multiple vulnerabilities have been discovered in Mozilla Products, the most severe of which could allow for arbitrary code execution.
 
 ## What is vulnerable?
+
 The following Mozilla products are found vulnerable:
 
 <br>- **[Firefox ESR versions prior to 115.11](https://www.mozilla.org/en-US/security/advisories/mfsa2024-22/)**<br/>
