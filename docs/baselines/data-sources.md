@@ -106,7 +106,7 @@ To improve detection coverage within Microsoft Sentinel, please follow the WA SO
 
 ### 5.2 Sigma rule converter
 
-The below [sigmatron (open in new window)](https://adonm.github.io/stlite-apps/apps/sigmatron.html) utility is built with the latest [Sigma](https://github.com/SigmaHQ/sigma/) rules and provides a convenient interface to search and convert rules to several SIEM formats and query languages.
+The below [sigmatron utility (open in new window)](https://adonm.github.io/stlite-apps/apps/sigmatron.html) is built with the latest [Sigma](https://github.com/SigmaHQ/sigma/) rules and provides a convenient interface to search and convert rules to several SIEM formats and query languages.
 
 <iframe src="https://adonm.github.io/stlite-apps/apps/sigmatron.html" style="width: 100%; height: 70vh; border: 0"></iframe>
 
