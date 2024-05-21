@@ -6,9 +6,11 @@ Multiple vulnerabilities have been discovered in Google Chrome, the most severe 
 
 ## What is vulnerable?
 
-| CVE                                                                                                                                                                                                        | Summary                                                                        | Severity | CVSS | Product(s) Affected                                                                                     | Dated        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------- | ---- | ------------------------------------------------------------------------------------------------------- | ------------ |
-| [CVE-2024-4947](https://nvd.nist.gov/vuln/detail/CVE-2024-4947)  <br/>[CVE-2024-4948](https://nvd.nist.gov/vuln/detail/CVE-2024-4948) <br/>[CVE-2024-4949](https://nvd.nist.gov/vuln/detail/CVE-2024-4949) | Type Confusion in V8.<br/> Use after free in Dawn. <br/> Use after free in V8. | **High** | 8.8  | - Chrome prior to 125.0.6422.60/.61 for Windows and Mac <br/> - Chrome prior to 125.0.6422.60 for Linux | 15 May, 2024 |
+| CVE                                                                                                                                                                                                        | Summary                                                                        | Severity | CVSS | Product(s) Affected                                                                                   |Exploited  | Dated        |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------- | ------------------------------------------------------------------------------ | -------- | ---- | ------------------------------------------------------------------------------------------------------- | ------------ |
+| [CVE-2024-4948](https://nvd.nist.gov/vuln/detail/CVE-2024-4948) <br/>[CVE-2024-4949](https://nvd.nist.gov/vuln/detail/CVE-2024-4949) | Type Confusion in V8.<br/> Use after free in Dawn. <br/> Use after free in V8. | **High** | 8.8  | - Chrome prior to 125.0.6422.60/.61 for Windows and Mac <br/> - Chrome prior to 125.0.6422.60 for Linux |No| 15 May, 2024 |
+| [CVE-2024-4947](https://nvd.nist.gov/vuln/detail/CVE-2024-4947)   | Type Confusion in V8.<br/> Use after free in Dawn. <br/> Use after free in V8. | **High** | 8.8  | - Chrome prior to 125.0.6422.60/.61 for Windows and Mac <br/> - Chrome prior to 125.0.6422.60 for Linux |Yes | 20 May, 2024 |
+
 
 ## What has been observed?
 
