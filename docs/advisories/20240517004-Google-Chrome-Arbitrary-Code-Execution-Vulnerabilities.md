@@ -13,7 +13,8 @@ Multiple vulnerabilities have been discovered in Google Chrome, the most severe 
 
 ## What has been observed?
 
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+CISA added this vulnerability [CVE-2024-4947](https://nvd.nist.gov/vuln/detail/CVE-2024-4947) in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+
 
 ## Recommendation
 
