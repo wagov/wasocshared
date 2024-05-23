@@ -6,15 +6,15 @@ Broadcom has issued an important security advisory detailing several vulnerabili
 
 ## What is vulnerable?
 
-| CVE  | Severity     | CVSS | Product(s) Affected |  Dated |
-| ---- | ------------ | ---- | ------------------- |  ----- |
-| [CVE-2024-22267](https://nvd.nist.gov/vuln/detail/CVE-2024-22267) | **Critical** | 9.3  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22267) |     14/05/2024           |
-| [CVE-2024-22268](https://nvd.nist.gov/vuln/detail/CVE-2024-22268) | **High** | 7.1  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22268) |       14/05/2024          |
-| [CVE-2024-22269](https://nvd.nist.gov/vuln/detail/CVE-2024-22269) | **High** | 7.1  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22269)  |     14/05/2024           |
-| [CVE-2024-22270](https://nvd.nist.gov/vuln/detail/CVE-2024-22270) | **High** | 7.1  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22270)  |      14/05/2024           |
-| [CVE-2024-22273](https://nvd.nist.gov/vuln/detail/CVE-2024-22273) | **High** | 8.1  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22273) |    21/05/2024           |
-| [CVE-2024-22274](https://nvd.nist.gov/vuln/detail/CVE-2024-22274) | **High** | 7.2  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22274) |     21/05/2024            |
-| [CVE-2024-22275](https://nvd.nist.gov/vuln/detail/CVE-2024-22275) | **Medium** | 4.9  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22275) |   21/05/2024              |
+| CVE                                                               | Severity     | CVSS | Product(s) Affected                                                  | Dated      |
+| ----------------------------------------------------------------- | ------------ | ---- | -------------------------------------------------------------------- | ---------- |
+| [CVE-2024-22267](https://nvd.nist.gov/vuln/detail/CVE-2024-22267) | **Critical** | 9.3  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22267) | 14/05/2024 |
+| [CVE-2024-22268](https://nvd.nist.gov/vuln/detail/CVE-2024-22268) | **High**     | 7.1  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22268) | 14/05/2024 |
+| [CVE-2024-22269](https://nvd.nist.gov/vuln/detail/CVE-2024-22269) | **High**     | 7.1  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22269) | 14/05/2024 |
+| [CVE-2024-22270](https://nvd.nist.gov/vuln/detail/CVE-2024-22270) | **High**     | 7.1  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22270) | 14/05/2024 |
+| [CVE-2024-22273](https://nvd.nist.gov/vuln/detail/CVE-2024-22273) | **High**     | 8.1  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22273) | 21/05/2024 |
+| [CVE-2024-22274](https://nvd.nist.gov/vuln/detail/CVE-2024-22274) | **High**     | 7.2  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22274) | 21/05/2024 |
+| [CVE-2024-22275](https://nvd.nist.gov/vuln/detail/CVE-2024-22275) | **Medium**   | 4.9  | [versions affected](https://www.cve.org/CVERecord?id=CVE-2024-22275) | 21/05/2024 |
 
 ## What has been observed?
 
