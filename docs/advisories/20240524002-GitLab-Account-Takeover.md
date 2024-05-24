@@ -6,9 +6,9 @@ GitLab, the web-based DevOps platform has released security patches to address a
 
 ## What is the Vulnerability?
 
-| CVE                                                             | Severity     | CVSS Score | Summary                                                                                                                                     | Dated       |
-| --------------------------------------------------------------- | ------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [CVE-2024-4835](https://nvd.nist.gov/vuln/detail/CVE-2024-4835) | **High** | 8         | A XSS condition exists within GitLab in versions 15.11 before 16.10.6, 16.11 before 16.11.3, and 17.0 before 17.0.1. By leveraging this condition, an attacker can craft a malicious page to exfiltrate sensitive user information. | 23 May, 2024 |
+| CVE                                                             | Severity | CVSS Score | Summary                                                                                                                                                                                                                             | Dated        |
+| --------------------------------------------------------------- | -------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| [CVE-2024-4835](https://nvd.nist.gov/vuln/detail/CVE-2024-4835) | **High** | 8          | A XSS condition exists within GitLab in versions 15.11 before 16.10.6, 16.11 before 16.11.3, and 17.0 before 17.0.1. By leveraging this condition, an attacker can craft a malicious page to exfiltrate sensitive user information. | 23 May, 2024 |
 
 ## What is vulnerable?
 
