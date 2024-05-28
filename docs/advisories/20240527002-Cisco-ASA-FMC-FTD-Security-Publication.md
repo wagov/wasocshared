@@ -1,4 +1,4 @@
-# May 2024 Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication - 20240527002
+# May 2024 Cisco ASA, FMC, and FTD Software Security Advisory - 20240527002
 
 ## Overview
 
