@@ -6,9 +6,9 @@ By manipulating the PLUGScheduler process on vulnerbale Windows 10 versions, att
 
 ## What is vulnerable?
 
-| CVE  | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ---- | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-26238](https://nvd.nist.gov/vuln/detail/CVE-2024-26238) | **High** | 7.8  | Windows 10 version 2004 through 20H2 | Microsoft PLUGScheduler Scheduled Task Elevation of Privilege Vulnerability        | 14/05/2024       |
+| CVE                                                               | Severity | CVSS | Product(s) Affected                  | Summary                                                                     | Dated      |
+| ----------------------------------------------------------------- | -------- | ---- | ------------------------------------ | --------------------------------------------------------------------------- | ---------- |
+| [CVE-2024-26238](https://nvd.nist.gov/vuln/detail/CVE-2024-26238) | **High** | 7.8  | Windows 10 version 2004 through 20H2 | Microsoft PLUGScheduler Scheduled Task Elevation of Privilege Vulnerability | 14/05/2024 |
 
 ## What has been observed?
 
