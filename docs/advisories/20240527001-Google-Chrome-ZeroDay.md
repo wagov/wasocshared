@@ -6,10 +6,9 @@ Google have released a critical security advisory relating to a vulnerability im
 
 ## What is vulnerable?
 
-| Product(s) Affected| CVE | Severity | CVSS |Exploited| Dated|
-| ---------|--|---- | -------- | -------- | ---- |
-| - Windows and Mac versions **before** 125.0.6422.112/.113 <br/> - Linux versions **before** 125.0.6422.112    | [CVE-2024-5274](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5274) | **High** | 7.5  | Yes|28 May, 2024|
-
+| Product(s) Affected                                                                                        | CVE                                                                           | Severity | CVSS | Exploited | Dated        |
+| ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------- | ---- | --------- | ------------ |
+| - Windows and Mac versions **before** 125.0.6422.112/.113 <br/> - Linux versions **before** 125.0.6422.112 | [CVE-2024-5274](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5274) | **High** | 7.5  | Yes       | 28 May, 2024 |
 
 ## What has been observed?
 
