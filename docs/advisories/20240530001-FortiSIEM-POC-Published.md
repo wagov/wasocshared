@@ -15,13 +15,12 @@ Since the publication of [Advisory 20240207003](https://soc.cyber.wa.gov.au//adv
 The following products and versions are affected:
 
 - FortiSIEM
-  - 7.1.0 through 7.1.1 (inclusive)
-  - 7.0.0 through 7.0.2 (inclusive)
-  - 6.7.0 through 6.7.8 (inclusive)
-  - 6.6.0 through 6.6.3 (inclusive)
-  - 6.5.0 through 6.5.2 (inclusive)
-  - 6.4.0 through 6.4.2 (inclusive)
-
+    - 7.1.0 through 7.1.1 (inclusive)
+    - 7.0.0 through 7.0.2 (inclusive)
+    - 6.7.0 through 6.7.8 (inclusive)
+    - 6.6.0 through 6.6.3 (inclusive)
+    - 6.5.0 through 6.5.2 (inclusive)
+    - 6.4.0 through 6.4.2 (inclusive)
 
 ## Recommendation
 
