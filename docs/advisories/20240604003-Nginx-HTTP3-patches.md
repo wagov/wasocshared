@@ -6,9 +6,9 @@ NGINX has released security updates that address four vulnerabilities. These iss
 
 ## What is vulnerable?
 
-| CVE  | Severity     | CVSS | Product(s) Affected | Summary | Dated |
-| ---- | ------------ | ---- | ------------------- | ------- | ----- |
-| [CVE-2024-32760](https://nvd.nist.gov/vuln/detail/CVE-2024-32760) | **Medium** | 6.5  | Nginx 1.25.0-1.25.5, 1.26.0 | When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed HTTP/3 encoder instructions can cause NGINX worker processes to terminate or cause or other potential impact.        | 29/05/2024      |
+| CVE                                                               | Severity   | CVSS | Product(s) Affected         | Summary                                                                                                                                                                                              | Dated      |
+| ----------------------------------------------------------------- | ---------- | ---- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [CVE-2024-32760](https://nvd.nist.gov/vuln/detail/CVE-2024-32760) | **Medium** | 6.5  | Nginx 1.25.0-1.25.5, 1.26.0 | When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed HTTP/3 encoder instructions can cause NGINX worker processes to terminate or cause or other potential impact. | 29/05/2024 |
 
 ## What has been observed?
 
