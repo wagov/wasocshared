@@ -3,11 +3,11 @@
 This guideline is a pragmatic target for an entity's network architecture to enable effective and secure network management while minimising complexity. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted in stages that is highly aligned with the [ACSC Network gateway hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance) guidance package.
 
 !!! note "Quick network security for Microsoft 365 customers"
-    To rapidly achieve quality network telemetry and the capability to detect and respond to lateral movement implementing the below tools provide a rapid return on investment while only imposing minimal user facing / network hardware changes:
+    Rapidly implement **identify**, **detect** and some **protect** controls with minimal user facing / network hardware changes:
 
     - Implement [Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/deploy/quick-installation-guide) to **monitor identities, DNS, Kerberos and LDAP traffic**
     - [Turn on network protection](https://learn.microsoft.com/en-us/defender-endpoint/enable-network-protection) to **monitor endpoint traffic** and [enable UEBA](https://learn.microsoft.com/en-us/azure/sentinel/enable-entity-behavior-analytics?tabs=azure)
-    - Implement [Per-app Access](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-per-app-access) for user access to corporate resources to **monitor application traffic**
+    - Implement [Per-app Access](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-per-app-access) for user access to corporate resources (including [on-prem servers and DCs](https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-private-access-for-on-prem-users/ba-p/3905450)) to **monitor application traffic**
 
     The below steps can take months to years, but won't impede the risk reduction from the above quick steps:
 
