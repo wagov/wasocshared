@@ -2,6 +2,18 @@
 
 This guideline is a pragmatic target for an entity's network architecture to enable effective and secure network management while minimising complexity. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted in stages that is highly aligned with the [ACSC Network gateway hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance) guidance package.
 
+!!! note "Quick network security for Microsoft 365 customers"
+    Rapidly implement **identify**, **detect** and some **protect** controls with minimal user facing / network hardware changes:
+
+    - Implement [Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/deploy/quick-installation-guide) to **monitor identities, DNS, Kerberos and LDAP traffic**
+    - [Turn on network protection](https://learn.microsoft.com/en-us/defender-endpoint/enable-network-protection) to **monitor endpoint traffic** and [enable UEBA](https://learn.microsoft.com/en-us/azure/sentinel/enable-entity-behavior-analytics?tabs=azure)
+    - Implement [Per-app Access](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-per-app-access) for user access to corporate resources (including [on-prem servers and DCs](https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-private-access-for-on-prem-users/ba-p/3905450)) to **monitor application traffic**
+
+    The below steps can take months to years, but won't impede the risk reduction from the above quick steps:
+
+    - Implement [webauthn (passkeys/fido)](https://github.com/herrjemand/awesome-webauthn) with centrally logged [CIAM](https://learn.microsoft.com/en-us/entra/external-id/customers/overview-customers-ciam) for all internet exposed (i.e. citizen facing) systems
+    - Deny direct network access to applications and iteratively improve network topology
+
 ![Network topology utilising recommended modern SASE solutions.](../images/Network-SASE.png)
 
 ## Contemporary Network Architecture
@@ -14,7 +26,7 @@ It's strongly recommended to transition from traditional VPNs to modern Secure S
 
 - Infrastructure providers ([Microsoft Security Service Edge](https://learn.microsoft.com/en-us/entra/architecture/sse-deployment-guide-intro), [VMWare SASE](https://sase.vmware.com/sd-wan/security-services))
 - Network hardware vendors ([Check Point Harmony Connect](https://www.checkpoint.com/harmony/connect-sase/), [Cisco Secure Access](https://www.cisco.com/site/us/en/products/security/secure-access/index.html), [FortiSASE](https://www.fortinet.com/products/sase),  [Palo Alto Prisma SASE](https://www.paloaltonetworks.com/sase/access))
-- Virtual network vendors ([Claroty SRA](https://claroty.com/industrial-cybersecurity/sra), [Teleport (open-source with self-hosted capability)](https://goteleport.com), [Netskope SASE](https://www.netskope.com/solutions/secure-access-service-edge), [Zscaler SASE](https://www.zscaler.com/capabilities/secure-access-service-edge))
+- Virtual network vendors ([Claroty SRA](https://claroty.com/industrial-cybersecurity/sra), [Teleport (open-source with self-hosted capability)](https://goteleport.com), [Netskope SASE](https://www.netskope.com/solutions/secure-access-service-edge), [Zscaler SASE](https://www.zscaler.com/capabilities/secure-access-service-edge), [knocknoc.io (convenient for legacy systems with not many users)](https://knocknoc.io/how-it-works/))
 
 These platforms all incorporate zero trust and policy-based access logging and management out of the box and are strongly recommended for where direct network access to legacy systems is still required. All vendors, contractors and identities external to an organisation should have access controlled via such a platform to avoid third party persistent remote access (e.g. TeamViewer, LogMeIn, AnyDesk) being utilised that may not adhere to an organisations Identity and Access Management policies and procedures.
 
