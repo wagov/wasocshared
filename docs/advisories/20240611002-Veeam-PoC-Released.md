@@ -6,9 +6,9 @@ Since the publication of [Advisory 20240522003](https://soc.cyber.wa.gov.au//adv
 
 ## What is vulnerable?
 
-| Product(s) Affected                     | CVE                                                                             | Severity     | CVSS |
-| --------------------------------------- | ------------------------------------------------------------------------------- | ------------ | ---- |
-| Veeam Backup Enterprise Manager: </br> All versions **below 12.1.2.172** | [CVE-2024-29849](https://nvd.nist.gov/vuln/detail/CVE-2024-29849) </br> [CVE-2024-29850](https://nvd.nist.gov/vuln/detail/CVE-2024-29850) </br> [CVE-2024-29851](https://nvd.nist.gov/vuln/detail/CVE-2024-29851) </br> [CVE-2024-29852](https://nvd.nist.gov/vuln/detail/CVE-2024-29852) | **Critical** </br> High </br> High </br> Low | 9.8 </br> 8.8 </br> 7.2 </br> 2.7  |
+| Product(s) Affected                                                      | CVE                                                                                                                                                                                                                                                                                       | Severity                                     | CVSS                              |
+| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | --------------------------------- |
+| Veeam Backup Enterprise Manager: </br> All versions **below 12.1.2.172** | [CVE-2024-29849](https://nvd.nist.gov/vuln/detail/CVE-2024-29849) </br> [CVE-2024-29850](https://nvd.nist.gov/vuln/detail/CVE-2024-29850) </br> [CVE-2024-29851](https://nvd.nist.gov/vuln/detail/CVE-2024-29851) </br> [CVE-2024-29852](https://nvd.nist.gov/vuln/detail/CVE-2024-29852) | **Critical** </br> High </br> High </br> Low | 9.8 </br> 8.8 </br> 7.2 </br> 2.7 |
 
 ## Recommendation
 
