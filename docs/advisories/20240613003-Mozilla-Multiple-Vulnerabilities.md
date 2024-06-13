@@ -4,16 +4,13 @@
 
 Multiple vulnerabilities have been discovered in Mozilla Products, the most severe of which could allow for arbitrary code execution.
 
-
 ## What is vulnerable?
 
 The following Mozilla products are found vulnerable:
 
-
 <br>- **[Firefox versions prior to 127](https://www.mozilla.org/en-US/security/advisories/mfsa2024-25/#CVE-2024-5687/)**<br/>
 <br>- **[Firefox ESR versions prior to 115.12](https://www.mozilla.org/en-US/security/advisories/mfsa2024-22/)**<br/>
 <br>- **[Thunderbird versions prior to 115.12](https://www.mozilla.org/en-US/security/advisories/mfsa2024-25/#CVE-2024-5687)**<br/>
-
 
 ## What has been observed?
 
@@ -35,4 +32,3 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - [Mozilla Foundation Security Advisory 2024-25](https://www.mozilla.org/en-US/security/advisories/mfsa2024-25/#CVE-2024-5687)
 - [Mozilla Foundation Security Advisory 2024-26](https://www.mozilla.org/en-US/security/advisories/mfsa2024-26/)
-
