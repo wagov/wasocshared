@@ -6,17 +6,17 @@ Google has released updates addressing multiple vulnerabilities discovered in Go
 
 ## What is vulnerable?
 
-| CVE  | Severity     | CVSS | Product(s) Affected | Dated |
-| ---- | ------------ | ---- | ------------------- | ----- |
-| [CVE-2024-5830](https://nvd.nist.gov/vuln/detail/CVE-2024-5830) | **High** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
-| [CVE-2024-5831](https://nvd.nist.gov/vuln/detail/CVE-2024-5831) | **High** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
-| [CVE-2024-5832](https://nvd.nist.gov/vuln/detail/CVE-2024-5832) | **High** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
-| [CVE-2024-5833](https://nvd.nist.gov/vuln/detail/CVE-2024-5833) | **High** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
-| [CVE-2024-5834](https://nvd.nist.gov/vuln/detail/CVE-2024-5834) | **High** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
-| [CVE-2024-5835](https://nvd.nist.gov/vuln/detail/CVE-2024-5835) | **High** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
-| [CVE-2024-5836](https://nvd.nist.gov/vuln/detail/CVE-2024-5836) | **High** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
-| [CVE-2024-5837](https://nvd.nist.gov/vuln/detail/CVE-2024-5837) | **High** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
-| [CVE-2024-5838](https://nvd.nist.gov/vuln/detail/CVE-2024-5838) | **High** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
+| CVE                                                             | Severity   | CVSS | Product(s) Affected                                                                                       | Dated      |
+| --------------------------------------------------------------- | ---------- | ---- | --------------------------------------------------------------------------------------------------------- | ---------- |
+| [CVE-2024-5830](https://nvd.nist.gov/vuln/detail/CVE-2024-5830) | **High**   | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
+| [CVE-2024-5831](https://nvd.nist.gov/vuln/detail/CVE-2024-5831) | **High**   | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
+| [CVE-2024-5832](https://nvd.nist.gov/vuln/detail/CVE-2024-5832) | **High**   | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
+| [CVE-2024-5833](https://nvd.nist.gov/vuln/detail/CVE-2024-5833) | **High**   | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
+| [CVE-2024-5834](https://nvd.nist.gov/vuln/detail/CVE-2024-5834) | **High**   | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
+| [CVE-2024-5835](https://nvd.nist.gov/vuln/detail/CVE-2024-5835) | **High**   | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
+| [CVE-2024-5836](https://nvd.nist.gov/vuln/detail/CVE-2024-5836) | **High**   | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
+| [CVE-2024-5837](https://nvd.nist.gov/vuln/detail/CVE-2024-5837) | **High**   | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
+| [CVE-2024-5838](https://nvd.nist.gov/vuln/detail/CVE-2024-5838) | **High**   | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
 | [CVE-2024-5839](https://nvd.nist.gov/vuln/detail/CVE-2024-5839) | **Medium** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
 | [CVE-2024-5840](https://nvd.nist.gov/vuln/detail/CVE-2024-5840) | **Medium** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
 | [CVE-2024-5841](https://nvd.nist.gov/vuln/detail/CVE-2024-5841) | **Medium** | N.A  | Chrome <br>- **prior to 126.0.6478.56/57** for Windows and Mac<br/>- **prior to 126.0.6478.54** for Linux | 06/11/2024 |
@@ -38,7 +38,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 - Update Google Chrome to version:
     - 126.0.6478.56/57 or later for Windows/Mac
     - 126.0.6478.54 or later for Linux
-
 
 ## Additional References
 
