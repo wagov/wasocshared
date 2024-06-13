@@ -6,9 +6,9 @@ The WA SOC has been made aware of a proof-of-concept (PoC) exploit code pulished
 
 ## What is vulnerable?
 
-| Products Affected.  | CVE  | CVSS | Severity     |
-| ------------------- | ---- | ---- | ------------ |
-| tvOS </br> macOS </br> visionOS </br> iOS and iPadOS | [CVE-2024-27801](https://nvd.nist.gov/vuln/detail/CVE-2024-27801) | TBD  | TBD |  
+| Products Affected.                                   | CVE                                                               | CVSS | Severity |
+| ---------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| tvOS </br> macOS </br> visionOS </br> iOS and iPadOS | [CVE-2024-27801](https://nvd.nist.gov/vuln/detail/CVE-2024-27801) | TBD  | TBD      |
 
 ## What has been observed?
 
