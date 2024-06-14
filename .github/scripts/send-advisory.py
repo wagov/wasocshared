@@ -100,14 +100,18 @@ def send_campaign (advisory_content):
         for section in sections:
             if not title and section.startswith("#"):
                 title = section[1:].strip()[:-14]
+                    #raise ValueError(f"Advsisory {advisory_uid} - {title}: Title character count is longer than or equal to 100 Characters. Reduce the title length.")
             if section.strip().lower().startswith("overview"):
                 overview = section[9:].strip()
                 break
-        
+        if len(title) >= 100:
+            print(f"\nERROR: Advisory '{advisory_uid} - {title}': The title character count is longer than or equal to 100 Characters. Reduce the Title Length.")
+            print("\n-------------------------")
+            break
         lookup = email_lookup(advisory_uid)
         if lookup[0] is True:
             # An Advisory already exists with this UID
-            print("\nERROR: Advisory already exists. Requested advisory will be skipped")
+            print("\nERROR: Advisory already exists. Requested advisory will be skipped.")
             print("\n-------------------------")
         else:
             html_overview = markdown(overview)
