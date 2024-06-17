@@ -8,8 +8,7 @@ copyright: '<strong>Acknowledgement of Country</strong><br>The Government of Wes
 theme:
   name: material
   font:
-    text: Heebo,Arial,Helvetica,sansserif
-    code: Roboto Mono
+    text: Aptos
   features:
     - navigation.sections
     - navigation.path
