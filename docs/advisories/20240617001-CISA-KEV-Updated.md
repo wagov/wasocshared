@@ -6,11 +6,11 @@ CISA has added multiple items to their Known Exploited Vulnerabilities catalog.
 
 ## What is vulnerable?
 
-| Product(s) Affected    | CVE | Severity | CVSS | 
-| ---------------------- | --- | --- | ---- | 
-| **Supported Google Pixel** devices | [CVE-2024-32896](https://nvd.nist.gov/vuln/detail/CVE-2024-32896)  | **High** | 7.8  |
-| **Windows versions**: 10, 11 </br> **Windows Server** versions: 2008, 2008r2, 2012r2, 2016, 2019, 2022, 2022_23h2 | [CVE-2024-26169](https://nvd.nist.gov/vuln/detail/CVE-2024-26169) | **High** | 7.8  |
-| **Telerik Report Server** 2024 Q1 (10.0.24.305) and earlier | [CVE-2024-4358](https://nvd.nist.gov/vuln/detail/CVE-2024-4358) | **Critical** | 9.8 |
+| Product(s) Affected                                                                                               | CVE                                                               | Severity     | CVSS |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------ | ---- |
+| **Supported Google Pixel** devices                                                                                | [CVE-2024-32896](https://nvd.nist.gov/vuln/detail/CVE-2024-32896) | **High**     | 7.8  |
+| **Windows versions**: 10, 11 </br> **Windows Server** versions: 2008, 2008r2, 2012r2, 2016, 2019, 2022, 2022_23h2 | [CVE-2024-26169](https://nvd.nist.gov/vuln/detail/CVE-2024-26169) | **High**     | 7.8  |
+| **Telerik Report Server** 2024 Q1 (10.0.24.305) and earlier                                                       | [CVE-2024-4358](https://nvd.nist.gov/vuln/detail/CVE-2024-4358)   | **Critical** | 9.8  |
 
 ## What has been observed?
 
