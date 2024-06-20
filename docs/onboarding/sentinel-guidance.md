@@ -23,6 +23,14 @@ Below is a rapid approach to get Microsoft workloads covered rapidly using Senti
 
 Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once telemetry is being collected, the [Maturity Model For Event Log Management](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/MaturityModelForEventLogManagementM2131#onboarding-prerequisites) solution adds the capability to detect changes in telemetry quality over time (which supports [Secure Configuration Assessment](../guidelines/secure-configuration.md) of the SIEM environment itself).
 
+### 2.1. SIEM Retention for threat hunting and investigations
+
+[Configuring retention for 12 months](https://learn.microsoft.com/en-us/azure/sentinel/configure-data-retention) is recommended to ensure logs are available for investigations and threat hunting. For high volume telemetry sources, [streaming events to object storage](https://learn.microsoft.com/en-us/defender-xdr/streaming-api-storage) is a validated alternative that can be queried in place with tools like [duckdb](https://duckdb.org/docs/extensions/azure.html) and [Azure Data Explorer](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/schema-entities/external-tables).
+
+!!! note "Simplify telemetry collection"
+
+    Moving [Configuration Manager to Intune](https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-intune-setup), [Fileshares to SharePoint](https://learn.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide) and [Identites from Active Directory to Entra](https://learn.microsoft.com/en-us/entra/architecture/road-to-the-cloud-migrate) are highly effective ways to improve security visibility while also reducing telemetry volume from self-managed platforms and servers.
+
 ## 3. Third party solutions (Telemetry re-ingestion)
 
 [Deploy domain solutions with ASIM analytic rules](https://learn.microsoft.com/en-us/azure/sentinel/sentinel-solutions-catalog#domain-solutions) and connect associated telemetry for relevant products. Note for large environments this can be costly, so moving to incident synchronisation only may be more effective (see next section). Deploying the [ASIM Parsers](https://github.com/Azure/Azure-Sentinel/tree/master/ASIM) directly also makes developing and managing telemetry agnostic detection rules much easier.
