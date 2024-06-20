@@ -29,7 +29,7 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 
 !!! note "Simplify telemetry collection"
 
-    Moving [Configuration Manager to Intune](https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-intune-setup), [Fileshares to SharePoint](https://learn.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide) and [Identites from Active Directory to Entra](https://learn.microsoft.com/en-us/entra/architecture/road-to-the-cloud-migrate) are highly effective ways to improve security visibility while also reducing telemetry volume from self-managed platforms and servers.
+    Moving [Configuration Manager to Intune](https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-intune-setup), [Fileshares to SharePoint](https://learn.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide) and [Identities from Active Directory to Entra](https://learn.microsoft.com/en-us/entra/architecture/road-to-the-cloud-migrate) are highly effective ways to improve security visibility while also reducing telemetry volume from self-managed platforms and servers.
 
 ## 3. Third party solutions (Telemetry re-ingestion)
 
