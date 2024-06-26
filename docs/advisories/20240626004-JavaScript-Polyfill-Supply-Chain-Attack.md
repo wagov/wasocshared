@@ -6,7 +6,7 @@ The JavaScript library Polyfill.io, which is extensively utilized, has been flag
 
 ## Summary
 
-The polyfill code is dynamically generated based on the HTTP headers, so multiple attack vectors are likely. 
+The polyfill code is dynamically generated based on the HTTP headers, so multiple attack vectors are likely.
 
 In addition, the decrypted malware code redirects users to a sports betting website using a dummy Google analytics domain (www.googie-anaiytics.com). The code is designed to prevent against reverse engineering and only activates on specific mobile devices at specific hours. It also does not turn on when it detects an admin user, and delays execution when a web analytics service is found, presumably so that it does not appear in the statistics.
 
