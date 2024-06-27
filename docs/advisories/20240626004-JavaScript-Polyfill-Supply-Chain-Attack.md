@@ -14,10 +14,57 @@ Currently, the cdn.polyfill.io domain is inexplicably diverted to Cloudflare's m
 
 Google has also started blocking Google Ads for websites using the affected code to reduce the number of potential targets.
 
-## Recommended Mitigations
+## The Threat?
 
-The WA SOC recommends that any website currently using Polyfill.io to immediately remove its code to avoid potential security breaches. The web administrator are encouraged to support secure and sustainable alternatives to ensure the integrity of their projects.
+**End-User**:
+
+- MITRE Technique:
+
+    - **Drive-by Compromise** - <https://attack.mitre.org/techniques/T1189/>
+
+    - **Command and Scripting Interpreter: JavaScript** - <https://attack.mitre.org/techniques/T1059/007/>
+
+- When a user accessed a website that uses polyfill library, the Polyfill library will perform a request to hxxps://cdn.polyfill.io/v2/polyfill.min.js OR hxxps://cdn.polyfill.io/v3/polyfill.min.js
+
+- If the user matches certain criterion (i.e. mobile devices, specific mobile OS platform, specific hours, specific user-agent), it will return an original polyfill code injected with malicious code, which will run a malicious javascript. (See <https://github.com/polyfillpolyfill/polyfill-service/issues/2873#issuecomment-2182491302> for details)
+
+- See below IOCs for identified domain-name used to deliver payload.
+
+**Website Provider (Agencies):**
+
+- MITRE Techniques: **Supply Chain Compromise** - <https://attack.mitre.org/techniques/T1195/>
+
+- Agencies that uses the old polyfill library on their websites may cause user's visiting their website vulnerable to the drive-by compromise attack.
+
+- As of 25 June 2024, Google have started blocking Google Ads for eCommerce sites that uses polyfill\[.\]io
+
+## What has been observed?
+
+WA SOC has not observed any signs of outbound activities to malicious payload within SOC connected entities. (subject to data connector's availability). (Note: Based on current write-ups, the threat actor seemed to be targeting mobile devices)
+
+## Recommended Actions:
+
+WA SOC recommends entities to perform the following actions:
+
+- Agency to search for instance of cdn\[.\]polyfill\[.\]io in source code across the projects within the organisation
+
+- Agency may have 2 options in regards to the use of Polyfill:
+
+    - **Option-1**: Deprecate the usage of polyfill. Reference: <https://x.com/triblondon/status/1761852117579427975>
+
+    - **Option-2**: If polyfill still needed, use alternatives polyfill library from Fastly and Cloudflare (Reference: <https://blog.cloudflare.com/polyfill-io-now-available-on-cdnjs-reduce-your-supply-chain-risk>, <https://community.fastly.com/t/new-options-for-polyfill-io-users/2540>
+
+## IOC:
+
+| Indicator                                                     | Type       | Description |
+| ------------------------------------------------------------- | ---------- | ----------- |
+| hxxps://kuurza\[.\]com/redirect?from=bitget                   | domainName | Payload C&C |
+| hxxps://www\[.\]googie-anaiytics\[.\]com/html/checkcachehw.js | domainName | Payload C&C |
+| hxxps://www\[.\]googie-anaiytics\[.\]com/ga.js                | domainName | Payload C&C |
 
 ## Reference
 
-- Bleeping Computer: <https://www.bleepingcomputer.com/news/security/polyfillio-javascript-supply-chain-attack-impacts-over-100k-sites/>
+- https://remysharp.com/2010/10/08/what-is-a-polyfill/
+- https://polykill.io/
+- https://sansec.io/research/polyfill-supply-chain-attack
+- https://web.archive.org/web/20240624110153/https://github.com/polyfillpolyfill/polyfill-service/issues/2873
