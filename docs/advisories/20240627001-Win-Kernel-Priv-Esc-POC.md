@@ -20,7 +20,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of one month (refer [Patch Management](../guidelines/patch-management.md)):
 
-- [Microsoft - Windows Kernel Elevation of Privilege Vulnerability](<(https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30088)>)
+- [Microsoft - Windows Kernel Elevation of Privilege Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30088)
 
 ## Additional References
 
