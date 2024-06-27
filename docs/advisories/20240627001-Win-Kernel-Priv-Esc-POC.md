@@ -8,8 +8,8 @@ Organisations are encouraged to review the information regarding the vulnerabili
 
 ## What is vulnerable?
 
-| Products Affected.                                                                                                                | CVE                                                               | CVSS | Severity |
-| --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Products Affected.                         | CVE                                                               | CVSS | Severity |
+| ------------------------------------------ | ----------------------------------------------------------------- | ---- | -------- |
 | Windows 10, 11 and Server 2016, 2019, 2022 | [CVE-2024-30088](https://nvd.nist.gov/vuln/detail/CVE-2024-30088) | 7.0  | **High** |
 
 ## What has been observed?
