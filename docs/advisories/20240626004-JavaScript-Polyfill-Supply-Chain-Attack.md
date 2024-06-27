@@ -12,7 +12,7 @@ In addition, the decrypted malware code redirects users to a sports betting webs
 
 Currently, the cdn.polyfill.io domain is inexplicably diverted to Cloudflare's mirror. However, because the domain's DNS servers are unaltered, the owners can easily switch it back to their own domains at any time.
 
-Google has also started blocking Google Ads for websites using the affected code to reduce the number of potential targets.
+Google has also started blocking Google Ads for websites using the affected code to reduce the number of potential targets. Cloudflare has implemented real-time rewrites of cdn.polyfill.io to their own version. Namecheap has put the domain on hold. 
 
 ## Recommended Mitigations
 
@@ -20,4 +20,7 @@ The WA SOC recommends that any website currently using Polyfill.io to immediatel
 
 ## Reference
 
+- Sansec: <https://sansec.io/research/polyfill-supply-chain-attack>
 - Bleeping Computer: <https://www.bleepingcomputer.com/news/security/polyfillio-javascript-supply-chain-attack-impacts-over-100k-sites/>
+- Cloudflare: https://blog.cloudflare.com/automatically-replacing-polyfill-io-links-with-cloudflares-mirror-for-a-safer-internet
+- Namecheap: https://x.com/silentpush_labs/status/1806104500220080159
