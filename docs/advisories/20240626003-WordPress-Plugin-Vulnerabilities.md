@@ -6,8 +6,8 @@ Several plugins for WordPress hosted on WordPress.org have been compromised and 
 
 ## What is vulnerable?
 
-| Products Affected | CVE | CVSS | Severity |
-| --- | --- | ---- | ------------ |
+| Products Affected                                                               | CVE                                                             | CVSS | Severity     |
+| ------------------------------------------------------------------------------- | --------------------------------------------------------------- | ---- | ------------ |
 | **[List of Affected Products](https://www.cve.org/CVERecord?id=CVE-2024-6297)** | [CVE-2024-6297](https://www.cve.org/CVERecord?id=CVE-2024-6297) | 10   | **Critical** |
 
 ## Recommendation
