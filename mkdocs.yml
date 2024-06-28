@@ -73,7 +73,9 @@ markdown_extensions:
       permalink: true
 nav:
 - Home: README.md
-- SOC Onboarding: onboarding.md
+- Connecting to the WA SOC:
+  - SOC Onboarding: onboarding.md
+  - Sentinel Guidance: onboarding/sentinel-guidance.md
 - Advisories (TLP:CLEAR): advisories.md
 - ACSC Strategies to Mitigate: guidelines/further-five.md
 - Threat Hunting (TTPs): guidelines/TTP_Hunt/ttp-detection-guidelines.md
