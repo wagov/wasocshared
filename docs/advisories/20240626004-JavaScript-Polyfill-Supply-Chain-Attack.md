@@ -64,7 +64,7 @@ WA SOC recommends entities to perform the following actions:
 
 ## Reference
 
-- https://remysharp.com/2010/10/08/what-is-a-polyfill/
-- https://polykill.io/
-- https://sansec.io/research/polyfill-supply-chain-attack
-- https://web.archive.org/web/20240624110153/https://github.com/polyfillpolyfill/polyfill-service/issues/2873
+- <https://remysharp.com/2010/10/08/what-is-a-polyfill/>
+- <https://polykill.io/>
+- <https://sansec.io/research/polyfill-supply-chain-attack>
+- <https://web.archive.org/web/20240624110153/https://github.com/polyfillpolyfill/polyfill-service/issues/2873>
