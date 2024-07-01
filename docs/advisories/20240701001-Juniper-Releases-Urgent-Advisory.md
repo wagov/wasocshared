@@ -6,11 +6,11 @@ Juniper Networks has released an emergency update to address a maximum severity 
 
 ## What is vulnerable?
 
-| Products Affected  | Versions     | CVE                                                               | CVSS | Severity     |
-| ------------------- | ------------ | ----------------------------------------------------------------- | ---- | ------------ |
-| **Session Smart Router**| - ***All versions before*** 5.6.15<br/>- from 6.0 before 6.1.9-lts<br>- from 6.2 before 6.2.5-sts| [CVE-2024-2973](https://nvd.nist.gov/vuln/detail/CVE-2024-2973) | 10.0  | **Critical** |
-| **Session Smart Conductor**| - ***All versions before*** 5.6.15<br/>- from 6.0 before 6.1.9-lts<br>- from 6.2 before 6.2.5-sts| [CVE-2024-2973](https://nvd.nist.gov/vuln/detail/CVE-2024-2973) | 10.0  | **Critical** |
-| **WAN Assurance Router**| - ***6.0 versions before*** 6.1.9-lts<br/>- 6.2 versions before 6.2.5-sts| [CVE-2024-2973](https://nvd.nist.gov/vuln/detail/CVE-2024-2973) | 10.0  | **Critical** |
+| Products Affected           | Versions                                                                                          | CVE                                                             | CVSS | Severity     |
+| --------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ---- | ------------ |
+| **Session Smart Router**    | - ***All versions before*** 5.6.15<br/>- from 6.0 before 6.1.9-lts<br>- from 6.2 before 6.2.5-sts | [CVE-2024-2973](https://nvd.nist.gov/vuln/detail/CVE-2024-2973) | 10.0 | **Critical** |
+| **Session Smart Conductor** | - ***All versions before*** 5.6.15<br/>- from 6.0 before 6.1.9-lts<br>- from 6.2 before 6.2.5-sts | [CVE-2024-2973](https://nvd.nist.gov/vuln/detail/CVE-2024-2973) | 10.0 | **Critical** |
+| **WAN Assurance Router**    | - ***6.0 versions before*** 6.1.9-lts<br/>- 6.2 versions before 6.2.5-sts                         | [CVE-2024-2973](https://nvd.nist.gov/vuln/detail/CVE-2024-2973) | 10.0 | **Critical** |
 
 ## What has been observed?
 
@@ -20,7 +20,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- Session Smart Router: SSR-5.6.15, SSR-6.1.9-lts, SSR-6.2.5-sts, and subsequent releases. 
+- Session Smart Router: SSR-5.6.15, SSR-6.1.9-lts, SSR-6.2.5-sts, and subsequent releases.
 
 - WAN Assurance Routers are patched automatically when connected to the Mist Cloud, but administrators of High-Availability clusters need to upgrade to SSR-6.1.9 or SSR-6.2.5.
 

@@ -12,7 +12,6 @@ The published article provides the following information:
 - "At this point, it’s unclear what’s the extent of the incident and how many HubSpot customers were affected."
 - "HubSpot says it has more than 216,000 corporate clients, and touts Discord, Eventbrite, Talkspace and others as big name customers."
 
-
 ## What has been observed?
 
 At the time of writing, there is no oficial report or advisory availble directly from HubSpot. However, agencies utilising HubSpot-related services should review associated account activity for any suspicious behaviour.
