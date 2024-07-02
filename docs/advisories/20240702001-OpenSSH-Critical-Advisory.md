@@ -9,10 +9,9 @@ A signal handler race condition found in OpenSSH's server (sshd), where a client
 
 ## What is vulnerable?
 
-| Products Affected| CVE | CVSS    | Severity |
-|--- | ----- | ----|---------- |
-| Portable OpenSSH versions between 8.5p1 and 9.7p1 (inclusive)   | [CVE-2024-6387](https://nvd.nist.gov/vuln/detail/CVE-2024-6387)   | 8.1   | **High**    |
-
+| Products Affected                                             | CVE                                                             | CVSS | Severity |
+| ------------------------------------------------------------- | --------------------------------------------------------------- | ---- | -------- |
+| Portable OpenSSH versions between 8.5p1 and 9.7p1 (inclusive) | [CVE-2024-6387](https://nvd.nist.gov/vuln/detail/CVE-2024-6387) | 8.1  | **High** |
 
 ## What has been observed?
 
