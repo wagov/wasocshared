@@ -6,9 +6,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Industry      | Vendor | Advisory                          |
-| ------------- | ------ | --------------------------------- |
-| Transport     | Vendor | [ICSA](URL)                       |
+| Industry            | Vendor | Advisory                          |
+| ------------------- | ------ | --------------------------------- |
+| Transport           | Vendor | [ICSA](URL)                       |
 | Energy, </br> Water | Vendor | [ICSA1](URL1) </br> [ICSA2](URL2) |
 
 ## Recommendation
