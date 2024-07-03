@@ -8,8 +8,7 @@ copyright: '<strong>Acknowledgement of Country</strong><br>The Government of Wes
 theme:
   name: material
   font:
-    text: Heebo,Arial,Helvetica,sansserif
-    code: Roboto Mono
+    text: Aptos
   features:
     - navigation.sections
     - navigation.path
@@ -74,7 +73,9 @@ markdown_extensions:
       permalink: true
 nav:
 - Home: README.md
-- SOC Onboarding: onboarding.md
+- Connecting to the WA SOC:
+  - SOC Onboarding: onboarding.md
+  - Sentinel Guidance: onboarding/sentinel-guidance.md
 - Advisories (TLP:CLEAR): advisories.md
 - ACSC Strategies to Mitigate: guidelines/further-five.md
 - Threat Hunting (TTPs): guidelines/TTP_Hunt/ttp-detection-guidelines.md
