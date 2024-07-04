@@ -6,12 +6,12 @@ A severe security flaw has been discovered in GeoServer. This vulnerability coul
 
 ## What is vulnerable?
 
-| Products Affected.  | CVE                                                               | CVSS | Severity     |
-| ------------------- | ----------------------------------------------------------------- | ---- | ------------ |
-| **GeoServer: All versions before 2.25.2** | [CVE-2024-36401](https://nvd.nist.gov/vuln/detail/CVE-2024-36401) |9.8  | **Critical** |
-| **GeoServer: All versions before 2.25.2** | [CVE-2024-24749](https://nvd.nist.gov/vuln/detail/CVE-2024-24749) | 7.5 | **High** |
-| **GeoServer: All versions before 2.25.2** | [CVE-2024-34696](https://nvd.nist.gov/vuln/detail/CVE-2024-34696) | 4.9  | **Medium** |
-| **GeoServer: All versions before 2.25.2** | [CVE-2024-35230](https://nvd.nist.gov/vuln/detail/CVE-2024-35230) | TBD  | **TBD** |
+| Products Affected.                        | CVE                                                               | CVSS | Severity     |
+| ----------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| **GeoServer: All versions before 2.25.2** | [CVE-2024-36401](https://nvd.nist.gov/vuln/detail/CVE-2024-36401) | 9.8  | **Critical** |
+| **GeoServer: All versions before 2.25.2** | [CVE-2024-24749](https://nvd.nist.gov/vuln/detail/CVE-2024-24749) | 7.5  | **High**     |
+| **GeoServer: All versions before 2.25.2** | [CVE-2024-34696](https://nvd.nist.gov/vuln/detail/CVE-2024-34696) | 4.9  | **Medium**   |
+| **GeoServer: All versions before 2.25.2** | [CVE-2024-35230](https://nvd.nist.gov/vuln/detail/CVE-2024-35230) | TBD  | **TBD**      |
 
 ## Recommendation
 
