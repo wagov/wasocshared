@@ -1,4 +1,4 @@
-# Splunk RCE Advisory - 20240705001 
+# Splunk RCE Advisory - 20240705001
 
 ## Overview
 
@@ -6,10 +6,9 @@ The WA SOC has been made aware of a vulnerability in multiple versions of Splunk
 
 ## What is vulnerable?
 
-| Products Affected | CVE                                                                                                                                       | CVSS          | Severity                                                         |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
-| Splunk Enterprise: <br>Version 9.2 **before** 9.2.2<br> Version 9.1 **before** 9.1.5<br> Version 9.0 **before** 9.0.10| [CVE-2024-36984](https://nvd.nist.gov/vuln/detail/CVE-2024-36984)           | 8.8             | High   |
-
+| Products Affected                                                                                                      | CVE                                                               | CVSS | Severity |
+| ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Splunk Enterprise: <br>Version 9.2 **before** 9.2.2<br> Version 9.1 **before** 9.1.5<br> Version 9.0 **before** 9.0.10 | [CVE-2024-36984](https://nvd.nist.gov/vuln/detail/CVE-2024-36984) | 8.8  | High     |
 
 ## What has been observed?
 
@@ -20,7 +19,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [Remote Code Execution through Serialized Session Payload in Splunk Enterprise on Windows
-](https://advisory.splunk.com/advisories/SVD-2024-0704)
+    ](https://advisory.splunk.com/advisories/SVD-2024-0704)
 
 ## Additional References
 
