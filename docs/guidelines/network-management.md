@@ -2,7 +2,7 @@
 
 This guideline is a pragmatic target for an entity's network architecture to enable effective and secure network management while minimising complexity. This guide is structured around the [use cases for a complex network](#common-network-use-cases) with a design that can be adopted in stages that is highly aligned with the [ACSC Network gateway hardening](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening/gateway-security-guidance-package-executive-guidance) guidance package.
 
-!!! note "Quick network security for Microsoft 365 customers"
+!!! note "Quick network security (Zero Trust / ZTNA) for Microsoft 365 customers"
     Rapidly implement **identify**, **detect** and some **protect** controls with minimal user facing / network hardware changes:
 
     - Implement [Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/deploy/quick-installation-guide) to **monitor identities, DNS, Kerberos and LDAP traffic**
