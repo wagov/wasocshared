@@ -2,7 +2,7 @@
 
 ## Overview
 
-CISA in collaboration with the ASD's ACSC and other authoring agencies has released an advisory on [People's Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-190a "People's Republic of China (PRC) Ministry of State Security [APT40] Tradecraft in Action") outlining a PRC state-sponsored cyber group's activity.
+CISA in collaboration with the ASD's ACSC and other authoring agencies has released an advisory on [People's Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-190a) outlining a PRC state-sponsored cyber group's activity.
 
 The Advisory is based on a shared understanding of the threat by the PRC state-sponsored cyber group, which has previously targeted organisations in various countries, including Australia and the United States. An assessment made on the group conducting malicious cyber operations for the PRC Ministry of State Security (MSS) appeared overlapping with the group tracked as Advanced Persistent Threat (APT) 40, Kryptonite Panda, GINGHAM TYPHOON, Leviathan and Bronze Mohawk in industry reporting. This group has previously been reported as being based in Haikou, Hainan Province, PRC and receiving tasking from the PRC MSS, Hainan State Security Department.
 
