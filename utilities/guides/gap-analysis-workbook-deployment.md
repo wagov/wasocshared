@@ -1,4 +1,4 @@
-# WA SOC HOW TO Guide
+# WASOC Workbook HOW TO Guide
 
 ## How To Deploy The GAP Analysis Workbook With ARM Template  
 
