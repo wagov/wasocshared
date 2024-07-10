@@ -10,7 +10,7 @@ It is believed that the techniques used by the APT 40, possesses the ability to 
 
 ## What is vulnerable?
 
- APT 40 identifies new exploits within widely used public software such as Log4J, Atlassian Confluence and Microsoft Exchange to target the infrastructure of the associated vulnerability, which globally still remains as a threat to various countries' networks as well.
+APT 40 identifies new exploits within widely used public software such as Log4J, Atlassian Confluence and Microsoft Exchange to target the infrastructure of the associated vulnerability, which globally still remains as a threat to various countries' networks as well.
 
 ## What has been observed?
 
@@ -18,10 +18,9 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
+
 Organizations and software manufacturers are all encouraged to review the advisory to help identify, prevent, and remediate APT 40 intrusions. Software vendors are also urged to incorporate [Secure by Design](https://www.cisa.gov/securebydesign) principles into their practices to limit the impact of threat actor techniques and to strengthen the security posture of the products for the customers.
 
 - [CISA Alerts](https://www.cisa.gov/news-events/alerts/2024/07/08/cisa-and-partners-join-asds-acsc-release-advisory-prc-state-sponsored-group-apt-40)
 - [ASD ACSC Alert and Advisory](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/apt40-advisory-prc-mss-tradecraft-in-action)
-
-
-
