@@ -8,10 +8,10 @@ These updates resolve vulnerabilities rated critical, important and moderate
 
 ## What is affected?
 
-| Product                            | Vendor URL                                                                                         |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Adobe Photoshop                    | [Security update available for Adobe Photoshop - APSB24-27](https://helpx.adobe.com/security/products/photoshop/apsb24-27.html)                    |
-| Adobe Experience Manager           | [Security updates available for Adobe Experience Manager - APSB24-28](https://helpx.adobe.com/au/security/products/experience-manager/apsb24-28.html)           |
+| Product                  | Vendor URL                                                                                                                                            |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Adobe Photoshop          | [Security update available for Adobe Photoshop - APSB24-27](https://helpx.adobe.com/security/products/photoshop/apsb24-27.html)                       |
+| Adobe Experience Manager | [Security updates available for Adobe Experience Manager - APSB24-28](https://helpx.adobe.com/au/security/products/experience-manager/apsb24-28.html) |
 
 ## Recommendation
 
