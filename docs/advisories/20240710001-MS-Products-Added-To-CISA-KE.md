@@ -6,10 +6,10 @@ Microsoft has released security advisories for known exploited vulnerabilities i
 
 ## What is vulnerable?
 
-| Product(s) Affected | CVE | Severity | CVSS |
-| ------------------- | --- | -------- | ---- |
-| Windows 11, Server 2022 | [CVE-2024-38080](https://nvd.nist.gov/vuln/detail/CVE-2024-38080) - Windows Hyper-V Elevation of Privilege Vulnerability| **High** | 7.8  |
-| Windows 11, 10, multiple Server versions | [CVE-2024-38112](https://nvd.nist.gov/vuln/detail/CVE-2024-38112) - Windows MSHTML Platform Spoofing Vulnerability| **High** | 7.5  |
+| Product(s) Affected                      | CVE                                                                                                                      | Severity | CVSS |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------- | ---- |
+| Windows 11, Server 2022                  | [CVE-2024-38080](https://nvd.nist.gov/vuln/detail/CVE-2024-38080) - Windows Hyper-V Elevation of Privilege Vulnerability | **High** | 7.8  |
+| Windows 11, 10, multiple Server versions | [CVE-2024-38112](https://nvd.nist.gov/vuln/detail/CVE-2024-38112) - Windows MSHTML Platform Spoofing Vulnerability       | **High** | 7.5  |
 
 ## What has been observed?
 
