@@ -1,4 +1,4 @@
-# Palo Alto Expedition: Missing Authentication Leads to Admin Account Takeover - 20240712001
+# Palo Alto Expedition - Admin Account Takeover Vulnerability - 20240712001
 
 ## Overview
 
