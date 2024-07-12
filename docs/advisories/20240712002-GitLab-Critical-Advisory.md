@@ -8,7 +8,7 @@ The WA SOC has been made aware of a several critical vulnerabilities affecting G
 
 | Product(s) Affected | Version(s) | CVE  | CVSS          | Severity   |
 | ------------------- | ---------- | ---- | ------------- | ---------- |
-| GitLab      | 17.1 before 17.1.2 <br> 17.0 before 17.0.4 <br> 15.8 before 16.11.6 | [CVE-2024-6385](https://nvd.nist.gov/vuln/detail/CVE-2024-6385) <br> [CVE-2024-5257](https://nvd.nist.gov/vuln/detail/CVE-2024-5257) <br> [CVE-2024-5470](https://nvd.nist.gov/vuln/detail/CVE-2024-5470) <br> [CVE-2024-6595](https://nvd.nist.gov/vuln/detail/CVE-2024-6595) <br> [CVE-2024-2880](https://nvd.nist.gov/vuln/detail/CVE-2024-2880) <br> [CVE-2024-5528](https://nvd.nist.gov/vuln/detail/CVE-2024-5528)  | 9.6 <br> 4.9 <br> 3.7 <br> 6.5 <br> 2.7 <br> 6.5 | **Critical** <br> Medium <br> Low <br> Medium <br> Low <br> Medium |
+| GitLab      | 17.1 before 17.1.2 </br> 17.0 before 17.0.4 </br> 15.8 before 16.11.6 | [CVE-2024-6385](https://nvd.nist.gov/vuln/detail/CVE-2024-6385) </br> [CVE-2024-5257](https://nvd.nist.gov/vuln/detail/CVE-2024-5257) </br> [CVE-2024-5470](https://nvd.nist.gov/vuln/detail/CVE-2024-5470) </br> [CVE-2024-6595](https://nvd.nist.gov/vuln/detail/CVE-2024-6595) </br> [CVE-2024-2880](https://nvd.nist.gov/vuln/detail/CVE-2024-2880) </br> [CVE-2024-5528](https://nvd.nist.gov/vuln/detail/CVE-2024-5528)  | 9.6 </br> 4.9 </br> 3.7 </br> 6.5 </br> 2.7 </br> 6.5 | **Critical** </br> Medium </br> Low </br> Medium </br> Low </br> Medium |
 
 ## What has been observed?
 
