@@ -1,4 +1,4 @@
-# Junos OS Evolved: Parameter Processing Issues Allowing Privilege Escalation Resolved - 20240715001
+# Junos OS Evolved: Privilege Escalation - 20240715001
 
 ## Overview
 
