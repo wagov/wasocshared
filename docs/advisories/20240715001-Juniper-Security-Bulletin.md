@@ -1,4 +1,4 @@
-# Junos OS Evolved: Privilege Escalation - 20240715001
+# Junos OS Evolved: Privilege Escalation Vulnerability Resolved - 20240715001
 
 ## Overview
 
