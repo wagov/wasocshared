@@ -1,4 +1,4 @@
-# GeoServer Critical Vulnerability Added to Known Exploited Catalog  - 20240716001
+# GeoServer Critical Vulnerability Added to Known Exploited Catalog - 20240716001
 
 ## Overview
 
