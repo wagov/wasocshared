@@ -6,10 +6,10 @@ Since the publication of [Advisory 20240704002](https://soc.cyber.wa.gov.au/advi
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE # | CVSS v4/v3 | Severity |
-| --- | --- |--- |--- |--- |
-| GeoServer | 2.23 before 2.23.6 </br> 2.24 before 2.24.4 </br> 2.25 before 2.25.2 | [NVD - CVE-2024-36401](https://nvd.nist.gov/vuln/detail/CVE-2024-36401) | 9.8 | Critical |
-| GeoTools | All versions before 29.6 </br> 30 before 30.4 </br> 31 before 31.2 | [NVD - CVE-2024-36401](https://nvd.nist.gov/vuln/detail/CVE-2024-36401) | 9.8 | Critical |
+| Product(s) Affected | Version(s)                                                           | CVE #                                                                   | CVSS v4/v3 | Severity |
+| ------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------- | -------- |
+| GeoServer           | 2.23 before 2.23.6 </br> 2.24 before 2.24.4 </br> 2.25 before 2.25.2 | [NVD - CVE-2024-36401](https://nvd.nist.gov/vuln/detail/CVE-2024-36401) | 9.8        | Critical |
+| GeoTools            | All versions before 29.6 </br> 30 before 30.4 </br> 31 before 31.2   | [NVD - CVE-2024-36401](https://nvd.nist.gov/vuln/detail/CVE-2024-36401) | 9.8        | Critical |
 
 ## What has been observed?
 
