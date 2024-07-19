@@ -9,4 +9,4 @@ Use the following deploy button to deploy the Gap Analysis workbook:
 
 <br>
 
-For detailed steps on the deployment, go to ['How To' Deploy the GAP Analysis workbook](/utilities/guides/Gap-Analysis-workbook-deployment.md).
+For detailed steps on the deployment, go to ['How To' Deploy the GAP Analysis workbook](/utilities/guides/gap-analysis-workbook-deployment.md).
