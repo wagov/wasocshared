@@ -2,12 +2,12 @@
 
 ## Overview
 
-Oracle released its quarterly Critical Patch Update Advisory for July 2024 to address vulnerabilities in multiple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system. 
+Oracle released its quarterly Critical Patch Update Advisory for July 2024 to address vulnerabilities in multiple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
 
 ## What is vulnerable?
 
-| Product(s) Affected                                                        | Summary                                                                                                         | Dated          |
-| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------------- |
+| Product(s) Affected                                                        | Summary                                                                                                         | Dated         |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------- |
 | [List of Products](https://www.oracle.com/security-alerts/cpujul2024.html) | These patches address vulnerabilities in Oracle code and in third party components included in Oracle products. | 18 July, 2024 |
 
 ## What has been observed?
