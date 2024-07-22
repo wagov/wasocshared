@@ -6,9 +6,9 @@ The WA SOC has been made aware that a Proof on Concept has been published for an
 
 ## What is vulnerable?
 
-| Product(s) Affected                           | Version(s)                   | CVE #                                           | CVSS v4/v3  | Severity |
-|-----------------------------------------------|------------------------------|-------------------------------------------------|-------------|----------|
-| Azure Data Science Virtual Machines for Linux | all versions before 24.05.24 | https://nvd.nist.gov/vuln/detail/CVE-2024-37325 | 8.1         | High     |
+| Product(s) Affected                           | Version(s)                   | CVE #                                           | CVSS v4/v3 | Severity |
+| --------------------------------------------- | ---------------------------- | ----------------------------------------------- | ---------- | -------- |
+| Azure Data Science Virtual Machines for Linux | all versions before 24.05.24 | https://nvd.nist.gov/vuln/detail/CVE-2024-37325 | 8.1        | High     |
 
 ## What has been observed?
 
