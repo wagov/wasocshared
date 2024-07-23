@@ -12,7 +12,7 @@ The WA SOC has been made aware of a security vulnerability detected in AWS Clien
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours* (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *1 month* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - AWS: <https://aws.amazon.com/security/security-bulletins/AWS-2024-008/>
 
