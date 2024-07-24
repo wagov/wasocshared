@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WA SOC has been made aware of a cross-site scripting security vulnerability found in the Okta Browser Plugin (Chrome/Edge/Firefox/Safari). The issue occurs when the plugin prompts the user to save credentials within Okta Personal. A fix was implemented to properly escape these fields, addressing the vulnerability. Importantly, if Okta Personal is not added to the plugin to enable multi-account view, the Workforce Identity Cloud plugin is not affected by this issue. The vulnerability is fixed in Okta Browser Plugin version 6.32.0 for Chrome/Edge/Safari/Firefox.
+The WA SOC has been made aware of a cross-site scripting security vulnerability found in the Okta Browser Plugin (Chrome/Edge/Firefox/Safari). The issue occurs when the plugin prompts the user to save credentials within Okta Personal.
 
 ## What is vulnerable?
 
