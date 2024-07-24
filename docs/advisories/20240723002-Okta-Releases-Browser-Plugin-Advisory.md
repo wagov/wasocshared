@@ -6,9 +6,9 @@ The WA SOC has been made aware of a cross-site scripting security vulnerability 
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)                                                                                               | CVE                                                                                                                                       | CVSS          | Severity          |
-| ------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----------------- |
-| Okta Browser Plugin      | Affected at 6.5.0 through 6.31.0 | [CVE-2024-0981](https://nvd.nist.gov/vuln/detail/CVE-2024-0981) |  7.1 | High |
+| Product(s) Affected | Version(s)                       | CVE                                                             | CVSS | Severity |
+| ------------------- | -------------------------------- | --------------------------------------------------------------- | ---- | -------- |
+| Okta Browser Plugin | Affected at 6.5.0 through 6.31.0 | [CVE-2024-0981](https://nvd.nist.gov/vuln/detail/CVE-2024-0981) | 7.1  | High     |
 
 ## Recommendation
 
