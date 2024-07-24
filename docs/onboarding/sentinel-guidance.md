@@ -32,6 +32,9 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 
 ## 3. Third party solutions (Telemetry re-ingestion)
 
+!!! note "Log Analytics Auxilary plan (preview)"
+    The low cost [Auxiliary plan](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/create-custom-table-auxiliary) is now available in public preview on data collection rule-based custom tables you create using the [Tables - Create Or Update API](https://learn.microsoft.com/en-us/rest/api/loganalytics/tables/create-or-update), which is suitable for retention of third party log sources.
+
 [Deploy domain solutions with ASIM analytic rules](https://learn.microsoft.com/en-us/azure/sentinel/sentinel-solutions-catalog#domain-solutions) and connect associated telemetry for relevant products. Note for large environments this can be costly, so moving to incident synchronisation only may be more effective (see next section). Deploying the [ASIM Parsers](https://github.com/Azure/Azure-Sentinel/tree/master/ASIM) directly also makes developing and managing telemetry agnostic detection rules much easier.
 
 - [Endpoint Threat Protection Essentials](https://azuremarketplace.microsoft.com/en-GB/marketplace/apps/azuresentinel.azure-sentinel-solution-endpointthreat?tab=Overview)
@@ -53,6 +56,6 @@ The above guide supports the below incident creation flows from third party syst
 
 Ensuring that integrations include **severity**, **classification** and **mitre tactic / technique** attributes helps the WASOC triage and prioritise incidents. Additionally incidents with similar subjects or identifiers should be grouped if possible (a good rule of thumb is if something is triggering more than 4 times a day it should be grouped into hourly or larger aggregated incidents).
 
-## 5. Performance and cost optimisation
+## 5. Optimise security operations
 
 The [Microsoft SOC Optimisations page](https://learn.microsoft.com/en-us/azure/sentinel/soc-optimization/soc-optimization-access?tabs=azure-portal#access-the-soc-optimization-page) aims to empower security teams by providing invaluable insights into your Microsoft Sentinel environment and offering recommendations to enhance cost efficiency, operational effectiveness, and overall management overview. The WASOC also offers an addtional cost reduction service through the [dedicated cluster initative](https://soc.cyber.wa.gov.au//onboarding/#24-dedicated-cluster).
