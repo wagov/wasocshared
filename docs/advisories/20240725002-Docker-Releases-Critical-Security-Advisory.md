@@ -2,7 +2,7 @@
 
 ## Overview
 
-A security vulnerability has been detected in certain versions of Docker Engine, which could allow an attacker to bypass authorization plugins (AuthZ) under specific circumstances.
+Docker has released a security advisory relating to a vulnerability in certain versions of Docker Engine, which could allow an attacker to bypass authorization plugins (AuthZ) under specific circumstances.
 
 ## What is vulnerable?
 
