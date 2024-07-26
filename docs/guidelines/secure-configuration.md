@@ -80,6 +80,8 @@ Migrate from legacy macros to [Office Scripts and Power Automate](https://learn.
 
 [ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/restrict-administrative-privileges/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-restrict-administrative-privileges)
 
+- [Restrict logon (as per MS E8 guidance)](https://learn.microsoft.com/en-us/compliance/essential-eight/e8-admin#login-restrictions-ml1) of Domain/Enterprise Admin accounts on servers and endpoints, and restrict logon of M365 Global Admins on cloud joined endpoints.
+- Audit and [secure AD CS](https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/securing-ad-cs-microsoft-defender-for-identity-s-sensor-unveiled/ba-p/3980265) with tools like [Rubeus](https://github.com/GhostPack/Rubeus) and [PSPKIAudit](https://github.com/GhostPack/PSPKIAudit). Monitor operationally with [Microsoft Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/deploy/quick-installation-guide).
 - Implement [Windows LAPS](https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview) for secure local administrator password management
 - Use [Administrative Units](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/administrative-units) to partition management scopes and minimise usage of global administration roles
 - Use [Entra ID Privileged Identity Management](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure) to enable time bound tracked access to privileged resources (as opposed to persistent privileged access)
