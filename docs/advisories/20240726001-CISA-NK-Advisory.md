@@ -11,4 +11,3 @@ The Advisory states that the group primarily targets defence, aerospace, nuclear
 The WA SOC encourages all critical infrastructure organisations to review the advisory for listed known TTPs for conducting surveillance within their environments, and implement the recommended mitigations where applicable.
 
 - [FBI, CISA, and Partners Release Advisory Highlighting North Korean Cyber Espionage Activity](https://www.cisa.gov/news-events/alerts/2024/07/25/fbi-cisa-and-partners-release-advisory-highlighting-north-korean-cyber-espionage-activity)
-
