@@ -6,9 +6,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor | Advisory Link(s) |
-| --- | --- |
-| Siemens | [ICSA-24-207-01](https://www.cisa.gov/news-events/ics-advisories/ICSA-24-207-01) |
+| Vendor   | Advisory Link(s)                                                                 |
+| -------- | -------------------------------------------------------------------------------- |
+| Siemens  | [ICSA-24-207-01](https://www.cisa.gov/news-events/ics-advisories/ICSA-24-207-01) |
 | Positron | [ICSA-24-207-02](https://www.cisa.gov/news-events/ics-advisories/ICSA-24-207-02) |
 
 ## Recommendation
