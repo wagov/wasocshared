@@ -2,7 +2,7 @@
 
 ## Overview
 
-GitLab has published and avdisory to address vulnerabilities across multiple versions of its software.
+GitLab has published an advisory to address vulnerabilities across multiple versions of its software.
 
 ## What is vulnerable?
 
