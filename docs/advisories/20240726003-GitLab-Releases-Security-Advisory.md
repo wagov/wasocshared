@@ -8,8 +8,8 @@ GitLab, the widely used code collaboration platform addresses vulnerabilities ac
 
 | Product(s) Affected                                                                                                                               | Version(s                                                                      | CVE                                                             | CVSS | Severity   | Dated         |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------- | ---- | ---------- | ------------- |
-| [Enterprise Edition (EE)](https://about.gitlab.com/releases/2024/07/24/patch-release-gitlab-17-2-1-released/)                                     | - from 16.11 to 17.0.5 <br/> - from 17.1 to 17.1.3 <br/> - from 17.2 to 17.2.1 | [CVE-2024-5067](https://nvd.nist.gov/vuln/detail/CVE-2024-5067) | 4.4  | **Medium** | 24 July, 2024 |
-| [GitLab Community Edition (CE) <br/> Enterprise Edition (EE)](https://about.gitlab.com/releases/2024/07/24/patch-release-gitlab-17-2-1-released/) | - 16.7 to 17.0.5 <br/> - 17.1 to 17.1.3 <br/> - 17.2 to 17.2.1                 | [CVE-2024-7057](https://nvd.nist.gov/vuln/detail/CVE-2024-7057) | 4.3  | **Medium** | 24 July, 2024 |
+| Enterprise Edition (EE) | [- from 16.11 to 17.0.5 <br/> - from 17.1 to 17.1.3 <br/> - from 17.2 to 17.2.1]((https://about.gitlab.com/releases/2024/07/24/patch-release-gitlab-17-2-1-released/)) | [CVE-2024-5067](https://nvd.nist.gov/vuln/detail/CVE-2024-5067) | 4.4  | **Medium** | 24 July, 2024 |
+| GitLab Community Edition (CE) <br/> Enterprise Edition (EE)| [- from 16.7 to 17.0.5 <br/> - from 17.1 to 17.1.3 <br/> - from 17.2 to 17.2.1]((https://about.gitlab.com/releases/2024/07/24/patch-release-gitlab-17-2-1-released/))                 | [CVE-2024-7057](https://nvd.nist.gov/vuln/detail/CVE-2024-7057) | 4.3  | **Medium** | 24 July, 2024 |
 
 ## What has been observed?
 
