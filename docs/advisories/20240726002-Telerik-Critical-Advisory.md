@@ -6,9 +6,9 @@ Progress has published an advisory to address vulnerabilities in their Telerik R
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-| --- | --- | --- | --- | --- |
-| Progress Telerik Report Server | **all versions before** 2024 Q2 (10.1.24.709) | [CVE-2024-6327](https://nvd.nist.gov/vuln/detail/CVE-2024-6327) | 9.9 | **Critical** |
+| Product(s) Affected            | Version(s)                                    | CVE                                                             | CVSS | Severity     |
+| ------------------------------ | --------------------------------------------- | --------------------------------------------------------------- | ---- | ------------ |
+| Progress Telerik Report Server | **all versions before** 2024 Q2 (10.1.24.709) | [CVE-2024-6327](https://nvd.nist.gov/vuln/detail/CVE-2024-6327) | 9.9  | **Critical** |
 
 ## What has been observed?
 
