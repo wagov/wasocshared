@@ -6,10 +6,9 @@ Acronis has released a critical advisory related to a vulnerability found in the
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-| --- | --- | --- | --- | --- |
-| Acronis Cyber Infrastructure (ACI) | 5.0.1 before build -61 </br> 5.1.1 before build -71 </br> 5.2.1 before build -69 </br> 5.3.1 before build -53 </br> 5.4.4 before build -132 | [CVE-2023-45249](https://nvd.nist.gov/vuln/detail/CVE-2023-45249) | 9.8 | **Critical** |
-
+| Product(s) Affected                | Version(s)                                                                                                                                  | CVE                                                               | CVSS | Severity     |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| Acronis Cyber Infrastructure (ACI) | 5.0.1 before build -61 </br> 5.1.1 before build -71 </br> 5.2.1 before build -69 </br> 5.3.1 before build -53 </br> 5.4.4 before build -132 | [CVE-2023-45249](https://nvd.nist.gov/vuln/detail/CVE-2023-45249) | 9.8  | **Critical** |
 
 ## Recommendation
 
