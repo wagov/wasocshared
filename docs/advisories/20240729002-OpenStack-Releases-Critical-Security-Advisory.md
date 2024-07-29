@@ -2,13 +2,13 @@
 
 ## Overview
 
-The WA SOC has been made aware of a vulnerability affecting OpenStack Nova products. 
+The WA SOC has been made aware of a vulnerability affecting OpenStack Nova products.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-| --- | --- | --- | --- | --- |
-| OpenStack Nova | ***all versions*** before 27.4.1 </br> 28.0 before 28.2.1</br> 29.0 before 29.1.1 | [CVE-2024-40767](https://nvd.nist.gov/vuln/detail/CVE-2024-40767) | 6.8 | Medium |
+| Product(s) Affected | Version(s)                                                                        | CVE                                                               | CVSS | Severity |
+| ------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| OpenStack Nova      | ***all versions*** before 27.4.1 </br> 28.0 before 28.2.1</br> 29.0 before 29.1.1 | [CVE-2024-40767](https://nvd.nist.gov/vuln/detail/CVE-2024-40767) | 6.8  | Medium   |
 
 ## What has been observed?
 
