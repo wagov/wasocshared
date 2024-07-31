@@ -6,8 +6,8 @@ Apple has released security updates to address vulnerabilities in multiple produ
 
 ## What is vulnerable?
 
-| Product(s) Affected          | Version(s)                 | CVE                                                      |
-| ---------------------------- | -------------------------- | -------------------------------------------------------- |
+| Product(s) Affected          | Version(s)                 | CVE                                                            |
+| ---------------------------- | -------------------------- | -------------------------------------------------------------- |
 | Safari 17.6                  | all versions before 17.6   | [Vendor listed CVEs](https://support.apple.com/en-us/HT214121) |
 | iOS 17.6 and iPadOS 17.6     | all versions before 17.6   | [Vendor listed CVEs](https://support.apple.com/en-us/HT214117) |
 | iOS 16.7.9 and iPadOS 16.7.9 | all versions before 16.7.9 | [Vendor listed CVEs](https://support.apple.com/en-us/HT214116) |
