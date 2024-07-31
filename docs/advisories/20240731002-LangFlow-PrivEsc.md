@@ -4,7 +4,7 @@
 
 The WA SOC has been made aware of a high severity vulnerability in the Langflow framework.
 
-Langflow versions prior to 1.0.13 suffer from a Privilege Escalation vulnerability, allowing a remote and low privileged attacker to gain super admin privileges by performing a mass assignment request on the '/api/v1/users' endpoint.
+Langflow versions prior to 1.0.13 suffer from a Privilege Escalation vulnerability, allowing a remote and low privileged attacker to gain super admin privileges by performing a mass assignment request on the `/api/v1/users` endpoint.
 
 ## What is vulnerable?
 
