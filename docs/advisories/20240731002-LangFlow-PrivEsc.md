@@ -18,7 +18,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *2 weeks* (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [Tenable - Langflow Privilege Escalation through Mass Assignment](https://www.tenable.com/security/research/tra-2024-26)
 
