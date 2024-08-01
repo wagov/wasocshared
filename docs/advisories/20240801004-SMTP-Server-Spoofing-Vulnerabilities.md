@@ -8,10 +8,10 @@ An authenticated attacker using network or SMTP authentication can spoof the ide
 
 ## What is vulnerable?
 
-| CVE | CVSS | Severity | Description |
-| --- | --- | --- | --- |
-| [CVE-2024-7208](https://nvd.nist.gov/vuln/detail/CVE-2024-7208) | TBD | TBD | Hosted services do not verify the sender of an email against authenticated users, allowing an attacker to spoof the identify of another user's email address. |
-| [CVE-2024-7209](https://nvd.nist.gov/vuln/detail/CVE-2024-7209) | TBD | TBD | A vulnerability exists in the use of shared SPF records in multi-tenant hosting providers, allowing attackers to use network authorization to be abused to spoof the email identify of the sender. |
+| CVE                                                             | CVSS | Severity | Description                                                                                                                                                                                        |
+| --------------------------------------------------------------- | ---- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [CVE-2024-7208](https://nvd.nist.gov/vuln/detail/CVE-2024-7208) | TBD  | TBD      | Hosted services do not verify the sender of an email against authenticated users, allowing an attacker to spoof the identify of another user's email address.                                      |
+| [CVE-2024-7209](https://nvd.nist.gov/vuln/detail/CVE-2024-7209) | TBD  | TBD      | A vulnerability exists in the use of shared SPF records in multi-tenant hosting providers, allowing attackers to use network authorization to be abused to spoof the email identify of the sender. |
 
 ## What has been observed?
 
