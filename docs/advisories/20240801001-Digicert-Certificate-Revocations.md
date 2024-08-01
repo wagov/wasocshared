@@ -9,7 +9,7 @@ DigiCert, a certificate authority (CA) organization, is revoking a subset of tra
 
 ## Recommendation
 
-The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
+The WA SOC recommends administrators review relevant advisories and apply the recommended actions where relevant.
 
 - [DigiCert Certificate Revocations](https://www.cisa.gov/news-events/alerts/2024/07/30/digicert-certificate-revocations)
 
