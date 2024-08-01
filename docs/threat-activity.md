@@ -22,4 +22,3 @@ Agencies should review the latest [WA Government Cyber Security Policy](https://
 **Security Hardening** remains a focus for all organisations. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
 
 - [ASD Blueprint for Restricting Admin Privileges](https://blueprint.asd.gov.au/security-and-governance/essential-eight/restrict-administrative-privileges/)
-
