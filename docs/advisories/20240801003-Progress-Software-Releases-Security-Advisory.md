@@ -6,8 +6,8 @@ Improper Authentication vulnerability in Progress MOVEit Transfer (SFTP module) 
 
 ## What is vulnerable?
 
-| CVE                                                             | Severity | CVSS | Product(s) Affected                                  |
-| --------------------------------------------------------------- | -------- | ---- | ---------------------------------------------------- |
+| CVE                                                             | Severity | CVSS | Product(s) Affected                                                                                           |
+| --------------------------------------------------------------- | -------- | ---- | ------------------------------------------------------------------------------------------------------------- |
 | [CVE-2024-6576](https://nvd.nist.gov/vuln/detail/CVE-2024-6576) | **High** | 7.3  | MOVEit Transfer: from 2023.0.0 before 2023.0.12, from 2023.1.0 before 2023.1.7, from 2024.0.0 before 2024.0.3 |
 
 ## Recommendation
