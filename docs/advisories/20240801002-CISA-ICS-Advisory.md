@@ -6,8 +6,8 @@ CISA has released an advisory for Industrial Control Systems (ICS) related vendo
 
 ## What is vulnerable?
 
-| Industry                     | Vendor  | Advisory                                                                                                |
-| ---------------------------- | ------- | ------------------------------------------------------------------------------------------------------- |
+| Industry                     | Vendor  | Advisory                                                                                   |
+| ---------------------------- | ------- | ------------------------------------------------------------------------------------------ |
 | Healthcare and Public Health | Philips | [ICSMA-24-200-01](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-24-200-01) |
 
 ## Recommendation
