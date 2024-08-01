@@ -10,8 +10,8 @@ DigiCert, a certificate authority (CA) organization, is revoking a subset of tra
 
 The WA SOC recommends administrators review relevant advisories and apply the recommended actions where relevant.
 
-- [DigiCert Certificate Revocations](https://www.cisa.gov/news-events/alerts/2024/07/30/digicert-certificate-revocations)
+- CISA article: <https://www.cisa.gov/news-events/alerts/2024/07/30/digicert-certificate-revocations>
 
 ## Additional References
 
-- The Hacker News: [DigiCert to Revoke 83,000+ SSL Certificates Due to Domain Validation Oversight](https://thehackernews.com/2024/07/digicert-to-revoke-83000-ssl.html)
+- The Hacker News article: <https://thehackernews.com/2024/07/digicert-to-revoke-83000-ssl.html>
