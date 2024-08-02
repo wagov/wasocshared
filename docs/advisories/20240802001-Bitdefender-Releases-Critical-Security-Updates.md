@@ -1,7 +1,7 @@
 # Bitdefender Releases Critical Security Updates - 20240802001
 
 ## Overview
-Bitdefender has released an update to fix a vulnerability in GravityZone Update Server product.
+Bitdefender has released an update to fix a critical vulnerability in GravityZone Update Server product.
 
 ## What is vulnerable?
 
