@@ -17,9 +17,8 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- An automatic update to product version 6.38.1-5 fixes the issue:
-<https://www.bitdefender.com/support/security-advisories/verbose-error-handling-in-gravityzone-update-server-proxy-service/>
+- Bitdefender Advisory: <https://www.bitdefender.com/support/security-advisories/verbose-error-handling-in-gravityzone-update-server-proxy-service/>
 
 ## Additional References
 
-- SecurityOnline: <https://securityonline.info/bitdefender-patches-critical-vulnerability-in-gravityzone-update-server/>
+- SecurityOnline article: <https://securityonline.info/bitdefender-patches-critical-vulnerability-in-gravityzone-update-server/>
