@@ -1,13 +1,14 @@
 # Bitdefender Releases Critical Security Updates - 20240802001
 
 ## Overview
+
 Bitdefender has released an update to fix a critical vulnerability in GravityZone Update Server product.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE           | CVSS          | Severity        |
-| --------------- | ---------- | ------------------- | ------------- | --------------------- |
-| GravityZone Console   | Versions before 6.38.1-5 running only on premise | [CVE-2024-6980](https://nvd.nist.gov/vuln/detail/CVE-2024-6980)   | 9.2     | **Critical**   |
+| Product(s) Affected | Version(s)                                       | CVE                                                             | CVSS | Severity     |
+| ------------------- | ------------------------------------------------ | --------------------------------------------------------------- | ---- | ------------ |
+| GravityZone Console | Versions before 6.38.1-5 running only on premise | [CVE-2024-6980](https://nvd.nist.gov/vuln/detail/CVE-2024-6980) | 9.2  | **Critical** |
 
 ## What has been observed?
 
