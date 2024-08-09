@@ -6,9 +6,9 @@ A vulnerability in the authentication system of Cisco Smart Software Manager On-
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)                                       | CVE                                                             | CVSS | Severity     |
-| ------------------- | ------------------------------------------------ | --------------------------------------------------------------- | ---- | ------------ |
-| Cisco SSM On-Prem and Cisco SSM Satellite (the same product with different naming conventions) | All versions below 8-202212 | [CVE-2024-20419](https://nvd.nist.gov/vuln/detail/CVE-2024-20419) | 10.0  | **Critical** |
+| Product(s) Affected                                                                            | Version(s)                  | CVE                                                               | CVSS | Severity     |
+| ---------------------------------------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| Cisco SSM On-Prem and Cisco SSM Satellite (the same product with different naming conventions) | All versions below 8-202212 | [CVE-2024-20419](https://nvd.nist.gov/vuln/detail/CVE-2024-20419) | 10.0 | **Critical** |
 
 ## What has been observed?
 
