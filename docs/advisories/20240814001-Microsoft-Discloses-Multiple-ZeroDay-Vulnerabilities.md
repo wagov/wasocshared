@@ -14,9 +14,6 @@ CISA has added six known exploited Microsoft product vulnerabilities to the Cata
 | Microsoft Windows Kernel Privilege Escalation Vulnerability | [CVE-2024-38106](https://nvd.nist.gov/vuln/detail/CVE-2024-38106) | 7.0 | High |
 | Microsoft Windows Power Dependency Coordinator Privilege Escalation Vulnerability | [CVE-2024-38107](https://nvd.nist.gov/vuln/detail/CVE-2024-38107) | 7.8 | High |
 
-## What has been observed?
-
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
 
