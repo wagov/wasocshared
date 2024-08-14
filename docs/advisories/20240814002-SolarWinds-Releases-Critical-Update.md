@@ -6,9 +6,9 @@ SolarWinds has released an urgent security advisory regarding a critical vulnera
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE # | CVSS v4/v3 | Severity |
-|---------------------|------------|-------|------------|----------|
-| SolarWinds Web Help Desk (WHD) | all versions before 12.8.3 Hotfix 1 | [CVE-2024-28986](https://nvd.nist.gov/vuln/detail/CVE-2024-28986) |  9.8 | Critical |
+| Product(s) Affected            | Version(s)                          | CVE #                                                             | CVSS v4/v3 | Severity |
+| ------------------------------ | ----------------------------------- | ----------------------------------------------------------------- | ---------- | -------- |
+| SolarWinds Web Help Desk (WHD) | all versions before 12.8.3 Hotfix 1 | [CVE-2024-28986](https://nvd.nist.gov/vuln/detail/CVE-2024-28986) | 9.8        | Critical |
 
 ## What has been observed?
 
