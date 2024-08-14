@@ -1,19 +1,19 @@
 # Microsoft Discloses Multiple ZeroDay Vulnerabilities - 20240814001
 
 ## Overview
+
 CISA has added six known exploited Microsoft product vulnerabilities to the Catalog based on the evidence of active exploitation.
 
 ## What is vulnerable?
 
-| Vulnerability       | CVE       | CVSS          | Severity             |
-| ------------------- | --------- | ------------- | -------------------- |
-| Microsoft Project Remote Code Execution Vulnerability | [CVE-2024-38189](https://nvd.nist.gov/vuln/detail/CVE-2024-38189) | 8.8 | High |
-| Microsoft Windows Scripting Engine Memory Corruption Vulnerability | [CVE-2024-38178](https://nvd.nist.gov/vuln/detail/CVE-2024-38178) | 7.5 | High |
-| Microsoft Windows SmartScreen Security Feature Bypass Vulnerability | [CVE-2024-38213](https://nvd.nist.gov/vuln/detail/CVE-2024-38213) | 6.5 | Medium |
-| Microsoft Windows Ancillary Function Driver for WinSock Privilege Escalation Vulnerability | [CVE-2024-38193](https://nvd.nist.gov/vuln/detail/CVE-2024-38193) | 7.8 | High |
-| Microsoft Windows Kernel Privilege Escalation Vulnerability | [CVE-2024-38106](https://nvd.nist.gov/vuln/detail/CVE-2024-38106) | 7.0 | High |
-| Microsoft Windows Power Dependency Coordinator Privilege Escalation Vulnerability | [CVE-2024-38107](https://nvd.nist.gov/vuln/detail/CVE-2024-38107) | 7.8 | High |
-
+| Vulnerability                                                                              | CVE                                                               | CVSS | Severity |
+| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ---- | -------- |
+| Microsoft Project Remote Code Execution Vulnerability                                      | [CVE-2024-38189](https://nvd.nist.gov/vuln/detail/CVE-2024-38189) | 8.8  | High     |
+| Microsoft Windows Scripting Engine Memory Corruption Vulnerability                         | [CVE-2024-38178](https://nvd.nist.gov/vuln/detail/CVE-2024-38178) | 7.5  | High     |
+| Microsoft Windows SmartScreen Security Feature Bypass Vulnerability                        | [CVE-2024-38213](https://nvd.nist.gov/vuln/detail/CVE-2024-38213) | 6.5  | Medium   |
+| Microsoft Windows Ancillary Function Driver for WinSock Privilege Escalation Vulnerability | [CVE-2024-38193](https://nvd.nist.gov/vuln/detail/CVE-2024-38193) | 7.8  | High     |
+| Microsoft Windows Kernel Privilege Escalation Vulnerability                                | [CVE-2024-38106](https://nvd.nist.gov/vuln/detail/CVE-2024-38106) | 7.0  | High     |
+| Microsoft Windows Power Dependency Coordinator Privilege Escalation Vulnerability          | [CVE-2024-38107](https://nvd.nist.gov/vuln/detail/CVE-2024-38107) | 7.8  | High     |
 
 ## Recommendation
 
