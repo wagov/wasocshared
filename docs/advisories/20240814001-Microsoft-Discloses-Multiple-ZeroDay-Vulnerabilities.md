@@ -19,20 +19,19 @@ CISA has added six known exploited Microsoft product vulnerabilities to the Cata
 
 ### Additional Critical items included in the Monthly Update release:
 
-| Vulnerability | CVE | CVSS | Severity |
-| --- | --- | --- | --- |
-| Windows TCP/IP | [CVE-2024-38063](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38063) | 9.8 | Critical |
-| Azure Stack | [CVE-2024-38108](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38108) | 9.3 | Critical |
-| Azure Health Bot | [CVE-2024-38109](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38109) | 9.1 | Critical |
-| Reliable Multicast Transport Driver (RMCAST) | [CVE-2024-38140](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38140) | 9.8 | Critical |
-| Windows Network Virtualization | [CVE-2024-38159](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38159) | 9.1 | Critical |
-| Windows Network Virtualization | [CVE-2024-38160](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38160) | 9.1 | Critical |
-| Line Printer Daemon Service (LPD) | [CVE-2024-38199](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38199) | 9.8 | Critical |
+| Vulnerability                                | CVE                                                                                          | CVSS | Severity |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------- | ---- | -------- |
+| Windows TCP/IP                               | [CVE-2024-38063](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38063) | 9.8  | Critical |
+| Azure Stack                                  | [CVE-2024-38108](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38108) | 9.3  | Critical |
+| Azure Health Bot                             | [CVE-2024-38109](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38109) | 9.1  | Critical |
+| Reliable Multicast Transport Driver (RMCAST) | [CVE-2024-38140](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38140) | 9.8  | Critical |
+| Windows Network Virtualization               | [CVE-2024-38159](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38159) | 9.1  | Critical |
+| Windows Network Virtualization               | [CVE-2024-38160](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38160) | 9.1  | Critical |
+| Line Printer Daemon Service (LPD)            | [CVE-2024-38199](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38199) | 9.8  | Critical |
 
 ## Recommendation
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
-
 
 - Microsoft August 2024 Security Updates full release notes: <https://msrc.microsoft.com/update-guide/releaseNote/2024-Aug>
 
