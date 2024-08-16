@@ -1,0 +1,20 @@
+# CISA Releases New ICS Advisories - 20240816001
+
+## Overview
+
+CISA has released multiple advisories for Industrial Control Systems (ICS) related vendors potentially affecting Critical Infrastructure entities.
+
+## What is vulnerable?
+
+| Vendor | Advisory                          |
+| ------ | --------------------------------- |
+| Siemens | [ICSA-24-228-01 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-01) </br> [ICSA-24-228-02 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-02) </br> [ICSA-24-228-03 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-03) </br> [ICSA-24-228-04 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-04) </br> [ICSA-24-228-05 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-05) </br> [ICSA-24-228-06 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-06) </br> [ICSA-24-228-07 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-07) </br> [ICSA-24-228-08 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-08) </br> [ICSA-24-228-09 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-09) |
+| AVEVA | [ICSA-24-228-10 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-10) |
+| PTC | [ICSA-24-228-11 ](https://www.cisa.gov/news-events/ics-advisories/icsa-24-228-11) |
+
+
+## Recommendation
+
+The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
+
+- CISA article: <https://www.cisa.gov/news-events/alerts/2024/08/15/cisa-releases-eleven-industrial-control-systems-advisories>
