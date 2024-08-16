@@ -2,7 +2,7 @@
 
 ## Overview
 
-CISA has released multiple advisories for Industrial Control Systems (ICS) related vendoers.
+CISA has released multiple advisories for Industrial Control Systems (ICS) related vendors.
 
 ## What is vulnerable?
 

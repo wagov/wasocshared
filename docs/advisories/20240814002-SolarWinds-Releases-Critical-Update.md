@@ -12,6 +12,7 @@ SolarWinds has released an urgent security advisory regarding a critical vulnera
 
 ## What has been observed?
 
+CISA added this vulnerability in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog.
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
@@ -24,3 +25,8 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - Tenable: <https://www.tenable.com/cve/CVE-2024-28986>
 - SecurityOnline: <https://securityonline.info/cve-2024-28986-cvss-9-8-solarwinds-web-help-desk-users-must-patch-now/>
+
+## Change Logs
+
+- 2024-08-14: Article published.
+- 2024-08-16: Update observations with CISA adding to Known Exploited Vulnerability catalog.
