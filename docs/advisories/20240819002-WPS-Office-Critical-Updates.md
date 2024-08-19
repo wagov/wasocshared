@@ -6,9 +6,9 @@ The WA SOC has been made aware of vulnerabilities within versions of WPS Office 
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)      | CVE                                                                                                                                  | CVSS | Severity |
-| ------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---- | -------- |
-| WPS Office          | \< 12.2.0.17153 | [CVE-2024-7262](https://nvd.nist.gov/vuln/detail/CVE-2024-7262) <br> [CVE-2024-7263](https://nvd.nist.gov/vuln/detail/CVE-2024-7263) | 9.3 <br> 9.3  | Critical <br> Critical |
+| Product(s) Affected | Version(s)      | CVE                                                                                                                                  | CVSS         | Severity               |
+| ------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ---------------------- |
+| WPS Office          | \< 12.2.0.17153 | [CVE-2024-7262](https://nvd.nist.gov/vuln/detail/CVE-2024-7262) <br> [CVE-2024-7263](https://nvd.nist.gov/vuln/detail/CVE-2024-7263) | 9.3 <br> 9.3 | Critical <br> Critical |
 
 ## What has been observed?
 
