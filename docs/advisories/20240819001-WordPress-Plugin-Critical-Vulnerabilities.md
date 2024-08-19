@@ -8,9 +8,9 @@ Wordfence Intelligence have posted an advisory relating to a vulnerability cause
 
 ## What is vulnerable?
 
-| Product(s) Affected |  CVE   | CVSS          | Severity          |
-| ------------------- |  ----------------- | ------------- | -------------------- |
-| - Plugin “InPost PL” versions < 1.4.5 </br> - Plugin “InPost for WooCommerce” versions <= 1.4.0 (unpatched at time of writing)  | [CVE-2024-6500](https://nvd.nist.gov/vuln/detail/CVE-2024-6500) | 10 | **Critical** |
+| Product(s) Affected                                                                                                              | CVE                                                             | CVSS | Severity     |
+| -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ---- | ------------ |
+| - Plugin “InPost PL” versions \< 1.4.5 </br> - Plugin “InPost for WooCommerce” versions \<= 1.4.0 (unpatched at time of writing) | [CVE-2024-6500](https://nvd.nist.gov/vuln/detail/CVE-2024-6500) | 10   | **Critical** |
 
 ## What has been observed?
 
