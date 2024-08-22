@@ -2,14 +2,14 @@
 
 ## Overview
 
-The WA SOC has been made aware of vulnerabilities present within versions of the GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress. This allows unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to execute code remotely, and to delete arbitrary files. 
+The WA SOC has been made aware of vulnerabilities present within versions of the GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress. This allows unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to execute code remotely, and to delete arbitrary files.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)      | CVE                                                                                                                                  | CVSS         | Severity               |
-| ------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ---------------------- |
-|  Plugin “GiveWP – Donation Plugin and Fundraising Platform”  | < 3.14.2 | [CVE-2024-5932](https://nvd.nist.gov/vuln/detail/cve-2024-5932)                                    | 10           | Critical               |
-| Plugin “LiteSpeed Cache” | < 6.4 | [CVE-2024-28000](https://nvd.nist.gov/vuln/detail/CVE-2024-28000)                                                                         | 9.8          | Critical               |
+| Product(s) Affected                                        | Version(s) | CVE                                                               | CVSS | Severity |
+| ---------------------------------------------------------- | ---------- | ----------------------------------------------------------------- | ---- | -------- |
+| Plugin “GiveWP – Donation Plugin and Fundraising Platform” | \< 3.14.2  | [CVE-2024-5932](https://nvd.nist.gov/vuln/detail/cve-2024-5932)   | 10   | Critical |
+| Plugin “LiteSpeed Cache”                                   | \< 6.4     | [CVE-2024-28000](https://nvd.nist.gov/vuln/detail/CVE-2024-28000) | 9.8  | Critical |
 
 ## What has been observed?
 
