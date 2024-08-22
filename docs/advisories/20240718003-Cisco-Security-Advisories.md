@@ -21,10 +21,11 @@ The WA SOC has been made aware of a number of critical-to-medium vulnerabilites 
 
 ## What has been observed?
 
+The Cisco PSIRT is aware that proof-of-concept exploit code is available for the vulnerability that is described for CVE-2024-20419.
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [Cisco Security](https://sec.cloudapps.cisco.com/security/center/Search.x?publicationTypeIDs=1&firstPublishedStartDate=2024%2F07%2F17&firstPublishedEndDate=2024%2F07%2F17&lastPublishedStartDate=2024%2F07%2F17&lastPublishedEndDate=2024%2F07%2F17&pageNum=1&isRenderingBugList=false)
