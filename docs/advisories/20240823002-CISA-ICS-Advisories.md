@@ -6,12 +6,12 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor | Advisory                          |
-| ------ | --------------------------------- |
-| MOBOTIX | [ICSA-24-235-03](https://www.cisa.gov/news-events/ics-advisories/icsa-24-235-03)                       |
-| Rockwell | [ICSA-24-235-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-235-01) </br> [ICSA-24-235-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-235-02) |
-| Avtec | [ICSA-24-235-04](https://www.cisa.gov/news-events/ics-advisories/icsa-24-235-04) |
-| Mitsubishi Electric | [ICSA-20-282-02](https://www.cisa.gov/news-events/ics-advisories/icsa-20-282-02) |
+| Vendor              | Advisory                                                                                                                                                                |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MOBOTIX             | [ICSA-24-235-03](https://www.cisa.gov/news-events/ics-advisories/icsa-24-235-03)                                                                                        |
+| Rockwell            | [ICSA-24-235-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-235-01) </br> [ICSA-24-235-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-235-02) |
+| Avtec               | [ICSA-24-235-04](https://www.cisa.gov/news-events/ics-advisories/icsa-24-235-04)                                                                                        |
+| Mitsubishi Electric | [ICSA-20-282-02](https://www.cisa.gov/news-events/ics-advisories/icsa-20-282-02)                                                                                        |
 
 ## Recommendation
 
