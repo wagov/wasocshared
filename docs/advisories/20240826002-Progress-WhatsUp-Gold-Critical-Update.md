@@ -6,9 +6,9 @@ The Progress WhatsUp Gold team has recently disclosed multiple critical vulnerab
 
 ## What is vulnerable?
 
-| Product(s) Affected      | Version(s)                              | CVE                                                               | CVSS | Severity     |
-| ------------------------ | --------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
-| Progress WhatsUp | **Gold < 2024.0.0**  | CVE-2024-6670 <br> CVE-2024-6671 <br> CVE-2024-6672  | 9.8 <br> 9.8 <br> 8.8  | **Critical** <br> **Critical** <br> **High**|
+| Product(s) Affected | Version(s)           | CVE                                                 | CVSS                  | Severity                                     |
+| ------------------- | -------------------- | --------------------------------------------------- | --------------------- | -------------------------------------------- |
+| Progress WhatsUp    | **Gold \< 2024.0.0** | CVE-2024-6670 <br> CVE-2024-6671 <br> CVE-2024-6672 | 9.8 <br> 9.8 <br> 8.8 | **Critical** <br> **Critical** <br> **High** |
 
 ## What has been observed?
 
@@ -23,4 +23,3 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 ## Additional References
 
 - Cybersecurity News article: <https://securityonline.info/critical-vulnerabilities-uncovered-in-progress-whatsup-gold-cve-2024-6670-cve-2024-6671/>
-
