@@ -1,4 +1,4 @@
-# ACSC Strategies to Mitigate
+# ACSC Strategies to Mitigate Cyber Security Incidents
 
 The below are all from [ACSC Strategies to Mitigate Cyber Security Incidents – Mitigation Details](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/strategies-mitigate-cyber-security-incidents/strategies-mitigate-cyber-security-incidents-mitigation-details).
 
@@ -24,10 +24,10 @@ Server application hardening helps the organisation to conduct its business with
 OWASP guidance helps to mitigate web application security vulnerabilities such as SQL injection, and covers code review, data validation and sanitisation, user and session management, protection of data in transit and storage, error handling, user authentication, logging and auditing.
 
 !!! info
-    The ACSC has developed guidance for securing content management systems running on web servers, as part of the ACSC responding to cyber security incidents involving adversaries compromising internet-accessible web servers and using 'web shells' which can facilitate remote access, administration and pivoting to the organisation's internal systems.
+    Further guidance on server application hardening are available below.
 
-    - Further guidance on protecting web applications is available in the *[Protecting Web Applications and Users](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/web-hardening/protecting-web-applications-and-users "Protecting Web Applications and Users")* publication.
-    - Further guidance on securing content management systems is available in the *[Securing Content Management Systems](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/web-hardening/securing-content-management-systems "Securing Content Management Systems")* publication.
+    - Further guidance on system hardening is available in the *[Guidelines for System Hardening](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-hardening "Guidelines for System Hardening")* publication.
+    - Further guidance on protecting web applications and users is available in the *[Protecting Web Application and Users](https://www.cyber.gov.au/sites/default/files/2023-03/PROTECT%20-%20Protecting%20Web%20Applications%20and%20Users%20%28October%202021%29.pdf "Protecting Web Applications and Users")* publication.
     - Further guidance on secure software development is available in the *[Guidelines for Software Development](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-software-development)* publication.
 
 ### Block spoofed emails
