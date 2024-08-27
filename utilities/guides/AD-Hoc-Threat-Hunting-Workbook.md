@@ -1,6 +1,6 @@
 # WASOC Workbook HOW TO Guide
 
-## Use of the GAP Analysis Workbook
+## Use of the Ad-Hoc Threat Hunting Workbook
 
 1. Select the Subscription, Workspace, and TimeRange parameters. These will apply across all the tabs and threat-hunting queries.
 ![1](/utilities/screenshots/wrkbk-TH-1.png)
