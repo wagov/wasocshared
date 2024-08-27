@@ -2,7 +2,7 @@
 
 ## Use of the GAP Analysis Workbook
 
-1. Select the Subscription, Workspace, and TimeRange parameters. These will apply across all the tabs and threat-hunting queries.  
+1. Select the Subscription, Workspace, and TimeRange parameters. These will apply across all the tabs and threat-hunting queries.
 ![1](/utilities/screenshots/wrkbk-TH-1.png) 
 2. Select one of the three tabs to start with threat hunting. Queries will automatically run using the selected parameters from step 1. 
 - Threat Hunting Queries - A number of various queries to detect some of the most common attacks 
