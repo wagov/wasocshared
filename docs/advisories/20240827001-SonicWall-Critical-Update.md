@@ -6,9 +6,9 @@ SonicWall has published an advisory relating to critical updates affecting multi
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE # | CVSS v4/v3 | Severity |
-| --- | --- | --- | --- | --- |
-| SonicWall Firewall devices | - Gen5 <= 5.9.2.14-12o <br> - Gen6 <= 6.5.4.14-109n <br> - Gen7 <= 7.0.1-5035 | [CVE-2024-40766](https://nvd.nist.gov/vuln/detail/CVE-2024-40766) |  9.3 | Critical |
+| Product(s) Affected        | Version(s)                                                                       | CVE #                                                             | CVSS v4/v3 | Severity |
+| -------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------- | -------- |
+| SonicWall Firewall devices | - Gen5 \<= 5.9.2.14-12o <br> - Gen6 \<= 6.5.4.14-109n <br> - Gen7 \<= 7.0.1-5035 | [CVE-2024-40766](https://nvd.nist.gov/vuln/detail/CVE-2024-40766) | 9.3        | Critical |
 
 ## What has been observed?
 
