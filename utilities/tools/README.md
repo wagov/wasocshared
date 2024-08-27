@@ -1,6 +1,6 @@
 **WASOC Workbooks**
 
-Use the following deploy button to deploy WASOC workbooks:
+Use the following deploy links to deploy WASOC workbooks:
 
 </br></br>
 
@@ -13,7 +13,7 @@ Use the following deploy button to deploy WASOC workbooks:
 </br>
 
 'How to' guides:</br>
-[How To Deploy a Workbook With ARM Template](/utilities/guides/workbook-deployment.md)</br>
-['How To' use the GAP Analysis workbook](/utilities/guides/gap-analysis-workbook.md)</br>
-['How To' use the Rapid IOC workbook](/utilities/guides/Rapid-IOC-workbook.md)</br>
-['How To' use the Ad-Hoc Threat Hunting workbook](/utilities/guides/AD-Hoc-Threat-Hunting-workbook.md)</br>
+[How to Deploy a Workbook With ARM Template](/utilities/guides/Workbook-Deployment.md)</br>
+[How to use the GAP Analysis workbook](/utilities/guides/Gap-Analysis-Workbook.md)</br>
+[How to use the Rapid IOC workbook](/utilities/guides/Rapid-IOC-Workbook.md)</br>
+[How to use the Ad-Hoc Threat Hunting workbook](/utilities/guides/AD-Hoc-Threat-Hunting-Workbook.md)</br>
