@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Federal Bureau of Investigation (FBI), the Cybersecurity and Infrastructure Security Agency (CISA), the Multi-State Information Sharing and Analysis Center (MS-ISAC), and the Department of Health and Human Services (HHS) released joint Cybersecurity Advisory (CSA) [#StopRansomware: RansomHub Ransomware](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a), detailing its indicators of compromise (IOCs) and tactics, techniques, and procedures (TTPs). RansomHub, previously known as Cyclops and Knight, has become a successful ransomware-as-a-service model, attracting affiliates from other major variants like LockBit and ALPHV. 
+The Federal Bureau of Investigation (FBI), the Cybersecurity and Infrastructure Security Agency (CISA), the Multi-State Information Sharing and Analysis Center (MS-ISAC), and the Department of Health and Human Services (HHS) released joint Cybersecurity Advisory (CSA) [#StopRansomware: RansomHub Ransomware](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a), detailing its indicators of compromise (IOCs) and tactics, techniques, and procedures (TTPs). RansomHub, previously known as Cyclops and Knight, has become a successful ransomware-as-a-service model, attracting affiliates from other major variants like LockBit and ALPHV.
 
 ## What has been observed?
 
