@@ -1,7 +1,7 @@
 mkdocs==1.6.0
 mkdocs-git-revision-date-localized-plugin==1.2.6
 mkdocs-macros-plugin==1.0.5
-mkdocs-material==9.5.30
+mkdocs-material==9.5.34
 mkdocs-redirects==1.2.1
 pymdown-extensions==10.9
 mkdocs-linkcheck==1.0.6
