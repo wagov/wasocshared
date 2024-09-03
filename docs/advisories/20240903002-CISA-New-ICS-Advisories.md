@@ -6,10 +6,10 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor | Advisory                          |
-| ------ | --------------------------------- |
+| Vendor              | Advisory                                                                                                                                                               |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Rockwell Automation | [ICSA-24-242-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-242-01) <br> [ICSA-24-226-06](https://www.cisa.gov/news-events/ics-advisories/icsa-24-226-06) |
-| Delta Electronics | [ICSA-24-242-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-242-02) |
+| Delta Electronics   | [ICSA-24-242-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-242-02)                                                                                       |
 
 ## Recommendation
 
