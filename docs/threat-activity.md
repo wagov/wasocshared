@@ -14,8 +14,8 @@ Based on recent high impact incidents seen by the WA SOC, security teams should 
 
 Recent WA SOC advisories this month worth staying across include:
 
- - [SolarWinds Releases Critical Update - 20240814002](https://soc.cyber.wa.gov.au/advisories/20240814002-SolarWinds-Releases-Critical-Update/)
- - [SAP Releases Critical Updates - 20240814003](https://soc.cyber.wa.gov.au/advisories/20240814003-SAP-Releases-Critical-Updates/)
+- [SolarWinds Releases Critical Update - 20240814002](https://soc.cyber.wa.gov.au/advisories/20240814002-SolarWinds-Releases-Critical-Update/)
+- [SAP Releases Critical Updates - 20240814003](https://soc.cyber.wa.gov.au/advisories/20240814003-SAP-Releases-Critical-Updates/)
 
 Agencies should review the latest [WA Government Cyber Security Policy](https://www.wa.gov.au/government/publications/2024-wa-government-cyber-security-policy)
 
