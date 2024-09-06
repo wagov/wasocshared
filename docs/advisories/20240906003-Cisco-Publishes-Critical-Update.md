@@ -6,10 +6,10 @@ The WA SOC has been made aware of multiple vulnerabilities in Cisco Smart Licens
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                         |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
-| Cisco Smart Licensing Utility      | versions before 2.3.0    | [CVE-2024-20439](https://nvd.nist.gov/vuln/detail/CVE-2024-20439)                                                                         | 9.8           | **Critical**                                     |
-| Cisco Smart Licensing Utility      | versions before 2.3.0     | [CVE-2024-20440](https://nvd.nist.gov/vuln/detail/CVE-2024-20440)  | 7.5  | High  |
+| Product(s) Affected           | Version(s)            | CVE                                                               | CVSS | Severity     |
+| ----------------------------- | --------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| Cisco Smart Licensing Utility | versions before 2.3.0 | [CVE-2024-20439](https://nvd.nist.gov/vuln/detail/CVE-2024-20439) | 9.8  | **Critical** |
+| Cisco Smart Licensing Utility | versions before 2.3.0 | [CVE-2024-20440](https://nvd.nist.gov/vuln/detail/CVE-2024-20440) | 7.5  | High         |
 
 ## What has been observed?
 
