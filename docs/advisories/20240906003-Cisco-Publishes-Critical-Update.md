@@ -6,10 +6,10 @@ The WA SOC has been made aware of multiple vulnerabilities in Cisco Smart Licens
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                         |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
-|       |    | [CVE-2024-20439](https://nvd.nist.gov/vuln/detail/CVE-2024-20439)                                                                         | 9.8           | **Critical**                                     |
-|       |     | [CVE-2024-20440](https://nvd.nist.gov/vuln/detail/CVE-2024-20440)  | 7.5  | High  |
+| Product(s) Affected | Version(s) | CVE                                                               | CVSS | Severity     |
+| ------------------- | ---------- | ----------------------------------------------------------------- | ---- | ------------ |
+|                     |            | [CVE-2024-20439](https://nvd.nist.gov/vuln/detail/CVE-2024-20439) | 9.8  | **Critical** |
+|                     |            | [CVE-2024-20440](https://nvd.nist.gov/vuln/detail/CVE-2024-20440) | 7.5  | High         |
 
 ## What has been observed?
 
@@ -23,5 +23,5 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- [Tenable - CVE-2024-20439](https://www.tenable.com/cve/CVE-2024-20439) 
-- [Tenable - CVE-2024-20440](https://www.tenable.com/cve/CVE-2024-20440) 
+- [Tenable - CVE-2024-20439](https://www.tenable.com/cve/CVE-2024-20439)
+- [Tenable - CVE-2024-20440](https://www.tenable.com/cve/CVE-2024-20440)
