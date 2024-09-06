@@ -6,7 +6,7 @@ CISA, along with numerous partners (including the FBI, NSA, ASD's ACSC, and many
 
 ## Recommendation
 
-The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices. 
+The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
 
 Russian Military Cyber Actors Target US and Global Critical Infrastructure: <https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a>
 
