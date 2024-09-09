@@ -6,9 +6,9 @@ CISA, along with numerous partners (including the FBI, NSA, ASD's ACSC, and many
 
 ## What is affected?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                         |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
- Ivanti Connect Secure (ICS) and Ivanti Policy Secure (IPS) Gateways      | Versions 9.x and 22.x    | [CVE-2023-46805](https://nvd.nist.gov/vuln/detail/CVE-2023-46805) </br> [CVE-2024-21887](https://nvd.nist.gov/vuln/detail/CVE-2024-21887) | 8.2 </br> 9.1 | High  </br> **Critical** |
+| Product(s) Affected                                                 | Version(s)            | CVE                                                                                                                                       | CVSS          | Severity                 |
+| ------------------------------------------------------------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------ |
+| Ivanti Connect Secure (ICS) and Ivanti Policy Secure (IPS) Gateways | Versions 9.x and 22.x | [CVE-2023-46805](https://nvd.nist.gov/vuln/detail/CVE-2023-46805) </br> [CVE-2024-21887](https://nvd.nist.gov/vuln/detail/CVE-2024-21887) | 8.2 </br> 9.1 | High  </br> **Critical** |
 
 ## Recommendation
 
