@@ -1,4 +1,4 @@
-# CISA Publishes ICS Advisory - 20240911005
+# CISA Publishes ICS Advisory - 20240911003
 
 ## Overview
 
@@ -22,11 +22,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- CISA alerts <https://www.cisa.gov/news-events/alerts/2024/09/10/cisa-releases-four-industrial-control-systems-advisories>
-
-## Additional References
-
-- N/A
+- CISA article: <https://www.cisa.gov/news-events/alerts/2024/09/10/cisa-releases-four-industrial-control-systems-advisories>
 
 
 
