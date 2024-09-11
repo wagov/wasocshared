@@ -17,8 +17,8 @@ CISA has added four known exploited Microsoft product vulnerabilities to the Cat
 
 ### Additional Critical items included in the Monthly Update release:
 
-| Vulnerability                                        | CVE                                                                                          | CVSS | Severity |
-| ---------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---- | -------- |
+| Vulnerability                                        | CVE                                                               | CVSS | Severity |
+| ---------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
 | Azure Stack Hub Elevation of Privilege Vulnerability | [CVE-2024-38220](https://nvd.nist.gov/vuln/detail/CVE-2024-38220) | 9.0  | Critical |
 
 ## Recommendation
