@@ -1,4 +1,4 @@
-# 20240911002 - Ivanti Publishes Critical Security Updates
+# Ivanti Publishes Critical Security Updates - 20240911002
 
 ## Overview
 
