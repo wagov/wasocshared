@@ -1,4 +1,4 @@
-# 20240911002 - Ivanti Publishes Critical Security Updates
+# Ivanti Publishes Critical Security Updates - 20240911002
 
 ## Overview
 
@@ -27,4 +27,4 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- <https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022?language=en_US>
+- Ivanti advisory: <https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022?language=en_US>
