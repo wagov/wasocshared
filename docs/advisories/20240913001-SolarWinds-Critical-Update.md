@@ -8,7 +8,7 @@ SolarWinds has reported two vulnerabilities affecting their Access Rights Manage
 
 | Product(s) Affected | Version(s)              | CVE                                                                                                                                        | CVSS           | Severity                   |
 | ------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------- | -------------------------- |
-| SolarWinds ARM      | Version before 2024.3.1 | [CVE-2024-28991](https://nvd.nist.gov/vuln/detail/CVE-2024-28991)  </br> [CVE-2024-28990](https://nvd.nist.gov/vuln/detail/CVE-2024-28990) | 9.0  </br> 6.5 | **Critical**  </br> Medium |
+| SolarWinds ARM      | Version before 2024.3.1 | [CVE-2024-28991](https://nvd.nist.gov/vuln/detail/CVE-2024-28991)  </br> [CVE-2024-28990](https://nvd.nist.gov/vuln/detail/CVE-2024-28990) | 9.0  </br> 6.3 | **Critical**  </br> Medium |
 
 ## What has been observed?
 
