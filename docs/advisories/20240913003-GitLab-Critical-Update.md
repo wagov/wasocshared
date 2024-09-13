@@ -1,4 +1,4 @@
-# GitLab Critical Update - 20240913003
+# GitLab Publishes Critical Update - 20240913003
 
 ## Overview
 
