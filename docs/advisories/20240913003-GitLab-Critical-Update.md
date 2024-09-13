@@ -2,7 +2,7 @@
 
 ## Overview
 
-GitLab has released critical updates to address multiple vulnerabilities, the most severe of them (CVE-2024-6678) allowing an attacker to trigger pipelines as arbitrary users under certain conditions.
+GitLab has released critical updates to address multiple vulnerabilities, the most severe of them allowing an attacker to trigger pipelines as arbitrary users under certain conditions.
 
 ## What is vulnerable?
 
@@ -16,10 +16,10 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hrs...* (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- GitLab Critical Patch Release: 17.3.2, 17.2.5, 17.1.7 (https://about.gitlab.com/releases/2024/09/11/patch-release-gitlab-17-3-2-released/)
+- GitLab Critical Patch Release Notes: <https://about.gitlab.com/releases/2024/09/11/patch-release-gitlab-17-3-2-released/>
 
 ## Additional References
 
-- BleepingComputer: GitLab warns of critical pipeline execution vulnerability (https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-pipeline-execution-vulnerability/)
+- BleepingComputer article: <https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-pipeline-execution-vulnerability/>
