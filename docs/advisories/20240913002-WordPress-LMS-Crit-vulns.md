@@ -8,10 +8,10 @@ The vulnerabilities allow an unauthenticated attacker to append additional SQL q
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                         |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
-| LearnPress – WordPress LMS Plugin      | <= 4.2.7    | [CVE-2024-8529](https://nvd.nist.gov/vuln/detail/CVE-2024-8529)                                                                         | 10.0           | **Critical**                                     |
-| LearnPress – WordPress LMS Plugin      | <= 4.2.7    | [CVE-2024-8522](https://nvd.nist.gov/vuln/detail/CVE-2024-8522)  | 10.0  | **Critical** |
+| Product(s) Affected               | Version(s) | CVE                                                             | CVSS | Severity     |
+| --------------------------------- | ---------- | --------------------------------------------------------------- | ---- | ------------ |
+| LearnPress – WordPress LMS Plugin | \<= 4.2.7  | [CVE-2024-8529](https://nvd.nist.gov/vuln/detail/CVE-2024-8529) | 10.0 | **Critical** |
+| LearnPress – WordPress LMS Plugin | \<= 4.2.7  | [CVE-2024-8522](https://nvd.nist.gov/vuln/detail/CVE-2024-8522) | 10.0 | **Critical** |
 
 ## What has been observed?
 
@@ -25,5 +25,5 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- Wordfence: [LearnPress – WordPress LMS Plugin <= 4.2.7 - Unauthenticated SQL Injection via 'c_only_fields'](https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/learnpress/learnpress-wordpress-lms-plugin-427-unauthenticated-sql-injection-via-c-only-fields)
-- Wordfence: [LearnPress – WordPress LMS Plugin <= 4.2.7 - Unauthenticated SQL Injection via 'c_fields'](https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/learnpress/learnpress-wordpress-lms-plugin-427-unauthenticated-sql-injection-via-c-fields)
+- Wordfence: [LearnPress – WordPress LMS Plugin \<= 4.2.7 - Unauthenticated SQL Injection via 'c_only_fields'](https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/learnpress/learnpress-wordpress-lms-plugin-427-unauthenticated-sql-injection-via-c-only-fields)
+- Wordfence: [LearnPress – WordPress LMS Plugin \<= 4.2.7 - Unauthenticated SQL Injection via 'c_fields'](https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/learnpress/learnpress-wordpress-lms-plugin-427-unauthenticated-sql-injection-via-c-fields)
