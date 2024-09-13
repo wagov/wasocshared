@@ -6,9 +6,9 @@ GitLab has released critical updates to address multiple vulnerabilities, the mo
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                         |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
-| GitLab CE/EE     | 8.14 prior to 17.1.7 <br> 17.2 prior to 17.2.5 <br> 17.3 prior to 17.3.2   | [CVE-2024-6678](https://nvd.nist.gov/vuln/detail/CVE-2024-6678)              | **9.9**       | **Critical**                                                     |
+| Product(s) Affected | Version(s)                                                               | CVE                                                             | CVSS    | Severity     |
+| ------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------- | ------- | ------------ |
+| GitLab CE/EE        | 8.14 prior to 17.1.7 <br> 17.2 prior to 17.2.5 <br> 17.3 prior to 17.3.2 | [CVE-2024-6678](https://nvd.nist.gov/vuln/detail/CVE-2024-6678) | **9.9** | **Critical** |
 
 ## What has been observed?
 
