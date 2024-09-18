@@ -6,11 +6,11 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor | Advisory Link(s) |
-| --- | --- |
-| Siemens | [ICSA-24-261-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-261-01)  |
-| Millbeck Communications | [ICSA-24-261-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-261-02)  |
-| Yokogawa  | [ICSA-24-261-03](https://www.cisa.gov/news-events/ics-advisories/icsa-24-261-03) |
+| Vendor                  | Advisory Link(s)                                                                 |
+| ----------------------- | -------------------------------------------------------------------------------- |
+| Siemens                 | [ICSA-24-261-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-261-01) |
+| Millbeck Communications | [ICSA-24-261-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-261-02) |
+| Yokogawa                | [ICSA-24-261-03](https://www.cisa.gov/news-events/ics-advisories/icsa-24-261-03) |
 
 ## Recommendation
 
