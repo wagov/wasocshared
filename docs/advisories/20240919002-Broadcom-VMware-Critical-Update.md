@@ -6,10 +6,10 @@ Broadcom released security updates to address a critical vulnerability in VMware
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE # | CVSS v4/v3 | Severity |
-|---------------------|------------|-------|------------|----------|
-|vCenter Server       | 8.0 < U3b <br> 7.0 < U3s | CVE-2024-38812 <br> CVE-2024-38813 | 9.8 <br> 7.5 | **Critical** <br> **High**|
-|VMware Cloud Foundation| 5.x < 8.0 U3b <br> 4.x < 7.0 U3s | CVE-2024-38812 <br> CVE-2024-38813 | 9.8 <br> 7.5 | **Critical** <br> **High** |
+| Product(s) Affected     | Version(s)                         | CVE #                              | CVSS v4/v3   | Severity                   |
+| ----------------------- | ---------------------------------- | ---------------------------------- | ------------ | -------------------------- |
+| vCenter Server          | 8.0 \< U3b <br> 7.0 \< U3s         | CVE-2024-38812 <br> CVE-2024-38813 | 9.8 <br> 7.5 | **Critical** <br> **High** |
+| VMware Cloud Foundation | 5.x \< 8.0 U3b <br> 4.x \< 7.0 U3s | CVE-2024-38812 <br> CVE-2024-38813 | 9.8 <br> 7.5 | **Critical** <br> **High** |
 
 ## What has been observed?
 
