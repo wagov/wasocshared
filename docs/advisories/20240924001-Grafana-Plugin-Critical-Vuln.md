@@ -8,9 +8,9 @@ The Grafana plugin SDK bundles build metadata into the binaries it compiles; thi
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)              | CVE                                                             | CVSS | Severity     |
-| ------------------- | ----------------------- | --------------------------------------------------------------- | ---- | ------------ |
-| Grafana Plugin SDK  | all versions \<=0.249.0 | [CVE-2024-8986](https://nvd.nist.gov/vuln/detail/CVE-2024-8986) | 9.1  | **Critical** |
+| Product(s) Affected | Version(s)             | CVE                                                            | CVSS | Severity     |
+| ------------------- | ---------------------- | -------------------------------------------------------------- | ---- | ------------ |
+| Grafana Plugin SDK  | all versions <= 0.249.0 | [CVE-2024-8986](https://nvd.nist.gov/vuln/detail/CVE-2024-8986) | 9.1 | **Critical** |
 
 ## What has been observed?
 
