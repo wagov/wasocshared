@@ -20,8 +20,8 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- https://grafana.com/security/security-advisories/cve-2024-8986/
+- <https://grafana.com/security/security-advisories/cve-2024-8986/>
 
 ## Additional References
 
-- Security Online: https://securityonline.info/cve-2024-8986-cvss-9-1-critical-grafana-plugin-sdk-flaw-exposes-sensitive-information/
+- Security Online: <https://securityonline.info/cve-2024-8986-cvss-9-1-critical-grafana-plugin-sdk-flaw-exposes-sensitive-information/>
