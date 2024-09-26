@@ -2,30 +2,26 @@
 
 ## Overview
 
-The WA SOC has been made aware that a severe security flaw has been uncovered in pgAdmin, allowing  attackers to execute malicious code on servers running pgAdmin, potentially compromising the entire database system.
-
-sqlite-vec v0.1.1 was discovered to contain a heap buffer overflow via the npy_token_next function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted file.
+The WA SOC has been made aware of reports of critical vulnerabilities relating to SQLite and pgAdmin (open-source management tool for PostgreSQL databases). Successful exploitation could allow attackers to execute malicious code on servers running pgAdmin, potentially compromising the entire database system. Aditionally, sqlite-vec v0.1.1 was discovered to contain a heap buffer overflow via the npy_token_next function, which could allow attackers to cause a Denial of Service (DoS) via a crafted file.
 
 ## What is vulnerable?
 
 | Product(s) Affected | Version(s) | CVE                                                                     | CVSS      | Severity     |
 | ------------------- | ---------- | ----------------------------------------------------------------------- | --------- | ------------ |
-| pgAdmin             | \<=8.11    | [CVE-2024-9014](https://nvd.nist.gov/vuln/detail/CVE-2024-9014)         | 9.9       | **Critical** |
-| sqlLite             | v0.1.1     | [CVE-2024-46488](https://nvd.nist.gov/vuln/detail/CVE-2024-46488) </br> | 9.1 </br> | **Critical** |
+| pgAdmin for PostgreSQL | < 8.12    | [CVE-2024-9014](https://nvd.nist.gov/vuln/detail/CVE-2024-9014)         | 9.9       | **Critical** |
+| sqlLite             | <= 0.1.1     | [CVE-2024-46488](https://nvd.nist.gov/vuln/detail/CVE-2024-46488) | 9.1 | **Critical** |
 
 ## What has been observed?
 
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+CISA is aware of exploitation in the wild for CVE-2024-46488. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
 
-Given the severity of this vulnerability and its potential impact on data security, the WA SOC recomends update to the latest version, pgAdmin 4 version 8.12, as soon as possible.
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- pgAdmin: <https://www.pgadmin.org/docs/pgadmin4/development/release_notes_8_12.html>
+- pgAdmin for PostgreSQL: <https://www.pgadmin.org/docs/pgadmin4/development/release_notes_8_12.html>
+- SQLite: <https://github.com/VulnSphere/LLMVulnSphere/blob/main/VectorDB/sqlite-vec/OOBR_2.md>
 
 ## Additional References
 
-3rd Party Reference
-
-- <https://nvd.nist.gov/vuln/detail/CVE-2024-9014>
-- <https://nvd.nist.gov/vuln/detail/CVE-2024-46488>
+- SecurityOnline: <https://securityonline.info/cve-2024-9014-cvss-9-9-pgadmins-critical-vulnerability-puts-user-data-at-risk/>
