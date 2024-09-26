@@ -8,10 +8,11 @@ sqlite-vec v0.1.1 was discovered to contain a heap buffer overflow via the npy_t
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                         |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
-| pgAdmin       | <=8.11    | [CVE-2024-9014](https://nvd.nist.gov/vuln/detail/CVE-2024-9014)                                                                         | 9.9           | **Critical**                                     |
-| sqlLite     | v0.1.1    | [CVE-2024-46488](https://nvd.nist.gov/vuln/detail/CVE-2024-46488) </br> | 9.1 </br> | **Critical**
+| Product(s) Affected | Version(s) | CVE                                                                     | CVSS      | Severity     |
+| ------------------- | ---------- | ----------------------------------------------------------------------- | --------- | ------------ |
+| pgAdmin             | \<=8.11    | [CVE-2024-9014](https://nvd.nist.gov/vuln/detail/CVE-2024-9014)         | 9.9       | **Critical** |
+| sqlLite             | v0.1.1     | [CVE-2024-46488](https://nvd.nist.gov/vuln/detail/CVE-2024-46488) </br> | 9.1 </br> | **Critical** |
+
 ## What has been observed?
 
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
@@ -19,10 +20,12 @@ There is no evidence of exploitation affecting Western Australian Government net
 ## Recommendation
 
 Given the severity of this vulnerability and its potential impact on data security, the WA SOC recomends update to the latest version, pgAdmin 4 version 8.12, as soon as possible.
+
 - pgAdmin: <https://www.pgadmin.org/docs/pgadmin4/development/release_notes_8_12.html>
 
 ## Additional References
 
 3rd Party Reference
+
 - <https://nvd.nist.gov/vuln/detail/CVE-2024-9014>
 - <https://nvd.nist.gov/vuln/detail/CVE-2024-46488>
