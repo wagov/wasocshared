@@ -2,7 +2,7 @@
 
 ## Overview
 
-CISA has issued an advisory urging OT and ICS operators in critical infrastructure sectors to implement recommended measures in response to the ongoing exploitation of internet-accessible operational technology(OT) and industrial control systems(ICS) devices. 
+CISA has issued an advisory urging OT and ICS operators in critical infrastructure sectors to implement recommended measures in response to the ongoing exploitation of internet-accessible operational technology(OT) and industrial control systems(ICS) devices.
 
 ## Recommendation
 
