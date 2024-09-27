@@ -6,11 +6,11 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor | Advisory                          |
-| ------ | --------------------------------- |
-| Advantech | [ICSA-24-270-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-01) </br>[ICSA-24-270-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-02) |
-| Atelmo Atemio | [ICSA-24-270-03](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-03) |
-| goTenna Pro | [ICSA-24-270-04](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-04) </br>[ICSA-24-270-05](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-05) |
+| Vendor        | Advisory                                                                                                                                                               |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Advantech     | [ICSA-24-270-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-01) </br>[ICSA-24-270-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-02) |
+| Atelmo Atemio | [ICSA-24-270-03](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-03)                                                                                       |
+| goTenna Pro   | [ICSA-24-270-04](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-04) </br>[ICSA-24-270-05](https://www.cisa.gov/news-events/ics-advisories/icsa-24-270-05) |
 
 ## Recommendation
 
