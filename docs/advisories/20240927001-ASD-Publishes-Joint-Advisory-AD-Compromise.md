@@ -12,6 +12,6 @@ This guidance aims to inform organisations about 17 common techniques used to ta
 
 The WA SOC recommends:
 
-- Review the **ASD Advisory:** <https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/detecting-and-mitigating-active-directory-compromises>
-- Review **Appendix A: Active Directory security controls** <https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/appendix-a-active-directory-security-controls> and implement these controls.
-- Review **Appendix B -- Active Directory events** <https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/appendix-b-active-directory-events> and ensure that the recommended events are being logged.
+- **ASD Advisory:** <https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/detecting-and-mitigating-active-directory-compromises>
+- Review **Appendix A: Active Directory security controls** and implement these controls.
+- Review **Appendix B: Active Directory events** and ensure that the recommended events are being logged.
