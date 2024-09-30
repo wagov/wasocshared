@@ -6,12 +6,12 @@ The WA SOC has been made aware of several critical vulnerabilities involving the
 
 ## What is vulnerable?
 
-| Affected Component     | Description                                                                  | CVE                                                          | CVSSv3 | Severity  |
-| -----------------------| -----------------------------------------------------------------------------|--------------------------------------------------------------|--------|---------- |
-| libcupsfilters         | libscupsfilters Improper Input Validation or Sanitization Vulnerability      | [CVE-2024-47076](https://www.tenable.com/cve/CVE-2024-47076) | 8.6    | High      |
-| libppd                 | libppd Improper Input Validation or Sanitization Vulnerability               | [CVE-2024-47175](https://www.tenable.com/cve/CVE-2024-47175) | 8.6    | High      |
-| cups-browsed           | cups-browsed Binding to an Unrestricted IP Address Vulnerability             | [CVE-2024-47176](https://www.tenable.com/cve/CVE-2024-47176) | 8.4    | High      |
-| cups-filters           | cups-filters Command Injection Vulnerability                                 | [CVE-2024-47177](https://www.tenable.com/cve/CVE-2024-47177) | 9.1    | Critical  |       
+| Affected Component | Description                                                             | CVE                                                          | CVSSv3 | Severity |
+| ------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------ | ------ | -------- |
+| libcupsfilters     | libscupsfilters Improper Input Validation or Sanitization Vulnerability | [CVE-2024-47076](https://www.tenable.com/cve/CVE-2024-47076) | 8.6    | High     |
+| libppd             | libppd Improper Input Validation or Sanitization Vulnerability          | [CVE-2024-47175](https://www.tenable.com/cve/CVE-2024-47175) | 8.6    | High     |
+| cups-browsed       | cups-browsed Binding to an Unrestricted IP Address Vulnerability        | [CVE-2024-47176](https://www.tenable.com/cve/CVE-2024-47176) | 8.4    | High     |
+| cups-filters       | cups-filters Command Injection Vulnerability                            | [CVE-2024-47177](https://www.tenable.com/cve/CVE-2024-47177) | 9.1    | Critical |
 
 ## What has been observed?
 
