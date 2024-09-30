@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WA SOC has been made aware of several critical vulnerabilities involving the Common UNIX Printing System (UNIX). These vulnerabilities could allow a remote, unauthenticated attacker to execute commands when a print job starts on the targeted device by replacing IPP URLs with a malicious one, resulting in data theft or damage to critical production systems.
+The WA SOC has been made aware of several critical vulnerabilities involving the Common UNIX Printing System (CUPS). These vulnerabilities could allow a remote, unauthenticated attacker to execute commands when a print job starts on the targeted device by replacing IPP URLs with a malicious one, resulting in data theft or damage to critical production systems.
 
 ## What is vulnerable?
 
