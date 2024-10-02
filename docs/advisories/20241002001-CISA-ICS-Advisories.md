@@ -6,10 +6,10 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor | Advisory                          |
-| ------ | --------------------------------- |
-|  Optigo Networks | [ICSA-24-275-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-275-01)                       |
-|  Mitsubishi Electric | [ICSA-24-275-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-275-02)  </br> 
+| Vendor              | Advisory                                                                                |
+| ------------------- | --------------------------------------------------------------------------------------- |
+| Optigo Networks     | [ICSA-24-275-01](https://www.cisa.gov/news-events/ics-advisories/icsa-24-275-01)        |
+| Mitsubishi Electric | [ICSA-24-275-02](https://www.cisa.gov/news-events/ics-advisories/icsa-24-275-02)  </br> |
 
 ## Recommendation
 
