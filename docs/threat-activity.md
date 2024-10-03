@@ -9,6 +9,7 @@ Based on recent high impact incidents seen by the WA SOC, security teams should 
 !!! warning "WASOC Guidance targeted on recent escalation of state-based actor threat activity"
 
 - The ACSC has released a coordinated advisory regarding [Detecting and mitigating Active Directory compromises](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/detecting-and-mitigating-active-directory-compromises).
+- Incidents involving Supply Chain Providers. Further information to [Identiying Cyber Supply Chain Risks](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/identifying-cyber-supply-chain-risks)
 
 Recent WA SOC advisories this month worth staying across include:
 
