@@ -1,10 +1,14 @@
-# CISA Releases New ICS Advisories - 20241004002
+# CISA Releases New ICS Advisories and OT Guidance - 20241004002
 
 ## Overview
 
 CISA has released multiple advisories for Industrial Control Systems (ICS) related vendors.
 
 ## What is vulnerable?
+
+CISA has published an article titled "Guidance on Principles of OT Cybersecurity for Critical Infrastructure Organizations": <https://www.cisa.gov/news-events/alerts/2024/10/03/cisa-releases-three-industrial-control-systems-advisories>
+
+Additionally, CISA has released an ICS Vendor advisory for the following items: <https://www.cisa.gov/news-events/alerts/2024/10/01/asds-acsc-cisa-fbi-nsa-and-international-partners-release-guidance-principles-ot-cybersecurity>
 
 | Vendor            | Advisory Link(s)                                                                 |
 | ----------------- | -------------------------------------------------------------------------------- |
@@ -15,6 +19,3 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 ## Recommendation
 
 The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
-
-- CISA ICS Advisory: <https://www.cisa.gov/news-events/alerts/2024/10/03/cisa-releases-three-industrial-control-systems-advisories>
-- CISA OT Guidance: <https://www.cisa.gov/news-events/alerts/2024/10/01/asds-acsc-cisa-fbi-nsa-and-international-partners-release-guidance-principles-ot-cybersecurity>
