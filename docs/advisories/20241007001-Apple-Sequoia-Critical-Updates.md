@@ -1,15 +1,14 @@
 # Apple Releases Critical Updates - 20241007001
- 
+
 ## Overview
 
 The WA SOC has been made aware of an available update to Apple macOS Sequoia 15 that addresses multiple critical security issues.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) |CVE | CVSS | Severity |
-| --- | --- | --- | --- | --- |
-| Sequoia | < 15 | [CVE-2024-44146](https://nvd.nist.gov/vuln/detail/CVE-2024-44146) </br> [CVE-2024-44148](https://nvd.nist.gov/vuln/detail/CVE-2024-44148) | 10.0 <br> 10.0 | **Critical** <br> **Critical** |
-
+| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS           | Severity                       |
+| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------ |
+| Sequoia             | \< 15      | [CVE-2024-44146](https://nvd.nist.gov/vuln/detail/CVE-2024-44146) </br> [CVE-2024-44148](https://nvd.nist.gov/vuln/detail/CVE-2024-44148) | 10.0 <br> 10.0 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 
