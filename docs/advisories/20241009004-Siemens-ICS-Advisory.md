@@ -6,8 +6,8 @@ The WA SOC has been made aware of a vulnerability identified in Siemens SINEC Se
 
 ## What is vulnerable?
 
-| Vendor | Advisory Link(s) |
-| --- | --- |
+| Vendor                         | Advisory Link(s)                                                               |
+| ------------------------------ | ------------------------------------------------------------------------------ |
 | Siemens SINEC Security Monitor | [SSA-430425](https://cert-portal.siemens.com/productcert/html/ssa-430425.html) |
 
 ## What has been observed?
