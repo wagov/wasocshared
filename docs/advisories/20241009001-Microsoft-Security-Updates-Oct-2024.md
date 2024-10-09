@@ -10,12 +10,12 @@ This release consists of the following 117 Microsoft CVEs:
 
 - [May 2024 Security Updates](https://msrc.microsoft.com/update-guide/releaseNote/2024-Oct)
 
-| Product(s) Affected                                                     | CVE                                                                             | Severity | CVSS | Exploited | Dated        |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------- | -------- | ---- | --------- | ------------ |
-| Microsoft Configuration Manager          | [CVE-2024-43468](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43468) | **Critical** | 9.8  | No       | 09 Oct, 2024 |
-| Windows Server 2019 | [CVE-2024-38124](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38124) | **Critical** | 9.0  | No       | 09 Oct, 2024 |
-| Windows 10 Version 1809 | [CVE-2024-43572](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43572) | **High** | 7.8  | Yes       | 09 Oct, 2024 |
-| Windows 10 Version 22H2 | [CVE-2024-43573](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43573) | **Medium** | 6.5  | Yes       | 09 Oct, 2024  |
+| Product(s) Affected             | CVE                                                                             | Severity     | CVSS | Exploited | Dated        |
+| ------------------------------- | ------------------------------------------------------------------------------- | ------------ | ---- | --------- | ------------ |
+| Microsoft Configuration Manager | [CVE-2024-43468](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43468) | **Critical** | 9.8  | No        | 09 Oct, 2024 |
+| Windows Server 2019             | [CVE-2024-38124](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38124) | **Critical** | 9.0  | No        | 09 Oct, 2024 |
+| Windows 10 Version 1809         | [CVE-2024-43572](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43572) | **High**     | 7.8  | Yes       | 09 Oct, 2024 |
+| Windows 10 Version 22H2         | [CVE-2024-43573](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43573) | **Medium**   | 6.5  | Yes       | 09 Oct, 2024 |
 
 ## What has been observed?
 
@@ -25,8 +25,6 @@ CISA added some of the above vulnerability in their [Known Exploited Vulnerabili
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *two weeks*, or *48 hours* where exploited (refer [Patch Management](../guidelines/patch-management.md)).
 
-
 ## Additional References
 
 - [CISA - Microsoft Releases October 2024 Security Updates](https://www.cisa.gov/news-events/alerts/2024/10/08/cisa-adds-three-known-exploited-vulnerabilities-catalog)
-
