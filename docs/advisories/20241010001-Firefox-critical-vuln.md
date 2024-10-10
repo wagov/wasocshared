@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WA SOC has been made aware a critical vulnerability in Firefox that allows an attacker to achieve code execution in the content process by exploiting a use-after-free vulnerability.
+The WA SOC has been made aware a critical vulnerability in Firefox that allows an attacker to achieve code execution by exploiting a use-after-free vulnerability.
 
 Mozilla has stated that there are reports of the vulnerability being exploited in the wild and has released updates to it's Firefox products.
 
