@@ -1,0 +1,27 @@
+# Mozilla Firefox Critical Vulnerability - 20241010001
+
+## Overview
+
+The WA SOC has been made aware a critical vulnerability in Firefox that allows an attacker to achieve code execution in the content process by exploiting a use-after-free vulnerability.
+
+Mozilla has stated that there are reports of the vulnerability being exploited in the wild and has released updates to it's Firefox products.
+
+## What is vulnerable?
+
+| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                         |
+| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
+| Mozilla Firefox, Firefox ESR     | Firefox < 131.0.2 </br> Firefox ESR < 115.16.1 </br> Firefox ESR < 128.3.1   | [CVE-2024-9680](https://nvd.nist.gov/vuln/detail/CVE-2024-9680)                                                                         | 9.8           | **Critical**                                     |
+
+## What has been observed?
+
+There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+
+## Recommendation
+
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours* (refer [Patch Management](../guidelines/patch-management.md)):
+
+- Mozilla Foundation Security Advisory 2024-51: <https://www.mozilla.org/en-US/security/advisories/mfsa2024-51/>
+
+## Additional References
+
+- BleepingComputer: <https://www.bleepingcomputer.com/news/security/mozilla-fixes-firefox-zero-day-actively-exploited-in-attacks/>
