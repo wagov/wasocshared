@@ -6,9 +6,9 @@ The WA SOC has been made aware of a security issue discovered in the Kubernetes 
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                         |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
-| Kubernetes Image Builder      | Versions before v0.1.37    | [CVE-2024-9486](https://nvd.nist.gov/vuln/detail/CVE-2024-9486)                                                                         | 9.8           | **Critical**                                     |
+| Product(s) Affected      | Version(s)              | CVE                                                             | CVSS | Severity     |
+| ------------------------ | ----------------------- | --------------------------------------------------------------- | ---- | ------------ |
+| Kubernetes Image Builder | Versions before v0.1.37 | [CVE-2024-9486](https://nvd.nist.gov/vuln/detail/CVE-2024-9486) | 9.8  | **Critical** |
 
 ## What has been observed?
 
