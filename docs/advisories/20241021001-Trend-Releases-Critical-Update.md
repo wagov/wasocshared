@@ -6,10 +6,9 @@ Trend Micro has released updates to address a critical command injection vulnera
 
 ## What is vulnerable?
 
-|  Product(s)   Affected   |  Version(s)   |                                                                     CVE #                                                                      |     CVSS v4/v3     |           Severity           |
-| :----------------------: | :-----------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: | :--------------------------: |
-| <br> Cloud Edge  | 5.6SP2 <br> 7.0 | <br> [CVE-2024-48904](https://nvd.nist.gov/vuln/detail/CVE-2024-48904)  | <br> 9.8 |<br>  Critical |
-
+| Product(s)   Affected |   Version(s)    |                                 CVE #                                  | CVSS v4/v3 |    Severity    |
+| :-------------------: | :-------------: | :--------------------------------------------------------------------: | :--------: | :------------: |
+|    <br> Cloud Edge    | 5.6SP2 <br> 7.0 | <br> [CVE-2024-48904](https://nvd.nist.gov/vuln/detail/CVE-2024-48904) |  <br> 9.8  | <br>  Critical |
 
 ## What has been observed?
 
