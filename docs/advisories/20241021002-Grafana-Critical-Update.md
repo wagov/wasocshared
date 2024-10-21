@@ -8,9 +8,9 @@ The 'duckdb' binary must be present in Grafana's $PATH for this attack to functi
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)                                                                                                                                                   | CVE                                                             | CVSS | Severity     |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- | ---- | ------------ |
-| Grafana             | \< 11.0.5+security-01 <br> \< 11.1.6+security-01 <br> \< 11.2.1+security-01 <br> \< 11.0.6+security-01 <br> \< 11.1.7+security-01 <br> \< 11.2.2+security-01 | [CVE-2024-9264](https://nvd.nist.gov/vuln/detail/CVE-2024-9264) | 9.9  | **Critical** |
+| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
+| --- | --- | --- | --- | --- |
+| Grafana | - 11.0 < 11.0.5+security-01 <br> - 11.1 < 11.1.6+security-01 <br> - 11.2 < 11.2.1+security-01 | [CVE-2024-9264](https://nvd.nist.gov/vuln/detail/CVE-2024-9264) | 9.9  | **Critical** |
 
 ## What has been observed?
 
