@@ -18,5 +18,5 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
 
--   CISA Advisory 2024-10-15: <https://www.cisa.gov/news-events/alerts/2024/10/15/cisa-releases-two-industrial-control-systems-advisories>
--   CISA Advisory 2024-10-17: <https://www.cisa.gov/news-events/alerts/2024/10/17/cisa-releases-seven-industrial-control-systems-advisories>
+- CISA Advisory 2024-10-15: <https://www.cisa.gov/news-events/alerts/2024/10/15/cisa-releases-two-industrial-control-systems-advisories>
+- CISA Advisory 2024-10-17: <https://www.cisa.gov/news-events/alerts/2024/10/17/cisa-releases-seven-industrial-control-systems-advisories>
