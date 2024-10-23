@@ -6,10 +6,10 @@ The WA SOC has been made aware of a zero-day vulnerability in FortiGate devices 
 
 ## What is vulnerable?
 
-| Product(s) Affected | Affected Version(s)                                                                                                               |     |     | Severity |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------- | --- | --- | -------- |
-| FortiManager        | all versions \< 7.6.0 <br> all versions \< 7.4.4 <br>all versions \< 7.2.7  <br>all versions \< 7.0.12 <br>all versions \< 6.4.14 |     |     | Zero-Day |
-|                     |                                                                                                                                   |     |     |          |
+| Product(s) Affected | Affected Version(s)                                                                                                               | Severity |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| FortiManager        | all versions \< 7.6.0 <br> all versions \< 7.4.4 <br>all versions \< 7.2.7  <br>all versions \< 7.0.12 <br>all versions \< 6.4.14 | Zero-Day |
+|                     |                                                                                                                                   |          |
 
 ## What has been observed?
 
