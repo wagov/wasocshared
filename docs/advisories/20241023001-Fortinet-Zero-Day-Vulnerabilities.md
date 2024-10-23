@@ -21,4 +21,3 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - arstechnica: <https://arstechnica.com/security/2024/10/fortinet-stays-mum-on-critical-0-day-reportedly-under-active-exploitation/>
 - Fortinet: <https://www.fortiguard.com/psirt?filter=1&product=FortiManager&version=>
-
