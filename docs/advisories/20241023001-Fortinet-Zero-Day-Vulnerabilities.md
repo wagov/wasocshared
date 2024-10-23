@@ -20,4 +20,5 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - arstechnica: <https://arstechnica.com/security/2024/10/fortinet-stays-mum-on-critical-0-day-reportedly-under-active-exploitation/>
-- Fortinet advisory <https://www.fortiguard.com/psirt/FG-IR-24-029>
+- Fortinet: <https://www.fortiguard.com/psirt?filter=1&product=FortiManager&version=>
+
