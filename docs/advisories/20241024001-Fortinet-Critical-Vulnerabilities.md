@@ -4,7 +4,7 @@
 
 The WA SOC has been made aware of a critical vulnerability in Fortinet FortiManager devices that is currently being actively exploited. A missing authentication for critical function vulnerability in FortiManager fgfmd daemon may allow a remote unauthenticated attacker to execute arbitrary code or commands via specially crafted requests.
 
-**Reports have shown this vulnerability to be exploited in the wild**
+**Reports have shown this vulnerability has been seen to be exploited in the wild**
 
 ## What is vulnerable?
 
