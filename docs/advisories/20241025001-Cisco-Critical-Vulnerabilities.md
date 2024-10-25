@@ -12,7 +12,6 @@ The WA SOC has been made aware to critical vulnerabilities affecting Cisco syste
 | Cisco Adaptive Security Appliance (ASA) | all versions <= 9.18.3.56 | [CVE-2024-20329](https://nvd.nist.gov/vuln/detail/CVE-2024-20329) | 9.9 | **Critical** | 
 | Cisco Firepower Threat Defense (FTD) | all versions <= 7.4.1.1 | [CVE-2024-20412](https://nvd.nist.gov/vuln/detail/CVE-2024-20412) | 9.3 | **Critical** |
 
-
 ## What has been observed?
 
 There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
