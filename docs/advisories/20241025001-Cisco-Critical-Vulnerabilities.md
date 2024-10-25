@@ -6,11 +6,11 @@ The WA SOC has been made aware to critical vulnerabilities affecting Cisco syste
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-| ------------------- | ---------- | --- | ---- | -------- |
-| Cisco Secure Firewall Management Center (FMC) | all versions <= 7.4.2 | [CVE-2024-20424](https://nvd.nist.gov/vuln/detail/CVE-2024-20424) | 9.9 | **Critical** |
-| Cisco Adaptive Security Appliance (ASA) | all versions <= 9.18.3.56 | [CVE-2024-20329](https://nvd.nist.gov/vuln/detail/CVE-2024-20329) | 9.9 | **Critical** | 
-| Cisco Firepower Threat Defense (FTD) | all versions <= 7.4.1.1 | [CVE-2024-20412](https://nvd.nist.gov/vuln/detail/CVE-2024-20412) | 9.3 | **Critical** |
+| Product(s) Affected                           | Version(s)                 | CVE                                                               | CVSS | Severity     |
+| --------------------------------------------- | -------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| Cisco Secure Firewall Management Center (FMC) | all versions \<= 7.4.2     | [CVE-2024-20424](https://nvd.nist.gov/vuln/detail/CVE-2024-20424) | 9.9  | **Critical** |
+| Cisco Adaptive Security Appliance (ASA)       | all versions \<= 9.18.3.56 | [CVE-2024-20329](https://nvd.nist.gov/vuln/detail/CVE-2024-20329) | 9.9  | **Critical** |
+| Cisco Firepower Threat Defense (FTD)          | all versions \<= 7.4.1.1   | [CVE-2024-20412](https://nvd.nist.gov/vuln/detail/CVE-2024-20412) | 9.3  | **Critical** |
 
 ## What has been observed?
 
