@@ -6,12 +6,12 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor               | 
-| -------------------- | 
-| VIMESA               | 
-| iniNet Solutions     | 
-| Deep Sea Electronics | 
-| OMNTEC Mfg., Inc.    | 
+| Vendor               |
+| -------------------- |
+| VIMESA               |
+| iniNet Solutions     |
+| Deep Sea Electronics |
+| OMNTEC Mfg., Inc.    |
 
 ## Recommendation
 
