@@ -6,10 +6,10 @@ Rockwell and Siemens have released advisories for critical vulnerabilities in th
 
 ## What is vulnerable?
 
-| Vendor | Advisory                          |
-| ------ | --------------------------------- |
-| Rockwell Automation  | [SD 1708 - ThinManager Multiple Vulnerabilities](https://www.rockwellautomation.com/en-us/trust-center/security-advisories/advisory.SD1708.html)                       |
-| Siemens | [SSA-333468: Multiple Vulnerabilities in InterMesh Subscriber Devices](https://cert-portal.siemens.com/productcert/html/ssa-333468.html) |
+| Vendor              | Advisory                                                                                                                                         |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Rockwell Automation | [SD 1708 - ThinManager Multiple Vulnerabilities](https://www.rockwellautomation.com/en-us/trust-center/security-advisories/advisory.SD1708.html) |
+| Siemens             | [SSA-333468: Multiple Vulnerabilities in InterMesh Subscriber Devices](https://cert-portal.siemens.com/productcert/html/ssa-333468.html)         |
 
 ## Recommendation
 
