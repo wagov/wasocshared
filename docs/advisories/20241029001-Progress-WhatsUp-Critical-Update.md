@@ -6,8 +6,8 @@ The WA SOC has been made aware about a critical vulnerability in certain WhatsUp
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)                        | CVE                                                             | CVSS | Severity     |
-| ------------------- | --------------------------------- | --------------------------------------------------------------- | ---- | ------------ |
+| Product(s) Affected | Version(s)                   | CVE                                                             | CVSS | Severity     |
+| ------------------- | ---------------------------- | --------------------------------------------------------------- | ---- | ------------ |
 | WhatsUp Gold        | All versions before 2024.0.0 | [CVE-2024-7763](https://nvd.nist.gov/vuln/detail/CVE-2024-7763) | 9.8  | **Critical** |
 
 ## What has been observed?
