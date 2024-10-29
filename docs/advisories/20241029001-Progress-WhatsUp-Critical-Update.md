@@ -22,4 +22,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- SecurityOnlie: <https://securityonline.info/whatsup-gold-users-beware-critical-authentication-bypass-flaw-exposed-cve-2024-7763-cvss-9-8/>
+- SecurityOnline: <https://securityonline.info/whatsup-gold-users-beware-critical-authentication-bypass-flaw-exposed-cve-2024-7763-cvss-9-8/>
