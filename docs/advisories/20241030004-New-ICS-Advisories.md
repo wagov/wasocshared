@@ -6,10 +6,10 @@ CISA have released advisories for critical vulnerabilities relating to Industria
 
 ## What is vulnerable?
 
-| Vendor |
-| --- |
-| Siemens |
-| Solar-Log |
+| Vendor            |
+| ----------------- |
+| Siemens           |
+| Solar-Log         |
 | Delta Electronics |
 
 ## Recommendation

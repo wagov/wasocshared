@@ -8,7 +8,7 @@ Apple has released updates for multiple products. The WA SOC has been made aware
 
 | Product(s) Affected | Version(s)           | CVE                                                               | CVSS | Severity     |
 | ------------------- | -------------------- | ----------------------------------------------------------------- | ---- | ------------ |
-| iOS and iPadOS      | all versions < 18.1 | [CVE-2024-40867](https://nvd.nist.gov/vuln/detail/CVE-2024-40867) | 9.6  | **Critical** |
+| iOS and iPadOS      | all versions \< 18.1 | [CVE-2024-40867](https://nvd.nist.gov/vuln/detail/CVE-2024-40867) | 9.6  | **Critical** |
 
 ## What has been observed?
 
