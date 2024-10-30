@@ -8,11 +8,9 @@ A remote attacker may be able to break out of Web Content sandbox
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                         |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
-| iOS and iPadOS     | all versions < 18.1    | [CVE-2024-40867](https://nvd.nist.gov/vuln/detail/CVE-2024-40867)                                                                         | 9.6           | **Critical**                                     |
-
-
+| Product(s) Affected | Version(s)           | CVE                                                               | CVSS | Severity     |
+| ------------------- | -------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| iOS and iPadOS      | all versions \< 18.1 | [CVE-2024-40867](https://nvd.nist.gov/vuln/detail/CVE-2024-40867) | 9.6  | **Critical** |
 
 ## What has been observed?
 
