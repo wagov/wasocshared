@@ -8,7 +8,7 @@ An OS command injection vulnerability has been reported to affect HBS 3 Hybrid B
 
 | Product(s) Affected      | Version(s)         | CVE                                                               | CVSS | Severity     |
 | ------------------------ | ------------------ | ----------------------------------------------------------------- | ---- | ------------ |
-| HBS 3 Hybrid Backup Sync | 25.1 < 25.1.1.673 | [CVE-2024-50388](https://nvd.nist.gov/vuln/detail/CVE-2024-50388) | TBA  | **Critical** |
+| HBS 3 Hybrid Backup Sync | 25.1 \< 25.1.1.673 | [CVE-2024-50388](https://nvd.nist.gov/vuln/detail/CVE-2024-50388) | TBA  | **Critical** |
 
 ## What has been observed?
 
