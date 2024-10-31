@@ -6,8 +6,8 @@ A critical vulnerability has been identified in IBM Power Systems servers. The I
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-| --- | --- | --- | --- | --- |
+| Product(s) Affected            | Version(s)                                                                                                                    | CVE                                                               | CVSS | Severity     |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
 | IBM Flexible Service Processor | FW1060.00 - FW1060.10 <br> FW1050.00 - FW1050.21 <br> FW1030.00 - FW1030.61 <br> FW950.00 - FW950.C0 <br> FW860.00 - FW860.B3 | [CVE-2024-45656](https://nvd.nist.gov/vuln/detail/CVE-2024-45656) | 9.8  | **Critical** |
 
 ## What has been observed?
