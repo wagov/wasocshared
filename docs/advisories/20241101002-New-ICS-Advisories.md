@@ -6,8 +6,8 @@ CISA have released advisories for critical vulnerabilities relating to Industria
 
 ## What is vulnerable?
 
-| Vendor            |
-| ----------------- |
+| Vendor              |
+| ------------------- |
 | Rockwell Automation |
 | Mitsubishi Electric |
 
