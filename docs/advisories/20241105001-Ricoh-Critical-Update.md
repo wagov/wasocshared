@@ -6,10 +6,9 @@ A critical vulnerability has been discovered in Ricoh's Web Image Monitor, impac
 
 ## What is vulnerable?
 
-| Product(s) Affected |  CVE                                                                                                                                      | CVSS         | Severity                                                        |
-| ------------------- | --------------------------- | ------------ | ------------- |
-| [List of Products and versions](https://www.ricoh.com/products/security/vulnerabilities/vul?id=ricoh-2024-000011)        | [CVE-2024-47939](https://nvd.nist.gov/vuln/detail/CVE-2024-47939)                   | 9.8        | **Critical**              |
-
+| Product(s) Affected                                                                                               | CVE                                                               | CVSS | Severity     |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| [List of Products and versions](https://www.ricoh.com/products/security/vulnerabilities/vul?id=ricoh-2024-000011) | [CVE-2024-47939](https://nvd.nist.gov/vuln/detail/CVE-2024-47939) | 9.8  | **Critical** |
 
 ## What has been observed?
 
