@@ -1,4 +1,4 @@
-# Ricoh Critical Update - 20241105001
+# Ricoh Critical Updates - 20241105001
 
 ## Overview
 
@@ -18,8 +18,8 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- Vendor: [Ricoh](https://www.ricoh.com/products/security/vulnerabilities/vul?id=ricoh-2024-000011)
+- Ricoh: <https://www.ricoh.com/products/security/vulnerabilities/vul?id=ricoh-2024-000011>
 
 ## Additional References
 
-- Publication Name: [Cyber Security News](https://securityonline.info/ricoh-printers-and-mfps-vulnerable-to-remote-code-execution-cve-2024-47939-cvss-9-8/)
+- SecurityOnline article: <https://securityonline.info/ricoh-printers-and-mfps-vulnerable-to-remote-code-execution-cve-2024-47939-cvss-9-8/>
