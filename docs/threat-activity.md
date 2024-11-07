@@ -15,7 +15,6 @@ Recent WA SOC advisories this month worth staying across include:
 
 - A reminder to stay on top of Microsoft patching [Sharepoint Deserilisation Exploit](https://www.cisa.gov/news-events/alerts/2024/10/22/cisa-adds-one-known-exploited-vulnerability-catalog)
 
-
 Agencies should review the latest [WA Government Cyber Security Policy](https://www.wa.gov.au/government/publications/2024-wa-government-cyber-security-policy)
 
 ## WASOC - General Advice
@@ -23,4 +22,3 @@ Agencies should review the latest [WA Government Cyber Security Policy](https://
 **Security Hardening** remains a focus for all organisations. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
 
 - Policy  The Government of Western Australia’s Artificial Intelligence Policy specifies the principles that must be applied by WA Government agencies who are developing or using Artificial Intelligence (AI) tools. [WA Government Artificial Intelligence Policy and Assurance Framework](https://www.wa.gov.au/government/publications/wa-government-artificial-intelligence-policy-and-assurance-framework)
-
