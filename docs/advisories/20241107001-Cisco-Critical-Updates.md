@@ -6,10 +6,9 @@ Cisco has released multiple updates for products to address a vulnerability in t
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS         | Severity                                                        |
-| ------------------- | ---------- | --- | ------------ | --- |
-| Cisco Catalyst IW9165D / IW9165E / IW9167E Access Points | All versions below 17.15.1 | [CVE-2024-20418](https://nvd.nist.gov/vuln/detail/CVE-2024-20418) | 10 | **Critical**  |
-
+| Product(s) Affected                                      | Version(s)                 | CVE                                                               | CVSS | Severity     |
+| -------------------------------------------------------- | -------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| Cisco Catalyst IW9165D / IW9165E / IW9167E Access Points | All versions below 17.15.1 | [CVE-2024-20418](https://nvd.nist.gov/vuln/detail/CVE-2024-20418) | 10   | **Critical** |
 
 ## What has been observed?
 
