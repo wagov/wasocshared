@@ -6,11 +6,11 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor |
-| --- |
+| Vendor              |
+| ------------------- |
 | Beckhoff Automation |
-| Delta Electronics  |
-| Bosch |
+| Delta Electronics   |
+| Bosch               |
 
 ## Recommendation
 
