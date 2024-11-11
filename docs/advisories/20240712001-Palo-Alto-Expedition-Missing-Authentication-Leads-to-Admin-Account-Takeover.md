@@ -10,9 +10,9 @@ Note: Expedition is a tool aiding in configuration migration, tuning, and enrich
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) Affected | CVE | CVSS | Severity |
-| ------------------- | ------------------- | --- | ---- | -------- | 
-| Palo Alto Expedition | 1.2 lower than 1.2.92 | [CVE-2024-5910](https://nvd.nist.gov/vuln/detail/CVE-2024-5910) | 9.3 | **Critical** |
+| Product(s) Affected  | Version(s) Affected   | CVE                                                             | CVSS | Severity     |
+| -------------------- | --------------------- | --------------------------------------------------------------- | ---- | ------------ |
+| Palo Alto Expedition | 1.2 lower than 1.2.92 | [CVE-2024-5910](https://nvd.nist.gov/vuln/detail/CVE-2024-5910) | 9.3  | **Critical** |
 
 ## Recommendation
 
