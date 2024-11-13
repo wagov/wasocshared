@@ -15,10 +15,11 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 | Windows Kerberos       | [CVE-2024-43639](https://nvd.nist.gov/vuln/detail/CVE-2022-43639) | 9.8  | High     |
 
 ### Known Exploitation
-| Product(s) Affected    | Version(s) | CVE                                                                | CVSS | Severity |
-| ---------------------- | ---------- | ------------------------------------------------------------------ | ---- | -------- |
-| Windows NTLM           | [CVE-2024-43451](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43451) | 6.5  | High     |
-| Windows Task Scheduler | [CVE-2024-49039](https://nvd.nist.gov/vuln/detail/CVE-2024-49039)               | 8.8  | High     |
+
+| Product(s) Affected    | Version(s)                                                                      | CVE | CVSS | Severity |
+| ---------------------- | ------------------------------------------------------------------------------- | --- | ---- | -------- |
+| Windows NTLM           | [CVE-2024-43451](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43451) | 6.5 | High |          |
+| Windows Task Scheduler | [CVE-2024-49039](https://nvd.nist.gov/vuln/detail/CVE-2024-49039)               | 8.8 | High |          |
 
 ## What has been observed?
 
