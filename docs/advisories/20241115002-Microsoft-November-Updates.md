@@ -11,15 +11,15 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 | Product(s) Affected    | CVE                                                               | CVSS | Severity |
 | ---------------------- | ----------------------------------------------------------------- | ---- | -------- |
 | .NET and Visual Studio | [CVE-2024-43498](https://nvd.nist.gov/vuln/detail/cve-2024-43489) | 9.8  | High     |
-| Azure CycleCloud       | [CVE-2024-43602](https://nvd.nist.gov/vuln/detail/CVE-2022-43602) | 9.9  | High     |
-| Windows Kerberos       | [CVE-2024-43639](https://nvd.nist.gov/vuln/detail/CVE-2022-43639) | 9.8  | High     |
+| Azure CycleCloud       | [CVE-2024-43602](https://nvd.nist.gov/vuln/detail/CVE-2024-43602) | 9.9  | High     |
+| Windows Kerberos       | [CVE-2024-43639](https://nvd.nist.gov/vuln/detail/CVE-2024-43639) | 9.8  | High     |
 
 ### Known Exploitation
 
-| Product(s) Affected    | Version(s)                                                                      | CVE | CVSS | Severity |
-| ---------------------- | ------------------------------------------------------------------------------- | --- | ---- | -------- |
-| Windows NTLM           | [CVE-2024-43451](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43451) | 6.5 | High |          |
-| Windows Task Scheduler | [CVE-2024-49039](https://nvd.nist.gov/vuln/detail/CVE-2024-49039)               | 8.8 | High |          |
+| Product(s) Affected    | Version(s)                                                                      | CVE | CVSS | 
+| ---------------------- | ------------------------------------------------------------------------------- | --- | ---- | 
+| Windows NTLM           | [CVE-2024-43451](https://nvd.nist.gov/vuln/detail/CVE-2024-43451) | 6.5 | High | 
+| Windows Task Scheduler | [CVE-2024-49039](https://nvd.nist.gov/vuln/detail/CVE-2024-49039)               | 8.8 | High |
 
 ## What has been observed?
 
