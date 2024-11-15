@@ -10,7 +10,7 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 
 | Product(s) Affected    | CVE                                                               | CVSS | Severity |
 | ---------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| .NET and Visual Studio | [CVE-2024-43498](https://nvd.nist.gov/vuln/detail/cve-2024-43489) | 9.8  | High     |
+| .NET and Visual Studio | [CVE-2024-43498](https://nvd.nist.gov/vuln/detail/cve-2024-43498) | 9.8  | High     |
 | Azure CycleCloud       | [CVE-2024-43602](https://nvd.nist.gov/vuln/detail/CVE-2024-43602) | 9.9  | High     |
 | Windows Kerberos       | [CVE-2024-43639](https://nvd.nist.gov/vuln/detail/CVE-2024-43639) | 9.8  | High     |
 
