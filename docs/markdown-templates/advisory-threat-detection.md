@@ -1,4 +1,4 @@
-# \[Advisory Title\] - 2024MMDD00\#
+# ADVISORY TITLE - 2024MMDD001
 
 ## Overview
 
