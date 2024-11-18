@@ -6,9 +6,9 @@ Google has released a new stable channel update for their Chrome browser address
 
 ## What is vulnerable?
 
-| Product(s) Affected | Affected Version(s) | CVE | CVSS | Severity |
-| ------------------- | ------------------- | --- | ---- | -------- |
-| Google Chrome | All versions below 130.0.6723.92 | [CVE-2024-10487](https://nvd.nist.gov/vuln/detail/CVE-2024-10487) <br> [CVE-2024-10488](https://nvd.nist.gov/vuln/detail/CVE-2024-10488) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
+| Product(s) Affected | Affected Version(s)              | CVE                                                                                                                                      | CVSS         | Severity                       |
+| ------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------ |
+| Google Chrome       | All versions below 130.0.6723.92 | [CVE-2024-10487](https://nvd.nist.gov/vuln/detail/CVE-2024-10487) <br> [CVE-2024-10488](https://nvd.nist.gov/vuln/detail/CVE-2024-10488) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 
