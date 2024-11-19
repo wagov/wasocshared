@@ -12,7 +12,7 @@ By sending a specially crafted obsolete API call, an attacker could exploit this
 | --------------------------------------------------------- | --------------------------------- |
 | [CWE-502](http://cwe.mitre.org/data/definitions/502.html) | Deserialization of Untrusted Data |
 
-[**CVE - CVE-2022-47986 (mitre.org)**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-47986)  IBM Aspera Faspex 4.4.2 Patch Level 1
+[**CVE - CVE-2022-47986 (mitre.org)**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-47986) IBM Aspera Faspex 4.4.2 Patch Level 1
 
 ## What is vulnerable?
 

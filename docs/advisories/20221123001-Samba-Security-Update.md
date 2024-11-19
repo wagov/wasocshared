@@ -22,9 +22,9 @@ All versions of Samba prior to:
 
 On a 32-bit system an overflow allows placement of 16-byte chunks of entirely attacker-controlled data. (Because the user's control over this calculation is limited to an unsigned 32-bit value, 64-bit systems are not impacted).
 
-The server most vulnerable is the  **Key Distribution Centre (KDC)**, as it will parse an attacker-controlled PAC in the **Service for User to Proxy (S4U2Proxy)** handler.
+The server most vulnerable is the **Key Distribution Centre (KDC)**, as it will parse an attacker-controlled PAC in the **Service for User to Proxy (S4U2Proxy)** handler.
 
-The secondary risk is to Kerberos-enabled file server installations in a non-AD realm.  A non-AD Heimdal KDC controlling such a realm may pass on an attacker-controlled PAC within the service ticket.
+The secondary risk is to Kerberos-enabled file server installations in a non-AD realm. A non-AD Heimdal KDC controlling such a realm may pass on an attacker-controlled PAC within the service ticket.
 
 ## What has been observed ?
 

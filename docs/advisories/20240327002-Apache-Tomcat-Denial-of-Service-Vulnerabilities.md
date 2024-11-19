@@ -24,8 +24,8 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- NIST -  [CVE-2024-23672 Detail
+- NIST - [CVE-2024-23672 Detail
     ](https://nvd.nist.gov/vuln/detail/CVE-2024-23672)
 
-- NIST -  [CVE-2024-24549 Detail
+- NIST - [CVE-2024-24549 Detail
     ](https://nvd.nist.gov/vuln/detail/CVE-2024-24549)

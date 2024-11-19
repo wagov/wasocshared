@@ -9,7 +9,7 @@ SAP has released their Security Patch Day complete notes, which includes critica
 | Product(s) Affected                                | Version(s)                              | CVE                                                               | CVSS | Severity |
 | -------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
 | SAP BusinessObjects Business Intelligence Platform | - ENTERPRISE 430 </br> - ENTERPRISE 440 | [CVE-2024-41730](https://www.cve.org/CVERecord?id=CVE-2024-41730) | 9.8  | Critical |
-| SAP Build Apps                                     | \< 4.11.130                             | [CVE-2024-29415](https://www.cve.org/CVERecord?id=CVE-2024-29415) | 9.1  | Critical |
+| SAP Build Apps                                     | < 4.11.130                              | [CVE-2024-29415](https://www.cve.org/CVERecord?id=CVE-2024-29415) | 9.1  | Critical |
 
 ## What has been observed?
 

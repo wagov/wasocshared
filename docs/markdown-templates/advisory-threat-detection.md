@@ -1,4 +1,4 @@
-# \[Advisory Title\] - 2024MMDD00\#
+# ADVISORY TITLE - 2024MMDD001
 
 ## Overview
 
@@ -7,7 +7,7 @@ The WA SOC has observed…
 ## Delivery
 
 The primary delivery method is…
-Historically, \[Threat Name\] has also been observed to be delivered via…
+Historically, [Threat Name] has also been observed to be delivered via…
 
 ## Detection and Remediation
 
@@ -19,7 +19,7 @@ Historically, \[Threat Name\] has also been observed to be delivered via…
 
 ### Recommended Remediation Steps
 
-\[Specific to type of infection\] - Example from Agent Tesla:
+[Specific to type of infection] - Example from Agent Tesla:
 
 1. Delete Registry Key entries and folder paths
 1. Run a full Antivirus scan on the compromised device

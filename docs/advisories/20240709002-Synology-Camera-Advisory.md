@@ -21,8 +21,8 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe (refer [Patch Management](../guidelines/patch-management.md)):
 
-- BC500	- Upgrade to 1.0.7-0298 or above
-- TC500	- Upgrade to 1.0.7-0298 or above
+- BC500 - Upgrade to 1.0.7-0298 or above
+- TC500 - Upgrade to 1.0.7-0298 or above
 
 ## Additional References
 

@@ -30,7 +30,7 @@ Citrix explains that exploits of CVE-2023-3519 on unmitigated appliances have be
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *one month...* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- NetScaler ADC and NetScaler Gateway 13.1-49.13  and later releases
+- NetScaler ADC and NetScaler Gateway 13.1-49.13 and later releases
 - NetScaler ADC and NetScaler Gateway 13.0-91.13  and later releases of 13.0
 - NetScaler ADC 13.1-FIPS 13.1-37.159 and later releases of 13.1-FIPS
 - NetScaler ADC 12.1-FIPS 12.1-55.297 and later releases of 12.1-FIPS

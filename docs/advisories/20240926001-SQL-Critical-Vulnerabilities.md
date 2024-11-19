@@ -8,7 +8,7 @@ The WA SOC has been made aware of reports of critical vulnerabilities relating t
 
 | Product(s) Affected    | Version(s) | CVE                                                               | CVSS | Severity     |
 | ---------------------- | ---------- | ----------------------------------------------------------------- | ---- | ------------ |
-| pgAdmin for PostgreSQL | \< 8.12    | [CVE-2024-9014](https://nvd.nist.gov/vuln/detail/CVE-2024-9014)   | 9.9  | **Critical** |
+| pgAdmin for PostgreSQL | < 8.12     | [CVE-2024-9014](https://nvd.nist.gov/vuln/detail/CVE-2024-9014)   | 9.9  | **Critical** |
 | sqlLite                | \<= 0.1.1  | [CVE-2024-46488](https://nvd.nist.gov/vuln/detail/CVE-2024-46488) | 9.1  | **Critical** |
 
 ## What has been observed?

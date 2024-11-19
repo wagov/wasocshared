@@ -9,7 +9,7 @@ The Product Security Incident Response Team (PSIRT) drives Adobe's vulnerability
 Review the latest information about available product updates as well as guidance on security issues reported about Adobe products.
 
 - Security updates available for Adobe Experience Manager [APSB23-31](https://helpx.adobe.com/au/security/products/experience-manager/apsb23-31.html "Security updates available for Adobe Experience Manager | APSB23-31")
-- Security   update  available  for  Adobe Commerce [APSB23-35](https://helpx.adobe.com/au/security/products/magento/apsb23-35.html "Security update available for Adobe Commerce | APSB23-35")
+- Security  update  available  for  Adobe Commerce [APSB23-35](https://helpx.adobe.com/au/security/products/magento/apsb23-35.html "Security update available for Adobe Commerce | APSB23-35")
 - Security updates available for Adobe Animate [APSB23-36](https://helpx.adobe.com/au/security/products/animate/apsb23-36.html "Security update available for Adobe Commerce | APSB23-36")
 - Security updates available for Substance 3D Designer [APSB23-39](https://helpx.adobe.com/au/security/products/substance3d_designer/apsb23-39.html "Security update available for Adobe Commerce | APSB23-39")
 
