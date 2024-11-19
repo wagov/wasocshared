@@ -1,4 +1,4 @@
-# CISA Industrial Control Systems Advisories, May 23 -  20230524001
+# CISA Industrial Control Systems Advisories, May 23 - 20230524001
 
 ## Overview
 

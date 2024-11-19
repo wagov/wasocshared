@@ -1,4 +1,4 @@
-# Microsoft's September 2023 Patch Tuesday and fixes for two zero-day exploits  - 20230913001
+# Microsoft's September 2023 Patch Tuesday and fixes for two zero-day exploits - 20230913001
 
 ## Overview
 

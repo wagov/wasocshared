@@ -1,4 +1,4 @@
-# Juniper Junos OS  EX /  SRX vulnerabilities - 20231114002
+# Juniper Junos OS EX / SRX vulnerabilities - 20231114002
 
 ## Overview
 

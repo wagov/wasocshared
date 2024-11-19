@@ -6,9 +6,9 @@ Juniper Networks released a security bulletin to address multiple vulnerabilitie
 
 ## What is vulnerable?
 
-| Product(s) Affected                                                                                                                                                                                                                                                                          | Severity     | CVSS |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---- |
-| Juniper Secure Analytics (JSA) Applications <br />- Log Collector **versions before** v1.8.4 <br />- SOAR Plugin App **versions before** 5.3.1  <br />- Deployment Intelligence App **versions before** 3.0.12 <br />- User Behavior Analytics Application add-on **versions before** 4.1.14 | **Critical** | 9.1  |
+| Product(s) Affected                                                                                                                                                                                                                                                                         | Severity     | CVSS |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---- |
+| Juniper Secure Analytics (JSA) Applications <br />- Log Collector **versions before** v1.8.4 <br />- SOAR Plugin App **versions before** 5.3.1 <br />- Deployment Intelligence App **versions before** 3.0.12 <br />- User Behavior Analytics Application add-on **versions before** 4.1.14 | **Critical** | 9.1  |
 
 ## What has been observed?
 

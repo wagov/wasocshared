@@ -4,7 +4,7 @@
 
 This Alert is relevant to organisations who deploy and maintain configurations for Citrix appliances to facilitate remote access for their users. The Alert is intended to be understood by slightly more technical users who maintain systems – there is no action for the end users to take.
 
-The Australian Cyber Security Centre (ACSC) is aware of a critical vulnerability affecting many versions of Citrix Gateway and ADC.  Citrix ADC are widely used by organisations to provide remote desktop services to remote users, including allowing users to work from home.
+The Australian Cyber Security Centre (ACSC) is aware of a critical vulnerability affecting many versions of Citrix Gateway and ADC. Citrix ADC are widely used by organisations to provide remote desktop services to remote users, including allowing users to work from home.
 
 ## What is the vulnerability ?
 

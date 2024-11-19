@@ -39,7 +39,7 @@ The listed mitigations are ordered by MITRE ATT&CK tactic. Mitigations that appl
 
 ### Recommended Remediation Steps
 
-\[Specific to type of infection\] - Example from Agent Tesla:
+[Specific to type of infection] - Example from Agent Tesla:
 
 1. Delete Registry Key entries and folder paths
 1. Run a full Antivirus scan on the compromised device

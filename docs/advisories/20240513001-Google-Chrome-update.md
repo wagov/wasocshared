@@ -9,7 +9,7 @@ Google has issued an urgent security update for its Chrome web browser, respondi
 | CVE           | Severity |     | Product(s) Affected                                                                                 | Summary                                                                                                                                      | Dated       |
 | ------------- | -------- | --- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | Google Chrome | **High** |     | **versions before** Chrome 120.0.6099.234 (Linux) 120.0.6099.224 (Mac) 120.0.6099.224/225 (Windows) | Out of bounds memory access in V8 in Google Chrome allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. | 16 Jan 2024 |
-| Google Chrome | **High** |     | **versions before** Chrome 125.0.6422.60 (Linux)  125.0.6422.60/.61( Windows, Mac)                  | Type Confusion in V8 in Google Chrome allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.          | 15 May 2024 |
+| Google Chrome | **High** |     | **versions before** Chrome 125.0.6422.60 (Linux) 125.0.6422.60/.61( Windows, Mac)                   | Type Confusion in V8 in Google Chrome allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.          | 15 May 2024 |
 
 ## What has been observed?
 

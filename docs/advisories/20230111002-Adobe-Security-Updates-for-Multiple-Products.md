@@ -8,7 +8,7 @@ Adobe has released their latest [product security updates](https://helpx.adobe.c
 
 The vulnerabilities affects the following products:
 
-- **Adobe Acrobat and Reader:**  [Security update available for Adobe Acrobat and Reader | **APSB23-01**](https://helpx.adobe.com/security/products/acrobat/apsb23-01.html)
+- **Adobe Acrobat and Reader:** [Security update available for Adobe Acrobat and Reader | **APSB23-01**](https://helpx.adobe.com/security/products/acrobat/apsb23-01.html)
 - **Adobe InDesign:** [Security update available for Adobe InDesign | **APSB23-07**](https://helpx.adobe.com/security/products/indesign/apsb23-07.html)
 - **Adobe InCopy:** [Security update available for Adobe InCopy | **APSB23-08**](https://helpx.adobe.com/security/products/incopy/apsb23-08.html)
 - **Adobe Dimension:** [Security update available for Adobe Dimension | **APSB23-10**](https://helpx.adobe.com/security/products/dimension/apsb23-10.html)

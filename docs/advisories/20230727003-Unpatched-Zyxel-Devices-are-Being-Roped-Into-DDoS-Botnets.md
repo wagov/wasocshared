@@ -12,15 +12,15 @@ This vulnerability is characterized by a command injection flaw affecting multip
 
 ## Exploitation and Propagation
 
-The attacks commonly utilise download of files tailored for MIPS architecture. In the analysis done by Fortinet, they have identified that the scripts downloads a file named "lolmips" from the IP address 92\[.\]118\[.\]39\[.\]16 and saves it with a ".zw" extension, after which it executes with the "zywall" parameter, indicating its connection to the Zyxel firewall vulnerability.
+The attacks commonly utilise download of files tailored for MIPS architecture. In the analysis done by Fortinet, they have identified that the scripts downloads a file named "lolmips" from the IP address 92[.]118[.]39[.]16 and saves it with a ".zw" extension, after which it executes with the "zywall" parameter, indicating its connection to the Zyxel firewall vulnerability.
 
 The attacks usually seen originating from the following IP addresses:
 
-- 193\[.\]32\[.\]162\[.\]190
-- 109\[.\]205\[.\]213\[.\]30
-- 109\[.\]207\[.\]200\[.\]42
-- 109\[.\]207\[.\]200\[.\]47
-- 109\[.\]207\[.\]200\[.\]44
+- 193[.]32[.]162[.]190
+- 109[.]205[.]213[.]30
+- 109[.]207[.]200[.]42
+- 109[.]207[.]200[.]47
+- 109[.]207[.]200[.]44
 
 These attacks specifically target the command injection vulnerability in the Internet Key Exchange (IKE) packet transmitted over UDP on Zyxel devices. The attackers utilize tools such as curl or wget to download scripts for further actions. Below, you can find the corresponding traffic capture illustrating these activities.
 
@@ -28,16 +28,16 @@ In depth analysis of this exploit can be found in the article [DDoS Botnets Targ
 
 ## C2 Servers
 
-- raw\[.\]pastebin\[.\]com
-- hoz\[.\]1337\[.\]cx
-- babaroga\[.\]lib
-- dragon\[.\]lib
-- blacknurse\[.\]lib
-- tempest\[.\]lib
-- routercontroller\[.\]geek
-- dvrcontroller\[.\]libre
+- raw[.]pastebin[.]com
+- hoz[.]1337[.]cx
+- babaroga[.]lib
+- dragon[.]lib
+- blacknurse[.]lib
+- tempest[.]lib
+- routercontroller[.]geek
+- dvrcontroller[.]libre
 
-Dark.IoT utilizes the OpenNIC server with the IP address "147\[.\]182\[.\]243\[.\]49" for DNS resolution and establishes communication with the C2 servers.
+Dark.IoT utilizes the OpenNIC server with the IP address "147[.]182[.]243[.]49" for DNS resolution and establishes communication with the C2 servers.
 
 A comprehensive technical analysis of the Botnet activity can be found [here](https://www.fortinet.com/blog/threat-research/ddos-botnets-target-zyxel-vulnerability-cve-2023-28771).
 

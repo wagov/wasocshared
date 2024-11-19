@@ -1,4 +1,4 @@
-# CISA Issues Emergency Directive on Ivanti Vulnerabilities  - 20240122002
+# CISA Issues Emergency Directive on Ivanti Vulnerabilities - 20240122002
 
 ## Overview
 

@@ -10,7 +10,7 @@ Successful exploitation could lead to security feature bypass, arbitrary code ex
 
 There is a number of vulnerabilities for each product. Please review each product's security bulletin for details.
 
-- [Security update available for Adobe Acrobat and Reader  | APSB23-30](https://helpx.adobe.com/security/products/acrobat/apsb23-30.html)
+- [Security update available for Adobe Acrobat and Reader | APSB23-30](https://helpx.adobe.com/security/products/acrobat/apsb23-30.html)
 - [Security update available for Adobe Commerce | APSB23-42
     ](https://helpx.adobe.com/security/products/magento/apsb23-42.html)
 - [Security updates available for Dimension | APSB23-44](https://helpx.adobe.com/security/products/dimension/apsb23-44.html)
@@ -35,7 +35,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within the expected timeframes recommended in the [Patch Management](../guidelines/patch-management.md) guidelines:
 
-- [Security update available for Adobe Acrobat and Reader  | APSB23-30](https://helpx.adobe.com/security/products/acrobat/apsb23-30.html)
+- [Security update available for Adobe Acrobat and Reader | APSB23-30](https://helpx.adobe.com/security/products/acrobat/apsb23-30.html)
 - [Security update available for Adobe Commerce | APSB23-42
     ](https://helpx.adobe.com/security/products/magento/apsb23-42.html)
 - [Security updates available for Dimension | APSB23-44](https://helpx.adobe.com/security/products/dimension/apsb23-44.html)

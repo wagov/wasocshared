@@ -12,7 +12,7 @@ Multiple vulnerabilities have been discovered in Google Chrome, which could allo
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe  (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe (refer [Patch Management](../guidelines/patch-management.md)):
 
 - [Chrome Releases](https://chromereleases.googleblog.com/2024/04/stable-channel-update-for-desktop_16.html)
 

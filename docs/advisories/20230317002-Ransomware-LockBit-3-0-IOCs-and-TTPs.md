@@ -1,4 +1,4 @@
-# Ransomware - LockBit 3.0  IOC's and TTP's - 20230317002
+# Ransomware - LockBit 3.0 IOC's and TTP's - 20230317002
 
 ## Overview
 

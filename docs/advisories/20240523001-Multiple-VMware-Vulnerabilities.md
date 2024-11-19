@@ -1,4 +1,4 @@
-# Broadcom Security Advisory Addresses Multiple VMware Vulnerabilities  - 20240523001
+# Broadcom Security Advisory Addresses Multiple VMware Vulnerabilities - 20240523001
 
 ## Overview
 
