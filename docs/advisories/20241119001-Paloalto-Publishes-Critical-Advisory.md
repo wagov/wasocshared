@@ -6,9 +6,9 @@ The WA SOC has been made aware of a privilege escalation vulnerability in Palo A
 
 ## What is vulnerable?
 
-| Product(s) Affected            | Version(s)                                                                                                                    | CVE                                                               | CVSS | Severity     |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
-| Palo Alto Networks PAN-OS | \< 11.2.4-h1 <br> \< 11.1.5-h1 <br> \< 11.0.6-h1 <br> \< 10.2.12-h2 <br>  |[CVE-2024-0012](https://nvd.nist.gov/vuln/detail/CVE-2024-0012) | 9.3  | **Critical** |
+| Product(s) Affected       | Version(s)                                                           | CVE                                                             | CVSS | Severity     |
+| ------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------- | ---- | ------------ |
+| Palo Alto Networks PAN-OS | < 11.2.4-h1 <br> < 11.1.5-h1 <br> < 11.0.6-h1 <br> < 10.2.12-h2 <br> | [CVE-2024-0012](https://nvd.nist.gov/vuln/detail/CVE-2024-0012) | 9.3  | **Critical** |
 
 ## What has been observed?
 
