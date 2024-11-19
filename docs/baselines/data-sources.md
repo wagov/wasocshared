@@ -6,7 +6,7 @@ This document and associated checklist is intended to be used as a high-level se
 
 ## 1. Shared Responsibility Model
 
-For service providers see [Supply Chain Risk Management](../guidelines/supply-chain-risk-mgmt.md) (vendors should report detection coverage monthly and incidents within 24 hours). Otherwise ensure the [Security Operations](../baselines/security-operations.md) team is resourced to collect the below telemetry and manage detection, triage and response activities over them based on the organisations risk profile.
+For service providers see Supply Chain Risk Management(vendors should report detection coverage monthly and incidents within 24 hours). Otherwise ensure the [Security Operations](../baselines/security-operations.md) team is resourced to collect the below telemetry and manage detection, triage and response activities over them based on the organisations risk profile.
 
 ## 2. Data Sources
 
