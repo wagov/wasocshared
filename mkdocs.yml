@@ -86,7 +86,6 @@ nav:
   - Vulnerability Management: baselines/vulnerability-management.md
 - Guidelines:
   - Incident Reporting: guidelines/incident-reporting.md
-  - Vendor Management: guidelines/supply-chain-risk-mgmt.md
   - Network Management: guidelines/network-management.md
   - Patch Management: guidelines/patch-management.md
   - Configuration Assessment: guidelines/secure-configuration.md
