@@ -30,7 +30,7 @@ Based on these data sources telemetry sensor deployment can be prioritised as fo
 
 ### 2.2 XDR (Detection and Response) platforms
 
-XDR platforms are regularly [evaluated by MITRE Engenuity (ref: Turla (2023))](https://attackevals.mitre-engenuity.org/results/enterprise?vendor=microsoft&vendor=crowdstrike&vendor=trendmicro&evaluation=turla&scenario=2). Please carefully consider [Supply Chain Risk](../guidelines/supply-chain-risk-mgmt.md) when selecting such platforms - constrain to independently assessed platforms hosted in Australia, such as [Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/eval-overview?view=o365-worldwide) or [Trend Vision One](https://www.trendmicro.com/en_au/business/technologies/regional-data-centers.html).
+XDR platforms are regularly [evaluated by MITRE Engenuity (ref: Turla (2023))](https://attackevals.mitre-engenuity.org/results/enterprise?vendor=microsoft&vendor=crowdstrike&vendor=trendmicro&evaluation=turla&scenario=2). Please carefully consider Supply Chain Risk when selecting such platforms - constrain to independently assessed platforms hosted in Australia, such as [Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/eval-overview?view=o365-worldwide) or [Trend Vision One](https://www.trendmicro.com/en_au/business/technologies/regional-data-centers.html).
 
 ![mitre eval summary](../images/mitre-edr-eval.png)
 
