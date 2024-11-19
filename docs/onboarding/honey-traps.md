@@ -10,7 +10,7 @@ The WASOC is looking to expand the monitoring capability of Western Australian G
 
 Honey Pots and Honey Tokens are similar but decoy ICT services or data repositories that replicate the real ICT environment of organisations. These decoys are enticing targets for threat actors to attack and exploit. Once the actor has attacked the target, the Honey Pot or Honey Token will raise an alert due to unauthorised malipulation, thus allowing security teams to detect for broader threats to an entities ICT environments.
 
-??? note "Pilot Participants Prerequisite" 
+??? note "Pilot Participants Prerequisite"
     The pilot has prerequisites that must be met to have the minimum technical & commitment requirements to onboard to the Honey Trap Program.
 
     The prerequisites as follows.
