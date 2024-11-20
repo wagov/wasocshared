@@ -6,9 +6,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor                                 | 
-| -------------------------------------- | 
-| Mitsubishi Electric MELSEC iQ-F Series | 
+| Vendor                                 |
+| -------------------------------------- |
+| Mitsubishi Electric MELSEC iQ-F Series |
 
 ## Recommendation
 
