@@ -12,7 +12,7 @@ Apple released emergency security updates to fix two zero-day vulnerabilities th
 
 ## What has been observed?
 
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+Apple is aware of active exploitation of the mentioned vulnerabilities. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
 
