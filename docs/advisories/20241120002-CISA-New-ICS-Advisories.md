@@ -6,12 +6,12 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor                                 | Advisory                                                               |
-| -------------------------------------- | ---------------------------------------------------------------------- |
-| Mitsubishi Electric MELSEC iQ-F Series | [ICSA](https://www.cisa.gov/news-events/ics-advisories/icsa-24-324-01) |
+| Vendor                                 | 
+| -------------------------------------- | 
+| Mitsubishi Electric MELSEC iQ-F Series | 
 
 ## Recommendation
 
 The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
 
-- [CISA Advisory 19-11-2024](https://www.cisa.gov/news-events/alerts/2024/11/19/cisa-releases-one-industrial-control-systems-advisory)
+- CISA Advisory 19-11-2024: <https://www.cisa.gov/news-events/alerts/2024/11/19/cisa-releases-one-industrial-control-systems-advisory>
