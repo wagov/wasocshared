@@ -6,9 +6,9 @@ Apple released emergency security updates to fix two zero-day vulnerabilities th
 
 ## What is vulnerable?
 
-| Product(s) Affected            | Version(s)                                                                                                                    | CVE                                                               | CVSS | Severity     |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
-| MacOS Sequoia  <br> Safari <br> iOS<br> iPadOS  | MacOS Sequoia < 15.1.1 <br> Safari < 18.1.1 <br> iOS 18 < 18.1.1 <br> iOS 17 < 17.7.2 <br> iPadOS 18 < 18.1.1 <br> iPadOS 17 < 17.7.2 | [CVE-2024-44308](https://nvd.nist.gov/vuln/detail/CVE-2024-44308) <br> [CVE-2024-44309](https://nvd.nist.gov/vuln/detail/CVE-2024-44309)| TBD <br> TBD | TBD <br> TBD |
+| Product(s) Affected                           | Version(s)                                                                                                                            | CVE                                                                                                                                      | CVSS         | Severity     |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------ |
+| MacOS Sequoia <br> Safari <br> iOS<br> iPadOS | MacOS Sequoia < 15.1.1 <br> Safari < 18.1.1 <br> iOS 18 < 18.1.1 <br> iOS 17 < 17.7.2 <br> iPadOS 18 < 18.1.1 <br> iPadOS 17 < 17.7.2 | [CVE-2024-44308](https://nvd.nist.gov/vuln/detail/CVE-2024-44308) <br> [CVE-2024-44309](https://nvd.nist.gov/vuln/detail/CVE-2024-44309) | TBD <br> TBD | TBD <br> TBD |
 
 ## What has been observed?
 
