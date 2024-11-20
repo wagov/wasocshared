@@ -1,4 +1,4 @@
-# Mirai Variant Targeting Multiple IoT Devices  - 20230531001
+# Mirai Variant Targeting Multiple IoT Devices - 20230531001
 
 ## Overview
 

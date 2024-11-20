@@ -38,10 +38,10 @@ Please be advised of the following observed IOCs for detection in your environme
 
 Note the below domains have not been defanged, please exercise caution when utilizing.
 
-- k-reform\[.\]jp/forum\[.\]php
-- lottolong\[.\]com/blog\[.\]php
-- messagesmusicaux\[.\]com/search\[.\]php
-- sicherheitsingenieure-huber\[.\]de/content\[.\]php
+- k-reform[.]jp/forum[.]php
+- lottolong[.]com/blog[.]php
+- messagesmusicaux[.]com/search[.]php
+- sicherheitsingenieure-huber[.]de/content[.]php
 
 Kusto query 1
 //based on regex of filenames being downloaded.

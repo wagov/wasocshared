@@ -2,7 +2,7 @@
 
 ## Overview
 
-Citrix have released a security advisory for CVE-2023-6548 affecting  NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway).
+Citrix have released a security advisory for CVE-2023-6548 affecting NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway).
 
 ## What is the vulnerability?
 

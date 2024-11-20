@@ -23,7 +23,7 @@ Sign in to the [Azure portal](https://portal.azure.com).
 
 1. Enter *virtual machines* in the search.
 1. Under **Services**, select **Virtual machines**.
-1. In the **Virtual machines** page, select **Create** and then **Virtual machine**.  The **Create a virtual machine** page opens.
+1. In the **Virtual machines** page, select **Create** and then **Virtual machine**. The **Create a virtual machine** page opens.
 1. In the **Basics** tab, under **Project details**, make sure the correct subscription is selected and then choose to **Create new** resource group. Enter *myResourceGroup* for the name.\*.
     Image TODO
 1. Under **Instance details**, enter *myVM-name* for the **Virtual machine name**, and choose *Standard_B1ls* for your **Image**. Size availability and pricing are dependent on your region and subscription. Leave the other defaults.
@@ -116,7 +116,7 @@ Basic security hardening is accepatable for testing but is not recommended alone
     1. Under **Diagnostics settings**, enter, or select the following information, and then select **Save**:
         | Setting                                                                                     | Value                                                                                                                                                                                                                      |
         | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-        | Name                                                                                        | A name of your choosing.  For example: *myNsgDiagnostics*                                                                                                                                                                  |
+        | Name                                                                                        | A name of your choosing. For example: *myNsgDiagnostics*                                                                                                                                                                   |
         | **Archive to a storage account**, **Stream to an event hub**, and **Send to Log Analytics** | You can select as many destinations as you choose. To learn more about each, see [Log destinations](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-nsg-manage-log#log-destinations).              |
         | LOG                                                                                         | Select either, or both log categories. To learn more about the data logged for each category, see [Log categories](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-nsg-manage-log#log-categories). |
 1. View and analyze logs. For more information, see [Query logs in Microsoft Sentinel](https://docs.microsoft.com/en-us/learn/modules/query-logs-azure-sentinel/).
@@ -265,7 +265,7 @@ Deploy the firewall into the VNet.
     | Firewall tier            | **Standard**                                             |
     | Firewall management      | **Use Firewall rules (classic) to manage this firewall** |
     | Choose a virtual network | **Use existing**: **Test-FW-VN**                         |
-    | Public IP address        | **Add new**<br>**Name**:  **fw-pip**                     |
+    | Public IP address        | **Add new**<br>**Name**: **fw-pip**                      |
 
 1. Accept the other default values, then select **Review + create**.
 

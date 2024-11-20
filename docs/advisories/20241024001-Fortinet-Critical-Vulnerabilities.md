@@ -8,10 +8,10 @@ The WA SOC has been made aware of a critical vulnerability in Fortinet FortiMana
 
 ## What is vulnerable?
 
-| Product(s) Affected | Affected Version(s)                                                                                  | CVE                                                               | CVSS | Severity |
-| ------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| FortiManager        | 7.6 - 7.6.0 <br> 7.4 - 7.4.4 <br> 7.2 - 7.2.7  <br> 7.0 - 7.0.12 <br> 6.4 - 6.4.14 <br> 6.2 - 6.2.12 | [CVE-2024-47575](https://nvd.nist.gov/vuln/detail/CVE-2024-47575) | 9.8  | Critical |
-| Fortimanager Cloud  | 7.4.1 - 7.4.4 <br> 7.2.1 - 7.2.7 <br> 7.0.1 - 7.0.12  <br> all versions 6.4.x                        | [CVE-2024-47575](https://nvd.nist.gov/vuln/detail/CVE-2024-47575) | 9.8  | Critical |
+| Product(s) Affected | Affected Version(s)                                                                                 | CVE                                                               | CVSS | Severity |
+| ------------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| FortiManager        | 7.6 - 7.6.0 <br> 7.4 - 7.4.4 <br> 7.2 - 7.2.7 <br> 7.0 - 7.0.12 <br> 6.4 - 6.4.14 <br> 6.2 - 6.2.12 | [CVE-2024-47575](https://nvd.nist.gov/vuln/detail/CVE-2024-47575) | 9.8  | Critical |
+| Fortimanager Cloud  | 7.4.1 - 7.4.4 <br> 7.2.1 - 7.2.7 <br> 7.0.1 - 7.0.12 <br> all versions 6.4.x                        | [CVE-2024-47575](https://nvd.nist.gov/vuln/detail/CVE-2024-47575) | 9.8  | Critical |
 
 ## What has been observed?
 

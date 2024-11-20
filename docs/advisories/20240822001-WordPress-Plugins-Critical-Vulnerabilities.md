@@ -8,8 +8,8 @@ The WA SOC has been made aware of vulnerabilities present within versions of the
 
 | Product(s) Affected                                        | Version(s) | CVE                                                               | CVSS | Severity |
 | ---------------------------------------------------------- | ---------- | ----------------------------------------------------------------- | ---- | -------- |
-| Plugin “GiveWP – Donation Plugin and Fundraising Platform” | \< 3.14.2  | [CVE-2024-5932](https://nvd.nist.gov/vuln/detail/cve-2024-5932)   | 10   | Critical |
-| Plugin “LiteSpeed Cache”                                   | \< 6.4     | [CVE-2024-28000](https://nvd.nist.gov/vuln/detail/CVE-2024-28000) | 9.8  | Critical |
+| Plugin “GiveWP – Donation Plugin and Fundraising Platform” | < 3.14.2   | [CVE-2024-5932](https://nvd.nist.gov/vuln/detail/cve-2024-5932)   | 10   | Critical |
+| Plugin “LiteSpeed Cache”                                   | < 6.4      | [CVE-2024-28000](https://nvd.nist.gov/vuln/detail/CVE-2024-28000) | 9.8  | Critical |
 
 ## What has been observed?
 

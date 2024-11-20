@@ -6,7 +6,7 @@ Fortinet released security updates to address vulnerabilities in multiple Fortin
 
 ## What is vulnerable?
 
-**FortiClientEMS - CSV injection in log download feature - CVSSv3 Score	8.7**
+**FortiClientEMS - CSV injection in log download feature - CVSSv3 Score 8.7**
 
 | Product                                                                                                                                               | CVSSv3 Score | Severity     |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------ |

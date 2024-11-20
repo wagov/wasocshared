@@ -2,7 +2,7 @@
 
 ## Overview
 
-A heap-based buffer overflow vulnerability \[CWE-122\] in FortiOS and FortiProxy SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.
+A heap-based buffer overflow vulnerability [CWE-122] in FortiOS and FortiProxy SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.
 
 ## What is the vulnerability?
 
