@@ -62,4 +62,4 @@ Atlassian recommends that Confluence Server customers upgrade to the latest vers
 
 - [CVE-2024-21683: Atlassian Patches RCE Flaw in Confluence Data Center and Server (securityonline.info)](https://securityonline.info/cve-2024-21683-atlassian-patches-rce-flaw-in-confluence-data-center-and-server/)
 - [Confluence Remote Code Execution Vulnerability (CVE-2024-21683) Notification - NSFOCUS, Inc., a global network and cyber security leader, protects enterprises and carriers from advanced cyber attacks. (nsfocusglobal.com)](https://nsfocusglobal.com/confluence-remote-code-execution-vulnerability-cve-2024-21683-notification/)
-- [\[CONFSERVER-95832\] RCE (Remote Code Execution) in Confluence Data Center and Server - Create and track feature requests for Atlassian products.](https://jira.atlassian.com/browse/CONFSERVER-95832)
+- [[CONFSERVER-95832] RCE (Remote Code Execution) in Confluence Data Center and Server - Create and track feature requests for Atlassian products.](https://jira.atlassian.com/browse/CONFSERVER-95832)

@@ -47,8 +47,8 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - **NetScaler ADC and NetScaler Gateway**:
 
-    - NetScaler ADC and NetScaler Gateway 14.1-8.50  and later releases
-    - NetScaler ADC and NetScaler Gateway  13.1-49.15  and later releases of 13.1
+    - NetScaler ADC and NetScaler Gateway 14.1-8.50 and later releases
+    - NetScaler ADC and NetScaler Gateway  13.1-49.15 and later releases of 13.1
     - NetScaler ADC and NetScaler Gateway 13.0-92.19 and later releases of 13.0
     - NetScaler ADC 13.1-FIPS 13.1-37.164 and later releases of 13.1-FIPS
     - NetScaler ADC 12.1-FIPS 12.1-55.300 and later releases of 12.1-FIPS

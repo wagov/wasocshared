@@ -6,7 +6,7 @@ This document and associated checklist is intended to be used as a high-level se
 
 ## 1. Shared Responsibility Model
 
-For service providers see [Supply Chain Risk Management](../guidelines/supply-chain-risk-mgmt.md) (vendors should report detection coverage monthly and incidents within 24 hours). Otherwise ensure the [Security Operations](../baselines/security-operations.md) team is resourced to collect the below telemetry and manage detection, triage and response activities over them based on the organisations risk profile.
+For service providers see Supply Chain Risk Management(vendors should report detection coverage monthly and incidents within 24 hours). Otherwise ensure the [Security Operations](../baselines/security-operations.md) team is resourced to collect the below telemetry and manage detection, triage and response activities over them based on the organisations risk profile.
 
 ## 2. Data Sources
 
@@ -30,7 +30,7 @@ Based on these data sources telemetry sensor deployment can be prioritised as fo
 
 ### 2.2 XDR (Detection and Response) platforms
 
-XDR platforms are regularly [evaluated by MITRE Engenuity (ref:  Turla (2023))](https://attackevals.mitre-engenuity.org/results/enterprise?vendor=microsoft&vendor=crowdstrike&vendor=trendmicro&evaluation=turla&scenario=2). Please carefully consider [Supply Chain Risk](../guidelines/supply-chain-risk-mgmt.md) when selecting such platforms - constrain to independently assessed platforms hosted in Australia, such as [Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/eval-overview?view=o365-worldwide) or [Trend Vision One](https://www.trendmicro.com/en_au/business/technologies/regional-data-centers.html).
+XDR platforms are regularly [evaluated by MITRE Engenuity (ref: Turla (2023))](https://attackevals.mitre-engenuity.org/results/enterprise?vendor=microsoft&vendor=crowdstrike&vendor=trendmicro&evaluation=turla&scenario=2). Please carefully consider Supply Chain Risk when selecting such platforms - constrain to independently assessed platforms hosted in Australia, such as [Microsoft Defender XDR](https://learn.microsoft.com/en-us/microsoft-365/security/defender/eval-overview?view=o365-worldwide) or [Trend Vision One](https://www.trendmicro.com/en_au/business/technologies/regional-data-centers.html).
 
 ![mitre eval summary](../images/mitre-edr-eval.png)
 
@@ -149,26 +149,26 @@ The following kql queries will provide number of endpoints with [Command Line lo
 
 #### Techniques: [Microsoft Defender for Endpoint | Microsoft Security](https://www.microsoft.com/en-au/security/business/endpoint-security/microsoft-defender-endpoint?rtc=1)
 
-| Log type                                                  | KQL                                                                                                                                                   |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Process creation and related events                       | DeviceProcessEvents   \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                        |
-| Network connection and related events                     | DeviceNetworkEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                          |
-| Parent Process                                            | DeviceProcessEvents   \| where TimeGenerated > ago(7d) \| where isnotempty(InitiatingProcessParentFileName)   \| summarize count_distinct(DeviceName) |
-| Named Pipes                                               | DeviceEvents \|   where ActionType == "NamedPipeEvent" \| where TimeGenerated >  ago(7d) \| summarize count_distinct(DeviceName)                      |
-| File creation, modification, and other file system events | DeviceFileEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                             |
-| Creation and modification of registry entries             | DeviceRegistryEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                         |
-| DLL loading events                                        | DeviceImageLoadEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                        |
+| Log type                                                  | KQL                                                                                                                                               |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Process creation and related events                       | DeviceProcessEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                      |
+| Network connection and related events                     | DeviceNetworkEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                      |
+| Parent Process                                            | DeviceProcessEvents \| where TimeGenerated > ago(7d) \| where isnotempty(InitiatingProcessParentFileName) \| summarize count_distinct(DeviceName) |
+| Named Pipes                                               | DeviceEvents \| where ActionType == "NamedPipeEvent" \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                     |
+| File creation, modification, and other file system events | DeviceFileEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                         |
+| Creation and modification of registry entries             | DeviceRegistryEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                     |
+| DLL loading events                                        | DeviceImageLoadEvents \| where TimeGenerated > ago(7d) \| summarize count_distinct(DeviceName)                                                    |
 
 ### 6.5 Microsoft Defender Office 365 Logs Monitoring
 
 [Connect Microsoft 365 Defender to Micrososft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender?tabs=MDO)
 
-| Log type                   | KQL                                                                                              |
-| -------------------------- | ------------------------------------------------------------------------------------------------ |
-| Email Events               | EmailEvents \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)              |
-| Email Attachment Info      | EmailAttachmentInfo \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)      |
-| Email Url Info             | EmailUrlInfo \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated)            |
-| Email Post Delivery Events | EmailPostDeliveryEvents \| where TimeGenerated > ago(7d) \| summarize  Time = max(TimeGenerated) |
+| Log type                   | KQL                                                                                             |
+| -------------------------- | ----------------------------------------------------------------------------------------------- |
+| Email Events               | EmailEvents \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)             |
+| Email Attachment Info      | EmailAttachmentInfo \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)     |
+| Email Url Info             | EmailUrlInfo \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated)            |
+| Email Post Delivery Events | EmailPostDeliveryEvents \| where TimeGenerated > ago(7d) \| summarize Time = max(TimeGenerated) |
 
 ### 6.6 Important activities
 

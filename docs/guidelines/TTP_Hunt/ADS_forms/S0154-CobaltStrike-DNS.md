@@ -7,10 +7,10 @@ The query tries to detect suspicious DNS queries known from Cobalt Strike beacon
 
 **Example:**
 
-> aaa.stage.\[encryptedstage\].MaliciousDomain.com <br>
-> baa.stage.\[encryptedstage\].MaliciousDomain.com <br>
-> caa.stage.\[encryptedstage\].MaliciousDomain.com <br>
-> post.\[EncryptedData\].\[RandomValue\].MaliciousDomain.com <br>
+> aaa.stage.[encryptedstage].MaliciousDomain.com <br>
+> baa.stage.[encryptedstage].MaliciousDomain.com <br>
+> caa.stage.[encryptedstage].MaliciousDomain.com <br>
+> post.[EncryptedData].[RandomValue].MaliciousDomain.com <br>
 
 **Related**
 

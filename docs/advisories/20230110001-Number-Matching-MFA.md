@@ -2,7 +2,7 @@
 
 ## Overview
 
-Cyber threat actors who have obtained a user's password know they can enter it into an identity platform that uses mobile push-notification-based MFA to generate hundreds of prompts on the user's device over a short period of time.  This activity understandably annoys the user, who may---accidentally or from MFA fatigue--- press accept to stop the prompts. Alternatively, the prompts may confuse the user, who may assume one of the requests is legitimate and approve. As a result of any of these possible scenarios, the user unknowingly grants the cyber threat actor access to their account.
+Cyber threat actors who have obtained a user's password know they can enter it into an identity platform that uses mobile push-notification-based MFA to generate hundreds of prompts on the user's device over a short period of time. This activity understandably annoys the user, who may---accidentally or from MFA fatigue--- press accept to stop the prompts. Alternatively, the prompts may confuse the user, who may assume one of the requests is legitimate and approve. As a result of any of these possible scenarios, the user unknowingly grants the cyber threat actor access to their account.
 
 MFA is an essential practice to reduce the threat of cyber threat actors using compromised credentials to gain access to and conduct malicious activity on networks. However, not all forms of MFA are equally secure. Some forms are vulnerable to:
 
@@ -19,7 +19,7 @@ These attacks, if successful, may allow a threat actor to gain access to MFA aut
 
 if an organization that uses mobile push-notification-based MFA is unable to implement phishing-resistant MFA, CISA recommends enabling "number matching" on MFA configurations to prevent MFA fatigue.
 
-Number matching is a setting that forces the user to enter numbers from the identity platform into their app to approve the authentication request.  Figures 3 and 4 provide the user's view of an identity platform login screen that uses number matching.
+Number matching is a setting that forces the user to enter numbers from the identity platform into their app to approve the authentication request. Figures 3 and 4 provide the user's view of an identity platform login screen that uses number matching.
 
 ![](../images/2023-01-10_11-33%20MFA.png)
 

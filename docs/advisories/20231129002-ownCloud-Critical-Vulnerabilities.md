@@ -1,4 +1,4 @@
-# Several Critical Vulnerabilities associated with ownCloud  - 20231129002
+# Several Critical Vulnerabilities associated with ownCloud - 20231129002
 
 ## Overview
 
@@ -15,7 +15,7 @@ ownCloud has released security advisories and patches for 3 critical vulnerabili
 The vulnerability affects the following products:
 
 - [**graphapi v0.2.0 -- v0.3.0**](https://owncloud.com/security-advisories/disclosure-of-sensitive-credentials-and-configuration-in-containerized-deployments)
-- [**oauth2 \< v0.6.1**](https://owncloud.com/security-advisories/subdomain-validation-bypass)
+- [**oauth2 < v0.6.1**](https://owncloud.com/security-advisories/subdomain-validation-bypass)
 - [**Core v10.6.0 -- v10.13.1**](https://owncloud.com/security-advisories/webdav-api-authentication-bypass-using-pre-signed-urls)
 
 ## What has been observed?

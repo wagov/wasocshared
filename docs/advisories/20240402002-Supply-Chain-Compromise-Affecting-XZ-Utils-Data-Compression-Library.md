@@ -6,9 +6,9 @@ Red Hat Linux has released security advisories to address malicious code discove
 
 ## What is vulnerable?
 
-| CVE                                                             | Severity     | CVSS | Product(s) Affected                 |
-| --------------------------------------------------------------- | ------------ | ---- | ----------------------------------- |
-| [CVE-2024-3094](https://nvd.nist.gov/vuln/detail/CVE-2024-3094) | **Critical** | 10.0 | **xz**  All versions starting 5.6.0 |
+| CVE                                                             | Severity     | CVSS | Product(s) Affected                |
+| --------------------------------------------------------------- | ------------ | ---- | ---------------------------------- |
+| [CVE-2024-3094](https://nvd.nist.gov/vuln/detail/CVE-2024-3094) | **Critical** | 10.0 | **xz** All versions starting 5.6.0 |
 
 ## What has been observed?
 

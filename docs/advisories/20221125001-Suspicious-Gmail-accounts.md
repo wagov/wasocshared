@@ -26,8 +26,8 @@ The following tactics, techniques and procedures have been observed by Victorian
 
 The following IOCs have been observed by Victorian Government:
 
-- www\[.\]tpsgc-pwgsc\[.\]gc\[.\]ca
-- sydneylivingmuseums\[.\]com\[.\]au
+- www[.]tpsgc-pwgsc[.]gc[.]ca
+- sydneylivingmuseums[.]com[.]au
 
 **Assessment**
 
@@ -35,7 +35,7 @@ While investigations into this particular campaign are still underway, it is ass
 
 ## What has been observed ?
 
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.  However, Victorian Government organisations have recently been recipients of suspicious emails with similar characteristics described above.
+There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing. However, Victorian Government organisations have recently been recipients of suspicious emails with similar characteristics described above.
 
 ## Recommendation
 

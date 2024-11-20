@@ -4,7 +4,7 @@
 
 Fortinet has released security updates for FortiOS and FortiProxy to address a critical vulnerability that a remote attacker could exploit to take control of an affected system.
 
-A stack-based overflow vulnerability \[CWE-124\] in FortiOS & FortiProxy may allow a remote attacker to execute arbitrary code or commands via crafted packets reaching proxy policies or firewall policies with proxy mode alongside SSL deep packet inspection.
+A stack-based overflow vulnerability [CWE-124] in FortiOS & FortiProxy may allow a remote attacker to execute arbitrary code or commands via crafted packets reaching proxy policies or firewall policies with proxy mode alongside SSL deep packet inspection.
 
 ## What is the vulnerability?
 

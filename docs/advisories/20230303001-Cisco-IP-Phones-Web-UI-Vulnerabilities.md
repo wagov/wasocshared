@@ -14,7 +14,7 @@ The vulnerabilities are not dependent on one another. Exploitation of one of the
 
 **CVE-2023-20078**
 
-This vulnerability affects the following Cisco  products if they are running a vulnerable release of Cisco Multiplatform Firmware:
+This vulnerability affects the following Cisco products if they are running a vulnerable release of Cisco Multiplatform Firmware:
 
 - IP Phone 6800 Series with Multiplatform Firmware
 - IP Phone 7800 Series with Multiplatform Firmware
@@ -37,7 +37,7 @@ For information about which Cisco software releases are vulnerable, see the Fixe
 
 ## What has been observed?
 
-CISA has added one new vulnerability to its \[Known Exploited Vulnerabilities Catalog\] <https://www.cisa.gov/news-events/alerts/2023/03/02/cisco-releases-security-advisory-cisco-ip-phones>, based on evidence of active exploitation.
+CISA has added one new vulnerability to its [Known Exploited Vulnerabilities Catalog] <https://www.cisa.gov/news-events/alerts/2023/03/02/cisco-releases-security-advisory-cisco-ip-phones>, based on evidence of active exploitation.
 
 ## Recommendation
 

@@ -10,7 +10,7 @@ A list of vulnerabilities and products can be found at [November 2023 Security U
 
 ## Recommendation
 
-The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe  (refer [Patch Management](../guidelines/patch-management.md)):
+The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe (refer [Patch Management](../guidelines/patch-management.md)):
 
 ## Additional References
 

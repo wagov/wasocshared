@@ -30,7 +30,7 @@ GitLab - All deployment types:
 
 ## What has been observed?
 
-GitLab says it has not detected any cases of active exploitation, however  Self-managed customers can review their logs to check for possible attempts to exploit this vulnerability:
+GitLab says it has not detected any cases of active exploitation, however Self-managed customers can review their logs to check for possible attempts to exploit this vulnerability:
 
 - `Check gitlab-rails/production_json.log for HTTP requests to the /users/password path with params.value.email consisting of a JSON array with multiple email addresses.`
 - `Check gitlab-rails/audit_json.log for entries with meta.caller.id of PasswordsController#create and target_details consisting of a JSON array with multiple email addresses.`

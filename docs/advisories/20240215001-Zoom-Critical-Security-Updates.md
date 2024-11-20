@@ -8,7 +8,7 @@ Zoom has released updates to patch critical privilege elevation flaw in Windows 
 
 | Product(s) Affected                                                                           | CVE                                                               | Severity     | CVSS |
 | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------ | ---- |
-| Zoom Desktop Client for Windows  **versions before** ***5.16.5***                             | [CVE-2024-24691](https://nvd.nist.gov/vuln/detail/CVE-2024-24691) | **Critical** | 9.6  |
+| Zoom Desktop Client for Windows **versions before** ***5.16.5***                              | [CVE-2024-24691](https://nvd.nist.gov/vuln/detail/CVE-2024-24691) | **Critical** | 9.6  |
 | Zoom VDI Client for Windows **versions before** ***5.16.10 (excluding 5.14.14 and 5.15.12)*** | [CVE-2024-24691](https://nvd.nist.gov/vuln/detail/CVE-2024-24691) | **Critical** | 9.6  |
 | Zoom Rooms Client for Windows **versions before** ***5.17.0***                                | [CVE-2024-24691](https://nvd.nist.gov/vuln/detail/CVE-2024-24691) | **Critical** | 9.6  |
 | Zoom Meeting SDK for Windows **versions before** ***5.16.5***                                 | [CVE-2024-24691](https://nvd.nist.gov/vuln/detail/CVE-2024-24691) | **Critical** | 9.6  |

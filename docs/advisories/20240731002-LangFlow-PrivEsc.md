@@ -10,7 +10,7 @@ Langflow versions prior to 1.0.13 suffer from a Privilege Escalation vulnerabili
 
 | Product(s) Affected | Version(s) | CVE                                                             | CVSS | Severity |
 | ------------------- | ---------- | --------------------------------------------------------------- | ---- | -------- |
-| Langflow            | \< 1.0.13  | [CVE-2024-7297](https://nvd.nist.gov/vuln/detail/CVE-2024-7297) | 8.8  | High     |
+| Langflow            | < 1.0.13   | [CVE-2024-7297](https://nvd.nist.gov/vuln/detail/CVE-2024-7297) | 8.8  | High     |
 
 ## What has been observed?
 

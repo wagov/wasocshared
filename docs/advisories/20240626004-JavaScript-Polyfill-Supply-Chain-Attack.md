@@ -36,7 +36,7 @@ Google has also started blocking Google Ads for websites using the affected code
 
 - Agencies that uses the old polyfill library on their websites may cause user's visiting their website vulnerable to the drive-by compromise attack.
 
-- As of 25 June 2024, Google have started blocking Google Ads for eCommerce sites that uses polyfill\[.\]io
+- As of 25 June 2024, Google have started blocking Google Ads for eCommerce sites that uses polyfill[.]io
 
 ## What has been observed?
 
@@ -46,7 +46,7 @@ WA SOC has not observed any signs of outbound activities to malicious payload wi
 
 WA SOC recommends entities to perform the following actions:
 
-- Agency to search for instance of cdn\[.\]polyfill\[.\]io in source code across the projects within the organisation
+- Agency to search for instance of cdn[.]polyfill[.]io in source code across the projects within the organisation
 
 - Agency may have 2 options in regards to the use of Polyfill:
 
@@ -56,11 +56,11 @@ WA SOC recommends entities to perform the following actions:
 
 ## IOC:
 
-| Indicator                                                     | Type       | Description |
-| ------------------------------------------------------------- | ---------- | ----------- |
-| hxxps://kuurza\[.\]com/redirect?from=bitget                   | domainName | Payload C&C |
-| hxxps://www\[.\]googie-anaiytics\[.\]com/html/checkcachehw.js | domainName | Payload C&C |
-| hxxps://www\[.\]googie-anaiytics\[.\]com/ga.js                | domainName | Payload C&C |
+| Indicator                                                 | Type       | Description |
+| --------------------------------------------------------- | ---------- | ----------- |
+| hxxps://kuurza[.]com/redirect?from=bitget                 | domainName | Payload C&C |
+| hxxps://www[.]googie-anaiytics[.]com/html/checkcachehw.js | domainName | Payload C&C |
+| hxxps://www[.]googie-anaiytics[.]com/ga.js                | domainName | Payload C&C |
 
 ## Reference
 

@@ -22,7 +22,7 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- [Bricks \< 1.9.6.1 - Unauthenticated Remote Code Execution](https://wpscan.com/vulnerability/8bab5266-7154-4b65-b5bc-07a91b28be42/)
+- [Bricks < 1.9.6.1 - Unauthenticated Remote Code Execution](https://wpscan.com/vulnerability/8bab5266-7154-4b65-b5bc-07a91b28be42/)
 - [patchstack](https://patchstack.com/articles/critical-rce-patched-in-bricks-builder-theme/)
 - [snicco.io](https://snicco.io/vulnerability-disclosure/bricks/unauthenticated-rce-in-bricks-1-9-6)
 - [BleeingComouter](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-rce-flaw-in-bricks-wordpress-site-builder/)

@@ -6,9 +6,9 @@ The WA SOC has been made aware of heap-overflow and privilege escalation vulnera
 
 ## What is vulnerable?
 
-| Products Affected.                                                         | CVE                                                                                                                                                                                                               | CVSSv3                  | Severity                                        |
-| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ----------------------------------------------- |
-| VMware vCenter Server: </br> **versions before 8.0 U2d, 8.0 U1e, 7.0 U3r** | [CVE-2024-37079](https://nvd.nist.gov/vuln/detail/CVE-2024-37079) </br> [CVE-2024-37080](https://nvd.nist.gov/vuln/detail/CVE-2024-37080) </br> [CVE-2024-37081](https://nvd.nist.gov/vuln/detail/CVE-2024-37081) | 9.8 </br> 9.8 </br> 7.8 | **Critical** </br> **Critical** </br>  **High** |
+| Products Affected.                                                         | CVE                                                                                                                                                                                                               | CVSSv3                  | Severity                                       |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------------------------------- |
+| VMware vCenter Server: </br> **versions before 8.0 U2d, 8.0 U1e, 7.0 U3r** | [CVE-2024-37079](https://nvd.nist.gov/vuln/detail/CVE-2024-37079) </br> [CVE-2024-37080](https://nvd.nist.gov/vuln/detail/CVE-2024-37080) </br> [CVE-2024-37081](https://nvd.nist.gov/vuln/detail/CVE-2024-37081) | 9.8 </br> 9.8 </br> 7.8 | **Critical** </br> **Critical** </br> **High** |
 
 ## What has been observed?
 

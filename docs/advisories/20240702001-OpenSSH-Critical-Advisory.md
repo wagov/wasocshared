@@ -2,7 +2,7 @@
 
 ## Overview
 
-OpenSSH has released  fixes for a critical vulnerability present in Portable OpenSSH sshd(8), that may allow arbitrary
+OpenSSH has released fixes for a critical vulnerability present in Portable OpenSSH sshd(8), that may allow arbitrary
 code execution with root privileges.
 
 A signal handler race condition found in OpenSSH's server (sshd), where a client does not authenticate within LoginGraceTime seconds (120 by default, 600 in old OpenSSH versions), then sshd's SIGALRM handler is called asynchronously. However, this signal handler calls various functions that are not async-signal-safe, for example, syslog().

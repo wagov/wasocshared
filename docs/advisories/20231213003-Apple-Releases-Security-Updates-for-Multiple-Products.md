@@ -6,7 +6,7 @@ Apple has released security updates for Safari, iOS and iPadOS, Sonoma, Ventura,
 
 ## What is the vulnerability?
 
-- WebKit Processing web content vulnerability    [**CVE-2023-42890**](https://nvd.nist.gov/vuln/detail/CVE-2023-42890) - CVSS v3 Base Score: ***N/A***
+- WebKit Processing web content vulnerability [**CVE-2023-42890**](https://nvd.nist.gov/vuln/detail/CVE-2023-42890) - CVSS v3 Base Score: ***N/A***
 - WebKit Processing an image vulnerability [**CVE-2023-42883**](https://nvd.nist.gov/vuln/detail/CVE-2023-42883) - CVSS v3 Base Score: ***N/A***
 - Accessibility - Secure text fields may be displayed via the Accessibility Keyboard when using a physical keyboard vulnerability [**CVE-2023-42874**](https://nvd.nist.gov/vuln/detail/CVE-2023-42874) - CVSS v3 Base Score: ***N/A***
 - Accounts - An app may be able to access sensitive user data vulnerability [**CVE-2023-42919**](https://nvd.nist.gov/vuln/detail/CVE-2023-42919) - CVSS v3 Base Score: ***N/A***
