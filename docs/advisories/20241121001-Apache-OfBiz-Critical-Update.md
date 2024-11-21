@@ -6,9 +6,9 @@ The Apache Software Foundation has released important security updates to addres
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Apache OFBiz    | Prior to version 18.12.17    | [CVE-2024-47208](https://nvd.nist.gov/vuln/detail/CVE-2024-47208)  <br>[CVE-2024-48962](https://nvd.nist.gov/vuln/detail/CVE-2024-48962)     | **9.8** <br>8.9          | **Critical** <br>High                                   |
+| Product(s) Affected | Version(s)                | CVE                                                                                                                                     | CVSS            | Severity              |
+| ------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------- | --------------------- |
+| Apache OFBiz        | Prior to version 18.12.17 | [CVE-2024-47208](https://nvd.nist.gov/vuln/detail/CVE-2024-47208) <br>[CVE-2024-48962](https://nvd.nist.gov/vuln/detail/CVE-2024-48962) | **9.8** <br>8.9 | **Critical** <br>High |
 
 ## What has been observed?
 
@@ -19,4 +19,3 @@ There is no evidence of exploitation affecting Western Australian Government net
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
 
 - Apache: <https://ofbiz.apache.org/security.html>
-
