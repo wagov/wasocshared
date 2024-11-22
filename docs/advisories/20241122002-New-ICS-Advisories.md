@@ -6,12 +6,12 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor  |
-| ------- |
-| Automated Logic |
-| CODESYS |
+| Vendor             |
+| ------------------ |
+| Automated Logic    |
+| CODESYS            |
 | Schneider Electric |
-| mySCADA |
+| mySCADA            |
 
 ## Recommendation
 
