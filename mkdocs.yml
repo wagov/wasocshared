@@ -90,7 +90,6 @@ nav:
   - Patch Management: guidelines/patch-management.md
   - Configuration Assessment: guidelines/secure-configuration.md
   - Annual Implementation Report: guidelines/annual-implementation-reporting.md
-  - August 2023 Essential Eight: docs/pdfs/essential-eight-assessment-process-guide.pdf
 - Training:
   - Security Analyst Induction: training/analyst-induction.md
   - Azure Basics: training/azure-basics.md
