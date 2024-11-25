@@ -1,6 +1,6 @@
 # Annual Implementation Report
 
-This page has been designed to accompany the 2023 WA Cyber Security Policy Annual Implementation Report Template and provides additional guidance for assessors when answering questions in the provided template. The CSU requires that WA Government entities report against the [August 2023 (first published in November 2022)](docs/pdfs/essential-eight-assessment-process-guide.pdf){download="Essential Eight Assessment - August 2023"} for AIR reporting. This represents the 2022 maturity model.
+This page has been designed to accompany the 2023 WA Cyber Security Policy Annual Implementation Report Template and provides additional guidance for assessors when answering questions in the provided template. The CSU requires that WA Government entities report against the [August 2023 (first published in November 2022)](../pdfs/essential-eight-assessment-process-guide.pdf){download="Essential Eight Assessment - August 2023"} for AIR reporting. This represents the 2022 maturity model.
 
 ## Cyber Security Policy
 
