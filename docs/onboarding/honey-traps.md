@@ -46,7 +46,7 @@ Ideal Network Location for Honey Pot deployment:
 
 Honey Pots are virtual decoy objects suchs as Files,API Tokens,etc that mimic repositories of information that could be leveraged by Threat Actor to escalates attacks on an organisation. Ideally, dependant on the object types and repositiory location, the honey files should appear to be a realistic object that would be expected at this location. This level of deception would make the honey file a more ideal target for threat actors.
 
-Ideal object repository location for Honey Pot deployment:
+Ideal object repository location for Honey token deployment:
 
 - Internet Facing FileShares
 - Internet Facing Servers
