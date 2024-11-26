@@ -37,12 +37,12 @@ Honey Pots are decoy and usually virtual servers/services that mimic the infrast
 
 Ideal Network Location for Honey Pot deployment:
 
-- [Demilitarized Zone (DMZ)](https://en.wikipedia.org/wiki/DMZ_(computing))
+- [Demilitarized Zone (DMZ)](<https://en.wikipedia.org/wiki/DMZ_(computing)>)
 - [Network Segmentations](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Network_Segmentation_Cheat_Sheet.md#introduction)
     - [MiddleWare](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Network_Segmentation_Cheat_Sheet.md#middleware)
     - [Backend](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Network_Segmentation_Cheat_Sheet.md#backend)
 
-### Honey Token Deployment 
+### Honey Token Deployment
 
 Honey Pots are virtual decoy objects suchs as Files,API Tokens,etc that mimic repositories of information that could be leveraged by Threat Actor to escalates attacks on an organisation. Ideally, dependant on the object types and repositiory location, the honey files should appear to be a realistic object that would be expected at this location. This level of deception would make the honey file a more ideal target for threat actors.
 
