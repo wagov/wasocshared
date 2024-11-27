@@ -6,11 +6,11 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor  |
-| ------- |
+| Vendor             |
+| ------------------ |
 | Scheinder Electric |
-| Hitachi Energy |
-| Philips |
+| Hitachi Energy     |
+| Philips            |
 
 ## Recommendation
 
