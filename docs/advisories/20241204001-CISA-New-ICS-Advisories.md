@@ -6,15 +6,15 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor |
-| --- |
-| ETIC |
-| Fuji Electric |
-| ICONICS |
-| Mitsubishi Electric |
+| Vendor                   |
+| ------------------------ |
+| ETIC                     |
+| Fuji Electric            |
+| ICONICS                  |
+| Mitsubishi Electric      |
 | Open Automation Software |
-| Siemens |
-| Ruijie |
+| Siemens                  |
+| Ruijie                   |
 
 ## Recommendation
 
