@@ -6,9 +6,9 @@ Veeam has released a security advisory detailing a vulnerability discovered with
 
 ## What is vulnerable?
 
-| Product(s) Affected                   | Version(s)  | CVE #                                                             | CVSS v4/v3 | Severity |
-| ------------------------------------- | ----------- | ----------------------------------------------------------------- | ---------- | -------- |
-| Veeam Service Provider Console (VSPC) | All versions < 8.1.0.21999| [CVE-2024-42448](https://nvd.nist.gov/vuln/detail/CVE-2024-42448) | 9.9 | Critical |
+| Product(s) Affected                   | Version(s)                 | CVE #                                                             | CVSS v4/v3 | Severity |
+| ------------------------------------- | -------------------------- | ----------------------------------------------------------------- | ---------- | -------- |
+| Veeam Service Provider Console (VSPC) | All versions < 8.1.0.21999 | [CVE-2024-42448](https://nvd.nist.gov/vuln/detail/CVE-2024-42448) | 9.9        | Critical |
 
 ## What has been observed?
 
