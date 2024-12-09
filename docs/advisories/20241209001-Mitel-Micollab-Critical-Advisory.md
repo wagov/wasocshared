@@ -6,10 +6,10 @@ A multiple vulnerabilities is currently existed in Mitel Micollab collaboration 
 
 ## What is vulnerable?
 
-| Product(s) Affected  | Version(s)| CVE #  | CVSS v4/v3 | Severity |
-| -- | -- | -- | -- | -- |
-| NuPoint Unified Messaging (NPM) within MiCollab| 9.8.0.33 | [**CVE-2024-35286**](https://nvd.nist.gov/vuln/detail/CVE-2024-35286) | 9.8 | Critical |
-|NuPoint Unified Messaging (NPM) within MiCollab| 9.8 SP1 FP2 (9.8.1.201) and earlier|[**CVE-2024-41713**](https://nvd.nist.gov/vuln/detail/CVE-2024-41713)|9.8 by vendor|Critical|
+| Product(s) Affected                             | Version(s)                          | CVE #                                                                 | CVSS v4/v3    | Severity |
+| ----------------------------------------------- | ----------------------------------- | --------------------------------------------------------------------- | ------------- | -------- |
+| NuPoint Unified Messaging (NPM) within MiCollab | 9.8.0.33                            | [**CVE-2024-35286**](https://nvd.nist.gov/vuln/detail/CVE-2024-35286) | 9.8           | Critical |
+| NuPoint Unified Messaging (NPM) within MiCollab | 9.8 SP1 FP2 (9.8.1.201) and earlier | [**CVE-2024-41713**](https://nvd.nist.gov/vuln/detail/CVE-2024-41713) | 9.8 by vendor | Critical |
 
 ## What has been observed?
 
@@ -21,8 +21,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 - Mitel Micollab - CVE-2024-35286 - Security Bulletin: <https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-24-0014>
 - Mitel Micollab - CVE-2024-41713 - Security Bulletin: <https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2024-0029>
-
-
 
 ## 3rd Party Article(s):
 
