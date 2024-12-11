@@ -6,15 +6,15 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor                   |
-| ------------------------ |
-| MOBATIME                     |
-| Schneider Electric           |
-| National Instruments                  |
-| Horner Automation      |
-| Rockwell Automation |
-| Ruijie                  |
-|
+| Vendor               |
+| -------------------- |
+| MOBATIME             |
+| Schneider Electric   |
+| National Instruments |
+| Horner Automation    |
+| Rockwell Automation  |
+| Ruijie               |
+|                      |
 
 ## Recommendation
 
