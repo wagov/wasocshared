@@ -4,7 +4,7 @@ The below are all from [ACSC Strategies to Mitigate Cyber Security Incidents –
 
 ## Further Five
 
-The Further Five below are being reviewed for inclusion in the revised [WA Government Cyber Security Policy](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy) (expected to be finalised Q1 2024).
+The Further Five below have been included in the 2024 [WA Government Cyber Security Policy](https://www.wa.gov.au/government/publications/wa-government-cyber-security-policy).
 
 !!! note "Further Five"
     - [Server application hardening](#server-application-hardening) especially internet-accessible web applications (sanitise input and use TLS not SSL) and databases, as well as applications that access important (sensitive/high-availability) data.
@@ -200,4 +200,4 @@ Organisational executives and management can reduce some motivations for employe
 For the relatively small number of organisations where employees have access to highly classified data or other extremely sensitive data, a psychological assessment should be performed by qualified personnel to explore topics including allegiances and beliefs as well as character weaknesses which could be leveraged and manipulated by adversaries. Employees should be encouraged to advise the personnel security team of unusual behaviour exhibited by other employees as well as their own significant life changes such as financial, relationship and health problems.
 
 !!! info
-    Australian Government [policy on personnel security](https://www.protectivesecurity.gov.au/policies/personnel-security) is available from the Attorney-General's Department.
+    Further information can be found within ACSC’s publication [Guidelines for Personnel Security | Cyber.gov.au](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-personnel-security).
