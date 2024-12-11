@@ -8,14 +8,14 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 
 ### Critical Vulnerabilities
 
-| Product(s) Affected    | CVE                                                               | CVSS | Severity |
-| ---------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Product(s) Affected           | CVE                                                               | CVSS | Severity |
+| ----------------------------- | ----------------------------------------------------------------- | ---- | -------- |
 | Windows Lightweight Directory | [CVE-2024-49112](https://nvd.nist.gov/vuln/detail/CVE-2024-49112) | 9.8  | Critical |
 
 ### Known Exploitation
 
-| Product(s) Affected    | Version(s)                                                        | CVE | CVSS |
-| ---------------------- | ----------------------------------------------------------------- | --- | ---- |
+| Product(s) Affected            | Version(s)                                                        | CVE | CVSS |
+| ------------------------------ | ----------------------------------------------------------------- | --- | ---- |
 | Windows Common Log File System | [CVE-2024-49138](https://nvd.nist.gov/vuln/detail/CVE-2024-49138) | 7.8 | High |
 
 ## What has been observed?
