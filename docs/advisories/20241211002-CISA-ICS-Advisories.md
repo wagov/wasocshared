@@ -14,7 +14,6 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 | Horner Automation    |
 | Rockwell Automation  |
 | Ruijie               |
-|                      |
 
 ## Recommendation
 
