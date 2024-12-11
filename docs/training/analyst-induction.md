@@ -4,9 +4,7 @@
 
 The below guidance is to get a novice with basic IT literacy up to speed with common Security Operations activities all the way from collecting events, alerting on detections, triaging alerts, responding to incidents and managing detection rules and investigative queries.
 
-A refresher on good study skills is below which should help for pursuing any professional or academic certifications.
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[The Learning Journey](https://taggartinstitute.org/p/the-learning-journey) (The Taggart Institute) is an excellent starting point for how to self teach using resources like those below.
 
 ## 2. Prerequisites
 
