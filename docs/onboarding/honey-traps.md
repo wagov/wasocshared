@@ -22,7 +22,7 @@ Honey Traps emcompass both Honey Pots and Honey Tokens. Honey Traps are decoy IC
     - Must be able nominate a individual from your organisation to work closely with the WASOC Engineering Team during the pilot.
 
     The onboarding to the Honey Trap Platform is handled entirely by the WASOC Engineers and can be facilitated upon requestvia the [WASOC IRP](https://irp.dpc.wa.gov.au/).
-    
+
     The WASOC is willing to work with entities to adapt the platform as fit for purpose for their environment but may not be able to take full advantage of the service offering.
 
 ## Onboarding Process
