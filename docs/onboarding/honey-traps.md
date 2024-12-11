@@ -11,7 +11,7 @@ The WASOC is looking to expand the monitoring capability of Western Australian G
 Honey Traps emcompass both Honey Pots and Honey Tokens. Honey Traps are decoy ICT services or data repositories that replicate the real ICT environment of organisations. These decoys are enticing targets for threat actors to attack and exploit. Once the actor has attacked the target, the Honey Pot or Honey Token will raise an alert due to unauthorised malipulation, thus allowing security teams to detect for broader threats to an entities ICT environments.
 
 ??? note "Pilot Participants Prerequisite"
-    The pilot has prerequisites that must be met to have the minimum technical & commitment requirements to onboard to the Honey Trap Program.
+    The pilot has prerequisites that must be met to have the minimum technical & commitment requirements to onboard to the Honey Trap Program as to take advantage of the full service offering.
 
     The prerequisites as follows.
 
@@ -22,6 +22,8 @@ Honey Traps emcompass both Honey Pots and Honey Tokens. Honey Traps are decoy IC
     - Must be able nominate a individual from your organisation to work closely with the WASOC Engineering Team during the pilot.
 
     The onboarding to the Honey Trap Platform is handled entirely by the WASOC Engineers and can be facilitated upon requestvia the [WASOC IRP](https://irp.dpc.wa.gov.au/).
+    
+    The WASOC is willing to work with entities to adapt the platform as fit for purpose for their environment but may not be able to take full advantage of the service offering.
 
 ## Onboarding Process
 
