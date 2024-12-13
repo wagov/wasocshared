@@ -6,9 +6,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor               |
-| -------------------- |
-| Siemens              |
+| Vendor  |
+| ------- |
+| Siemens |
 
 ## Recommendation
 
