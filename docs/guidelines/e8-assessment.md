@@ -4,6 +4,7 @@
 
 ## Introduction
 
+
 The Australian Signals Directorate (ASD) has developed prioritised mitigation strategies, in the form of the _[Strategies to
 Mitigate Cyber Security Incidents](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/strategies-mitigate-cyber-security-incidents)_, to help organisations protect themselves against various cyber threats. The most
 effective of these mitigation strategies are the Essential Eight.
@@ -14,15 +15,16 @@ underpin the Essential Eight – as articulated within the _[Essential Eight Mat
 
 This publication should be read and used in conjunction with other ASD guidance and tools. This includes the:
 
-- [Essential Eight Maturity Model](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight)
-- [Essential Eight Maturity Model FAQ](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-maturity-model-faq)
-- [Essential Eight Assessment Report Template](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide)
-- [Essential Eight assessment toolkit.](https://partners.cyber.gov.au/login?ec=302&startURL=/s/)
+ - [Essential Eight Maturity Model](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight)
+ - [Essential Eight Maturity Model FAQ](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-maturity-model-faq)
+ - [Essential Eight Assessment Report Template](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide)
+ - [Essential Eight assessment toolkit.](https://partners.cyber.gov.au/login?ec=302&startURL=/s/)
 
 Note, all vendor products mentioned within this publication are for illustrative purposes only and should not be
 interpreted as an explicit endorsement by ASD.
 
 ## Overview
+
 
 Assessments against the Essential Eight are conducted using the _[Essential Eight Maturity Model](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight)_. This maturity model
 describes three target maturity levels (Maturity Level One through to Maturity Level Three) which are based on
@@ -42,6 +44,7 @@ Finally, in determining compensating control effectiveness, assessors should ens
 that have been implemented provide an equivalent level of protection to those recommended under the Essential Eight. This will assist in ensuring that an equivalent level of overall protection against a specific level of targeting and
 tradecraft can be achieved and maintained.
 
+
 ## Evidence quality
 
 In conducting an assessment, assessors need to gather and review credible evidence to support conclusions they draw
@@ -49,17 +52,18 @@ on the effectiveness of controls. In general terms, the evidence used to determi
 in quality depending on the approach taken. As such, when conducting an assessment, assessors should seek to gather
 and use the highest quality evidence where reasonably practicable. This guide defines four levels of evidence quality:
 
-- **Excellent evidence:** Testing a control with a simulated activity designed to confirm it is in place and effective (e.g. attempting to run an application to check application control rulesets).
-- **Good evidence:** Reviewing the configuration of a system through the system’s interface to determine whether it should enforce an expected policy.
-- **Fair evidence:** Reviewing a copy of a system’s configuration (e.g. using reports or screenshots) to determine
-    whether it should enforce an expected policy.
-- **Poor evidence:** A policy or verbal statement of intent (e.g. sighting mention of controls within documentation).
+ - **Excellent evidence:** Testing a control with a simulated activity designed to confirm it is in place and effective (e.g. attempting to run an application to check application control rulesets).
+ - **Good evidence:** Reviewing the configuration of a system through the system’s interface to determine whether it should enforce an expected policy.
+ - **Fair evidence:** Reviewing a copy of a system’s configuration (e.g. using reports or screenshots) to determine
+whether it should enforce an expected policy.
+ - **Poor evidence:** A policy or verbal statement of intent (e.g. sighting mention of controls within documentation).
 
 ## Determining effective implementation of mitigation strategies
 
 Upon concluding assessment activities, assessors will need to determine whether mitigation strategies were
 implemented effectively or not. This determination requires a combination of judgement and consideration of the
 following factors:
+
 
 - adoption of a risk-based approach to the implementation of mitigation strategies
 - ability to test the mitigation strategies across an accurate representative sample of workstations (including laptops), servers and network devices
@@ -83,25 +87,26 @@ strategy must be assessed as ‘effective’ or ‘alternate control’. If one 
 cannot be claimed to have been met).
 
 Where exceptions to a mitigation strategy’s controls have been identified, the assessor should review and evaluate any compensating controls that are in place to determine whether they address the intent of the original controls and are implemented effectively. Two examples have been provided below.
+|  |  |
+|--|--|
+| **Example 1** | During an internal review, an organisation identified a low-risk Windows server that could not be patched. As a result, the organisation implemented a plan to decommission the server within two months. In this situation, it was still important for the organisation to apply compensating controls that reduced the risk to an acceptable level, and to align with the requirements of the Essential Eight’s exception process. As a result, a risk owner was assigned, and strong compensating controls were put in place. In this instance, as the exception was being effectively managed and strong compensating controls were in place, an assessor determined that the exception should not preclude the organisation from reaching their target maturity level. Conversely, if the organisation had not applied strong compensating controls, it would not have aligned with the requirements of the Essential Eight’s exception process and should have precluded the organisation from reaching their target maturity level.  |
+|**Example 2**| During an internal review, an organisation identified a low-risk Windows server that could not be patched. As a result, the organisation implemented a plan to decommission the server within two months. In this situation, it was still important for the organisation to apply compensating controls that reduced the risk to an acceptable level, and to align with the requirements of the Essential Eight’s exception process. As a result, a risk owner was assigned, and strong compensating controls were put in place. In this instance, as the exception was being effectively managed and strong compensating controls were in place, an assessor determined that the exception should not preclude the organisation from reaching their target maturity level. Conversely, if the organisation had not applied strong compensating controls, it would not have aligned with the requirements of the Essential Eight’s exception process and should have precluded the organisation from reaching their target maturity level.|
 
-|               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Example 1** | During an internal review, an organisation identified a low-risk Windows server that could not be patched. As a result, the organisation implemented a plan to decommission the server within two months. In this situation, it was still important for the organisation to apply compensating controls that reduced the risk to an acceptable level, and to align with the requirements of the Essential Eight’s exception process. As a result, a risk owner was assigned, and strong compensating controls were put in place. In this instance, as the exception was being effectively managed and strong compensating controls were in place, an assessor determined that the exception should not preclude the organisation from reaching their target maturity level. Conversely, if the organisation had not applied strong compensating controls, it would not have aligned with the requirements of the Essential Eight’s exception process and should have precluded the organisation from reaching their target maturity level. |
-| **Example 2** | During an internal review, an organisation identified a low-risk Windows server that could not be patched. As a result, the organisation implemented a plan to decommission the server within two months. In this situation, it was still important for the organisation to apply compensating controls that reduced the risk to an acceptable level, and to align with the requirements of the Essential Eight’s exception process. As a result, a risk owner was assigned, and strong compensating controls were put in place. In this instance, as the exception was being effectively managed and strong compensating controls were in place, an assessor determined that the exception should not preclude the organisation from reaching their target maturity level. Conversely, if the organisation had not applied strong compensating controls, it would not have aligned with the requirements of the Essential Eight’s exception process and should have precluded the organisation from reaching their target maturity level. |
 
 It is important that the use of exceptions for a system are documented and approved by an appropriate authority
 through a formal process. Documentation for exceptions should include the following:
 
 - detail, scope and justification for exceptions
 - detail of compensating controls associated with exceptions, including:
-    - detail, scope and justification for compensating controls
-    - expected implementation lifetime of compensating controls
-    - when compensating controls will next be reviewed
+	- detail, scope and justification for compensating controls
+	- expected implementation lifetime of compensating controls
+	- when compensating controls will next be reviewed
 - system risk rating before and after the implementation of compensating controls
 - any caveats placed on the use of the system as a result of exceptions
 - acceptance by an appropriate authority of the residual risk for the system
 - when the necessity of exceptions will next be considered by an appropriate authority (noting exceptions should
-    not be approved beyond one year).
+not be approved beyond one year).
+
 
 The appropriate use of a formal exception process, along with compensating controls, should not preclude an
 organisation from being assessed as meeting the requirements for their target maturity level.
@@ -131,13 +136,12 @@ require the assessor to discuss with the system owner:
 - where the security assessment report will be developed (e.g. on an assessor’s device or on an alternative device)
 - approach to stakeholder engagement and consultation (including key points of contact)
 - whether any managed service providers or other outsourced providers manage any aspects of the system
-    (including appropriate points of contact)
+(including appropriate points of contact)
 - access to any relevant prior security assessment reports for the system
 - appropriate use, retention and marketing of the security assessment report by both parties.
 
-Assessors may also develop an assessment test plan and share it with the system owner. Example assessment test plans are included as Annex A through Annex C.
+Assessors may also develop an assessment test plan and share it with the system owner. 
 
-Note, test cases listed within the example assessment test plans included as Annex A through Annex C should not be treated as mandatory assessment requirements. Rather, assessors should apply their own judgement and experience in the development of their own assessment test plans.
 
 ## Stage 2: Determination of assessment scope and approach
 
@@ -194,7 +198,6 @@ When conducting assessments, paths for standard user profiles and temporary fold
  %tmp%\*
  %windir%\Temp\*.
 ```
-
 To check if application control is implemented within the user profile directory, attempt to run a benign executable file inside the directory. The executables tested should cover .exe, .com, .dll, .ocx, .ps 1 , .bat, .vbs, .js, .msi, .mst, .msp, .chm, .hta, and .cpl. If any of the executables run within the user profile directory or operating system temporary folders, application control is ineffective.
 
 Note, while a dedicated application control solution is not required at Maturity Level One (i.e. file system permissions can be used instead), organisations may still choose to implement a dedicated application control solution if they intend to eventually implement requirements for Maturity Level Two.
@@ -202,7 +205,6 @@ Note, while a dedicated application control solution is not required at Maturity
 #### Assessment guidance
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the evidence provided by each method should be strongly considered.
-
 <table>
   <tr>
     <th style="width: 40%;">Control</th>
@@ -220,6 +222,7 @@ The section below provides guidance tailored to the assessment method. When sele
   </tr>
 </table>
 
+
 #### Patch applications
 
 #### Context
@@ -227,10 +230,10 @@ The section below provides guidance tailored to the assessment method. When sele
 Most vendors of internet-facing services regularly release updated versions of their applications to fix vulnerabilities.
 Applications that exist on a system can be compared to the latest versions available from the vendor to determine whether existing versions are the latest, and if not, how long-ago updates were made available by the vendor, based on release dates and patch notes. Services such as the [SANS Internet Storm Centre](https://isc.sans.edu/), [Microsoft Security Response Centre](https://www.microsoft.com/en-us/msrc?oneroute=true) or the Cybersecurity and Infrastructure Security Agency’s _[Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)_ can be used to determine whether public exploits exist for a given internet-facing service.
 
+
 #### Assessment guidance
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the evidence provided by each method should be strongly considered.
-
 <table>  
 <tr>  
 <th style="width: 40%;">Control</th>  
@@ -272,7 +275,11 @@ Finally, in addition to identifying assets for follow-on vulnerability scanning 
 <td>Alternatively, PowerShell can be used to identify applications with registered uninstall functionality. However, this method alone will not always cover all applications that are installed on a system. As a result, it should be combined with the list of installed applications within ‘Programs and Features’.<br> While this approach can be used for assessments, the limitations in coverage should be noted. For key applications though, it will likely be sufficient. If any key applications appear to be missing in reports provided, this should be raised for clarification. <br>Below is a PowerShell script to output a list of installed applications with registered uninstall functionality. This list should be reviewed in conjunction with the list of installed applications within ‘Control Panel – Programs – Programs and Features’ to ensure no applications are missed. <br>function Analyze( $p, $f) { <br> &nbsp; Get-ItemProperty $p |foreach {<br> &nbsp&nbsp&nbsp&nbsp&nbspif (($_.DisplayName) -or ($_.version)) {<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp[PSCustomObject]@{<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFrom = $f; <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspName = $_.DisplayName;<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspVersion = $_.DisplayVersion; <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspInstall = $_.InstallDate<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp }<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp }<br> &nbsp&nbsp&nbsp}<br> } <br>$s = @()<br> $s += Analyze ‘HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*’ 64<br> $s += Analyze ‘HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*’ 32<br> $s | Sort-Object -Property Name<br><br>The combined list of installed applications must be reviewed alongside the date of release for each application patch to determine whether the timeframe has been met. </td>
 <tr>
 <td> If tools cannot be used, request a demonstration that shows the versions of installed applications and their install date. This allows for manual checking against the latest versions available from vendors.</td>
-
+<tr>
+<td rowspan= "2"> Internet-facing services, office productivity suites, web browsers and their extensions, email clients, PDF software, Adobe Flash Player, and security products that are no longer supported by vendors are removed. </td>
+<td>A vulnerability scanner can be used to assess applications and whether they are end of life.<br>
+<tr>
+<td> Request a demonstration that shows the versions of the referenced applications and services. This allows for manual checking against the list of supported versions. In addition, check if hotfix KB4577586 has been applied to demonstrate that Adobe Flash Player is no longer supported. Note, this hotfix will only remove Adobe Flash Player if it was installed by Windows. If Adobe Flash Player was installed manually from another source, it will not be removed by this hotfix.</td>
 </tr>  
 </table>
 
@@ -518,7 +525,7 @@ environments have been implemented.</td>
 <td>Unprivileged accounts
 cannot logon to privileged
 operating environments.</td>
-<td>Attempt to logon to a privileged workstation using a standard user account.
+<td>Attempt to logon to a privileged workstation using a standard user account.<br>
 <a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">Bloodhound</a> can be used to assess whether any unprivileged accounts have connected to
 privileged environments by looking for cached credentials.</td>
 <tr>
@@ -533,11 +540,12 @@ workstation. Note, the moment a privileged account’s username and password are
 entered into a standard user workstation, the account should be considered
 compromised (noting this is the reason behind having separate operating environments).
 This test should be done using a privileged account set up specifically for this purpose.
-The privileged account should then be removed immediately after testing is complete.
+The privileged account should then be removed immediately after testing is complete.<br><br>
 <a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">Bloodhound</a> can be used to assess whether any privileged accounts have connected to
 unprivileged environments by looking for cached credentials.</td>
 </tr>
 </table>
+
 
 #### Patch operating systems
 
@@ -553,7 +561,6 @@ Services such as the [SANS Internet Storm Centre](https://isc.sans.edu/), [Micro
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the
 evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -665,7 +672,7 @@ patch release date. There are several free tools available to support the assess
 this control, including ASD’s E8MVT, Nessus Essentials, Nexpose Community Edition,
 OpenVAS and Qualys Community Edition. There are also several paid tools available. In
 choosing a tool to use, make sure that it has been thoroughly tested beforehand to
-ensure it is fit-for-purpose.
+ensure it is fit-for-purpose.<br>
 If using WSUS for the assessment of this control, it is important to consider that WSUS
 does not necessarily report accurate patch levels. Specifically, WSUS has been known to
 report patches or updates that have been deployed but not whether they were
@@ -692,6 +699,7 @@ not.</td>
  </tr>
 </table>
 
+
 #### Multi-factor authentication
 
 #### Context
@@ -701,6 +709,7 @@ Multi-factor authentication is one of the most effective controls an organisatio
 Multi-factor authentication should be implemented for remote access solutions, users performing privileged actions and users of important data repositories. Using multi-factor authentication provides a secure authentication mechanism that is not as susceptible to brute force attacks, such as traditional single-factor authentication methods based on memorised secrets (e.g. personal identification numbers (PINs), passwords and passphrases).
 
 At this maturity level, any two or more authentication methods can be used as long as they are not of the same class (e.g. something users know, something users have or something users are). There is no requirement that one factor must be a memorised secret. Biometrics and [Trusted Signals](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/multifactor-unlock?tabs=intune) are also acceptable as an authentication method at this maturity level.
+
 
 Note, while any two or more authentication methods can be used at Maturity Level One, organisations may still choose to implement multi-factor authentication solutions, such as those that include something the user has or are phishing-resistant, if they intend to eventually implement requirements for Maturity Level Two or Maturity Level Three.
 
@@ -767,6 +776,8 @@ whether customers/citizens need to set it up themselves after initial account cr
 </tr>
 </table>
 
+
+
 #### Regular backups
 
 #### Context
@@ -781,7 +792,6 @@ While unprivileged accounts can access (i.e. read) their own backups, it is impo
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the
 evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -872,6 +882,7 @@ Malicious actors will also often seek to compromise user accounts. If successful
 
 The guidance below outlines the requirements to be assessed in addition to the requirements of the previous maturity level. In doing so, assessments against Maturity Level Two should focus on the delta between Maturity Level One and Maturity Level Two.
 
+
 #### Application control
 
 #### Context
@@ -883,7 +894,6 @@ The majority of application control solutions will have a form of logging or aud
 #### Assessment Guidance
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -934,7 +944,6 @@ increase in associated vulnerability scanning frequencies and scope.
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the
 evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -983,6 +992,7 @@ applications using the identified timeframes.</td>
 </tr>
 </table>
 
+
 #### Configure Microsoft Office macro settings
 
 #### Context
@@ -995,7 +1005,6 @@ Event logs for Microsoft Office macro execution events should be collected and s
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the
 evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -1045,7 +1054,6 @@ mitigated.
 #### Assessment guidance
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -1065,9 +1073,6 @@ Security Baselines Blog.</a><br>
 Google hardening guidance for Google Chrome is available within their <a href="https://support.google.com/chrome/a/answer/9710898?hl=en"> Chrome
 Browser Enterprise Security Configuration Guide.<a>
 </td>
-<tr>
-<td> text .</td>
-<td> text</td>
 <tr>
 <td rowspan="2"> Microsoft Office is blocked
 from creating child
@@ -1202,7 +1207,7 @@ For Maturity Level Two, privileged operating environments must not be virtualise
 - physically separate operating environments
 - an unprivileged operating environment virtualised within a privileged operating environment
 - both a privileged and unprivileged operating environment virtualised within a physical host’s hardened operating
-    environment.
+environment.
 
 Jump servers play an important role as a centralised logging and tool enforcement point for administrative activities, even when privileged operating environments are used.
 
@@ -1233,7 +1238,7 @@ an expiration date that exceeds 12 months:
 Get-ADUser -Filter {(admincount -eq 1) -and (enabled -eq $true)} -Properties
 AccountExpirationDate | Where-Object {$_.AccountExpirationDate -like “” | Select
 @{n=‘Username’; e={$_.SamAccountName}}, @{n=‘Account Expiration Date’;
-e={$_.AccountExpirationDate}}, @{n=‘Enabled’; e={$_.Enabled}}
+e={$_.AccountExpirationDate}}, @{n=‘Enabled’; e={$_.Enabled}}<br>
 Get-ADUser -Filter {(admincount -eq 1) -and (enabled -eq $true)} -Properties
 AccountExpirationDate | Where-Object {$_.AccountExpirationDate -gt (Get-
 Date).AddMonths(12)} | Select @{n=‘Username’; e={$_.SamAccountName}},
@@ -1247,7 +1252,7 @@ automatically disabled after
 <td> Microsoft provides <a href= "https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.4">guidance on the use of PowerShell </a>to identify inactive accounts
 based on when they were last used to logon to a system. Ask for a screenshot of the
 output of the following PowerShell command that checks for inactive accounts to
-demonstrate that this activity takes place on a daily basis:
+demonstrate that this activity takes place on a daily basis:<br>
 Get-ADUser -Filter {(admincount -eq 1) -and (enabled -eq $true)} -Properties
 LastLogonDate | Where-Object {$_.LastLogonDate -lt (Get-Date).AddDays(-45) -
 and$_.LastLogonDate -ne $null} | Select @{n=‘Username’; e={$_.samaccountname}},
@@ -1338,6 +1343,7 @@ At this maturity level, the timeframe for patching vulnerabilities in operating 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the
 evidence provided by each method should be strongly considered.
 
+
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -1366,6 +1372,8 @@ Level Two timeframes.</td>
 </tr>
 </table>
 
+
+
 #### Multi-factor authentication
 
 #### Context
@@ -1373,10 +1381,10 @@ Level Two timeframes.</td>
 At this maturity level, an additional requirement for all privileged users logging onto systems, both locally and remotely, to use multi-factor authentication is introduced. In addition, the authentication methods that can be used, and in what combination, are restricted to avoid weaker implementations. Specifically, acceptable multi-factor authentication implementations include:
 
 - something users have (i.e. look-up secret, out-of-band device, single-factor one-time PIN (OTP) devices, single-
-    factor cryptographic software or single factor cryptographic device) in addition to something users know (i.e. a
-    memorised secret)
+factor cryptographic software or single factor cryptographic device) in addition to something users know (i.e. a
+memorised secret)
 - something users have that is unlocked by something users know or are (i.e. multi-factor OTP device, multi-factor
-    cryptographic software or multi-factor cryptographic device).
+cryptographic software or multi-factor cryptographic device).
 
 Biometrics are not acceptable at this maturity level. This is due to biometric characteristics not being secrets, biometric matching being probabilistic rather than deterministic and there being a reliance on the security of biometric capture software installed on devices. However, biometrics can be used to unlock another authentication factor (e.g. a certificate stored in a Trusted Platform Module or an OTP generator app on a smartphone). [Trusted Signals](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/multifactor-unlock?tabs=intune) are also not acceptable at this maturity level. This is due to issues associated with placing trust in the signal itself, which can be targeted and spoofed by malicious actors.
 
@@ -1389,7 +1397,6 @@ Note, at this maturity level organisations may choose to implement multi-factor 
 #### Assessment guidance
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -1432,7 +1439,7 @@ value of ‘Success and Failure’.</td>
 <tr>
 <td> For certain MFA implementations the above guidance may not be applicable. In these
 instances discuss whether logging is available for all systems that users authenticate to
-and seek evidence that such logging is in place.
+and seek evidence that such logging is in place.<br>
 If an administrator logon was observed (per the first control in this table), request
 recent event logs to check that there is a corresponding event log entry.</td>
 </tr>
@@ -1464,7 +1471,7 @@ cannot access backups
 belonging to other accounts.</td>
 <td>Use the guidance provided in Maturity Level One of this guide and apply the Maturity
 Level Two access control requirements. Specifically, privileged accounts should only be
-able to access their own backups (except for backup administrator accounts).
+able to access their own backups (except for backup administrator accounts).<br>
 Active Directory queries and tools such as <a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">BloodHound</a> can help to identify privileged
 accounts including backup administrator accounts.</td>
 <tr>
@@ -1476,7 +1483,7 @@ and deleting backups.</td>
 <td>Use the guidance provided in Maturity Level One of this guide and apply the Maturity
 Level Two access control requirements. Specifically, privileged accounts should no
 longer be able to modify and delete backups. Such activities should be restricted to
-backup administrator accounts.
+backup administrator accounts.<br>
 Active Directory queries and tools such as <a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">BloodHound</a> can help to identify privileged
 accounts including backup administrator accounts.</td>
 </tr>
@@ -1592,7 +1599,6 @@ This requirement can be assessed in a similar way to Maturity Level Two, except 
 #### Assessment guidance
 
 The section below provides guidance tailored to the assessment method. When selecting an assessment method, the quality of the evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -1621,6 +1627,7 @@ all applications.</td>
 </tr>
 </table>
 
+
 #### Configure Microsoft Office macro settings
 
 #### Context
@@ -1637,7 +1644,6 @@ When implementing a digitally signed Microsoft Office macro approach, an organis
 #### Assessment guidance
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -1663,7 +1669,7 @@ Office macros are used then Trusted Locations should be disabled.</td>
 <td> Within each Microsoft Office application, request a screenshot showing Trust Center
 macro settings (File – Options – Trust Center – Trust Center Settings – Macro Settings).
 In addition, request a screenshot showing Trust Center trusted publisher settings (File –
-Options – Trust Center – Trust Center Settings – Trusted Publishers).
+Options – Trust Center – Trust Center Settings – Trusted Publishers).<br>
 For the assessment of Microsoft Office macro security, identify what setting is selected
 for ‘macro settings’. The setting should either be set to ‘Disable all macros without
 notification’ (if Trusted Locations are used) or ‘Disable all macros except digitally signed
@@ -1741,7 +1747,7 @@ logs for signs of compromise and respond when any signs of compromise are detect
 At this maturity level, Internet Explorer 11 must be disabled or removed from operating systems rather than just blocked from accessing the internet or opening files from the internet.
 
 .NET Framework 3.5 (including .NET 2.0 and 3.0) is often targeted by malicious actors due to its lack of security functionality when compared to newer versions of the .NET Framework, as well as due to its linkages to PowerShell 2.0.
-Within Microsoft Windows there are two separate features relating to the .NET Framework, ‘.NET Framework 3.5 (includes .NET 2.0 and .NET 3.0)’ and ‘.NET Framework 4.8 Advanced Services’.
+Within Microsoft Windows there are two separate features relating to the .NET Framework, ‘.NET Framework 3.5 (includes .NET 2.0 and .NET 3.0)’ and ‘.NET Framework 4.8 Advanced Services’. 
 Microsoft ended support for Windows PowerShell 2.0 in late 2017. At that time, Microsoft noted that Windows PowerShell 2.0 lacked the security functionality of Windows PowerShell 5.0 and higher.
 Constrained Language Mode for PowerShell is designed to prevent PowerShell users (which may include malicious actors) from running tools that exploit PowerShell or load Component Object Model objects, libraries and classes into a PowerShell session.
 
@@ -1822,6 +1828,7 @@ logs for signs of compromise and respond when any signs of compromise are detect
 </tr>
 </table>
 
+
 #### Restrict administrative privileges
 
 #### Context
@@ -1891,7 +1898,7 @@ on Windows Defender Credential Guard can be found at <a href="[Configure Credent
 centrally logged.</td>
 <td>Request event logs that should have been generated for typical activities associated
 with the use of a privileged account, such as logging onto a system. Discuss whether
-event logs are stored locally or centrally.
+event logs are stored locally or centrally.<br>
 Note, organisations that are comfortable that certain events have a high probability of
 being legitimate may choose to filter them out as part of their centralised collection in
 order to simplify event log analysis and reduce storage requirements.</td>
@@ -1902,7 +1909,7 @@ centrally logged.</td>
 <td>If an administrator account was created for testing purposes, request the associated
 event logs that should have been generated when the account was created and added
 to a privileged group. Discuss whether event logs are stored locally or centrally.
-Note, organisations that are comfortable that certain events have a high probability of
+<br>Note, organisations that are comfortable that certain events have a high probability of
 being legitimate may choose to filter them out as part of their centralised collection in
 order to simplify event log analysis and reduce storage requirements.</td>
 <tr>
@@ -1921,6 +1928,7 @@ logs for signs of compromise and respond when any signs of compromise are detect
 </tr>
 
 </table>
+
 
 #### Patch operating systems
 
@@ -1981,7 +1989,6 @@ The acceptable forms of multi-factor authentication at this maturity level are g
 
 The section below provides guidance tailored to the assessment method. When selecting a method, the quality of the
 evidence provided by each method should be strongly considered.
-
 <table>
 <tr>
 <th style="width: 40%;">Control</th>
@@ -2087,6 +2094,7 @@ accounts (including backup administrator accounts) and break glass accounts.</td
 </tr>
 </table>
 
+
 ## Stage 4 : Development of the security assessment report
 
 In developing the security assessment report, assessors should use the _[Essential Eight Assessment Report Template](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-assessment-process-guide)_.
@@ -2099,6 +2107,7 @@ and data from cyber threats. The advice in the _[Strategies to Mitigate Cyber Se
 Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight), complements this framework.
 
 A mapping between the requirements of the _[Essential Eight Maturity Model](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight)_ and the _[Information Security Manual](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism)_ can be found in the _[Essential Eight Maturity Model to ISM Mapping](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-maturity-model-ism-mapping)_ publication.
+
 
 A mapping between the requirements of the _Essential Eight Maturity Model_ and the _Information Security Manual_ can be found in the _Essential Eight Maturity Model to ISM Mapping_ publication.
 
