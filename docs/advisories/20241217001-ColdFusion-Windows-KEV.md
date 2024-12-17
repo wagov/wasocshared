@@ -6,10 +6,10 @@ Microsoft and Adobe have released critical security advisories relating to vulne
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                        |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | --------------------------------------------------------------- |
-| Windows      | [Vendor Supplied Version List](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35250)    | [CVE-2024-35250](https://nvd.nist.gov/vuln/detail/CVE-2024-35250)                                                                         | 7.8           | High                                  |
-| ColdFusion      | ColdFusion 2023 <= Update 6 </br> ColdFusion <= Update 12 | [CVE-2024-20767](https://nvd.nist.gov/vuln/detail/CVE-2024-20767) | 7.4 | High|
+| Product(s) Affected | Version(s)                                                                                           | CVE                                                               | CVSS | Severity |
+| ------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Windows             | [Vendor Supplied Version List](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35250) | [CVE-2024-35250](https://nvd.nist.gov/vuln/detail/CVE-2024-35250) | 7.8  | High     |
+| ColdFusion          | ColdFusion 2023 \<= Update 6 </br> ColdFusion \<= Update 12                                          | [CVE-2024-20767](https://nvd.nist.gov/vuln/detail/CVE-2024-20767) | 7.4  | High     |
 
 ## What has been observed?
 
