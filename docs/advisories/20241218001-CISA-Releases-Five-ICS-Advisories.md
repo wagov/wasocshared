@@ -6,14 +6,13 @@ CISA has released five Industrial Control Systems (ICS) advisories around curren
 
 ## What is vulnerable?
 
-| **Product(s) Affected** | **Affected Version(s)** | **CVSS** | **Advisory Link** |
-|---|---|---|---|
-| ThreatQuotient: ThreatQ Platform | ***Versions prior to 5.29.3*** | 8.7 | https://www.cisa.gov/news-events/ics-advisories/icsa-24-352-01 |
-| Hitachi Energy: TropOS devices series 1400/2400/6400 | ***All versions prior to 8.9.6*** | 5.3 | https://www.cisa.gov/news-events/ics-advisories/icsa-24-352-02 |
-| Rockwell Automation: PowerMonitor 1000 Remote | PM1k 1408-BC3A-485:   ***Versions prior to 4.020***<br> PM1k 1408-BC3A-ENT: ***Versions prior to 4.020*** <br>PM1k 1408-TS3A-485: ***Versions prior to 4.020*** <br> PM1k 1408-TS3A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-EM3A-485: ***Versions prior to 4.020*** <br> PM1k 1408-EM3A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-TR1A-485: ***Versions prior to 4.020*** <br> PM1k 1408-TR2A-485: ***Versions prior to 4.020*** <br> PM1k 1408-EM1A-485: ***Versions prior to 4.020*** <br> PM1k 1408-EM2A-485: ***Versions prior to 4.020*** <br> PM1k 1408-TR1A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-TR2A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-EM1A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-EM2A-ENT: ***Versions prior to 4.020*** | 9.3 | https://www.cisa.gov/news-events/ics-advisories/icsa-24-352-03 |
-| Schneider Electric: Modicon Controllers | Modicon Controllers M241: ***All versions***<br> Modicon Controllers M251: ***All versions***<br> Modicon Controllers M258: ***All versions***<br> Modicon Controllers LMC058: ***All versions*** | 9.3 | https://www.cisa.gov/news-events/ics-advisories/icsa-24-352-04 |
-| BD Diagnostic Solutions: Multiple BD products | BD BACTEC Blood Culture System: ***All versions***<br> BD COR System: ***All versions***<br> BD EpiCenter Microbiology Data Management System: ***All versions***<br> BD MAX System: ***All versions***<br> BD Phoenix M50 Automated Microbiology System: ***All versions***<br> BD Synapsys Informatics Solution: ***All versions*** | 8.0 | https://www.cisa.gov/news-events/ics-medical-advisories/icsma-24-352-01 |
-
+| **Product(s) Affected** | **Affected Version(s)** | **CVSS** |
+|---|---|---|
+| ThreatQuotient: ThreatQ Platform | ***Versions prior to 5.29.3*** | 8.7 |
+| Hitachi Energy: TropOS devices series 1400/2400/6400 | ***All versions prior to 8.9.6*** | 5.3 | 
+| Rockwell Automation: PowerMonitor 1000 Remote | PM1k 1408-BC3A-485:   ***Versions prior to 4.020***<br> PM1k 1408-BC3A-ENT: ***Versions prior to 4.020*** <br>PM1k 1408-TS3A-485: ***Versions prior to 4.020*** <br> PM1k 1408-TS3A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-EM3A-485: ***Versions prior to 4.020*** <br> PM1k 1408-EM3A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-TR1A-485: ***Versions prior to 4.020*** <br> PM1k 1408-TR2A-485: ***Versions prior to 4.020*** <br> PM1k 1408-EM1A-485: ***Versions prior to 4.020*** <br> PM1k 1408-EM2A-485: ***Versions prior to 4.020*** <br> PM1k 1408-TR1A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-TR2A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-EM1A-ENT: ***Versions prior to 4.020*** <br> PM1k 1408-EM2A-ENT: ***Versions prior to 4.020*** | 9.3 | 
+| Schneider Electric: Modicon Controllers | Modicon Controllers M241: ***All versions***<br> Modicon Controllers M251: ***All versions***<br> Modicon Controllers M258: ***All versions***<br> Modicon Controllers LMC058: ***All versions*** | 9.3 |
+| BD Diagnostic Solutions: Multiple BD products | BD BACTEC Blood Culture System: ***All versions***<br> BD COR System: ***All versions***<br> BD EpiCenter Microbiology Data Management System: ***All versions***<br> BD MAX System: ***All versions***<br> BD Phoenix M50 Automated Microbiology System: ***All versions***<br> BD Synapsys Informatics Solution: ***All versions*** | 8.0 |
 
 ## What has been observed?
 
