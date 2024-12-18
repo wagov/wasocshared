@@ -22,3 +22,9 @@ There is no evidence of exploitation affecting Western Australian Government net
 ## Recommendation
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
+
+- ICSA-24-352-01 [ThreatQuotient ThreatQ Platform](https://www.cisa.gov/news-events/ics-advisories/icsa-24-352-01)
+- ICSA-24-352-02 [Hitachi Energy TropOS Devices Series 1400/2400/6400](https://www.cisa.gov/news-events/ics-advisories/icsa-24-352-02)
+- ICSA-24-352-03 [Rockwell Automation PowerMonitor 1000 Remote](https://www.cisa.gov/news-events/ics-advisories/icsa-24-352-03)
+- ICSA-24-352-04 [Schneider Electric Modicon](https://www.cisa.gov/news-events/ics-advisories/icsa-24-352-04)
+- ICSMA-24-352-01 [BD Diagnostic Solutions Products](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-24-352-01)
