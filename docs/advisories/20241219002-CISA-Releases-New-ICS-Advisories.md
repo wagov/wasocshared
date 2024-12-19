@@ -8,9 +8,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 | Vendor  |
 | ------- |
-| NUUO |
+| NUUO    |
 | Reolink |
-|Siemens|
+| Siemens |
 
 ## Recommendation
 
