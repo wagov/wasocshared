@@ -6,9 +6,9 @@ Sophos has addressed three vulnerabilities, that could lead to SQL injection, pr
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)                                                | CVE                                                               | CVSS | Severity     |
-| ------------------- | --------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
-| Sophos Firewall   |  Sophos Firewall v21.0 GA (21.0.0) and older versions | [CVE-2024-12727](https://www.cve.org/CVERecord?id=CVE-2024-12727) <br> [CVE-2024-12728](https://www.cve.org/CVERecord?id=CVE-2024-12728) <br> [CVE-2024-12729](https://www.cve.org/CVERecord?id=CVE-2024-12729) | 9.8 <br> 9.8 <br> 8.8| **Critical** <br> **Critical** <br> **High** |
+| Product(s) Affected | Version(s)                                           | CVE                                                                                                                                                                                                             | CVSS                  | Severity                                     |
+| ------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | -------------------------------------------- |
+| Sophos Firewall     | Sophos Firewall v21.0 GA (21.0.0) and older versions | [CVE-2024-12727](https://www.cve.org/CVERecord?id=CVE-2024-12727) <br> [CVE-2024-12728](https://www.cve.org/CVERecord?id=CVE-2024-12728) <br> [CVE-2024-12729](https://www.cve.org/CVERecord?id=CVE-2024-12729) | 9.8 <br> 9.8 <br> 8.8 | **Critical** <br> **Critical** <br> **High** |
 
 ## What has been observed?
 
