@@ -6,13 +6,13 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor               |
-| -------------------- |
-| Hitachi              |
-| Siemens              |
-| Tibbo                |
-| Schneider Electric   |
-| Ossur                |
+| Vendor             |
+| ------------------ |
+| Hitachi            |
+| Siemens            |
+| Tibbo              |
+| Schneider Electric |
+| Ossur              |
 
 ## Recommendation
 
