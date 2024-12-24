@@ -5,7 +5,7 @@ mkdocs-material==9.5.49
 mkdocs-redirects==1.2.2
 pymdown-extensions==10.12
 mkdocs-linkcheck==1.0.6
-mdformat-gfm==0.3.7
+mdformat-gfm==0.4.1
 mdformat-mkdocs[recommended]==4.1.1
 beautifulsoup4==4.12.3
 diskcache==5.6.3
