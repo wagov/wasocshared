@@ -100,6 +100,7 @@ The security tools collecting telemetry should be capable of running both built-
 ### 5.1 Improving Microsoft Sentinel Detection Coverage
 
 !!! note "Under Review"
+
     The WA SOC's older detection and automation packs are currently being converted into an [external content repository](https://learn.microsoft.com/en-us/azure/sentinel/ci-cd?tabs=github) to enable better change management with git.
 
 To improve detection coverage within Microsoft Sentinel, please follow the WA SOC [telemetry re-ingestion](../onboarding/sentinel-guidance.md#3-third-party-solutions-telemetry-re-ingestion) and [incident synchronisation](../onboarding/sentinel-guidance.md#4-third-party-integrations-incident-synchronisation-only) guidance.

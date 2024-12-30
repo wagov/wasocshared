@@ -3,6 +3,7 @@
 ## 1. Overview
 
 !!! note
+
     This procedure is focused on establishing connectivity with the WA SOC, please refer to [our guidance on configuring sentinel and defender](onboarding/sentinel-guidance.md) for how to implement the associated tooling rapidly.
 
 There are 2 delegations of access an operational security team would need to assist a customer with managing their security events and detection rules. Our customer offerings below have been constructed around the type of ongoing access and assistance required:
@@ -13,6 +14,7 @@ There are 2 delegations of access an operational security team would need to ass
 - Azure Subscription Role: [Reader](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#reader)
 
 ??? note "Enhanced support tiers (optional)"
+
     **Tier 1 - Monitor:** Increased access for analysts to work on security incidents and detection rules ontop of **Tier 0**.
 
     - Microsoft 365 Tenant (Azure AD) Roles: [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader), [Security Operator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-operator)
@@ -64,6 +66,7 @@ Create a Defender for Endpoint role as follows. This will inherit from the above
 - **Assigned user groups:** WASOC-T0-Advisor
 
 ??? note "Enhanced support tiers (optional)"
+
     #### 2.2.2. Tier 1 Azure AD Group & Defender for Endpoint Roles
 
     Create an Azure AD group as follows. Any future changes to membership will be requested by the WA SOC.
@@ -118,6 +121,7 @@ Review the custom deployment details and ensure the location is Australia East, 
 The WASOC Dedicated Cluster program is an initiative to assist with reducing the total cost of ownership (TCO) of customers Sentinel Workspace. This is achieved by utilising a centralised [pricing model](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#cluster-pricing-model) offered by Microsoft as part of the [dedicated cluster services](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#advanced-capabilities).
 
 ??? note "Customer Prerequisite"
+
     The dedicated cluster has prerequisites that **must** be met to have the minimum technical requirements to onboard ([link](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#link-a-workspace-to-a-cluster)) an sentinel workspace.
 
     The prerequisites as follows.
