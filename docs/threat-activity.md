@@ -17,7 +17,6 @@ Recent WA SOC advisories this month worth staying across include:
 - ASD's ACSC published an advisory on Mitel Micollab Critical vulnerabilities: [Mitel Micollab Critical Advisory](https://soc.cyber.wa.gov.au/advisories/20241209001-Mitel-Micollab-Critical-Advisory/#overview)
 - Apache published advisory for Struts Critical vulnerabilities: [Apache Struts Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20241213002-Apache-Struts-Critical-Vulnerability)
 
-
 Agencies should review the latest [WA Government Cyber Security Policy](https://www.wa.gov.au/government/publications/2024-wa-government-cyber-security-policy)
 
 ## WASOC - General Advice
