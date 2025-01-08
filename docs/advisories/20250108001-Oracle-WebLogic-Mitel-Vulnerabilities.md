@@ -29,4 +29,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- Zero Day Initiative: \<https://www.zerodayinitiative.com/advisories/ZDI-20-504/
+- Zero Day Initiative: <https://www.zerodayinitiative.com/advisories/ZDI-20-504/>
