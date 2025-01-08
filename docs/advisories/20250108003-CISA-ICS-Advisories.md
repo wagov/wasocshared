@@ -1,4 +1,4 @@
-# CISA Releases New ICS Advisories - 20250108003 
+# CISA Releases New ICS Advisories - 20250108003
 
 ## Overview
 
@@ -6,10 +6,10 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor  |
-| ------- |
-| ABB     |
-| Nedap   |
+| Vendor |
+| ------ |
+| ABB    |
+| Nedap  |
 
 ## Recommendation
 
