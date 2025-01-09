@@ -59,4 +59,5 @@ If an external Managed Security Service Provider (MSSP) is used the contract man
 - [ ] Quarterly reporting on detection improvements and incident data quality (classification and severity)
 
 !!! note "Complexity management"
+
     Consolidating MSP and MSSP services to deliver both IT management (endpoints, identities, infrastructure and platforms) and security operations functions from a single provider greatly reduces the complexity of vendor management. For business applications that aren't aligned with an organisations core enterprise architecture, they should be procured as fully managed services (i.e. SaaS) to minimise the complexity of shared responsibilities and associated risk which that incurs.

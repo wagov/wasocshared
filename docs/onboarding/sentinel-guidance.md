@@ -28,11 +28,13 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 [Configuring retention for 12 months](https://learn.microsoft.com/en-us/azure/sentinel/configure-data-retention) is recommended to ensure logs are available for investigations and threat hunting. For high volume telemetry sources, [streaming events to object storage](https://learn.microsoft.com/en-us/defender-xdr/streaming-api-storage) and using [lifecycle management to retain for 365 days](https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-configure?tabs=azure-portal#create-or-manage-a-policy) is a validated alternative that can be queried in place with tools like [DuckDB to Azure Blob storage](https://duckdb.org/docs/extensions/azure.html) (also supports [Amazon Security Lake](https://docs.aws.amazon.com/security-lake/latest/userguide/what-is-security-lake.html) via [S3 API](https://duckdb.org/docs/extensions/httpfs/s3api)), [Azure Data Explorer](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/schema-entities/external-tables) and [Amazon Athena](https://docs.aws.amazon.com/athena/latest/ug/getting-started.html).
 
 !!! note "Simplify telemetry collection"
+
     Moving [Configuration Manager to Intune](https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-intune-setup), [Fileshares to SharePoint](https://learn.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide) and [Identities from Active Directory to Entra](https://learn.microsoft.com/en-us/entra/architecture/road-to-the-cloud-migrate) are highly effective ways to improve security visibility while also reducing telemetry volume from self-managed platforms and servers.
 
 ## 3. Third party solutions (Telemetry re-ingestion)
 
 !!! note "Log Analytics Auxilary plan (preview)"
+
     The low cost [Auxiliary plan](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/create-custom-table-auxiliary) is now available in public preview on data collection rule-based custom tables you create using the [Tables - Create Or Update API](https://learn.microsoft.com/en-us/rest/api/loganalytics/tables/create-or-update), which is suitable for retention of third party log sources.
 
 [Deploy domain solutions with ASIM analytic rules](https://learn.microsoft.com/en-us/azure/sentinel/sentinel-solutions-catalog#domain-solutions) and connect associated telemetry for relevant products. Note for large environments this can be costly, so moving to incident synchronisation only may be more effective (see next section). Deploying the [ASIM Parsers](https://github.com/Azure/Azure-Sentinel/tree/master/ASIM) directly also makes developing and managing telemetry agnostic detection rules much easier.
