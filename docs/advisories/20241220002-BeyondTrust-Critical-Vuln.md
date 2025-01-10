@@ -18,8 +18,8 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *48 hours...* (refer [Patch Management](../guidelines/patch-management.md)):
 
-- BeyondTrust: https://www.beyondtrust.com/trust-center/security-advisories/bt24-10
+- BeyondTrust: <https://www.beyondtrust.com/trust-center/security-advisories/bt24-10>
 
 ## Additional References
 
-- BleepingComputer: https://www.bleepingcomputer.com/news/security/beyondtrust-says-hackers-breached-remote-support-saas-instances/
+- BleepingComputer: <https://www.bleepingcomputer.com/news/security/beyondtrust-says-hackers-breached-remote-support-saas-instances/>
