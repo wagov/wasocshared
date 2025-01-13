@@ -6,10 +6,10 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor  |
-| ------- |
-| Schneider Electric |
-| Delta Electronics |
+| Vendor              |
+| ------------------- |
+| Schneider Electric  |
+| Delta Electronics   |
 | Rockwell Automation |
 
 ## Recommendation
