@@ -8,12 +8,10 @@ The Advsiory warns about cyber threat actors, when compromising operational tech
 
 ## What has been observed?
 
-
-
 When security is not prioritized nor incorporated directly into OT products, it is difficult and costly for owners and operators to defend their OT assets against compromise. The [Secure by Demand](https://www.cisa.gov/resources-tools/resources/secure-demand-guide) guide, describes how OT owners and operators should integrate security into their procurement process when purchasing industrial automation and control systems as well as other OT products.
 
 ## Recommendation
 
 The WA SOC recommends administrators perform the following:
 
--   ASD Advisory: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/secure-by-design/secure-demand-priority-considerations-operational-technology-owners-and-operators-when-selecting-digital-products
+- ASD Advisory: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/secure-by-design/secure-demand-priority-considerations-operational-technology-owners-and-operators-when-selecting-digital-products
