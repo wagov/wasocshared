@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Australian Signals Directorate (ASD) have published a joint advisory on Secure by Demand guidance with prioirity considerations for operational technology owners and operators when selecting digital productys.
+The Australian Signals Directorate (ASD) have published a joint advisory on Secure by Demand guidance with priority considerations for operational technology owners and operators when selecting digital products.
 
 The Advsiory warns about cyber threat actors, when compromising operational technology (OT) components, target specific OT products rather than specific organizations. Many OT products are not designed and developed with [Secure by Design](https://www.cisa.gov/securebydesign) principles and commonly have weaknesses, such as weak authentication, known software vulnerabilities, limited logging, insecure default settings and passwords, and insecure legacy protocols. Cyber threat actors can easily exploit these weaknesses across multiple victims to gain access to control systems.
 
