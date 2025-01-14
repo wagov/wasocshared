@@ -14,4 +14,4 @@ When security is not prioritized nor incorporated directly into OT products, it 
 
 The WA SOC recommends administrators perform the following:
 
-- ASD Advisory: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/secure-by-design/secure-demand-priority-considerations-operational-technology-owners-and-operators-when-selecting-digital-products
+- ASD Advisory: <https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/secure-by-design/secure-demand-priority-considerations-operational-technology-owners-and-operators-when-selecting-digital-products>
