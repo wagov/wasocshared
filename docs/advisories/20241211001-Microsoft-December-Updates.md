@@ -15,9 +15,9 @@ Microsoft has released security updates to address vulnerabilities in multiple p
 
 ### Known Exploitation
 
-| Product(s) Affected            | Version(s)                                                        | CVE | CVSS |
-| ------------------------------ | ----------------------------------------------------------------- | --- | ---- |
-| Windows Common Log File System | [CVE-2024-49138](https://nvd.nist.gov/vuln/detail/CVE-2024-49138) | 7.8 | High |
+| Product(s) Affected            | CVE                                                               | CVSS | Severity |
+| ------------------------------ | ----------------------------------------------------------------- | ---- | -------- |
+| Windows Common Log File System | [CVE-2024-49138](https://nvd.nist.gov/vuln/detail/CVE-2024-49138) | 7.8  | High     |
 
 ## What has been observed?
 
