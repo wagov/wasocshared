@@ -8,11 +8,11 @@ Microsoft has released security updates to address 159 vulnerabilities in multip
 
 ### Critical Vulnerabilities
 
-| Product(s) Affected           | CVE                                                               | CVSS | Severity |
-| ----------------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| Windows NTLM | [CVE-2025-21311](https://nvd.nist.gov/vuln/detail/CVE-2025-21311) | 9.8  | Critical |
-| Windows OLE      | [CVE-2025-21298](https://nvd.nist.gov/vuln/detail/CVE-2025-21298) | 9.8  | Critical |
-| Reliable Multicast Transport Driver (RMCAST)      | [CVE-2025-21307](https://nvd.nist.gov/vuln/detail/CVE-2025-21307) | 9.8  | Critical |
+| Product(s) Affected                          | CVE                                                               | CVSS | Severity |
+| -------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Windows NTLM                                 | [CVE-2025-21311](https://nvd.nist.gov/vuln/detail/CVE-2025-21311) | 9.8  | Critical |
+| Windows OLE                                  | [CVE-2025-21298](https://nvd.nist.gov/vuln/detail/CVE-2025-21298) | 9.8  | Critical |
+| Reliable Multicast Transport Driver (RMCAST) | [CVE-2025-21307](https://nvd.nist.gov/vuln/detail/CVE-2025-21307) | 9.8  | Critical |
 
 ## What has been observed?
 
