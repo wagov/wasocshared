@@ -16,11 +16,11 @@ Microsoft has released security updates to address 159 vulnerabilities in multip
 
 ### Known Exploited
 
-| Product(s) Affected                          | CVE                                                               | CVSS | Severity |
-| -------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| Windows Hyper-V | [CVE-2025-21333](https://nvd.nist.gov/vuln/detail/CVE-2025-21333) | 7.8 | High |
-| Windows Hyper-V | [CVE-2025-21334](https://nvd.nist.gov/vuln/detail/CVE-2025-21334) | 7.8 | High |
-| Windows Hyper-V | [CVE-2025-21335](https://nvd.nist.gov/vuln/detail/CVE-2025-21335) | 7.8 | High |
+| Product(s) Affected | CVE                                                               | CVSS | Severity |
+| ------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Windows Hyper-V     | [CVE-2025-21333](https://nvd.nist.gov/vuln/detail/CVE-2025-21333) | 7.8  | High     |
+| Windows Hyper-V     | [CVE-2025-21334](https://nvd.nist.gov/vuln/detail/CVE-2025-21334) | 7.8  | High     |
+| Windows Hyper-V     | [CVE-2025-21335](https://nvd.nist.gov/vuln/detail/CVE-2025-21335) | 7.8  | High     |
 
 ## What has been observed?
 
@@ -33,5 +33,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 - Microsoft January 2025 Security Updates: <https://msrc.microsoft.com/update-guide/releaseNote/2025-Jan>
 
 ### Change Log
+
 - 2025-01-15: Initial Publication
 - 2025-01-16: Added "Known Exploited" CVEs
