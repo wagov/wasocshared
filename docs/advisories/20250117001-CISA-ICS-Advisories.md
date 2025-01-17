@@ -6,14 +6,14 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor                                     |
-| ------------------------------------------ |
-| Hitachi energy                             |
-| Schneider Electric                         |
-| Mitsubishi Electric |
-| Siemens |
-| Fuji Electric |
-| Delta Electronics |
+| Vendor                |
+| --------------------- |
+| Hitachi energy        |
+| Schneider Electric    |
+| Mitsubishi Electric   |
+| Siemens               |
+| Fuji Electric         |
+| Delta Electronics     |
 | Johnson Controls Inc. |
 
 ## Recommendation
