@@ -2,7 +2,7 @@
 
 ## Overview
 
-Oracle has published a critical patch advisory that includes 318 patches across 27 products. Oracle has stated that they aware of actors successfully exploiting known vulnerabilities in their products.
+Oracle has published a critical patch advisory that includes 318 patches across 27 products. Oracle has stated that they are aware of actors successfully exploiting known vulnerabilities in their products.
 
 ## What is vulnerable?
 
