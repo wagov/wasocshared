@@ -6,7 +6,7 @@ Oracle has published a critical patch advisory that includes 318 patches across 
 
 ## What is vulnerable?
 
-Please review the [Oracle Critical Patch Update Advisory - January 2025](https://www.oracle.com/security-alerts/cpujan2025.html) for details regarding the vulnerabilities and affected products. 
+Please review the [Oracle Critical Patch Update Advisory - January 2025](https://www.oracle.com/security-alerts/cpujan2025.html) for details regarding the vulnerabilities and affected products.
 
 ## What has been observed?
 
