@@ -6,11 +6,11 @@ CISA has released three advisories for Industrial Control Systems (ICS) related 
 
 ## What is vulnerable?
 
-| Vendor                |
-| --------------------- |
-| TCAS       |
-| Siemens               |
-| ZF                    |
+| Vendor  |
+| ------- |
+| TCAS    |
+| Siemens |
+| ZF      |
 
 ## Recommendation
 
