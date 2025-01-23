@@ -10,18 +10,17 @@ Please review the [Oracle Critical Patch Update Advisory - January 2025](https:/
 
 ### Critical Severity
 
-| CVE | CVSS |
-|  --- | --- |
-| [CVE-2025-21524](https://nvd.nist.gov/vuln/detail/CVE-2025-21524) | 9.8 |
-| [CVE-2023-3961](https://nvd.nist.gov/vuln/detail/CVE-2023-3961) | 9.8 |
-| [CVE-2024-23807](https://nvd.nist.gov/vuln/detail/CVE-2024-23807) | 9.8 |
-| [CVE-2023-46604](https://nvd.nist.gov/vuln/detail/CVE-2023-46604) | 9.8 |
-| [CVE-2024-45492](https://nvd.nist.gov/vuln/detail/CVE-2024-45492) | 9.8 |
-| [CVE-2024-56337](https://nvd.nist.gov/vuln/detail/CVE-2024-56337) | 9.8 |
-| [CVE-2025-21535](https://nvd.nist.gov/vuln/detail/CVE-2025-21535) | 9.8 |
-| [CVE-2016-1000027](https://nvd.nist.gov/vuln/detail/CVE-2016-1000027) | 9.8 |
-| [CVE-2023-29824](https://nvd.nist.gov/vuln/detail/CVE-2023-29824) | 9.8 |
-
+| CVE                                                                   | CVSS |
+| --------------------------------------------------------------------- | ---- |
+| [CVE-2025-21524](https://nvd.nist.gov/vuln/detail/CVE-2025-21524)     | 9.8  |
+| [CVE-2023-3961](https://nvd.nist.gov/vuln/detail/CVE-2023-3961)       | 9.8  |
+| [CVE-2024-23807](https://nvd.nist.gov/vuln/detail/CVE-2024-23807)     | 9.8  |
+| [CVE-2023-46604](https://nvd.nist.gov/vuln/detail/CVE-2023-46604)     | 9.8  |
+| [CVE-2024-45492](https://nvd.nist.gov/vuln/detail/CVE-2024-45492)     | 9.8  |
+| [CVE-2024-56337](https://nvd.nist.gov/vuln/detail/CVE-2024-56337)     | 9.8  |
+| [CVE-2025-21535](https://nvd.nist.gov/vuln/detail/CVE-2025-21535)     | 9.8  |
+| [CVE-2016-1000027](https://nvd.nist.gov/vuln/detail/CVE-2016-1000027) | 9.8  |
+| [CVE-2023-29824](https://nvd.nist.gov/vuln/detail/CVE-2023-29824)     | 9.8  |
 
 ## What has been observed?
 
@@ -38,5 +37,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 - TheHackerNews: <https://thehackernews.com/2025/01/oracle-releases-january-2025-patch-to.html>
 
 ### Change Log
+
 - 2025-01-22: Initial publication
 - 2025-01-23: Added critically rated CVEs and reference
