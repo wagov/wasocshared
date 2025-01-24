@@ -6,12 +6,12 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor  |
-| ------- |
+| Vendor                |
+| --------------------- |
 | mySCADA myPRO Manager |
-| Hitachi Energy |
-| Schneider Electric |
-| HMS Networks |
+| Hitachi Energy        |
+| Schneider Electric    |
+| HMS Networks          |
 
 ## Recommendation
 
