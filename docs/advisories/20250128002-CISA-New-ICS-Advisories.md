@@ -1,4 +1,4 @@
-# CISA Releases New ICS Advisories - 2025MMDD001
+# CISA Releases New ICS Advisories - 20250128002
 
 ## Overview
 
@@ -8,11 +8,13 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 | Vendor  |
 | ------- |
-| Vendor1 |
-| Vendor2 |
+| mySCADA |
+| Hitachi Energy |
+| Schneider Electric |
+| HMS Networks |
 
 ## Recommendation
 
 The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
 
-- CISA: <URL>
+- CISA: <https://www.cisa.gov/news-events/alerts/2025/01/23/cisa-releases-six-industrial-control-systems-advisories>
