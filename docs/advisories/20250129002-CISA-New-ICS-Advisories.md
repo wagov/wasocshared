@@ -6,11 +6,11 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor             |
-| ------------------ |
-| B&R |
-| Schneider Electric |
-| Rockwell Automation |
+| Vendor                             |
+| ---------------------------------- |
+| B&R                                |
+| Schneider Electric                 |
+| Rockwell Automation                |
 | Becton, Dickinson and Company (BD) |
 
 ## Recommendation
