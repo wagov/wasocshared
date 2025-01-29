@@ -8,10 +8,10 @@ Successful exploitation of this vulnerability allows a remote unauthenticated at
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-| ------------------- | ---------- | --- | ---- | -------------------------------------------------------------- |
-| Gen7 Firewalls, Gen7 NSv | 7.1.1-7058 and older <br> 7.1.2-7019 | [CVE-2024-53704](https://nvd.nist.gov/vuln/detail/CVE-2024-53704) | 9.8 | **Critical** |
-| TZ80 | Version 8.0.0-8035 | [CVE-2024-53704](https://nvd.nist.gov/vuln/detail/CVE-2024-53704) | 9.8 | **Critical** |
+| Product(s) Affected      | Version(s)                           | CVE                                                               | CVSS | Severity     |
+| ------------------------ | ------------------------------------ | ----------------------------------------------------------------- | ---- | ------------ |
+| Gen7 Firewalls, Gen7 NSv | 7.1.1-7058 and older <br> 7.1.2-7019 | [CVE-2024-53704](https://nvd.nist.gov/vuln/detail/CVE-2024-53704) | 9.8  | **Critical** |
+| TZ80                     | Version 8.0.0-8035                   | [CVE-2024-53704](https://nvd.nist.gov/vuln/detail/CVE-2024-53704) | 9.8  | **Critical** |
 
 ## What has been observed?
 
