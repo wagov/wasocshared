@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WA SOC has been made aware a critical authentication vulnerability in SonicOS products.
+The WA SOC has been made aware of a critical authentication vulnerability in SonicOS products.
 
 Successful exploitation of this vulnerability allows a remote unauthenticated attacker to hijack existing authenticated client SSLVPN sessions. Multi-factor authentication is bypassed during exploitation, facilitating initial access even via accounts with MFA enabled. Exploitation does not require the knowledge of an existing username or password.
 
