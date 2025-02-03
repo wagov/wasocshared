@@ -6,12 +6,12 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor  |
-| ------- |
-| Hitachi Energy |
-| Schneider Electric |
+| Vendor              |
+| ------------------- |
+| Hitachi Energy      |
+| Schneider Electric  |
 | Rockwell Automation |
-| Contec Health |
+| Contec Health       |
 | Mitsubishi Electric |
 
 ## Recommendation
