@@ -2,7 +2,7 @@
 
 ## Overview
 
-BeyondTrust has issued an advisory relating to a security incident that involved 17 Remote Support SaaS customers, originally identified in Dcember 2024. Further analysis identified a BeyondTrust infrastructure API key for Remote Support SaaS had been compromised and used to enable access to certain Remote Support SaaS instances by resetting local application passwords.
+BeyondTrust has issued an advisory relating to a security incident that involved 17 Remote Support SaaS customers, originally identified in December 2024. Further analysis identified a BeyondTrust infrastructure API key for Remote Support SaaS had been compromised and used to enable access to certain Remote Support SaaS instances by resetting local application passwords.
 
 BeyondTrust have stated that no products outside of Remote Support SaaS were affected.
 
