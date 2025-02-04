@@ -12,13 +12,13 @@ The scam emails and phone calls also create a sense of urgency to try and pressu
 
 ASD will **never**:
 
--   Ask for your personal information such as your passwords, bank details or answers to your security questions.
--   Send you an email with a link to 'antivirus' software or remote access applications such as 'AnyDesk' or 'TeamViewer'.
-    -   If you click on a link sent by a cybercriminal, there is potential that malicious software could be downloaded and installed to your computer.
--   Ask you to purchase gift cards or cryptocurrency.
-    -   ASD's ACSC does not charge money for their services.
-    -   If you receive a call from someone claiming to be them regarding money or requesting you move your money out of your bank account, assume you have been contacted by a cybercriminal.
--   Tell you that your IP is being used to access illegal websites or facilitate illegal activities, such as child exploitation material or money laundering.
--   Stop you from hanging up the phone.
-    -   We will never threaten or pressure you to stay on the line.
-    -   A real ASD's ACSC employee will always encourage you to hang up and call 1300 CYBER1 to confirm you are speaking to us.
+- Ask for your personal information such as your passwords, bank details or answers to your security questions.
+- Send you an email with a link to 'antivirus' software or remote access applications such as 'AnyDesk' or 'TeamViewer'.
+    - If you click on a link sent by a cybercriminal, there is potential that malicious software could be downloaded and installed to your computer.
+- Ask you to purchase gift cards or cryptocurrency.
+    - ASD's ACSC does not charge money for their services.
+    - If you receive a call from someone claiming to be them regarding money or requesting you move your money out of your bank account, assume you have been contacted by a cybercriminal.
+- Tell you that your IP is being used to access illegal websites or facilitate illegal activities, such as child exploitation material or money laundering.
+- Stop you from hanging up the phone.
+    - We will never threaten or pressure you to stay on the line.
+    - A real ASD's ACSC employee will always encourage you to hang up and call 1300 CYBER1 to confirm you are speaking to us.
