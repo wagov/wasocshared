@@ -1,4 +1,4 @@
-# CISA Releases New ICS Advisories - 2024MMDD001
+# CISA Releases New ICS Advisories - 2025MMDD001
 
 ## Overview
 
