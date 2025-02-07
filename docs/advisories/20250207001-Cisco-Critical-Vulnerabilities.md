@@ -4,13 +4,11 @@
 
 Multiple vulnerabilities in Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to execute arbitrary commands and elevate privileges on an affected device.
 
-
-
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Cisco Identity Services Engine (ISE) <br> Cisco ISE Passive Identity Connector (ISE-PIC)      | Versions **prior to 3.4**    | [CVE-2025-20124](https://nvd.nist.gov/vuln/detail/CVE-2025-20124) <br> [CVE-2025-20125](https://nvd.nist.gov/vuln/detail/CVE-2025-20125) | 9.9 <br> 9.1 | **Critical** <br> **Critical** |
+| Product(s) Affected                                                                      | Version(s)                | CVE                                                                                                                                      | CVSS         | Severity                       |
+| ---------------------------------------------------------------------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------ |
+| Cisco Identity Services Engine (ISE) <br> Cisco ISE Passive Identity Connector (ISE-PIC) | Versions **prior to 3.4** | [CVE-2025-20124](https://nvd.nist.gov/vuln/detail/CVE-2025-20124) <br> [CVE-2025-20125](https://nvd.nist.gov/vuln/detail/CVE-2025-20125) | 9.9 <br> 9.1 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 
