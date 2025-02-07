@@ -8,7 +8,7 @@ Multiple vulnerabilities in Cisco Identity Services Engine (ISE) could allow an 
 
 | Product(s) Affected                                                                      | Version(s)                                                              | CVE                                                                                                                                      | CVSS         | Severity                       |
 | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------ |
-| Cisco Identity Services Engine (ISE) <br> Cisco ISE Passive Identity Connector (ISE-PIC) | 3.0 all versions <br> 3.1 to 3.1P10 <br> 3.2 to 3.2P7 <br> 3.3 to 3.3P4 | [CVE-2025-20124](https://nvd.nist.gov/vuln/detail/CVE-2025-20124) <br> [CVE-2025-20125](https://nvd.nist.gov/vuln/detail/CVE-2025-20125) | 9.9 <br> 9.1 | **Critical** <br> **Critical** |
+| Cisco Identity Services Engine (ISE) <br> Cisco ISE Passive Identity Connector (ISE-PIC) | 3.0 all versions <br> 3.1 lower than 3.1P10 <br> 3.2 lower than 3.2P7 <br> 3.3 lower than 3.3P4 | [CVE-2025-20124](https://nvd.nist.gov/vuln/detail/CVE-2025-20124) <br> [CVE-2025-20125](https://nvd.nist.gov/vuln/detail/CVE-2025-20125) | 9.9 <br> 9.1 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 
