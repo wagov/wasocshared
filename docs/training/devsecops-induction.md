@@ -6,25 +6,6 @@ The Learning Journey (<https://taggartinstitute.org/p/the-learning-journey>) is 
 
 Note: Timeline estimates assume 5-10 hours of study per week alongside regular work duties. Progress may vary based on prior experience and available study time.
 
-### 1.1. Useful tools
-
-Development Environment
-
-- Whiteboard/Diagrams <https://excalidraw.com/> (can import/edit mermaid diagrams)
-- Github <https://docs.github.com/en/codespaces/getting-started/quickstart>
-
-Kubernetes (CNCF) Tools
-
-- Skaffold <https://skaffold.dev/docs/quickstart/>
-- Minikube <https://kubernetes.io/docs/tutorials/hello-minikube/>
-- Talos Linux <https://www.talos.dev/v1.8/introduction/getting-started/>
-
-Infrastructure as Code
-
-- Terraform tutorial <https://developer.hashicorp.com/terraform/tutorials/configuration-language>
-- AWS IaC <https://developer.hashicorp.com/terraform/tutorials/aws-get-started>
-- Azure IaC <https://developer.hashicorp.com/terraform/tutorials/azure-get-started>
-
 ## 2. Free Training Resources
 
 These are our recommended resources for building core technical skillsets.
@@ -43,6 +24,7 @@ The below links will get you across the cloud native methodology to build, test 
     - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs): Use the Amazon Web Services (AWS) provider to interact with the many resources supported by AWS.
     - [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest): The Azure Provider can be used to configure infrastructure in Microsoft Azure using the Azure Resource Manager API's.
 - [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/): A tutorial providing a walkthrough of the basics of Kubernetes workload orchestration.
+    - [Skaffold](https://skaffold.dev/) handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
 - [Nine Key Cloud Security Concentrations & SWAT Checklist](https://www.sans.org/posters/nine-key-cloud-security-concentrations-swat-checklist/): A set of best practices for cloud security, broken down by AWS, Azure, and GCP, to help create more secure applications.
 
 ### 2.2. Cloud Platform Essentials (2-3 weeks)
@@ -118,3 +100,18 @@ Otherwise the lower cost certs below are all a fair bit shorter while also being
 - [Linux Foundation Certified Kubernetes Administrator (CKA) + Certified Kubernetes Application Developer (CKAD) + Certified Kubernetes Security Specialist (CKS) Exam Bundle](https://training.linuxfoundation.org/training/cka-ckad-cks-exam-bundle/)
 - [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 - [Microsoft Certified: Azure Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification)
+
+## 4. Useful tools
+
+- [excalidraw](https://excalidraw.com/): Virtual whiteboard for sketching hand-drawn like diagrams, can import/edit mermaid diagrams.
+- [Talos Linux](https://www.talos.dev/) is Linux designed for Kubernetes – secure, immutable, and minimal. It only takes 3 minutes to [launch a Talos cluster](https://www.talos.dev/docs/latest/introduction/quickstart/) on your laptop inside Docker.
+- [Percona Everest](https://docs.percona.com/everest/index.html): open-source platform for automated database provisioning and management. It supports multiple database technologies and can be hosted on any Kubernetes infrastructure, in the cloud or on-premises.
+- [LocalStack](https://docs.localstack.cloud/getting-started/) is a cloud service emulator that runs in a single container on your laptop or in your CI environment. With LocalStack, you can run your AWS applications or Lambdas entirely on your local machine without connecting to a remote cloud provider!
+
+### 4.1 Certified Kubernetes platforms
+
+The below hyperscaler managed [Certified Kubernetes platforms](https://www.cncf.io/training/certification/software-conformance/#logos) all automate the operations of compute nodes, block storage and network load balancers which greatly simplifies running k8s workloads.
+
+- [Amazon EKS – EKS Auto Mode](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-automode.html)
+- [Azure Kubernetes Service (AKS) Automatic](https://learn.microsoft.com/en-us/azure/aks/intro-aks-automatic)
+- [Google Kubernetes Engine (GKE) Autopilot mode](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-an-autopilot-cluster)
