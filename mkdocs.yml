@@ -94,6 +94,7 @@ nav:
 - Training:
   - Security Analyst Induction: training/analyst-induction.md
   - Azure Basics: training/azure-basics.md
+  - DevSecOps Induction: training/devsecops-induction.md
 - WA Gov Links:
   - Incident Reporting Portal (IRP): https://irp.dpc.wa.gov.au
   - Digital Government (DGOV): https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government
