@@ -35,7 +35,7 @@ The below links will get you across the cloud native methodology to build, test 
     - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs): Use the Amazon Web Services (AWS) provider to interact with the many resources supported by AWS.
     - [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest): The Azure Provider can be used to configure infrastructure in Microsoft Azure using the Azure Resource Manager API's.
 - [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/): A tutorial providing a walkthrough of the basics of Kubernetes workload orchestration.
-    - [Skaffold](https://skaffold.dev/) handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
+    - [Skaffold](https://skaffold.dev/) handles the workflow for building, pushing and deploying your application, allowing you to focus on writing code.
 - [Nine Key Cloud Security Concentrations & SWAT Checklist](https://www.sans.org/posters/nine-key-cloud-security-concentrations-swat-checklist/): A set of best practices for cloud security, broken down by AWS, Azure, and GCP, to help create more secure applications.
 
 ### 2.2. Cloud Platform Essentials (2-3 weeks)
