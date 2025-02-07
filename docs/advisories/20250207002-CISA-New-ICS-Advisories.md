@@ -6,13 +6,13 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor  |
-| ------- |
+| Vendor             |
+| ------------------ |
 | Schneider Electric |
-| Abb |
-| Trimble |
-| MicroDicom |
-| Orthanc |
+| Abb                |
+| Trimble            |
+| MicroDicom         |
+| Orthanc            |
 
 ## Recommendation
 
