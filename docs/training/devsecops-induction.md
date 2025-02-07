@@ -69,7 +69,7 @@ For backends, using a modern API framework like [Huma](https://huma.rocks/why/) 
 - [Safestack intro course](https://safestack.io/free-application-security-program/)
 - [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/) for software executing on servers (such as Websites and API’s) - default to ASVS Level 2
 - [OWASP Mobile ASVS](https://mas.owasp.org/MASVS/) for software executing on clients (such as Mobile Applications) - default to MAS-L2
-- Testing & QA - Scan for vulnerabilities and configuration/secret issues with [Trivy](https://aquasecurity.github.io/trivy/), [Prowler](https://github.com/prowler-cloud/prowler) and [checkov](https://github.com/bridgecrewio/checkov)
+- Testing & QA - Scan for vulnerabilities and configuration/secret issues with [Trivy](https://aquasecurity.github.io/trivy/), [Prowler](https://github.com/prowler-cloud/prowler) and [checkov](https://github.com/bridgecrewio/checkov). Run static analysis of codebases to find common issues with [semgrep](https://github.com/semgrep/semgrep), [CodeQL](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql) or [Snyq](https://docs.snyk.io/snyk-cli/getting-started-with-the-snyk-cli)
 - Testing & QA - Test websites with [playwright](https://playwright.dev/) and APIs with [Hurl](https://github.com/Orange-OpenSource/hurl) or [Grafana K6](https://github.com/grafana/k6).
 
 #### Data Integration (2-3 weeks each)
@@ -118,7 +118,9 @@ Otherwise the lower cost certs below are all a fair bit shorter while also being
 - [excalidraw](https://excalidraw.com/): Virtual whiteboard for sketching hand-drawn like diagrams, can import/edit mermaid diagrams.
 - [Talos Linux](https://www.talos.dev/) is Linux designed for Kubernetes – secure, immutable, and minimal. It only takes 3 minutes to [launch a Talos cluster](https://www.talos.dev/docs/latest/introduction/quickstart/) on your laptop inside Docker.
 - [Percona Everest](https://docs.percona.com/everest/index.html): open-source platform for automated database provisioning and management. It supports multiple database technologies and can be hosted on any Kubernetes infrastructure, in the cloud or on-premises.
-- [LocalStack](https://docs.localstack.cloud/getting-started/) is a cloud service emulator that runs in a single container on your laptop or in your CI environment. With LocalStack, you can run your AWS applications or Lambdas entirely on your local machine without connecting to a remote cloud provider!
+- [LocalStack](https://docs.localstack.cloud/getting-started/) is a cloud service emulator that runs in a single container on your laptop or in your CI environment.
+- [project Bluefin](https://projectbluefin.io/): Linux workstation, designed for reliability, performance, and sustainability.
+- [Homebrew](https://brew.sh/): The Missing Package Manager for macOS (or Linux)
 
 ### 4.1 Certified Kubernetes platforms
 
