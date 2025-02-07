@@ -29,7 +29,8 @@ The below links will get you across the cloud native methodology to build, test 
 
 - [GitLab Basics: Start Using Git:](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html) Learn how to set up Git, clone repositories, and work with branches using GitLab. GitLab Basics: Start Using Git
 - [GitHub Codespaces: Using Source Control](https://docs.github.com/en/codespaces/developing-in-a-codespace/using-source-control-in-your-codespace): Perform all Git actions directly within your codespace, including committing changes, creating branches, and raising pull requests.
-- [GitHub Actions: Writing Workflows Quickstart](https://docs.github.com/en/actions/writing-workflows/quickstart): A quickstart guide to creating workflows that automate your build, test, and deployment pipeline using GitHub Actions.
+- [GitHub Actions: Writing Workflows Quickstart](https://docs.github.com/en/actions/writing-workflows/quickstart): automate your build, test, and deployment pipeline.
+    - [just](https://just.systems/man/en/) is a handy way to save and run project-specific commands. Note that its a cleaner approach to design and implement actions using a tool like `just` in your project, and then call the tool from your CI/CD tooling (like GitHub Actions) to make it straightforward to test locally and keep logic portable between CI/CD tools.
 - [Ansible YAML Syntax](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html): An overview of correct YAML syntax used in Ansible playbooks, including lists, dictionaries, and more.
 - [Terraform Configuration Syntax](https://www.terraform.io/docs/configuration/syntax.html): Detailed description of the syntax used in Terraform configuration files, including arguments and blocks.
     - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs): Use the Amazon Web Services (AWS) provider to interact with the many resources supported by AWS.
@@ -69,7 +70,7 @@ For backends, using a modern API framework like [Huma](https://huma.rocks/why/) 
 - [Safestack intro course](https://safestack.io/free-application-security-program/)
 - [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/) for software executing on servers (such as Websites and API’s) - default to ASVS Level 2
 - [OWASP Mobile ASVS](https://mas.owasp.org/MASVS/) for software executing on clients (such as Mobile Applications) - default to MAS-L2
-- Testing & QA - Scan for vulnerabilities and configuration/secret issues with [Trivy](https://aquasecurity.github.io/trivy/), [Prowler](https://github.com/prowler-cloud/prowler) and [checkov](https://github.com/bridgecrewio/checkov). Run static analysis of codebases to find common issues with [semgrep](https://github.com/semgrep/semgrep), [CodeQL](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql) or [Snyq](https://docs.snyk.io/snyk-cli/getting-started-with-the-snyk-cli)
+- Testing & QA - Scan for vulnerabilities and configuration/secret issues with [Trivy](https://aquasecurity.github.io/trivy/), [Prowler](https://github.com/prowler-cloud/prowler) and [checkov](https://github.com/bridgecrewio/checkov). Run static analysis of codebases to find common issues with [semgrep](https://github.com/semgrep/semgrep), [CodeQL](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql) or [Snyq](https://docs.snyk.io/snyk-cli/getting-started-with-the-snyk-cli).
 - Testing & QA - Test websites with [playwright](https://playwright.dev/) and APIs with [Hurl](https://github.com/Orange-OpenSource/hurl) or [Grafana K6](https://github.com/grafana/k6).
 
 #### Data Integration (2-3 weeks each)
@@ -121,6 +122,7 @@ Otherwise the lower cost certs below are all a fair bit shorter while also being
 - [LocalStack](https://docs.localstack.cloud/getting-started/) is a cloud service emulator that runs in a single container on your laptop or in your CI environment.
 - [project Bluefin](https://projectbluefin.io/): Linux workstation, designed for reliability, performance, and sustainability.
 - [Homebrew](https://brew.sh/): The Missing Package Manager for macOS (or Linux)
+- [just](https://just.systems/man/en/) is a handy way to save and run project-specific commands.
 
 ### 4.1 Certified Kubernetes platforms
 
