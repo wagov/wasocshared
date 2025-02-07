@@ -2,7 +2,18 @@
 
 ## 1. Getting Started
 
-The Learning Journey (<https://taggartinstitute.org/p/the-learning-journey>) is an excellent starting point for how to self teach using resources like those below.
+[The Learning Journey](https://taggartinstitute.org/p/the-learning-journey) is an excellent starting point for how to self teach using resources like those below.
+
+By the end of the learning journey course, the learner should be able to:
+
+- Use [Obsidian](https://obsidian.md/) for note-taking and planning
+- Recognize the various [levels of learning](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy)
+- Create a Learning Plan and Study Map to guide their journey (also see [Maker Skill Trees](https://github.com/sjpiper145/MakerSkillTree))
+- Effectively evaluate learning/information resources for quality and appropriateness
+- Self-assess learning via metacognition
+- Create Exhibitions of Mastery to demonstrate success
+
+![Blooms Taxonomy](../images/blooms-taxonomy.png)
 
 Note: Timeline estimates assume 5-10 hours of study per week alongside regular work duties. Progress may vary based on prior experience and available study time.
 
@@ -101,8 +112,9 @@ Otherwise the lower cost certs below are all a fair bit shorter while also being
 - [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 - [Microsoft Certified: Azure Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification)
 
-## 4. Useful tools
+## 4. Useful links and tools
 
+- [Maker Skill Trees](https://github.com/sjpiper145/MakerSkillTree) are printable templates that can you can use to visualize your skill progress, identify skill gaps and get inspired to try new things.
 - [excalidraw](https://excalidraw.com/): Virtual whiteboard for sketching hand-drawn like diagrams, can import/edit mermaid diagrams.
 - [Talos Linux](https://www.talos.dev/) is Linux designed for Kubernetes – secure, immutable, and minimal. It only takes 3 minutes to [launch a Talos cluster](https://www.talos.dev/docs/latest/introduction/quickstart/) on your laptop inside Docker.
 - [Percona Everest](https://docs.percona.com/everest/index.html): open-source platform for automated database provisioning and management. It supports multiple database technologies and can be hosted on any Kubernetes infrastructure, in the cloud or on-premises.
