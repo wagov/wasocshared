@@ -2,7 +2,7 @@
 
 ## Overview
 
-Apple have released a security advisory impacting multiple products containing a vulnerability known to be exploited in the wild.
+Apple has released patches for an actively exploited iOS zero-day vulnerabilities. The vulnerability could lead to an authorisation issue, allowing a malicious actor to disable USB Restricted Mode on a locked device, potentially enabling a cyber-physical attack.  
 
 ## What is vulnerable?
 
