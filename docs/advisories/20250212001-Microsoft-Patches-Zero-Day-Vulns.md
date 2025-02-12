@@ -1,8 +1,8 @@
-# Microsoft Patches Zero Day Vulnerabilities - 20250212001
+# Microsoft Monthly Security Updates - 20250212001
 
 ## Overview
 
-Microsoft has released security updates to address 63 vulnerabilities in multiple products, 2 of which have been noted for exploitation detected.
+Microsoft has released security updates to address 63 vulnerabilities in multiple products, 2 of which have been labeled as exploitation detected.
 
 ## What is vulnerable?
 
