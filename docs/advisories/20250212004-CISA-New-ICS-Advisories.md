@@ -10,7 +10,6 @@ CISA has released two advisories for Industrial Control Systems (ICS) related ve
 | ------- |
 | 2N      |
 | Trimble |
-|         |
 
 ## Recommendation
 
