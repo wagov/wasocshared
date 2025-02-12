@@ -2,7 +2,7 @@
 
 ## Overview
 
-Apple has released patches for an actively exploited iOS zero-day vulnerabilities. The vulnerability could lead to an authorisation issue, allowing a malicious actor to disable USB Restricted Mode on a locked device, potentially enabling a cyber-physical attack.  
+Apple has released patches for an actively exploited iOS zero-day vulnerabilities. The vulnerability could lead to an authorisation issue, allowing a malicious actor to disable USB Restricted Mode on a locked device, potentially enabling a cyber-physical attack.
 
 ## What is vulnerable?
 
