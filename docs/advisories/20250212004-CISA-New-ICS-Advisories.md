@@ -6,11 +6,11 @@ CISA has released two advisories for Industrial Control Systems (ICS) related ve
 
 ## What is vulnerable?
 
-| Vendor             |
-| ------------------ |
-| 2N                 |
-| Trimble            |
-| 
+| Vendor  |
+| ------- |
+| 2N      |
+| Trimble |
+|         |
 
 ## Recommendation
 
