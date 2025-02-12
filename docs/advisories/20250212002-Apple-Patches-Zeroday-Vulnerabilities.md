@@ -6,10 +6,9 @@ Apple have released a security advisory impacting multiple products containing a
 
 ## What is vulnerable?
 
-| Product(s) Affected                                         | CVE                                                               | CVSS | Severity |
-| ----------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| iOS < 18.3.1 <br> iPadOS < 18.3.1 <br> iPadOS < 17.7.5     | [CVE-2025-24200](https://nvd.nist.gov/vuln/detail/CVE-2025-24200) | 4.6  | Medium     |
-
+| Product(s) Affected                                    | CVE                                                               | CVSS | Severity |
+| ------------------------------------------------------ | ----------------------------------------------------------------- | ---- | -------- |
+| iOS < 18.3.1 <br> iPadOS < 18.3.1 <br> iPadOS < 17.7.5 | [CVE-2025-24200](https://nvd.nist.gov/vuln/detail/CVE-2025-24200) | 4.6  | Medium   |
 
 ## What has been observed?
 
@@ -23,7 +22,5 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 - Apple iSO 17.7.5 : <https://support.apple.com/en-us/122173>
 
 ### Additional Resources
-- Apple security releases: <https://support.apple.com/en-us/100100>  
 
-
-
+- Apple security releases: <https://support.apple.com/en-us/100100>
