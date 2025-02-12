@@ -37,7 +37,7 @@ ACSC also published an excellent [ACSC Cyber Incident Response Plan - Word Templ
 ## 2. Getting access
 
 - Agencies can request access by emailing [cybersecurity@dpc.wa.gov.au](mailto:cybersecurity@dpc.wa.gov.au).
-- Agencies with existing access can use the [Request access to the Incident Reporting Portal](https://wasoc.atlassian.net/servicedesk/customer/portal/2/group/1/create/8) WASOC IRP form.
+- Agencies with existing access can use the [Request access to the Incident Reporting Portal](https://wasoc.atlassian.net/servicedesk/customer/portal/2/group/1/create/103) WASOC IRP form.
 
 ### 2.1. Logging in to the WASOC IRP
 
