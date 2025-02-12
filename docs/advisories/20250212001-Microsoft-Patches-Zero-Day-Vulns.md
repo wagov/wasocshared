@@ -2,7 +2,7 @@
 
 ## Overview
 
-Microsoft has released security updates to address 63 vulnerabilities in multiple products. A Cyber threat actor could leverage some of these vulnerabilities to exploit the affected system.
+Microsoft has released security updates to address 63 vulnerabilities in multiple products, 2 of which have been noted for exploitation detected.
 
 ## What is vulnerable?
 
@@ -10,15 +10,15 @@ Microsoft has released security updates to address 63 vulnerabilities in multipl
 
 | Product(s) Affected | CVE | CVSS | Severity |
 | ------------------- | --- | ---- | -------- |
-| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21198)  | [CVE-2025-21198](https://www.cve.org/CVERecord?id=CVE-2025-21198) |  9.0 | **Critical** |
+| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21198)  | [CVE-2025-21198](https://nvd.nist.gov/vuln/detail/CVE-2025-21198) |  9.0 | **Critical** |
 
 
 ### Known Exploitation
 
 | Product(s) Affected | CVE | CVSS | Severity |
 | ------------------- | --- | ---- | -------- |
-| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21391) | [ CVE-2025-21391](https://www.cve.org/CVERecord?id=CVE-2025-21391) |  7.1 | High |
-| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21418) | [ CVE-2025-21418](https://www.cve.org/CVERecord?id=CVE-2025-21418) |  7.8 | High |
+| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21391) | [CVE-2025-21391](https://nvd.nist.gov/vuln/detail/CVE-2025-21391) |  7.1 | High |
+| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21418) | [CVE-2025-21418](https://nvd.nist.gov/vuln/detail/CVE-2025-21418) |  7.8 | High |
 
 ## Recommendation
 
