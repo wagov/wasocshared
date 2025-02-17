@@ -123,7 +123,7 @@ Otherwise the lower cost certs below are all a fair bit shorter while also being
 - [project Bluefin](https://projectbluefin.io/): Linux workstation, designed for reliability, performance, and sustainability.
 - [Homebrew](https://brew.sh/): The Missing Package Manager for macOS (or Linux)
 - [just](https://just.systems/man/en/) is a handy way to save and run project-specific commands.
-- [DGOV DTT Architecture Decision Records](https://github.com/wagov-dtt/architecture-decision-records) is a list of architecture decisions supporting [DTT platforms and capabilities](https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government/digital-transformation-technology). 
+- [DGOV DTT Architecture Decision Records](https://github.com/wagov-dtt/architecture-decision-records) is a list of architecture decisions supporting [DTT platforms and capabilities](https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government/digital-transformation-technology).
 
 ### 4.1 Certified Kubernetes platforms
 
