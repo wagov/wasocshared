@@ -14,4 +14,4 @@ The WA SOC encourages organisations to review the advisory for known TTPs and im
 
 ## Additional References
 
-- #StopRansomware: Ghost (Cring) Ransomware: <https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a>
+- CISA #StopRansomware: Ghost (Cring) Ransomware <https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a>
