@@ -1,4 +1,4 @@
-# CISA Releases Joint Advisory on Ghost (Cring) Ransomware  - 20250220001
+# CISA Releases Joint Advisory on Ghost (Cring) Ransomware - 20250220001
 
 ## Overview
 
