@@ -6,16 +6,15 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor  |
-| ------- |
-ABB ASPECT-Enterprise, NEXUS, and MATRIX Series
-ABB FLXEON Controllers
-Siemens
-Rapid Response Monitoring My Security
-Elseta Vinci Protocol Analyzer
-Mitsubishi Electric CNC Series (Update A)
-Medixant RadiAnt DICOM Viewer
-
+| Vendor                                          |
+| ----------------------------------------------- |
+| ABB ASPECT-Enterprise, NEXUS, and MATRIX Series |
+| ABB FLXEON Controllers                          |
+| Siemens                                         |
+| Rapid Response Monitoring My Security           |
+| Elseta Vinci Protocol Analyzer                  |
+| Mitsubishi Electric CNC Series (Update A)       |
+| Medixant RadiAnt DICOM Viewer                   |
 
 ## Recommendation
 
