@@ -123,6 +123,10 @@ Otherwise the lower cost certs below are all a fair bit shorter while also being
 - [project Bluefin](https://projectbluefin.io/): Linux workstation, designed for reliability, performance, and sustainability.
 - [Homebrew](https://brew.sh/): The Missing Package Manager for macOS (or Linux)
 - [just](https://just.systems/man/en/) is a handy way to save and run project-specific commands.
+- [DGOV DTT Architecture Decision Records](https://github.com/wagov-dtt/architecture-decision-records) is a list of architecture decisions supporting [DTT platforms and capabilities](https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/office-of-digital-government/digital-transformation-technology).
+- [ugrep](https://github.com/Genivia/ugrep) is a more powerful, ultra fast, user-friendly, compatible grep replacement. Includes a TUI, Google-like Boolean search with AND/OR/NOT, fuzzy search, hexdumps, searches (nested) archives (zip, 7z, tar, pax, cpio), compressed files (gz, Z, bz2, lzma, xz, lz4, zstd, brotli), pdfs, docs, and more.
+- [Page Assist](https://github.com/n4ze3m/page-assist) is an open-source browser extension that provides a sidebar and web UI for your local AI model.
+- [ollama](https://ollama.com/) can run Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2, and other models, locally.
 
 ### 4.1 Certified Kubernetes platforms
 
