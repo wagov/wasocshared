@@ -6,10 +6,10 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor  |
-| ------- |
+| Vendor              |
+| ------------------- |
 | Rockwell Automation |
-| Contec Health |
+| Contec Health       |
 
 ## Recommendation
 
