@@ -4,34 +4,34 @@
 
 !!! note
 
-    This procedure is focused on establishing connectivity with the WASOC, please refer to [our guidance on configuring sentinel and defender](onboarding/sentinel-guidance.md) for how to implement the associated tooling rapidly.
+    This procedure is focused on establishing connectivity with the WA SOC, please refer to [our guidance on configuring sentinel and defender](onboarding/sentinel-guidance.md) for how to implement the associated tooling rapidly.
 
 There are 2 delegations of access an operational security team would need to assist a customer with managing their security events and detection rules. Our customer offerings below have been constructed around the type of ongoing access and assistance required:
 
-**Tier 0 - Advisory:** Ability for automation accounts to read security incidents, alerts, identity and device information, event data, and azure subscription resources.
+**Tier 0 - Advisor:** Ability for automation accounts to read security incidents, alerts, identity and device information, event data, and azure subscription resources.
 
-- Microsoft XDR Tenant (Azure AD) Role: [Reader](https://learn.microsoft.com/en-us/defender-xdr/create-custom-rbac-roles)
-- Azure Subscription Role: [Reader](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/general#reader)
+- Microsoft 365 Tenant (Azure AD) Role: [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader)
+- Azure Subscription Role: [Reader](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#reader)
 
 ??? note "Enhanced support tiers (optional)"
 
     **Tier 1 - Monitor:** Increased access for analysts to work on security incidents and detection rules ontop of **Tier 0**.
 
-    - Microsoft XDR Tenant (Azure AD) Roles: [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader), [Security Operator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-operator)
-    - Azure Subscription Roles: [Reader](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#reader), [Microsoft Sentinel Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#microsoft-sentinel-contributor)
+    - Microsoft 365 Tenant (Azure AD) Roles: [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader), [Security Operator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-operator)
+    - Azure Subscription Roles: [Reader](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#reader), [Microsoft Sentinel Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#microsoft-sentinel-contributor), [Security Admin](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#security-admin)
     - Optional configuration of [Azure AD Privileged Identity Management](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure) (PIM) for elevated access to resources during critical incident response or service configuration activities (required under **Tier 2**).
 
-### 1.1. Azure Subscription Access
+### 1.1. Azure Subscription access
 
 ![Sentinel Access](images/sentinel-incident.png)
 
-As part of onboarding, the WASOC will send the customer a prefilled [Azure Lighthouse ARM Deployment](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/onboard-customer#create-your-template-manually) that can be installed as an **Service provider offer** to initiate an [Azure Lighthouse](https://docs.microsoft.com/en-us/azure/lighthouse/overview) connection between the customer Azure Subscription and the WASOC Tenant. Once completed the WSOC can delegate relevant permissions to analysts and automation processes via privileged groups in the WASOC tenant, allowing it to service the customers Azure subscription. This process needs to be undertaken for each subscription the customer would like to delegate access to.
+As part of onboarding, the WA SOC will send the customer a prefilled [Azure Lighthouse ARM Deployment](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/onboard-customer#create-your-template-manually) that can be installed as an **Service provider offer** to initiate an [Azure Lighthouse](https://docs.microsoft.com/en-us/azure/lighthouse/overview) connection between the customer Azure Subscription and the WA SOC Tenant. Once completed the WA SOC can delegate relevant permissions to analysts and automation processes via privileged groups in the WA SOC tenant, allowing it to service the customers Azure subscription. This process needs to be undertaken for each subscription the customer would like to delegate access to.
 
-### 1.2. Microsoft XDR tenant access
+### 1.2. Microsoft 365 tenant access
 
-![Defender XDR](images/xdr-overview.png)
+![Defender 365](images/DefenderEndpoint.png)
 
-As part of onboarding, the WASOC will send the customer a [Microsoft Entra ID Security group Object ID](https://learn.microsoft.com/en-us/entra/fundamentals/how-to-manage-groups#edit-group-settings) to allow delegated access to a specific group of users within the tenancy. This Security Group ID is applicable for step (TBD).
+As part of onboarding, the WA SOC will send the customer a list of analysts (in csv format) to be delegated specific access in the customers Azure AD Tenant. This process needs to be undertaken for each Azure AD Tenant the customer would like to delegate access to.
 
 ## 2. Onboarding Process
 
@@ -42,9 +42,65 @@ As part of onboarding, the WASOC will send the customer a [Microsoft Entra ID Se
     - [Access to Azure Active Directory Groups](https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups) in the Azure Portal
 - List of agency Azure AD Identities (as emails) that will require access to the WA SOC Incident Reporting Portal for collaboration on cyber security incidents.
 
-## 3. Microsoft Sentinel Onboarding
+### 2.2. Microsoft 365 tenant access delegation
 
-### 3.1. Azure Subscription access delegation
+The below Azure AD group and Defender for Endpoint roles grant permissions required from the customer tenant to the WA SOC analysts. Once you have reviewed the roles themselves please implement using the [2.2.3. Group and role assignment walkthrough](#223-group-and-role-assignment-walkthrough).
+
+> Note that the Defender for Endpoint role assignment is only required if you have enabled [Manage portal access using role-based access control](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/rbac?view=o365-worldwide#before-you-begin) in [Defender for Endpoint](https://security.microsoft.com/preferences2/user_roles).
+
+#### 2.2.1. Tier 0 Azure AD Group & Defender for Endpoint Roles
+
+Create an Azure AD group as follows. Any future changes to membership will be requested by the WA SOC.
+
+- **Group type:** Security
+- **Group name:** WASOC-T0-Advisor
+- **Group description:** WASOC Tier 0 Advisor Access (Global Reader)
+- **Azure AD roles can be assigned:** Yes
+- **Members:** Each email address imported from `wasoc-automation-invites.csv`
+- **Roles:** [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader)
+
+Create a Defender for Endpoint role as follows. This will inherit from the above group to ensure membership changes stay in sync.
+
+- **Role Name:** WASOC-T0-Advisor
+- **Permissions:** View Data (all)
+- **Assigned user groups:** WASOC-T0-Advisor
+
+??? note "Enhanced support tiers (optional)"
+
+    #### 2.2.2. Tier 1 Azure AD Group & Defender for Endpoint Roles
+
+    Create an Azure AD group as follows. Any future changes to membership will be requested by the WA SOC.
+
+    - **Group type:** Security
+    - **Group name:** WASOC-T1-Monitor
+    - **Group description:** WASOC Tier 1 Monitor Access (Security Operator)
+    - **Azure AD roles can be assigned:** Yes
+    - **Members:** Each email address imported from `wasoc-analyst-invites.csv`
+    - **Roles:** [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader) and [Security Operator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-operator)
+
+    Create a Defender for Endpoint role as follows. This will inherit from the above group to ensure membership changes stay in sync.
+
+    - **Role Name:** WASOC-T1-Monitor
+    - **Permissions:** View Data (all), Active remediation actions (all), Alerts investigation
+    - **Assigned user groups:** WASOC-T1-Monitor
+
+#### 2.2.3. Group and role assignment walkthrough
+
+The group names and role names below can be set to anything you prefer, however for consistency we recommend using the templated names above.
+
+1. Invite the `wasoc-...-invites.csv` into your [Azure AD directory](https://portal.azure.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers).
+
+![Bulk Invite](images/bulk-invite.gif)
+
+1. [Create a single Azure AD Group](https://portal.azure.com/#view/Microsoft_AAD_IAM/AddGroupBlade) with the above invited automation accounts / analysts as members and documented Azure AD roles assigned.
+
+![Create Group](images/azuread-wasocgroup.gif)
+
+1. Assign the [Defender for Endpoint roles](https://security.microsoft.com/preferences2/user_roles) to the above group to add Defender for Endpoint access if you have enabled role based access control.
+
+![Endpoint Role](images/wasoc-endpointrole.gif)
+
+### 2.3. Azure Subscription access delegation
 
 The Azure subscription access can be delegated via the [Azure Portal](https://docs.microsoft.com/en-us/azure/lighthouse/overview).
 
@@ -52,7 +108,7 @@ Navigate to the [Azure Lighthouse - Service Providers](https://portal.azure.com/
 
 ![service Provider](images/Service-Provider.png)
 
-#### 3.2. Azure Lighthouse ARM Deployment
+#### 2.3.1. Azure Lighthouse ARM Deployment
 
 Browse for the template provided, and click **Upload**. This can be customised to removed unused groups if desired for the customers Tier - please inform the WA SOC of any changes prior to deployment to allow documentation to be updated.
 
@@ -60,7 +116,7 @@ Browse for the template provided, and click **Upload**. This can be customised t
 
 Review the custom deployment details and ensure the location is Australia East, then click **Review and create** then click **Create**.
 
-### 3.3. Dedicated Cluster
+### 2.4. Dedicated Cluster
 
 The WASOC Dedicated Cluster program is an initiative to assist with reducing the total cost of ownership (TCO) of customers Sentinel Workspace. This is achieved by utilising a centralised [pricing model](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#cluster-pricing-model) offered by Microsoft as part of the [dedicated cluster services](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#advanced-capabilities).
 
@@ -79,144 +135,20 @@ The WASOC Dedicated Cluster program is an initiative to assist with reducing the
 
 The onboarding to the Dedicated Cluster is handled entirely by the WASOC Engineers and can be facilitated upon request.
 
-## 4. Microsoft XDR Onboarding
-
-### 4.1. Microsoft Entra ID B2B Synchornisation
-
-The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation services](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure) to replicates WASOC analysts indentities from the source tenancy to the entities tenancy. This allows WASOC analysts to authenticate to entities XDR environment seamlessly.
-
-### 4.1.1 Enable User Synchronisation with the WASOC
-
-1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
-2. Navigate to **Identity > External Identities > Cross-tenant access settings**.
-3. On the **Organization settings** tab, select **Add organization**.
-4. Add the **External Microsoft Entra Tenant ID** provived by the WASOC
-5. Select **Add**
-
-![Entra ID Add Organisation](images/xdr-cross-tenant-id-input.png)
-
-6. In the newly created Organisation, select **Inbound access** of the newly added organization, and configure the **B2B collaboration** as follows.
-
-![Entra ID B2B Collaboration Configuration](images/xdr-cross-tenant-inbound-access-b2b.png)
-
-7. In the **External user and groups > Access Status** set *Allow access* > **Applies to** set the newly created **Organisation User and Groups** > **Add other users and groups**.
-8. Add *Group Object ID*  provide the WASOC and click **Submit**
-9. Click **save**
-10. Select the **Cross-tenant sync** tab.
-11. Select the **Allow users sync into this tenant** checkbox.
-
-![Entra ID Allow Cross Tenant Sync](images/xdr-cross-tenant-sync-allow.png)
-
-12. Select **Save**.
-13. If the **Enable cross-tenant sync and auto-redemption dialog box** is prompted, asking if you want to enable auto-redemption, select **Yes**.
-
-![Entra ID Cross Tenant Redemption](images/xdr-cross-tenant-redemption.png)
-
-14. Select the *Trust settings** tab.
-15.	Select **Customize Settings** and then select **Trust multifactor authentication from Microsoft Entra tenant**.
-
-![Entra ID Cross Tenant Trust](images/xdr-cross-tenant-trust2.png)
-
-16. Check the automatically redeem invitations with the newly added organization checkbox.
-
-![Entra ID Cross Tenant invitations](images/xdr-cross-tenant-auto-invitations.png)
-
-17. Select **Save**
-
-### 4.1.2 Configuration of Security Groups in Microsoft Entra ID
-
-1.	In the Azure Portal, navigate to Microsoft Entra ID (AAD) service.
-2.	In **Manage > Groups** > create *New Group*.
-3.	Configure the **New Group** fields as follows.
-
-![Entra ID Security Group Creation](images/entra-id-security-group-creation.png)
-
-4.	Underneath **Dynamic User Members**, click **Add Dynamic Query**
-5.	In **Configure Rules**, amend a rule where user field Property **companyName** > Operator **Equals** > Value **WASOC**
-
-![Entra ID Security Group Creation](images/entra-id-security-group-dynamic.png)
-
-6.	Click **Add Expression**.
-7.	Click **Save**.
-8.	Click **Create**.
-
-
-### 4.2 XDR Unified RBAC Method
-
-The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/manage-rbac) provides a single permissions management experience that provides one central location for administrators to control user permissions across different security solutions. 
-
-!!! note
-
-    This solution is a recent addition to the Microsoft XDR and will require some administrative work by the entities to activate the [XDR RBAC experience](https://learn.microsoft.com/en-us/defender-xdr/activate-defender-rbac#activate-in-microsoft-defender-xdr-settings). This work will require some pre-work with entities IT teams as exisiting permission to users and account may cause service interruption. [A mapping exercise will be required.](https://learn.microsoft.com/en-us/defender-xdr/compare-rbac-roles)
-
-### 4.2.1 Configuration of Security Groups permission in Microsoft Security Portal (XDR)
-
-1.	Navigate to the [Microsoft Security Portal](https://security.microsoft.com/)
-2. 	In **Systems > Permissions > Microsoft Defender XDR (Roles)**
-3. 	Click Create custom role 
-4. 	In Set up the basics  fill the following fields
-    - Role Name: WASOC Team
-    - Description: WASOC Team access to XDR and Microsoft Security Stack
-5.	In Choose Permission, configure the following for all Permission Groups
-
-#### Security Operations
-
-![XDR Security Operations Permissions](images/xdr-security-ops-permissions.png)
-
-#### Security Posture
-
-![XDR Security Posture Permissions](images/xdr-security-posture-permissions.png)
-
-#### Authorisation and Settings
-
-![XDR Authorisation and Settings Permissions](images/xdr-authorisation-permissions.png)
-
-6. In **Assign user and data sources**, click **Add assignment**.
-7. In **Add assignment**, fill and tick fields as shown:
-
-![XDR Security Groups Permissions](images/xdr-assignment-groups.png)
-
-8. Check the **Include future data sources automatically** checkbox
-
-![XDR Security Groups Sources](images/xdr-assignment-sources.png)
-
-9.	Click **Add**
-10.	In **Review and finish**, click **Submit**
-
-## 5. Confirmation of Onboarding
-
-### 5.1 Sentinel Onboarding
+## 3. Confirmation of Onboarding
 
 Once the template phase has completed, customers can confirm the onboarding process has finalised by navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page and confirming you can see the **WA SOC - Security Insights** service offer.
 
 ![service Offer](images/service-offer.png)
 
-### 5.2 XDR Onboarding
+# WA SOC Offboarding / Re-onboarding Procedure
 
-Once XDR onboarding procedure has been completed by the entity, the WASOC will commence some addtional proceesses to finalise the onboarding process.
-The WASOC will inform the entity once the onboarding has been completed.
-
-# WASOC Offboarding / Re-onboarding Procedure
-
-## 1. Sentinel Offboarding / Re-onboarding
+## 1. Offboarding / Re-onboarding
 
 If for the purpose of offboarding the WASOC or to re-onboard onto the WASOC, then the customer has the ability to self manage this process via the **Azure Portal**.
 
-### Azure Lighthouse Service Provider
+### 1. Azure Lighthouse Service Provider
 
 Navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page. Select the **WA SOC - Security Insights** service offer. Click **Delete**.
 
 ![service offer delete](images/service-provider-delete.png)
-
-## 2. XDR Offboarding
-
-If for the purpose of offboarding the WASOC off the XDR platform, then the customer has the ability to self manage this process via the **Azure Portal**.
-
-### Microsoft Entra ID
-
-1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
-2. Navigate to **Identity > External Identities > Cross-tenant access settings**.
-3. On the **Organization settings** tab, navigate to the organisation associated to the WASOC.
-4. In the **remove** column, click the dustbin icon
-
-![Entra ID Cross tenant delete](images/xdr-cross-tenant-access-delete.png)
