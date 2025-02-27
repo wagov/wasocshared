@@ -155,8 +155,8 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 2. 	In **Systems > Permissions > Microsoft Defender XDR (Roles)**
 3. 	Click Create custom role 
 4. 	In Set up the basics  fill the following fields
-    1.  Role Name: WASOC Team
-    1.	Description: WASOC Team access to XDR and Microsoft Security Stack
+    - Role Name: WASOC Team
+    - Description: WASOC Team access to XDR and Microsoft Security Stack
 5.	In Choose Permission, configure the following for all Permission Groups
 
 #### Security Operations
