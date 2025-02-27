@@ -145,8 +145,9 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 
 The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/manage-rbac) provides a single permissions management experience that provides one central location for administrators to control user permissions across different security solutions. 
 
-:boom: **Administrative Work**
-This solution is a recent addition to the Microsoft XDR and will require some administrative work by the entities to activate the [XDR RBAC experience](https://learn.microsoft.com/en-us/defender-xdr/activate-defender-rbac#activate-in-microsoft-defender-xdr-settings). This work will require some pre-work with entities IT teams as exisiting permission to users and account may cause service interruption. [A mapping exercise will be required.](https://learn.microsoft.com/en-us/defender-xdr/compare-rbac-roles)
+!!! note
+
+    This solution is a recent addition to the Microsoft XDR and will require some administrative work by the entities to activate the [XDR RBAC experience](https://learn.microsoft.com/en-us/defender-xdr/activate-defender-rbac#activate-in-microsoft-defender-xdr-settings). This work will require some pre-work with entities IT teams as exisiting permission to users and account may cause service interruption. [A mapping exercise will be required.](https://learn.microsoft.com/en-us/defender-xdr/compare-rbac-roles)
 
 ### 4.2.1 Configuration of Security Groups permission in Microsoft Security Portal (XDR)
 
