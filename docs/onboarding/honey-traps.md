@@ -4,7 +4,7 @@
 
 !!! note
 
-    This Honey Trap initaitve is pilot program for the WA SOC, as such the number participants for the pilot is limited.
+    This Honey Trap initiative is pilot program for the WA SOC, as such the number of participants for the pilot is limited.
     If interested in participating, please raise a request in the [WASOC IRP](https://irp.dpc.wa.gov.au/).
 
 The WASOC is looking to expand the monitoring capability of Western Australian Government entities to better detect for advanced persistent threats (APT) on ICT infrastrcture. The WASOC will assist entities with the deployment of honey pots and honey tokens in infrastrcture locations that are commonly traversed by Threat Actors prior to a cyber incident.
