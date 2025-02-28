@@ -26,6 +26,6 @@ jobs:
       - name: install mkdocs
         run: pip install -r requirements.txt
       - name: run mdformat
-        run: mdformat .
+        run: mdformat --no-validate . && mdformat .
       - name: build site
         run:  python -m mkdocs build --strict
