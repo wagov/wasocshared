@@ -88,62 +88,61 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 ### 4.1.1 Enable User Synchronisation with the WASOC
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
-2. Navigate to **Identity > External Identities > Cross-tenant access settings**.
-3. On the **Organization settings** tab, select **Add organization**.
-4. Add the **External Microsoft Entra Tenant ID** provived by the WASOC
-5. Select **Add**
+1. Navigate to **Identity > External Identities > Cross-tenant access settings**.
+1. On the **Organization settings** tab, select **Add organization**.
+1. Add the **External Microsoft Entra Tenant ID** provived by the WASOC
+1. Select **Add**
 
 ![Entra ID Add Organisation](images/xdr-cross-tenant-id-input.png)
 
-6. In the newly created Organisation, select **Inbound access** of the newly added organization, and configure the **B2B collaboration** as follows.
+1. In the newly created Organisation, select **Inbound access** of the newly added organization, and configure the **B2B collaboration** as follows.
 
 ![Entra ID B2B Collaboration Configuration](images/xdr-cross-tenant-inbound-access-b2b.png)
 
-7. In the **External user and groups > Access Status** set *Allow access* > **Applies to** set the newly created **Organisation User and Groups** > **Add other users and groups**.
-8. Add *Group Object ID*  provide the WASOC and click **Submit**
-9. Click **Save**
-10. Select the **Cross-tenant sync** tab.
-11. Select the **Allow users sync into this tenant** checkbox.
+1. In the **External user and groups > Access Status** set *Allow access* > **Applies to** set the newly created **Organisation User and Groups** > **Add other users and groups**.
+1. Add *Group Object ID* provide the WASOC and click **Submit**
+1. Click **Save**
+1. Select the **Cross-tenant sync** tab.
+1. Select the **Allow users sync into this tenant** checkbox.
 
 ![Entra ID Allow Cross Tenant Sync](images/xdr-cross-tenant-sync-allow.png)
 
-12. Select **Save**.
-13. If the **Enable cross-tenant sync and auto-redemption dialog box** is prompted, asking if you want to enable auto-redemption, select **Yes**.
+1. Select **Save**.
+1. If the **Enable cross-tenant sync and auto-redemption dialog box** is prompted, asking if you want to enable auto-redemption, select **Yes**.
 
 ![Entra ID Cross Tenant Redemption](images/xdr-cross-tenant-redemption.png)
 
-14. Select the *Trust settings** tab.
-15.	Select **Customize Settings** and then select **Trust multifactor authentication from Microsoft Entra tenant**.
+1. Select the *Trust settings*\* tab.
+1. Select **Customize Settings** and then select **Trust multifactor authentication from Microsoft Entra tenant**.
 
 ![Entra ID Cross Tenant Trust](images/xdr-cross-tenant-trust2.png)
 
-16. Check the automatically redeem invitations with the newly added organization checkbox.
+1. Check the automatically redeem invitations with the newly added organization checkbox.
 
 ![Entra ID Cross Tenant invitations](images/xdr-cross-tenant-auto-invitations.png)
 
-17. Select **Save**
+1. Select **Save**
 
 ### 4.1.2 Configuration of Security Groups in Microsoft Entra ID
 
-1.	In the Azure Portal, navigate to Microsoft Entra ID (AAD) service.
-2.	In **Manage > Groups** > create *New Group*.
-3.	Configure the **New Group** fields as follows.
+1. In the Azure Portal, navigate to Microsoft Entra ID (AAD) service.
+1. In **Manage > Groups** > create *New Group*.
+1. Configure the **New Group** fields as follows.
 
 ![Entra ID Security Group Creation](images/entra-id-security-group-creation.png)
 
-4.	Underneath **Dynamic User Members**, click **Add Dynamic Query**
-5.	In **Configure Rules**, amend a rule where user field Property **companyName** > Operator **Equals** > Value **WASOC**
+1. Underneath **Dynamic User Members**, click **Add Dynamic Query**
+1. In **Configure Rules**, amend a rule where user field Property **companyName** > Operator **Equals** > Value **WASOC**
 
 ![Entra ID Security Group Creation](images/entra-id-security-group-dynamic.png)
 
-6.	Click **Add Expression**.
-7.	Click **Save**.
-8.	Click **Create**.
-
+1. Click **Add Expression**.
+1. Click **Save**.
+1. Click **Create**.
 
 ### 4.2 XDR Unified RBAC Method
 
-The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/manage-rbac) provides a single permissions management experience that provides one central location for administrators to control user permissions across different security solutions. 
+The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/manage-rbac) provides a single permissions management experience that provides one central location for administrators to control user permissions across different security solutions.
 
 !!! note
 
@@ -151,13 +150,13 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
 ### 4.2.1 Configuration of Security Groups permission in Microsoft Security Portal (XDR)
 
-1.	Navigate to the [Microsoft Security Portal](https://security.microsoft.com/)
-2. 	In **Systems > Permissions > Microsoft Defender XDR (Roles)**
-3. 	Click Create custom role 
-4. 	In Set up the basics  fill the following fields
+1. Navigate to the [Microsoft Security Portal](https://security.microsoft.com/)
+1. In **Systems > Permissions > Microsoft Defender XDR (Roles)**
+1. Click Create custom role
+1. In Set up the basics fill the following fields
     - Role Name: WASOC Team
     - Description: WASOC Team access to XDR and Microsoft Security Stack
-5.	In Choose Permission, configure the following for all Permission Groups
+1. In Choose Permission, configure the following for all Permission Groups
 
 #### Security Operations
 
@@ -171,17 +170,17 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
 ![XDR Authorisation and Settings Permissions](images/xdr-authorisation-permissions.png)
 
-6. In **Assign user and data sources**, click **Add assignment**.
-7. In **Add assignment**, fill and tick fields as shown:
+1. In **Assign user and data sources**, click **Add assignment**.
+1. In **Add assignment**, fill and tick fields as shown:
 
 ![XDR Security Groups Permissions](images/xdr-assignment-groups.png)
 
-8. Check the **Include future data sources automatically** checkbox
+1. Check the **Include future data sources automatically** checkbox
 
 ![XDR Security Groups Sources](images/xdr-assignment-sources.png)
 
-9.	Click **Add**
-10.	In **Review and finish**, click **Submit**
+1. Click **Add**
+1. In **Review and finish**, click **Submit**
 
 ## 5. Confirmation of Onboarding
 
@@ -196,27 +195,27 @@ Once the template phase has completed, customers can confirm the onboarding proc
 Once XDR onboarding procedure has been completed by the entity, the WASOC will commence some addtional proceesses to finalise the onboarding process.
 The WASOC will inform the entity once the onboarding has been completed.
 
-# WASOC Offboarding / Re-onboarding Procedure
+## 6. WASOC Offboarding / Re-onboarding Procedure
 
-## 1. Sentinel Offboarding / Re-onboarding
+### 6.1. Sentinel Offboarding / Re-onboarding
 
 If for the purpose of offboarding the WASOC or to re-onboard onto the WASOC, then the customer has the ability to self manage this process via the **Azure Portal**.
 
-### Azure Lighthouse Service Provider
+#### Azure Lighthouse Service Provider
 
 Navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page. Select the **WA SOC - Security Insights** service offer. Click **Delete**.
 
 ![service offer delete](images/service-provider-delete.png)
 
-## 2. XDR Offboarding
+### 6.2. XDR Offboarding
 
 If for the purpose of offboarding the WASOC off the XDR platform, then the customer has the ability to self manage this process via the **Azure Portal**.
 
-### Microsoft Entra ID
+#### Microsoft Entra ID
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
-2. Navigate to **Identity > External Identities > Cross-tenant access settings**.
-3. On the **Organization settings** tab, navigate to the organisation associated to the WASOC.
-4. In the **remove** column, click the dustbin icon
+1. Navigate to **Identity > External Identities > Cross-tenant access settings**.
+1. On the **Organization settings** tab, navigate to the organisation associated to the WASOC.
+1. In the **remove** column, click the dustbin icon
 
 ![Entra ID Cross tenant delete](images/xdr-cross-tenant-access-delete.png)
