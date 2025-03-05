@@ -6,14 +6,14 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor |
-| --- |
-| Carrier |
+| Vendor                |
+| --------------------- |
+| Carrier               |
 | Keysight Technologies |
-| Hitachi Energy |
-| Delta Electronics |
-| GMOD |
-| Edimax |
+| Hitachi Energy        |
+| Delta Electronics     |
+| GMOD                  |
+| Edimax                |
 
 ## Recommendation
 
