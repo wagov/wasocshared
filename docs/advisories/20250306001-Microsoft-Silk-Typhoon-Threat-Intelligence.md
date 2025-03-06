@@ -8,7 +8,7 @@ Microsoft have published a threat intelligence article reporting Silk Typhoon, a
 
 Silk Typhoon is an espionage-focused Chinese state actor whose activities indicate that they are a well-resourced and technically efficient group with the ability to quickly operationalize exploits for discovered zero-day vulnerabilities in edge devices. This threat actor holds one of the largest targeting footprints among Chinese threat actors. Part of this is due to their opportunistic nature of acting on discoveries from vulnerability scanning operations, moving quickly to the exploitation phase once they discover a vulnerable public-facing device that they could exploit.
 
-As a result, Silk Typhoon has been observed targeting a wide range of sectors and geographic regions, including but not limited to information technology (IT) services and infrastructure, remote monitoring and management (RMM) companies, managed service providers (MSPs) and affiliates, healthcare, legal services, higher education, defence,  government, non-governmental organizations (NGOs), energy, and others located in the United States and throughout the world.
+As a result, Silk Typhoon has been observed targeting a wide range of sectors and geographic regions, including but not limited to information technology (IT) services and infrastructure, remote monitoring and management (RMM) companies, managed service providers (MSPs) and affiliates, healthcare, legal services, higher education, defence, government, non-governmental organizations (NGOs), energy, and others located in the United States and throughout the world.
 
 ## Recommendation
 
