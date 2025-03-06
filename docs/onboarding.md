@@ -95,11 +95,11 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 
 ![Entra ID Add Organisation](images/xdr-cross-tenant-id-input.png)
 
-1. In the newly created Organisation, select **Inbound access** of the newly added organization, and configure the **B2B collaboration** as follows.
+6. In the newly created Organisation, select **Inbound access** of the newly added organization, and configure the **B2B collaboration** as follows.
 
 ![Entra ID B2B Collaboration Configuration](images/xdr-cross-tenant-inbound-access-b2b.png)
 
-1. In the **External user and groups > Access Status** set *Allow access* > **Applies to** set the newly created **Organisation User and Groups** > **Add other users and groups**.
+7. In the **External user and groups > Access Status** set *Allow access* > **Applies to** set the newly created **Organisation User and Groups** > **Add other users and groups**.
 1. Add the *Group Object ID* provided by the WASOC and click **Submit**
 1. Click **Save**
 1. Select the **Cross-tenant sync** tab.
@@ -107,21 +107,21 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 
 ![Entra ID Allow Cross Tenant Sync](images/xdr-cross-tenant-sync-allow.png)
 
-1. Select **Save**.
+12. Select **Save**.
 1. If the **Enable cross-tenant sync and auto-redemption dialog box** is prompted, asking if you want to enable auto-redemption, select **Yes**.
 
 ![Entra ID Cross Tenant Redemption](images/xdr-cross-tenant-redemption.png)
 
-1. Select the *Trust settings*\* tab.
+14. Select the *Trust settings*\* tab.
 1. Select **Customize Settings** and then select **Trust multifactor authentication from Microsoft Entra tenant**.
 
 ![Entra ID Cross Tenant Trust](images/xdr-cross-tenant-trust2.png)
 
-1. Check the automatically redeem invitations with the newly added organization checkbox.
+16. Check the automatically redeem invitations with the newly added organization checkbox.
 
 ![Entra ID Cross Tenant invitations](images/xdr-cross-tenant-auto-invitations.png)
 
-1. Select **Save**
+17. Select **Save**
 
 ### 4.1.2 Configuration of Security Groups in Microsoft Entra ID
 
