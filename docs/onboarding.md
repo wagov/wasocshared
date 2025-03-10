@@ -88,56 +88,71 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 ### 4.1.1 Enable User Synchronisation with the WASOC
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
+
 1. Navigate to **Identity > External Identities > Cross-tenant access settings**.
+
 1. On the **Organization settings** tab, select **Add organization**.
+
 1. Add the **External Microsoft Entra Tenant ID** provived by the WASOC
+
 1. Select **Add**
 
-![Entra ID Add Organisation](images/xdr-cross-tenant-id-input.png)
+    ![Entra ID Add Organisation](images/xdr-cross-tenant-id-input.png)
 
 1. In the newly created Organisation, select **Inbound access** of the newly added organization, and configure the **B2B collaboration** as follows.
 
-![Entra ID B2B Collaboration Configuration](images/xdr-cross-tenant-inbound-access-b2b.png)
+    ![Entra ID B2B Collaboration Configuration](images/xdr-cross-tenant-inbound-access-b2b.png)
 
 1. In the **External user and groups > Access Status** set *Allow access* > **Applies to** set the newly created **Organisation User and Groups** > **Add other users and groups**.
-1. Add *Group Object ID* provide the WASOC and click **Submit**
+
+1. Add the *Group Object ID* provided by the WASOC and click **Submit**
+
 1. Click **Save**
+
 1. Select the **Cross-tenant sync** tab.
+
 1. Select the **Allow users sync into this tenant** checkbox.
 
-![Entra ID Allow Cross Tenant Sync](images/xdr-cross-tenant-sync-allow.png)
+    ![Entra ID Allow Cross Tenant Sync](images/xdr-cross-tenant-sync-allow.png)
 
 1. Select **Save**.
+
 1. If the **Enable cross-tenant sync and auto-redemption dialog box** is prompted, asking if you want to enable auto-redemption, select **Yes**.
 
-![Entra ID Cross Tenant Redemption](images/xdr-cross-tenant-redemption.png)
+    ![Entra ID Cross Tenant Redemption](images/xdr-cross-tenant-redemption.png)
 
 1. Select the *Trust settings*\* tab.
+
 1. Select **Customize Settings** and then select **Trust multifactor authentication from Microsoft Entra tenant**.
 
-![Entra ID Cross Tenant Trust](images/xdr-cross-tenant-trust2.png)
+    ![Entra ID Cross Tenant Trust](images/xdr-cross-tenant-trust2.png)
 
 1. Check the automatically redeem invitations with the newly added organization checkbox.
 
-![Entra ID Cross Tenant invitations](images/xdr-cross-tenant-auto-invitations.png)
+    ![Entra ID Cross Tenant invitations](images/xdr-cross-tenant-auto-invitations.png)
 
 1. Select **Save**
 
 ### 4.1.2 Configuration of Security Groups in Microsoft Entra ID
 
 1. In the Azure Portal, navigate to Microsoft Entra ID (AAD) service.
+
 1. In **Manage > Groups** > create *New Group*.
+
 1. Configure the **New Group** fields as follows.
 
-![Entra ID Security Group Creation](images/entra-id-security-group-creation.png)
+    ![Entra ID Security Group Creation](images/entra-id-security-group-creation.png)
 
 1. Underneath **Dynamic User Members**, click **Add Dynamic Query**
+
 1. In **Configure Rules**, amend a rule where user field Property **companyName** > Operator **Equals** > Value **WASOC**
 
-![Entra ID Security Group Creation](images/entra-id-security-group-dynamic.png)
+    ![Entra ID Security Group Creation](images/entra-id-security-group-dynamic.png)
 
 1. Click **Add Expression**.
+
 1. Click **Save**.
+
 1. Click **Create**.
 
 ### 4.2 XDR Unified RBAC Method
@@ -171,15 +186,17 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 ![XDR Authorisation and Settings Permissions](images/xdr-authorisation-permissions.png)
 
 1. In **Assign user and data sources**, click **Add assignment**.
+
 1. In **Add assignment**, fill and tick fields as shown:
 
-![XDR Security Groups Permissions](images/xdr-assignment-groups.png)
+    ![XDR Security Groups Permissions](images/xdr-assignment-groups.png)
 
 1. Check the **Include future data sources automatically** checkbox
 
-![XDR Security Groups Sources](images/xdr-assignment-sources.png)
+    ![XDR Security Groups Sources](images/xdr-assignment-sources.png)
 
 1. Click **Add**
+
 1. In **Review and finish**, click **Submit**
 
 ## 5. Confirmation of Onboarding
