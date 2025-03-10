@@ -1,4 +1,4 @@
-# Advisory 20250310001 - CISA New ICS Advisories
+# CISA Releases New ICS Advisories - 20250310001
 
 ## Overview
 
