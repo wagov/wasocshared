@@ -1,4 +1,4 @@
-# Advisory 20250310001 - Targeted - CISA New ICS Advisories
+# Advisory 20250310001 - CISA New ICS Advisories
 
 ## Overview
 
