@@ -1,6 +1,6 @@
-
 # CISA Releases New ICS Advisories - 20250310001
-=======
+
+=== ====
 
 ## Overview
 
@@ -8,9 +8,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## What is vulnerable?
 
-| Vendor |
-| ------- |
-| Hitachi Energy |
+| Vendor             |
+| ------------------ |
+| Hitachi Energy     |
 | Schneider Electric |
 
 ## Recommendation
