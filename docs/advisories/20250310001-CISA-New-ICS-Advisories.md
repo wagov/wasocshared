@@ -1,7 +1,5 @@
 # CISA Releases New ICS Advisories - 20250310001
 
-=== ====
-
 ## Overview
 
 CISA has released multiple advisories for Industrial Control Systems (ICS) related vendors.
