@@ -36,6 +36,10 @@ The below links will get you across the cloud native methodology to build, test 
     - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs): Use the Amazon Web Services (AWS) provider to interact with the many resources supported by AWS.
     - [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest): The Azure Provider can be used to configure infrastructure in Microsoft Azure using the Azure Resource Manager API's.
 - [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/): A tutorial providing a walkthrough of the basics of Kubernetes workload orchestration.
+    - [Introduction to Kubectl and Kustomize](https://kubectl.docs.kubernetes.io/guides/introduction/), also has an excellent section on configuration management covering [secrets](https://kubectl.docs.kubernetes.io/guides/config_management/secrets_configmaps/), [namespaces](https://kubectl.docs.kubernetes.io/guides/config_management/namespaces_names/), and [labels](https://kubectl.docs.kubernetes.io/guides/config_management/labels_annotations/), a video covering this content is below.
+
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/spCdNeNCuFU?si=fRi2neSneYoqg80T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
     - [Skaffold](https://skaffold.dev/) handles the workflow for building, pushing and deploying your application, allowing you to focus on writing code.
 - [Nine Key Cloud Security Concentrations & SWAT Checklist](https://www.sans.org/posters/nine-key-cloud-security-concentrations-swat-checklist/): A set of best practices for cloud security, broken down by AWS, Azure, and GCP, to help create more secure applications.
 
@@ -45,11 +49,13 @@ These are intro courses and security overviews of the major AWS and Azure platfo
 
 #### AWS Resources
 
+- [Amazon EKS Quickstart: Deploy a web app and store data](https://docs.aws.amazon.com/eks/latest/userguide/quickstart.html)
 - [AWS Cloud Practitioner Essentials](https://explore.skillbuilder.aws/learn/courses/134/aws-cloud-practitioner-essentials)
 - [AWS Security Fundamentals Second Edition](https://explore.skillbuilder.aws/learn/courses/48/aws-security-fundamentals)
 
 #### Azure Resources
 
+- [Microsoft AKS Quickstart: Deploy an application from a code repository](https://learn.microsoft.com/en-us/azure/aks/automatic/quick-automatic-from-code)
 - [Microsoft Azure Fundamentals](https://learn.microsoft.com/en-us/training/courses/az-900t00)
 - [Microsoft Security Academy](https://microsoft.github.io/PartnerResources/skilling/microsoft-security-academy/start)
 
