@@ -3,11 +3,12 @@
 ## Overview
 
 The WA SOC has been made aware of available fixes for Apple products that address an actively exploited zero-day vulnerability.
+
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS           | Severity                       |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------ |
-| iOS and iPadOS <br>   macOS    <br> visionOS  <br> Safari   | < 18.3  <br> < 15.3 <br> < 2.3 <br> < 18.3   | [CVE-2025-24201](https://nvd.nist.gov/vuln/detail/CVE-2025-24201) </br> |  9.8 |  **Critical** |
+| Product(s) Affected                                 | Version(s)                                | CVE                                                                     | CVSS | Severity     |
+| --------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------- | ---- | ------------ |
+| iOS and iPadOS <br> macOS <br> visionOS <br> Safari | < 18.3 <br> < 15.3 <br> < 2.3 <br> < 18.3 | [CVE-2025-24201](https://nvd.nist.gov/vuln/detail/CVE-2025-24201) </br> | 9.8  | **Critical** |
 
 ## What has been observed?
 
@@ -20,4 +21,5 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 - Apple security release notes: <https://support.apple.com/en-us/100100>
 
 ## Additional References
+
 - Tenable: https://www.tenable.com/cve/CVE-2025-24201
