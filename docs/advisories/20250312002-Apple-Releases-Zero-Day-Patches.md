@@ -22,4 +22,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- Tenable: https://www.tenable.com/cve/CVE-2025-24201
+- Tenable: <https://www.tenable.com/cve/CVE-2025-24201>
