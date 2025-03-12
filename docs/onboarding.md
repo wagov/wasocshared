@@ -235,4 +235,4 @@ If for the purpose of offboarding the WASOC off the XDR platform, then the custo
 1. On the **Organization settings** tab, navigate to the organisation associated to the WASOC.
 1. In the **remove** column, click the dustbin icon
 
-![Entra ID Cross tenant delete](images/xdr-cross-tenant-access-delete.png)
+    ![Entra ID Cross tenant delete](images/xdr-cross-tenant-access-delete.png)
