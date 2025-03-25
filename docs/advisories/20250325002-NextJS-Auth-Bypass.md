@@ -18,7 +18,7 @@ There is no evidence of exploitation affecting Western Australian Government net
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
-- Github: <https://github.com/vercel/next.js/security/advisories/GHSA-f82v-jwr5-mffw>
+- Vercel Github: <https://github.com/vercel/next.js/security/advisories/GHSA-f82v-jwr5-mffw>
 
 ## Additional References
 
