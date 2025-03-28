@@ -6,10 +6,10 @@ Mozilla has released a critical-rated advisory relating to a security vulnerabil
 
 ## What is vulnerable?
 
-| Product(s) Affected  | Version(s) | CVE                     | CVSS         | Severity      |
-| -------------------- | ---------- | ----------------------- | ------------ | ------------- |
-| Firefox | versions prior to Firefox 136.0.4 | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | TBD | TBD |
-| Firefox ESR | versions prior to 115.21.1 <br> versions prior to 128.8.1 | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | TBD | TBD |
+| Product(s) Affected | Version(s)                                                | CVE                                                             | CVSS | Severity |
+| ------------------- | --------------------------------------------------------- | --------------------------------------------------------------- | ---- | -------- |
+| Firefox             | versions prior to Firefox 136.0.4                         | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | TBD  | TBD      |
+| Firefox ESR         | versions prior to 115.21.1 <br> versions prior to 128.8.1 | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | TBD  | TBD      |
 
 ## What has been observed?
 
