@@ -2,14 +2,14 @@
 
 ## Overview
 
-Mozilla has released updates to patch a critical security vulnerability that can let attackers escape the web browser's sandbox on Windows systems.
+Mozilla has released a critical-rated advisory relating to a security vulnerability in their Firefox products which could cause the parent process to return an unintentionally powerful handle, leading to a sandbox escape.
 
 ## What is vulnerable?
 
 | Product(s) Affected  | Version(s) | CVE                     | CVSS         | Severity      |
 | -------------------- | ---------- | ----------------------- | ------------ | ------------- |
-| Firefox | *versions prior to* Firefox 136.0.4 | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | N/A   | **Critical**  |
-| Firefox ESR | *versions prior to* Firefox ESR 115.21.1 <br> *versions prior to* Firefox ESR 128.8.1    | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | N/A   | **Critical**  |
+| Firefox | versions prior to Firefox 136.0.4 | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | TBD | TBD |
+| Firefox ESR | versions prior to 115.21.1 <br> versions prior to 128.8.1 | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | TBD | TBD |
 
 ## What has been observed?
 
