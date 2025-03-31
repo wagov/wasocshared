@@ -8,8 +8,8 @@ Mozilla has released a critical-rated advisory relating to a security vulnerabil
 
 | Product(s) Affected | Version(s)                                                | CVE                                                             | CVSS | Severity |
 | ------------------- | --------------------------------------------------------- | --------------------------------------------------------------- | ---- | -------- |
-| Firefox             | versions prior to Firefox 136.0.4                         | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | TBD  | TBD      |
-| Firefox ESR         | versions prior to 115.21.1 <br> versions prior to 128.8.1 | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | TBD  | TBD      |
+| Firefox             | versions prior to Firefox 136.0.4                         | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | 10  | Critical  |
+| Firefox ESR         | versions prior to 115.21.1 <br> versions prior to 128.8.1 | [CVE-2025-2857](https://nvd.nist.gov/vuln/detail/CVE-2025-2857) | 10  | Critical  |
 
 ## What has been observed?
 
@@ -24,3 +24,8 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 ## Additional References
 
 - Bleeping Comptuer: <https://www.bleepingcomputer.com/news/security/mozilla-warns-windows-users-of-critical-firefox-sandbox-escape-flaw/>
+
+### Change Log
+
+- 2025-03-28: Intiial Publication
+- 2025-03-31: Update of CVE details.
