@@ -20,14 +20,6 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-\<<\<<\<<< HEAD
-
 - CISA Known Exploited Vulnerabilities: <https://www.cisa.gov/news-events/alerts/2025/04/08/cisa-adds-two-known-exploited-vulnerabilities-catalog>
-
-=== ====
-
-- CISA: <https://www.cisa.gov/news-events/alerts/2025/04/08/cisa-adds-two-known-exploited-vulnerabilities-catalog>
-
-> > > > > > > a1eefac5b217ffa200bbbd7aeab59a88adf381b3
 
 - BleepingComputer: <https://www.bleepingcomputer.com/news/security/microsoft-windows-clfs-zero-day-exploited-by-ransomware-gang/>
