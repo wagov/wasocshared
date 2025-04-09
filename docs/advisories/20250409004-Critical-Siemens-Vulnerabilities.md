@@ -6,10 +6,9 @@ Siemens has issued security advisories to address a weak authentication vulnerab
 
 ## What is vulnerable?
 
-| Vendor  | CVE| Severity|
-| ------- | -- | -- |
-| [Siemens Industrial Edge Devices](https://cert-portal.siemens.com/productcert/html/ssa-634640.html) and [Industrial Edge Device Kit](https://cert-portal.siemens.com/productcert/html/ssa-819629.html)| [CVE-2024-54092](https://nvd.nist.gov/vuln/detail/CVE-2024-54092) | 9.8|
-
+| Vendor                                                                                                                                                                                                 | CVE                                                               | Severity |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | -------- |
+| [Siemens Industrial Edge Devices](https://cert-portal.siemens.com/productcert/html/ssa-634640.html) and [Industrial Edge Device Kit](https://cert-portal.siemens.com/productcert/html/ssa-819629.html) | [CVE-2024-54092](https://nvd.nist.gov/vuln/detail/CVE-2024-54092) | 9.8      |
 
 ## Recommendation
 
