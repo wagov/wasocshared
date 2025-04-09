@@ -6,11 +6,11 @@ SAP has released security updates to address multiple vulnerabilities. It is cru
 
 ## What is vulnerable?
 
-| Product(s) Affected                              | Version(s)                                              | CVE                                                                | CVSS | Severity     |
-| ------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------ | ---- | ------------ |
-| SAP S/4HANA                                      | S4CORE 102 through 108                                  | [CVE-2025-27429](https://www.cve.org/CVERecord?id=CVE-2025-27429)  | 9.9  | **Critical** |
-| SAP Landscape Transformation (Analysis Platform) | DMIS 2011_1_700, 2011_1_710, 2011_1_730, and 2011_1_731 | [CVE-2025-31330](https://www.cve.org/CVERecord?id=CVE-2025-31330)  | 9.9  | **Critical** |
-| SAP Financial Consolidation                      | FINANCE 1010                                            | [CVE-2025-30016](https://www.cve.org/CVERecord?id=CVE-2025-30016)  | 9.8  | **Critical** |
+| Product(s) Affected                              | Version(s)                                              | CVE                                                               | CVSS | Severity     |
+| ------------------------------------------------ | ------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| SAP S/4HANA                                      | S4CORE 102 through 108                                  | [CVE-2025-27429](https://www.cve.org/CVERecord?id=CVE-2025-27429) | 9.9  | **Critical** |
+| SAP Landscape Transformation (Analysis Platform) | DMIS 2011_1_700, 2011_1_710, 2011_1_730, and 2011_1_731 | [CVE-2025-31330](https://www.cve.org/CVERecord?id=CVE-2025-31330) | 9.9  | **Critical** |
+| SAP Financial Consolidation                      | FINANCE 1010                                            | [CVE-2025-30016](https://www.cve.org/CVERecord?id=CVE-2025-30016) | 9.8  | **Critical** |
 
 ## What has been observed?
 
