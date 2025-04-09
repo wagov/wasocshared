@@ -1,16 +1,15 @@
-# Microsoft Releases April 2025 Patch - 20250409001
+# Microsoft Monthly Security Updates - 20250409001
 
 ## Overview
 
-Microsoft's April 2025 Patch Tuesday has been released. It addresses 126 security vulnerabilities ranging in severity from low to high, including one zero-day vulnerability that is being actively exploited.
+Microsoft has released security updates to address 126 vulnerabilities in multiple products, 1 of which have been labeled as exploitation detected.
 
 ## What is vulnerable?
+### Known Exploitation
 
-For a complete list of vulnerabilities and affected products, please review Microsoft's [April 2025 Security Updates](https://msrc.microsoft.com/update-guide/releaseNote/2025-Apr) release notes.
-
-## What has been observed?
-
-There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+| Product(s) Affected                                                                                         | CVE                                                               | CVSS | Severity |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-29824) | [CVE-2025-21391](https://nvd.nist.gov/vuln/detail/CVE-2025-29824) | 7.8  | High     |
 
 ## Recommendation
 
@@ -19,6 +18,10 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 - Microsoft: <https://msrc.microsoft.com/update-guide/releaseNote/2025-Apr>
 
 ## Additional References
+<<<<<<< HEAD
+- CISA Known Exploited Vulnerabilities: <https://www.cisa.gov/news-events/alerts/2025/04/08/cisa-adds-two-known-exploited-vulnerabilities-catalog>
+=======
 
 - CISA: <https://www.cisa.gov/news-events/alerts/2025/04/08/cisa-adds-two-known-exploited-vulnerabilities-catalog>
+>>>>>>> a1eefac5b217ffa200bbbd7aeab59a88adf381b3
 - BleepingComputer: <https://www.bleepingcomputer.com/news/security/microsoft-windows-clfs-zero-day-exploited-by-ransomware-gang/>
