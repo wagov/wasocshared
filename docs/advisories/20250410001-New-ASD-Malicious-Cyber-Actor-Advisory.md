@@ -1,4 +1,4 @@
-# ASD Publishes Joint Advisory on BADBAZAAR and MOONSHINE Malicious Cyber Actors and Guidance - 20250410001
+# ASD Publishes Joint Advisory on new Malicious Cyber Actors and Guidance - 20250410001
 
 ## Overview
 
