@@ -2,17 +2,16 @@
 
 ## Overview
 
-
 Jenkins published a security advisory addressing vulnerabilities in Jenkins Docker images, specifically jenkins/ssh-agent and jenkins/ssh-slave, which involve the reuse of SSH host keys across containers.
 
 This issue could allow attackers to impersonate SSH build agents.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| jenkins/ssh-agent      | Version <= 6.11.1    | [CVE-2025-32754](https://nvd.nist.gov/vuln/detail/CVE-2025-32754)                                                                        | 9.1          | **Critical**                                   |
-|  jenkins/ssh-slave      | All versions    | [CVE-2025-32755](https://nvd.nist.gov/vuln/detail/CVE-2025-32755) | 9.1  |  **Critical** |
+| Product(s) Affected | Version(s)         | CVE                                                               | CVSS | Severity     |
+| ------------------- | ------------------ | ----------------------------------------------------------------- | ---- | ------------ |
+| jenkins/ssh-agent   | Version \<= 6.11.1 | [CVE-2025-32754](https://nvd.nist.gov/vuln/detail/CVE-2025-32754) | 9.1  | **Critical** |
+| jenkins/ssh-slave   | All versions       | [CVE-2025-32755](https://nvd.nist.gov/vuln/detail/CVE-2025-32755) | 9.1  | **Critical** |
 
 ## What has been observed?
 
