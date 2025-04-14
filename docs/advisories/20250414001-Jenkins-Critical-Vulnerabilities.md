@@ -8,10 +8,10 @@ This issue could allow attackers to impersonate SSH build agents.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)         | CVE                                                               | CVSS | Severity     |
-| ------------------- | ------------------ | ----------------------------------------------------------------- | ---- | ------------ |
+| Product(s) Affected | Version(s)                   | CVE                                                               | CVSS | Severity     |
+| ------------------- | ---------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
 | jenkins/ssh-agent   | All versions prior to 6.11.1 | [CVE-2025-32754](https://nvd.nist.gov/vuln/detail/CVE-2025-32754) | 9.1  | **Critical** |
-| jenkins/ssh-slave   | All versions       | [CVE-2025-32755](https://nvd.nist.gov/vuln/detail/CVE-2025-32755) | 9.1  | **Critical** |
+| jenkins/ssh-slave   | All versions                 | [CVE-2025-32755](https://nvd.nist.gov/vuln/detail/CVE-2025-32755) | 9.1  | **Critical** |
 
 ## What has been observed?
 
