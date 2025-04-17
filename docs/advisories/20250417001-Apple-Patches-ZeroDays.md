@@ -2,7 +2,7 @@
 
 ## Overview
 
-Apple have released a security advisory relating to vulnerabilities impacting multiple products. Successful exploitation may result in code execution.
+Apple have updates for vulnerabilities impacting multiple products, with successful exploitation potentially resulting in code execution.
 
 ## What is vulnerable?
 
