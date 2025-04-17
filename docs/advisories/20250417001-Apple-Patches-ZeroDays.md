@@ -2,7 +2,7 @@
 
 ## Overview
 
-Apple have updates for vulnerabilities impacting multiple products, with successful exploitation potentially resulting in code execution.
+Apple have released updates for vulnerabilities impacting multiple products, with successful exploitation potentially resulting in code execution.
 
 ## What is vulnerable?
 
