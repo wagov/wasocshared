@@ -6,7 +6,7 @@ Oracle has published a critical patch advisory that includes 378 patches across 
 
 ## What is vulnerable?
 
-Please review the [Oracle Critical Patch Update Advisory - April 2025](https://www.oracle.com/security-alerts/cpujan2025.html) for details regarding the vulnerabilities and affected products.
+Please review the [Oracle Critical Patch Update Advisory - April 2025](https://www.oracle.com/security-alerts/cpuapr2025.html) for details regarding the vulnerabilities and affected products.
 
 ### Critical Severity
 
@@ -36,4 +36,4 @@ The WA SOC has not received any reports of exploitation of this vulnerability on
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe as shown in [Patch Management](../guidelines/patch-management.md):
 
-- Oracle: <https://www.oracle.com/security-alerts/https://www.oracle.com/security-alerts/cpuapr2025.html>
+- Oracle: <https://www.oracle.com/security-alerts/cpuapr2025.html>
