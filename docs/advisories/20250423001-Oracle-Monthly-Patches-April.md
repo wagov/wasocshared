@@ -10,24 +10,23 @@ Please review the [Oracle Critical Patch Update Advisory - April 2025](https://w
 
 ### Critical Severity
 
-| CVE                                                                   | CVSS |
-| --------------------------------------------------------------------- | ---- |
-| [CVE-2025-30727](https://nvd.nist.gov/vuln/detail/CVE-2025-30727) | 9.8 |
-| [CVE-2025-24813](https://nvd.nist.gov/vuln/detail/CVE-2025-24813) | 9.8 |
-| [CVE-2025-1974](https://nvd.nist.gov/vuln/detail/CVE-2025-1974) | 9.8 |
-| [CVE-2024-56337](https://nvd.nist.gov/vuln/detail/CVE-2024-56337) | 9.8 |
-| [CVE-2024-5535](https://nvd.nist.gov/vuln/detail/CVE-2024-5535) | 9.1 |
-| [CVE-2024-52316](https://nvd.nist.gov/vuln/detail/CVE-2024-52316) | 9.8 |
-| [CVE-2024-52046](https://nvd.nist.gov/vuln/detail/CVE-2024-52046) | 9.8 |
-| [CVE-2024-47561](https://nvd.nist.gov/vuln/detail/CVE-2024-47561) | 9.8 |
-| [CVE-2024-40896](https://nvd.nist.gov/vuln/detail/CVE-2024-40896) | 9.1 |
-| [CVE-2024-38476](https://nvd.nist.gov/vuln/detail/CVE-2024-38476) | 9.8 |
-| [CVE-2024-23807](https://nvd.nist.gov/vuln/detail/CVE-2024-23807) | 9.8 |
-| [CVE-2024-11053](https://nvd.nist.gov/vuln/detail/CVE-2024-11053) | 9.1 |
-| [CVE-2022-45047](https://nvd.nist.gov/vuln/detail/CVE-2022-45047) | 9.8 |
-| [CVE-2022-34381](https://nvd.nist.gov/vuln/detail/CVE-2022-34381) | 9.8 |
-| [CVE-2021-23450](https://nvd.nist.gov/vuln/detail/CVE-2021-23450) | 9.8 |
-
+| CVE                                                               | CVSS |
+| ----------------------------------------------------------------- | ---- |
+| [CVE-2025-30727](https://nvd.nist.gov/vuln/detail/CVE-2025-30727) | 9.8  |
+| [CVE-2025-24813](https://nvd.nist.gov/vuln/detail/CVE-2025-24813) | 9.8  |
+| [CVE-2025-1974](https://nvd.nist.gov/vuln/detail/CVE-2025-1974)   | 9.8  |
+| [CVE-2024-56337](https://nvd.nist.gov/vuln/detail/CVE-2024-56337) | 9.8  |
+| [CVE-2024-5535](https://nvd.nist.gov/vuln/detail/CVE-2024-5535)   | 9.1  |
+| [CVE-2024-52316](https://nvd.nist.gov/vuln/detail/CVE-2024-52316) | 9.8  |
+| [CVE-2024-52046](https://nvd.nist.gov/vuln/detail/CVE-2024-52046) | 9.8  |
+| [CVE-2024-47561](https://nvd.nist.gov/vuln/detail/CVE-2024-47561) | 9.8  |
+| [CVE-2024-40896](https://nvd.nist.gov/vuln/detail/CVE-2024-40896) | 9.1  |
+| [CVE-2024-38476](https://nvd.nist.gov/vuln/detail/CVE-2024-38476) | 9.8  |
+| [CVE-2024-23807](https://nvd.nist.gov/vuln/detail/CVE-2024-23807) | 9.8  |
+| [CVE-2024-11053](https://nvd.nist.gov/vuln/detail/CVE-2024-11053) | 9.1  |
+| [CVE-2022-45047](https://nvd.nist.gov/vuln/detail/CVE-2022-45047) | 9.8  |
+| [CVE-2022-34381](https://nvd.nist.gov/vuln/detail/CVE-2022-34381) | 9.8  |
+| [CVE-2021-23450](https://nvd.nist.gov/vuln/detail/CVE-2021-23450) | 9.8  |
 
 ## What has been observed?
 
