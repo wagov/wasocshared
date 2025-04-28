@@ -6,12 +6,11 @@ Since the initial publication of [Advisory #20250409003](https://soc.cyber.wa.go
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                       | CVSS          | Severity                                                        |
-| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | --------------------------------------------------------------- |
-| SAP NetWeaver (Visual Composer development server)    | VCFRAMEWORK 7.50 | [CVE-2025-31324](https://nvd.nist.gov/vuln/detail/CVE-2025-31324) | 10 | **Critical** |
-| SAP S/4HANA (Private Cloud or On-Premise)   | S4CORE 102, 103, 104, 105, 106, 107, 108  | [CVE-2025-27429](https://nvd.nist.gov/vuln/detail/CVE-2025-27429) | 9.9         | **Critical**   |
-| SAP Landscape Transformation (Analysis Platform)    | DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731  | [CVE-2025-31330](https://nvd.nist.gov/vuln/detail/CVE-2025-31330) | 9.9 | **Critical** |
-
+| Product(s) Affected                                | Version(s)                                          | CVE                                                               | CVSS | Severity     |
+| -------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| SAP NetWeaver (Visual Composer development server) | VCFRAMEWORK 7.50                                    | [CVE-2025-31324](https://nvd.nist.gov/vuln/detail/CVE-2025-31324) | 10   | **Critical** |
+| SAP S/4HANA (Private Cloud or On-Premise)          | S4CORE 102, 103, 104, 105, 106, 107, 108            | [CVE-2025-27429](https://nvd.nist.gov/vuln/detail/CVE-2025-27429) | 9.9  | **Critical** |
+| SAP Landscape Transformation (Analysis Platform)   | DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731 | [CVE-2025-31330](https://nvd.nist.gov/vuln/detail/CVE-2025-31330) | 9.9  | **Critical** |
 
 ## What has been observed?
 
