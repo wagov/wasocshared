@@ -20,7 +20,6 @@ The WA SOC recommends administrators:
 - Enable "Automatic Attack Disruption" settings within their environments as per Microsoft Documentation where possible: <https://learn.microsoft.com/en-us/defender-xdr/automatic-attack-disruption>.
 - Engage with Financial and Payroll teams to ensure there are established processes and procedures for verifying all financial related communications are legitimate, even from internal contacts and colleagues.
 
-
 ## Additional References
 
 - ASD Threat Article: "Business Email Compromise" <https://www.cyber.gov.au/threats/types-threats/business-email-compromise>
