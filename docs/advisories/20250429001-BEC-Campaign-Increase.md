@@ -8,7 +8,7 @@ The WA SOC has observed an increase of activity relating to Business Email Compr
 
 Business email compromise (BEC) is a form of targeted phishing, or spear phishing. Criminals target organisations and try to scam them out of money or goods. They also target employees and try and trick them into revealing important business information.
 
-Criminals use email to impersonate business organisations and representatives. This also includes using compromised accounts of legitimate organisations as part of their tactics.
+Criminals use email to impersonate business organisations and representatives. This also includes using compromised accounts of employees as part of their tactics.
 
 ## Recommendation
 
