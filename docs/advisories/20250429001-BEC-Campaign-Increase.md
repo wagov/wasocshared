@@ -14,9 +14,9 @@ Criminals use emails to pretend to be business representatives. They also us
 
 The WA SOC recommends administrators:
 
-- Ensure all accounts are secured with phishing-resistant authentication methods where possible, such as Multi Factor Authentication (MFA), or utilising hardware security tokens.
-- Enable "Automatic Attack Disruption" settings within their environments as per Microsoft Documentation where possible: <https://learn.microsoft.com/en-us/defender-xdr/automatic-attack-disruption>
-- Engaging with financial teams to ensure there are established processes and procedures for verifying all financial related communications are legitimate, even from internal contacts and colleagues.
+- Ensure all accounts are secured with phishing-resistant authentication methods where possible, such as Multi Factor Authentication (MFA), or utilising hardware security tokens: <https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-deploy-phishing-resistant-passwordless-authentication>.
+- Enable "Automatic Attack Disruption" settings within their environments as per Microsoft Documentation where possible: <https://learn.microsoft.com/en-us/defender-xdr/automatic-attack-disruption>.
+- Engage with Financial and Payroll teams to ensure there are established processes and procedures for verifying all financial related communications are legitimate, even from internal contacts and colleagues.
 
 
 ## Additional References
