@@ -8,7 +8,7 @@ The WASOC has observed an increase amount of threat actor activity related to Fi
 
 Business email compromise (BEC) is a proven tactic for accomplishing financial fraud for attackers. BEC is a form of targeted phishing, or spear phishing and whaling (executive phishing).
 
-Threat Actors leverage compromised accounts of trusted internal or external identities to then facilitate fruad against organsiations finance teams.
+Threat Actors leverage compromised accounts of trusted internal or external identities to then facilitate fraud against organisations finance teams.
 
 The WASOC recommends reviewing internal process and procedures involving financial related communications to internal and external partners or identities.
 
