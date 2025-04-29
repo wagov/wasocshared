@@ -1,14 +1,16 @@
-# Increased Business Email Compromise (BEC) Activity - 20250429001
+# Increased Financial Fraud Activity - 20250429001
 
 ## Overview
 
-The WA SOC has observed an increase of activity relating to Business Email Compromise (BEC) attacks.
+The WA SOC has observed an increase of activity relating to Financial Fraud utilising Business Email Compromise (BEC) attacks.
 
 ## What is the threat?
 
-Business email compromise (BEC) is a form of targeted phishing, or spear phishing. Criminals target organisations and try to scam them out of money or goods. They also target employees and try and trick them into revealing important business information.
+Business email compromise (BEC) is a proven tactic for accomplishing financial fraud for attackers. BEC is a form of targeted phishing, or spear phishing.
 
-Criminals use email to impersonate business organisations and representatives. This also includes using compromised accounts of employees as part of their tactics.
+Criminals target organisations by identifying as a trusted contact to scam them out of money or goods. They also target employees and try and trick them into revealing important business information. This also includes using compromised accounts of employees as part of their tactics.
+
+The WA SOC recommends reviewing internal policy and procedures involving financial related communications.
 
 ## Recommendation
 
