@@ -14,7 +14,7 @@ Since the initial publication of [Advisory #20250409003](https://soc.cyber.wa.go
 
 ## What has been observed?
 
-The WA SOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
+CISA added CVE-2025-31324 vulnerability in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog. The WA SOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
 
