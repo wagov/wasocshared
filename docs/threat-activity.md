@@ -13,7 +13,7 @@ Based on recent high impact incidents seen by the WA SOC, security teams should 
 Recent WA SOC advisories this month worth staying across include:
 
 - Fortinet Critical Vulnerabilities [Fortinet Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250409002-Fortinet-Critical-Vulnerability/)
-- SAP Critical Updates to security vulnerabilities [SAP Critical Updates](https://soc.cyber.wa.gov.au/advisories/20250409003-SAP-Critical-Updates/)
+- SAP Releases Critical Updates to security vulnerabilities [SAP Critical Updates](https://soc.cyber.wa.gov.au/advisories/20250409003-SAP-Critical-Updates/)
 
 Agencies should review the latest [WA Government Cyber Security Policy](https://www.wa.gov.au/government/publications/2024-wa-government-cyber-security-policy)
 
