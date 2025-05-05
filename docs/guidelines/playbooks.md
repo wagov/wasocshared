@@ -34,7 +34,7 @@ In the absence of an internal procedure the CERT Societe Generale [IRM-2022 (Inc
 1. [Third-Party Compromise (pdf)](https://github.com/wagov/IRM/raw/main/EN/IRM-19-3rd-party_compromise.pdf)
 1. [Red Team Detection (pdf)](https://github.com/wagov/IRM/raw/main/EN/IRM-20-Red_Team_Detection.pdf)
 1. [Critical Vulnerability Prioritisation (pdf)](https://github.com/wagov/IRM/raw/main/EN/IRM-21-Critical_Vulnerability_Prioritization.pdf)
-1. [Busniess Email Compromise (pdf)](https://github.com/wagov/IRM/raw/main/EN/IRM-22-Business_Email_Compromise.pdf)
+1. [Business Email Compromise (pdf)](https://github.com/wagov/IRM/raw/main/EN/IRM-22-Business_Email_Compromise.pdf)
 
 ## 3. Vulnerability Response
 
