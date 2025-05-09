@@ -86,6 +86,7 @@ nav:
   - Vulnerability Management: baselines/vulnerability-management.md
 - Guidelines:
   - Incident Reporting: guidelines/incident-reporting.md
+  - Cyber Security Playbooks: 'guidelines/playbooks.md'
   - Network Management: guidelines/network-management.md
   - Patch Management: guidelines/patch-management.md
   - Configuration Assessment: guidelines/secure-configuration.md
