@@ -1,16 +1,16 @@
 # Microsoft Monthly Security Updates - 20250514001
 
 ## Overview
-Microsoft has released security updates to address 78 vulnerabilities in multiple products, one of which has been identified as having the highest level of severity, allowing for remote code execution without any user interaction or privileges.
 
+Microsoft has released security updates to address 78 vulnerabilities in multiple products, one of which has been identified as having the highest level of severity, allowing for remote code execution without any user interaction or privileges.
 
 ## What is vulnerable?
 
 ### Known Exploitation
 
-| Product(s) Affected                                                                                               | CVE                                                               | CVSS | Severity |
-| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/releaseNote/2025-May) | [CVE-2025-29813](https://nvd.nist.gov/vuln/detail/CVE-2025-29813) | 10.0  | Critical     |
+| Product(s) Affected                                                                                 | CVE                                                               | CVSS | Severity |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/releaseNote/2025-May) | [CVE-2025-29813](https://nvd.nist.gov/vuln/detail/CVE-2025-29813) | 10.0 | Critical |
 
 ## Recommendation
 
