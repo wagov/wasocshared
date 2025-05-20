@@ -2,7 +2,7 @@
 
 ## Overview
 
-Mozilla has released security updates to address two critical security flaws in its Firefox browser that could potentially be exploited to access sensitive data or achieve code execution. The vulnerabilities affect standard and Extended Support Release (ESR) versions.
+Mozilla has released security updates to address two security flaws in its Firefox browser that could potentially be exploited to access sensitive data or achieve code execution. The vulnerabilities affect standard and Extended Support Release (ESR) versions.
 
 ## What is vulnerable?
 
