@@ -6,10 +6,9 @@ Mozilla has released security updates to address two security flaws in its Firef
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Firefox, Firefox ESR   | All versions < 138.0.4, All ESR versions < 115.23.1, 128.10.1    | [CVE-2025-4918](https://nvd.nist.gov/vuln/detail/CVE-2025-4918) <br> [CVE-2025-4919](https://nvd.nist.gov/vuln/detail/CVE-2025-4919)                                                                    | 7.5  <br> 8.8        | High <br> High                               |
-
+| Product(s) Affected  | Version(s)                                                    | CVE                                                                                                                                  | CVSS         | Severity       |
+| -------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------- |
+| Firefox, Firefox ESR | All versions < 138.0.4, All ESR versions < 115.23.1, 128.10.1 | [CVE-2025-4918](https://nvd.nist.gov/vuln/detail/CVE-2025-4918) <br> [CVE-2025-4919](https://nvd.nist.gov/vuln/detail/CVE-2025-4919) | 7.5 <br> 8.8 | High <br> High |
 
 ## What has been observed?
 
