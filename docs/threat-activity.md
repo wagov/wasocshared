@@ -28,7 +28,6 @@ Recent WA SOC advisories this month worth staying across include:
 
 - [Apache ActiveMQ Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250502001-Apache-ActiveMQ-Vulnerability/)
 
-
 ## WASOC - General Advice
 
 **Security Hardening** remains a focus for all organisations. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
