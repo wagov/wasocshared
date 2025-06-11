@@ -8,9 +8,9 @@ Microsoft has released security updates to address 67 vulnerabilities in multipl
 
 ### Known Exploitation CVE(s)
 
-| Product(s) and Version(s) Affected | CVE | CVSS | Severity |
-| ---------------------------------- | --- | ---- | -------- |
-| [Vendor listed affected Products and Versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-33053) | [CVE-2025-33053](https://nvd.nist.gov/vuln/detail/CVE-2025-33053) | 8.8 | High |
+| Product(s) and Version(s) Affected                                                                                         | CVE                                                               | CVSS | Severity |
+| -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| [Vendor listed affected Products and Versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-33053) | [CVE-2025-33053](https://nvd.nist.gov/vuln/detail/CVE-2025-33053) | 8.8  | High     |
 
 ## Recommendation
 
