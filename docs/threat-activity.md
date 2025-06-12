@@ -2,7 +2,7 @@
 
 {{ date_index("docs/advisories", prefix="advisories/", expand=1, include=2) }}
 
-## WA SOC - Recent Threat Activity (April 2025)
+## WA SOC - Recent Threat Activity (May 2025)
 
 Based on recent high impact incidents seen by the WA SOC, security teams should be focusing on the below areas of improvement based on phishing and phishing resistant MFA:
 
@@ -12,14 +12,26 @@ Based on recent high impact incidents seen by the WA SOC, security teams should 
 
 Recent WA SOC advisories this month worth staying across include:
 
-- Fortinet Critical Vulnerabilities [Fortinet Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250409002-Fortinet-Critical-Vulnerability/)
-- SAP Releases Critical Updates to Security Vulnerabilities [SAP Critical Updates](https://soc.cyber.wa.gov.au/advisories/20250409003-SAP-Critical-Updates/)
+- Microsoft Multiple vulnerabilities [Microsoft Monthly Security Updates](https://soc.cyber.wa.gov.au/advisories/20250514001-Microsoft-May-Patch/#overview)
 
-Agencies should review the latest [WA Government Cyber Security Policy](https://www.wa.gov.au/government/publications/2024-wa-government-cyber-security-policy)
+- [SonicWall Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250501001-SonicWall-Critical-Vulnerability/)
+
+- [CrushFTP auth bypass vulnerability](https://soc.cyber.wa.gov.au/advisories/20250520002-CrushFTP-systems-vulnerability/)
+
+- [Jenkins Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250519001-Jenkins-Critical-Vulnerability/)
+
+- [Fortinet Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250516002-Fortinet-Critical-Vulnerability/)
+
+- [Fortinet Products Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250515001-Fortinet-Critical-Vulnerability/)
+
+- [Cisco IOS XE Software Vulnerability ](https://soc.cyber.wa.gov.au/advisories/20250508001-Cisco-IOS-XE-Software-Vulnerability/)
+
+- [Apache ActiveMQ Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250502001-Apache-ActiveMQ-Vulnerability/)
 
 ## WASOC - General Advice
 
 **Security Hardening** remains a focus for all organisations. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
 
 - Policy The Government of Western Australia’s Artificial Intelligence Policy specifies the principles that must be applied by WA Government agencies who are developing or using Artificial Intelligence (AI) tools. [WA Government Artificial Intelligence Policy and Assurance Framework](https://www.wa.gov.au/system/files/2025-04/wagovernmentaiassuranceformonethree.pdf)
+
 - [ASD's Blueprint for Secure Cloud](https://blueprint.asd.gov.au/)
