@@ -6,10 +6,9 @@ Multiple vulnerabilities in Mozilla Firefox prior to version 139.0.4 could allow
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Mozilla Firefox      | Prior to 139.0.4    | [CVE-2025-49709 ](https://nvd.nist.gov/vuln/detail/CVE-2025-49709 ) <br> [CVE-2025-49710 ](https://nvd.nist.gov/vuln/detail/CVE-2025-49710 )                                                                        | 9.8 <br> 9.8         | **Critical** <br> **Critical**                                  |
-
+| Product(s) Affected | Version(s)       | CVE                                                                                                                                        | CVSS         | Severity                       |
+| ------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------ |
+| Mozilla Firefox     | Prior to 139.0.4 | [CVE-2025-49709 ](https://nvd.nist.gov/vuln/detail/CVE-2025-49709) <br> [CVE-2025-49710 ](https://nvd.nist.gov/vuln/detail/CVE-2025-49710) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 
