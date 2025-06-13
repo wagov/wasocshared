@@ -6,10 +6,10 @@ CISA has released multiple critical advisories for Industrial Control Systems (I
 
 ## What is vulnerable?
 
-| Vendor     | CVE                                                               | CVSS v4/v3 | Severity     |
-| -----------| ----------------------------------------------------------------- | ---- | ------------ |
-| Siemens    | [CVE-2025-40585](https://www.cve.org/CVERecord?id=CVE-2025-40585) | 9.9  | **Critical** |
-|  PTZOptics | [CVE-2025-35452](https://www.cve.org/CVERecord?id=CVE-2025-35452) <br> [CVE-2025-35451](https://www.cve.org/CVERecord?id=CVE-2025-35451) <br>[CVE-2024-8956](https://www.cve.org/CVERecord?id=CVE-2024-8956) | 9.8 <br> 9.8 <br> 9.1 | **Critical** <br> **Critical** <br> **Critical** |
+| Vendor    | CVE                                                                                                                                                                                                          | CVSS v4/v3            | Severity                                         |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | ------------------------------------------------ |
+| Siemens   | [CVE-2025-40585](https://www.cve.org/CVERecord?id=CVE-2025-40585)                                                                                                                                            | 9.9                   | **Critical**                                     |
+| PTZOptics | [CVE-2025-35452](https://www.cve.org/CVERecord?id=CVE-2025-35452) <br> [CVE-2025-35451](https://www.cve.org/CVERecord?id=CVE-2025-35451) <br>[CVE-2024-8956](https://www.cve.org/CVERecord?id=CVE-2024-8956) | 9.8 <br> 9.8 <br> 9.1 | **Critical** <br> **Critical** <br> **Critical** |
 
 ## Recommendation
 
