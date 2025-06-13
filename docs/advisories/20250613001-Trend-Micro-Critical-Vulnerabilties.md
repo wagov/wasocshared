@@ -10,7 +10,7 @@ Successful exploitation could allow a remote threat actor to escalate privileges
 
 | Product(s) Affected                                 | Version(s)       | CVE                                                                                                                                       | CVSS         | Severity               |
 | --------------------------------------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------- |
-| Trend Micro Endpoint Encryption (TMEE) PolicyServer | prior 6.0.0.4013 | [CVE-2025-49212](https://nvd.nist.gov/vuln/detail/CVE-2025-49212) <br> [ CVE-2025-49213](https://nvd.nist.gov/vuln/detail/CVE-2025-49213) | 9.8 <br> 9.8 | Critical <br> Critical |
+| Trend Micro Endpoint Encryption (TMEE) PolicyServer | all versions prior to 6.0.0.4013 | [CVE-2025-49212](https://nvd.nist.gov/vuln/detail/CVE-2025-49212) <br> [ CVE-2025-49213](https://nvd.nist.gov/vuln/detail/CVE-2025-49213) | 9.8 <br> 9.8 | Critical <br> Critical |
 | Apex Central                                        | 2019 (On-prem)   | [CVE-2025-49219](https://nvd.nist.gov/vuln/detail/CVE-2025-49219)                                                                         | 9.8          | Critical               |
 | Apex Central as a Service                           | SaaS             | [CVE-2025-49220](https://nvd.nist.gov/vuln/detail/CVE-2025-49220)                                                                         | 9.8          | Critical               |
 
