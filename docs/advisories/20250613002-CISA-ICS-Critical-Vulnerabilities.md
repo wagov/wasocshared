@@ -1,4 +1,4 @@
-# ICS Critical Vulnerabilties - 20250613002
+# ICS Critical Vulnerabilities - 20250613002
 
 ## Overview
 
