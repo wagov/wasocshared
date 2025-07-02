@@ -105,12 +105,6 @@ The security tools collecting telemetry should be capable of running both built-
 
 To improve detection coverage within Microsoft Sentinel, please follow the WA SOC [telemetry re-ingestion](../onboarding/sentinel-guidance.md#3-third-party-solutions-telemetry-re-ingestion) and [incident synchronisation](../onboarding/sentinel-guidance.md#4-third-party-integrations-incident-synchronisation-only) guidance.
 
-### 5.2 Sigma rule converter
-
-The below [sigmatron utility (open in new window)](https://adonm.github.io/stlite-apps/apps/sigmatron.html) is built with the latest [Sigma](https://github.com/SigmaHQ/sigma/) rules and provides a convenient interface to search and convert rules to several SIEM formats and query languages.
-
-<iframe src="https://adonm.github.io/stlite-apps/apps/sigmatron.html" style="width: 100%; height: 70vh; border: 0"></iframe>
-
 ## 6. Sentinel Telemetry Gap Analysis (KQL)
 
 The following listed queries help identify missing telemetry for endpoints in Microsoft Sentinel. The chart below depicts most seen observables per [MITRE ATT&CK®](https://attack.mitre.org/) (source: [OSSEM project](https://github.com/OTRF/OSSEM))
