@@ -15,6 +15,6 @@ While devices aged beyond their end-of-life dates are known to be more vulnerabl
 The WA SOC recommends administrators perform the following:
 
 - ASD Advisory: https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/peoples-republic-china-linked-actors-compromise-routers-and-iot-devices-botnet-operations
-  - Review 'Appendix A: Indicators of Compromise' section to perform scoping of any potentially related activity,
-  - Review 'Appendix B: Observed CVEs' section to perform discovery of potentially vulnerable devices,
-  - Review the 'Recommended Mitigations' section for relevant information.
+    - Review 'Appendix A: Indicators of Compromise' section to perform scoping of any potentially related activity,
+    - Review 'Appendix B: Observed CVEs' section to perform discovery of potentially vulnerable devices,
+    - Review the 'Recommended Mitigations' section for relevant information.
