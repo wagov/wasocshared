@@ -1,4 +1,4 @@
-# Phishing Campaigns Using M365 Direct Send - 20240919001
+# Phishing Campaigns Using M365 Direct Send - 20250707001
 
 ## Overview
 
