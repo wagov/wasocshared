@@ -8,9 +8,9 @@ Microsoft has released security updates to address 130 vulnerabilities in multip
 
 ### Critical Severity
 
-| Product(s) Affected                                                                                 | CVE                                                               | CVSS | Severity |
-| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-47981) | [CVE-2025-47981](https://nvd.nist.gov/vuln/detail/CVE-2025-47981) | 9.8 | Critical |
+| Product(s) Affected                                                                                               | CVE                                                               | CVSS | Severity |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-47981) | [CVE-2025-47981](https://nvd.nist.gov/vuln/detail/CVE-2025-47981) | 9.8  | Critical |
 
 ## Recommendation
 
