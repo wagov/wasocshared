@@ -6,9 +6,9 @@ Fortinet have addressed a critical vulnerability affecting FortiWeb products. Su
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| FortiWeb | 7.6.x prior to 7.6.4  <br/> 7.4.x prior to 7.4.8 <br/> 7.2.x prior to 7.2.11 <br/> 7.0.x prior to 7.0.11| [CVE-2025-25257](https://nvd.nist.gov/vuln/detail/CVE-2025-25257)                                                                        | 9.6        | **Critical**            |
+| Product(s) Affected | Version(s)                                                                                              | CVE                                                               | CVSS | Severity     |
+| ------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| FortiWeb            | 7.6.x prior to 7.6.4 <br/> 7.4.x prior to 7.4.8 <br/> 7.2.x prior to 7.2.11 <br/> 7.0.x prior to 7.0.11 | [CVE-2025-25257](https://nvd.nist.gov/vuln/detail/CVE-2025-25257) | 9.6  | **Critical** |
 
 ## What has been observed?
 

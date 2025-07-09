@@ -6,12 +6,11 @@ SAP has addressed multiple critically rated vulnerabilities in their monthly Sec
 
 ## What is vulnerable?
 
-| Product(s) Affected                                         | CVE                                                               | CVSS | Severity     |
-| ----------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
-| SAP Supplier Relationship Management (Live Auction Cockpit) | [CVE-2025-30012](https://www.cve.org/CVERecord?id=CVE-2025-30012) | 10   | **Critical** |
-| SAP S/4HANA and SAP SCM (Characteristic Propagation)        | [CVE-2025-42967](https://www.cve.org/CVERecord?id=CVE-2025-42967) | 9.9  | **Critical** |
+| Product(s) Affected                                         | CVE                                                                                                                                                                                                                                                                                    | CVSS                           | Severity     |
+| ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ | ------------ |
+| SAP Supplier Relationship Management (Live Auction Cockpit) | [CVE-2025-30012](https://www.cve.org/CVERecord?id=CVE-2025-30012)                                                                                                                                                                                                                      | 10                             | **Critical** |
+| SAP S/4HANA and SAP SCM (Characteristic Propagation)        | [CVE-2025-42967](https://www.cve.org/CVERecord?id=CVE-2025-42967)                                                                                                                                                                                                                      | 9.9                            | **Critical** |
 | SAP NetWeaver                                               | [CVE-2025-42980](https://www.cve.org/CVERecord?id=CVE-2025-42980) <br> [CVE-2025-42963](https://www.cve.org/CVERecord?id=CVE-2025-42963) <br> [CVE-2025-42964](https://www.cve.org/CVERecord?id=CVE-2025-42964) <br> [CVE-2025-42966](https://www.cve.org/CVERecord?id=CVE-2025-42966) | 9.1 <br> 9.1 <br> 9.1 <br> 9.1 | **Critical** |
-
 
 ## Recommendation
 
