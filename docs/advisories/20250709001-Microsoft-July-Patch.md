@@ -2,7 +2,7 @@
 
 ## Overview
 
-Microsoft has released security updates to address 130 vulnerabilities in multiple products, one of which rated as critical severity.
+Microsoft has released security updates to address 130 vulnerabilities in multiple products, one of which has been critically rated.
 
 ## What is vulnerable?
 
