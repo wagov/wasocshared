@@ -10,7 +10,7 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 | Vendor | CVE # | CVSS | Severity |
 | --- | --- | --- | --- |
-| KUNBUS | [CVE-2025-24522](https://www.cve.org/CVERecord?id=CVE-2025-24522 "https://www.cve.org/CVERecord?id=CVE-2025-24522") <br> [CVE-2025-41646](https://www.cve.org/CVERecord?id=CVE-2025-41646 "https://www.cve.org/CVERecord?id=CVE-2025-41646") | 10 <br> 9.8 |  Critical <br> Critical |
+| KUNBUS | [CVE-2025-24522](https://www.cve.org/CVERecord?id=CVE-2025-24522 "https://www.cve.org/CVERecord?id=CVE-2025-24522") <br> [CVE-2025-41646](https://www.cve.org/CVERecord?id=CVE-2025-41646 "https://www.cve.org/CVERecord?id=CVE-2025-41646") | 10 <br> 9.8 | Critical <br> Critical |
 
 ## Recommendation
 
