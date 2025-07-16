@@ -6,8 +6,8 @@ Broadcom has issued an urgent advisory addressing critical vulnerabilities affec
 
 ## What is vulnerable?
 
-| Product(s) Affected                 | CVE                                                               | CVSS | Severity |
-| ----------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Product(s) Affected                         | CVE                                                                                                                                                                                                             | CVSS                  | Severity                             |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------------------------------------ |
 | VMware ESXi, Workstation, Fusion, and Tools | [CVE-2025-41236](https://nvd.nist.gov/vuln/detail/CVE-2025-41236) <br> [CVE-2025-41237](https://nvd.nist.gov/vuln/detail/CVE-2025-41237) <br> [CVE-2025-41238](https://nvd.nist.gov/vuln/detail/CVE-2025-41238) | 9.3 <br> 9.3 <br> 9.3 | Critical <br> Critical <br> Critical |
 
 ## What has been observed?
