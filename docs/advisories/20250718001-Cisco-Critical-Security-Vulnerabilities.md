@@ -1,4 +1,4 @@
-# Cisco-Critical-Security-Vulnerabilites - 20250718001
+# Cisco Critical Security Vulnerabilites - 20250718001
 
 ## Overview
 
@@ -8,8 +8,7 @@ Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE P
 
 | Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
 | ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-|  Cisco ISE/Cisco ISE-PIC     |  3.3 & 3.4 | [CVE-2025-20337](https://nvd.nist.gov/vuln/detail/CVE-2025-20337) <br> [CVE-2025-20281](https://nvd.nist.gov/vuln/detail/CVE-2025-20281)                                                                   | 10          | **Critical**                                   |
-|  Cisco ISE/Cisco ISE-PIC     |  3.4 | [CVE-2025-20282](https://nvd.nist.gov/vuln/detail/CVE-2025-20282)                                                                | 10          | **Critical**                                  |
+|  Cisco ISE, and <br> Cisco ISE-PIC |  3.3 prior to Patch 7 <br> 3.4 prior to Patch 2 | [CVE-2025-20337](https://nvd.nist.gov/vuln/detail/CVE-2025-20337) <br> [CVE-2025-20281](https://nvd.nist.gov/vuln/detail/CVE-2025-20281) <br> [CVE-2025-20282](https://nvd.nist.gov/vuln/detail/CVE-2025-20282) | 10 <br> 10 <br> 10 | **Critical** <br> **Critical** <br> **Critical** |
 
 
 
