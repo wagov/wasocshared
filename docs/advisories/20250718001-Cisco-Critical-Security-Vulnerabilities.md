@@ -6,11 +6,9 @@ Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE P
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-|  Cisco ISE, and <br> Cisco ISE-PIC |  3.3 prior to Patch 7 <br> 3.4 prior to Patch 2 | [CVE-2025-20337](https://nvd.nist.gov/vuln/detail/CVE-2025-20337) <br> [CVE-2025-20281](https://nvd.nist.gov/vuln/detail/CVE-2025-20281) <br> [CVE-2025-20282](https://nvd.nist.gov/vuln/detail/CVE-2025-20282) | 10 <br> 10 <br> 10 | **Critical** <br> **Critical** <br> **Critical** |
-
-
+| Product(s) Affected               | Version(s)                                     | CVE                                                                                                                                                                                                             | CVSS               | Severity                                         |
+| --------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------ |
+| Cisco ISE, and <br> Cisco ISE-PIC | 3.3 prior to Patch 7 <br> 3.4 prior to Patch 2 | [CVE-2025-20337](https://nvd.nist.gov/vuln/detail/CVE-2025-20337) <br> [CVE-2025-20281](https://nvd.nist.gov/vuln/detail/CVE-2025-20281) <br> [CVE-2025-20282](https://nvd.nist.gov/vuln/detail/CVE-2025-20282) | 10 <br> 10 <br> 10 | **Critical** <br> **Critical** <br> **Critical** |
 
 ## What has been observed?
 
@@ -24,4 +22,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- Security Week: <https://www.securityweek.com/cisco-patches-another-critical-ise-vulnerability/> 
+- Security Week: <https://www.securityweek.com/cisco-patches-another-critical-ise-vulnerability/>
