@@ -1,4 +1,4 @@
-# Cisco Critical Security Vulnerabilites - 20250718001
+# Cisco Critical Security Vulnerabilities - 20250718001
 
 ## Overview
 
