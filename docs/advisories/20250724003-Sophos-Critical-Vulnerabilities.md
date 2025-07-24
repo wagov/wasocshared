@@ -6,9 +6,9 @@ Sophos has issued a security advisory addressing multiple vulnerabilities in the
 
 ## What is vulnerable?
 
-| Product(s) Affected    | Version(s)                  | CVE                                                             | CVSS | Severity     |
-| ---------------------- | --------------------------- | --------------------------------------------------------------- | ---- | ------------ |
-| Sophos Firewall | all versions prior to v21.0 MR2 (21.0.2) | [CVE-2025-6704](https://nvd.nist.gov/vuln/detail/CVE-2025-6704) <br> [CVE-2025-7624](https://nvd.nist.gov/vuln/detail/CVE-2025-7624) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
+| Product(s) Affected | Version(s)                               | CVE                                                                                                                                  | CVSS         | Severity                       |
+| ------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------ |
+| Sophos Firewall     | all versions prior to v21.0 MR2 (21.0.2) | [CVE-2025-6704](https://nvd.nist.gov/vuln/detail/CVE-2025-6704) <br> [CVE-2025-7624](https://nvd.nist.gov/vuln/detail/CVE-2025-7624) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 
