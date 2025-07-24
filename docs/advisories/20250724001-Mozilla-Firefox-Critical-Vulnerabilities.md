@@ -2,7 +2,7 @@
 
 ## Overview
 
-Multiple vulnerabilities have been discovered in Mozilla. These vulnerabilities could allow attackers to execute arbitrary code, manipulate URL display, bypass navigation security checks, bypass cookie security mechanisms, intercept and obtain sensitive authentication credentials and manipulate WebAssembly execution.
+Mozilla have released a security advisory to address multiple vulnerabilities affecting their Firefox and Thunderbird products. These vulnerabilities could allow attackers to execute arbitrary code, manipulate URL display, bypass navigation security checks, bypass cookie security mechanisms, intercept and obtain sensitive authentication credentials and manipulate WebAssembly execution.
 
 ## What is vulnerable?
 
