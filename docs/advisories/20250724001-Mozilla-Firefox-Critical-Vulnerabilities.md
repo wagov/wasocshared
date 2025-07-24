@@ -1,4 +1,4 @@
-# Broadcast - Mozilla Firefox Critical Vulnerabilities - 20250724001
+# Mozilla Firefox Critical Vulnerabilities - 20250724001
 
 ## Overview
 
