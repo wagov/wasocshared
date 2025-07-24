@@ -12,7 +12,7 @@ Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE P
 
 ## What has been observed?
 
-Cisco have updated their advisory since inial publication to indicate active exploitation attempts in the wild.
+Cisco have updated their advisory since initial publication to indicate active exploitation attempts in the wild.
 The WA SOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
