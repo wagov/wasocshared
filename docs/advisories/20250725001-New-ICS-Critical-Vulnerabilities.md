@@ -10,7 +10,6 @@ CISA has released Industrial Control System (ICS) advisories around current secu
 | --------- | --------------------------------------------------------------- | ---- | ------------ |
 | Honeywell | [CVE-2025-2523](https://www.cve.org/CVERecord?id=CVE-2025-2523) | 9.4  | **Critical** |
 
-
 ## Recommendation
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
