@@ -8,8 +8,8 @@ Since the publishing of advisory 20250716003, Apple has released OS-specific fix
 
 ## What is vulnerable?
 
-| Product(s) Affected                                 | Version(s)                                | CVE                                                                     | CVSS | Severity     |
-| --------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------- | ---- | ------------ |
+| Product(s) Affected                                                                              | Version(s)                                                           | CVE                                                                    | CVSS | Severity |
+| ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---- | -------- |
 | iOS and iPadOS <br> macOS Sequoia <br> macOS Sonoma <br> macOS Ventura <br> visionOS <br> Safari | < 18.6 <br> < 15.6 <br> < 14.7.7 <br> < 13.7.7<br> < 2.6 <br> < 18.6 | [CVE-2025-6558](hhttps://nvd.nist.gov/vuln/detail/CVE-2025-6558) </br> | 8.8  | **High** |
 
 ## What has been observed?
