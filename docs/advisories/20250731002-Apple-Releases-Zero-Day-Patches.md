@@ -4,7 +4,7 @@
 
 The WA SOC has been made aware of the available patches for Apple product vulnerabilities.
 
-Since the publishing of advisory [20250716003](https://soc.cyber.wa.gov.au//advisories/20250212002-Apple-Patches-Zeroday-Vulnerabilities/?h=2025+apple), Apple has released OS-specific fixes to address an actively exploited zero-day vulnerability.
+Since the publishing of advisory [20250716003](https://soc.cyber.wa.gov.au//advisories/20250716003-Google-Chrome-Zero-Day-Vulnerability/?h=20250716003), Apple has released OS-specific fixes to address an actively exploited zero-day vulnerability.
 
 ## What is vulnerable?
 
