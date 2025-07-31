@@ -24,4 +24,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 
 ## Additional References
 
-- Securityaffairs: <https://securityaffairs.com/180595/security/apple-fixed-a-zero-day-exploited-in-attacks-against-google-chrome-users.html>
+- securityaffairs: <https://securityaffairs.com/180595/security/apple-fixed-a-zero-day-exploited-in-attacks-against-google-chrome-users.html>
