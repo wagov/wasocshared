@@ -6,7 +6,7 @@ Sentinel provides a feature for analytic rules called Incident Grouping which al
 
 Incident grouping works by matching on entities, alert details or custom details, all of which are configurable in the analytic rule incident grouping settings.
 
-# Instructions
+## Instructions
 
 1. Go to the affected **Sentinel** workspace.
 
@@ -20,7 +20,7 @@ Incident grouping works by matching on entities, alert details or custom details
 
 4. Click on the **Edit** button.
 
-    If the rule flyout menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
+    If the rule fly-out menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
 
 5. Select the **Incident settings** tab.  
 ![Analytic Rule Incident Settings Tab](../../images/AnalyticRuleIncidentSettingsTab.png)

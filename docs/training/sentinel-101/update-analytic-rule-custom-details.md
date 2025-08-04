@@ -6,7 +6,7 @@ Custom details are a feature of Sentinel Analytic Rules which allow you to surfa
 
 More details can be found at the [Microsoft Documentation](https://learn.microsoft.com/en-us/azure/sentinel/surface-custom-details-in-alerts?tabs=azure) page for custom details.
 
-# Instructions
+## Instructions
 1. Go to the affected **Sentinel** workspace.
 
     If you are unsure where to find your workspaces, visit this link -> [https://portal.azure.com/sentinel](https://portal.azure.com/#browse/microsoft.securityinsightsarg%2Fsentinel).
@@ -19,7 +19,7 @@ More details can be found at the [Microsoft Documentation](https://learn.microso
 
 4. Click on the **Edit** button.
 
-    If the rule flyout menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
+    If the rule fly-out menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
 
 5. Locate the **Alert enhancement** section and expand the **Custom details** sub-section.
 

@@ -1,6 +1,7 @@
 # Updating a Sentinel Analytic Rule KQL Query
 This page contains instructions to update an analytic rule's KQL query in Sentinel. This process is simple and requires minimal actions to be performed.
 
+## Instructions
 1. Go to the affected **Sentinel** workspace.
 
     If you are unsure where to find your workspaces, visit this link -> [https://portal.azure.com/sentinel](https://portal.azure.com/#browse/microsoft.securityinsightsarg%2Fsentinel).
@@ -13,7 +14,7 @@ This page contains instructions to update an analytic rule's KQL query in Sentin
 
 4. Click on the **Edit** button.
 
-    If the rule flyout menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
+    If the rule fly-out menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
 
 5. Select the **Set rule logic** tab.
 

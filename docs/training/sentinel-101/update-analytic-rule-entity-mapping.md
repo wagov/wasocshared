@@ -4,9 +4,9 @@ This page contains instructions on how to update an analytic rule's entity mappi
 ## What is Entity Mapping
 Entity mapping is a feature of Sentinel Analytic Rules that allows column data to be mapped to different types of entities. This feature is useful for providing context to alerts / incidents.
 
-There are different entity types such as `Account`, `IP`, `Process` and `File`. Each entity type will have different identifiers that you can map to it, for example `IP` has the `Address` identifier and `Account` has the `Sid` identifier. **The identifiers are associated with a column in the KQL query**. For example, the *IP entity will have the Address identifer mapped to a column of SourceIPAddress*.
+There are different entity types such as `Account`, `IP`, `Process` and `File`. Each entity type will have different identifiers that you can map to it, for example `IP` has the `Address` identifier and `Account` has the `Sid` identifier. **The identifiers are associated with a column in the KQL query**. For example, the *IP entity will have the Address identifier mapped to a column of SourceIPAddress*.
 
-# Instructions
+## Instructions
 1. Go to the affected **Sentinel** workspace.
 
     If you are unsure where to find your workspaces, visit this link -> [https://portal.azure.com/sentinel](https://portal.azure.com/#browse/microsoft.securityinsightsarg%2Fsentinel).
@@ -19,7 +19,7 @@ There are different entity types such as `Account`, `IP`, `Process` and `File`. 
 
 4. Click on the **Edit** button.
 
-    If the rule flyout menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
+    If the rule fly-out menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
 
 5. Select the **Set rule logic** tab.
 
@@ -31,9 +31,9 @@ There are different entity types such as `Account`, `IP`, `Process` and `File`. 
 
     ![Analytic Rule Entity Mapping Example](../../images/AnalyticRuleEntityMappingExample.png)
 
-    ![Analytuc Rule Entity Mapping Entities](../../images/AnalyticRuleEntityMappingEntities.png)
+    ![Analytic Rule Entity Mapping Entities](../../images/AnalyticRuleEntityMappingEntities.png)
 
-    Microsoft provides a [reference page](https://learn.microsoft.com/en-us/azure/sentinel/entities-reference) for different types of entities you can map and their associated identifers.
+    Microsoft provides a [reference page](https://learn.microsoft.com/en-us/azure/sentinel/entities-reference) for different types of entities you can map and their associated identifiers.
 
 7. Configure the entity mapping based on the detection rule needs.
 

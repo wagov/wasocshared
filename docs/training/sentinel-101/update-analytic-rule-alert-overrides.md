@@ -1,4 +1,4 @@
-# Update an Analytic Rule Alert Overides
+# Update an Analytic Rule Alert Overrides
 This page contains information and instructions for configuring / updating an analytic rule's alert overrides.
 
 ## What are Alert Overrides
@@ -10,7 +10,7 @@ For example, you can configure an alert’s Severity dynamically based on an ext
 | extend Severity = iff(true == true, "High", "Medium")
 ```
 
-# Instructions
+## Instructions
 1. Go to the affected **Sentinel** workspace.
 
     If you are unsure where to find your workspaces, visit this link -> [https://portal.azure.com/sentinel](https://portal.azure.com/#browse/microsoft.securityinsightsarg%2Fsentinel).
@@ -23,7 +23,7 @@ For example, you can configure an alert’s Severity dynamically based on an ext
 
 4. Click on the **Edit** button.
 
-    If the rule flyout menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
+    If the rule fly-out menu is not opening when selecting the rule, go to the right of the rule and click on the **3 dots button** -> **Edit**.
 
 5. Select the **Set rule logic** tab.
 
