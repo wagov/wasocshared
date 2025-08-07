@@ -14,7 +14,7 @@ Recent WA SOC advisories this month worth staying across include:
 
 - [Microsoft SharePoint Active Exploitation](https://soc.cyber.wa.gov.au/advisories/20250721001-Microsoft-SharePoint-Active-Exploitation/)
 - [SonicWall Critical Vulnerability SSL VPN](https://soc.cyber.wa.gov.au/advisories/20250731001-SonicWall-Critical-Vulnerability/)
-- [SonicWall Critical Vulnerability SMA](https://soc.cyber.wa.gov.au/advisories/20250724002-SonicWall-Critical-Vulnerability/) 
+- [SonicWall Critical Vulnerability SMA](https://soc.cyber.wa.gov.au/advisories/20250724002-SonicWall-Critical-Vulnerability/)
 - [Cisco Critical Security Vulnerabilities](https://soc.cyber.wa.gov.au/advisories/20250718001-Cisco-Critical-Security-Vulnerabilities/)
 - [Linux Sudo chroot Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250702002-chroot-vuln/)
 
