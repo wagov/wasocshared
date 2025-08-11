@@ -68,6 +68,7 @@ jobs:
         run: python -m mkdocs build --strict
       - name: build rss feeds
         run: python generate_rss.py
+        continue-on-error: true #temporary bypass the issue with rss feeds
       - name: Setup Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
       - name: Upload artifact
