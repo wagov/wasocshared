@@ -6,11 +6,11 @@ The WASOC has observed multiple advisories for Industrial Control Systems (ICS) 
 
 ## What is vulnerable?
 
-| Product(s) Affected | CVE | CVSS | Severity |
-| ------------------- | --- | ---- | -------- |
-| Siemens  | [CVE-2025-40746](https://nvd.nist.gov/vuln/detail/CVE-2025-40746) | 9.3 | Critical |
-| MegaSys Computer Technologies | [CVE-2025-8769](https://www.cve.org/CVERecord?id=CVE-2025-8769) | 9.8 | Critical |
-| Santesoft | [CVE-2025-54156](https://www.cve.org/CVERecord?id=CVE-2025-54156) | 9.1 | Critical |
+| Product(s) Affected           | CVE                                                               | CVSS | Severity |
+| ----------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Siemens                       | [CVE-2025-40746](https://nvd.nist.gov/vuln/detail/CVE-2025-40746) | 9.3  | Critical |
+| MegaSys Computer Technologies | [CVE-2025-8769](https://www.cve.org/CVERecord?id=CVE-2025-8769)   | 9.8  | Critical |
+| Santesoft                     | [CVE-2025-54156](https://www.cve.org/CVERecord?id=CVE-2025-54156) | 9.1  | Critical |
 
 ## Recommendation
 
