@@ -10,7 +10,7 @@ An unsafe deserialization vulnerability allows for remote code execution, giving
 
 | Product(s) Affected | Version(s)                  | CVE                                                               | CVSS | Severity     |
 | ------------------- | --------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
-| Wazuh server        | all versions prior to 4.9.1 | [CVE-2025-24016](https://nvd.nist.gov/vuln/detail/CVE-2025-24016) | 9.9  | **Critical** |
+| Wazuh server        | 4.4.x prior to 4.9.1 | [CVE-2025-24016](https://nvd.nist.gov/vuln/detail/CVE-2025-24016) | 9.9  | **Critical** |
 
 ## What has been observed?
 
