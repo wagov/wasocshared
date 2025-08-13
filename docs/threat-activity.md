@@ -2,21 +2,21 @@
 
 {{ date_index("docs/advisories", prefix="advisories/", expand=1, include=2) }}
 
-## WA SOC - Recent Threat Activity (June 2025)
+## WA SOC - Recent Threat Activity (July 2025)
 
 Based on recent high impact incidents seen by the WA SOC, security teams should be focusing on the below areas of improvement based on phishing and phishing resistant MFA:
 
 !!! warning "WASOC Guidance targeted on recent escalation of state-based actor threat activity"
 
-- Financial Fraud Campaigns [Increased Financial Fraud Activity](https://soc.cyber.wa.gov.au/advisories/20250429001-Financial-Fraud-Campaign-Increase/)
 - Heightened Awareness: [Securing Edge Devices](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/securing-edge-devices)
 
 Recent WA SOC advisories this month worth staying across include:
 
-- [Critical Cisco ISE RCE Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250627001-Critical-Cisco-ISE-RCE-Vulnerability/)
-- [Citrix NetScaler Critical Vulnerability (CVE-2025-5777)](https://soc.cyber.wa.gov.au/advisories/20250619001-Citrix-Critical-Vulnerability/)
-- [Citrix NetScaler Critical Vulnerability (CVE-2025-6543)](https://soc.cyber.wa.gov.au/advisories/20250626001-Citrix-Critical-Vulnerability/)
-- [ManageEngine Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250610001-ManageEngine-Critical-Vulnerability/)
+- [Microsoft SharePoint Active Exploitation](https://soc.cyber.wa.gov.au/advisories/20250721001-Microsoft-SharePoint-Active-Exploitation/)
+- [SonicWall Critical Vulnerability SSL VPN](https://soc.cyber.wa.gov.au/advisories/20250731001-SonicWall-Critical-Vulnerability/)
+- [SonicWall Critical Vulnerability SMA](https://soc.cyber.wa.gov.au/advisories/20250724002-SonicWall-Critical-Vulnerability/)
+- [Cisco Critical Security Vulnerabilities](https://soc.cyber.wa.gov.au/advisories/20250718001-Cisco-Critical-Security-Vulnerabilities/)
+- [Linux Sudo chroot Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250702002-chroot-vuln/)
 
 ## WASOC - General Advice
 
