@@ -1,4 +1,4 @@
-# Siemens Critical Vulnerability - 20250813006
+# ICS Critical Vulnerabilities - 20250813006
 
 ## Overview
 
