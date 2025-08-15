@@ -6,10 +6,10 @@ The WASOC has observed multiple advisories for Industrial Control Systems (ICS) 
 
 ## What is vulnerable?
 
-| Product(s) Affected                | CVE                                                               | CVSS | Severity |
-| ---------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| Rockwell Automation ControlLogix   | [CVE-2025-7353](https://nvd.nist.gov/vuln/detail/CVE-2025-7353)   | 9.3  | Critical |
-| Rockwell Automation Micro800       | [CVE-2025-7693](https://nvd.nist.gov/vuln/detail/CVE-2025-7693)   | 9.8  | Critical |
+| Product(s) Affected              | CVE                                                             | CVSS | Severity |
+| -------------------------------- | --------------------------------------------------------------- | ---- | -------- |
+| Rockwell Automation ControlLogix | [CVE-2025-7353](https://nvd.nist.gov/vuln/detail/CVE-2025-7353) | 9.3  | Critical |
+| Rockwell Automation Micro800     | [CVE-2025-7693](https://nvd.nist.gov/vuln/detail/CVE-2025-7693) | 9.8  | Critical |
 
 ## Recommendation
 
