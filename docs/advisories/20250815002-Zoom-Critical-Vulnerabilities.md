@@ -1,15 +1,14 @@
 # Zoom Critical Vulnerability - 20250815002
 
-
 ## Overview
 
 Zoom has published a security advisory relating to a critical vulnerability affecting multiple products. Successful exploitation may potentially allow an unauthenticated user to conduct an escalation of privilege via network access.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Workplace for Windows <br> Workplace VDI <br> Rooms for Windows <br> Rooms Controller <br>   | [Vendor Listed Affected versions](https://www.zoom.com/en/trust/security-bulletin/zsb-25030/?lang=en-US&lang=null)   | [CVE-2025-49457](https://nvd.nist.gov/vuln/detail/CVE-2025-49457)                                                                        | 9.6         |**Critical**                          |
+| Product(s) Affected                                                                        | Version(s)                                                                                                         | CVE                                                               | CVSS | Severity     |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ---- | ------------ |
+| Workplace for Windows <br> Workplace VDI <br> Rooms for Windows <br> Rooms Controller <br> | [Vendor Listed Affected versions](https://www.zoom.com/en/trust/security-bulletin/zsb-25030/?lang=en-US&lang=null) | [CVE-2025-49457](https://nvd.nist.gov/vuln/detail/CVE-2025-49457) | 9.6  | **Critical** |
 
 ## What has been observed?
 
