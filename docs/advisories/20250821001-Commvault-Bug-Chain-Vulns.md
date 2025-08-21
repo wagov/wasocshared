@@ -8,9 +8,9 @@ Commvault has released patches addressing associated vulnerabilities.
 
 ## What is vulnerable?
 
-| Products            | Versions Affected  | CVE                                                                                                   | CVSS     | Severity |
-| ------------------- | ------------------ | ----------------------------------------------------------------------------------------------------- | -------- | ---------|
-| Commvault for Linux and Windows  | 11.36.x prior to 11.36.60 <br> 11.32.x prior to 11.32.102 | [CVE-2025-57790](https://nvd.nist.gov/vuln/detail/CVE-2025-57790) </br> [CVE-2025-57791](https://nvd.nist.gov/vuln/detail/CVE-2025-57791) </br> [CVE-2025-57788](https://nvd.nist.gov/vuln/detail/CVE-2025-57788) </br> [CVE-2025-57789](https://nvd.nist.gov/vuln/detail/CVE-2025-57789) | 8.7 </br> 6.9 </br> 6.9 </br> 5.3 | High </br> Medium </br> Medium </br> Medium |
+| Products                        | Versions Affected                                         | CVE                                                                                                                                                                                                                                                                                       | CVSS                              | Severity                                    |
+| ------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | ------------------------------------------- |
+| Commvault for Linux and Windows | 11.36.x prior to 11.36.60 <br> 11.32.x prior to 11.32.102 | [CVE-2025-57790](https://nvd.nist.gov/vuln/detail/CVE-2025-57790) </br> [CVE-2025-57791](https://nvd.nist.gov/vuln/detail/CVE-2025-57791) </br> [CVE-2025-57788](https://nvd.nist.gov/vuln/detail/CVE-2025-57788) </br> [CVE-2025-57789](https://nvd.nist.gov/vuln/detail/CVE-2025-57789) | 8.7 </br> 6.9 </br> 6.9 </br> 5.3 | High </br> Medium </br> Medium </br> Medium |
 
 ## What has been observed?
 
