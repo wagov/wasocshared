@@ -20,6 +20,6 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ## Recommendation
 
-The WA SOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
+The WASOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
 
 - CISA: <URL>
