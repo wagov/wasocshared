@@ -8,10 +8,10 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ### Critical Severity
 
-| Vendor | CVE # | CVSS | Severity |
-| ------ | ----- | ---- | -------- |
-| Tigo | [CVE-2025-7768](https://www.cve.org/CVERecord?id=CVE-2025-7768) | 9.3 | Critical |
-| EG4 Electronics | [CVE-2025-46414](https://www.cve.org/CVERecord?id=CVE-2025-46414) | 9.2 | Critical |
+| Vendor          | CVE #                                                             | CVSS | Severity |
+| --------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Tigo            | [CVE-2025-7768](https://www.cve.org/CVERecord?id=CVE-2025-7768)   | 9.3  | Critical |
+| EG4 Electronics | [CVE-2025-46414](https://www.cve.org/CVERecord?id=CVE-2025-46414) | 9.2  | Critical |
 
 ## Recommendation
 
