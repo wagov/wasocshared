@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WA SOC has observed…
+The WASOC has observed…
 
 ## Delivery
 
