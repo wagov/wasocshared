@@ -8,10 +8,10 @@ Exploitation of the vulnerability could result in denial-of-service and unintend
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s)                                                                                                                    | CVE                                                                  | CVSS | Severity     |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---- | ------------ |
+| Product(s) Affected | Version(s)                                                                                                                                                                                 | CVE                                                                  | CVSS | Severity     |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ---- | ------------ |
 | NetScaler ADC       | - 14.1 prior to 14.1-47.48 <br> - 13.1 prior to 13.1-59.22 <br>- 13.1-FIPS and NDcPP prior to 13.1-37.241-FIPS and NDcPP <br>-12.1-FIPS and NDcPP: prior to 12.1-55.330-FIPS and NDcPP<br> | [CVE-2025-7775](https://nvd.nist.gov/vuln/detail/CVE-2025-7775)      | 9.2  | **Critical** |
-| NetScaler Gateway   | - 14.1 prior to 14.1-47.48 <br> - 13.1 prior to 13.1-59.22                                                                    | [CVE-2025-7775](https://nvd.nist.gov/vuln/detail/CVE-2025-7775) <br> | 9.2  | **Critical** |
+| NetScaler Gateway   | - 14.1 prior to 14.1-47.48 <br> - 13.1 prior to 13.1-59.22                                                                                                                                 | [CVE-2025-7775](https://nvd.nist.gov/vuln/detail/CVE-2025-7775) <br> | 9.2  | **Critical** |
 
 ## What has been observed?
 
