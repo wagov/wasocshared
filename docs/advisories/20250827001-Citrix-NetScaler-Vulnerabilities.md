@@ -21,7 +21,7 @@ The WA SOC has not received any reports of exploitation of this vulnerability on
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
-- CITRIX: <https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX694938&articleTitle=NetScaler_ADC_and_NetScaler_Gateway_Security_Bulletin_for_CVE_2025_7775_CVE_2025_7776_and_CVE_2025_8424>
+- CITRIX: <https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX694938>
 
 ## Additional References
 
