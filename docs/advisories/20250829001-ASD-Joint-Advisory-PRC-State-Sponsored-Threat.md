@@ -12,6 +12,6 @@ The threat actors from the People’s Republic of China (PRC) operations coincid
 
 ## Recommendation
 
-he WASOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
+The WASOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
 
 - ASD Advisory: <https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/countering-chinese-state-sponsored-actors-compromise-of-networks-worldwide-to-feed-global-espionage-system>
