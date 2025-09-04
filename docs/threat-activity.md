@@ -9,8 +9,9 @@ Based on recent high impact incidents seen by the WA SOC, security teams should 
 !!! warning "WASOC Guidance targeted on recent escalation of state-based actor threat activity"
 
 **Heightened Awareness:**
- - [Securing Edge Devices](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/securing-edge-devices)
- - [ASD Publishes Joint Advisory on China PRC Operations](https://soc.cyber.wa.gov.au/advisories/20250829002-ASD-Joint-Advisory-PRC-State-Sponsored-Threat/)
+
+- [Securing Edge Devices](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/securing-edge-devices)
+- [ASD Publishes Joint Advisory on China PRC Operations](https://soc.cyber.wa.gov.au/advisories/20250829002-ASD-Joint-Advisory-PRC-State-Sponsored-Threat/)
 
 Recent WA SOC advisories this month worth staying across include:
 
@@ -18,7 +19,6 @@ Recent WA SOC advisories this month worth staying across include:
 - [Cisco Secure FMC Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250819001-Cisco-Secure-FMC-Critical-Vulnerability/)
 - [Cisco Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250815001-Cisco-Firewall-Vulnerability/)
 - [Fortinet Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20250813003-Fortinet-Critical-Vulnerability/)
-
 
 ## WASOC - General Advice
 
