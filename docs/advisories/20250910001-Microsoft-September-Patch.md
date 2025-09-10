@@ -6,9 +6,9 @@ Microsoft has released security updates for multiple products, one of which has 
 
 ## What is vulnerable?
 
-| Product(s) Affected          | CVE                                                               | CVSS | Severity     |
-| ---------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
-| Microsoft High Performance Compute Pack (HPC)  | [CVE-2025-55232](https://nvd.nist.gov/vuln/detail/CVE-2025-55232) | 9.8  | **Critical** |
+| Product(s) Affected                           | CVE                                                               | CVSS | Severity     |
+| --------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| Microsoft High Performance Compute Pack (HPC) | [CVE-2025-55232](https://nvd.nist.gov/vuln/detail/CVE-2025-55232) | 9.8  | **Critical** |
 
 ## What has been observed?
 
