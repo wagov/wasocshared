@@ -2,14 +2,14 @@
 
 ## Overview
 
-Siemens has released multiple critical vulnerabilities that could allow an unauthenticated remote attacker to execute arbitrary code, cause a DoS condition, or exploit a flaw that exposes a network share without authentication. 
+Siemens has released multiple critical vulnerabilities that could allow an unauthenticated remote attacker to execute arbitrary code, cause a DoS condition, or exploit a flaw that exposes a network share without authentication.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-|  SIMATIC (SIVaaS)     | All versions    | [CVE-2025-40804](https://nvd.nist.gov/vuln/detail/CVE-2025-40804)                                                                        | 9.3          | **Critical**                                   |
-| User Management Component (UMC)      |  < V2.15.1.3    | [CVE-2025-40795](https://nvd.nist.gov/vuln/detail/CVE-2025-40795)  | 9.8 | **Critical**
+| Product(s) Affected             | Version(s)   | CVE                                                               | CVSS | Severity     |
+| ------------------------------- | ------------ | ----------------------------------------------------------------- | ---- | ------------ |
+| SIMATIC (SIVaaS)                | All versions | [CVE-2025-40804](https://nvd.nist.gov/vuln/detail/CVE-2025-40804) | 9.3  | **Critical** |
+| User Management Component (UMC) | < V2.15.1.3  | [CVE-2025-40795](https://nvd.nist.gov/vuln/detail/CVE-2025-40795) | 9.8  | **Critical** |
 
 ## What has been observed?
 
