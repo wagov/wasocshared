@@ -2,15 +2,15 @@
 
 ## Overview
 
-The Australian Signals Directorate (ASD) have published an advisory reporting a large-scale supply chain attack targeting the npm (Node Package Manager) ecosystem hosting vast repository projects. 
+The Australian Signals Directorate (ASD) have published an advisory reporting a large-scale supply chain attack targeting the npm (Node Package Manager) ecosystem hosting vast repository projects.
 
-Threat actors launched targeted phishing campaigns to compromise accounts of npm maintainers. Once inside, they published malicious versions of widely-used packages such as: debug, chalk, @ctrl/tinycolor. 
+Threat actors launched targeted phishing campaigns to compromise accounts of npm maintainers. Once inside, they published malicious versions of widely-used packages such as: debug, chalk, @ctrl/tinycolor.
 
 ## What has been observed?
- 
-Threat actors have been observed leveraging legitimate tools and functions to execute attacks, making detection more difficult. 
 
-This approach poses a significant threat to developers and organisations by enabling malware delivery through trusted npm packages and exposing internal systems, which broadens the attack surface and facilitates more advanced, targeted exploits. 
+Threat actors have been observed leveraging legitimate tools and functions to execute attacks, making detection more difficult.
+
+This approach poses a significant threat to developers and organisations by enabling malware delivery through trusted npm packages and exposing internal systems, which broadens the attack surface and facilitates more advanced, targeted exploits.
 
 ## Recommendation
 
