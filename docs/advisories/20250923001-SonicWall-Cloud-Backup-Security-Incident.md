@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WASOC has been made aware of a newly published SoniWall security advisory to assist their customers with protecting systems impacted by the MySonicWall cloud backup file incident.
+The WASOC has been made aware of a newly published SonicWall security advisory to assist their customers with protecting systems impacted by the MySonicWall cloud backup file incident.
 
 ## What has been observed?
 
