@@ -18,3 +18,14 @@ The WA SOC recommends that administrators assess and implement mitigation as out
 
 - ASD Advisory: <https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/ongoing-targeting-of-online-code-repositories>
 - Socket: <https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages>
+- CISA: <https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem>
+
+## Additional Resources
+
+- ASD article "Supply chain risk management": <https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managing-cyber-supply-chains/cyber-supply-chain-risk-management>
+- ASD article "Shared vision of SBOM": <https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managing-cyber-supply-chains/shared-vision-of-software-bill-of-materials-cybersecurity>
+
+### Change Log
+
+- 2025-09-19: Initial publication
+- 2025-09-24: Added CISA reference, and ASD additional resources
