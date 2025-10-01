@@ -4,7 +4,7 @@
 
 !!! note
 
-    This Honey Trap initiative is now a established service catalogue for the WASOC, as such, access to the service to WA Government Entities is now available upon request.
+    This Honey Trap initiative is now a established service catalogue item from the WASOC, as such, access to this service is now available to WA Government Entities upon request.
     If interested in the services, please raise a request via the [WASOC IRP](https://irp.dpc.wa.gov.au/).
 
 The WASOC is looking to expand the monitoring capability of Western Australian Government entities to better detect for advanced persistent threats (APT) on ICT infrastructure. The WASOC will assist entities with the deployment of honey pots and honey tokens in infrastructure locations that are commonly traversed by Threat Actors prior to a cyber incident.
