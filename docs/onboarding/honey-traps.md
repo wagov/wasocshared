@@ -1,19 +1,19 @@
-# WASOC Honey Trap (Pilot)
+# WASOC Honey Traps
 
 ## Overview
 
 !!! note
 
-    This Honey Trap initiative is a pilot program for the WA SOC, as such the number of participants for the pilot is limited.
-    If interested in participating, please raise a request via the [WASOC IRP](https://irp.dpc.wa.gov.au/).
+    This Honey Trap initiative is now a established service catalogue for the WASOC, as such, access to the service to WA Government Entities is now available upon request.
+    If interested in the services, please raise a request via the [WASOC IRP](https://irp.dpc.wa.gov.au/).
 
 The WASOC is looking to expand the monitoring capability of Western Australian Government entities to better detect for advanced persistent threats (APT) on ICT infrastructure. The WASOC will assist entities with the deployment of honey pots and honey tokens in infrastructure locations that are commonly traversed by Threat Actors prior to a cyber incident.
 
 Honey Traps emcompass both Honey Pots and Honey Tokens. Honey Traps are decoy ICT services or data repositories that replicate the real ICT environment of organisations. These decoys are enticing targets for threat actors to attack and exploit. Once the actor has attacked the target, the Honey Pot or Honey Token will raise an alert due to unauthorised malipulation, thus allowing security teams to detect for broader threats to an entity's ICT environments.
 
-??? note "Pilot Participants Prerequisite"
+??? note "Participants Prerequisite"
 
-    The pilot has prerequisites that must be met to have the minimum technical & commitment requirements to onboard to the Honey Trap Program as to take advantage of the full service offering.
+    The service has prerequisites that must be met to have the minimum technical & commitment requirements to onboard to the Honey Trap Program as to take advantage of the full service offering.
 
     The prerequisites as follows.
 
@@ -48,11 +48,12 @@ Ideal Network Location for Honey Pot deployment:
 
 ### Honey Token Deployment
 
-Honey Tokens are virtual decoy objects suchs as Files, API Tokens, etc that mimic repositories of information that could be leveraged by Threat Actor(s) to escalate attacks on an organisation. Ideally, dependant on the object types and repositiory locations, the honey files should appear to be a realistic object that would be expected at this location. This level of deception would make the honey tokens a more ideal target for threat actors.
+Honey Tokens are virtual decoy objects suchs as Files, API Tokens, etc that mimic repositories of information that could be leveraged by Threat Actor(s) to escalate attacks on an organisation. Ideally, dependant on the object types and repositiory locations, the honey files should appear to be a realistic object that would be expected at this location. This level of deception would make the honey tokens a more ideal target for threat actors. Honey Tokens deployment is the most applicable technology for modern cloud based environments.
 
 Ideal object repository location for Honey token deployment:
 
 - Internet Facing FileShares
 - Internet Facing Servers
+- IAM Sign-in Portals
 - Databases
 - Code Repositories
