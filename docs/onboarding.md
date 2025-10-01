@@ -99,7 +99,6 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 
     ![Entra ID Add Organisation](images/xdr-cross-tenant-id-input.png)
 
-
 1. In the newly created Organisation, select **Inbound access** of the newly added organization, and configure the **B2B collaboration** as follows.
 
     ![Entra ID B2B Collaboration Configuration](images/xdr-cross-tenant-inbound-access-b2b-v2.png)
