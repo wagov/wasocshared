@@ -6,9 +6,9 @@ A critical vulnerability has been identified in Oracle E-Business Suite (EBS) th
 
 ## What is Vulnerable
 
-| Product                | Component             | Affected Version(s) | CVE ID          | CVSS 3.1 Base Score | Severity |
-|------------------------|-----------------------|----------------------|------------------|---------------------|----------|
-| Oracle E-Business Suite | Oracle Applications Framework | 12.2.x               | CVE-2025-61882   | 9.8                  | Critical |
+| Product                 | Component                     | Affected Version(s) | CVE ID         | CVSS 3.1 Base Score | Severity |
+| ----------------------- | ----------------------------- | ------------------- | -------------- | ------------------- | -------- |
+| Oracle E-Business Suite | Oracle Applications Framework | 12.2.x              | CVE-2025-61882 | 9.8                 | Critical |
 
 ## What has been Observed?
 
