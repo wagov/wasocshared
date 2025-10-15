@@ -76,7 +76,7 @@ nav:
 - Connecting to the WA SOC:
   - SOC Onboarding: onboarding.md
   - Sentinel Guidance: onboarding/sentinel-guidance.md
-  - Honey Trap (Pilot): onboarding/honey-traps.md
+  - Honey Traps: onboarding/honey-traps.md
 - Advisories (TLP:CLEAR): advisories.md
 - ACSC Strategies to Mitigate: guidelines/further-five.md
 - Threat Hunting (TTPs): guidelines/TTP_Hunt/ttp-detection-guidelines.md
