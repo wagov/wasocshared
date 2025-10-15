@@ -2,7 +2,7 @@
 
 ## Overview
 
-Microsoft has released its October 2025 Monthly Security Updates, addressing a total of 172 vulnerabilities across its product suite, including mutliple zero-day vulnerabilities.
+Microsoft has released its October 2025 Monthly Security Updates, addressing multiple critical severity vulnerabilities, including mutliple zero-day vulnerabilities.
 
 ## What is vulnerable?
 
