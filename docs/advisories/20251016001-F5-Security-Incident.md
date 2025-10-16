@@ -6,7 +6,6 @@ F5 has published an article outlining information regarding a security incident 
 
 In addition to this advisory, F5 has issued its October 2025 quarterly security notification summarising multiple vulnerabilities identified across its product portfolio. The notification details newly discovered and previously unresolved issues affecting multiple F5 platforms, and provides a coordinated patch release to help customers maintain secure and supported versions across all F5 environments.
 
-
 ## What has been observed?
 
 The WASOC has not received any reports of exploitation on Western Australian Government networks at the time of writing.
