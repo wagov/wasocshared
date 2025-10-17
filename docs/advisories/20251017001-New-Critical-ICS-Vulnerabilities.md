@@ -8,10 +8,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ### Critical Severity
 
-| Vendor | CVE | CVSS | Severity |
-| ------ | --- | ---- | -------- |
+| Vendor  | CVE                                                                                                                                      | CVSS         | Severity                       |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------ |
 | SIEMENS | [CVE-2025-40771](https://nvd.nist.gov/vuln/detail/CVE-2025-40771) <br> [CVE-2025-40765](https://nvd.nist.gov/vuln/detail/CVE-2025-40765) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
-
 
 ## Recommendation
 
