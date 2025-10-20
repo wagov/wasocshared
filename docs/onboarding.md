@@ -101,11 +101,9 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 
 1. In the newly created Organisation, select **Inbound access** of the newly added organization, and configure the **B2B collaboration** as follows.
 
-    ![Entra ID B2B Collaboration Configuration](images/xdr-cross-tenant-inbound-access-b2b.png)
+    ![Entra ID B2B Collaboration Configuration](images/xdr-cross-tenant-inbound-access-b2b-v2.png)
 
-1. In the **External user and groups > Access Status** set *Allow access* > **Applies to** set the newly created **Organisation User and Groups** > **Add other users and groups**.
-
-1. Add the *Group Object ID* provided by the WASOC and click **Submit**
+1. Confirm the **External user and groups > Access Status** set *Allow access* > **Applies to** *All*
 
 1. Click **Save**
 
