@@ -6,15 +6,13 @@ Broadcom reported multiple vulnerabilities in VMware Aria Operations and VMware 
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-|  VMware Tools     | 12.5.x < 12.5.4 <br> 13.x < 13.0.5.0   | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244)                                                                        | 7.8          | High                                   |
-| VMware Aria Operations     | 8.18.x < 8.18.5    | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) <br>  | 7.8 | High <br>
-| VMware Cloud Foundation     | 4.x/5.x < 8.18.5   | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) <br>  | 7.8 | High <br>
-| VMware Telco Cloud Platform     | 2.x/3.x/4.x/5.x <br> < 8.18.5  | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) <br>  | 7.8 | High <br>
-| VMware Telco Cloud Infrastructure     | 2.x/3.x/4.x/5.x <br> < 8.18.5  | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) <br>  | 7.8 | High
-
-
+| Product(s) Affected               | Version(s)                           | CVE                                                                    | CVSS | Severity  |
+| --------------------------------- | ------------------------------------ | ---------------------------------------------------------------------- | ---- | --------- |
+| VMware Tools                      | 12.5.x < 12.5.4 <br> 13.x < 13.0.5.0 | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244)      | 7.8  | High      |
+| VMware Aria Operations            | 8.18.x < 8.18.5                      | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) <br> | 7.8  | High <br> |
+| VMware Cloud Foundation           | 4.x/5.x < 8.18.5                     | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) <br> | 7.8  | High <br> |
+| VMware Telco Cloud Platform       | 2.x/3.x/4.x/5.x <br> < 8.18.5        | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) <br> | 7.8  | High <br> |
+| VMware Telco Cloud Infrastructure | 2.x/3.x/4.x/5.x <br> < 8.18.5        | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) <br> | 7.8  | High      |
 
 ## What has been observed?
 
