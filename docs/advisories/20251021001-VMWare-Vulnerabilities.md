@@ -8,9 +8,9 @@ The WASOC has observed alleged reports of exploitation in the wild for one or mo
 
 ## What is vulnerable?
 
-| Product(s) Affected         | Version(s)                           | CVE                                                                    | CVSS | Severity  |
-| --------------------------- | ------------------------------------ | ---------------------------------------------------------------------- | ---- | --------- |
-| VMware Tools <br> VMWare Aria Operations | [Vendor listed affected products and versions](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36149) | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) | 7.8 | High |
+| Product(s) Affected                      | Version(s)                                                                                                                                                      | CVE                                                               | CVSS | Severity |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| VMware Tools <br> VMWare Aria Operations | [Vendor listed affected products and versions](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36149) | [CVE-2025-41244](https://nvd.nist.gov/vuln/detail/CVE-2025-41244) | 7.8  | High     |
 
 ## What has been observed?
 
