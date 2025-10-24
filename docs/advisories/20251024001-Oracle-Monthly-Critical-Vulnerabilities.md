@@ -6,10 +6,10 @@ Oracle have released their Monthly Updates, which includes multiple critical sev
 
 ## What is vulnerable?
 
-| Product(s) Affected | CVE | CVSS | Severity |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Oracle Database Server | [CVE-2025-4517](https://nvd.nist.gov/vuln/detail/CVE-2025-4517) | 9.4 | **Critical** |
-| Oracle MySQL | [CVE-2025-49796](https://nvd.nist.gov/vuln/detail/CVE-2025-49796) | 9.1  | **Critical** |
+| Product(s) Affected    | CVE                                                               | CVSS | Severity     |
+| ---------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| Oracle Database Server | [CVE-2025-4517](https://nvd.nist.gov/vuln/detail/CVE-2025-4517)   | 9.4  | **Critical** |
+| Oracle MySQL           | [CVE-2025-49796](https://nvd.nist.gov/vuln/detail/CVE-2025-49796) | 9.1  | **Critical** |
 
 ## What has been observed?
 
