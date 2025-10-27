@@ -19,3 +19,7 @@ The WASOC has not received any reports of exploitation of this vulnerability on 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
 - Microsoft CVE Article: <https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59287>
+
+### Additional References
+
+- ASD Advisory: <https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/critical-vulnerability-in-Microsoft-Windows-Server-Update-Service>
