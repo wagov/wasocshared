@@ -14,21 +14,21 @@ Based on recent high impact incidents seen by the WASOC, security teams should b
 
 Recent WASOC advisories this month worth staying across include:
 
-- [Cisco ASA Active Exploitation](https://soc.cyber.wa.gov.au/advisories/20250926001-Cisco-ASA-Active-Exploitation/)
-- [SonicWall Cloud Backup Security Incident](https://soc.cyber.wa.gov.au/advisories/20250923001-SonicWall-Cloud-Backup-Security-Incident/)
-- [ASD Publishes Advisory on Ongoing Attack on NPM](https://soc.cyber.wa.gov.au/advisories/20250919002-ASD-Advisory-Ongoing-Attack-on-NPM/)
+- [Microsoft Multiple Critical Vulnerabilities as part of Monthly Update](https://soc.cyber.wa.gov.au/advisories/20251015001-Microsoft-Monthly-Security-Updates/)
+- [Oracle E-Business Suite Remote Code Vulnerability](https://soc.cyber.wa.gov.au/advisories/20251006001-Oracle-Ebusiness-Vulnerability/)
+- [F5 Security Incident And Critical Updates involving Nation State Actors](https://soc.cyber.wa.gov.au/advisories/20251016001-F5-Security-Incident/)
 
 ## WASOC - General Advice
 
-- The WASOC has observed an uptick in HTML and SVG attachment type(s) exploitation that is being delivered via Phishing campaigns.
+- The WASOC has observed consistent exploitation delivered via Phishing campaigns.
 
 **Security Hardening** remains a focus for all organisations. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
 
+- [ASD's Annual Cyber Threat Report 2024-2025](https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025)
+
 - [ACSC - Secure by Design](https://www.cyber.gov.au/business-government/secure-design/secure-by-design)
 
-- [Guidelines for secure software development](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-software-development)
-
-- [ASD's Blueprint for Secure Cloud](https://blueprint.asd.gov.au/)
+- [Guidelines for Secure Software Development](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-software-development)
 
 - [Ongoing targeting of online code repositories](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/ongoing-targeting-of-online-code-repositories)
 
