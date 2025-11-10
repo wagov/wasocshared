@@ -4,12 +4,11 @@
 
 QNAP have released updates addressing multiple zero-day vulnerabilities affecting their QNAP network-attached storage (NAS) devices.
 
-
 ## What is vulnerable?
 
-| Product(s) and Version(s) Affected | CVE | CVSS | Severity |
-| ------------------- | --- | ---- | -------- |
-| QTS 5.2.x prior to QTS 5.2.7.3297 build 20251024 <br> QuTS hero h5.2.x prior to QuTS hero h5.2.7.3297 build 20251024 <br> QuTS hero h5.3.x prior to QuTS hero h5.3.1.3292 build 20251024 | [CVE-2025-11837](https://nvd.nist.gov/vuln/detail/CVE-2025-11837) <br> [CVE-2025-59389](https://nvd.nist.gov/vuln/detail/CVE-2025-59389) <br> [CVE-2025-62840](https://nvd.nist.gov/vuln/detail/CVE-2025-62840)  <br> [CVE-2025-62842](https://nvd.nist.gov/vuln/detail/CVE-2025-62842) <br> [CVE-2025-62847](https://nvd.nist.gov/vuln/detail/CVE-2025-62847) <br> [CVE-2025-62848](https://nvd.nist.gov/vuln/detail/CVE-2025-62848)  <br> [CVE-2025-62849](https://nvd.nist.gov/vuln/detail/CVE-2025-62849) |  TBD |  TBD |
+| Product(s) and Version(s) Affected                                                                                                                                                       | CVE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | CVSS | Severity |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | -------- |
+| QTS 5.2.x prior to QTS 5.2.7.3297 build 20251024 <br> QuTS hero h5.2.x prior to QuTS hero h5.2.7.3297 build 20251024 <br> QuTS hero h5.3.x prior to QuTS hero h5.3.1.3292 build 20251024 | [CVE-2025-11837](https://nvd.nist.gov/vuln/detail/CVE-2025-11837) <br> [CVE-2025-59389](https://nvd.nist.gov/vuln/detail/CVE-2025-59389) <br> [CVE-2025-62840](https://nvd.nist.gov/vuln/detail/CVE-2025-62840) <br> [CVE-2025-62842](https://nvd.nist.gov/vuln/detail/CVE-2025-62842) <br> [CVE-2025-62847](https://nvd.nist.gov/vuln/detail/CVE-2025-62847) <br> [CVE-2025-62848](https://nvd.nist.gov/vuln/detail/CVE-2025-62848) <br> [CVE-2025-62849](https://nvd.nist.gov/vuln/detail/CVE-2025-62849) | TBD  | TBD      |
 
 ## What has been observed?
 
