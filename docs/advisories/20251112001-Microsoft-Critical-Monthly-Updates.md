@@ -14,8 +14,8 @@ Microsoft has released its November 2025 Monthly Security Updates, addressing a 
 
 ### Known Exploitation
 
-| Products and Versions Affected                                                                                   | CVE                                                                                          | CVSS | Severity |
-| ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---- | -------- |
+| Products and Versions Affected                                                        | CVE                                                               | CVSS | Severity |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
 | [Vendor noted products and versions](https://nvd.nist.gov/vuln/detail/CVE-2025-62215) | [CVE-2025-62215](https://nvd.nist.gov/vuln/detail/CVE-2025-62215) | 7.0  | **High** |
 
 ## What has been observed?
