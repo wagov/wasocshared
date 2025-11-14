@@ -1,4 +1,4 @@
-# IBM Critical Vulnerabilities - 20251114002 
+# IBM Critical Vulnerabilities - 20251114002
 
 ## Overview
 
@@ -6,9 +6,9 @@ IBM have published updates addressing critical vulnerabilities affecting NIM com
 
 ## What is vulnerable?
 
-| Product(s) Affected | CVE | CVSS | Severity |
-| ------------------- | --- | ---- | -------- |
-| IBM AIX  <br> IBM VIOS | [CVE-2025-36096](https://nvd.nist.gov/vuln/detail/CVE-2025-36096) <br> [CVE-2025-36250](https://nvd.nist.gov/vuln/detail/CVE-2025-36250) <br> [CVE-2025-36251](https://nvd.nist.gov/vuln/detail/CVE-2025-36251) | 9.0 <br> 10.0 <br> 9.6 | **Critical** |
+| Product(s) Affected   | CVE                                                                                                                                                                                                             | CVSS                   | Severity     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------ |
+| IBM AIX <br> IBM VIOS | [CVE-2025-36096](https://nvd.nist.gov/vuln/detail/CVE-2025-36096) <br> [CVE-2025-36250](https://nvd.nist.gov/vuln/detail/CVE-2025-36250) <br> [CVE-2025-36251](https://nvd.nist.gov/vuln/detail/CVE-2025-36251) | 9.0 <br> 10.0 <br> 9.6 | **Critical** |
 
 ## What has been observed?
 
