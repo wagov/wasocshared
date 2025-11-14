@@ -6,9 +6,9 @@ A critical Remote Code Execution (RCE) vulnerability has been identified in pgAd
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| pgAdmin      | versions up to 9.9    | [CVE-2025-12762](https://nvd.nist.gov/vuln/detail/CVE-2025-12762)                                                                        | 9.1          | **Critical**                                   |
+| Product(s) Affected | Version(s)         | CVE                                                               | CVSS | Severity     |
+| ------------------- | ------------------ | ----------------------------------------------------------------- | ---- | ------------ |
+| pgAdmin             | versions up to 9.9 | [CVE-2025-12762](https://nvd.nist.gov/vuln/detail/CVE-2025-12762) | 9.1  | **Critical** |
 
 ## What has been observed?
 
