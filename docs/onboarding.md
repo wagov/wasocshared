@@ -215,7 +215,7 @@ The WASOC will inform the entity once the onboarding has been completed.
 ## 6. Migrate to Microsoft Sentinel Data Lake for Cost Optimization
 
 The Data Lake storage tier provides cost-effective, long-term storage for logs, especially for third-party logs and Sentinel tables beyond the 90-day free retention period. 
-Data retention costs are reduced to less than 15% of the analytics logs, making it more affordable to retain critical security data for long-term analysis and threat hunting.
+Data retatined in Data Lake is available to Securtiy Operations Team for long-term analysis and threat hunting capabilities.
 
 
 ### 6.1 Cost-Saving Strategies
