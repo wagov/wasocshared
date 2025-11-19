@@ -8,6 +8,11 @@ The below guide has been developed by the WASOC to expedite a SIEM implementatio
 
 It is recommended to deploy Microsoft Sentinel in the **Australia East** region following the [Deployment guide for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/deploy-overview)
 
+!!! note "Transition your Microsoft Sentinel experience from the Azure portal to the Defender portal"
+
+    Important Update: Microsoft is transitioning the Microsoft Sentinel experience from the Azure portal to the Microsoft Defender portal and by July 1, 2026 the Azure portal experience for Microsoft Sentinel will be retired. For customers with an existing workspace enabled for Microsoft Sentinel in order to transition to Microsoft Defender follow the [Transition Microsoft Sentinel environment to the Defender portal Guide](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender)
+
+
 ## 2. Telemetry to collect (prioritised)
 
 Below is a rapid approach to get Microsoft workloads covered rapidly using Sentinel.
@@ -30,6 +35,17 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 !!! note "Simplify telemetry collection"
 
     Moving [Configuration Manager to Intune](https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-intune-setup), [Fileshares to SharePoint](https://learn.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide) and [Identities from Active Directory to Entra](https://learn.microsoft.com/en-us/entra/architecture/road-to-the-cloud-migrate) are highly effective ways to improve security visibility while also reducing telemetry volume from self-managed platforms and servers.
+
+!!! note "Data Retention and Cost Optimization"
+
+    Microsoft Sentinel uses two primary storage tiers to balance performance, cost, and retention needs:
+    [Analytics Tier](https://learn.microsoft.com/en-us/azure/sentinel/manage-data-overview#data-tiers): High-performance storage for real-time threat detection, hunting, and alerting. Store Microsoft tables (e.g. Defender XDR, Entra ID, Azure activity logs) for up to 90 days at no additional ingestion cost before transitioning to the Data Lake Tier to optimize expenses.
+    [Data Lake Tier](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-overview): Low-cost "cold" storage offering cost savings compared to the Analytics Tier. Use this tier to:
+    - Ingest third-party logs (e.g., network logs from firewalls, proxies, or AWS CloudTrail) directly to reduce expenses without sacrificing storage capacity.
+    - Transfer Microsoft tables from the Analytics Tier after the 90-day free retention period to maintain long-term retention requirements (up to 12 years) for investigations, compliance, and historical analysis.
+
+
+[Fileshares to SharePoint](https://learn.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide) and [Identities from Active Directory to Entra](https://learn.microsoft.com/en-us/entra/architecture/road-to-the-cloud-migrate) are highly effective ways to improve security visibility while also reducing telemetry volume from self-managed platforms and servers.
 
 ## 3. Third party solutions (Telemetry re-ingestion)
 
