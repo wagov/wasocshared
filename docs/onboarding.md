@@ -227,7 +227,7 @@ Data retention costs are reduced to less than 15% of the analytics logs, making 
 Microsoft is consolidating its security platforms by integrating Sentinel into the Microsoft Defender portal, creating a unified SIEM + XDR experience. Refer to [Transition your Microsoft Sentinel environment to the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender) guide. 
 Key Dates:  
 - From 1 July 2025: All new Sentinel customers will onboard via the Defender portal.
-- By 1 July 2026: The Azure Portal experience for Sentinel will be fully retired.
+- By 1 July 2026: The [Azure Portal experience for Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-defender-portal) will be planned retired.
 
 ## 8. WASOC Offboarding / Re-onboarding Procedure
 
