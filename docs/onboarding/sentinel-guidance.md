@@ -40,7 +40,7 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 
     Microsoft Sentinel uses two primary storage tiers to balance performance, cost, and retention needs:
     [Analytics Tier](https://learn.microsoft.com/en-us/azure/sentinel/manage-data-overview#data-tiers): High-performance storage for real-time threat detection, hunting, and alerting. Store Microsoft tables (e.g. Defender XDR, Entra ID, Azure activity logs) for up to 90 days at no additional ingestion cost before transitioning to the Data Lake Tier to optimize expenses.
-    [Data Lake Tier](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-overview): Low-cost "cold" storage offering up to 85% cost savings compared to the Analytics Tier. Use this tier to:
+    [Data Lake Tier](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-overview): Low-cost "cold" storage offering cost savings compared to the Analytics Tier. Use this tier to:
     - Ingest third-party logs (e.g., network logs from firewalls, proxies, or AWS CloudTrail) directly to reduce expenses without sacrificing storage capacity.
     - Transfer Microsoft tables from the Analytics Tier after the 90-day free retention period to maintain long-term retention requirements (up to 12 years) for investigations, compliance, and historical analysis.
 
