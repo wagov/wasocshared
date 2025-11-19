@@ -220,7 +220,7 @@ Data retention costs are reduced to less than 15% of the analytics logs, making 
 
 ### 6.1 Cost-Saving Strategies
 
-- Move Sentinel Tables from Analytic storage tier to Data Lake storage tier after the 90-day free retention period for lower-cost retention. Use the [Data Retention settings](https://learn.microsoft.com/en-us/azure/sentinel/configure-data-retention-archive) in the Sentinel workspace to define retention periods and archiving rules.
+- Configure Sentinel Tables on Analytic Tier storage to migrate after 90-days (free retention period) to the Data Lake tier for lower-cost retention. Use the [Data Retention settings](https://learn.microsoft.com/en-us/azure/sentinel/configure-data-retention-archive) in the Sentinel workspace to define retention periods and archiving rules.
 - For third-party logs, configure data connectors to route logs directly to the Data Lake as they are more expensive to store in Sentinel’s analytics storage tier. Refer to [Configure connectors for Third-Party (non-Microsoft) Logs in Data Lake](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-connectors) 
 
 ## 7. Migrate Sentinel to Defender XDR portal. 
