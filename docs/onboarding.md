@@ -212,18 +212,19 @@ The WASOC will inform the entity once the onboarding has been completed.
 
 ## 6. Migrate to Microsoft Sentinel Data Lake for Cost Optimization
 
-The Data Lake storage tier provides cost-effective, long-term storage for logs, especially for third-party logs and Sentinel tables beyond the 90-day free retention period. 
+The Data Lake storage tier provides cost-effective, long-term storage for logs, especially for third-party logs and Sentinel tables beyond the 90-day free retention period.
 Data retatined in Data Lake is available to Securtiy Operations Team for long-term analysis and threat hunting capabilities.
-
 
 ### 6.1 Cost-Saving Strategies
 
 - Configure Sentinel Tables on Analytic Tier storage to migrate after 90-days (free retention period) to the Data Lake tier for lower-cost retention. Use the [Data Retention settings](https://learn.microsoft.com/en-us/azure/sentinel/configure-data-retention-archive) in the Sentinel workspace to define retention periods and archiving rules.
-- For third-party logs, configure data connectors to route logs directly to the Data Lake as they are more expensive to store in Sentinel’s analytics storage tier. Refer to [Configure connectors for Third-Party (non-Microsoft) Logs in Data Lake](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-connectors) 
+- For third-party logs, configure data connectors to route logs directly to the Data Lake as they are more expensive to store in Sentinel’s analytics storage tier. Refer to [Configure connectors for Third-Party (non-Microsoft) Logs in Data Lake](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-connectors)
 
-## 7. Migrate Sentinel to Defender XDR portal. 
-Microsoft is consolidating its security platforms by integrating Sentinel into the Microsoft Defender portal, creating a unified SIEM + XDR experience. Refer to [Transition your Microsoft Sentinel environment to the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender) guide. 
-Key Dates:  
+## 7. Migrate Sentinel to Defender XDR portal.
+
+Microsoft is consolidating its security platforms by integrating Sentinel into the Microsoft Defender portal, creating a unified SIEM + XDR experience. Refer to [Transition your Microsoft Sentinel environment to the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender) guide.
+Key Dates:
+
 - From 1 July 2025: All new Sentinel customers will onboard via the Defender portal.
 - By 1 July 2026: The [Azure Portal experience for Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-defender-portal) will be planned retired.
 
