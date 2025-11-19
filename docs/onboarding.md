@@ -52,7 +52,7 @@ Navigate to the [Azure Lighthouse - Service Providers](https://portal.azure.com/
 
 ![service Provider](images/Service-Provider.png)
 
-#### 3.2. Azure Lighthouse ARM Deployment
+### 3.2. Azure Lighthouse ARM Deployment
 
 Browse for the template provided, and click **Upload**. This can be customised to removed unused groups if desired for the customers Tier - please inform the WA SOC of any changes prior to deployment to allow documentation to be updated.
 
@@ -222,7 +222,8 @@ Data retatined in Data Lake is available to Securtiy Operations Team for long-te
 
 ## 7. Migrate Sentinel to Defender XDR portal.
 
-Microsoft is consolidating its security platforms by integrating Sentinel into the Microsoft Defender portal, creating a unified SIEM + XDR experience. Refer to [Transition your Microsoft Sentinel environment to the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender) guide.
+Microsoft is consolidating the cyber security solutions by integrating Sentinel into the Microsoft Defender portal, creating a unified SIEM and XDR experience. Refer to [Transition your Microsoft Sentinel environment to the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender) guide.
+
 Key Dates:
 
 - From 1 July 2025: All new Sentinel customers will onboard via the Defender portal.

@@ -38,10 +38,13 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 !!! note "Data Retention and Cost Optimization"
 
     Microsoft Sentinel uses two primary storage tiers to balance performance, cost, and retention needs:
+
     [Analytics Tier](https://learn.microsoft.com/en-us/azure/sentinel/manage-data-overview#data-tiers): High-performance storage for real-time threat detection, hunting, and alerting. Store Microsoft tables (e.g. Defender XDR, Entra ID, Azure activity logs) for up to 90 days at no additional ingestion cost before transitioning to the Data Lake Tier to optimize expenses.
+
     [Data Lake Tier](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-overview): Low-cost "cold" storage offering cost savings compared to the Analytics Tier. Use this tier to:
 
     - Ingest third-party logs (e.g., network logs from firewalls, proxies, or AWS CloudTrail) directly to reduce expenses without sacrificing storage capacity.
+
     - Transfer Microsoft tables from the Analytics Tier after the 90-day free retention period to maintain long-term retention requirements (up to 12 years) for investigations, compliance, and historical analysis.
 
 [Fileshares to SharePoint](https://learn.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide) and [Identities from Active Directory to Entra](https://learn.microsoft.com/en-us/entra/architecture/road-to-the-cloud-migrate) are highly effective ways to improve security visibility while also reducing telemetry volume from self-managed platforms and servers.
@@ -50,9 +53,9 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 
 !!! note "Log Analytics Auxilary plan (preview)"
 
-    The low cost [Auxiliary plan](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/create-custom-table-auxiliary) is now available in public preview on data collection rule-based custom tables you create using the [Tables - Create Or Update API](https://learn.microsoft.com/en-us/rest/api/loganalytics/tables/create-or-update), which is suitable for retention of third party log sources.
+    The lower cost [Data Lake plan](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-overview) is now available for data collection rule-based custom tables you can create using the [Log Ingestion API](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-ingestion-api-overview), which is suitable for retention of third party log sources.
 
-[Deploy domain solutions with ASIM analytic rules](https://learn.microsoft.com/en-us/azure/sentinel/sentinel-solutions-catalog#domain-solutions) and connect associated telemetry for relevant products. Note for large environments this can be costly, so moving to incident synchronisation only may be more effective (see next section). Deploying the [ASIM Parsers](https://github.com/Azure/Azure-Sentinel/tree/master/ASIM) directly also makes developing and managing telemetry agnostic detection rules much easier.
+[Deploy domain solutions with ASIM analytic rules]https://learn.microsoft.com/en-us/azure/sentinel/domain-based-essential-solutions) and connect associated telemetry for relevant products. Note for large environments this can be costly, so moving to incident synchronisation only may be more effective (see next section). Deploying the [ASIM Parsers](https://github.com/Azure/Azure-Sentinel/tree/master/ASIM) directly also makes developing and managing telemetry agnostic detection rules much easier.
 
 - [Endpoint Threat Protection Essentials](https://azuremarketplace.microsoft.com/en-GB/marketplace/apps/azuresentinel.azure-sentinel-solution-endpointthreat?tab=Overview)
 - [Security Threat Essentials](https://azuremarketplace.microsoft.com/en-GB/marketplace/apps/azuresentinel.azure-sentinel-solution-securitythreatessentialsol?tab=Overview)
@@ -75,4 +78,4 @@ Ensuring that integrations include **severity**, **classification** and **mitre 
 
 ## 5. Optimise security operations
 
-The [Microsoft SOC Optimisations page](https://learn.microsoft.com/en-us/azure/sentinel/soc-optimization/soc-optimization-access?tabs=azure-portal#access-the-soc-optimization-page) aims to empower security teams by providing invaluable insights into your Microsoft Sentinel environment and offering recommendations to enhance cost efficiency, operational effectiveness, and overall management overview. The WASOC also offers an addtional cost reduction service through the [dedicated cluster initative](https://soc.cyber.wa.gov.au//onboarding/#24-dedicated-cluster).
+The [Microsoft SOC Optimisations page](https://learn.microsoft.com/en-us/azure/sentinel/soc-optimization/soc-optimization-access?tabs=azure-portal#access-the-soc-optimization-page) aims to empower security teams by providing invaluable insights into your Microsoft Sentinel environment and offering recommendations to enhance cost efficiency, operational effectiveness, and overall management overview. The WASOC also offers an addtional cost reduction service through the [dedicated cluster initative](https://soc.cyber.wa.gov.au//onboarding/#32-azure-lighthouse-arm-deployment).
