@@ -1,4 +1,4 @@
-# WA SOC Microsoft Sentinel Guidance
+# WASOC Microsoft Sentinel Guidance
 
 The below guide has been developed by the WASOC to expedite a SIEM implementation with Microsoft Sentinel focused on improving operational efficiency and [better threat detection](https://soc.cyber.wa.gov.au//baselines/data-sources/#4-detection-checklist).
 
@@ -55,7 +55,7 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 
     The lower cost [Data Lake plan](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-overview) is now available for data collection rule-based custom tables you can create using the [Log Ingestion API](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-ingestion-api-overview), which is suitable for retention of third party log sources.
 
-[Deploy domain solutions with ASIM analytic rules]https://learn.microsoft.com/en-us/azure/sentinel/domain-based-essential-solutions) and connect associated telemetry for relevant products. Note for large environments this can be costly, so moving to incident synchronisation only may be more effective (see next section). Deploying the [ASIM Parsers](https://github.com/Azure/Azure-Sentinel/tree/master/ASIM) directly also makes developing and managing telemetry agnostic detection rules much easier.
+[Deploy domain solutions with ASIM analytic rules](https://learn.microsoft.com/en-us/azure/sentinel/domain-based-essential-solutions) and connect associated telemetry for relevant products. Note for large environments this can be costly, so moving to incident synchronisation only may be more effective (see next section). Deploying the [ASIM Parsers](https://github.com/Azure/Azure-Sentinel/tree/master/ASIM) directly also makes developing and managing telemetry agnostic detection rules much easier.
 
 - [Endpoint Threat Protection Essentials](https://azuremarketplace.microsoft.com/en-GB/marketplace/apps/azuresentinel.azure-sentinel-solution-endpointthreat?tab=Overview)
 - [Security Threat Essentials](https://azuremarketplace.microsoft.com/en-GB/marketplace/apps/azuresentinel.azure-sentinel-solution-securitythreatessentialsol?tab=Overview)
