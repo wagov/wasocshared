@@ -2,7 +2,7 @@
 
 The below guide has been developed by the WASOC to expedite a SIEM implementation with Microsoft Sentinel focused on improving operational efficiency and [better threat detection](https://soc.cyber.wa.gov.au//baselines/data-sources/#4-detection-checklist).
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=0nNsOrKYxdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0nNsOrKYxdM?si=9W11adDtXNaoxJ44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## 1. Sentinel Deployment Notes
 
