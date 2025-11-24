@@ -1,4 +1,4 @@
-# New Critical ICS Advisories - 20251124001
+# New Critical ICS Vulnerabilities - 20251124001
 
 ## Overview
 
