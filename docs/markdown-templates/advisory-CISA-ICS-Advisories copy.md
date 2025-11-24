@@ -1,4 +1,4 @@
-# New Critical ICS Advisories - 2025MMDD001
+# New Critical ICS Vulnerabilities - 2025MMDD001
 
 ## Overview
 
