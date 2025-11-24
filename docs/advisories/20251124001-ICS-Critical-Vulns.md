@@ -8,9 +8,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ### Critical Severity
 
-| Vendor | CVE | CVSS | Severity |
-| ------ | --- | ---- | -------- |
-|  Emerson | [CVE-2024-3871](https://www.cve.org/CVERecord?id=CVE-2024-3871) | 9.8 | Critical |
+| Vendor  | CVE                                                             | CVSS | Severity |
+| ------- | --------------------------------------------------------------- | ---- | -------- |
+| Emerson | [CVE-2024-3871](https://www.cve.org/CVERecord?id=CVE-2024-3871) | 9.8  | Critical |
 
 ## Recommendation
 
