@@ -2,9 +2,9 @@
 
 ## Overview
 
-Since the publication of Advisory 20250919002, the WASOC has observed a newly published article detailing newly observed active, large-scale supply chain attacks involving a destructive malware variant spreading through the npm ecosystem, including Indicators of Compromise (IOCs).
+Since the publication of Advisory 20250919002, the WASOC has observed a newly published article detailing newly observed active and large-scale supply chain attacks involving a destructive malware variant spreading through the npm ecosystem, including Indicators of Compromise (IOCs).
 
-This report states to uncovered multiple infected packages containing what appears to be an evolved version of the "Shai-Hulud" malware.
+This report states to have uncovered multiple infected packages containing what appears to be an evolved version of the "Shai-Hulud" malware.
 
 ## What has been observed?
 
