@@ -6,11 +6,9 @@ Since the publication of Advisory 20250919002, the WASOC has observed a newly pu
 
 This report states to uncovered multiple infected packages containing what appears to be an evolved version of the "Shai-Hulud" malware.
 
-
 ## What has been observed?
 
 This newly observed article reports that the threat leverages compromised maintainer accounts to publish trojanized versions of legitimate npm packages that execute credential theft and exfiltration code during installation. The article also includes a deep analysis of npm package distribution across cloud and code environments.
-
 
 ## Recommendation
 
