@@ -161,7 +161,16 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
     This solution is a recent addition to the Microsoft XDR and will require some administrative work by the entities to activate the [XDR RBAC experience](https://learn.microsoft.com/en-us/defender-xdr/activate-defender-rbac#activate-in-microsoft-defender-xdr-settings). This work will require some pre-work with entities IT teams as exisiting permission to users and account may cause service interruption. [A mapping exercise will be required.](https://learn.microsoft.com/en-us/defender-xdr/compare-rbac-roles)
 
-### 4.2.1 Configuration of Security Groups permission in Microsoft Security Portal (XDR)
+### 4.2.1 Activate Unifed Role Based Access Controls
+
+1. Navigate to the [Microsoft Security Portal](https://security.microsoft.com/)
+1. In **Systems > Settings > Microsoft Defender XDR > Permissions and roles**
+1. Toggle all avaiable **WorkLoads** as **Active**.
+
+    ![XDR Unifed Permissions and Roles](images/xdr-unifed-permissions-roles.png)
+
+
+### 4.2.2 Configuration of Security Groups permission in Microsoft Security Portal (XDR)
 
 1. Navigate to the [Microsoft Security Portal](https://security.microsoft.com/)
 1. In **Systems > Permissions > Microsoft Defender XDR (Roles)**
