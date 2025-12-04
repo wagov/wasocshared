@@ -18,8 +18,6 @@ Recent WASOC advisories this month worth staying across include:
 
 - [NPM Supply Chain Compromise Activity](https://soc.cyber.wa.gov.au/advisories/20251127001-nmp-supply-chain-campaign/)
 
-
-
 ## WASOC - General Advice
 
 - The WASOC has observed consistent exploitation delivered via Phishing campaigns.
