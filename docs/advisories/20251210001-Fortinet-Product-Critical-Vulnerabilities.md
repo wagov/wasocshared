@@ -6,9 +6,9 @@ Fortinet has released security updates to address two critical vulnerabilities i
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-| ------------------- | ---------- | --- | ---- | -------- |
-| FortiOS <br> FortiProxy <br> FortiSwitchManager <br> FortiWeb | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-25-647) |  [CVE-2025-59718](https://nvd.nist.gov/vuln/detail/CVE-2025-59718) <br> [CVE-2025-59719](https://nvd.nist.gov/vuln/detail/CVE-2025-59719) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
+| Product(s) Affected                                           | Version(s)                                                                            | CVE                                                                                                                                      | CVSS         | Severity                       |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------ |
+| FortiOS <br> FortiProxy <br> FortiSwitchManager <br> FortiWeb | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-25-647) | [CVE-2025-59718](https://nvd.nist.gov/vuln/detail/CVE-2025-59718) <br> [CVE-2025-59719](https://nvd.nist.gov/vuln/detail/CVE-2025-59719) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 
