@@ -2,9 +2,9 @@
 
 {{ date_index("docs/advisories", prefix="advisories/", expand=1, include=2) }}
 
-## WASOC - Recent Threat Activity (September 2025)
+## WASOC - Recent Threat Activity (December 2025)
 
-Based on recent high impact incidents seen by the WASOC, security teams should be focusing on the below areas of improvement based on phishing and phishing resistant MFA:
+Based on recent high impact incidents seen by the WASOC, security teams should be focusing on understanding the asset and services operated within their supply chain.
 
 !!! warning "WASOC Guidance targeted on recent escalation of state-based actor threat activity"
 
@@ -14,22 +14,18 @@ Based on recent high impact incidents seen by the WASOC, security teams should b
 
 Recent WASOC advisories this month worth staying across include:
 
-- [Cisco ASA Active Exploitation](https://soc.cyber.wa.gov.au/advisories/20250926001-Cisco-ASA-Active-Exploitation/)
-- [SonicWall Cloud Backup Security Incident](https://soc.cyber.wa.gov.au/advisories/20250923001-SonicWall-Cloud-Backup-Security-Incident/)
-- [ASD Publishes Advisory on Ongoing Attack on NPM](https://soc.cyber.wa.gov.au/advisories/20250919002-ASD-Advisory-Ongoing-Attack-on-NPM/)
+- [Critical Cisco Vulnerabilities](https://soc.cyber.wa.gov.au/advisories/20251106001-Critical-Cisco-Vulnerabilities/)
+
+- [NPM Supply Chain Compromise Activity](https://soc.cyber.wa.gov.au/advisories/20251127001-nmp-supply-chain-campaign/)
 
 ## WASOC - General Advice
 
-- The WASOC has observed an uptick in HTML and SVG attachment type(s) exploitation that is being delivered via Phishing campaigns.
+- The WASOC has observed consistent exploitation delivered via Phishing campaigns.
 
 **Security Hardening** remains a focus for all organisations. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
 
 - [ACSC - Secure by Design](https://www.cyber.gov.au/business-government/secure-design/secure-by-design)
 
-- [Guidelines for secure software development](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-software-development)
-
-- [ASD's Blueprint for Secure Cloud](https://blueprint.asd.gov.au/)
+- [Guidelines for Secure Software Development](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-software-development)
 
 - [Ongoing targeting of online code repositories](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/ongoing-targeting-of-online-code-repositories)
-
-- [A Shared Vision of Software Bill of Materials (SBOM) for Cybersecurity](https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managing-cyber-supply-chains/shared-vision-of-software-bill-of-materials-cybersecurity)

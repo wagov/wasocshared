@@ -1,4 +1,4 @@
-# CISA Releases New ICS Advisories - 2025MMDD001
+# New Critical ICS Vulnerabilities - 2025MMDD001
 
 ## Overview
 
@@ -8,15 +8,15 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ### Critical Severity
 
-| Vendor | CVE # | CVSS | Severity |
-| ------ | ----- | ---- | -------- |
-|        |       |      |          |
+| Vendor | CVE | CVSS | Severity |
+| ------ | --- | ---- | -------- |
+|        |     |      |          |
 
 ### Known Exploitation
 
-| Vendor | CVE # | CVSS | Severity |
-| ------ | ----- | ---- | -------- |
-|        |       |      |          |
+| Vendor | CVE | CVSS | Severity |
+| ------ | --- | ---- | -------- |
+|        |     |      |          |
 
 ## Recommendation
 

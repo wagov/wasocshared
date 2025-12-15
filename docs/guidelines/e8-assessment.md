@@ -211,7 +211,7 @@ The section below provides guidance tailored to the assessment method. When sele
     <td>Due to the complexity of advanced file system permissions, and various user groups <br>that a user account may belong to, the only truly effective way to check application<br>control implementations is to attempt to write to and execute from all locations<br> accessible to a user on the file system. There are several free tools available to support <br> the assessment of this control, including ASD’s Essential Eight Maturity Verification Tool (E8MVT) and Application Control Verification Tool (ACVT), AirLock Digital’s Application Whitelist Auditor, and CyberArk’s Evasor. There are also several paid tools available. In choosing a tool to use, make sure that it has been thoroughly tested beforehand to ensure it is fit for-purpose.</td>
   </tr>
   <tr>
-    <td>If the system owner is willing to allow the use of trusted Microsoft tools, but not other third-party tools, the SysInternals AccessChk application can be used to generate the output of folder permissions, noting this is only relevant to a path-based approach. For example, by running ‘accesschk -dsuvw [path] > report.txt’, it is possible to generate a list of all writable paths and their access permissions for all users. Note, the ‘whoami /groups’ command would also need to be run to determine which user groups a typical standard user belonged to in order to determine the effective permissions for each path. Alternatively, PowerShell cmdlets can be used to <a href="[Test-AppLockerPolicy (AppLocker) | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/applocker/test-applockerpolicy?view=windowsserver2022-ps)"> test </a> and <a href="[Get-AppLockerPolicy (AppLocker) | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/applocker/get-applockerpolicy?view=windowsserver2022-ps)"> review </a>  AppLocker policy where applicable.</td>
+    <td>If the system owner is willing to allow the use of trusted Microsoft tools, but not other third-party tools, the SysInternals AccessChk application can be used to generate the output of folder permissions, noting this is only relevant to a path-based approach. For example, by running ‘accesschk -dsuvw [path] > report.txt’, it is possible to generate a list of all writable paths and their access permissions for all users. Note, the ‘whoami /groups’ command would also need to be run to determine which user groups a typical standard user belonged to in order to determine the effective permissions for each path. Alternatively, PowerShell cmdlets can be used to <a href="https://learn.microsoft.com/en-us/powershell/module/applocker/test-applockerpolicy?view=windowsserver2022-ps"> test </a> and <a href="https://learn.microsoft.com/en-us/powershell/module/applocker/get-applockerpolicy?view=windowsserver2022-ps"> review </a>  AppLocker policy where applicable.</td>
   </tr>
   <tr>
     <td>For a system on which tools cannot be run, assuming a path-based approach is used, screenshots of the ‘effective access’ permissions for specified folders can be requested. This, however, has limitations, because unless screenshots of access permissions are requested for every folder and sub-folder (for which there may be many), it will not be possible to comprehensively assess whether read, write and execute permissions exist for a given user. At a minimum, screenshots for key paths (such as temporary folders used by the operating system, web browsers and email clients) should be requested and examined to determine whether inheritance is set, noting that at any point in a path, application control inheritance previously set by an operating system may be disabled by an application installer.For a system on which tools cannot be run, assuming a path-based approach is used, screenshots of the ‘effective access’ permissions for specified folders can be requested. This, however, has limitations, because unless screenshots of access permissions are requested for every folder and sub-folder (for which there may be many), it will not be possible to comprehensively assess whether read, write and execute permissions exist for a given user. At a minimum, screenshots for key paths (such as temporary folders used by the operating system, web browsers and email clients) should be requested and examined to determine whether inheritance is set, noting that at any point in a path, application control inheritance previously set by an operating system may be disabled by an application installer.</td>
@@ -418,7 +418,7 @@ process Java from the
 internet.</td>
 <td>A list of the web browsers installed on a system can be derived from the list of all
 installed applications. For each web browser installed on the system, visit a
-specific web page that contains Java, such as the <a href="[Is Java installed? - WhatIsMyBrowser.com](https://www.whatismybrowser.com/detect/is-java-installed/)">Is Java installed?</a> website.
+specific web page that contains Java, such as the <a href="https://www.whatismybrowser.com/detect/is-java-installed/">Is Java installed?</a> website.
 <br><br>Additionally, review any plug-ins or extensions that are installed for each web
 browser present on the system. This can be used to check whether any web
 browsers have Java plug-ins or extensions installed, and if so, whether they are
@@ -435,7 +435,7 @@ the internet.</td>
 installed. Alternatively, check whether a web content filter or proxy is blocking
 web advertisements. A simple check is to request a user to browse to a website
 that is known to display ads (to observe if any ads are displayed) or to browse to
-<a href="[AdBlock Tester: test your AdBlock extensions](https://adblock-tester.com/)"> AdBlock Tester</a> website (for comprehensive testing) and provide a screenshot of
+<a href="https://adblock-tester.com/"> AdBlock Tester</a> website (for comprehensive testing) and provide a screenshot of
 the results.
 <br><br>Note, built-in settings within web browsers to block pop-ups do not meet the
 intent of this control.</td>
@@ -505,7 +505,7 @@ and run the below PowerShell command to check if privileged accounts have access
 mailboxes and email addresses:
 <br><br>Get-ADUser -Filter {(admincount -eq 1) -and (emailaddress -like “*”) -and (enabled -eq
 $true)} -Properties EmailAddress | Select samaccountname, emailaddress<br><br>
-Tools such as <a href="[AdBlock Tester: test your AdBlock extensions](https://adblock-tester.com/)"> BloodHound</a> can assist in identifying privileged users that may be missed
+Tools such as <a href="https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/"> BloodHound</a> can assist in identifying privileged users that may be missed
 when utilising PowerShell alone.</td>
 <tr>
 <td>Privileged users use
@@ -521,7 +521,7 @@ environments have been implemented.</td>
 cannot logon to privileged
 operating environments.</td>
 <td>Attempt to logon to a privileged workstation using a standard user account.<br>
-<a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">Bloodhound</a> can be used to assess whether any unprivileged accounts have connected to
+<a href="https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/">Bloodhound</a> can be used to assess whether any unprivileged accounts have connected to
 privileged environments by looking for cached credentials.</td>
 <tr>
 <td>Privileged accounts
@@ -536,7 +536,7 @@ entered into a standard user workstation, the account should be considered
 compromised (noting this is the reason behind having separate operating environments).
 This test should be done using a privileged account set up specifically for this purpose.
 The privileged account should then be removed immediately after testing is complete.<br><br>
-<a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">Bloodhound</a> can be used to assess whether any privileged accounts have connected to
+<a href="https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/">Bloodhound</a> can be used to assess whether any privileged accounts have connected to
 unprivileged environments by looking for cached credentials.</td>
 </tr>
 </table>
@@ -1128,9 +1128,9 @@ Office is implemented.</td>
 <td>Generally, hardening guidance can be configured via group policy setting templates
 that are made available by vendors. This will be included as part of any RSoP reports
 that are provided.
-ACSC hardening guidance for Microsoft Office is available within the <a href="[Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016 | Cyber.gov.au](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016)">Hardening
+ACSC hardening guidance for Microsoft Office is available within the <a href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016">Hardening
 Microsoft 365, Office 2021, Office 2019 and Office 2016</a> publication.
-Microsoft hardening guidance for Microsoft Office is available from their <a href="[Microsoft Security Baselines Blog | Microsoft Community Hub](https://techcommunity.microsoft.com/category/security-baselines/blog/microsoft-security-baselines)">Microsoft
+Microsoft hardening guidance for Microsoft Office is available from their <a href="https://techcommunity.microsoft.com/category/security-baselines/blog/microsoft-security-baselines">Microsoft
 Security Baselines Blog</a>.
 <tr>
 <td rowspan="2">Microsoft Office security
@@ -1282,7 +1282,7 @@ service accounts are long,
 unique, unpredictable and
 managed.</td>
 <td>Discuss how local administrator and service accounts are managed. Confirm if
-Microsoft’s <a href="[Download Local Administrator Password Solution (LAPS) from Official Microsoft Download Center](https://www.microsoft.com/en-au/download/details.aspx?id=46899)">Local Administrator Password Solution</a>, or another suitable approach that
+Microsoft’s <a href="https://www.microsoft.com/en-au/download/details.aspx?id=46899">Local Administrator Password Solution</a>, or another suitable approach that
 results in long, unique and unpredictable passwords for each workstation and server, is
 used.<br><br>To check if all computers have LAPS configured, run the following PowerShell
 commands and compare the output:
@@ -1464,7 +1464,7 @@ belonging to other accounts.</td>
 <td>Use the guidance provided in Maturity Level One of this guide and apply the Maturity
 Level Two access control requirements. Specifically, privileged accounts should only be
 able to access their own backups (except for backup administrator accounts).<br>
-Active Directory queries and tools such as <a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">BloodHound</a> can help to identify privileged
+Active Directory queries and tools such as <a href="https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/">BloodHound</a> can help to identify privileged
 accounts including backup administrator accounts.</td>
 <tr>
 <td> Privileged accounts
@@ -1476,7 +1476,7 @@ and deleting backups.</td>
 Level Two access control requirements. Specifically, privileged accounts should no
 longer be able to modify and delete backups. Such activities should be restricted to
 backup administrator accounts.<br>
-Active Directory queries and tools such as <a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">BloodHound</a> can help to identify privileged
+Active Directory queries and tools such as <a href="https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/">BloodHound</a> can help to identify privileged
 accounts including backup administrator accounts.</td>
 </tr>
 </table>
@@ -1537,7 +1537,7 @@ the inclusion of drivers.</td>
 block rules’ are
 implemented.</td>
 <td>Request a copy of application control rulesets. Check whether Microsoft’s
-<a href="[Applications that can bypass App Control and how to block them | Microsoft Learn](https://learn.microsoft.com/en-au/windows/security/application-security/application-control/app-control-for-business/design/applications-that-can-bypass-appcontrol)">recommended block rules</a> have been specified.
+<a href="https://learn.microsoft.com/en-au/windows/security/application-security/application-control/app-control-for-business/design/applications-that-can-bypass-appcontrol">recommended block rules</a> have been specified.
 <tr>
 <td>Microsoft’s ‘recommended
 driver block rules’ are
@@ -1545,7 +1545,7 @@ implemented.</td>
 <td>Depending on the application control solution, controlling the execution of drivers may
 or may not be supported. Request a copy of application control rulesets to check for
 the inclusion of drivers. If drivers are included, check whether Microsoft’s
-<a href="[Microsoft recommended driver block rules | Microsoft Learn](https://learn.microsoft.com/en-au/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules)">recommended driver block rules</a> have been specified.</td>
+<a href="https://learn.microsoft.com/en-au/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules">recommended driver block rules</a> have been specified.</td>
 <tr>
 <td>Application control rulesets
 are validated on an annual
@@ -1883,8 +1883,8 @@ In addition, look for the ‘Restrict delegation of credentials to remote server
 Delegation\’. It should be enabled with a value of ‘Use the following restricted mode:
 Require Remote Credential Guard’.
 Note, the use of Windows Defender Credential Guard and Windows Defender Remote
-Credential Guard has several <a href="[Credential Guard overview | Microsoft Learn](https://learn.microsoft.com/en-au/windows/security/identity-protection/credential-guard/)">hardware and software requirements</a>. More information
-on Windows Defender Credential Guard can be found at <a href="[Configure Credential Guard | Microsoft Learn](https://learn.microsoft.com/en-au/windows/security/identity-protection/credential-guard/configure?tabs=intune)">Microsoft Docs</a>.</td>
+Credential Guard has several <a href="https://learn.microsoft.com/en-au/windows/security/identity-protection/credential-guard/">hardware and software requirements</a>. More information
+on Windows Defender Credential Guard can be found at <a href="https://learn.microsoft.com/en-au/windows/security/identity-protection/credential-guard/configure?tabs=intune">Microsoft Docs</a>.</td>
 <tr>
 <td>Privileged access events are
 centrally logged.</td>
@@ -2067,7 +2067,7 @@ nor their own accounts.</td>
 <td> Use the guidance provided in Maturity Level One of this guide and apply the Maturity
 Level Three access control requirements. Specifically, privileged accounts (excluding
 backup administrator accounts) should no longer be able to access their own backups.
-<br><br>Active Directory queries and tools such as <a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">BloodHound</a> can help to identify privileged
+<br><br>Active Directory queries and tools such as <a href="https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/">BloodHound</a> can help to identify privileged
 accounts including backup administrator accounts.</td>
 <tr>
 <td>Privileged accounts
@@ -2081,7 +2081,7 @@ Level Three access control requirements. Specifically, backup administrator acco
 should no longer be able to modify and delete backups during their retention period,
 but may do so after the retention period has been exceeded.
 <br><br>The modification and deletion of backups during their retention period, should such
-activities be required, need to be restricted to break glass accounts.<br><br>Active Directory queries and tools such as <a href="[BloodHound – Sniffing Out the Path Through Windows Domains | SANS Institute](https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/)">BloodHound</a> can help to identify privileged
+activities be required, need to be restricted to break glass accounts.<br><br>Active Directory queries and tools such as <a href="https://www.sans.org/blog/bloodhound-sniffing-out-path-through-windows-domains/">BloodHound</a> can help to identify privileged
 accounts (including backup administrator accounts) and break glass accounts.</td>
 </tr>
 </table>

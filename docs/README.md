@@ -8,9 +8,9 @@ This site contains technical information to support WA Government Cyber Security
 
     If you would like to subscribe to updates for this site please use the [RSS](/rss.xml) or [ATOM](/atom.xml) feeds.
 
-## WA Security Operations Centre (WA SOC)
+## WA Security Operations Centre (WASOC)
 
-- [Connecting to the WA SOC](onboarding.md) ([Sentinel Guidance](onboarding/sentinel-guidance.md))
+- [Connecting to the WASOC](onboarding.md) ([Sentinel Guidance](onboarding/sentinel-guidance.md))
 - [Advisories (TLP:CLEAR)](advisories.md)
 - [Incident Reporting User Guide (Jira)](guidelines/incident-reporting.md)
 - [Threat Hunting (MITRE ATT&CK Tactics and Techniques)](guidelines/TTP_Hunt/ttp-detection-guidelines.md)
