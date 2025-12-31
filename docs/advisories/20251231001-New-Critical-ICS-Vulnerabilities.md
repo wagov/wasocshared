@@ -8,9 +8,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ### Critical Severity
 
-| Vendor | CVE | CVSS | Severity |
-| ------ | --- | ---- | -------- |
-|  WHILL | [CVE-2025-14346](https://www.cve.org/CVERecord?id=CVE-2025-14346) | 9.8 | Critical |
+| Vendor | CVE                                                               | CVSS | Severity |
+| ------ | ----------------------------------------------------------------- | ---- | -------- |
+| WHILL  | [CVE-2025-14346](https://www.cve.org/CVERecord?id=CVE-2025-14346) | 9.8  | Critical |
 
 ## Recommendation
 
