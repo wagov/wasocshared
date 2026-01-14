@@ -73,7 +73,7 @@ markdown_extensions:
       permalink: true
 nav:
 - Home: README.md
-- Connecting to the WA SOC:
+- Connecting to the WASOC:
   - SOC Onboarding: onboarding.md
   - Sentinel Guidance: onboarding/sentinel-guidance.md
   - Honey Traps: onboarding/honey-traps.md

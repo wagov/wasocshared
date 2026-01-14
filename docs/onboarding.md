@@ -1,4 +1,4 @@
-# WA SOC Onboarding Procedure
+# WASOC Onboarding Procedure
 
 ## 1. Overview
 
@@ -40,7 +40,7 @@ As part of onboarding, the WASOC will send the customer a [Microsoft Entra ID Se
 - [Global Admin](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#global-administrator) permission required for the Azure AD Tenant and [Owner](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#owner) permission required for the Azure Subscription(s).
     - [Access to Service provider offers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) in the Azure Portal
     - [Access to Azure Active Directory Groups](https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups) in the Azure Portal
-- List of agency Azure AD Identities (as emails) that will require access to the WA SOC Incident Reporting Portal for collaboration on cyber security incidents.
+- List of agency Azure AD Identities (as emails) that will require access to the WASOC Incident Reporting Portal for collaboration on cyber security incidents.
 
 ## 3. Microsoft Sentinel Onboarding
 
@@ -54,7 +54,7 @@ Navigate to the [Azure Lighthouse - Service Providers](https://portal.azure.com/
 
 ### 3.2. Azure Lighthouse ARM Deployment
 
-Browse for the template provided, and click **Upload**. This can be customised to removed unused groups if desired for the customers Tier - please inform the WA SOC of any changes prior to deployment to allow documentation to be updated.
+Browse for the template provided, and click **Upload**. This can be customised to removed unused groups if desired for the customers Tier - please inform the WASOC of any changes prior to deployment to allow documentation to be updated.
 
 ![Upload Template](images/Upload-Template.png)
 
@@ -211,7 +211,7 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
 ### 5.1 Sentinel Onboarding
 
-Once the template phase has completed, customers can confirm the onboarding process has finalised by navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page and confirming you can see the **WA SOC - Security Insights** service offer.
+Once the template phase has completed, customers can confirm the onboarding process has finalised by navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page and confirming you can see the **WASOC - Security Insights** service offer.
 
 ![service Offer](images/service-offer.png)
 
@@ -247,7 +247,7 @@ If for the purpose of offboarding the WASOC or to re-onboard onto the WASOC, the
 
 #### Azure Lighthouse Service Provider
 
-Navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page. Select the **WA SOC - Security Insights** service offer. Click **Delete**.
+Navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page. Select the **WASOC - Security Insights** service offer. Click **Delete**.
 
 ![service offer delete](images/service-provider-delete.png)
 
