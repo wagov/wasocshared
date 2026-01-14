@@ -8,8 +8,8 @@ Microsoft has addressed 114 vulnerabilities in its January 2026 security update 
 
 ### Known Exploitation
 
-| Products and Versions Affected                                                        | CVE                                                               | CVSS | Severity |
-| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Products and Versions Affected                                                        | CVE                                                               | CVSS | Severity   |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ---------- |
 | [Vendor noted products and versions](https://nvd.nist.gov/vuln/detail/CVE-2026-20805) | [CVE-2026-20805](https://nvd.nist.gov/vuln/detail/CVE-2026-20805) | 5.5  | **Medium** |
 
 ## What has been observed?
