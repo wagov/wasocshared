@@ -6,12 +6,12 @@ A critical vulnerability has been identified in n8n, an open‑source workflow a
 
 ## What is vulnerable?
 
-| Product(s) Affected                                                                   | Version(s)                                                                     | CVE                                                               | CVSS | Severity     |
-| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ---- | ------------ |
-| n8n  | affected at >= 0.211.0, < 1.120.4   <br>affected at = 1.121.0 | [CVE-2025-68613](https://nvd.nist.gov/vuln/detail/CVE-2025-68613) | 9.9   | **Critical** |
-| | affected at < 1.121.3  | [CVE-2026-21877](https://nvd.nist.gov/vuln/detail/CVE-2026-21877) | 9.9   | **Critical** |
-| | affected at >= 1.65.0, < 1.121.0  | [CVE-2026-21858](https://nvd.nist.gov/vuln/detail/CVE-2026-21858) | 10.0   | **Critical** |
-|
+| Product(s) Affected | Version(s)                                                  | CVE                                                               | CVSS | Severity     |
+| ------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| n8n                 | affected at >= 0.211.0, < 1.120.4 <br>affected at = 1.121.0 | [CVE-2025-68613](https://nvd.nist.gov/vuln/detail/CVE-2025-68613) | 9.9  | **Critical** |
+|                     | affected at < 1.121.3                                       | [CVE-2026-21877](https://nvd.nist.gov/vuln/detail/CVE-2026-21877) | 9.9  | **Critical** |
+|                     | affected at >= 1.65.0, < 1.121.0                            | [CVE-2026-21858](https://nvd.nist.gov/vuln/detail/CVE-2026-21858) | 10.0 | **Critical** |
+|                     |                                                             |                                                                   |      |              |
 
 ## What has been observed?
 
