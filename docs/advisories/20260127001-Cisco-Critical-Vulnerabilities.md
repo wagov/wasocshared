@@ -7,8 +7,8 @@ A remote code execution vulnerability allows an unauthenticated attacker to send
 
 ## What is vulnerable?
 
-| Product(s) Affected                                                                                           | Version(s)                        | CVE                                                                    | CVSS | Severity |
-| ------------------------------------------------------------------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------- | ---- | -------- |
+| Product(s) Affected                                                                                           | Version(s)                                         | CVE                                                                    | CVSS | Severity |
+| ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------- | ---- | -------- |
 | Cisco UCM <br> Cisco UCM Session Manager <br> Cisco UCM IM Prescence Service <br> Cisco Unity Connection <br> | All versions prior to 14su5 <br> 15 prior to 15su4 | [CVE-2026-20045](https://nvd.nist.gov/vuln/detail/CVE-2026-20045) <br> | 9.8  | Critical |
 
 ## What has been observed?
