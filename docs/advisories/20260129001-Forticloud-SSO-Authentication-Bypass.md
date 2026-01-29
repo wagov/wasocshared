@@ -6,12 +6,12 @@ An authentication bypass vulnerability in FortiOS, FortiManager, FortiAnalyzer, 
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| FortiAnalyzer | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-26-060)    | [CVE-2026-24858](https://nvd.nist.gov/vuln/detail/CVE-2026-24858)  | 9.8         | **Critical**                                   |
-| FortiManager      | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-26-060)    | [CVE-2026-24858](https://nvd.nist.gov/vuln/detail/CVE-2026-24858) | 8.8 | **Critical** |
-| FortiOS      | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-26-060)    | [CVE-2026-24858](https://nvd.nist.gov/vuln/detail/CVE-2026-24858) | 9.8 | **Critical** |
-| FortiProxy      | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-26-060)    | [CVE-2026-24858](https://nvd.nist.gov/vuln/detail/CVE-2026-24858) | 9.8 | **Critical** |
+| Product(s) Affected | Version(s)                                                                            | CVE                                                               | CVSS | Severity     |
+| ------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| FortiAnalyzer       | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-26-060) | [CVE-2026-24858](https://nvd.nist.gov/vuln/detail/CVE-2026-24858) | 9.8  | **Critical** |
+| FortiManager        | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-26-060) | [CVE-2026-24858](https://nvd.nist.gov/vuln/detail/CVE-2026-24858) | 8.8  | **Critical** |
+| FortiOS             | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-26-060) | [CVE-2026-24858](https://nvd.nist.gov/vuln/detail/CVE-2026-24858) | 9.8  | **Critical** |
+| FortiProxy          | [Vendor listed affected versions](https://fortiguard.fortinet.com/psirt/FG-IR-26-060) | [CVE-2026-24858](https://nvd.nist.gov/vuln/detail/CVE-2026-24858) | 9.8  | **Critical** |
 
 ## What has been observed?
 
