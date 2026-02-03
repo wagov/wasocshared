@@ -6,6 +6,8 @@ Since the publication of [Advisory 20251215002](https://soc.cyber.wa.gov.au/advi
 
 The report states that traffic from some targeted users were selectively routed to attacker-controlled servers serving malware update manifests.
 
+To address this, the vendor has migrated to a new hosting provider with significantly stronger security practices, and released a new product version to include all relevant security enhancements.
+
 ## What has been observed?
 
 The newly observed article reports that state‑sponsored threat actors compromised the infrastructure of Notepad++’s hosting provider and hijacked its update system. They then redirected some users to malicious servers serving altered installers, taking advantage of weaker verification checks in older versions.
