@@ -8,7 +8,6 @@ Based on recent high impact incidents seen by the WASOC, security teams should b
 
 !!! warning "WASOC Guidance targeted on recent escalation of state-based actor threat activity"
 
-
 Recent WASOC advisories this month worth staying across include:
 
 - [FortiCloud SSO Authentication Bypass Vulnerability](https://soc.cyber.wa.gov.au/advisories/20260129001-Forticloud-SSO-Authentication-Bypass/)
