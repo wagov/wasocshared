@@ -21,7 +21,7 @@ Microsoft have published their Monthly Updates addressing multiple critical and 
 | [CVE-2026-21514](https://nvd.nist.gov/vuln/detail/CVE-2026-21514) | 7.8  | High     |
 | [CVE-2026-21519](https://nvd.nist.gov/vuln/detail/CVE-2026-21519) | 7.8  | High     |
 | [CVE-2026-21525](https://nvd.nist.gov/vuln/detail/CVE-2026-21525) | 6.2  | Medium   |
-| [CVE-2026-21531](https://nvd.nist.gov/vuln/detail/CVE-2026-21533) | 7.8  | High     |
+| [CVE-2026-21533](https://nvd.nist.gov/vuln/detail/CVE-2026-21533) | 7.8  | High     |
 
 ## What has been observed?
 
