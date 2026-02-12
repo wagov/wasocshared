@@ -1,8 +1,8 @@
-# Microsoft Known Exploited Vulnerabilities - 20260212001
+# Microsoft Addresses Known Exploited Vulnerabilities - 20260212001
 
 ## Overview
 
-The WA SOC has been made aware of a critical vulnerability affecting Microsoft Azure SDK and Microsoft products, which are actively exploited and published in the Known Exploited catalog.
+Microsoft have published their Monthly Updates addressing multiple critical and known exploited vulnerabilities.
 
 ## What is vulnerable?
 
@@ -26,7 +26,6 @@ The WA SOC has been made aware of a critical vulnerability affecting Microsoft A
 ## What has been observed?
 
 Microsoft has detected exploitation of one or more mentioned Vulnerabilities.
-
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
