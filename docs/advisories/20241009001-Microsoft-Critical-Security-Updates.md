@@ -28,3 +28,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 ## Additional References
 
 - Microsoft Security Update Release Notes: <https://www.cisa.gov/news-events/alerts/2024/10/08/cisa-adds-three-known-exploited-vulnerabilities-catalog>
+- (Update) CISA Known Exploited Vulnerabilities Update: <https://www.cisa.gov/news-events/alerts/2026/02/12/cisa-adds-four-known-exploited-vulnerabilities-catalog>
