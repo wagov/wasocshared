@@ -12,7 +12,7 @@ This release consists of the following 117 Microsoft CVEs:
 
 | Product(s) Affected             | CVE                                                                             | Severity     | CVSS | Exploited |
 | ------------------------------- | ------------------------------------------------------------------------------- | ------------ | ---- | --------- |
-| Microsoft Configuration Manager | [CVE-2024-43468](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43468) | **Critical** | 9.8  | Yes        |
+| Microsoft Configuration Manager | [CVE-2024-43468](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43468) | **Critical** | 9.8  | Yes       |
 | Windows Server 2019             | [CVE-2024-38124](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38124) | **Critical** | 9.0  | No        |
 | Windows 10 Version 1809         | [CVE-2024-43572](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43572) | **High**     | 7.8  | Yes       |
 | Windows 10 Version 22H2         | [CVE-2024-43573](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43573) | **Medium**   | 6.5  | Yes       |
