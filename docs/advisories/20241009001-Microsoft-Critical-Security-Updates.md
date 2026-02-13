@@ -34,4 +34,4 @@ The WA SOC recommends administrators apply the solutions as per vendor instructi
 ### Change log
 
 - 2024-10-09: Initial Publication
-- 2026-12-13: Added known exploitation
+- 2026-02-13: Added known exploitation
