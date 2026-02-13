@@ -19,13 +19,19 @@ This release consists of the following 117 Microsoft CVEs:
 
 ## What has been observed?
 
-CISA added some of the above vulnerability in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
+CISA added one or more of the above vulnerabilities in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog. There is no evidence of exploitation affecting Western Australian Government networks at the time of publishing.
 
 ## Recommendation
 
 The WA SOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframe of *two weeks*, or *48 hours* where exploited (refer [Patch Management](../guidelines/patch-management.md)).
 
+- Microsoft Security Update Release Notes: <https://www.cisa.gov/news-events/alerts/2024/10/08/cisa-adds-three-known-exploited-vulnerabilities-catalog>
+
 ## Additional References
 
-- Microsoft Security Update Release Notes: <https://www.cisa.gov/news-events/alerts/2024/10/08/cisa-adds-three-known-exploited-vulnerabilities-catalog>
-- (Update) CISA Known Exploited Vulnerabilities Update: <https://www.cisa.gov/news-events/alerts/2026/02/12/cisa-adds-four-known-exploited-vulnerabilities-catalog>
+- CISA Known Exploited Vulnerabilities Update: <https://www.cisa.gov/news-events/alerts/2026/02/12/cisa-adds-four-known-exploited-vulnerabilities-catalog>
+
+### Change log
+
+- 2024-10-09: Initial Publication
+- 2026-12-13: Added known exploitation
