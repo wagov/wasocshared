@@ -22,10 +22,7 @@ The WASOC has not received any reports of exploitation of this vulnerability on 
 
 ## Recommendation
 
-The WA SOC recommends agency to review the threat hunt guide and applicability to their environment. When it is applicable, agency to perform threat hunt on their Cisco SD-WAN logs to detect for signs of compromise.
+The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes, as well as review the ACSC Threat Hunt Guide to detect for signs of compromise within their environments:
 
-- [ACSC - CISCO SD-WAN THREAT HUNT GUIDE](https://www.cyber.gov.au/sites/default/files/2026-02/ACSC-led%20Cisco%20SD-WAN%20Hunt%20Guide.pdf)
-
-## References
-
-- [Cisco SD-WAN Software Privilege Escalation Vulnerabilities](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-sd-wan-priv-E6e8tEdF.html)
+- Cisco Advisory: <https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-sd-wan-priv-E6e8tEdF.html>
+- ACSC Guide: <https://www.cyber.gov.au/sites/default/files/2026-02/ACSC-led%20Cisco%20SD-WAN%20Hunt%20Guide.pdf>
