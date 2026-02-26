@@ -24,6 +24,7 @@ The WASOC has not received any reports of exploitation of this vulnerability on 
 
 The WA SOC recommends agency to review the threat hunt guide and applicability to their environment. When it is applicable, agency to perform threat hunt on their Cisco SD-WAN logs to detect for signs of compromise.
 
+- [ACSC - CISCO SD-WAN THREAT HUNT GUIDE](https://www.cyber.gov.au/sites/default/files/2026-02/ACSC-led%20Cisco%20SD-WAN%20Hunt%20Guide.pdf)
 
 ## References
 
