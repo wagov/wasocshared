@@ -8,13 +8,11 @@ The vulnerability enabled the creation of a **rogue SD-WAN peer** within the **m
 
 This guide is intended to support **cybersecurity professionals and network administrators** in identifying **indicators of compromise** within Cisco SD-WAN deployments and assessing potential exposure.
 
-
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                   | CVSS         | Severity          |
-| ------------------- | ---------- | --------------------- | ------------ | ----------------- |
-| Cisco SD-WAN Appliances | -  | [CVE-2026-20127](https://nvd.nist.gov/vuln/detail/CVE-2026-20127)        | 10          | **Critical**          |
-
+| Product(s) Affected     | Version(s) | CVE                                                               | CVSS | Severity     |
+| ----------------------- | ---------- | ----------------------------------------------------------------- | ---- | ------------ |
+| Cisco SD-WAN Appliances | -          | [CVE-2026-20127](https://nvd.nist.gov/vuln/detail/CVE-2026-20127) | 10   | **Critical** |
 
 ## What has been observed?
 
