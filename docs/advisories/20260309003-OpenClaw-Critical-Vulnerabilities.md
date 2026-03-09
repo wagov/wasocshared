@@ -1,4 +1,4 @@
-# Openclaw Critical Vulnerabilities - 20260309003
+# OpenClaw Critical Vulnerabilities - 20260309003
 
 ## Overview
 
