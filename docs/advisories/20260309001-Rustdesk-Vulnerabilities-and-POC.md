@@ -6,10 +6,9 @@ The WASOC has observed an article outlining multiple critical vulnerabilities in
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                      | CVSS| Severity     |
-| ------------------- | ---------- | ------------------------------------------------------------------------ | --- | ------------ |
+| Product(s) Affected                      | Version(s)                                                                               | CVE                                                                                                                                                                                                                                                                                                                                                                                                                                  | CVSS                                             | Severity                                                                                               |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | RustDesk Client <br> RustDesk Server Pro | all versions **equal to and below** 1.4.5 <br> all versions **equal to and below** 1.7.5 | [CVE-2026-30789](https://nvd.nist.gov/vuln/detail/CVE-2026-30789) <br> [CVE-2026-30790](https://nvd.nist.gov/vuln/detail/CVE-2026-30790) <br> [CVE-2026-30792](https://nvd.nist.gov/vuln/detail/CVE-2026-30792) <br> [CVE-2026-30793](https://nvd.nist.gov/vuln/detail/CVE-2026-30793) <br> [CVE-2026-30794](https://nvd.nist.gov/vuln/detail/CVE-2026-30794) <br> [CVE-2026-30797](https://nvd.nist.gov/vuln/detail/CVE-2026-30797) | 9.3 <br> 9.3 <br> 9.1 <br> 9.3 <br> 9.1 <br> 9.3 | **Critical** <br> **Critical** <br> **Critical** <br> **Critical** <br> **Critical** <br> **Critical** |
-
 
 ## What has been observed?
 
