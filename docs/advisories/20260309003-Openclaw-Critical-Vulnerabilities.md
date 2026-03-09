@@ -1,4 +1,4 @@
-# Openclaw Vulnerabilities - 20260306003
+# Openclaw Critical Vulnerabilities - 20260309003
 
 ## Overview
 
@@ -8,7 +8,7 @@ The WASOC has been made aware of a critical vulnerability in the rapidly adopted
 
 | Product(s) Affected | Version(s) | CVE                                                                                                                                                                                                                                                                                                                                                                                                                                  | CVSS | Severity     |
 | ------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- | ------------ |
-| OpenClaw            | Version    | [CVE-2026-28484](https://nvd.nist.gov/vuln/detail/CVE-2026-28484) <br> [CVE-2026-28474](https://nvd.nist.gov/vuln/detail/CVE-2026-28474) <br> [CVE-2026-28472](https://nvd.nist.gov/vuln/detail/CVE-2026-28472) <br> [CVE-2026-28470](https://nvd.nist.gov/vuln/detail/CVE-2026-28470) <br> [CVE-2026-28466](https://nvd.nist.gov/vuln/detail/CVE-2026-28466) <br> [CVE-2026-28446](https://nvd.nist.gov/vuln/detail/CVE-2026-28446) | 9.3  | **Critical** |
+| OpenClaw            | All versions **prior to** 2026.1.29 | [CVE-2026-28484](https://nvd.nist.gov/vuln/detail/CVE-2026-28484) <br> [CVE-2026-28474](https://nvd.nist.gov/vuln/detail/CVE-2026-28474) <br> [CVE-2026-28472](https://nvd.nist.gov/vuln/detail/CVE-2026-28472) <br> [CVE-2026-28470](https://nvd.nist.gov/vuln/detail/CVE-2026-28470) <br> [CVE-2026-28466](https://nvd.nist.gov/vuln/detail/CVE-2026-28466) <br> [CVE-2026-28446](https://nvd.nist.gov/vuln/detail/CVE-2026-28446) | 9.3  | **Critical** |
 
 ## What has been observed?
 
