@@ -1,0 +1,25 @@
+# OpenClaw Critical Vulnerabilities - 20260309003
+
+## Overview
+
+The WASOC has been made aware of a critical vulnerability in the rapidly adopted open-source AI agent OpenClaw, which allowed malicious websites to hijack a developer’s AI agent without any user interaction.
+
+## What is vulnerable?
+
+| Product(s) Affected | Version(s)                          | CVE                                                                                                                                                                                                                                                                                                                                                                                                                                  | CVSS | Severity     |
+| ------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- | ------------ |
+| OpenClaw            | All versions **prior to** 2026.1.29 | [CVE-2026-28484](https://nvd.nist.gov/vuln/detail/CVE-2026-28484) <br> [CVE-2026-28474](https://nvd.nist.gov/vuln/detail/CVE-2026-28474) <br> [CVE-2026-28472](https://nvd.nist.gov/vuln/detail/CVE-2026-28472) <br> [CVE-2026-28470](https://nvd.nist.gov/vuln/detail/CVE-2026-28470) <br> [CVE-2026-28466](https://nvd.nist.gov/vuln/detail/CVE-2026-28466) <br> [CVE-2026-28446](https://nvd.nist.gov/vuln/detail/CVE-2026-28446) | 9.3  | **Critical** |
+
+## What has been observed?
+
+The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
+
+## Recommendation
+
+The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
+
+- OpenClaw: <https://openclaw-ai.net/en/security>
+
+## Additional References
+
+- DarkReading: <https://www.darkreading.com/application-security/critical-openclaw-vulnerability-ai-agent-risks>
