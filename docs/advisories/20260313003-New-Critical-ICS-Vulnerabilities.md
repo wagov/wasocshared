@@ -12,6 +12,7 @@ CISA has released advisories for Industrial Control Systems (ICS) related vendor
 | ----------- | ----------------------------------------------------------------- | ---- |
 | Siemens | [CVE-2026-24858](https://nvd.nist.gov/vuln/detail/CVE-2026-24858) | 9.8 |
 
+Please note: Fortinet has published information on vulnerabilities in FORTIOS. This advisory lists the related Siemens Industrial products. Siemens has released a new version for RUGGEDCOM APE1808 and recommends to update to the latest version.
 
 ## Recommendation
 
