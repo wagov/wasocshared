@@ -6,9 +6,9 @@ Google Chrome has released a high security advisory addressing vulnerabilities t
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Google Chrome    | Version prior to 146.0.7680.75    | [CVE-2026-3909](https://nvd.nist.gov/vuln/detail/CVE-2026-3909)  <br>[CVE-2026-3910](https://nvd.nist.gov/vuln/detail/CVE-2026-3910)             | 8.8        | High                         
+| Product(s) Affected | Version(s)                     | CVE                                                                                                                                 | CVSS | Severity |
+| ------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ---- | -------- |
+| Google Chrome       | Version prior to 146.0.7680.75 | [CVE-2026-3909](https://nvd.nist.gov/vuln/detail/CVE-2026-3909) <br>[CVE-2026-3910](https://nvd.nist.gov/vuln/detail/CVE-2026-3910) | 8.8  | High     |
 
 ## What has been observed?
 
