@@ -14,6 +14,7 @@ Google Chrome has released a high security advisory addressing vulnerabilities t
 
 CISA added this vulnerability in their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalog.
 The WA SOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
+Please Note: Google have noted CVE-2026-3909 has been mentioned within the security notes, however an official fix has not been released at the time of writing, and will be available in a future update.
 
 ## Recommendation
 
