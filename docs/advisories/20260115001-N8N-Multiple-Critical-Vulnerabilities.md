@@ -14,6 +14,7 @@ A critical vulnerability has been identified in n8n, an open‑source workflow a
 
 ## What has been observed?
 
+Since the initial publication, CISA has added one or more of the noted vulnerabilities to their [Known Exploited Vulnerability catalog](https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog).
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
@@ -24,5 +25,11 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 
 ## Additional Resources
 
+- CISA: <https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog>
 - Cyera: <https://www.cyera.com/research-labs/ni8mare-unauthenticated-remote-code-execution-in-n8n-cve-2026-21858>
 - Rapid7: <https://www.rapid7.com/blog/post/etr-ni8mare-n8scape-flaws-multiple-critical-vulnerabilities-affecting-n8n/>
+
+### Change Log
+
+- 2026-01-15: Initial Publication
+- 2026-03-12: Added to CISA Known Exploited Vulnerability catalog.
