@@ -253,23 +253,23 @@ By bringing Microsoft Sentinel into the Defender portal alongside Microsoft Defe
 
     To onboard the Microsoft Sentinel in the Defender portal, you must have the following roles and permissions ([link](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard#microsoft-sentinel-prerequisites)).
 
-   
-    **Microsoft Entra or Azure built-in role required**
+```
+**Microsoft Entra or Azure built-in role required**
 
-    - **Security Administrator** or higher in Microsoft Entra ID (Preferred)
-        AND
-    - **Owner** OR **User Access Administrator**  
-        AND
-    - **Microsoft Sentinel Contributor**
+- **Security Administrator** or higher in Microsoft Entra ID (Preferred)
+    AND
+- **Owner** OR **User Access Administrator**  
+    AND
+- **Microsoft Sentinel Contributor**
 
-    **Tenant Scope**
+**Tenant Scope**
 
-    - **Subscription**
-        - Required for **Owner** or **User Access Administrator** roles
+- **Subscription**
+    - Required for **Owner** or **User Access Administrator** roles
 
-    - **Subscription, resource group, or Log Analytics workspace**
-        - Required for **Microsoft Sentinel Contributor**
-
+- **Subscription, resource group, or Log Analytics workspace**
+    - Required for **Microsoft Sentinel Contributor**
+```
 
 1. Go to the [Microsoft Security Portal](https://security.microsoft.com/)
 1. Select **System** > **Settings** > **Microsoft Sentinel** > **Connect** a workspace.
