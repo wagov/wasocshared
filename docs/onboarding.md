@@ -60,6 +60,10 @@ Browse for the template provided, and click **Upload**. This can be customised t
 
 Review the custom deployment details and ensure the location is Australia East, then click **Review and create** then click **Create**.
 
+### 3.3 Sentinel Onboarding Validation
+
+1. Complete steps specified in [Section 5 - Sentinel Onboarding](#51-sentinel-onboarding)
+
 ### 3.3. Dedicated Cluster
 
 The WASOC Dedicated Cluster program is an initiative to assist with reducing the total cost of ownership (TCO) of customers Sentinel Workspace. This is achieved by utilising a centralised [pricing model](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#cluster-pricing-model) offered by Microsoft as part of the [dedicated cluster services](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#advanced-capabilities).
@@ -207,6 +211,10 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
 1. In **Review and finish**, click **Submit**
 
+### 4.2.3 XDR Onboarding Validation
+
+1. Complete steps specified in [Section 5 - XDR Onboarding](#52-xdr-onboarding)
+
 ## 5. Confirmation of Onboarding
 
 ### 5.1 Sentinel Onboarding
@@ -217,8 +225,7 @@ Once the template phase has completed, customers can confirm the onboarding proc
 
 ### 5.2 XDR Onboarding
 
-Once XDR onboarding procedure has been completed by the entity, the WASOC will commence some addtional proceesses to finalise the onboarding process.
-The WASOC will inform the entity once the onboarding has been completed.
+Once XDR onboarding procedure has been completed by the entity, please inform the WASOC of the completion of work as the WASOC will need to commence some addtional proceesses to finalise the onboarding process. The WASOC will inform the entity once the onboarding has been completed.
 
 ## 6. Migrate to Microsoft Sentinel Data Lake for Cost Optimization
 
