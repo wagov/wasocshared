@@ -256,17 +256,18 @@ By bringing Microsoft Sentinel into the Defender portal alongside Microsoft Defe
     **Microsoft Entra or Azure built-in role required**
 
     - **Security Administrator** or higher in Microsoft Entra ID AND **Owner** ((Preferred)
-        OR 
+        OR
     - **User Access Administrator** AND **Microsoft Sentinel Contributor**
 
     **Tenant Scope**
 
     - **Subscription**
+
         - Required for **Owner** or **User Access Administrator** roles
 
     - **Subscription, resource group, or Log Analytics workspace**
-        - Required for **Microsoft Sentinel Contributor**
 
+        - Required for **Microsoft Sentinel Contributor**
 
 1. Go to the [Microsoft Security Portal](https://security.microsoft.com/)
 1. Select **System** > **Settings** > **Microsoft Sentinel** > **Connect** a workspace.
