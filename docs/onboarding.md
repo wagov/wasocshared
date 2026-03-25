@@ -256,11 +256,9 @@ By bringing Microsoft Sentinel into the Defender portal alongside Microsoft Defe
 ```
 **Microsoft Entra or Azure built-in role required**
 
-- **Security Administrator** or higher in Microsoft Entra ID (Preferred)
-    AND
-- **Owner** OR **User Access Administrator**  
-    AND
-- **Microsoft Sentinel Contributor**
+- **Security Administrator** or higher in Microsoft Entra ID AND **Owner** (Preferred)
+    OR 
+- **User Access Administrator** AND **Microsoft Sentinel Contributor**
 
 **Tenant Scope**
 
