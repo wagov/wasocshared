@@ -8,9 +8,9 @@ CISA has released advisories for Industrial Control Systems (ICS) related vendor
 
 ### Critical Severity
 
-| Vendor | CVE | CVSS | Severity |
-| ------ | --- | ---- | -------- |
-|  Schneider Electric      | [CVE-2025-49844](https://nvd.nist.gov/vuln/detail/CVE-2025-49844)  |   9.9   |   Critical       |
+| Vendor             | CVE                                                               | CVSS | Severity |
+| ------------------ | ----------------------------------------------------------------- | ---- | -------- |
+| Schneider Electric | [CVE-2025-49844](https://nvd.nist.gov/vuln/detail/CVE-2025-49844) | 9.9  | Critical |
 
 ## Recommendation
 
