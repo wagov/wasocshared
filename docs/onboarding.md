@@ -60,6 +60,10 @@ Browse for the template provided, and click **Upload**. This can be customised t
 
 Review the custom deployment details and ensure the location is Australia East, then click **Review and create** then click **Create**.
 
+### 3.3 Sentinel Onboarding Validation
+
+1. Complete steps specified in [Section 5 - Sentinel Onboarding](#51-sentinel-onboarding)
+
 ### 3.3. Dedicated Cluster
 
 The WASOC Dedicated Cluster program is an initiative to assist with reducing the total cost of ownership (TCO) of customers Sentinel Workspace. This is achieved by utilising a centralised [pricing model](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#cluster-pricing-model) offered by Microsoft as part of the [dedicated cluster services](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#advanced-capabilities).
@@ -207,6 +211,10 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
 1. In **Review and finish**, click **Submit**
 
+### 4.2.3 XDR Onboarding Validation
+
+1. Complete steps specified in [Section 5 - XDR Onboarding](#52-xdr-onboarding)
+
 ## 5. Confirmation of Onboarding
 
 ### 5.1 Sentinel Onboarding
@@ -217,8 +225,7 @@ Once the template phase has completed, customers can confirm the onboarding proc
 
 ### 5.2 XDR Onboarding
 
-Once XDR onboarding procedure has been completed by the entity, the WASOC will commence some addtional proceesses to finalise the onboarding process.
-The WASOC will inform the entity once the onboarding has been completed.
+Once XDR onboarding procedure has been completed by the entity, please inform the WASOC of the completion of work as the WASOC will need to commence some additional processes to finalise the onboarding process. The WASOC will inform the entity once the onboarding has been completed.
 
 ## 6. Migrate to Microsoft Sentinel Data Lake for Cost Optimization
 
@@ -230,14 +237,44 @@ Data retatined in Data Lake is available to Securtiy Operations Team for long-te
 - Configure Sentinel Tables on Analytic Tier storage to migrate after 90-days (free retention period) to the Data Lake tier for lower-cost retention. Use the [Data Retention settings](https://learn.microsoft.com/en-us/azure/sentinel/configure-data-retention-archive) in the Sentinel workspace to define retention periods and archiving rules.
 - For third-party logs, configure data connectors to route logs directly to the Data Lake as they are more expensive to store in Sentinel’s analytics storage tier. Refer to [Configure connectors for Third-Party (non-Microsoft) Logs in Data Lake](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-connectors)
 
-## 7. Migrate Sentinel to Defender XDR portal.
+## 7. Migrating Sentinel to Defender XDR portal.
 
 Microsoft is consolidating the cyber security solutions by integrating Sentinel into the Microsoft Defender portal, creating a unified SIEM and XDR experience. Refer to [Transition your Microsoft Sentinel environment to the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender) guide.
 
 Key Dates:
 
-- From 1 July 2025: All new Sentinel customers will onboard via the Defender portal.
-- By 1 July 2026: The [Azure Portal experience for Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-defender-portal) will be planned retired.
+- By March 31 March 2027: The [Azure Portal experience for Sentinel](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/update-new-timeline-for-transitioning-sentinel-experience-to-defender-portal/4490464) will be planned retired.
+
+### 7.1. Onboard Sentinel Workspace to XDR
+
+By bringing Microsoft Sentinel into the Defender portal alongside Microsoft Defender XDR, you consolidate incident management and advanced hunting into a single experience—reducing tool sprawl and enabling faster, more effective incident response.
+
+??? note "Onboarding Prerequisite"
+
+    To onboard the Microsoft Sentinel in the Defender portal, you must have the following roles and permissions ([link](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard#microsoft-sentinel-prerequisites)).
+
+    **Microsoft Entra or Azure built-in role required**
+
+    - **Security Administrator** or higher in Microsoft Entra ID AND **Owner** ((Preferred)
+        OR
+    - **User Access Administrator** AND **Microsoft Sentinel Contributor**
+
+    **Tenant Scope**
+
+    - **Subscription**
+
+        - Required for **Owner** or **User Access Administrator** roles
+
+    - **Subscription, resource group, or Log Analytics workspace**
+
+        - Required for **Microsoft Sentinel Contributor**
+
+1. Go to the [Microsoft Security Portal](https://security.microsoft.com/)
+1. Select **System** > **Settings** > **Microsoft Sentinel** > **Connect** a workspace.
+1. Select the main sentinel workspaces for security operations of the entity and select **Next**.
+1. Select the **Primary workspace**.
+1. Read and understand the product changes associated with connecting your workspace.
+1. Select Connect.
 
 ## 8. WASOC Offboarding / Re-onboarding Procedure
 
