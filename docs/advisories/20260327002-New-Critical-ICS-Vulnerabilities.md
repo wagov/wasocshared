@@ -1,4 +1,4 @@
-# New Critical ICS Vulnerabilities - 2025MMDD001
+# New Critical ICS Vulnerabilities - 20260327002
 
 ## Overview
 
@@ -10,16 +10,10 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 | Vendor | CVE | CVSS | Severity |
 | ------ | --- | ---- | -------- |
-|        |     |      |          |
-
-### Known Exploitation
-
-| Vendor | CVE | CVSS | Severity |
-| ------ | --- | ---- | -------- |
-|        |     |      |          |
+| WAGO | [CVE-2026-3587](https://www.cve.org/CVERecord?id=CVE-2026-3587) | 10 | Critical |
 
 ## Recommendation
 
 The WASOC recommends administrators review relevant advisories and apply the recommended actions to all affected devices.
 
-- CISA: <URL>
+- CISA: <https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-01>
