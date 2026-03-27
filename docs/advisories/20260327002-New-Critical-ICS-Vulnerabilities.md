@@ -8,9 +8,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ### Critical Severity
 
-| Vendor | CVE | CVSS | Severity |
-| ------ | --- | ---- | -------- |
-| WAGO | [CVE-2026-3587](https://www.cve.org/CVERecord?id=CVE-2026-3587) | 10 | Critical |
+| Vendor | CVE                                                             | CVSS | Severity |
+| ------ | --------------------------------------------------------------- | ---- | -------- |
+| WAGO   | [CVE-2026-3587](https://www.cve.org/CVERecord?id=CVE-2026-3587) | 10   | Critical |
 
 ## Recommendation
 
