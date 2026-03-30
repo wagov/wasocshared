@@ -8,9 +8,9 @@ A valid bootstrap setup code could be verified more than once before the pairing
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| OpenClaw     | <= 2026.3.13    | [CVE-2026-32987](https://nvd.nist.gov/vuln/detail/CVE-2026-32987)                                                                        | 9.3          | **Critical**                                   |
+| Product(s) Affected | Version(s)    | CVE                                                               | CVSS | Severity     |
+| ------------------- | ------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| OpenClaw            | \<= 2026.3.13 | [CVE-2026-32987](https://nvd.nist.gov/vuln/detail/CVE-2026-32987) | 9.3  | **Critical** |
 
 ## What has been observed?
 
