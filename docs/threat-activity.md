@@ -29,6 +29,3 @@ Recent WASOC advisories this month worth staying across include:
 - [ACSC - Secure by Design](https://www.cyber.gov.au/business-government/secure-design/secure-by-design)
 
 - [Cyber supply chain risk management](https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managing-cyber-supply-chains/cyber-supply-chain-risk-management)
-
-
-
