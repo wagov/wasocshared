@@ -1,4 +1,4 @@
-# ASD Publishes Joint Advisory on China Linked Botnet Operations - 20240919001
+# ASD Publishes Joint Advisory on China Linked Botnet Operations - 2026MMDD00\#
 
 ## Overview
 

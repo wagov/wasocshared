@@ -165,6 +165,8 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
     This solution is a recent addition to the Microsoft XDR and will require some administrative work by the entities to activate the [XDR RBAC experience](https://learn.microsoft.com/en-us/defender-xdr/activate-defender-rbac#activate-in-microsoft-defender-xdr-settings). This work will require some pre-work with entities IT teams as exisiting permission to users and account may cause service interruption. [A mapping exercise will be required.](https://learn.microsoft.com/en-us/defender-xdr/compare-rbac-roles)
 
+    Sentinel Workspace Management will require minimum **Security Admin** role in the Azure Tenant and **Owner** permissions to the Sentinel Workspace to configure.
+
 ### 4.2.1 Activate Unifed Role Based Access Controls
 
 1. Navigate to the [Microsoft Security Portal](https://security.microsoft.com/)
@@ -173,7 +175,17 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
 1. Toggle all avaiable **WorkLoads** as **Active**.
 
-    ![XDR Unifed Permissions and Roles](images/xdr-unifed-permissions-roles.png)
+    ![XDR Unifed Permissions and Roles](images/xdr-unified-workloads.png)
+
+1. Under Microsoft Setentinel Workload, select **Manage workspaces**
+
+    ![XDR Managed Sentienl Workspaces](images/xdr-manage-sentinel-workspaces.png)
+
+1. Select the **Primary** workspace (The main Sentinel Workspace for your entities Security Operations)
+
+1. Click **Activate workspaces**
+
+    ![XDR Managed Workspace Activiated](images/xdr-manage-sentinel-workspace-successful.png)
 
 ### 4.2.2 Configuration of Security Groups permission in Microsoft Security Portal (XDR)
 
@@ -210,6 +222,22 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 1. Click **Add**
 
 1. In **Review and finish**, click **Submit**
+
+#### Data Collections
+
+1. In the **Edit Assignment** blade, in the **Data Collections** section
+
+1. Click **Edit** in the **Microsoft Sentinel** assignment
+
+    ![XDR Data Collections](images/xdr-data-collections.png)
+
+1. Select **All exisiting workspaces**
+
+    ![XDR Sentinel Assignment](images/xdr-Sentinel-Assignment.png)
+
+1. Click **Apply selection**
+
+1. In the **Edit Assignment** blade, click **Apply**
 
 ### 4.2.3 XDR Onboarding Validation
 
