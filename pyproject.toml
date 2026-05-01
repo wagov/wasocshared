@@ -19,7 +19,7 @@ dependencies = [
 dev = [
   "mdformat-gfm==0.4.1",
   "mdformat-mkdocs[recommended]==4.1.2",
-  "pytest==9.0.2",
+  "pytest==9.0.3",
   "ruff==0.15.12",
   "taplo==0.9.3",
 ]
