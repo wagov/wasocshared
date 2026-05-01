@@ -10,7 +10,7 @@ dependencies = [
   "mkdocs-macros-plugin==1.3.7",
   "mkdocs-material==9.6.22",
   "mkdocs-redirects==1.2.2",
-  "pymdown-extensions==10.16.1",
+  "pymdown-extensions==10.21.2",
   "sendgrid==6.12.5",
   "feedgen==1.0.0",
 ]
