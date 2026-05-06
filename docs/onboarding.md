@@ -64,7 +64,7 @@ Review the custom deployment details and ensure the location is Australia East, 
 
 1. Complete steps specified in [Section 5 - Sentinel Onboarding](#51-sentinel-onboarding)
 
-### 3.3. Dedicated Cluster
+### 3.4 Dedicated Cluster
 
 The WASOC Dedicated Cluster program is an initiative to assist with reducing the total cost of ownership (TCO) of customers Sentinel Workspace. This is achieved by utilising a centralised [pricing model](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#cluster-pricing-model) offered by Microsoft as part of the [dedicated cluster services](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#advanced-capabilities).
 

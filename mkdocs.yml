@@ -37,7 +37,8 @@ theme:
         name: Switch to dark mode
 plugins:
   - search
-  - macros
+  - macros:
+      module_name: wasoc
   - git-revision-date-localized:
       enable_creation_date: true
   - redirects:
