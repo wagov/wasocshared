@@ -1,5 +1,6 @@
 # Microsoft Critical Monthly Updates - 20260514001
 
+
 ## Overview
 
 Microsoft have published their Monthly Updates addressing multiple critical vulnerabilities.
@@ -27,6 +28,5 @@ The WASOC has not received any reports of exploitation of these vulnerabilities 
 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
-- Microsoft: <https://msrc.microsoft.com/update-guide/releaseNote/2026-May>
-
+- Microsoft: <https://msrc.microsoft.com/update-guide/releaseNote/2026-May
 
