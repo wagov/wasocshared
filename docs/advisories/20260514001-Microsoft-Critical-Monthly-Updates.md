@@ -2,7 +2,7 @@
 
 ## Overview
 
-Microsoft have published their Monthly Updates addressing multiple critical and known exploited vulnerabilities.
+Microsoft have published their Monthly Updates addressing multiple critical vulnerabilities.
 
 ## What is vulnerable?
 
