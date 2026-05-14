@@ -10,7 +10,7 @@ Microsoft have published their Monthly Updates addressing multiple critical vuln
 
 | Product(s) Affected and Versions | CVE | CVSS |
 | --- | --- | --- |
-| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-33117) | [CVE-2026-33117](https://nvd.nist.gov/vuln/detail/CVE-2026-33117) | 9.1 | 
+| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-33117) | [CVE-2026-33117](https://nvd.nist.gov/vuln/detail/CVE-2026-33117) | 9.1 |
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-40402) | [CVE-2026-40402](https://nvd.nist.gov/vuln/detail/CVE-2026-40402) | 9.3 |
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-41089) | [CVE-2026-41089](https://nvd.nist.gov/vuln/detail/CVE-2026-41089) | 9.8 |
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-41096) | [CVE-2026-41096](https://nvd.nist.gov/vuln/detail/CVE-2026-41096) | 9.8 |
