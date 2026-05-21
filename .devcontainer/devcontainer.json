@@ -5,7 +5,7 @@
 		"version": "3.11"
 	  }
 	},
-	"onCreateCommand": "pip install -r requirements.txt",
+	"onCreateCommand": "mise trust && mise run sync",
 	"forwardPorts": [8000],
 	"portsAttributes": {
 		"8000": {

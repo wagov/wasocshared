@@ -2,7 +2,7 @@
 
 {{ date_index("docs/advisories", prefix="advisories/", expand=1, include=2) }}
 
-## WASOC - Recent Threat Activity (March 2026)
+## WASOC - Recent Threat Activity (April 2026)
 
 Based on recent global events, security teams should be focusing on the security controls of their perimeter - [Consider your cyber hygiene in light of global events](https://www.cyber.gov.au/about-us/view-all-content/news/consider-your-cyber-hygiene-light-global-events)
 
@@ -10,15 +10,18 @@ Based on recent global events, security teams should be focusing on the security
 
 Recent WASOC advisories this month worth staying across include:
 
-- [Nodejs simple-git Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20260317002-NodeJs-Simplegit-Critical-Vulnerability/)
+- [cPanel Critical Vulnerability](https://soc.cyber.wa.gov.au/advisories/20260317002-NodeJs-Simplegit-Critical-Vulnerability/)
 
-- [Apple Active Exploit Chain DarkSword](https://soc.cyber.wa.gov.au/advisories/20260319002-Apple-Active-Exploit-Chain-DarkSword/)
+- [Adobe Acrobat Vulnerabilities](https://soc.cyber.wa.gov.au/advisories/20260430001-Adobe-Acrobat-Vulnerabilities/)
 
-- [Oracle WebLogic Server Exploitation](https://soc.cyber.wa.gov.au/advisories/20260326001-Oracle-Weblogic-Server-Exploitation/)
+- [Continued Evolution of Persistence Against Cisco Secure Firewall ASA and Secure Firewall Threat Defense](https://soc.cyber.wa.gov.au/advisories/20260424001-Cisco-Secure-Firewall-ASA-and-Secure-Firewall-Threat-Defense/)
+
 
 ## WASOC - General Advice
 
 - The WASOC has observed consistent exploitation delivered via Phishing campaigns.
+
+  - For more guidance the ACSC has guidance available here [Email Hardening](https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening)
 
 **Security Hardening and Supply Chain Risk** remains a focus for all organisations. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
 
