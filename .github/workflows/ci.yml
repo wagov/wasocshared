@@ -27,5 +27,8 @@ jobs:
       - name: Install dependencies
         run: mise run sync
 
+      - name: Format markdown
+        run: mise run format
+
       - name: Run checks
         run: mise run test
