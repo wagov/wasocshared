@@ -15,8 +15,8 @@ description = "Check markdown formatting"
 run = "uv run mdformat --check --exclude '.venv/**' --exclude '.pytest_cache/**' --exclude 'site/**' ."
 
 [tasks.build]
-description = "Build the MkDocs site"
-run = "uv run python -m mkdocs build --strict"
+description = "Build the documentation site"
+run = "uv run properdocs build -f mkdocs.yml --strict"
 
 [tasks.rss]
 description = "Generate RSS and Atom feeds"

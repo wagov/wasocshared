@@ -13,6 +13,7 @@ dependencies = [
   "pymdown-extensions==10.21.3",
   "sendgrid==6.12.5",
   "feedgen==1.0.0",
+  "properdocs==1.6.7",
 ]
 
 [dependency-groups]

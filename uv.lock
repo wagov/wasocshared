@@ -1180,6 +1180,7 @@ dependencies = [
     { name = "mkdocs-macros-plugin" },
     { name = "mkdocs-material" },
     { name = "mkdocs-redirects" },
+    { name = "properdocs" },
     { name = "pymdown-extensions" },
     { name = "sendgrid" },
 ]
@@ -1201,6 +1202,7 @@ requires-dist = [
     { name = "mkdocs-macros-plugin", specifier = "==1.5.0" },
     { name = "mkdocs-material", specifier = "==9.7.6" },
     { name = "mkdocs-redirects", specifier = "==1.2.3" },
+    { name = "properdocs", specifier = "==1.6.7" },
     { name = "pymdown-extensions", specifier = "==10.21.3" },
     { name = "sendgrid", specifier = "==6.12.5" },
 ]
