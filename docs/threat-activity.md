@@ -1,4 +1,4 @@
-## Recent Advisories
+# Recent Advisories
 
 {{ date_index("docs/advisories", prefix="advisories/", expand=1, include=2) }}
 
