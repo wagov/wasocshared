@@ -2,11 +2,11 @@ name: Send advisory
 
 on:
   push:
-    branches: ['main']
+    branches: [main]
 
-
-env: # sendgrid api token
-  sendgrid_api: ${{ secrets.SENDGRID_API }}
+concurrency:
+  group: send-advisory-main
+  cancel-in-progress: false
 
 permissions:
   contents: read
@@ -18,20 +18,18 @@ jobs:
     environment:
       name: communication
     steps:
-      - name: Harden Runner
-        uses: step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf # v2.11.1
-        with:
-          egress-policy: audit
-
       - name: Checkout docs
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-            fetch-depth: 2
-      - uses: actions/setup-python@8d9ed9ac5c53483de85588cdf95a591a75ab9f55 # v5.5.0
-        with:
-          python-version: '3.13'
-          cache: 'pip' # caching pip dependencies
-      - name: install requirements
-        run: pip install -r requirements.txt
+          fetch-depth: 2
+
+      - name: Setup mise
+        uses: jdx/mise-action@1648a7812b9aeae629881980618f079932869151 # v4.0.1
+
+      - name: Install dependencies
+        run: mise run sync
+
       - name: Send advisories
-        run: ./.github/scripts/send-advisory.py --auto
+        env:
+          SENDGRID_API: ${{ secrets.SENDGRID_API }}
+        run: uv run python -m wasoc.send_advisory --auto
