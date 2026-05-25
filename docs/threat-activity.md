@@ -16,7 +16,6 @@ Recent WASOC advisories this month worth staying across include:
 
 - [Continued Evolution of Persistence Against Cisco Secure Firewall ASA and Secure Firewall Threat Defense](https://soc.cyber.wa.gov.au/advisories/20260424001-Cisco-Secure-Firewall-ASA-and-Secure-Firewall-Threat-Defense/)
 
-
 ## WASOC - General Advice
 
 - The WASOC has observed consistent exploitation delivered via Phishing campaigns.
