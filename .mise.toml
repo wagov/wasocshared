@@ -8,11 +8,11 @@ run = "uv sync --frozen"
 
 [tasks.format]
 description = "Format markdown documents"
-run = "uv run mdformat --exclude '.venv/**' --exclude '.pytest_cache/**' --exclude 'site/**' ."
+run = "uv run mdformat --no-mkdocs-math --exclude '.venv/**' --exclude '.pytest_cache/**' --exclude 'site/**' ."
 
 [tasks.format-check]
 description = "Check markdown formatting"
-run = "uv run mdformat --check --exclude '.venv/**' --exclude '.pytest_cache/**' --exclude 'site/**' ."
+run = "uv run mdformat --check --no-mkdocs-math --exclude '.venv/**' --exclude '.pytest_cache/**' --exclude 'site/**' ."
 
 [tasks.build]
 description = "Build the documentation site"
