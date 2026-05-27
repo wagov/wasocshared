@@ -28,4 +28,4 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 
 - NIST: <https://nvd.nist.gov/vuln/detail/CVE-2023-47359>
 - NIST : <https://nvd.nist.gov/vuln/detail/CVE-2019-13962>
-- NIST : <https://nvd.nist.gov/vuln/detail/CVE-2017-10699L>
+- NIST : <https://nvd.nist.gov/vuln/detail/CVE-2017-10699>
