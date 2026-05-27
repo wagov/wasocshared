@@ -2,11 +2,7 @@
 
 ## Overview
 
-The WASOC has been made aware of multiple vulnerabilities affecting VLC Media Player. 
-
-Successful exploitation could allow attackers to cause denial of service, memory corruption, or arbitrary code execution via specially crafted media files or streams.
-
-## What is vulnerable?
+The WASOC has been made aware of multiple vulnerabilities affecting VLC Media Player (VLC). Older versions of VLC have been in embedded into ICS devices, which could lead to exploitation.
 
 ## What is vulnerable?
 
