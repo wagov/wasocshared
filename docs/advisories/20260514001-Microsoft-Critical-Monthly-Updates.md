@@ -21,6 +21,14 @@ CVE-2026-41089 (Windows Netlogon) now has reports of being actively exploited in
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42833) | [CVE-2026-42833](https://nvd.nist.gov/vuln/detail/CVE-2026-42833) | 9.1  |
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42898) | [CVE-2026-42898](https://nvd.nist.gov/vuln/detail/CVE-2026-42898) | 9.9  |
 
+
+### Known Exploitation
+
+| Product(s) Affected and Versions                                                                                  | CVE                                                               | CVSS |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- |
+| [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-41089) | [CVE-2026-41089](https://nvd.nist.gov/vuln/detail/CVE-2026-41089) | 9.8  |
+
+
 ## What has been observed?
 
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
@@ -37,4 +45,5 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 
 ### Changelog
 
-Update June 02, 2026: Added content relating to claims of active exploitation of CVE-2026-41089.
+- 2026-05-14: Initial publication.
+- 2026-06-01: Added content relating to claims of active exploitation of CVE-2026-41089.
