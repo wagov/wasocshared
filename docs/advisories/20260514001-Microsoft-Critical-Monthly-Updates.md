@@ -1,4 +1,4 @@
-# UPDATE: Microsoft Critical Monthly Updates - 20260514001
+# Microsoft Critical Monthly Updates - 20260514001
 
 ## Overview
 
