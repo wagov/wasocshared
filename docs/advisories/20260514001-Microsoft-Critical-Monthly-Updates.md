@@ -4,6 +4,8 @@
 
 Microsoft have published their Monthly Updates addressing multiple critical vulnerabilities.
 
+Updated on June 02, 2026 CVE-2026-41089 (Windows Netlogon) now has reports of being actively exploited in the wild. Patching as quickly as possible is highly recommended.
+
 ## What is vulnerable?
 
 ### Critical Severity
@@ -28,3 +30,7 @@ The WASOC has not received any reports of exploitation of this vulnerability on 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
 - Microsoft Security Updates: <https://msrc.microsoft.com/update-guide/releaseNote/2026-May>
+
+## Additional References
+
+- Centre for Cybersecurity Belgium: <https://ccb.belgium.be/advisories/warning-microsoft-patch-tuesday-may-2026-patches-118-vulnerabilities-16-critical-102>
