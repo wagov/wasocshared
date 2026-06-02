@@ -1,10 +1,10 @@
-# Microsoft Critical Monthly Updates - 20260514001
+# UPDATE: Microsoft Critical Monthly Updates - 20260514001
 
 ## Overview
 
 Microsoft have published their Monthly Updates addressing multiple critical vulnerabilities.
 
-Update June 02, 2026: CVE-2026-41089 (Windows Netlogon) now has reports of being actively exploited in the wild. Patching as quickly as possible is highly recommended.
+CVE-2026-41089 (Windows Netlogon) now has reports of being actively exploited in the wild.
 
 ## What is vulnerable?
 
@@ -34,3 +34,7 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 ## Additional References
 
 - Centre for Cybersecurity Belgium: <https://ccb.belgium.be/advisories/warning-microsoft-patch-tuesday-may-2026-patches-118-vulnerabilities-16-critical-102>
+
+### Changelog
+
+Update June 02, 2026: Added content relating to claims of active exploitation of CVE-2026-41089.
