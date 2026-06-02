@@ -4,7 +4,7 @@
 
 Microsoft have published their Monthly Updates addressing multiple critical vulnerabilities.
 
-Updated on June 02, 2026 CVE-2026-41089 (Windows Netlogon) now has reports of being actively exploited in the wild. Patching as quickly as possible is highly recommended.
+Update June 02, 2026: CVE-2026-41089 (Windows Netlogon) now has reports of being actively exploited in the wild. Patching as quickly as possible is highly recommended.
 
 ## What is vulnerable?
 
