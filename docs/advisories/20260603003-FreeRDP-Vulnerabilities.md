@@ -8,8 +8,8 @@ The WASOC has been made aware of vulnerabilities in FreeRDP, a free implementati
 
 | Product(s) Affected | Version(s) | CVE | CVSS | Severity |
 | ------------------- | ---------- | --- | ---- | -------- |
-| Red Hat Enterprise Linux |[all previous versions of packages listed here](https://access.redhat.com/security/cve/cve-2026-31806) | [CVE-2026-31806](https://nvd.nist.gov/vuln/detail/CVE-2026-31806) | 9.8 | **Critical** |
-| Red Hat Enterprise Linux | [all previous versions of packages listed here](https://access.redhat.com/security/cve/cve-2026-31883) | [CVE-2026-31883](https://nvd.nist.gov/vuln/detail/CVE-2026-31883) | 6.5 | **Medium** |
+| FreeRDP | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31806) | [CVE-2026-31806](https://nvd.nist.gov/vuln/detail/CVE-2026-31806) | 9.8 | **Critical** |
+| FreeRDP | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31883) | [CVE-2026-31883](https://nvd.nist.gov/vuln/detail/CVE-2026-31883) | 6.5 | **Medium** |
 
 ## What has been observed?
 
