@@ -21,7 +21,7 @@ dev = [
   "mdformat-gfm==1.0.0",
   "mdformat-mkdocs[recommended]==5.1.4",
   "pytest==9.0.3",
-  "ruff==0.15.14",
+  "ruff==0.15.15",
   "taplo==0.9.3",
 ]
 
