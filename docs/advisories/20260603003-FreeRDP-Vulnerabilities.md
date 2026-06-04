@@ -9,7 +9,8 @@ The WASOC has been made aware of vulnerabilities in FreeRDP, a free implementati
 | Product(s) Affected | Version(s) | CVE | CVSS | Severity |
 | ------------------- | ---------- | --- | ---- | -------- |
 | FreeRDP | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31806) | [CVE-2026-31806](https://nvd.nist.gov/vuln/detail/CVE-2026-31806) | 9.8 | **Critical** |
-| FreeRDP | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31883) | [CVE-2026-31883](https://nvd.nist.gov/vuln/detail/CVE-2026-31883) | 6.5 | **Medium** |
+| FreeRDP | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31883) | [CVE-2026-31883](https://nvd.nist.gov/vuln/detail/CVE-2026-31883) | 9.4 | **Critical** |
+| FreeRDP | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31897) | [CVE-2026-31897](https://nvd.nist.gov/vuln/detail/CVE-2026-31897) | 9.1 | **Critical** |
 
 ## What has been observed?
 
@@ -21,8 +22,10 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 
 - FreeRDP advisory CVE-2026-31806: <https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-85x9-4xxp-xhm5>
 - FreeRDP advisory CVE-2026-31883: <https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-rrqm-46rj-cmx2>
+- FreeRDP advisory CVE-2026-31897: <https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-xgv6-r22m-7c9x>
 
 ## Additional References
 
 - RedHatsecurity advisory CVE-2026-31806: <https://access.redhat.com/security/cve/cve-2026-31806>
 - RedHatsecurity advisory cve-2026-31883: <https://access.redhat.com/security/cve/cve-2026-31883>
+- RedHatsecurity advisory cve-2026-31897: <https://access.redhat.com/security/cve/cve-2026-31897>
