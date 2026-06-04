@@ -10,11 +10,12 @@ This will allow an attacker to gain access to sensitive data and execute arbitar
 
 | Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
 | ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Rclone     |  from 1.4.9 before 1.73.5   | [CVE-2026-41176](https://nvd.nist.gov/vuln/detail/CVE-2026-41176) <br> [CVE-2026-41179](https://nvd.nist.gov/vuln/detail/CVE-2026-41179) | 9.8          | **Critical**                                   |
+| Rclone     |  from 1.4.9 before 1.73.5   | [CVE-2026-41176](https://nvd.nist.gov/vuln/detail/CVE-2026-41176) <br> [CVE-2026-41179](https://nvd.nist.gov/vuln/detail/CVE-2026-41179) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 
-The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing. However a proof of concept exploit code has been released.
+The WASOC has observed public reports of proof of concept exploit code.
+The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
 
