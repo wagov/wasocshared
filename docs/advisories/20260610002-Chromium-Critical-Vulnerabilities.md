@@ -13,7 +13,7 @@ The WASOC has been made aware of a use after free vulnerability in Google Chrome
 
 ## What has been observed?
 
-The WASOC has observed one or more of the moentioned items being listed on the [CISA Known Exploited Vulnerability catalag](https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search=Chromium+V8&field_date_added_wrapper=all&field_cve=&sort_by=field_date_added&items_per_page=20&url=).
+The WASOC has observed one or more of the moentioned items being listed on the [CISA Known Exploited Vulnerability catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search=Chromium+V8&field_date_added_wrapper=all&field_cve=&sort_by=field_date_added&items_per_page=20&url=).
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
