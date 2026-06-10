@@ -8,11 +8,12 @@ The WASOC has been made aware of a use after free vulnerability in Google Chrome
 
 | Products Affected | CVE | CVSS | Severity |
 | --- | --- | --- | --- |
-| **Chromium-based Browsers** <br> - Google Chrome <br> - Microsoft Edge <br> - Brave <br> - Vivaldi | [CVE-2026-11671](https://nvd.nist.gov/vuln/detail/CVE-2026-11671) <br> [CVE-2026-11697](https://nvd.nist.gov/vuln/detail/CVE-2026-11697) | 9.6 | **Critical** |
+| **Chromium-based Browsers** <br> - Google Chrome <br> - Microsoft Edge <br> - Brave <br> - Vivaldi | [CVE-2026-11671](https://nvd.nist.gov/vuln/detail/CVE-2026-11671) <br> [CVE-2026-11697](https://nvd.nist.gov/vuln/detail/CVE-2026-11697) <br> [CVE-2026-11645](https://nvd.nist.gov/vuln/detail/CVE-2026-11645) | 9.6 <br> 9.6 <br> 8.8  | **Critical** <br> **Critical** <br> High |
 
 
 ## What has been observed?
 
+The WASOC has observed one or more of the moentioned items being listed on the [CISA Known Exploited Vulnerability catalag](https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search=Chromium+V8&field_date_added_wrapper=all&field_cve=&sort_by=field_date_added&items_per_page=20&url=).
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
@@ -25,3 +26,4 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 
 - <https://github.com/advisories/GHSA-93cq-cwfp-9r89>
 - <https://github.com/advisories/GHSA-rxx6-vjpq-6755>
+  
