@@ -34,6 +34,20 @@ description = "Build the Hugo/Docsy preview"
 depends = ["hugo-sync", "hugo-convert"]
 run = "hugo --minify --destination site/hugo-preview"
 
+[tasks.hugo-serve]
+description = "Live preview Hugo site with auto-reload"
+depends = ["hugo-sync", "hugo-convert"]
+run = "hugo serve --buildDrafts --disableFastRender --bind 0.0.0.0"
+
+[tasks.hugo-check]
+description = "Validate Hugo config and template rendering"
+depends = ["hugo-sync", "hugo-convert"]
+run = "hugo --gc --minify --destination /tmp/hugo-check && rm -rf /tmp/hugo-check"
+
+[tasks.hugo-test]
+description = "Run converter tests and Hugo build validation"
+depends = ["unit", "hugo-check"]
+
 [tasks.rss]
 description = "Generate RSS and Atom feeds"
 run = "uv run python -m wasoc.rss"

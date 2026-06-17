@@ -7,10 +7,12 @@ from the latest `main` branch content in CI without committing generated files.
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import os
 import re
 import shutil
+import subprocess
 from pathlib import Path
 
 ADMONITION_RE = re.compile(
@@ -323,13 +325,60 @@ def nav_metadata(source: Path, docs_dir: Path) -> dict[str, str | int | bool]:
     return meta
 
 
+_ADVISORY_DATE_RE = re.compile(r"^(?P<date>\d{4})(\d{2})(\d{2})\d{3}-")
+_git_date_cache: dict[str, str | None] = {}
+
+
+def file_date(source: Path, docs_dir: Path, source_root: Path) -> str | None:
+    """Extract a publication date for a source markdown file.
+
+    Advisory files have YYYYMMDD in the filename. Other files use git log
+    from the source repository.
+    """
+    name = source.name
+
+    # Advisory files: date embedded in filename (e.g. 20260611001-...)
+    if match := _ADVISORY_DATE_RE.match(name):
+        y, m, d = int(match.group(1)), int(match.group(2)), int(match.group(3))
+        return dt.date(y, m, d).isoformat()
+
+    # Other files: last git commit date
+    cache_key = str(source)
+    if cache_key in _git_date_cache:
+        return _git_date_cache[cache_key]
+
+    rel_path = source.relative_to(source_root)
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%cI", "--", str(rel_path)],
+            capture_output=True,
+            text=True,
+            cwd=str(source_root),
+            timeout=5,
+        )
+        date_str = result.stdout.strip() or None
+    except (OSError, subprocess.TimeoutExpired):
+        date_str = None
+
+    _git_date_cache[cache_key] = date_str
+    return date_str
+
+
 def with_front_matter(
-    markdown: str, source: Path, title: str, docs_dir: Path
+    markdown: str, source: Path, title: str, docs_dir: Path,
+    source_root: Path | None = None,
 ) -> str:
     if markdown.startswith(("---\n", "+++\n")):
         return markdown
     meta = nav_metadata(source, docs_dir)
     lines = ["---", f"title: {json.dumps(title)}", "type: docs"]
+
+    # Date from filename (advisories) or git log (other pages)
+    if source_root:
+        date_val = file_date(source, docs_dir, source_root)
+        if date_val:
+            lines.append(f"date: {date_val}")
+
     for key in ("weight", "linkTitle", "toc_hide"):
         if key in meta:
             val = meta[key]
@@ -450,7 +499,8 @@ def convert(source_root: Path, target_root: Path, clean: bool) -> None:
         title = page_title(markdown, source)
         target.write_text(
             with_front_matter(
-                convert_markdown(markdown, source, docs_dir), source, title, docs_dir
+                convert_markdown(markdown, source, docs_dir),
+                source, title, docs_dir, source_root,
             ),
             encoding="utf-8",
         )

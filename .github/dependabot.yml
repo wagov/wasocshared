@@ -4,8 +4,24 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    target-branch: "main"
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: daily
+    target-branch: "main"
+
+  # Hugo branch npm deps (PostCSS, autoprefixer)
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "hugo"
+    schedule:
+      interval: "weekly"
+
+  # Hugo branch Go module (Docsy)
+  - package-ecosystem: "gomod"
+    directory: "/"
+    target-branch: "hugo"
+    schedule:
+      interval: "weekly"
