@@ -135,7 +135,9 @@ def hugo_url_path(source: Path, docs_dir: Path) -> str:
     if relative.name == "README.md":
         url = relative.parent.as_posix()
         return f"{url}/" if url else ""
-    return relative.with_suffix("").as_posix() + "/"
+    # Hugo strips () from URLs
+    url = relative.with_suffix("").as_posix().replace("(", "").replace(")", "")
+    return url + "/"
 
 
 LINK_ANGLE_RE = re.compile(r"(?<!!)\[([^\]]*)\]\(<([^>]+)>\)")
