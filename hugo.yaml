@@ -20,6 +20,9 @@ markup:
     codeFences: true
     guessSyntax: true
     noClasses: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
 
 outputs:
   home:

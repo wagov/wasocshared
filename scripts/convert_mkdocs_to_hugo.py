@@ -33,7 +33,11 @@ SECTION_TITLES: dict[str, str] = {
 
 # Sections whose child pages should be hidden from the sidebar navigation
 # (they are browsed via shortcodes like date_index instead).
-SIDEBAR_HIDDEN_CHILDREN: frozenset[str] = frozenset({"advisories"})
+# Supports both top-level ("advisories") and nested ("guidelines/TTP_Hunt/ADS_forms").
+SIDEBAR_HIDDEN_CHILDREN: frozenset[str] = frozenset({
+    "advisories",
+    "guidelines/TTP_Hunt/ADS_forms",
+})
 
 
 def parse_args() -> argparse.Namespace:
@@ -178,26 +182,40 @@ def with_front_matter(markdown: str, source: Path, title: str) -> str:
     return f"---\ntitle: {json.dumps(title)}\ntype: docs\n---\n\n{markdown}"
 
 
+def pretty_section_name(name: str) -> str:
+    if name in SECTION_TITLES:
+        return SECTION_TITLES[name]
+    return name.replace("-", " ").replace("_", " ").title()
+
+
 def generate_section_indexes(content_dir: Path) -> None:
-    """Create _index.md for section directories, and add cascade to hide large ones."""
-    for section_dir in sorted(content_dir.iterdir()):
+    """Create _index.md for directories, hide large sections, list children."""
+    for section_dir in sorted(content_dir.rglob("*")):
         if not section_dir.is_dir():
             continue
         index_path = section_dir / "_index.md"
-        name = section_dir.name
-        needs_cascade = name in SIDEBAR_HIDDEN_CHILDREN
+        rel_to_content = section_dir.relative_to(content_dir).as_posix()
+        needs_cascade = rel_to_content in SIDEBAR_HIDDEN_CHILDREN
 
         if not index_path.exists():
-            title = SECTION_TITLES.get(
-                name, name.replace("-", " ").replace("_", " ").title()
-            )
-            lines = ["---", f"title: {json.dumps(title)}"]
+            name = section_dir.name
+            title = pretty_section_name(name)
+            lines = ["---", f"title: {json.dumps(title)}", "type: docs"]
             if needs_cascade:
-                lines.append("type: docs")
                 lines.append("cascade:")
                 lines.append("  build:")
                 lines.append("    list: never")
             lines.append("---\n")
+
+            # Add a listing of child pages for non-hidden sections
+            if not needs_cascade:
+                child_md_pages = sorted(section_dir.glob("*.md"))
+                child_dirs = sorted(
+                    d for d in section_dir.iterdir() if d.is_dir()
+                )
+                if child_md_pages or child_dirs:
+                    lines.append("## Pages in this section\n")
+
             index_path.write_text("\n".join(lines), encoding="utf-8")
         elif needs_cascade:
             existing = index_path.read_text(encoding="utf-8")
