@@ -155,8 +155,13 @@ def convert_admonitions(markdown: str) -> str:
     return "\n".join(output) + ("\n" if markdown.endswith("\n") else "")
 
 
+def strip_first_h1(markdown: str) -> str:
+    """Remove the first H1 heading from markdown (it's in front matter title)."""
+    return re.sub(r"\A\s*#\s+.+\n?", "", markdown, count=1)
+
+
 def convert_markdown(markdown: str) -> str:
-    return convert_admonitions(convert_macros(markdown))
+    return strip_first_h1(convert_admonitions(convert_macros(markdown)))
 
 
 def page_title(markdown: str, source: Path) -> str:
