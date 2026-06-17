@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import shutil
 from pathlib import Path
@@ -37,6 +38,50 @@ SECTION_TITLES: dict[str, str] = {
 SIDEBAR_HIDDEN_CHILDREN: frozenset[str] = frozenset({
     "advisories",
     "guidelines/TTP_Hunt/ADS_forms",
+})
+
+# Section display order in the left sidebar (matches mkdocs.yml nav).
+SECTION_WEIGHTS: dict[str, int] = {
+    "onboarding": 10,
+    "advisories": 20,
+    "baselines": 50,
+    "guidelines": 60,
+    "training": 70,
+}
+
+# Per-page ordering within their section (relative path stem → weight).
+PAGE_WEIGHTS: dict[str, int] = {
+    "baselines/data-sources": 1,
+    "baselines/security-operations": 2,
+    "baselines/vulnerability-management": 3,
+    "guidelines/incident-reporting": 1,
+    "guidelines/playbooks": 2,
+    "guidelines/network-management": 3,
+    "guidelines/patch-management": 4,
+    "guidelines/secure-configuration": 5,
+    "guidelines/annual-implementation-reporting": 6,
+    "guidelines/e8-assessment": 7,
+    "guidelines/further-five": 8,
+    "guidelines/TTP_Hunt/ttp-detection-guidelines": 9,
+    "training/analyst-induction": 1,
+    "training/azure-basics": 2,
+    "training/devsecops-induction": 3,
+    "training/sentinel-101": 4,
+}
+
+# Pages hidden from the sidebar (not in the mkdocs.yml nav).
+NAV_HIDDEN: frozenset[str] = frozenset({
+    "threat-activity",
+    "guidelines/collecting-evidence",
+    "guidelines/config-wombat-test",
+    "guidelines/runzero-ot",
+    "guidelines/workstations",
+    "guidelines/supply-chain-risk-mgmt",
+    "training/sentinel-101/update-analytic-rule-alert-overrides",
+    "training/sentinel-101/update-analytic-rule-entity-mapping",
+    "training/sentinel-101/update-analytic-rule-custom-details",
+    "training/sentinel-101/update-analytic-rule-incident-grouping",
+    "training/sentinel-101/update-analytic-rule-query",
 })
 
 
@@ -69,7 +114,6 @@ def hugo_page_path(source: Path, docs_dir: Path, content_dir: Path) -> Path:
     relative = source.relative_to(docs_dir)
     if relative == Path("README.md"):
         return content_dir / "_index.md"
-    # If docs/Foo.md has a matching docs/Foo/ directory, make it the section index
     stem = relative.stem
     parent = source.parent
     if (parent / stem).is_dir():
@@ -77,6 +121,62 @@ def hugo_page_path(source: Path, docs_dir: Path, content_dir: Path) -> Path:
     if relative.name == "README.md":
         return content_dir / relative.parent / "_index.md"
     return content_dir / relative
+
+
+def hugo_url_path(source: Path, docs_dir: Path) -> str:
+    """Return the Hugo output URL path for a source markdown file."""
+    relative = source.relative_to(docs_dir)
+    if relative == Path("README.md"):
+        return ""
+    stem = relative.stem
+    if (source.parent / stem).is_dir():
+        url = (relative.parent / stem).as_posix()
+        return f"{url}/" if url else ""
+    if relative.name == "README.md":
+        url = relative.parent.as_posix()
+        return f"{url}/" if url else ""
+    return relative.with_suffix("").as_posix() + "/"
+
+
+LINK_ANGLE_RE = re.compile(r"(?<!!)\[([^\]]*)\]\(<([^>]+)>\)")
+LINK_PLAIN_RE = re.compile(r"(?<!!)\[([^\]]*)\]\(([^)<]+(?:\([^)<]*\)[^)<]*)*)\)")
+
+
+def rewrite_links(markdown: str, source: Path, docs_dir: Path) -> str:
+    """Rewrite relative .md links to correct relative URLs for Hugo's URL scheme."""
+    source_url = hugo_url_path(source, docs_dir)
+
+    def replace_link(match: re.Match[str]) -> str:
+        text = match.group(1)
+        url = match.group(2)
+        if url.startswith(("http://", "https://", "mailto:", "#")):
+            return match.group(0)
+
+        parts = url.split("#", 1)
+        path_part = parts[0].split()[0] if " " in parts[0] else parts[0]
+        fragment = parts[1] if len(parts) > 1 else ""
+
+        if not path_part.endswith(".md"):
+            return match.group(0)
+
+        target_file = (source.parent / path_part).resolve()
+        if not target_file.exists() or not target_file.is_file():
+            return match.group(0)
+
+        target_url = hugo_url_path(target_file, docs_dir)
+        if not source_url:
+            rel = target_url
+        else:
+            rel = os.path.relpath(
+                target_url.rstrip("/"), source_url.rstrip("/")
+            ).replace(os.sep, "/")
+            rel += "/"
+        if fragment:
+            rel += "#" + fragment
+        return f"[{text}]({rel})"
+
+    markdown = LINK_ANGLE_RE.sub(replace_link, markdown)
+    return LINK_PLAIN_RE.sub(replace_link, markdown)
 
 
 def shortcode_attrs(**attrs: str | int) -> str:
@@ -164,7 +264,8 @@ def strip_first_h1(markdown: str) -> str:
     return re.sub(r"\A\s*#\s+.+\n?", "", markdown, count=1)
 
 
-def convert_markdown(markdown: str) -> str:
+def convert_markdown(markdown: str, source: Path, docs_dir: Path) -> str:
+    markdown = rewrite_links(markdown, source, docs_dir)
     return strip_first_h1(convert_admonitions(convert_macros(markdown)))
 
 
@@ -176,10 +277,65 @@ def page_title(markdown: str, source: Path) -> str:
     return source.stem.replace("-", " ").replace("_", " ").title()
 
 
-def with_front_matter(markdown: str, source: Path, title: str) -> str:
+def nav_metadata(source: Path, docs_dir: Path) -> dict[str, str | int | bool]:
+    """Compute weight, linkTitle, toc_hide for a page based on its source path."""
+    relative = source.relative_to(docs_dir)
+    rel_stem = relative.with_suffix("").as_posix()
+    section = relative.parts[0] if relative.parts else ""
+
+    meta: dict[str, str | int | bool] = {}
+
+    if rel_stem in NAV_HIDDEN:
+        meta["toc_hide"] = True
+
+    # Don't hide section index pages themselves
+    is_section_index = (
+        relative.name == "README.md"
+        or relative.name == f"{section}.md"
+        or (source.parent / relative.stem).is_dir()
+    )
+
+    # Hide individual pages in large sections (advisories, ADS_forms)
+    if not is_section_index:
+        if section in SIDEBAR_HIDDEN_CHILDREN:
+            meta["toc_hide"] = True
+
+        # Check nested hidden children like guidelines/TTP_Hunt/ADS_forms
+        rel_dir = "/".join(relative.parts[:-1])
+        parent_stem = rel_stem.rsplit("/", 1)[0]
+        if (
+            rel_dir in SIDEBAR_HIDDEN_CHILDREN
+            or parent_stem in SIDEBAR_HIDDEN_CHILDREN
+        ):
+            meta["toc_hide"] = True
+
+    if rel_stem in PAGE_WEIGHTS:
+        meta["weight"] = PAGE_WEIGHTS[rel_stem]
+
+    if section in SECTION_TITLES and relative.name == f"{section}.md":
+        meta["linkTitle"] = SECTION_TITLES[section]
+
+    return meta
+
+
+def with_front_matter(
+    markdown: str, source: Path, title: str, docs_dir: Path
+) -> str:
     if markdown.startswith(("---\n", "+++\n")):
         return markdown
-    return f"---\ntitle: {json.dumps(title)}\ntype: docs\n---\n\n{markdown}"
+    meta = nav_metadata(source, docs_dir)
+    lines = ["---", f"title: {json.dumps(title)}", "type: docs"]
+    for key in ("weight", "linkTitle", "toc_hide"):
+        if key in meta:
+            val = meta[key]
+            if isinstance(val, str):
+                lines.append(f"{key}: {json.dumps(val)}")
+            elif isinstance(val, bool):
+                lines.append(f"{key}: {str(val).lower()}")
+            else:
+                lines.append(f"{key}: {val}")
+    lines.append("---\n")
+    return "\n".join(lines) + markdown
 
 
 def pretty_section_name(name: str) -> str:
@@ -194,21 +350,22 @@ def generate_section_indexes(content_dir: Path) -> None:
         if not section_dir.is_dir():
             continue
         index_path = section_dir / "_index.md"
-        rel_to_content = section_dir.relative_to(content_dir).as_posix()
-        needs_cascade = rel_to_content in SIDEBAR_HIDDEN_CHILDREN
+        section_name = section_dir.name
 
         if not index_path.exists():
-            name = section_dir.name
-            title = pretty_section_name(name)
+            title = pretty_section_name(section_name)
             lines = ["---", f"title: {json.dumps(title)}", "type: docs"]
-            if needs_cascade:
-                lines.append("cascade:")
-                lines.append("  build:")
-                lines.append("    list: never")
+            # Hide section index for hidden children directories
+            rel = section_dir.relative_to(content_dir).as_posix()
+            if rel in SIDEBAR_HIDDEN_CHILDREN:
+                lines.append("toc_hide: true")
+            if section_name in SECTION_WEIGHTS:
+                lines.append(f"weight: {SECTION_WEIGHTS[section_name]}")
+            if section_name in SECTION_TITLES:
+                lines.append(f"linkTitle: {json.dumps(SECTION_TITLES[section_name])}")
             lines.append("---\n")
 
-            # Add a listing of child pages for non-hidden sections
-            if not needs_cascade:
+            if True:
                 child_md_pages = sorted(section_dir.glob("*.md"))
                 child_dirs = sorted(
                     d for d in section_dir.iterdir() if d.is_dir()
@@ -217,14 +374,35 @@ def generate_section_indexes(content_dir: Path) -> None:
                     lines.append("## Pages in this section\n")
 
             index_path.write_text("\n".join(lines), encoding="utf-8")
-        elif needs_cascade:
+        else:
             existing = index_path.read_text(encoding="utf-8")
-            if "list: never" not in existing:
+            changed = False
+            # Remove old cascade if present
+            if "cascade:" in existing and "toc_hide" in existing:
+                existing = re.sub(
+                    r"\ncascade:\n  (?:build:\n    list: never\n|toc_hide: true\n)",
+                    "",
+                    existing,
+                )
+                changed = True
+            # Add weight/linkTitle to existing section indexes
+            top_section = section_dir.relative_to(content_dir).parts[0]
+            if top_section in SECTION_WEIGHTS and "weight:" not in existing:
                 existing = existing.replace(
                     "type: docs\n",
-                    "type: docs\ncascade:\n  build:\n    list: never\n",
+                    f"type: docs\nweight: {SECTION_WEIGHTS[top_section]}\n",
                     1,
                 )
+                changed = True
+            if top_section in SECTION_TITLES and "linkTitle:" not in existing:
+                lt = json.dumps(SECTION_TITLES[top_section])
+                existing = existing.replace(
+                    "type: docs\n",
+                    f"type: docs\nlinkTitle: {lt}\n",
+                    1,
+                )
+                changed = True
+            if changed:
                 index_path.write_text(existing, encoding="utf-8")
 
 
@@ -264,7 +442,9 @@ def convert(source_root: Path, target_root: Path, clean: bool) -> None:
         markdown = source.read_text(encoding="utf-8-sig")
         title = page_title(markdown, source)
         target.write_text(
-            with_front_matter(convert_markdown(markdown), source, title),
+            with_front_matter(
+                convert_markdown(markdown, source, docs_dir), source, title, docs_dir
+            ),
             encoding="utf-8",
         )
 
