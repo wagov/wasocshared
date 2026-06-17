@@ -65,8 +65,11 @@ def hugo_page_path(source: Path, docs_dir: Path, content_dir: Path) -> Path:
     relative = source.relative_to(docs_dir)
     if relative == Path("README.md"):
         return content_dir / "_index.md"
-    if relative == Path("advisories.md"):
-        return content_dir / "advisories" / "_index.md"
+    # If docs/Foo.md has a matching docs/Foo/ directory, make it the section index
+    stem = relative.stem
+    parent = source.parent
+    if (parent / stem).is_dir():
+        return content_dir / relative.parent / stem / "_index.md"
     if relative.name == "README.md":
         return content_dir / relative.parent / "_index.md"
     return content_dir / relative
@@ -85,8 +88,8 @@ def convert_macros(markdown: str) -> str:
             if key_match:
                 attrs[key] = key_match.group(1)
         if not attrs:
-            return "{{< date_index >}}"
-        return f"{{{{< date_index {shortcode_attrs(**attrs)} >}}}}"
+            return "{{% date_index %}}"
+        return f"{{{{% date_index {shortcode_attrs(**attrs)} %}}}}"
 
     def include_page(match: re.Match[str]) -> str:
         page_path = Path(match.group("path")).with_suffix("").as_posix()
@@ -185,7 +188,7 @@ def generate_section_indexes(content_dir: Path) -> None:
         title = SECTION_TITLES.get(
             name, name.replace("-", " ").replace("_", " ").title()
         )
-        lines = [f"---", f"title: {json.dumps(title)}"]
+        lines = ["---", f"title: {json.dumps(title)}"]
         if name in SIDEBAR_HIDDEN_CHILDREN:
             lines.append("type: docs")
             lines.append("cascade:")
