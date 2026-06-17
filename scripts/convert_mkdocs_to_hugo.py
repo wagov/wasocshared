@@ -30,6 +30,9 @@ SECTION_TITLES: dict[str, str] = {
     "guidelines": "Guidelines",
     "onboarding": "Connecting to the WASOC",
     "training": "Training",
+    "TTP_Hunt": "Threat Hunting (TTPs)",
+    "sentinel-101": "Sentinel 101",
+    "ADS_forms": "Detection Analytics",
 }
 
 # Sections whose child pages should be hidden from the sidebar navigation
@@ -387,17 +390,19 @@ def generate_section_indexes(content_dir: Path) -> None:
                     existing,
                 )
                 changed = True
-            # Add weight/linkTitle to existing section indexes
-            top_section = section_dir.relative_to(content_dir).parts[0]
-            if top_section in SECTION_WEIGHTS and "weight:" not in existing:
+            # Only apply section weight/title to top-level directories
+            rel_parts = section_dir.relative_to(content_dir).parts
+            is_top_level = len(rel_parts) == 1
+            lookup_name = rel_parts[0] if is_top_level else section_name
+            if lookup_name in SECTION_WEIGHTS and "weight:" not in existing:
                 existing = existing.replace(
                     "type: docs\n",
-                    f"type: docs\nweight: {SECTION_WEIGHTS[top_section]}\n",
+                    f"type: docs\nweight: {SECTION_WEIGHTS[lookup_name]}\n",
                     1,
                 )
                 changed = True
-            if top_section in SECTION_TITLES and "linkTitle:" not in existing:
-                lt = json.dumps(SECTION_TITLES[top_section])
+            if lookup_name in SECTION_TITLES and "linkTitle:" not in existing:
+                lt = json.dumps(SECTION_TITLES[lookup_name])
                 existing = existing.replace(
                     "type: docs\n",
                     f"type: docs\nlinkTitle: {lt}\n",

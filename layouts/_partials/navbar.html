@@ -3,8 +3,7 @@
     (not .Site.Params.ui.navbar_translucent_over_cover_disable)
 -}}
 <nav class="td-navbar js-navbar-scroll
-      {{- if $cover }} td-navbar-cover td-navbar-transparent {{- end }}"
-      {{- if eq (.Param "ui.navbar_theme") "dark" }} data-bs-theme="dark" {{- end }}>
+      {{- if $cover }} td-navbar-cover td-navbar-transparent {{- end }}">
 <div class="td-navbar-container container-fluid">
   <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
     <span class="navbar-brand__name">{{ .Site.Title }}</span>
@@ -13,6 +12,11 @@
     <div class="td-navbar__search">
       {{ partial "search-input.html" . }}
     </div>
+    {{ with .Site.Params.github_repo }}
+    <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-link nav-link px-2" title="GitHub" aria-label="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    {{ end }}
     {{- $darkMode := partialCached "dark-mode-config.html" "dark-mode-global" -}}
     {{ if $darkMode.showMenu }}
     <div class="td-navbar__light-dark-menu">

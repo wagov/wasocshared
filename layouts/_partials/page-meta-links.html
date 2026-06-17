@@ -1,0 +1,14 @@
+{{ if .File -}}
+{{ $gh_repo := $.Param "github_repo" -}}
+{{ $gh_branch := $.Param "github_branch" | default "main" -}}
+{{ $path := strings.TrimPrefix (add hugo.WorkingDir "/") $.File.Filename -}}
+{{ $path = replaceRE "^content/en/" "docs/" $path -}}
+{{ with $gh_repo -}}
+{{ $editURL := printf "%s/edit/%s/%s" . $gh_branch $path -}}
+<div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+  <a href="{{ $editURL }}" target="_blank" rel="noopener" title="Edit this page">
+    <i class="fa-solid fa-pen-to-square fa-fw"></i> Edit
+  </a>
+</div>
+{{ end -}}
+{{ end -}}
