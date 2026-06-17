@@ -6,10 +6,9 @@ The WASOC has been made aware of a vulnerability for Apache HTTP Server with the
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Apache HTTP Server      | 2.4.66    | [CVE-2026-23918](https://nvd.nist.gov/vuln/detail/CVE-2026-23918)                                                                        | 8.8          | High                    |
-
+| Product(s) Affected | Version(s) | CVE                                                               | CVSS | Severity |
+| ------------------- | ---------- | ----------------------------------------------------------------- | ---- | -------- |
+| Apache HTTP Server  | 2.4.66     | [CVE-2026-23918](https://nvd.nist.gov/vuln/detail/CVE-2026-23918) | 8.8  | High     |
 
 ## What has been observed?
 
