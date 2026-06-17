@@ -21,6 +21,20 @@ INCLUDE_RE = re.compile(r"\{%\s*include\s+['\"](?P<path>[^'\"]+)['\"]\s*%\}")
 MITRE_RE = re.compile(r'\{\{\s*mitre\(\s*["\']?(?P<id>[A-Za-z0-9.]+)["\']?\s*\)\s*\}\}')
 TITLE_RE = re.compile(r"^#\s+(?P<title>.+?)\s*$", re.MULTILINE)
 
+EXCLUDED_DIRS = frozenset({"markdown-templates"})
+
+SECTION_TITLES: dict[str, str] = {
+    "advisories": "Advisories (TLP:CLEAR)",
+    "baselines": "Baselines",
+    "guidelines": "Guidelines",
+    "onboarding": "Connecting to the WASOC",
+    "training": "Training",
+}
+
+# Sections whose child pages should be hidden from the sidebar navigation
+# (they are browsed via shortcodes like date_index instead).
+SIDEBAR_HIDDEN_CHILDREN: frozenset[str] = frozenset({"advisories"})
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -130,11 +144,11 @@ def convert_admonitions(markdown: str) -> str:
         if match.group("kind") == "???":
             attrs["collapsible"] = "true"
 
-        output.append(f"{indent}{{{{% admonition {shortcode_attrs(**attrs)} %}}}}")
+        output.append(f"{indent}{{{{< admonition {shortcode_attrs(**attrs)} >}}}}")
         converted_body = convert_admonitions(dedent_admonition_body(body, indent_width))
         if converted_body:
             output.extend(converted_body.splitlines())
-        output.append(f"{indent}{{{{% /admonition %}}}}")
+        output.append(f"{indent}{{{{< /admonition >}}}}")
     return "\n".join(output) + ("\n" if markdown.endswith("\n") else "")
 
 
@@ -154,7 +168,31 @@ def with_front_matter(markdown: str, source: Path) -> str:
     if markdown.startswith(("---\n", "+++\n")):
         return markdown
     title = json.dumps(page_title(markdown, source))
-    return f"---\ntitle: {title}\n---\n\n{markdown}"
+    # Home page uses default layout; all other pages use docs layout (sidebar + TOC)
+    layout = "" if source.name == "README.md" else "\ntype: docs"
+    return f"---\ntitle: {title}{layout}\n---\n\n{markdown}"
+
+
+def generate_section_indexes(content_dir: Path) -> None:
+    """Create _index.md for section directories that lack one."""
+    for section_dir in sorted(content_dir.iterdir()):
+        if not section_dir.is_dir():
+            continue
+        index_path = section_dir / "_index.md"
+        if index_path.exists():
+            continue
+        name = section_dir.name
+        title = SECTION_TITLES.get(
+            name, name.replace("-", " ").replace("_", " ").title()
+        )
+        lines = [f"---", f"title: {json.dumps(title)}"]
+        if name in SIDEBAR_HIDDEN_CHILDREN:
+            lines.append("type: docs")
+            lines.append("cascade:")
+            lines.append("  _build:")
+            lines.append("    list: never")
+        lines.append("---\n")
+        index_path.write_text("\n".join(lines), encoding="utf-8")
 
 
 def copy_tree(source: Path, target: Path) -> None:
@@ -186,6 +224,8 @@ def convert(source_root: Path, target_root: Path, clean: bool) -> None:
     content_dir.mkdir(parents=True, exist_ok=True)
 
     for source in sorted(docs_dir.rglob("*.md")):
+        if any(part in EXCLUDED_DIRS for part in source.parts):
+            continue
         target = hugo_page_path(source, docs_dir, content_dir)
         target.parent.mkdir(parents=True, exist_ok=True)
         markdown = source.read_text(encoding="utf-8-sig")
@@ -193,6 +233,8 @@ def convert(source_root: Path, target_root: Path, clean: bool) -> None:
             with_front_matter(convert_markdown(markdown), source),
             encoding="utf-8",
         )
+
+    generate_section_indexes(content_dir)
 
     copy_tree(docs_dir / "images", target_root / "static" / "images")
     copy_tree(docs_dir / "pdfs", target_root / "static" / "pdfs")

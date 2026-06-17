@@ -1,0 +1,25 @@
+<footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        {{ partial "footer/left.html" . }}
+      </div>
+      <div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        {{ partial "footer/right.html" . }}
+      </div>
+      <div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <div class="acknowledgement">
+          <strong>Acknowledgement of Country</strong>
+          The Government of Western Australia acknowledges the traditional custodians
+          throughout Western Australia and their continuing connection to the land,
+          waters and community. We pay our respects to all members of the Aboriginal
+          communities and their cultures; and to Elders both past and present.
+        </div>
+        <span class="td-footer__copyright">
+          &copy; {{ now.Format "2006" }}
+          <span class="td-footer__authors">Government of Western Australia</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,14 +1,144 @@
-$primary: #ef5e2a;
-$secondary: #8e2701;
+// Custom styles applied AFTER Bootstrap/Docsy compilation.
 
-.advisory-month {
-  border: 1px solid var(--bs-border-color);
-  border-radius: .25rem;
-  margin: 1rem 0;
-  padding: .5rem .75rem;
+// --- Admonition blocks (visually similar to MkDocs Material) ---
+.admonition {
+  margin: 1.25rem 0;
+  border-radius: 0.25rem;
+  border-left-width: 0.2rem;
+  overflow: hidden;
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.5rem 0.75rem;
+    list-style: none;
+
+    &::before {
+      content: "\25B8";
+      margin-right: 0.4rem;
+    }
+  }
+
+  &[open] summary::before {
+    content: "\25BE";
+  }
+
+  .admonition-title,
+  > summary {
+    margin: 0;
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+
+  .admonition-content {
+    padding: 0.5rem 0.75rem 0.75rem;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
-.advisory-month summary {
-  cursor: pointer;
-  font-weight: 600;
+// Colour variants matching Material admonition types
+.admonition.note,
+.admonition.abstract,
+.admonition.info {
+  --admonition-color: #448aff;
+  --admonition-bg: #e8f0fe;
+}
+.admonition.tip {
+  --admonition-color: #00bfa5;
+  --admonition-bg: #e0f7fa;
+}
+.admonition.success {
+  --admonition-color: #00c853;
+  --admonition-bg: #e8f5e9;
+}
+.admonition.warning {
+  --admonition-color: #ff9100;
+  --admonition-bg: #fff8e1;
+}
+.admonition.danger,
+.admonition.failure,
+.admonition.error {
+  --admonition-color: #ff5252;
+  --admonition-bg: #ffebee;
+}
+.admonition.quote {
+  --admonition-color: #9e9e9e;
+  --admonition-bg: #f5f5f5;
+}
+
+.admonition {
+  border-color: var(--admonition-color, #448aff);
+  background: var(--admonition-bg, #e8f0fe);
+
+  .admonition-title,
+  > summary {
+    color: var(--admonition-color, #448aff);
+    background: color-mix(in srgb, var(--admonition-color, #448aff) 12%, transparent);
+  }
+}
+
+// Collapsible advisory month groupings
+.advisory-month {
+  margin: 1rem 0;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.25rem;
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+}
+
+// Edit link styling (top-right of content)
+.td-page-meta {
+  a {
+    color: var(--bs-secondary-color);
+    font-size: 0.8rem;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--bs-primary);
+      text-decoration: underline;
+    }
+  }
+}
+
+// Tighten content typography to match Material feel
+.td-content {
+  h1 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-weight: 400;
+    margin-top: 2rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--bs-border-color);
+  }
+
+  pre {
+    border-radius: 0.25rem;
+  }
+
+  img {
+    border-radius: 0.25rem;
+  }
+}
+
+// Acknowledgement of Country footer
+.acknowledgement {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--bs-secondary-color);
+
+  strong {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: var(--bs-body-color);
+  }
 }
