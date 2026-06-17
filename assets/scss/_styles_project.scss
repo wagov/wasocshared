@@ -2,15 +2,15 @@
 
 // --- Admonition blocks (visually similar to MkDocs Material) ---
 .admonition {
-  margin: 1.25rem 0;
-  border-radius: 0.25rem;
-  border-left-width: 0.2rem;
+  margin: 1.5rem 0;
+  border-radius: 0.3rem;
+  border-left-width: 0.25rem;
   overflow: hidden;
 
   summary {
     cursor: pointer;
     font-weight: 600;
-    padding: 0.5rem 0.75rem;
+    padding: 0.625rem 1rem;
     list-style: none;
 
     &::before {
@@ -27,14 +27,19 @@
   > summary {
     margin: 0;
     font-weight: 700;
-    font-size: 0.85rem;
+    font-size: 0.875rem;
+    padding: 0.625rem 1rem;
   }
 
   .admonition-content {
-    padding: 0.5rem 0.75rem 0.75rem;
+    padding: 0.75rem 1.25rem 1.25rem;
 
-    p:last-child {
+    > *:last-child {
       margin-bottom: 0;
+    }
+
+    ul, ol {
+      padding-left: 1.5rem;
     }
   }
 }
@@ -80,12 +85,38 @@
   }
 }
 
+// Dark-mode admonition backgrounds
+[data-bs-theme="dark"] {
+  .admonition.note,
+  .admonition.abstract,
+  .admonition.info {
+    --admonition-bg: rgba(68, 138, 255, 0.12);
+  }
+  .admonition.tip {
+    --admonition-bg: rgba(0, 191, 165, 0.12);
+  }
+  .admonition.success {
+    --admonition-bg: rgba(0, 200, 83, 0.12);
+  }
+  .admonition.warning {
+    --admonition-bg: rgba(255, 145, 0, 0.12);
+  }
+  .admonition.danger,
+  .admonition.failure,
+  .admonition.error {
+    --admonition-bg: rgba(255, 82, 82, 0.12);
+  }
+  .admonition.quote {
+    --admonition-bg: rgba(158, 158, 158, 0.12);
+  }
+}
+
 // Collapsible advisory month groupings
 .advisory-month {
   margin: 1rem 0;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 1rem;
   border: 1px solid var(--bs-border-color);
-  border-radius: 0.25rem;
+  border-radius: 0.3rem;
 
   summary {
     cursor: pointer;
@@ -93,7 +124,23 @@
   }
 }
 
-// Edit link styling (top-right of content)
+// Simplified navbar (no horizontal nav items)
+.td-navbar {
+  padding: 0;
+
+  .td-navbar-container {
+    min-height: 3.5rem;
+    padding: 0 1rem;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+}
+
+// Edit link styling
 .td-page-meta {
   a {
     color: var(--bs-secondary-color);
@@ -107,7 +154,7 @@
   }
 }
 
-// Tighten content typography to match Material feel
+// Content typography
 .td-content {
   h1 {
     font-weight: 400;
@@ -122,11 +169,11 @@
   }
 
   pre {
-    border-radius: 0.25rem;
+    border-radius: 0.3rem;
   }
 
   img {
-    border-radius: 0.25rem;
+    border-radius: 0.3rem;
   }
 }
 

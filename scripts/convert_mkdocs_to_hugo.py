@@ -172,35 +172,42 @@ def page_title(markdown: str, source: Path) -> str:
     return source.stem.replace("-", " ").replace("_", " ").title()
 
 
-def with_front_matter(markdown: str, source: Path) -> str:
+def with_front_matter(markdown: str, source: Path, title: str) -> str:
     if markdown.startswith(("---\n", "+++\n")):
         return markdown
-    title = json.dumps(page_title(markdown, source))
-    # Home page uses default layout; all other pages use docs layout (sidebar + TOC)
-    layout = "" if source.name == "README.md" else "\ntype: docs"
-    return f"---\ntitle: {title}{layout}\n---\n\n{markdown}"
+    return f"---\ntitle: {json.dumps(title)}\ntype: docs\n---\n\n{markdown}"
 
 
 def generate_section_indexes(content_dir: Path) -> None:
-    """Create _index.md for section directories that lack one."""
+    """Create _index.md for section directories, and add cascade to hide large ones."""
     for section_dir in sorted(content_dir.iterdir()):
         if not section_dir.is_dir():
             continue
         index_path = section_dir / "_index.md"
-        if index_path.exists():
-            continue
         name = section_dir.name
-        title = SECTION_TITLES.get(
-            name, name.replace("-", " ").replace("_", " ").title()
-        )
-        lines = ["---", f"title: {json.dumps(title)}"]
-        if name in SIDEBAR_HIDDEN_CHILDREN:
-            lines.append("type: docs")
-            lines.append("cascade:")
-            lines.append("  _build:")
-            lines.append("    list: never")
-        lines.append("---\n")
-        index_path.write_text("\n".join(lines), encoding="utf-8")
+        needs_cascade = name in SIDEBAR_HIDDEN_CHILDREN
+
+        if not index_path.exists():
+            title = SECTION_TITLES.get(
+                name, name.replace("-", " ").replace("_", " ").title()
+            )
+            lines = ["---", f"title: {json.dumps(title)}"]
+            if needs_cascade:
+                lines.append("type: docs")
+                lines.append("cascade:")
+                lines.append("  build:")
+                lines.append("    list: never")
+            lines.append("---\n")
+            index_path.write_text("\n".join(lines), encoding="utf-8")
+        elif needs_cascade:
+            existing = index_path.read_text(encoding="utf-8")
+            if "list: never" not in existing:
+                existing = existing.replace(
+                    "type: docs\n",
+                    "type: docs\ncascade:\n  build:\n    list: never\n",
+                    1,
+                )
+                index_path.write_text(existing, encoding="utf-8")
 
 
 def copy_tree(source: Path, target: Path) -> None:
@@ -237,8 +244,9 @@ def convert(source_root: Path, target_root: Path, clean: bool) -> None:
         target = hugo_page_path(source, docs_dir, content_dir)
         target.parent.mkdir(parents=True, exist_ok=True)
         markdown = source.read_text(encoding="utf-8-sig")
+        title = page_title(markdown, source)
         target.write_text(
-            with_front_matter(convert_markdown(markdown), source),
+            with_front_matter(convert_markdown(markdown), source, title),
             encoding="utf-8",
         )
 
