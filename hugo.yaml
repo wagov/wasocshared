@@ -44,7 +44,7 @@ params:
     breadcrumb_disable: false
     footer_about_enable: false
     navbar_logo: false
-    sidebar_menu_compact: true
+    sidebar_menu_compact: false
     sidebar_menu_foldable: true
     ul_show: 2
     sidebar_search_disable: false
