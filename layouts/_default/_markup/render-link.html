@@ -1,0 +1,20 @@
+{{ $dest := .Destination }}
+{{ $parsed := urls.Parse $dest }}
+{{ if and (not $parsed.IsAbs) (not (strings.HasPrefix $dest "mailto:")) }}
+  {{ $path := $parsed.Path }}
+  {{ if not (strings.HasPrefix $path "/") }}{{ with .Page.File }}{{ $path = path.Clean (printf "/%s/%s" .Dir $path) }}{{ end }}{{ end }}
+  {{ if strings.HasSuffix $path ".md" }}
+    {{ $path = strings.TrimSuffix ".md" $path }}
+    {{ $path = replace $path "(" "" }}
+    {{ $path = replace $path ")" "" }}
+    {{ if strings.HasSuffix $path "/README" }}{{ $path = strings.TrimSuffix "README" $path }}{{ end }}
+    {{ if strings.HasSuffix $path "/_index" }}{{ $path = strings.TrimSuffix "_index" $path }}{{ end }}
+    {{ $path = printf "%s/" (strings.TrimSuffix "/" $path) }}
+    {{ $dest = $path }}
+  {{ else if or (strings.HasPrefix $path "/images/") (strings.HasPrefix $path "/pdfs/") }}
+    {{ $dest = $path }}
+  {{ end }}
+  {{ with $parsed.RawQuery }}{{ $dest = printf "%s?%s" $dest . }}{{ end }}
+  {{ with $parsed.Fragment }}{{ if not (strings.Contains $dest "#") }}{{ $dest = printf "%s#%s" $dest . }}{{ end }}{{ end }}
+{{ end }}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>

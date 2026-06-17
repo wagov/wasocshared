@@ -1,0 +1,24 @@
+{{ $expand := int (.Get "expand" | default 3) }}
+{{ $include := int (.Get "include" | default 0) }}
+{{ $pages := sort (where site.RegularPages "Section" "advisories") "File.BaseFileName" "desc" }}
+{{ $months := slice }}
+{{ range $pages }}{{ $month := substr .File.BaseFileName 0 6 }}{{ if not (in $months $month) }}{{ $months = $months | append $month }}{{ end }}{{ end }}
+{{ range $index, $month := $months }}
+{{ if or (eq $include 0) (lt $index $include) }}
+{{ $date := time.AsTime (printf "%s-01" (replaceRE "^(\\d{4})(\\d{2})$" "$1-$2" $month)) }}
+{{ if lt $index $expand }}
+#### {{ $date.Format "2006 January" }}
+
+{{ range where $pages "File.BaseFileName" "like" (printf "^%s" $month) }}- [{{ .Title | default .File.BaseFileName }}]({{ .RelPermalink }})
+{{ end }}
+{{ else }}
+<details class="advisory-month">
+<summary>{{ $date.Format "2006 January" }}</summary>
+
+{{ range where $pages "File.BaseFileName" "like" (printf "^%s" $month) }}- [{{ .Title | default .File.BaseFileName }}]({{ .RelPermalink }})
+{{ end }}
+</details>
+
+{{ end }}
+{{ end }}
+{{ end }}

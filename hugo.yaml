@@ -1,0 +1,77 @@
+baseURL: https://soc.cyber.wa.gov.au/hugo-preview/
+title: WA Cyber Security Unit (DGOV Technical)
+contentDir: content/en
+defaultContentLanguage: en
+enableGitInfo: true
+enableRobotsTXT: true
+summaryLength: 30
+
+module:
+  imports:
+    - path: github.com/google/docsy
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  copyright: Government of Western Australia
+  github_branch: main
+  github_repo: https://github.com/wagov/wasocshared
+  offlineSearch: true
+  prism_syntax_highlighting: false
+  ui:
+    breadcrumb_disable: false
+    footer_about_enable: false
+    navbar_logo: false
+    sidebar_menu_compact: true
+    sidebar_search_disable: false
+
+languages:
+  en:
+    label: English
+    title: WA Cyber Security Unit (DGOV Technical)
+    params:
+      description: Technical information to support WA Government Cyber Security activities.
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Connecting to the WASOC
+      pageRef: /onboarding
+      weight: 20
+    - name: Advisories (TLP:CLEAR)
+      pageRef: /advisories
+      weight: 30
+    - name: ACSC Strategies to Mitigate
+      pageRef: /guidelines/further-five
+      weight: 40
+    - name: Threat Hunting (TTPs)
+      pageRef: /guidelines/TTP_Hunt/ttp-detection-guidelines
+      weight: 50
+    - name: Baselines
+      pageRef: /baselines/data-sources
+      weight: 60
+    - name: Guidelines
+      pageRef: /guidelines/incident-reporting
+      weight: 70
+    - name: Training
+      pageRef: /training/analyst-induction
+      weight: 80
+    - name: Incident Reporting Portal
+      url: https://irp.dpc.wa.gov.au
+      weight: 90

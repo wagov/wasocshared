@@ -1,0 +1,1 @@
+{{ with site.GetPage (.Get "path") }}{{ .Content }}{{ else }}{{ errorf "include-page target not found: %s" (.Get "path") }}{{ end }}

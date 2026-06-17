@@ -1,0 +1,12 @@
+{
+  "name": "wasocshared-hugo-preview",
+  "private": true,
+  "scripts": {
+    "build": "hugo --minify --destination site/hugo-preview",
+    "convert": "python scripts/convert_mkdocs_to_hugo.py --clean"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss-cli": "^11.0.1"
+  }
+}

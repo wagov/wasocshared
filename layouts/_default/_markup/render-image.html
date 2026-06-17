@@ -1,0 +1,10 @@
+{{ $dest := .Destination }}
+{{ $parsed := urls.Parse $dest }}
+{{ if not $parsed.IsAbs }}
+  {{ $path := $parsed.Path }}
+  {{ if not (strings.HasPrefix $path "/") }}{{ with .Page.File }}{{ $path = path.Clean (printf "/%s/%s" .Dir $path) }}{{ end }}{{ end }}
+  {{ $dest = $path }}
+  {{ with $parsed.RawQuery }}{{ $dest = printf "%s?%s" $dest . }}{{ end }}
+  {{ with $parsed.Fragment }}{{ $dest = printf "%s#%s" $dest . }}{{ end }}
+{{ end }}
+<img src="{{ $dest | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">

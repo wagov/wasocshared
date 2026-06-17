@@ -1,0 +1,14 @@
+$primary: #ef5e2a;
+$secondary: #8e2701;
+
+.advisory-month {
+  border: 1px solid var(--bs-border-color);
+  border-radius: .25rem;
+  margin: 1rem 0;
+  padding: .5rem .75rem;
+}
+
+.advisory-month summary {
+  cursor: pointer;
+  font-weight: 600;
+}

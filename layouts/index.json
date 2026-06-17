@@ -1,0 +1,12 @@
+{{- $pages := where site.RegularPages "File" "ne" nil -}}
+[
+{{- range $index, $page := $pages -}}
+{{- if $index }},{{ end }}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "href": {{ $page.RelPermalink | jsonify }},
+    "section": {{ $page.Section | jsonify }},
+    "summary": {{ ($page.Summary | plainify) | jsonify }}
+  }
+{{- end -}}
+]

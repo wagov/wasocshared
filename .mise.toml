@@ -1,4 +1,7 @@
 [tools]
+go = "1.25"
+hugo-extended = "0.163.1"
+node = "24"
 python = "3.13"
 uv = "0.11.16"
 
@@ -17,6 +20,19 @@ run = "uv run mdformat --check --no-mkdocs-math --exclude '.venv/**' --exclude '
 [tasks.build]
 description = "Build the documentation site"
 run = "uv run properdocs build -f mkdocs.yml --strict"
+
+[tasks.hugo-convert]
+description = "Convert MkDocs content to Hugo content"
+run = "python scripts/convert_mkdocs_to_hugo.py --clean"
+
+[tasks.hugo-sync]
+description = "Install Hugo/Docsy npm dependencies"
+run = "npm ci"
+
+[tasks.hugo-build]
+description = "Build the Hugo/Docsy preview"
+depends = ["hugo-sync", "hugo-convert"]
+run = "hugo --minify --destination site/hugo-preview"
 
 [tasks.rss]
 description = "Generate RSS and Atom feeds"

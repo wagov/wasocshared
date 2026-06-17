@@ -1,0 +1,20 @@
+{{ $type := .Get "type" | default "note" }}
+{{ $title := .Get "title" | default (title $type) }}
+{{ $color := "info" }}
+{{ if in (slice "tip" "success") $type }}{{ $color = "success" }}{{ end }}
+{{ if in (slice "warning" "caution") $type }}{{ $color = "warning" }}{{ end }}
+{{ if in (slice "danger" "failure" "error") $type }}{{ $color = "danger" }}{{ end }}
+{{ if eq (.Get "collapsible") "true" }}
+<details class="alert alert-{{ $color }}" markdown="1">
+<summary><strong>{{ $title }}</strong></summary>
+
+{{ .Inner | markdownify }}
+
+</details>
+{{ else }}
+<div class="alert alert-{{ $color }}" role="alert" markdown="1">
+<strong>{{ $title }}</strong>
+
+{{ .Inner | markdownify }}
+</div>
+{{ end }}
