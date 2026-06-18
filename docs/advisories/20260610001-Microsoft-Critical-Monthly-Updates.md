@@ -22,6 +22,7 @@ Microsoft have published their Monthly Updates addressing multiple critical vuln
 
 ## What has been observed?
 
+The WASOC has observed reports for one or more of the mentioned items being exploited in the wild.
 The WASOC has not received any reports of exploitation of these vulnerabilities on Western Australian Government networks at the time of writing.
 
 ## Recommendation
@@ -29,3 +30,12 @@ The WASOC has not received any reports of exploitation of these vulnerabilities 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
 - Microsoft Security Updates: <https://msrc.microsoft.com/update-guide/releaseNote/2026-Jun>
+
+## Additional References
+
+- TheEdvocate article: <https://www.theedadvocate.org/microsofts-massive-june-patch-tuesday-what-you-need-to-know-now/>
+
+### Change Log
+
+- 2026-06-10: Initial publication.
+- 2026-06-18: Added observations of exploitation in the wild.
