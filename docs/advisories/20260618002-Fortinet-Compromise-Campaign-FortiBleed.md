@@ -10,7 +10,7 @@ The report allges over 30,000 Fortinet firewalls have been compromised across 19
 
 It is reported that the actor is gaining access via credential based attacks or extracting device configurations, allowing them to then brute force further credentials offline.
 
-It is unknown exactly how this has been acheived at the time of writing.
+A common technique used by attackers is to systematically use previously leaked credentials to gain initial access.
 
 ## Recommendation
 
