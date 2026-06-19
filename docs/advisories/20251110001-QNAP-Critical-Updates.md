@@ -12,6 +12,7 @@ QNAP have released updates addressing multiple zero-day vulnerabilities affectin
 
 ## What has been observed?
 
+The WASOC has observed reports for one or more of the mentioned items being exploited in the wild.
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
@@ -23,3 +24,9 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 ## Additional References
 
 - BleepingComputer: <https://www.bleepingcomputer.com/news/security/qnap-fixes-seven-nas-zero-day-vulnerabilities-exploited-at-pwn2own/>
+- Third party blog: <https://blog.xlab.qianxin.com/arystinger-botnet-hijacks-legacy-routers-for-global-attacks-en/>
+
+### Change Log
+
+- 2025-11-10: Initial publication.
+- 2026-06-18: Added observations of exploitation in the wild.
