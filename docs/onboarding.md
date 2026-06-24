@@ -19,7 +19,7 @@ There are 2 delegations of access an operational security team would need to ass
 
     - Microsoft XDR Tenant (Microsoft Entra ID) Roles: [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader), [Security Operator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-operator)
     - Azure Subscription Roles: [Reader](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#reader), [Microsoft Sentinel Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#microsoft-sentinel-contributor)
-    - Optional configuration of [Azure AD Privileged Identity Management](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure) (PIM) for elevated access to resources during critical incident response or service configuration activities (required under **Tier 2**).
+    - Optional configuration of [Entra ID Privileged Identity Management](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure) (PIM) for elevated access to resources during critical incident response or service configuration activities (required under **Tier 2**).
 
 ### 1.1. Azure Subscription Access
 
@@ -31,16 +31,16 @@ As part of onboarding, the WASOC will send the customer a prefilled [Azure Light
 
 ![Defender XDR](images/xdr-overview.png)
 
-As part of onboarding, the WASOC will send the customer a [Microsoft Entra ID Security group Object ID](https://learn.microsoft.com/en-us/entra/fundamentals/how-to-manage-groups#edit-group-settings) to allow delegated access to a specific group of users within the tenancy. This Security Group ID is applicable for step (TBD).
+As part of onboarding, the WASOC will send the customer a [Microsoft Entra ID Security group Object ID](https://learn.microsoft.com/en-us/entra/fundamentals/how-to-manage-groups#edit-group-settings) to allow delegated access to a specific group of users within the tenancy. This Security Group ID is applicable for step 4.1.
 
 ## 2. Onboarding Process
 
 ### 2.1. Prerequisites
 
-- [Global Admin](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#global-administrator) permission required for the Azure AD Tenant and [Owner](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#owner) permission required for the Azure Subscription(s).
+- [Global Admin](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#global-administrator) permission required for the Entra ID Tenant and [Owner](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#owner) permission required for the Azure Subscription(s).
     - [Access to Service provider offers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) in the Azure Portal
     - [Access to Azure Active Directory Groups](https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups) in the Azure Portal
-- List of agency Azure AD Identities (as emails) that will require access to the WASOC Incident Reporting Portal for collaboration on cyber security incidents.
+- List of agency Entra ID Identities (as emails) that will require access to the WASOC Incident Reporting Portal for collaboration on cyber security incidents.
 
 ## 3. Microsoft Sentinel Onboarding
 
@@ -87,7 +87,7 @@ The onboarding to the Dedicated Cluster is handled entirely by the WASOC Enginee
 
 ### 4.1. Microsoft Entra ID B2B Synchornisation
 
-The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation services](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure) to replicates WASOC analysts indentities from the source tenancy to the entities tenancy. This allows WASOC analysts to authenticate to entities XDR environment seamlessly.
+The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation services](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure) to replicates WASOC analysts identities from the source tenancy to the entities tenancy. This allows WASOC analysts to authenticate to entities XDR environment seamlessly.
 
 ### 4.1.1 Enable User Synchronisation with the WASOC
 
