@@ -2,17 +2,22 @@
 
 {{ date_index("docs/advisories", prefix="advisories/", expand=1, include=2) }}
 
-## WASOC - Recent Threat Activity (May 2026)
+## WASOC - Recent Threat Activity (June 2026)
 
 Based on recent global events, security teams should be focusing on the security controls of their perimeter - [Consider your cyber hygiene in light of global events](https://www.cyber.gov.au/about-us/view-all-content/news/consider-your-cyber-hygiene-light-global-events)
 
-!!! warning "WASOC Guidance targeted on recent escalation of state-based actor threat activity"
+!!! warning "The WASOC has observed an increase in activity targeting third party libraries and dependencies."
 
 Recent WASOC advisories this month worth staying across include:
 
-- [F5 NGINX Vulnerability](https://soc.cyber.wa.gov.au/advisories/20260520001-F5-nginx-vulnerability/)
+- [libssh2 out of bounds write Vulnerability](https://soc.cyber.wa.gov.au/advisories/20260629001-libssh2-out-of-bounds-write-Vulnerability/)
 
-- [Drupal SQL Injection Vulnerability](https://soc.cyber.wa.gov.au/advisories/20260525001-Drupal-SQL-Injection-Vulnerability/)
+- [OpenSSL Vulnerability](https://soc.cyber.wa.gov.au/advisories/20260624001-OpenSSL-Vulnerability/)
+
+- [Oracle PeopleSoft Critical Authentication Vulnerability](https://soc.cyber.wa.gov.au/advisories/20260619002-Oracle-PeopleSoft-Critical-Vulnerability/)
+
+- [Fortinet Exploitation and Compromise Campaign FortiBleed](https://soc.cyber.wa.gov.au/advisories/20260618002-Fortinet-Compromise-Campaign-FortiBleed/)
+
 
 
 ## WASOC - General Advice
