@@ -70,22 +70,22 @@ The WASOC Dedicated Cluster program is an initiative to assist with reducing the
 
 ??? note "Customer Prerequisite"
 
-    The dedicated cluster has prerequisites that **must** be met to have the minimum technical requirements to onboard ([link](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#link-a-workspace-to-a-cluster)) an sentinel workspace.
+    The dedicated cluster has prerequisites that **must** be met to have the minimum technical requirements to onboard ([link](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#link-a-workspace-to-a-cluster)) a Sentinel workspace.
 
     The prerequisites as follows.
 
     - Must be on Microsoft [Enterprise Agreement](https://www.wa.gov.au/government/cuas/supply-of-microsoft-product-licences-and-licensing-solutions-cuams2019)
         - E licensing ([Compare Microsoft 365 Enterprise Plans](https://www.microsoft.com/en-au/microsoft-365/enterprise/microsoft365-plans-and-pricing))
-    - Must have signed an exisiting MOU (T0,T1,T2) with the WASOC
+    - Must have signed an existing MOU (T0,T1,T2) with the WASOC
     - Customers Workspace must be located in region **Australia EAST**
-    - Must have been already onboarded to the WASOC via [Azure Lighthouse](https://soc.cyber.wa.gov.au//onboarding/#23-azure-subscription-access-delegation)
+    - Must have been already onboarded to the WASOC via [Azure Lighthouse](https://soc.cyber.wa.gov.au//onboarding/#31-azure-subscription-access-delegation)
     - Must have Log Analytics workspace *Access Mode* set to **Use resource or workspace permissions**. [Log Analytics Access Mode](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/manage-access?tabs=portal#access-control-mode)
 
 The onboarding to the Dedicated Cluster is handled entirely by the WASOC Engineers and can be facilitated upon request.
 
 ## 4. Microsoft XDR Onboarding
 
-### 4.1. Microsoft Entra ID B2B Synchornisation
+### 4.1. Microsoft Entra ID B2B Synchronisation
 
 The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation services](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure) to replicates WASOC analysts identities from the source tenancy to the entities tenancy. This allows WASOC analysts to authenticate to entities XDR environment seamlessly.
 
@@ -97,7 +97,7 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 
 1. On the **Organization settings** tab, select **Add organization**.
 
-1. Add the **External Microsoft Entra Tenant ID** provived by the WASOC
+1. Add the **External Microsoft Entra Tenant ID** provided by the WASOC
 
 1. Select **Add**
 
@@ -123,7 +123,7 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 
     ![Entra ID Cross Tenant Redemption](images/xdr-cross-tenant-redemption.png)
 
-1. Select the *Trust settings*\* tab.
+1. Select the **Trust settings** tab.
 
 1. Select **Customize Settings** and then select **Trust multifactor authentication from Microsoft Entra tenant**.
 
@@ -159,27 +159,27 @@ The WASOC leverages the [Microsoft Entra ID cross-tenant synchronisation service
 
 ### 4.2 XDR Unified RBAC Method
 
-The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/manage-rbac) provides a single permissions management experience that provides one central location for administrators to control user permissions across different security solutions.
+The new [XDR Unified Role Based Access Control (RBAC)](https://learn.microsoft.com/en-us/defender-xdr/manage-rbac) provides a single permissions management experience that provides one central location for administrators to control user permissions across different security solutions.
 
 !!! note
 
-    This solution is a recent addition to the Microsoft XDR and will require some administrative work by the entities to activate the [XDR RBAC experience](https://learn.microsoft.com/en-us/defender-xdr/activate-defender-rbac#activate-in-microsoft-defender-xdr-settings). This work will require some pre-work with entities IT teams as exisiting permission to users and account may cause service interruption. [A mapping exercise will be required.](https://learn.microsoft.com/en-us/defender-xdr/compare-rbac-roles)
+    This solution is a recent addition to the Microsoft XDR and will require some administrative work by the entities to activate the [XDR RBAC experience](https://learn.microsoft.com/en-us/defender-xdr/activate-defender-rbac#activate-in-microsoft-defender-xdr-settings). This work will require some pre-work with entities IT teams as existing permissions to users and accounts may cause service interruption. [A mapping exercise will be required.](https://learn.microsoft.com/en-us/defender-xdr/compare-rbac-roles)
 
     Sentinel Workspace Management will require minimum **Security Admin** role in the Azure Tenant and **Owner** permissions to the Sentinel Workspace to configure.
 
-### 4.2.1 Activate Unifed Role Based Access Controls
+### 4.2.1 Activate Unified Role Based Access Controls
 
 1. Navigate to the [Microsoft Security Portal](https://security.microsoft.com/)
 
 1. In **Systems > Settings > Microsoft Defender XDR > Permissions and roles**
 
-1. Toggle all avaiable **WorkLoads** as **Active**.
+1. Toggle all available **WorkLoads** as **Active**.
 
-    ![XDR Unifed Permissions and Roles](images/xdr-unified-workloads.png)
+    ![XDR Unified Permissions and Roles](images/xdr-unified-workloads.png)
 
-1. Under Microsoft Setentinel Workload, select **Manage workspaces**
+1. Under Microsoft Sentinel Workload, select **Manage workspaces**
 
-    ![XDR Managed Sentienl Workspaces](images/xdr-manage-sentinel-workspaces.png)
+    ![XDR Managed Sentinel Workspaces](images/xdr-manage-sentinel-workspaces.png)
 
 1. Select the **Primary** workspace (The main Sentinel Workspace for your entities Security Operations)
 
@@ -231,7 +231,7 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
     ![XDR Data Collections](images/xdr-data-collections.png)
 
-1. Select **All exisiting workspaces**
+1. Select **All existing workspaces**
 
     ![XDR Sentinel Assignment](images/xdr-Sentinel-Assignment.png)
 
@@ -258,7 +258,7 @@ Once XDR onboarding procedure has been completed by the entity, please inform th
 ## 6. Migrate to Microsoft Sentinel Data Lake for Cost Optimization
 
 The Data Lake storage tier provides cost-effective, long-term storage for logs, especially for third-party logs and Sentinel tables beyond the 90-day free retention period.
-Data retatined in Data Lake is available to Securtiy Operations Team for long-term analysis and threat hunting capabilities.
+Data retained in Data Lake is available to Security Operations Team for long-term analysis and threat hunting capabilities.
 
 ### 6.1 Cost-Saving Strategies
 
@@ -271,7 +271,7 @@ Microsoft is consolidating the cyber security solutions by integrating Sentinel 
 
 Key Dates:
 
-- By March 31 March 2027: The [Azure Portal experience for Sentinel](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/update-new-timeline-for-transitioning-sentinel-experience-to-defender-portal/4490464) will be planned retired.
+- By March 31, 2027: The [Azure Portal experience for Sentinel](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/update-new-timeline-for-transitioning-sentinel-experience-to-defender-portal/4490464) will be retired.
 
 ### 7.1. Onboard Sentinel Workspace to XDR
 
