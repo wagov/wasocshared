@@ -4,7 +4,7 @@
 
 The WASOC has been made aware of memory safety bugs present in Firefox.
 
-Mozilla has stated that exploitation of these bugs may lead to arbitrary code execution and has proviced patches to address the vulnerabilities.
+Mozilla has stated that exploitation of these bugs may lead to arbitrary code execution and has provided patches to address the vulnerabilities.
 
 ## What is vulnerable?
 
