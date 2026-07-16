@@ -4,10 +4,10 @@
 
 !!! note
 
-    This Honey Trap initiative is now a established service catalogue item from the WASOC, as such, access to this service is now available to WA Government Entities upon request.
+    This Honey Trap initiative is now an established service catalogue item from the WASOC, as such, access to this service is now available to WA Government Entities upon request.
     If interested in the services, please raise a request via the [WASOC IRP](https://irp.dpc.wa.gov.au/).
 
-The WASOC is looking to expand the monitoring capability of Western Australian Government entities to better detect for advanced persistent threats (APT) on ICT infrastructure. The WASOC will assist entities with the deployment of honey pots and honey tokens in infrastructure locations that are commonly traversed by Threat Actors prior to a cyber incident.
+The WASOC is looking to expand the monitoring capability of Western Australian Government entities to better detect advanced persistent threats (APT) on ICT infrastructure. The WASOC will assist entities with the deployment of honey pots and honey tokens in infrastructure locations that are commonly traversed by Threat Actors prior to a cyber incident.
 
 Honey Traps emcompass both Honey Pots and Honey Tokens. Honey Traps are decoy ICT services or data repositories that replicate the real ICT environment of organisations. These decoys are enticing targets for threat actors to attack and exploit. Once the actor has attacked the target, the Honey Pot or Honey Token will raise an alert due to unauthorised malipulation, thus allowing security teams to detect for broader threats to an entity's ICT environments.
 
@@ -29,9 +29,9 @@ Honey Traps emcompass both Honey Pots and Honey Tokens. Honey Traps are decoy IC
 
 ## Onboarding Process
 
-The WASOC has developed guidance to assist WA Government entities to integrate the Honey Trap platform into their exisiting Sentinel Workspaces. This can be found [here](https://github.com/wagov/wasoc-honeytraps).
+The WASOC has developed guidance to assist WA Government entities to integrate the Honey Trap platform into their exisiting Sentinel Workspaces. This can be found at the [Github pages](https://wagov.github.io/wasoc-honeytraps/) or at our [Github repository](https://github.com/wagov/wasoc-honeytraps) for Honey Traps.
 
-## Honey Trap Guidance
+## Honey Traps Guidance
 
 The WASOC recommends that entities explore the following locations within their infrastructure to deploy Honey Traps effectively for each applicable honey technology.
 

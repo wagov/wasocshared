@@ -4,3 +4,7 @@ site
 .ipynb_checkpoints
 .DS_Store
 .swp
+.venv
+.ruff_cache
+
+.pytest_cache

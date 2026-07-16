@@ -1,0 +1,35 @@
+# Microsoft Addresses Known Exploited Vulnerabilities - 20260212001
+
+## Overview
+
+Microsoft have published their Monthly Updates addressing multiple critical and known exploited vulnerabilities.
+
+## What is vulnerable?
+
+### Critical Severity
+
+| CVE                                                               | CVSS | Severity |
+| ----------------------------------------------------------------- | ---- | -------- |
+| [CVE-2026-21531](https://nvd.nist.gov/vuln/detail/CVE-2026-21531) | 9.8  | Critical |
+
+### Known Exploitation
+
+| CVE                                                               | CVSS | Severity |
+| ----------------------------------------------------------------- | ---- | -------- |
+| [CVE-2026-21510](https://nvd.nist.gov/vuln/detail/CVE-2026-21510) | 8.8  | High     |
+| [CVE-2026-21513](https://nvd.nist.gov/vuln/detail/CVE-2026-21513) | 8.8  | High     |
+| [CVE-2026-21514](https://nvd.nist.gov/vuln/detail/CVE-2026-21514) | 7.8  | High     |
+| [CVE-2026-21519](https://nvd.nist.gov/vuln/detail/CVE-2026-21519) | 7.8  | High     |
+| [CVE-2026-21525](https://nvd.nist.gov/vuln/detail/CVE-2026-21525) | 6.2  | Medium   |
+| [CVE-2026-21533](https://nvd.nist.gov/vuln/detail/CVE-2026-21533) | 7.8  | High     |
+
+## What has been observed?
+
+Microsoft has detected exploitation of one or more mentioned Vulnerabilities.
+The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
+
+## Recommendation
+
+The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
+
+- Microsoft Security Updates: <https://msrc.microsoft.com/update-guide/releaseNote/2026-Feb>

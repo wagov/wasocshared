@@ -2,7 +2,7 @@
 
 ## Overview
 
-Since initial advice on the 19th of August 2022 (*SEO poisoning targeting public sector (Gootloader) Ref: 20220819002*), WA SOC have observed continuous active attempts of SEO poisoning for the deployment of Gootloader malware affecting multiple WA SOC agencies.
+Since initial advice on the 19th of August 2022 (*SEO poisoning targeting public sector (Gootloader) Ref: 20220819002*), WASOC have observed continuous active attempts of SEO poisoning for the deployment of Gootloader malware affecting multiple WASOC agencies.
 
 Based on multiple evidence we observed, we have updated threat hunting methods and detection for this attack.
 

@@ -1,0 +1,35 @@
+[tools]
+python = "3.13"
+uv = "0.11.16"
+
+[tasks.sync]
+description = "Install Python dependencies with uv"
+run = "uv sync --frozen"
+
+[tasks.format]
+description = "Format markdown documents"
+run = "uv run mdformat --no-mkdocs-math --exclude '.venv/**' --exclude '.pytest_cache/**' --exclude 'site/**' ."
+
+[tasks.format-check]
+description = "Check markdown formatting"
+run = "uv run mdformat --check --no-mkdocs-math --exclude '.venv/**' --exclude '.pytest_cache/**' --exclude 'site/**' ."
+
+[tasks.build]
+description = "Build the documentation site"
+run = "uv run properdocs build -f mkdocs.yml --strict"
+
+[tasks.rss]
+description = "Generate RSS and Atom feeds"
+run = "uv run python -m wasoc.rss"
+
+[tasks.lint]
+description = "Lint Python and TOML"
+run = "uv run ruff check . && uv run taplo check pyproject.toml .mise.toml"
+
+[tasks.unit]
+description = "Run unit tests"
+run = "uv run python -m pytest"
+
+[tasks.test]
+description = "Run repository checks"
+depends = ["format-check", "lint", "unit", "build", "rss"]

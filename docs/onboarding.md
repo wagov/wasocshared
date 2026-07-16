@@ -1,4 +1,4 @@
-# WA SOC Onboarding Procedure
+# WASOC Onboarding Procedure
 
 ## 1. Overview
 
@@ -10,14 +10,14 @@ There are 2 delegations of access an operational security team would need to ass
 
 **Tier 0 - Advisory:** Ability for automation accounts to read security incidents, alerts, identity and device information, event data, and azure subscription resources.
 
-- Microsoft XDR Tenant (Azure AD) Role: [Reader](https://learn.microsoft.com/en-us/defender-xdr/create-custom-rbac-roles)
+- Microsoft XDR Tenant (Microsoft Entra ID) Role: [Reader](https://learn.microsoft.com/en-us/defender-xdr/create-custom-rbac-roles)
 - Azure Subscription Role: [Reader](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/general#reader)
 
 ??? note "Enhanced support tiers (optional)"
 
     **Tier 1 - Monitor:** Increased access for analysts to work on security incidents and detection rules ontop of **Tier 0**.
 
-    - Microsoft XDR Tenant (Azure AD) Roles: [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader), [Security Operator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-operator)
+    - Microsoft XDR Tenant (Microsoft Entra ID) Roles: [Global Reader](https://docs.microsoft.com/en-au/azure/active-directory/roles/permissions-reference#global-reader), [Security Operator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-operator)
     - Azure Subscription Roles: [Reader](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#reader), [Microsoft Sentinel Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#microsoft-sentinel-contributor)
     - Optional configuration of [Azure AD Privileged Identity Management](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure) (PIM) for elevated access to resources during critical incident response or service configuration activities (required under **Tier 2**).
 
@@ -25,7 +25,7 @@ There are 2 delegations of access an operational security team would need to ass
 
 ![Sentinel Access](images/sentinel-incident.png)
 
-As part of onboarding, the WASOC will send the customer a prefilled [Azure Lighthouse ARM Deployment](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/onboard-customer#create-your-template-manually) that can be installed as an **Service provider offer** to initiate an [Azure Lighthouse](https://docs.microsoft.com/en-us/azure/lighthouse/overview) connection between the customer Azure Subscription and the WASOC Tenant. Once completed the WSOC can delegate relevant permissions to analysts and automation processes via privileged groups in the WASOC tenant, allowing it to service the customers Azure subscription. This process needs to be undertaken for each subscription the customer would like to delegate access to.
+As part of onboarding, the WASOC will send the customer a prefilled [Azure Lighthouse ARM Deployment](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/onboard-customer#create-your-template-manually) that can be installed as an **Service provider offer** to initiate an [Azure Lighthouse](https://docs.microsoft.com/en-us/azure/lighthouse/overview) connection between the customer Azure Subscription and the WASOC Tenant. Once completed the WASOC can delegate relevant permissions to analysts and automation processes via privileged groups in the WASOC tenant, allowing it to service the customers Azure subscription. This process needs to be undertaken for each subscription the customer would like to delegate access to.
 
 ### 1.2. Microsoft XDR tenant access
 
@@ -40,7 +40,7 @@ As part of onboarding, the WASOC will send the customer a [Microsoft Entra ID Se
 - [Global Admin](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#global-administrator) permission required for the Azure AD Tenant and [Owner](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#owner) permission required for the Azure Subscription(s).
     - [Access to Service provider offers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) in the Azure Portal
     - [Access to Azure Active Directory Groups](https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups) in the Azure Portal
-- List of agency Azure AD Identities (as emails) that will require access to the WA SOC Incident Reporting Portal for collaboration on cyber security incidents.
+- List of agency Azure AD Identities (as emails) that will require access to the WASOC Incident Reporting Portal for collaboration on cyber security incidents.
 
 ## 3. Microsoft Sentinel Onboarding
 
@@ -52,15 +52,19 @@ Navigate to the [Azure Lighthouse - Service Providers](https://portal.azure.com/
 
 ![service Provider](images/Service-Provider.png)
 
-#### 3.2. Azure Lighthouse ARM Deployment
+### 3.2. Azure Lighthouse ARM Deployment
 
-Browse for the template provided, and click **Upload**. This can be customised to removed unused groups if desired for the customers Tier - please inform the WA SOC of any changes prior to deployment to allow documentation to be updated.
+Browse for the template provided, and click **Upload**. This can be customised to removed unused groups if desired for the customers Tier - please inform the WASOC of any changes prior to deployment to allow documentation to be updated.
 
 ![Upload Template](images/Upload-Template.png)
 
 Review the custom deployment details and ensure the location is Australia East, then click **Review and create** then click **Create**.
 
-### 3.3. Dedicated Cluster
+### 3.3 Sentinel Onboarding Validation
+
+1. Complete steps specified in [Section 5 - Sentinel Onboarding](#51-sentinel-onboarding)
+
+### 3.4 Dedicated Cluster
 
 The WASOC Dedicated Cluster program is an initiative to assist with reducing the total cost of ownership (TCO) of customers Sentinel Workspace. This is achieved by utilising a centralised [pricing model](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#cluster-pricing-model) offered by Microsoft as part of the [dedicated cluster services](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters?tabs=cli#advanced-capabilities).
 
@@ -161,7 +165,29 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
     This solution is a recent addition to the Microsoft XDR and will require some administrative work by the entities to activate the [XDR RBAC experience](https://learn.microsoft.com/en-us/defender-xdr/activate-defender-rbac#activate-in-microsoft-defender-xdr-settings). This work will require some pre-work with entities IT teams as exisiting permission to users and account may cause service interruption. [A mapping exercise will be required.](https://learn.microsoft.com/en-us/defender-xdr/compare-rbac-roles)
 
-### 4.2.1 Configuration of Security Groups permission in Microsoft Security Portal (XDR)
+    Sentinel Workspace Management will require minimum **Security Admin** role in the Azure Tenant and **Owner** permissions to the Sentinel Workspace to configure.
+
+### 4.2.1 Activate Unifed Role Based Access Controls
+
+1. Navigate to the [Microsoft Security Portal](https://security.microsoft.com/)
+
+1. In **Systems > Settings > Microsoft Defender XDR > Permissions and roles**
+
+1. Toggle all avaiable **WorkLoads** as **Active**.
+
+    ![XDR Unifed Permissions and Roles](images/xdr-unified-workloads.png)
+
+1. Under Microsoft Setentinel Workload, select **Manage workspaces**
+
+    ![XDR Managed Sentienl Workspaces](images/xdr-manage-sentinel-workspaces.png)
+
+1. Select the **Primary** workspace (The main Sentinel Workspace for your entities Security Operations)
+
+1. Click **Activate workspaces**
+
+    ![XDR Managed Workspace Activiated](images/xdr-manage-sentinel-workspace-successful.png)
+
+### 4.2.2 Configuration of Security Groups permission in Microsoft Security Portal (XDR)
 
 1. Navigate to the [Microsoft Security Portal](https://security.microsoft.com/)
 1. In **Systems > Permissions > Microsoft Defender XDR (Roles)**
@@ -197,32 +223,100 @@ The new [XDR Unifed Role Based Access Control (RBAC)](https://learn.microsoft.co
 
 1. In **Review and finish**, click **Submit**
 
+#### Data Collections
+
+1. In the **Edit Assignment** blade, in the **Data Collections** section
+
+1. Click **Edit** in the **Microsoft Sentinel** assignment
+
+    ![XDR Data Collections](images/xdr-data-collections.png)
+
+1. Select **All exisiting workspaces**
+
+    ![XDR Sentinel Assignment](images/xdr-Sentinel-Assignment.png)
+
+1. Click **Apply selection**
+
+1. In the **Edit Assignment** blade, click **Apply**
+
+### 4.2.3 XDR Onboarding Validation
+
+1. Complete steps specified in [Section 5 - XDR Onboarding](#52-xdr-onboarding)
+
 ## 5. Confirmation of Onboarding
 
 ### 5.1 Sentinel Onboarding
 
-Once the template phase has completed, customers can confirm the onboarding process has finalised by navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page and confirming you can see the **WA SOC - Security Insights** service offer.
+Once the template phase has completed, customers can confirm the onboarding process has finalised by navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page and confirming you can see the **WASOC - Security Insights** service offer.
 
 ![service Offer](images/service-offer.png)
 
 ### 5.2 XDR Onboarding
 
-Once XDR onboarding procedure has been completed by the entity, the WASOC will commence some addtional proceesses to finalise the onboarding process.
-The WASOC will inform the entity once the onboarding has been completed.
+Once XDR onboarding procedure has been completed by the entity, please inform the WASOC of the completion of work as the WASOC will need to commence some additional processes to finalise the onboarding process. The WASOC will inform the entity once the onboarding has been completed.
 
-## 6. WASOC Offboarding / Re-onboarding Procedure
+## 6. Migrate to Microsoft Sentinel Data Lake for Cost Optimization
 
-### 6.1. Sentinel Offboarding / Re-onboarding
+The Data Lake storage tier provides cost-effective, long-term storage for logs, especially for third-party logs and Sentinel tables beyond the 90-day free retention period.
+Data retatined in Data Lake is available to Securtiy Operations Team for long-term analysis and threat hunting capabilities.
+
+### 6.1 Cost-Saving Strategies
+
+- Configure Sentinel Tables on Analytic Tier storage to migrate after 90-days (free retention period) to the Data Lake tier for lower-cost retention. Use the [Data Retention settings](https://learn.microsoft.com/en-us/azure/sentinel/configure-data-retention-archive) in the Sentinel workspace to define retention periods and archiving rules.
+- For third-party logs, configure data connectors to route logs directly to the Data Lake as they are more expensive to store in Sentinel’s analytics storage tier. Refer to [Configure connectors for Third-Party (non-Microsoft) Logs in Data Lake](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-connectors)
+
+## 7. Migrating Sentinel to Defender XDR portal.
+
+Microsoft is consolidating the cyber security solutions by integrating Sentinel into the Microsoft Defender portal, creating a unified SIEM and XDR experience. Refer to [Transition your Microsoft Sentinel environment to the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender) guide.
+
+Key Dates:
+
+- By March 31 March 2027: The [Azure Portal experience for Sentinel](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/update-new-timeline-for-transitioning-sentinel-experience-to-defender-portal/4490464) will be planned retired.
+
+### 7.1. Onboard Sentinel Workspace to XDR
+
+By bringing Microsoft Sentinel into the Defender portal alongside Microsoft Defender XDR, you consolidate incident management and advanced hunting into a single experience—reducing tool sprawl and enabling faster, more effective incident response.
+
+??? note "Onboarding Prerequisite"
+
+    To onboard the Microsoft Sentinel in the Defender portal, you must have the following roles and permissions ([link](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard#microsoft-sentinel-prerequisites)).
+
+    **Microsoft Entra or Azure built-in role required**
+
+    - **Security Administrator** or higher in Microsoft Entra ID AND **Owner** ((Preferred)
+        OR
+    - **User Access Administrator** AND **Microsoft Sentinel Contributor**
+
+    **Tenant Scope**
+
+    - **Subscription**
+
+        - Required for **Owner** or **User Access Administrator** roles
+
+    - **Subscription, resource group, or Log Analytics workspace**
+
+        - Required for **Microsoft Sentinel Contributor**
+
+1. Go to the [Microsoft Security Portal](https://security.microsoft.com/)
+1. Select **System** > **Settings** > **Microsoft Sentinel** > **Connect** a workspace.
+1. Select the main sentinel workspaces for security operations of the entity and select **Next**.
+1. Select the **Primary workspace**.
+1. Read and understand the product changes associated with connecting your workspace.
+1. Select Connect.
+
+## 8. WASOC Offboarding / Re-onboarding Procedure
+
+### 8.1. Sentinel Offboarding / Re-onboarding
 
 If for the purpose of offboarding the WASOC or to re-onboard onto the WASOC, then the customer has the ability to self manage this process via the **Azure Portal**.
 
 #### Azure Lighthouse Service Provider
 
-Navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page. Select the **WA SOC - Security Insights** service offer. Click **Delete**.
+Navigating to the [Azure Lighthouse - Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers) page. Select the **WASOC - Security Insights** service offer. Click **Delete**.
 
 ![service offer delete](images/service-provider-delete.png)
 
-### 6.2. XDR Offboarding
+### 8.2. XDR Offboarding
 
 If for the purpose of offboarding the WASOC off the XDR platform, then the customer has the ability to self manage this process via the **Azure Portal**.
 

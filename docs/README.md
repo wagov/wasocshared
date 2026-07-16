@@ -1,16 +1,14 @@
 # WA Cyber Security Unit (Office of Digital Government)
 
-[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/wagov/wasocshared.svg?label=openssf%20scorecard)](https://securityscorecards.dev/viewer/?uri=github.com/wagov/wasocshared)
-
 This site contains technical information to support WA Government Cyber Security activities. Please propose updates directly via the edit link on each page or email [cybersecurity@dpc.wa.gov.au](mailto:cybersecurity@dpc.wa.gov.au) with any feedback. The site is built with [Material for MkDocs (reference)](https://squidfunk.github.io/mkdocs-material/reference/) which includes several [extensions to markdown](https://squidfunk.github.io/mkdocs-material/setup/extensions/) for enhanced technical writing.
 
 !!! tip "RSS Feeds"
 
     If you would like to subscribe to updates for this site please use the [RSS](/rss.xml) or [ATOM](/atom.xml) feeds.
 
-## WA Security Operations Centre (WA SOC)
+## WA Security Operations Centre (WASOC)
 
-- [Connecting to the WA SOC](onboarding.md) ([Sentinel Guidance](onboarding/sentinel-guidance.md))
+- [Connecting to the WASOC](onboarding.md) ([Sentinel Guidance](onboarding/sentinel-guidance.md))
 - [Advisories (TLP:CLEAR)](advisories.md)
 - [Incident Reporting User Guide (Jira)](guidelines/incident-reporting.md)
 - [Threat Hunting (MITRE ATT&CK Tactics and Techniques)](guidelines/TTP_Hunt/ttp-detection-guidelines.md)
