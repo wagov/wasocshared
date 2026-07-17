@@ -8,7 +8,7 @@ The cyber security incident reporting portal provides a secured login for each W
 - enable coordination of incident response
 - receive updates on ongoing cyber security events and topics
 
-<img width="700" alt="Portal Overview" src="../../images/portal-overview.png">
+<img width="700" alt="Portal Overview" src="../images/portal-overview.png">
 
 ### 1.1 Cyber Incident Response Plan
 

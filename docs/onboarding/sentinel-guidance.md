@@ -10,7 +10,7 @@ It is recommended to deploy Microsoft Sentinel in the **Australia East** region 
 
 !!! note "Transition your Microsoft Sentinel experience from the Azure portal to the Defender portal"
 
-    Important Update: Microsoft is transitioning the Microsoft Sentinel experience from the Azure portal to the Microsoft Defender portal and by July 1, 2026 the Azure portal experience for Microsoft Sentinel will be retired. For customers with an existing workspace enabled for Microsoft Sentinel in order to transition to Microsoft Defender follow the [Transition Microsoft Sentinel environment to the Defender portal Guide](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender)
+    Important Update: Microsoft is transitioning the Microsoft Sentinel experience from the Azure portal to the Microsoft Defender portal and by March 31, 2027 the Azure portal experience for Microsoft Sentinel will be retired. For customers with an existing workspace enabled for Microsoft Sentinel in order to transition to Microsoft Defender follow the [Transition Microsoft Sentinel environment to the Defender portal Guide](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender)
 
 ## 2. Telemetry to collect (prioritised)
 
@@ -51,7 +51,7 @@ Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once tele
 
 ## 3. Third party solutions (Telemetry re-ingestion)
 
-!!! note "Log Analytics Auxilary plan (preview)"
+!!! note "Log Analytics Auxiliary plan (preview)"
 
     The lower cost [Data Lake plan](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-overview) is now available for data collection rule-based custom tables you can create using the [Log Ingestion API](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-ingestion-api-overview), which is suitable for retention of third party log sources.
 
@@ -78,4 +78,4 @@ Ensuring that integrations include **severity**, **classification** and **mitre 
 
 ## 5. Optimise security operations
 
-The [Microsoft SOC Optimisations page](https://learn.microsoft.com/en-us/azure/sentinel/soc-optimization/soc-optimization-access?tabs=azure-portal#access-the-soc-optimization-page) aims to empower security teams by providing invaluable insights into your Microsoft Sentinel environment and offering recommendations to enhance cost efficiency, operational effectiveness, and overall management overview. The WASOC also offers an addtional cost reduction service through the [dedicated cluster initative](https://soc.cyber.wa.gov.au//onboarding/#32-azure-lighthouse-arm-deployment).
+The [Microsoft SOC Optimisations page](https://learn.microsoft.com/en-us/azure/sentinel/soc-optimization/soc-optimization-access?tabs=azure-portal#access-the-soc-optimization-page) aims to empower security teams by providing invaluable insights into your Microsoft Sentinel environment and offering recommendations to enhance cost efficiency, operational effectiveness, and overall management overview. The WASOC also offers an additional cost reduction service through the [dedicated cluster initiative](https://soc.cyber.wa.gov.au//onboarding/#32-azure-lighthouse-arm-deployment).

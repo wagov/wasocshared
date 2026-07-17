@@ -9,7 +9,7 @@
 
 The WASOC is looking to expand the monitoring capability of Western Australian Government entities to better detect advanced persistent threats (APT) on ICT infrastructure. The WASOC will assist entities with the deployment of honey pots and honey tokens in infrastructure locations that are commonly traversed by Threat Actors prior to a cyber incident.
 
-Honey Traps emcompass both Honey Pots and Honey Tokens. Honey Traps are decoy ICT services or data repositories that replicate the real ICT environment of organisations. These decoys are enticing targets for threat actors to attack and exploit. Once the actor has attacked the target, the Honey Pot or Honey Token will raise an alert due to unauthorised malipulation, thus allowing security teams to detect for broader threats to an entity's ICT environments.
+Honey Traps encompass both Honey Pots and Honey Tokens. Honey Traps are decoy ICT services or data repositories that replicate the real ICT environment of organisations. These decoys are enticing targets for threat actors to attack and exploit. Once the actor has attacked the target, the Honey Pot or Honey Token will raise an alert due to unauthorised manipulation, thus allowing security teams to detect for broader threats to an entity's ICT environments.
 
 ??? note "Participants Prerequisite"
 
@@ -17,11 +17,11 @@ Honey Traps emcompass both Honey Pots and Honey Tokens. Honey Traps are decoy IC
 
     The prerequisites as follows.
 
-    - Must have signed an exisiting MOU (T0,T1,T2) with the WASOC
+    - Must have signed an existing MOU (T0,T1,T2) with the WASOC
     - Must have a Microsoft Sentinel workspace located in region **Australia EAST**
-    - Must have been already onboarded to the WASOC via [Azure Lighthouse](https://soc.cyber.wa.gov.au//onboarding/#23-azure-subscription-access-delegation)
+    - Must have been already onboarded to the WASOC via [Azure Lighthouse](https://soc.cyber.wa.gov.au//onboarding/#31-azure-subscription-access-delegation)
     - Must have access to the [WASOC IRP](https://irp.dpc.wa.gov.au/) to raise Honey Traps request tickets.
-    - Must be able nominate a individual from your organisation to work closely with the WASOC Engineering Team during the pilot.
+    - Must be able to nominate an individual from your organisation to work closely with the WASOC Engineering Team during the pilot.
 
     The onboarding to the Honey Trap Platform is handled entirely by the WASOC Engineers and can be facilitated upon request via the [WASOC IRP](https://irp.dpc.wa.gov.au/).
 
@@ -48,7 +48,7 @@ Ideal Network Location for Honey Pot deployment:
 
 ### Honey Token Deployment
 
-Honey Tokens are virtual decoy objects suchs as Files, API Tokens, etc that mimic repositories of information that could be leveraged by Threat Actor(s) to escalate attacks on an organisation. Ideally, dependant on the object types and repositiory locations, the honey files should appear to be a realistic object that would be expected at this location. This level of deception would make the honey tokens a more ideal target for threat actors. Honey Tokens deployment is the most applicable technology for modern cloud based environments.
+Honey Tokens are virtual decoy objects such as Files, API Tokens, etc that mimic repositories of information that could be leveraged by Threat Actor(s) to escalate attacks on an organisation. Ideally, dependant on the object types and repository locations, the honey files should appear to be a realistic object that would be expected at this location. This level of deception would make the honey tokens a more ideal target for threat actors. Honey Tokens deployment is the most applicable technology for modern cloud based environments.
 
 Ideal object repository location for Honey token deployment:
 
