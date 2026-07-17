@@ -10,6 +10,11 @@
   "remoteEnv": {
     "PATH": "/home/vscode/.local/share/mise/shims:${containerEnv:PATH}"
   },
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb",
+    "storage": "32gb"
+  },
   "forwardPorts": [8000],
   "portsAttributes": {
     "8000": {
