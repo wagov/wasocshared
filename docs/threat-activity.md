@@ -18,15 +18,12 @@ Recent WASOC advisories this month worth staying across include:
 
 - [Fortinet Exploitation and Compromise Campaign FortiBleed](https://soc.cyber.wa.gov.au/advisories/20260618002-Fortinet-Compromise-Campaign-FortiBleed/)
 
-
-
 ## WASOC - General Advice
 
 The WASOC has observed consistent exploitation delivered via Phishing campaigns and 'Evil Tokens' Device Code exploitation.
 
 - [Evil-Token / Device Code Abuse](https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/)
 - For more guidance the ACSC has guidance available here [Email Hardening](https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening)
-
 
 **Security Hardening and Supply Chain Risk** remains a focus for all organisations. Please refer to the below guides to ensure all external and internal sign-ins are appropriately monitored.
 

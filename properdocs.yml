@@ -39,8 +39,6 @@ plugins:
   - search
   - macros:
       module_name: wasoc
-  - git-revision-date-localized:
-      enable_creation_date: true
   - redirects:
       redirect_maps:
         'onboarding/baseline-event-ingestion.md': 'baselines/data-sources.md'

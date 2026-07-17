@@ -6,11 +6,11 @@ The WASOC has been made aware of vulnerabilities in FreeRDP, a free implementati
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-| ------------------- | ---------- | --- | ---- | -------- |
-| FreeRDP | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31806) | [CVE-2026-31806](https://nvd.nist.gov/vuln/detail/CVE-2026-31806) | 9.8 | **Critical** |
-| FreeRDP | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31883) | [CVE-2026-31883](https://nvd.nist.gov/vuln/detail/CVE-2026-31883) | 9.4 | **Critical** |
-| FreeRDP | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31897) | [CVE-2026-31897](https://nvd.nist.gov/vuln/detail/CVE-2026-31897) | 9.1 | **Critical** |
+| Product(s) Affected | Version(s)                                                                 | CVE                                                               | CVSS | Severity     |
+| ------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| FreeRDP             | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31806) | [CVE-2026-31806](https://nvd.nist.gov/vuln/detail/CVE-2026-31806) | 9.8  | **Critical** |
+| FreeRDP             | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31883) | [CVE-2026-31883](https://nvd.nist.gov/vuln/detail/CVE-2026-31883) | 9.4  | **Critical** |
+| FreeRDP             | [Affected versions](https://access.redhat.com/security/cve/cve-2026-31897) | [CVE-2026-31897](https://nvd.nist.gov/vuln/detail/CVE-2026-31897) | 9.1  | **Critical** |
 
 ## What has been observed?
 

@@ -6,9 +6,9 @@ The WASOC has been made aware of OpenEXR HTJ2K decoder vulnerable to heap buffer
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                      | CVSS         | Severity             |
-| ------------------- | ---------- | ---------------------------------------- | ------------ | -------------------- |
-| AcademySoftwareFoundation - openexr  | affected at >= 3.4.0 through 3.4.11  | [CVE-2026-45696](https://nvd.nist.gov/vuln/detail/CVE-2026-45696)      | 8.3 | High                                  |
+| Product(s) Affected                 | Version(s)                          | CVE                                                               | CVSS | Severity |
+| ----------------------------------- | ----------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| AcademySoftwareFoundation - openexr | affected at >= 3.4.0 through 3.4.11 | [CVE-2026-45696](https://nvd.nist.gov/vuln/detail/CVE-2026-45696) | 8.3  | High     |
 
 ## What has been observed?
 

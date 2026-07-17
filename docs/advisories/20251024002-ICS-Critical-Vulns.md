@@ -13,7 +13,6 @@ CISA has released multiple critical advisories for Industrial Control Systems (I
 | ASKI Energy | [CVE-2025-9574](https://www.cve.org/CVERecord?id=CVE-2025-9574)   | 9.9  | Critical |
 | Veeder-Root | [CVE-2025-58428](https://www.cve.org/CVERecord?id=CVE-2025-58428) | 9.9  | Critical |
 
-
 ## What has been observed?
 
 The WASOC has observed reports for one or more of the mentioned items being exploited in the wild.

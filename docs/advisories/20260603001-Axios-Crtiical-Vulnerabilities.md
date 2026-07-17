@@ -6,9 +6,9 @@ Axios has issued an advisory regarding critical vulnerabilities in Axios, the pr
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE # | CVSS | Severity |
-| --- | -------------------------- | ----------------------------------------------------------------- | ---- | -------- |
-| axios | 0.x prior to 0.31.1, and <br> 1.x prior to 1.15.2 | [CVE-2026-42043](https://nvd.nist.gov/vuln/detail/CVE-2026-42043) <br> [CVE-2026-42044](https://nvd.nist.gov/vuln/detail/CVE-2026-42044) | 10.0 <br> 9.1 | Critical <br> Critical |
+| Product(s) Affected | Version(s)                                        | CVE #                                                                                                                                    | CVSS          | Severity               |
+| ------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------- |
+| axios               | 0.x prior to 0.31.1, and <br> 1.x prior to 1.15.2 | [CVE-2026-42043](https://nvd.nist.gov/vuln/detail/CVE-2026-42043) <br> [CVE-2026-42044](https://nvd.nist.gov/vuln/detail/CVE-2026-42044) | 10.0 <br> 9.1 | Critical <br> Critical |
 
 ## What has been observed?
 

@@ -1,15 +1,27 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:linux",
-	"features": {
-	  "ghcr.io/devcontainers/features/python:1": { 
-		"version": "3.11"
-	  }
-	},
-	"onCreateCommand": "mise trust && mise run sync",
-	"forwardPorts": [8000],
-	"portsAttributes": {
-		"8000": {
-			"label": "mkdocs serve"
-		}
-	}
+  "name": "WASOC Shared",
+  "image": "mcr.microsoft.com/devcontainers/base:3-ubuntu26.04",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/mise:1": {
+      "version": "2026.7.7"
+    }
+  },
+  "postCreateCommand": "mise trust && mise install && mise run install",
+  "remoteEnv": {
+    "PATH": "/home/vscode/.local/share/mise/shims:${containerEnv:PATH}"
+  },
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "ProperDocs",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hverlin.mise-vscode"
+      ]
+    }
+  }
 }

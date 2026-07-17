@@ -6,10 +6,9 @@ Insufficient validation of untrusted input in ANGLE in Google Chrome prior to 15
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                      | CVSS         | Severity             |
-| ------------------- | ---------- | ---------------------------------------- | ------------ | -------------------- |
-| ANGLE in Google Chrome      | prior to 150.0.7871.46    | [CVE-2026-14382](https://nvd.nist.gov/vuln/detail/CVE-2026-14382)      | 9.6    | **Critical** |
-
+| Product(s) Affected    | Version(s)             | CVE                                                               | CVSS | Severity     |
+| ---------------------- | ---------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| ANGLE in Google Chrome | prior to 150.0.7871.46 | [CVE-2026-14382](https://nvd.nist.gov/vuln/detail/CVE-2026-14382) | 9.6  | **Critical** |
 
 ## What has been observed?
 
@@ -20,4 +19,3 @@ The WASOC has not received any reports of exploitation of this vulnerability on 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
 - Google: <https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0175352312.html>
-

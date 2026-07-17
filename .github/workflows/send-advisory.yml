@@ -13,23 +13,27 @@ permissions:
 
 jobs:
   send-modified-files:
-    name: Send advisory files created in last hour
-    runs-on: ubuntu-latest
+    name: Send new advisory files
+    runs-on: ubuntu-26.04
     environment:
       name: communication
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@bf7454d06d71f1098171f2acdf0cd4708d7b5920 # v2.20.0
+        with:
+          egress-policy: audit
+
       - name: Checkout docs
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           fetch-depth: 2
 
-      - name: Setup mise
-        uses: jdx/mise-action@1648a7812b9aeae629881980618f079932869151 # v4.0.1
-
-      - name: Install dependencies
-        run: mise run sync
+      - name: Set up mise
+        uses: jdx/mise-action@dad1bfd3df957f44999b559dd69dc1671cb4e9ea # v4.2.1
+        with:
+          version: 2026.7.7
 
       - name: Send advisories
         env:
           SENDGRID_API: ${{ secrets.SENDGRID_API }}
-        run: uv run python -m wasoc.send_advisory --auto
+        run: mise run send-advisory

@@ -1,4 +1,4 @@
-# Chromium Kernel Critical Vulnerability - 2026MMDD00#
+# Chromium Kernel Critical Vulnerability - 2026MMDD00\#
 
 ## Overview
 
@@ -8,17 +8,15 @@ Google has published an update addressing multiple security vulnerabilities affe
 
 ### Critical Severity
 
-| Product(s) and Versions Affected | CVE | CVSS | Severity |
-| --- | --- | --- | --- |
-| Chromium-based Browsers <br> - Google Chrome <br> - Microsoft Edge <br> - Brave <br> - Vivaldi | [CVE-xxxx-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-xxxx-xxxxx) | x.x | Critical |
-
+| Product(s) and Versions Affected                                                               | CVE                                                               | CVSS | Severity |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Chromium-based Browsers <br> - Google Chrome <br> - Microsoft Edge <br> - Brave <br> - Vivaldi | [CVE-xxxx-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-xxxx-xxxxx) | x.x  | Critical |
 
 ### Known Exploitation
 
-| Product(s) and Versions Affected | CVE | CVSS | Severity |
-| --- | --- | --- | --- |
-| Chromium-based Browsers <br> - Google Chrome <br> - Microsoft Edge <br> - Brave <br> - Vivaldi | [CVE-xxxx-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-xxxx-xxxxx) | x.x |  |
-
+| Product(s) and Versions Affected                                                               | CVE                                                               | CVSS | Severity |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Chromium-based Browsers <br> - Google Chrome <br> - Microsoft Edge <br> - Brave <br> - Vivaldi | [CVE-xxxx-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-xxxx-xxxxx) | x.x  |          |
 
 ## What has been observed?
 

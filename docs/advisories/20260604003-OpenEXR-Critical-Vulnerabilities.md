@@ -6,9 +6,9 @@ The WASOC has been made aware of two critical vulnerabilities affecting OpenEXR.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-|--------------------|------------|-----|------|----------|
-| OpenEXR | All versions prior to 3.2.9 <br> 3.3.x prior to 3.3.11 <br> 3.4.x prior to 3.4.11 | [CVE-2026-42216](https://nvd.nist.gov/vuln/detail/CVE-2026-42216) <br> [CVE-2026-42217](https://nvd.nist.gov/vuln/detail/CVE-2026-42217) | 9.1 <br> 9.8 | **Critical** <br> **Critical** |
+| Product(s) Affected | Version(s)                                                                        | CVE                                                                                                                                      | CVSS         | Severity                       |
+| ------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------ |
+| OpenEXR             | All versions prior to 3.2.9 <br> 3.3.x prior to 3.3.11 <br> 3.4.x prior to 3.4.11 | [CVE-2026-42216](https://nvd.nist.gov/vuln/detail/CVE-2026-42216) <br> [CVE-2026-42217](https://nvd.nist.gov/vuln/detail/CVE-2026-42217) | 9.1 <br> 9.8 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 
