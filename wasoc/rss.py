@@ -22,6 +22,7 @@ from .common import (
 
 RECENT_DAYS = 180
 EXCLUDED_PARTS = {"ADS_forms", "markdown-templates"}
+EXCLUDED_FILES = {DOCS_DIR / "README.md", DOCS_DIR / "threat-activity.md"}
 
 
 @dataclass(frozen=True)
@@ -34,7 +35,7 @@ class FeedEntry:
 
 
 def is_excluded(path: Path) -> bool:
-    return any(part in EXCLUDED_PARTS for part in path.parts)
+    return path in EXCLUDED_FILES or any(part in EXCLUDED_PARTS for part in path.parts)
 
 
 def recently_changed_markdown(days: int = RECENT_DAYS) -> list[Path]:

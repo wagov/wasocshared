@@ -1,4 +1,4 @@
-# Microsoft Critical Monthly Updates - 2026MMDD00#
+# Microsoft Critical Monthly Updates - 2026MMDD00\#
 
 ## Overview
 
@@ -8,17 +8,15 @@ Microsoft have published their Monthly Updates addressing multiple critical vuln
 
 ### Critical Severity
 
-| Product(s) and Versions Affected | CVE | CVSS | Severity |
-| --- | --- | --- | --- |
-| Vendor listed products and versions [hyperlinked to the Microsoft monthly updates page] | [CVE-xxxx-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-xxxx-xxxxx) | x.x |  |
-
+| Product(s) and Versions Affected                                                        | CVE                                                               | CVSS | Severity |
+| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Vendor listed products and versions [hyperlinked to the Microsoft monthly updates page] | [CVE-xxxx-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-xxxx-xxxxx) | x.x  |          |
 
 ### Known Exploitation
 
-| Product(s) and Versions Affected | CVE | CVSS | Severity |
-| --- | --- | --- | --- |
-| Vendor listed products and versions [hyperlinked to the Microsoft monthly updates page] | [CVE-xxxx-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-xxxx-xxxxx) | x.x |  |
-
+| Product(s) and Versions Affected                                                        | CVE                                                               | CVSS | Severity |
+| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| Vendor listed products and versions [hyperlinked to the Microsoft monthly updates page] | [CVE-xxxx-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-xxxx-xxxxx) | x.x  |          |
 
 ## What has been observed?
 

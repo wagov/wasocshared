@@ -1,10 +1,9 @@
 nohup.out
 __pycache__
 site
+.venv
 .ipynb_checkpoints
 .DS_Store
 .swp
-.venv
 .ruff_cache
-
 .pytest_cache

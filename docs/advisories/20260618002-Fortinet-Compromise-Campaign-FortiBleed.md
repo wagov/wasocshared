@@ -29,7 +29,7 @@ The WASOC recommends administrators utilising Fortinet-based services perform th
 
 The WASOC recommends regularly monitoring the following resources for further information and further developements:
 
--   Researcher Blog:  <https://www.linkedin.com/feed/update/urn:li:activity:7472221360279207936/>
--   SOCRadar Blog:  <https://socradar.io/blog/fortibleed-fortinet-firewalls-compromised/>
--   SOCRadar Check Tool:  <https://socradar.io/free-tools/fortibleed>
--   HudsonRock Blog:  <https://www.infostealers.com/article/fortibleed-75000-fortinet-firewalls-compromised-global-enterprises-exposed-claim-your-ethical-disclosure/>
+- Researcher Blog: <https://www.linkedin.com/feed/update/urn:li:activity:7472221360279207936/>
+- SOCRadar Blog: <https://socradar.io/blog/fortibleed-fortinet-firewalls-compromised/>
+- SOCRadar Check Tool: <https://socradar.io/free-tools/fortibleed>
+- HudsonRock Blog: <https://www.infostealers.com/article/fortibleed-75000-fortinet-firewalls-compromised-global-enterprises-exposed-claim-your-ethical-disclosure/>

@@ -8,9 +8,9 @@ CISA has released multiple advisories for Industrial Control Systems (ICS) relat
 
 ### Critical Severity
 
-| Vendor | CVE | CVSS | Severity |
-| ------ | --- | ---- | -------- |
-| [Schneider Electric](https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01) | [CVE-2026-11697](https://nvd.nist.gov/vuln/detail/CVE-2026-11697) | 9.0 | Critical |
+| Vendor                                                                               | CVE                                                               | CVSS | Severity |
+| ------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ---- | -------- |
+| [Schneider Electric](https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01) | [CVE-2026-11697](https://nvd.nist.gov/vuln/detail/CVE-2026-11697) | 9.0  | Critical |
 
 ## Recommendation
 

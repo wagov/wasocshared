@@ -1,0 +1,59 @@
+min_version = "2026.7.7"
+
+[tools]
+python = "3.14.6"
+uv = "0.11.29"
+
+[settings]
+python.uv_venv_auto = "create|source"
+
+[env]
+UV_LINK_MODE = "copy"
+
+[tasks.install]
+description = "Install locked Python dependencies"
+run = "uv sync --frozen"
+
+[tasks.build]
+description = "Build the site with strict checks"
+depends = ["install"]
+run = "uv run --frozen properdocs build --strict"
+
+[tasks.serve]
+description = "Serve the site on port 8000"
+depends = ["install"]
+run = "uv run --frozen properdocs serve --dev-addr 0.0.0.0:8000"
+
+[tasks.format]
+description = "Format Markdown files"
+depends = ["install"]
+run = "uv run --frozen mdformat --no-mkdocs-math --exclude '.venv/**' --exclude '.pytest_cache/**' --exclude 'site/**' ."
+
+[tasks.format-check]
+description = "Check Markdown formatting"
+depends = ["install"]
+run = "uv run --frozen mdformat --check --no-mkdocs-math --exclude '.venv/**' --exclude '.pytest_cache/**' --exclude 'site/**' ."
+
+[tasks.lint]
+description = "Lint Python and TOML"
+depends = ["install"]
+run = "uv run --frozen ruff check . && uv run --frozen taplo check pyproject.toml mise.toml"
+
+[tasks.unit]
+description = "Run unit tests"
+depends = ["install"]
+run = "uv run --frozen python -m pytest"
+
+[tasks.feeds]
+description = "Generate RSS and Atom feeds in site/"
+depends = ["build"]
+run = "uv run --frozen python -m wasoc.rss"
+
+[tasks.ci]
+description = "Run all continuous integration checks"
+depends = ["format-check", "lint", "unit", "feeds"]
+
+[tasks.send-advisory]
+description = "Send new advisories through SendGrid"
+depends = ["install"]
+run = "uv run --frozen python -m wasoc.send_advisory --auto"

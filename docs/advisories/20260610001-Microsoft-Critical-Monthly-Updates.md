@@ -19,7 +19,6 @@ Microsoft have published their Monthly Updates addressing multiple critical vuln
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-47281) | [CVE-2026-47281](https://nvd.nist.gov/vuln/detail/CVE-2026-47281) | 9.6  |
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-45602) | [CVE-2026-45602](https://nvd.nist.gov/vuln/detail/CVE-2026-45602) | 9.1  |
 
-
 ## What has been observed?
 
 The WASOC has observed reports for one or more of the mentioned items being exploited in the wild.

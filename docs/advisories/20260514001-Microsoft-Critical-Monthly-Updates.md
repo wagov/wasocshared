@@ -21,13 +21,11 @@ CVE-2026-41089 (Windows Netlogon) now has reports of being actively exploited in
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42833) | [CVE-2026-42833](https://nvd.nist.gov/vuln/detail/CVE-2026-42833) | 9.1  |
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42898) | [CVE-2026-42898](https://nvd.nist.gov/vuln/detail/CVE-2026-42898) | 9.9  |
 
-
 ### Known Exploitation
 
 | Product(s) Affected and Versions                                                                                  | CVE                                                               | CVSS |
 | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- |
 | [Vendor listed products and versions](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-41089) | [CVE-2026-41089](https://nvd.nist.gov/vuln/detail/CVE-2026-41089) | 9.8  |
-
 
 ## What has been observed?
 
