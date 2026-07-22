@@ -26,5 +26,8 @@ jobs:
         with:
           version: 2026.7.7
 
+      - name: Run formatter
+        run: mise run format
+
       - name: Run checks
         run: mise run ci

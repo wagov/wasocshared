@@ -16,12 +16,12 @@ run = "uv sync --frozen"
 
 [tasks.build]
 description = "Build the site with strict checks"
-depends = ["install"]
+depends = ["format"]
 run = "uv run --frozen properdocs build --strict"
 
 [tasks.serve]
 description = "Serve the site on port 8000"
-depends = ["install"]
+depends = ["format"]
 run = "uv run --frozen properdocs serve --dev-addr 0.0.0.0:8000"
 
 [tasks.format]
