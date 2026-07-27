@@ -10,7 +10,7 @@ It is recommended to deploy Microsoft Sentinel in the **Australia East** region 
 
 !!! note "Transition your Microsoft Sentinel experience from the Azure portal to the Defender portal"
 
-    Important Update: Microsoft is transitioning the Microsoft Sentinel experience from the Azure portal to the Microsoft Defender portal and by July 1, 2026 the Azure portal experience for Microsoft Sentinel will be retired. For customers with an existing workspace enabled for Microsoft Sentinel in order to transition to Microsoft Defender follow the [Transition Microsoft Sentinel environment to the Defender portal Guide](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender)
+    Important Update: Microsoft is transitioning the Microsoft Sentinel experience from the Azure portal to the Microsoft Defender portal and by [March 31, 2027](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/update-new-timeline-for-transitioning-sentinel-experience-to-defender-portal/4490464) the Azure portal experience for Microsoft Sentinel will be retired. For customers with an existing workspace enabled for Microsoft Sentinel in order to transition to Microsoft Defender follow the [Transition Microsoft Sentinel environment to the Defender portal Guide](https://learn.microsoft.com/en-us/azure/sentinel/move-to-defender)
 
 ## 2. Telemetry to collect (prioritised)
 
