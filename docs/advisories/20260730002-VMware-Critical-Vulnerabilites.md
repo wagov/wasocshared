@@ -1,4 +1,4 @@
-# Multiple-VMware-Critical-Vulnerabilities - 20260730002
+# Multiple VMware Critical Vulnerabilities - 20260730002
 
 ## Overview
 
