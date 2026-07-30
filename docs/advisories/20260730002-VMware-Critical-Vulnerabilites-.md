@@ -8,12 +8,12 @@ Broadcom has released a security advisory addressing multiple critical vulnerabi
 
 | Product(s) Affected | Version(s) | CVE | CVSS | Severity |
 |----------------------|------------|-----|------|----------|
-| VMware Cloud Foundation | 9.1.x.x, 9.0.x.x, 5.x | CVE-2026-59309<br>CVE-2026-59310<br>CVE-2026-47876 | 9.8<br>9.8<br>9.3 | **Critical** |
-| VMware vSphere Foundation | 9.1.x.x, 9.0.x.x | CVE-2026-59309<br>CVE-2026-59310<br>CVE-2026-47876 | 9.8<br>9.8<br>9.3 | **Critical** |
-| VMware vCenter | 8.0 | CVE-2026-59309<br>CVE-2026-59310 | 9.8<br>9.8 | **Critical** |
-| VMware ESX | 8.0 | CVE-2026-47876 | 9.3 | **Critical** |
-| VMware Telco Cloud Platform | 3.0, 4.x, 5.0.x, 5.1.x | CVE-2026-59309<br>CVE-2026-59310<br>CVE-2026-47876 | 9.8<br>9.8<br>9.3 | **Critical** |
-| VMware Telco Cloud Infrastructure | 3.0 | CVE-2026-59309<br>CVE-2026-59310 | 9.8<br>9.8 | **Critical** |
+| VMware Cloud Foundation | 9.1.x.x, 9.0.x.x, 5.x | [CVE-2026-59309](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017)<br>[CVE-2026-59310](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017)<br>[CVE-2026-47876](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017) | 9.8<br>9.8<br>9.3 | **Critical** |
+| VMware vSphere Foundation | 9.1.x.x, 9.0.x.x | [CVE-2026-59309](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017)<br>[CVE-2026-59310](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017)<br>[CVE-2026-47876](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017) | 9.8<br>9.8<br>9.3 | **Critical** |
+| VMware vCenter | 8.0 | [CVE-2026-59309](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017)<br>[CVE-2026-59310](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017) | 9.8<br>9.8 | **Critical** |
+| VMware ESX | 8.0 | [CVE-2026-47876](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017) | 9.3 | **Critical** |
+| VMware Telco Cloud Platform | 3.0, 4.x, 5.0.x, 5.1.x | [CVE-2026-59309](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017)<br>[CVE-2026-59310](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017)<br>[CVE-2026-47876](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017) | 9.8<br>9.8<br>9.3 | **Critical** |
+| VMware Telco Cloud Infrastructure | 3.0 | [CVE-2026-59309](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017)<br>[CVE-2026-59310](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017) | 9.8<br>9.8 | **Critical** |
 ## What has been observed?
 
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
