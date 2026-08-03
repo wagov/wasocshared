@@ -6,7 +6,7 @@ readme = "docs/README.md"
 requires-python = ">=3.14,<3.15"
 dependencies = [
   "feedgen==1.0.0",
-  "markdown==3.10.2",
+  "markdown==3.10.3",
   "mkdocs-macros-plugin==1.5.0",
   "mkdocs-material==9.7.6",
   "mkdocs-redirects==1.2.3",
