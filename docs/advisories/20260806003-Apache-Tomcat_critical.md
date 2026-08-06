@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WASOC has been made aware of a vulnerability in Apache Tomcat where encryption handling allows the EncryptInterceptor to be bypassed, potentially exposing sensitive data that should have been protected. CISA has added the vulnerability to the Known Exploited Vulnerabilities Catalog and the Apache organisation is encouraging affected organisations to apply the relavant security patches.
+The WASOC has been made aware of a vulnerability in Apache Tomcat where encryption handling allows the EncryptInterceptor to be bypassed, potentially exposing sensitive data that should have been protected. CISA has added the vulnerability to the Known Exploited Vulnerabilities Catalog and the Apache organisation is encouraging affected organisations to apply the relevant security patches.
 
 ## What is vulnerable?
 
