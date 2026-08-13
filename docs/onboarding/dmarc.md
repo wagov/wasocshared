@@ -24,7 +24,7 @@ When threat actors attempt to exploit or spoof organisational domains, DMARC rep
     - Must have been already onboarded to the WASOC via [Azure Lighthouse](https://soc.cyber.wa.gov.au/onboarding/#23-azure-subscription-access-delegation)
     - Must have access to the [WASOC IRP](https://irp.dpc.wa.gov.au/) to raise DMARC request tickets.
     - Must be able nominate a individual from your organisation to work closely with the WASOC Engineering Team during the pilot.
-    - Understanding of Email Authentication Records (more information on SPF, DKIM and DMARC can be found here: https://support.powerdmarc.com/support/solutions/60000334233).
+    - Understanding of Email Authentication Records (more information on SPF, DKIM and DMARC can be found [here](https://support.powerdmarc.com/support/solutions/60000334233).
     - Ability to publish DMARC records in your DNS management console.
     - Existing SPF and/or DKIM records in your DNS
 
@@ -34,7 +34,7 @@ When threat actors attempt to exploit or spoof organisational domains, DMARC rep
 
 ## Onboarding Process
 
-The WASOC has developed guidance to assist Western Australian Government entities in integrating DMARC monitoring and reporting capabilities into their existing Microsoft Sentinel workspaces.This can be found at our [Github repository](https://github.com/wagov/wasoc-dmarc/) for DMARC.
+The WASOC has developed guidance to assist Western Australian Government entities in integrating DMARC monitoring and reporting capabilities into their existing Microsoft Sentinel workspaces. This can be found at our [Github repository](https://github.com/wagov/wasoc-dmarc/) for DMARC.
 
 ## DMARC Guidance
 
@@ -42,18 +42,22 @@ DMARC is an email authentication protocol that builds on SPF and DKIM to help or
 
 Key Components of DMARC Deployment:
 
--   Sender Policy Framework (SPF) :\
+-   Sender Policy Framework (SPF) :
+
     Defines which mail servers are authorised to send emails on behalf of the domain.
--   DomainKeys Identified Mail (DKIM):\
+-   DomainKeys Identified Mail (DKIM):
+
     Provides cryptographic validation that email content has not been altered and confirms the sender's domain identity.
--   DMARC Policy:\
+-   DMARC Policy:
+
     Specifies how receiving systems should handle messages that fail SPF/DKIM checks:
 
     - none: monitoring only
     - quarantine: mark as suspicious    
     - reject: block the message
 
--   Reporting (RUA/RUF):\
+-   Reporting (RUA/RUF):
+
     Enables aggregate and forensic feedback from receiving systems to provide insight into email authentication performance and potential abuse.
 
 ### DMARC Deployment Approach
