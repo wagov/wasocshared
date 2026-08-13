@@ -24,9 +24,6 @@ When threat actors attempt to exploit or spoof organisational domains, DMARC rep
     - Must have been already onboarded to the WASOC via [Azure Lighthouse](https://soc.cyber.wa.gov.au/onboarding/#23-azure-subscription-access-delegation)
     - Must have access to the [WASOC IRP](https://irp.dpc.wa.gov.au/) to raise DMARC request tickets.
     - Must be able nominate a individual from your organisation to work closely with the WASOC Engineering Team during the pilot.
-    - Understanding of Email Authentication Records (more information on SPF, DKIM and DMARC can be found here: https://support.powerdmarc.com/support/solutions/60000334233).
-    - Ability to publish DMARC records in your DNS management console.
-    - Existing SPF and/or DKIM records in your DNS
 
     The onboarding to the DMARC Platform is handled entirely by the WASOC and can be facilitated upon request via the [WASOC IRP](https://irp.dpc.wa.gov.au/).
 
@@ -34,7 +31,7 @@ When threat actors attempt to exploit or spoof organisational domains, DMARC rep
 
 ## Onboarding Process
 
-The WASOC has developed guidance to assist Western Australian Government entities in integrating DMARC monitoring and reporting capabilities into their existing Microsoft Sentinel workspaces.This can be found at our [Github repository](https://github.com/wagov/wasoc-dmarc/) for DMARC.
+The WASOC has developed guidance to assist Western Australian Government entities in integrating DMARC monitoring and reporting capabilities into their existing Microsoft Sentinel workspaces.This can be found at the [Github pages](https://wagov.github.io/wasoc-dmarc/) or at our [Github repository](https://github.com/wagov/wasoc-dmarc/) for DMARC.
 
 ## DMARC Guidance
 
