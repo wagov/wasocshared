@@ -13,7 +13,7 @@ Microsoft have released a security advisory for a critical authentication bypass
 ## What has been observed?
 
 CISA has added one or more of the mentioned items to their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) (KEV) catalogue.
-The WASOC has not received reports of exploitation on Western Australian Government networks.
+The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
 
