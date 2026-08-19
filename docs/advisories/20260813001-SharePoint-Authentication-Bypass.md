@@ -1,4 +1,4 @@
-# Microsoft Sharepoint Authentication Bypass - 20260813001
+# Microsoft SharePoint Authentication Bypass - 20260813001
 
 ## Overview
 
@@ -12,6 +12,7 @@ Microsoft have released a security advisory for a critical authentication bypass
 
 ## What has been observed?
 
+CISA has added one or more of the mentioned items to their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) (KEV) catalogue.
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
@@ -19,3 +20,8 @@ The WASOC has not received any reports of exploitation of this vulnerability on 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
 - Microsoft: <https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55040>
+
+### Change Log
+
+- 2026-08-13: Initial publication
+- 2026-08-19: Observed added to CISA KEV catalogue.
