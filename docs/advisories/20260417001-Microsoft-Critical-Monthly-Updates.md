@@ -18,6 +18,8 @@ Microsoft have published their Monthly Updates addressing multiple critical and 
 | Product(s) Affected                                                                                  | CVE                                                               | CVSS | Severity |
 | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
 | [Vendor listed affected items](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32201) | [CVE-2026-32201](https://nvd.nist.gov/vuln/detail/CVE-2026-32201) | 6.5  | Medium   |
+[Vendor listed affected items](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33824) | [CVE-2026-33824](https://nvd.nist.gov/vuln/detail/CVE-2026-33824) | 9.8  | Critical   |
+
 
 ## What has been observed?
 
