@@ -17,13 +17,14 @@ Microsoft have published their Monthly Updates addressing multiple critical and 
 
 | Product(s) Affected                                                                                  | CVE                                                               | CVSS | Severity |
 | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---- | -------- |
+| [Vendor listed affected items](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33824) | [CVE-2026-33824](https://nvd.nist.gov/vuln/detail/CVE-2026-33824) | 9.8  | Critical |
 | [Vendor listed affected items](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32201) | [CVE-2026-32201](https://nvd.nist.gov/vuln/detail/CVE-2026-32201) | 6.5  | Medium   |
-[Vendor listed affected items](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33824) | [CVE-2026-33824](https://nvd.nist.gov/vuln/detail/CVE-2026-33824) | 9.8  | Critical   |
+
 
 
 ## What has been observed?
 
-Microsoft has detected exploitation of one or more mentioned Vulnerabilities.
+Microsoft has detected exploitation of one or more mentioned vulnerabilities.
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
@@ -31,3 +32,8 @@ The WASOC has not received any reports of exploitation of this vulnerability on 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
 - Microsoft Security Updates: <https://msrc.microsoft.com/update-guide/releaseNote/2026-Apr>
+
+### Change Log
+
+- 2026-04-17: Initial publication.
+- 2026-08-19: Observation of Microsoft detecting exploitation.
