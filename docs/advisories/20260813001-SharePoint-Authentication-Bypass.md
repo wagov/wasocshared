@@ -12,8 +12,7 @@ Microsoft have released a security advisory for a critical authentication bypass
 
 ## What has been observed?
 
-The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
-
+The WASOC has not received reports of exploitation on Western Australian Government networks. However, CVE-2026-55040 has since been added to the CISA Known Exploited Vulnerabilities (KEV) Catalogue, indicating active exploitation in the wild.
 ## Recommendation
 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
