@@ -6,16 +6,14 @@ Citrix has released security updates to address high-severity vulnerabilities (C
 
 CISA encourages users and administrators to review Citrix security bulletins.
 
-
 ## What is the vulnerability?
 
-| CVE | CVSS | Severity |
-| --- | ---- | -------- |
-| [CVE-2023-24483](https://nvd.nist.gov/vuln/detail/CVE-2023-24483) | 7.8 | High |
-| [CVE-2023-24484](https://nvd.nist.gov/vuln/detail/CVE-2023-24484) | 5.5 | Medium |
-| [CVE-2023-24485](https://nvd.nist.gov/vuln/detail/CVE-2023-24485) | 7.8 | High |
-| [CVE-2023-24486](https://nvd.nist.gov/vuln/detail/CVE-2023-24486) | 5.5 | Medium |
-
+| CVE                                                               | CVSS | Severity |
+| ----------------------------------------------------------------- | ---- | -------- |
+| [CVE-2023-24483](https://nvd.nist.gov/vuln/detail/CVE-2023-24483) | 7.8  | High     |
+| [CVE-2023-24484](https://nvd.nist.gov/vuln/detail/CVE-2023-24484) | 5.5  | Medium   |
+| [CVE-2023-24485](https://nvd.nist.gov/vuln/detail/CVE-2023-24485) | 7.8  | High     |
+| [CVE-2023-24486](https://nvd.nist.gov/vuln/detail/CVE-2023-24486) | 5.5  | Medium   |
 
 ## Recommendation
 
@@ -24,7 +22,6 @@ Due to the report of active exploitation, it is strongly recommended to patch th
 - [CTX477616](https://support.citrix.com/article/CTX477616/citrix-virtual-apps-and-desktops-security-bulletin-for-cve20232448)
 - [CTX477617](https://support.citrix.com/article/CTX477617/citrix-workspace-app-for-windows-security-bulletin-for-cve202324484-cve202324485)
 - [CTX477618](https://support.citrix.com/article/CTX477618/citrix-workspace-app-for-linux-security-bulletin-for-cve202324486)
-
 
 ## Additional References
 

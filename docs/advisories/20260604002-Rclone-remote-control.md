@@ -2,15 +2,15 @@
 
 ## Overview
 
-The WASOC has been made aware of a remote control vulnerability exists in Rclone when exposed Remote Control (RC) endpoint is exploited to disable the authorisation mechanism and other RC methods. 
+The WASOC has been made aware of a remote control vulnerability exists in Rclone when exposed Remote Control (RC) endpoint is exploited to disable the authorisation mechanism and other RC methods.
 
 This will allow an attacker to gain access to sensitive data and execute arbitary local commands to gain control of the Rclone server.
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE                                                                                                                                      | CVSS         | Severity                                                       |
-| ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
-| Rclone     |  from 1.4.9 before 1.73.5   | [CVE-2026-41176](https://nvd.nist.gov/vuln/detail/CVE-2026-41176) <br> [CVE-2026-41179](https://nvd.nist.gov/vuln/detail/CVE-2026-41179) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
+| Product(s) Affected | Version(s)               | CVE                                                                                                                                      | CVSS         | Severity                       |
+| ------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------ |
+| Rclone              | from 1.4.9 before 1.73.5 | [CVE-2026-41176](https://nvd.nist.gov/vuln/detail/CVE-2026-41176) <br> [CVE-2026-41179](https://nvd.nist.gov/vuln/detail/CVE-2026-41179) | 9.8 <br> 9.8 | **Critical** <br> **Critical** |
 
 ## What has been observed?
 

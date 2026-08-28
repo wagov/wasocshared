@@ -117,3 +117,9 @@ def test_feed_updated_uses_latest_entry():
         rss.FeedEntry("b", "u", "o", "2026-02-01 00:00:00 +0000", "c"),
     ]
     assert rss.feed_updated(entries) == "2026-02-01 00:00:00 +0000"
+
+
+def test_feed_excludes_non_feed_documents():
+    assert rss.is_excluded(Path("docs/README.md"))
+    assert rss.is_excluded(Path("docs/threat-activity.md"))
+    assert rss.is_excluded(Path("docs/guidelines/TTP_Hunt/ADS_forms/example.md"))

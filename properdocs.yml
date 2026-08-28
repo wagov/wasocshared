@@ -39,8 +39,6 @@ plugins:
   - search
   - macros:
       module_name: wasoc
-  - git-revision-date-localized:
-      enable_creation_date: true
   - redirects:
       redirect_maps:
         'onboarding/baseline-event-ingestion.md': 'baselines/data-sources.md'
@@ -78,6 +76,7 @@ nav:
   - SOC Onboarding: onboarding.md
   - Sentinel Guidance: onboarding/sentinel-guidance.md
   - Honey Traps: onboarding/honey-traps.md
+  - DMARC (Pilot): onboarding/dmarc.md
 - Advisories (TLP:CLEAR): advisories.md
 - ACSC Strategies to Mitigate: guidelines/further-five.md
 - Threat Hunting (TTPs): guidelines/TTP_Hunt/ttp-detection-guidelines.md

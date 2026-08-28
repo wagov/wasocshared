@@ -8,9 +8,9 @@ The vulnerability allows an attacker to exploit Embedded-nul hostnames can lead 
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS 3.0 | Severity | 
-|---------------------|------------|-----|----------|----------|
-| Node.js             | 26.x prior to 26.3.1 <br> 24.x prior to 24.17.0 <br> 22.x prior to 22.23.0 | [CVE-2026-48930](https://nvd.nist.gov/vuln/detail/CVE-2026-48930) | 9.8 | Critical |
+| Product(s) Affected | Version(s)                                                                 | CVE                                                               | CVSS 3.0 | Severity |
+| ------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------- | -------- | -------- |
+| Node.js             | 26.x prior to 26.3.1 <br> 24.x prior to 24.17.0 <br> 22.x prior to 22.23.0 | [CVE-2026-48930](https://nvd.nist.gov/vuln/detail/CVE-2026-48930) | 9.8      | Critical |
 
 ## What has been observed?
 

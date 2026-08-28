@@ -8,11 +8,11 @@ Successful exploitation may allow attackers to cause denial of service, memory c
 
 ## What is vulnerable?
 
-| Product(s) Affected | Version(s) | CVE | CVSS | Severity |
-| ------------------- | ---------- | ---- | ----- | -------- |
-| ABB Ability Camera Connect | 1.5.0.14 and earlier | [CVE-2023-47359](https://nvd.nist.gov/vuln/detail/CVE-2023-47359) | 9.8 | **Critical** |
-| ABB Ability Camera Connect | 1.5.0.14 and earlier | [CVE-2019-13962](https://nvd.nist.gov/vuln/detail/CVE-2019-13962) | 9.8 | **Critical** |
-| ABB Ability Camera Connect | 1.5.0.14 and earlier | [CVE-2017-10699](https://nvd.nist.gov/vuln/detail/CVE-2017-10699) | 9.8 | **Critical** |
+| Product(s) Affected        | Version(s)           | CVE                                                               | CVSS | Severity     |
+| -------------------------- | -------------------- | ----------------------------------------------------------------- | ---- | ------------ |
+| ABB Ability Camera Connect | 1.5.0.14 and earlier | [CVE-2023-47359](https://nvd.nist.gov/vuln/detail/CVE-2023-47359) | 9.8  | **Critical** |
+| ABB Ability Camera Connect | 1.5.0.14 and earlier | [CVE-2019-13962](https://nvd.nist.gov/vuln/detail/CVE-2019-13962) | 9.8  | **Critical** |
+| ABB Ability Camera Connect | 1.5.0.14 and earlier | [CVE-2017-10699](https://nvd.nist.gov/vuln/detail/CVE-2017-10699) | 9.8  | **Critical** |
 
 ## What has been observed?
 
