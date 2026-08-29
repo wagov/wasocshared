@@ -8,7 +8,7 @@ dependencies = [
   "feedgen==1.0.0",
   "markdown==3.10.2",
   "mkdocs-macros-plugin==1.5.0",
-  "mkdocs-material==9.7.6",
+  "mkdocs-material==9.7.7",
   "mkdocs-redirects==1.2.3",
   "properdocs==1.6.7",
   "pymdown-extensions==11.0.1",
