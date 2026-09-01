@@ -2,7 +2,7 @@
 
 ## Overview
 
-Critical vulnerabilities affecting PaperCut NG/MF are being actively exploited. Successful exploitation may allow unauthenticated attackers to modify system configurations and achieve remote code execution. Organisations using PaperCut NG/MF should apply the latest security patches immediately and restrict access to PaperCut management interfaces to trusted networks only.
+Critical vulnerabilities affecting PaperCut NG/MF are being actively exploited. Successful exploitation may allow unauthenticated attackers to modify system configurations and achieve remote code execution. Organisations using PaperCut NG/MF should apply the latest security patches immediately and restrict access to PaperCut management interfaces to trusted networks only. At the time of writing, PaperCut has advised that it is continuing to work towards an official release addressing these vulnerabilities. 
 
 ## What is vulnerable?
 
@@ -17,6 +17,7 @@ The WASOC has not received any reports of exploitation of this vulnerability on 
 
 ## Recommendation
 
+Administrators are encouraged to regularly review the vendor's security advisory page for the latest updates, patches and remediation guidance as PaperCut continues to investigate and respond to these vulnerabilities.
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
 - PaperCut: <https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/>
