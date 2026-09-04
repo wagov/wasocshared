@@ -28,5 +28,4 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 ## Additional References
 
 - GitHub: <https:​/​/​github.​com/​advisories/​GHSA-​mjg5-​wj9r-​9mfx>
-  
 - GitHub: <https:​/​/​github.​com/​advisories/​GHSA-​44wc-​j6f2-​7fjr>
