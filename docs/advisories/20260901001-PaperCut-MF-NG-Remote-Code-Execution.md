@@ -15,7 +15,7 @@ At the time of writing, PaperCut have released emergency patches and has advised
 
 ## What has been observed?
 
-PaperCut Software security response team is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF.
+CISA has added these vulnerabilities into their [Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) catalogue.
 The WASOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
@@ -28,4 +28,5 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 ## Additional References
 
 - GitHub: <https:​/​/​github.​com/​advisories/​GHSA-​mjg5-​wj9r-​9mfx>
+  
 - GitHub: <https:​/​/​github.​com/​advisories/​GHSA-​44wc-​j6f2-​7fjr>
