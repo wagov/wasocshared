@@ -29,17 +29,17 @@ Further information on Windows Security Event logging can be found in the [Windo
 ## Recommended Logging Model
 
 ```text
-Domain Controllers:
-  Common + Process Creation
+🏛️ Domain Controllers
+   └─ Common Security Events + Process Creation
 
-Tier 0 Systems:
-  Common + Process Creation
+🔐 Tier 0 Systems
+   └─ Common Security Events + Process Creation
 
-General Servers:
-  Common
+🖥️ General Servers
+   └─ Common Security Events
 
-Workstations:
-  Minimal or Common depending on risk profile
+👨‍💼 Workstations & End User Devices
+   └─ Minimal or Common Security Events (depending on risk profile)
 ```
 
 ---
@@ -73,18 +73,18 @@ Workstations:
 
     Key Event IDs
 
-    4624  Successful Logon
-    4625  Failed Logon
-    4672  Privileged Logon
-    4720  User Account Created
-    4726  User Account Deleted
-    4732  User Added to Privileged Group
-    4740  Account Locked Out
-    4768  Kerberos TGT Request
-    4769  Kerberos Service Ticket Request
-    4776  NTLM Authentication
-    7045  Service Installed
-    4688  Process Creation
+    - 4624  Successful Logon
+    - 4625  Failed Logon
+    - 4672  Privileged Logon
+    - 4720  User Account Created
+    - 4726  User Account Deleted
+    - 4732  User Added to Privileged Group
+    - 4740  Account Locked Out
+    - 4768  Kerberos TGT Request
+    - 4769  Kerberos Service Ticket Request
+    - 4776  NTLM Authentication
+    - 7045  Service Installed
+    - 4688  Process Creation
 
 ??? note "Tier 0 Systems"
 
@@ -117,20 +117,20 @@ Workstations:
 
     Key Event IDs
 
-    4624  Successful Logon
-    4625  Failed Logon
-    4648  Logon with Explicit Credentials
-    4672  Privileged Logon
-    4720  User Account Created
-    4726  User Account Deleted
-    4732  User Added to Privileged Group
-    4733  User Removed from Privileged Group
-    4740  Account Locked Out
-    4768  Kerberos TGT Request
-    4769  Kerberos Service Ticket Request
-    4776  NTLM Authentication
-    7045  Service Installed
-    4688  Process Creation
+    - 4624  Successful Logon
+    - 4625  Failed Logon
+    - 4648  Logon with Explicit Credentials
+    - 4672  Privileged Logon
+    - 4720  User Account Created
+    - 4726  User Account Deleted
+    - 4732  User Added to Privileged Group
+    - 4733  User Removed from Privileged Group
+    - 4740  Account Locked Out
+    - 4768  Kerberos TGT Request
+    - 4769  Kerberos Service Ticket Request
+    - 4776  NTLM Authentication
+    - 7045  Service Installed
+    - 4688  Process Creation
 
 ??? note "General Servers"
 
@@ -163,19 +163,19 @@ Workstations:
 
     Key Event IDs
 
-    4624  Successful Logon
-    4625  Failed Logon
-    4648  Logon with Explicit Credentials
-    4672  Privileged Logon
-    4720  User Account Created
-    4726  User Account Deleted
-    4732  User Added to Privileged Group
-    4733  User Removed from Privileged Group
-    4740  Account Locked Out
-    4768  Kerberos TGT Request
-    4769  Kerberos Service Ticket Request
-    4776  NTLM Authentication
-    7045  Service Installed
+    - 4624  Successful Logon
+    - 4625  Failed Logon
+    - 4648  Logon with Explicit Credentials
+    - 4672  Privileged Logon
+    - 4720  User Account Created
+    - 4726  User Account Deleted
+    - 4732  User Added to Privileged Group
+    - 4733  User Removed from Privileged Group
+    - 4740  Account Locked Out
+    - 4768  Kerberos TGT Request
+    - 4769  Kerberos Service Ticket Request
+    - 4776  NTLM Authentication
+    - 7045  Service Installed
 
 ??? note "Workstations and End User Devices"
 
@@ -204,16 +204,16 @@ Workstations:
 
     Key Event IDs
 
-    4624  Successful Logon
-    4625  Failed Logon
-    4648  Logon with Explicit Credentials
-    4740  Account Locked Out
+    - 4624  Successful Logon
+    - 4625  Failed Logon
+    - 4648  Logon with Explicit Credentials
+    - 4740  Account Locked Out
 
     Enhanced Monitoring Option - For higher-risk environments or where additional logging capacity is available, consider collecting:
 
-    4672  Privileged Logon
-    4688  Process Creation
-    7045  Service Installed
+    - 4672  Privileged Logon
+    - 4688  Process Creation
+    - 7045  Service Installed
 
 
 # Appendix A – Microsoft Sentinel Implementation
@@ -249,19 +249,19 @@ Microsoft provides onboarding guidance in the [Azure Arc-enabled Servers documen
 ## Data Flow
 
 ```text
-Windows Server
-      |
-      v
-Azure Monitor Agent (AMA)
-      |
-      v
-Data Collection Rule (DCR)
-      |
-      v
-Log Analytics Workspace
-      |
-      v
-Microsoft Sentinel
+🖥️ Windows Server
+          │
+          ▼
+📡 Azure Monitor Agent (AMA)
+          │
+          ▼
+📋 Data Collection Rule (DCR)
+          │
+          ▼
+📊 Log Analytics Workspace
+          │
+          ▼
+🛡️ Microsoft Sentinel
 ```
 
 Additional information on DCRs is available in the [Data Collection Rules Overview](https://learn.microsoft.com/azure/azure-monitor/data-collection/data-collection-rule-overview), while guidance on collecting Windows Event Logs is available in the [Collect Windows Events with AMA](https://learn.microsoft.com/azure/azure-monitor/vm/data-collection-windows-events).
