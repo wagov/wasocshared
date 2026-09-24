@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WASOC has been made aware of an exposed Google Cloud service-account private key in the Applications Manager installer and a remote code execution vulnerability in the GINA client as well as the OpManager Notification Profile module.
+The WASOC has observed updates from Zohocorp relating to multiple critical vulnerabilities affecting their ManageEngine products. In some products, successful exploitation could allow an unauthenticated attacker to impersonate the service account and access or modify associated cloud resources.
 
 ## What is vulnerable?
 
