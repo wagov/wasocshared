@@ -1,4 +1,4 @@
-# ManageEngine Critical Vunerabilities - 20260924001
+# ManageEngine Critical Vulnerabilities - 20260924001
 
 ## Overview
 
