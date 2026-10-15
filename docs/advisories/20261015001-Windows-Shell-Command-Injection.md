@@ -1,4 +1,4 @@
-# Microsoft Windows Shell Command Injection - 20261015001
+# Actively Exploited Windows Command Injection Vulnerability - 20261015001
 
 ## Overview
 
