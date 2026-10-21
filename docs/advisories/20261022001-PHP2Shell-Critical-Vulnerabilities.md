@@ -19,6 +19,7 @@ The WA SOC has not received any reports of exploitation of this vulnerability on
 
 The WASOC recommends administrators apply the solutions as per vendor instructions to all affected devices within expected timeframes (refer [Patch Management](../guidelines/patch-management.md)):
 
+- PHP Article: <https://www.php.net/index.php>
 - PHP Github article: <https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w>
 
 ### Additional Resources
