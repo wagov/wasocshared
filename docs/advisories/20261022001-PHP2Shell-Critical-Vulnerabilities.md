@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WASOC has observed new updates published by PHP addressing critical vulnerabilities affecting the core PHP language runtime, collectively known as "PHP2Shell". Successful exploitation can expose applications to unauthenticated remote code execution and memory disclosure.
+The WASOC has observed new updates published by PHP Foundation addressing critical vulnerabilities affecting the core PHP language runtime, collectively known as "PHP2Shell". Successful exploitation can expose applications to unauthenticated remote code execution and memory disclosure.
 
 ## What is vulnerable?
 
@@ -12,7 +12,8 @@ The WASOC has observed new updates published by PHP addressing critical vulnerab
 
 ## What has been observed?
 
-PHP is aware of active exploitation in the wild for one or more of the mentioned items.
+PHP Foundation is aware of active exploitation in the wild for one or more of the mentioned items.
+ASD's ACSC has issues public guidance concerning one or more of the mentioned items.
 The WA SOC has not received any reports of exploitation of this vulnerability on Western Australian Government networks at the time of writing.
 
 ## Recommendation
@@ -24,4 +25,5 @@ The WASOC recommends administrators apply the solutions as per vendor instructio
 
 ### Additional Resources
 
+- ACSC Public Guidance: <https://www.cyber.gov.au/alert/critical-vulnerabilities-in-php>
 - Wiz article: <https://www.wiz.io/blog/php2shell-php-rce>
