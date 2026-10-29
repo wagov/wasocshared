@@ -2,7 +2,7 @@
 
 ## Overview
 
-Oracle has released updates that patches products which are impacted by the security vulnerabilities.
+This Security update addresses CVE-2026-91403 by providing Java updates which distrusts the set of impacted intermediate CA certificates related to eMudhra. 
 
 
 ## What is vulnerable?
