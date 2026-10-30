@@ -27,9 +27,13 @@ Below is a rapid approach to get Microsoft workloads covered rapidly using Senti
 
 Steps 1-3 should be straightforward to complete under E5/A5 licencing. Once telemetry is being collected, the [Maturity Model For Event Log Management](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/MaturityModelForEventLogManagementM2131#onboarding-prerequisites) solution adds the capability to detect changes in telemetry quality over time (which supports [Secure Configuration Assessment](../guidelines/secure-configuration.md) of the SIEM environment itself).
 
-### 2.1. SIEM Retention for threat hunting and investigations
+### 2.1. Security Event Logging Guidance
 
-[Configuring retention for 12 months](https://learn.microsoft.com/en-us/azure/sentinel/configure-data-retention) is recommended to ensure logs are available for investigations and threat hunting. For high volume telemetry sources, [streaming events to object storage](https://learn.microsoft.com/en-us/defender-xdr/streaming-api-storage) and using [lifecycle management to retain for 365 days](https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-configure?tabs=azure-portal#create-or-manage-a-policy) is a validated alternative that can be queried in place with tools like [DuckDB to Azure Blob storage](https://duckdb.org/docs/extensions/azure.html) (also supports [Amazon Security Lake](https://docs.aws.amazon.com/security-lake/latest/userguide/what-is-security-lake.html) via [S3 API](https://duckdb.org/docs/extensions/httpfs/s3api)), [Azure Data Explorer](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/schema-entities/external-tables) and [Amazon Athena](https://docs.aws.amazon.com/athena/latest/ug/getting-started.html).
+This [guidance](../guidelines/event-log-guidance.md) provides a risk-based approach to security event collection, recommending a tiered logging model that aligns event collection requirements with the criticality of systems to maximise security visibility while managing log volume. It is vendor-agnostic and can be implemented using any security monitoring platform, with supplementary guidance provided for organisations using Microsoft Sentinel and Azure Monitor Agent (AMA).
+
+### 2.2. SIEM Retention for threat hunting and investigations
+
+[Configuring retention for 12 months](https://learn.microsoft.com/en-us/azure/sentinel/configure-data-retention) is recommended to ensure logs are available for investigations and threat hunting. For high volume telemetry sources, [streaming events to object storage](https://learn.microsoft.com/en-us/defender-xdr/streaming-api-storage) and using [lifecycle management to retain for 365 days](https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-configure?tabs=azure-portal#create-or-manage-a-policy) is a validated alternative that can be queried in place with tools like [Azure Data Explorer](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/schema-entities/external-tables) and [Amazon Athena](https://docs.aws.amazon.com/athena/latest/ug/getting-started.html).
 
 !!! note "Simplify telemetry collection"
 
