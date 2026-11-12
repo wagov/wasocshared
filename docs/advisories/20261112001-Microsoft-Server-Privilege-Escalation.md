@@ -1,6 +1,6 @@
 # Microsoft Server Privilege Escalation CertiGhost - 20261112001
 
-## Summary
+## Overview
 
 The WASOC has observed newly published updates from Microsoft addressing one or more critical vulnerabilities affecting their products. Successful exploitation could allow an authorized attacker to elevate privileges over a network.
 
