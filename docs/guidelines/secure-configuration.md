@@ -37,10 +37,10 @@ Small entities should also review the [ACSCs Essential Eight](https://www.cyber.
 
 ### Application Control
 
-[ASD Blueprint](https://blueprint.asd.gov.au/security-and-governance/essential-eight/application-control/), [ACSC Technical Example](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-application-control)
+[ACSC - Implementing Application Control](https://www.cyber.gov.au/publication/implementing-application-control), [ASD Blueprint - Application Control](https://blueprint.asd.gov.au/security-and-governance/essential-eight/application-control/)
 
-- Start with [Essential Eight application control using AppLocker for ML1](https://learn.microsoft.com/en-us/compliance/essential-eight/e8-app-control#essential-eight-application-control-using-applocker-for-ml1) (simple 3 path block rule)
-- For modern approaches to [WDAC for ML2](https://learn.microsoft.com/en-us/compliance/essential-eight/e8-app-control#essential-eight-application-control-using-wdac-for-ml2) see [Intune ACSC Windows Hardening Guidelines](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines)
+- For Microsoft Windows environments targeting ML1, refer to [Microsoft - Essential Eight Application Control](https://learn.microsoft.com/en-us/compliance/anz/e8-app-control) for implementation using AppLocker. 
+- Refer to [Microsoft – Essential Eight Application Control](https://learn.microsoft.com/en-us/compliance/anz/e8-app-control) and [ASD Blueprint – Windows Defender Application Control](https://blueprint.asd.gov.au/design/endpoints/windows/security/windows-defender-application-control/) for design and implementation guidance.
 - If above is still high complexity due to number of legacy or packaged applications review a third party tool like [AirLock Digital](https://www.airlockdigital.com)
 - Other effective tools: [Ivanti Application Control](https://www.ivanti.com/en-au/products/application-control), [Trend Vision One Application Control](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-application-control_001), [VMWare Carbon Black App Control](https://www.vmware.com/products/app-control.html)
 
